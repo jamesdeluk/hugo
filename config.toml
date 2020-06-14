@@ -1,4 +1,4 @@
-baseURL = "jamesdeluk.github.io/hugo/"
+baseURL = "https://jamesdeluk.github.io/hugo/"
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
@@ -7,10 +7,9 @@ publishDir = "docs"
 [params]
   Name = "James"
   HeaderUsername = "user"
-  HeaderHostname = "jamesgibbins.com"
+  HeaderHostname = "jamesgibbins"
   About = "Welcome ^_^"
   ProfilePicture = "https://i.stack.imgur.com/oI2SB.jpg"
-
 
   # BitbucketID = "your_bitbucket_id"
   CodepenID = "your_codepen"
