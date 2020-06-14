@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5x5 Log on </title>
+    <link>jamesdeluk.github.io/hugo/health/5x5/</link>
+    <description>Recent content in 5x5 Log on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="jamesdeluk.github.io/hugo/health/5x5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5x5 log: 2020-06-15 (Monday)</title>
+      <link>jamesdeluk.github.io/hugo/health/5x5/20200615mo/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>jamesdeluk.github.io/hugo/health/5x5/20200615mo/</guid>
+      <description>Squats 5x5
+Bench press 5x5
+Barbell row 5x5</description>
+    </item>
+    
+  </channel>
+</rss>
