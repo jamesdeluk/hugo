@@ -11,7 +11,7 @@
 			<div class="container wrapper">
 				<div class="row">
 					<div class="col-xs-12 text-center">
-						<h1 id=>{{ .Title }}</h1>
+						<h1 id=>{{ lower .Title }}</h1>
 					</div>
 					{{ partial "breadcrumbs.html" . }}
 					{{ if .Content }}

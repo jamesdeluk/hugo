@@ -11,7 +11,7 @@
     {{ if eq .id .currentPage.UniqueID }}
       {{ .currentPage.Title }}
     {{ else }}
-      <a href="{{ .currentPage.URL }}">{{ .currentPage.Title }}</a>
+      <a href="{{ .currentPage.URL }}">{{ lower .currentPage.Title }}</a>
     {{ end }}
   </li>
 {{ end }}

@@ -1,4 +1,4 @@
-baseURL = "https://jamesdeluk.github.io/hugo/" # for github
+baseURL = "https://jamesdeluk.github.io/hugo/" # for github, also headers.html
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false

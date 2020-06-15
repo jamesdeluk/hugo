@@ -85,7 +85,7 @@ index=_audit action="login attempt" info=failed user=admin #module 13
 
 ### size
 
-```bash
+```
 # per host:
 
 index="_internal" source="*metrics.log" group="per_host_thruput" | chart sum(kb) by series | sort - sum(kb)
@@ -103,6 +103,6 @@ index="_internal" source="*metrics.log" group="per_sourcetype_thruput" | chart s
 
 ```bash
 splunk stop
-splunk clean eventdata -index yourindex
+splunk clean eventdata -index <index>
 splunk start
 ```

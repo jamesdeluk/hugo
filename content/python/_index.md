@@ -32,9 +32,9 @@ most in-demand skills
 
 ## aus postcode checker
 
-[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/)
+[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/) built with flask
 
-[replit on this website](aswpc)
+[replit on this website](aswpc) embedded iframe
 
 ---
 
