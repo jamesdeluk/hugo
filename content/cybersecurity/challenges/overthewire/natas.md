@@ -1,5 +1,5 @@
 ---
-title: Natas
+title: natas
 ---
 
 - [natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi](#natas2zluruathqk7q2mqmdetiuij2zvwy2mbi)
@@ -18,7 +18,7 @@ title: Natas
 - [natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J](#natas15awwj0w5cvxrziongz9j5stnvkmxdk39j)
 
 
-/etc/natas_webpass/natas#
+Passwords location: /etc/natas_webpass/natas#
 
 ### natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
 

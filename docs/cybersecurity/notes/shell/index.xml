@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on james</title>
+    <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/</link>
+    <description>Recent content in shell on james</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="jamesdeluk.github.io/hugo/cybersecurity/notes/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>commands</title>
+      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/commands/</guid>
+      <description>Bash, Terminal, Cmd, PowerShell
+ title: commands networking  whois local IP my ip dns info - nslookup, host, dig, dsenum, fierce all MACs/ips on network - arp netstat - ports, routing table scp sftp scp openvpn   other  tasks and pids loop wget change prompt path deleting text-related video-related angle brackets grep copy to clipboard manuals etc standard directories cron monit shell movement tar script    Table of contents generated with markdown-tocnetworking whois whois &amp;lt;url&amp;gt; local IP ifconfig # ipconfig on windows ipconfig /all ip addr show my ip dig +short myip.</description>
+    </item>
+    
+    <item>
+      <title>scripting</title>
+      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/scripting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/scripting/</guid>
+      <description>#variables variable_name=&amp;#39;value&amp;#39; # no spaces! echo &amp;#34;string string $variable_namestring string&amp;#34; echo &amp;#34;string string ${variable_name}string string&amp;#34; # same echo &amp;#34;string string `&amp;lt;command&amp;gt;` string string&amp;#34; result=`&amp;lt;command&amp;gt;` echo &amp;#34;string string $resultstring string&amp;#34; read &amp;lt;variable_name&amp;gt; # user input # arguments $n # nth argument # if if [[ &amp;lt;a = b&amp;gt; ]]; then # [] is more reliable, but [[]] is better &amp;lt;action&amp;gt; elif [[ &amp;lt;&amp;gt; ]]; then &amp;lt;&amp;gt; else &amp;lt;&amp;gt; fi -gt -lt -ge -le # greater less than equal # loops and arguments for arg in &amp;#34;$@&amp;#34;; do # all arguments echo &amp;#34;@arg&amp;#34; done # functions function_name() { } function function_name() { } function_name &amp;lt;args&amp;gt; # call with args # running .</description>
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/tmux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/tmux/</guid>
+      <description>tmuxtmux ls # view sessionstmux attach -t 0 # attach to session 0tmux rename-session -t 0 &amp;lt;name&amp;gt; # rename sessiontmux new -s &amp;lt;name&amp;gt; # new session with nametmux kill-session -t 0 # kill session 0ctrl-b = command key% # new pane to right&amp;quot; # new pane to bottomarrows # swap panesc # new window0 # window 0, # rename windowd # detach# in shellexit # close pane</description>
+    </item>
+    
+  </channel>
+</rss>

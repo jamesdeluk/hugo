@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
-    <link>https://jamesdeluk.github.io/hugo/posts/</link>
-    <description>Recent content in Posts on </description>
+    <title>Posts on james</title>
+    <link>jamesdeluk.github.io/hugo/posts/</link>
+    <description>Recent content in Posts on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 14 Jun 2020 18:41:46 +1000</lastBuildDate>
     
-	<atom:link href="https://jamesdeluk.github.io/hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="jamesdeluk.github.io/hugo/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello</title>
-      <link>https://jamesdeluk.github.io/hugo/posts/hello/</link>
-      <pubDate>Sun, 14 Jun 2020 18:41:46 +1000</pubDate>
+      <title>hello</title>
+      <link>jamesdeluk.github.io/hugo/posts/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesdeluk.github.io/hugo/posts/hello/</guid>
-      <description>Here is a title  Bullet 1 Bullet 2  Sub  one two  </description>
+      <guid>jamesdeluk.github.io/hugo/posts/hello/</guid>
+      <description>hello to my little site. built with hugo. helped by notion.</description>
     </item>
     
   </channel>

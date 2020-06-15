@@ -1,38 +1,40 @@
-baseURL = "https://jamesdeluk.github.io/hugo/"
+baseURL = "jamesdeluk.github.io/hugo"
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
+title = "james"
 publishDir = "docs"
 
 [params]
   Name = "James"
   HeaderUsername = "user"
-  HeaderHostname = "jamesgibbins"
-  About = "Welcome ^_^"
-  ProfilePicture = "https://i.stack.imgur.com/oI2SB.jpg"
+  HeaderHostname = "james"
+  About = ""
+  ProfilePicture = "/img/hshysrot.gif"
+  Favicon = "/favicon.ico"
 
   # BitbucketID = "your_bitbucket_id"
-  CodepenID = "your_codepen"
+  # CodepenID = "your_codepen"
   # CvURL = "your_cv_url"
-  Email = "your_email"
-  FacebookID = "your_facebook"
-  GithubID = "your_github"
+  Email = 'jgibbins92@gmail.com'
+  # FacebookID = "your_facebook"
+  GithubID = 'jamesdeluk'
   # GitlabId = "your_gitlab"
-  GnuPGFingerprint = "your_gpg_fingerprint"
+  # GnuPGFingerprint = "your_gpg_fingerprint"
   # GoogleAnalytics = "your_google_analytics_id"
   # GoogleplusID = "your_googleplus"
   # InstagramID = "your_instagram"
-  LinkedInID = "your_linkedin"
+  LinkedInID = 'jamgib'
   # MastodonURL = "your_mastodon_profile"
   # Mobile = "+1-201-555-0123"
-  PayPalMeID = "https://www.paypal.me/..."
-  Phone = "+1-201-555-0123"
-  RedditID = "your_reddit"
+  # PayPalMeID = "https://www.paypal.me/..."
+  # Phone = "+1-201-555-0123"
+  RedditID = 'jamesdeluk'
   # SlackURL = "https://join.slack.com/..."
-  StackExchangeID = "your_stackexchange_id"
-  StackOverflowID = "your_stackoverflow_id"
-  TelegramID = "your_telegram"
-  TwitterID = "your_twitter"
+  # StackExchangeID = "your_stackexchange_id"
+  StackOverflowID = '8680753/jamesdeluk'
+  # TelegramID = "your_telegram"
+  TwitterID = 'jamesdeluk'
   # XingURL = "https://www.xing.com/profile/..."
 
 [menu]

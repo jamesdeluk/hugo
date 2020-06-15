@@ -1,34 +1,45 @@
 ---
-title: "Python"
-date: 2020-06-14T18:41:46+10:00
+title: "python"
 ---
 
-<!-- - [Reddit & Twitter scraper](##reddit---twitter-scraper)
-- [GOodresd](##goodresd)
-- [Job scraper](##job-scraper)
-- [Weather](##weather)
-- [Aus postcode checker](##aus-postcode-checker) -->
+---
 
-## Reddit & Twitter scraper
+## reddit & twitter scraper
 
 check every 1 hour, email top 5
 
-## Goodreads
+---
+
+## goodreads
 
 recommend similar books
 
 [github](https://github.com/jamesdeluk/Python-Gread)
 
-## Job scraper
+---
+
+## job scraper
 
 most in-demand skills
 
-## Weather
+---
+
+## weather
 
 [go to weather app](weather)
 
-## Aus postcode checker
+---
+
+## aus postcode checker
 
 [view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/)
 
-[replit here](aswpc)
+[replit on this website](aswpc)
+
+---
+
+## get the gist
+
+{{< gist jamesdeluk b4b0f4a47faa04299a6840dac8fe1d57 >}}
+
+---
