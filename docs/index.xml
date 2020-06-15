@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>james</title>
-    <link>jamesdeluk.github.io/hugo/</link>
+    <link>https://jamesdeluk.github.io/hugo/</link>
     <description>Recent content on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="jamesdeluk.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesdeluk.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5x5 log: 2020-06-15</title>
-      <link>jamesdeluk.github.io/hugo/health/5x5/20200615mo/</link>
+      <link>https://jamesdeluk.github.io/hugo/health/5x5/20200615mo/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/health/5x5/20200615mo/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/health/5x5/20200615mo/</guid>
       <description>Monday Squats 30kg, 5x5
 Bench press 30kg, 5x5
 Barbell row 30kg, 5x5</description>
@@ -24,39 +24,39 @@ Barbell row 30kg, 5x5</description>
     
     <item>
       <title>June update</title>
-      <link>jamesdeluk.github.io/hugo/health/eyes/june-update/</link>
+      <link>https://jamesdeluk.github.io/hugo/health/eyes/june-update/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/health/eyes/june-update/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/health/eyes/june-update/</guid>
       <description>Not going perfectly Eyes are slightly adapting to weakened prescription but constant blur means I stretch towards computer and am getting a sore neck. Very sore.
 Ordered -2.50 and -4.00 from Zenni (-0.25 stronger in each). Hopefully they arrive soon.</description>
     </item>
     
     <item>
       <title>commands</title>
-      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/commands/</link>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/shell/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/commands/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/shell/commands/</guid>
       <description>Bash, Terminal, Cmd, PowerShell
  title: commands networking  whois local IP my ip dns info - nslookup, host, dig, dsenum, fierce all MACs/ips on network - arp netstat - ports, routing table scp sftp scp openvpn   other  tasks and pids loop wget change prompt path deleting text-related video-related angle brackets grep copy to clipboard manuals etc standard directories cron monit shell movement tar script    Table of contents generated with markdown-tocnetworking whois whois &amp;lt;url&amp;gt; local IP ifconfig # ipconfig on windows ipconfig /all ip addr show my ip dig +short myip.</description>
     </item>
     
     <item>
       <title>hello</title>
-      <link>jamesdeluk.github.io/hugo/posts/hello/</link>
+      <link>https://jamesdeluk.github.io/hugo/posts/hello/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/posts/hello/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/posts/hello/</guid>
       <description>hello to my little site. built with hugo. helped by notion.</description>
     </item>
     
     <item>
       <title>natas</title>
-      <link>jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/natas/</link>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/natas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/natas/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/natas/</guid>
       <description>natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14 natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ natas5:iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq natas6:aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1 natas7:7z3hEENjQtflzgnT29q7wAvMNfZdh0i9 natas8:DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe natas9:W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl natas10:nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK natas12:EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3 natas13:jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY natas14:Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1 natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J  Passwords location: /etc/natas_webpass/natas#
 natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi Saw image at /files/, go to to /files, found users.txt
 natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14 Source says &amp;ldquo;not Google&amp;rdquo; → robots.txt
@@ -70,10 +70,10 @@ natas6:aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1 source code mentions includes/secret.inc
     
     <item>
       <title>nmap</title>
-      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/nmap/</link>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/nmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/nmap/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/nmap/</guid>
       <description>general filtered = unsure if open or closed
 up arrow to check status if in progress
 nmap &amp;lt;args&amp;gt; &amp;lt;ip_address&amp;gt; # default: top 1000 ports -F # fast (100 ports) -p # ports -p- # all ports --top-ports X # X top ports --open # only open -s&amp;lt;&amp;gt; # scan type -sS # stealth -sX # XMAS - rst if closed, nothing if open -sF # FIN - rst if closed, nothing if open -sN # NULL - rst if closed, nothing if open -sA # ACK - test if there is firewall (no firewall = rst, firewall = no response) -sU # UDP --script ipidseq &amp;lt;ip/24&amp;gt; # to find zombie - Incremental -sI &amp;lt;zombie_id&amp;gt; &amp;lt;target_id&amp;gt; # idle scan -Pn # open ports only -A # aggressive; lots of stuff inc OS; very noisy -sV # software/service version -O # operating system -vvv # (very) (very) verbose -n # only ips not names --reason # why nmap says something -L iplist.</description>
@@ -81,28 +81,28 @@ nmap &amp;lt;args&amp;gt; &amp;lt;ip_address&amp;gt; # default: top 1000 ports -
     
     <item>
       <title>scripting</title>
-      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/scripting/</link>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/shell/scripting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/scripting/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/shell/scripting/</guid>
       <description>#variables variable_name=&amp;#39;value&amp;#39; # no spaces! echo &amp;#34;string string $variable_namestring string&amp;#34; echo &amp;#34;string string ${variable_name}string string&amp;#34; # same echo &amp;#34;string string `&amp;lt;command&amp;gt;` string string&amp;#34; result=`&amp;lt;command&amp;gt;` echo &amp;#34;string string $resultstring string&amp;#34; read &amp;lt;variable_name&amp;gt; # user input # arguments $n # nth argument # if if [[ &amp;lt;a = b&amp;gt; ]]; then # [] is more reliable, but [[]] is better &amp;lt;action&amp;gt; elif [[ &amp;lt;&amp;gt; ]]; then &amp;lt;&amp;gt; else &amp;lt;&amp;gt; fi -gt -lt -ge -le # greater less than equal # loops and arguments for arg in &amp;#34;$@&amp;#34;; do # all arguments echo &amp;#34;@arg&amp;#34; done # functions function_name() { } function function_name() { } function_name &amp;lt;args&amp;gt; # call with args # running .</description>
     </item>
     
     <item>
       <title>tmux</title>
-      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/tmux/</link>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/shell/tmux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/shell/tmux/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/shell/tmux/</guid>
       <description>tmuxtmux ls # view sessionstmux attach -t 0 # attach to session 0tmux rename-session -t 0 &amp;lt;name&amp;gt; # rename sessiontmux new -s &amp;lt;name&amp;gt; # new session with nametmux kill-session -t 0 # kill session 0ctrl-b = command key% # new pane to right&amp;quot; # new pane to bottomarrows # swap panesc # new window0 # window 0, # rename windowd # detach# in shellexit # close pane</description>
     </item>
     
     <item>
       <title>wireshark</title>
-      <link>jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/wireshark/</link>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/wireshark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/wireshark/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/wireshark/</guid>
       <description>capture filter dst 192.168.1.8 and port 443src 192.168.1.1 and not port 80host wireshark.orgfilter # ipsip.addr == 192.168.1.1ip.src == 192.168.1.1 and ip.dst == 192.168.1.8# portstcp.port == 443tcp.srcport == 443# protocolshttphttp.requests.get == &#39;post&#39;tcptcp.flags.syn==1 # handshakesarpdnsssh# not, these are different!ip.addr == 192.168.1.1ip.addr != 192.168.1.1# frameframe contains “(attachment|tar|exe|zip|pdf)”# keywordstcp contains facebookframe contains facebook# syn floodstcp.</description>
     </item>
     

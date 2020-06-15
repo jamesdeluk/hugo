@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5x5 Log on james</title>
-    <link>jamesdeluk.github.io/hugo/health/5x5/</link>
+    <link>https://jamesdeluk.github.io/hugo/health/5x5/</link>
     <description>Recent content in 5x5 Log on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="jamesdeluk.github.io/hugo/health/5x5/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamesdeluk.github.io/hugo/health/5x5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5x5 log: 2020-06-15</title>
-      <link>jamesdeluk.github.io/hugo/health/5x5/20200615mo/</link>
+      <link>https://jamesdeluk.github.io/hugo/health/5x5/20200615mo/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>jamesdeluk.github.io/hugo/health/5x5/20200615mo/</guid>
+      <guid>https://jamesdeluk.github.io/hugo/health/5x5/20200615mo/</guid>
       <description>Monday Squats 30kg, 5x5
 Bench press 30kg, 5x5
 Barbell row 30kg, 5x5</description>
