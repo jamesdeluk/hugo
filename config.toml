@@ -1,4 +1,4 @@
-baseURL = "https://jamesdeluk.github.io/hugo"
+baseURL = "https://jamesdeluk.github.io/hugo/"
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
