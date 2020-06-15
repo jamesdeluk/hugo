@@ -1,17 +1,17 @@
-baseURL = "https://jamesdeluk.github.io/hugo/"
+baseURL = "https://jamesdeluk.github.io/hugo/" # for github
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
 title = "james"
-publishDir = "docs"
+publishDir = "docs" # for github
 
 [params]
   Name = "James"
   HeaderUsername = "user"
   HeaderHostname = "james"
   About = ""
-  ProfilePicture = "/img/hshysrot.gif"
-  Favicon = "/favicon.ico"
+  ProfilePicture = "/hugo/img/hshysrot.gif" # /hugo for github
+  Favicon = "/hugo/favicon.ico" # /hugo for github
 
   Email = 'jgibbins92@gmail.com'
   GithubID = 'jamesdeluk'
