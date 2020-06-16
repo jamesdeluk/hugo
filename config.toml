@@ -1,4 +1,5 @@
-baseURL = "https://jamesdeluk.github.io/hugo/" # for github, also headers.html
+# baseURL = "https://jamesdeluk.github.io/hugo/" # for github, also headers.html
+baseURL = "https://quizzical-volhard-5f6fd8.netlify.app/" # for netlify
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
@@ -10,8 +11,10 @@ title = "james"
   HeaderUsername = "user"
   HeaderHostname = "james"
   About = ""
-  ProfilePicture = "/hugo/img/hshysrot.gif" # /hugo for github
-  Favicon = "/hugo/favicon.ico" # /hugo for github
+  ProfilePicture = "/img/hshysrot.gif"
+  # ProfilePicture = "/hugo/img/hshysrot.gif" # /hugo for github
+  Favicon = "favicon.ico"
+  # Favicon = "/hugo/favicon.ico" # /hugo for github
 
   Email = 'jgibbins92@gmail.com'
   GithubID = 'jamesdeluk'
