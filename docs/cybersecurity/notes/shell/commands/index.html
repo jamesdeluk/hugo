@@ -50,7 +50,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-      <a class="navbar-brand" id="green-terminal" href='https://jamesdeluk.github.io/'>
+      <a class="navbar-brand" id="green-terminal" href='https://jamesdeluk.github.io/hugo'>
         user@james ~ $
       </a>
 		</div>
@@ -59,7 +59,7 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href='https://jamesdeluk.github.io/'>/home/user</a>
+					<a href='https://jamesdeluk.github.io/hugo'>/home/user</a>
         </li>
         
 				
@@ -161,65 +161,229 @@
                 <span class="post-date">0001-01-01 </span>
                 <div class="post-content">
                     <p>Bash, Terminal, Cmd, PowerShell</p>
-<ul>
-<li><a href="#title--commands">title: commands</a></li>
-<li><a href="#networking">networking</a>
-<ul>
-<li><a href="#whois">whois</a></li>
-<li><a href="#local-ip">local IP</a></li>
-<li><a href="#my-ip">my ip</a></li>
-<li><a href="#dns-info---nslookup--host--dig--dsenum--fierce">dns info - nslookup, host, dig, dsenum, fierce</a></li>
-<li><a href="#all-macs-ips-on-network---arp">all MACs/ips on network - arp</a></li>
-<li><a href="#netstat---ports--routing-table">netstat - ports, routing table</a></li>
-<li><a href="#scp">scp</a></li>
-<li><a href="#sftp">sftp</a></li>
-<li><a href="#scp-1">scp</a></li>
-<li><a href="#openvpn">openvpn</a></li>
-</ul>
-</li>
-<li><a href="#other">other</a>
-<ul>
-<li><a href="#tasks-and-pids">tasks and pids</a></li>
-<li><a href="#loop">loop</a></li>
-<li><a href="#wget">wget</a></li>
-<li><a href="#change-prompt">change prompt</a></li>
-<li><a href="#path">path</a></li>
-<li><a href="#deleting">deleting</a></li>
-<li><a href="#text-related">text-related</a></li>
-<li><a href="#video-related">video-related</a></li>
-<li><a href="#angle-brackets">angle brackets</a></li>
-<li><a href="#grep">grep</a></li>
-<li><a href="#copy-to-clipboard">copy to clipboard</a></li>
-<li><a href="#manuals-etc">manuals etc</a></li>
-<li><a href="#standard">standard</a></li>
-<li><a href="#directories">directories</a></li>
-<li><a href="#cron">cron</a></li>
-<li><a href="#monit">monit</a></li>
-<li><a href="#shell-movement">shell movement</a></li>
-<li><a href="#tar">tar</a></li>
-<li><a href="#script">script</a></li>
-</ul>
-</li>
-</ul>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Table of contents generated with markdown-toc<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h2 id="networking">networking</h2>
-<h3 id="whois">whois</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whois &lt;url&gt;
-</code></pre></div><h3 id="local-ip">local IP</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ifconfig <span style="color:#75715e"># ipconfig on windows</span>
+<h2 id="standard">standard</h2>
+<h3 id="basic-operations">basic operations</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo rm -frv ~/.Trash
 
+cd <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>dir /a /r .DS_STORE
+del /s /q /f /a .DS_STORE
+del /s /q /f /a ._.*
+
+touch
+mkdir
+mv <span style="color:#75715e"># can rename</span>
+rm <span style="color:#f92672">(</span>-r<span style="color:#f92672">)</span>
+cp
+
+echo
+cat
+less
+tail
+head
+
+&lt;command&gt; | xclip -sel c <span style="color:#75715e"># to clipboard</span>
+</code></pre></div><h3 id="connecting-commands">connecting commands</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;command&gt; &gt; file.txt
+&lt;command&gt; 2&gt; file.txt <span style="color:#75715e"># error code</span>
+&lt;command&gt; &gt;&gt; file.txt <span style="color:#75715e"># append to file</span>
+&lt;command&gt; &lt; file.txt <span style="color:#75715e"># use file as input for command</span>
+file.txt | &lt;command&gt; <span style="color:#75715e"># same as &lt;</span>
+
+&lt;command&gt; | tee <span style="color:#f92672">(</span>-a<span style="color:#f92672">)</span> file.txt <span style="color:#75715e"># show and add (append)</span>
+
+&lt;command1&gt; <span style="color:#f92672">&amp;&amp;</span> &lt;command2&gt; <span style="color:#75715e"># first then if successful second</span>
+&lt;command1&gt; <span style="color:#f92672">||</span> &lt;command2&gt; <span style="color:#75715e"># second if first fails</span>
+
+&lt;command1&gt; | &lt;command2&gt; <span style="color:#75715e"># pass output of first to second</span>
+&lt;command&gt; | cut -d: -f2 <span style="color:#75715e"># take input, cut lines by &#39;:&#39;, take &#39;2&#39;th part</span>
+&lt;command&gt; | sort
+&lt;command&gt; | uniq <span style="color:#75715e"># unique lines</span>
+
+&lt;command&gt; -- &lt;input&gt; <span style="color:#75715e"># -- signifies end of options/parameters</span>
+<span style="color:#75715e"># e.g. rm -f -- -f # force remove a file called -f</span>
+</code></pre></div><h3 id="grep">grep</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">grep ./* <span style="color:#75715e"># search all files in directory</span>
+&lt;command&gt; | grep &lt;search_term&gt;
+grep -- -n <span style="color:#75715e"># search for -n</span>
+-i <span style="color:#75715e"># ignore case</span>
+-w <span style="color:#75715e"># full words</span>
+</code></pre></div><h3 id="tasks-and-open-files">tasks and open files</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tasklist | find <span style="color:#e6db74">&#34;&lt;search_term&gt;&#34;</span>
+
+ps
+ps aux
+top
+ps aux | grep &lt;process_name&gt; <span style="color:#75715e"># find pid</span>
+strace
+sudo renice &lt;niceness&gt; &lt;pid&gt;
+
+kill &lt;num&gt; &lt;pid&gt; <span style="color:#75715e"># num opt, def 15, 9 is extreme kill</span>
+pkill
+xkill <span style="color:#75715e"># click window</span>
+
+lsof <span style="color:#75715e"># list open files</span>
+lsof &lt;path/to/file&gt; <span style="color:#75715e"># processes using file</span>
+lsof -p &lt;pid&gt;
+lsof | grep log
+lsof -i :80 <span style="color:#75715e"># port 80</span>
+lsof -i tcp
+</code></pre></div><h3 id="system-and-filesystem">system and filesystem</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">uname -a
+
+which &lt;binary&gt;
+
+file &lt;file&gt; <span style="color:#75715e"># file type</span>
+
+xdg-open &lt;file&gt; <span style="color:#75715e"># open with default program</span>
+
+mount <span style="color:#75715e"># see mounted</span>
+mount /dev/&lt;addr&gt; /mnt <span style="color:#75715e"># mount &lt;addr&gt; to mnt</span>
+
+df -ah <span style="color:#75715e"># all, human-readable</span>
+du <span style="color:#75715e"># disk usage, -s for whole folder, -h for MB/GB not B</span>
+
+service &lt;name&gt; status/start/stop <span style="color:#75715e"># &#39;old&#39; stype</span>
+systemctl status/start/stop/enable/disable/reload/restart &lt;service&gt; <span style="color:#75715e"># &#39;new&#39; version</span>
+journalctl
+
+man hier
+/etc/passwd <span style="color:#75715e"># users</span>
+/etc/shadow <span style="color:#75715e"># hashes</span>
+</code></pre></div><h3 id="users-and-permissions">users and permissions</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">w
+who
+
+chmod <span style="color:#f92672">(</span>-R<span style="color:#f92672">)</span> &lt;num&gt;&lt;num&gt;&lt;num&gt; <span style="color:#75715e"># read write execute in binary-coded decimal for admin group all</span>
+chmod +x &lt;file&gt;
+
+useradd
+userdel
+passwd &lt;user&gt; &lt;new_password&gt;
+usermod -L/U &lt;user&gt; <span style="color:#75715e"># un/lock</span>
+</code></pre></div><h3 id="cron">cron</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/etc/chron.d/ <span style="color:#75715e"># user</span>
+/etc/crontab <span style="color:#75715e"># global</span>
+
+crontab -e <span style="color:#75715e"># edit, init</span>
+crontab -l <span style="color:#75715e"># list</span>
+
+/etc/cron.allow
+/etc/cron.deny <span style="color:#75715e"># to block</span>
+</code></pre></div><h3 id="manuals-etc">manuals etc</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">man &lt;command&gt;
+whatis &lt;command&gt;
+</code></pre></div><h3 id="change-prompt">change prompt</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cmd</span>
+$ PROMPT $G <span style="color:#75715e"># &gt;</span>
+</code></pre></div><h3 id="path">path</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># show</span>
+echo $PATH
+echo %PATH% <span style="color:#75715e"># or %path%</span>
+set <span style="color:#f92672">(</span>displays path and others<span style="color:#f92672">)</span>
+
+<span style="color:#75715e"># temporary</span>
+PATH<span style="color:#f92672">=</span>$PATH:/newdir
+PATH<span style="color:#f92672">=</span>/newdir:$PATH
+set PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;%PATH%;C:\newdir&#34;</span>
+
+<span style="color:#75715e"># permanent</span>
+.profile
+.bashrc
+export PATH<span style="color:#f92672">=</span>$PATH:/newdir <span style="color:#75715e"># at bottom</span>
+setx PATH <span style="color:#e6db74">&#34;%PATH%;C:\newdir&#34;</span> <span style="color:#f92672">(</span>this user, no space, copies all users to local...<span style="color:#f92672">]</span>
+
+<span style="color:#75715e"># beware of fake sudos etc - so use absolute paths</span>
+</code></pre></div><h3 id="text-related">text-related</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Bulk replace text in .txt/.html</span>
+perl -pi -w -e <span style="color:#e6db74">&#39;s/SEARCH_FOR/REPLACE_WITH/g;&#39;</span> *.txt
+
+<span style="color:#75715e"># Files to text</span>
+ls -lhR &gt; list.txt
+
+wc <span style="color:#f92672">(</span>-l<span style="color:#f92672">)</span> <span style="color:#75715e"># word (line) count</span>
+pdftotext myfile.pdf - | wc -w <span style="color:#75715e"># PDF word count</span>
+</code></pre></div><h3 id="video-related">video-related</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#39;filename&#39;</span><span style="color:#f92672">{</span>01..71<span style="color:#f92672">}</span>.ts | tr <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#e6db74">&#34;\n&#34;</span> &gt; tslist
+<span style="color:#66d9ef">while</span> read line; <span style="color:#66d9ef">do</span> cat $line &gt;&gt; your_new_video.ts; <span style="color:#66d9ef">done</span> &lt; tslist
+</code></pre></div><h3 id="tar">tar</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tar -&lt;&gt; &lt;filename&gt;.tar.gz &lt;directory/&gt;
+-zxf <span style="color:#75715e"># unzip</span>
+-xcf <span style="color:#75715e"># zip</span>
+-v <span style="color:#75715e"># verbose</span>
+</code></pre></div><p><em>avoid tarbombs → best to do from outside directory</em></p>
+<h3 id="script">script</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">script &lt;filename.log&gt; <span style="color:#75715e"># default is &#39;typescript&#39;</span>
+<span style="color:#75715e"># other commands</span>
+exit <span style="color:#75715e"># or ctrl-c</span>
+
+script -c <span style="color:#e6db74">&#39;&lt;command&gt;&#39;</span> &lt;filename.log&gt; <span style="color:#75715e"># output of single command to log</span>
+
+less &lt;filename.log&gt; <span style="color:#75715e"># to view</span>
+scriptreplay -s &lt;filename.log&gt; --timing<span style="color:#f92672">=</span>time.log <span style="color:#75715e"># real time replay</span>
+</code></pre></div><h3 id="loop">loop</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># *nix</span>
+<span style="color:#66d9ef">for</span> i in *.*; <span style="color:#66d9ef">do</span> &lt;&gt;; <span style="color:#66d9ef">done</span>
+
+<span style="color:#75715e"># Windows</span>
+<span style="color:#66d9ef">for</span> /f %a in <span style="color:#f92672">(</span>file.txt<span style="color:#f92672">)</span> <span style="color:#66d9ef">do</span> &lt;&gt;
+<span style="color:#75715e"># (file) can include command e.g. (&#39;dir /B *.txt&#39;)</span>
+<span style="color:#75715e"># also: for /f &#34;tokens=1 delims=.&#34; %a in () do &lt;&gt;</span>
+<span style="color:#66d9ef">for</span> /L %i in <span style="color:#f92672">(</span>1,1,10<span style="color:#f92672">)</span>; <span style="color:#66d9ef">do</span> &lt;%i&gt; <span style="color:#66d9ef">done</span>
+</code></pre></div><h2 id="shell-control">shell control</h2>
+<h3 id="commands">commands</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">history
+
+alias &lt;alias_name&gt;<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;command&gt;&#34;</span>
+<span style="color:#75715e"># add to .bashrc for permanent</span>
+</code></pre></div><h3 id="keyboard-shortcuts">keyboard shortcuts</h3>
+<p>ctrl-c stops</p>
+<p>ctrl-d close shell</p>
+<p>tab autocompletion</p>
+<p>clear or ctrl-l</p>
+<p>ctrl-a or home to start</p>
+<p>ctrl-e or end to end</p>
+<p>alt-f alt-b for forward back by word or ctrl left ctrl right</p>
+<p>ctrl-r to search history by most recent, ctrl-g to go back</p>
+<h3 id="tmux">tmux</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tmux
+tmux ls <span style="color:#75715e"># view sessions</span>
+tmux attach -t <span style="color:#ae81ff">0</span> <span style="color:#75715e"># attach to session 0</span>
+tmux rename-session -t <span style="color:#ae81ff">0</span> &lt;name&gt; <span style="color:#75715e"># rename session</span>
+tmux new -s &lt;name&gt; <span style="color:#75715e"># new session with name</span>
+tmux kill-session -t <span style="color:#ae81ff">0</span> <span style="color:#75715e"># kill session 0</span>
+
+ctrl-b <span style="color:#f92672">=</span> command key
+
+% <span style="color:#75715e"># new pane to right</span>
+<span style="color:#e6db74">&#34; # new pane to bottom
+</span><span style="color:#e6db74">arrows # swap panes
+</span><span style="color:#e6db74">c # new window
+</span><span style="color:#e6db74">0 # window 0
+</span><span style="color:#e6db74">, # rename window
+</span><span style="color:#e6db74">d # detach
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"># in shell
+</span><span style="color:#e6db74">exit # close pane
+</span></code></pre></div><h2 id="networking">networking</h2>
+<h3 id="local-info">local info</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ifconfig <span style="color:#75715e"># ipconfig on windows</span>
 ipconfig /all
 
 ip addr show
-</code></pre></div><h3 id="my-ip">my ip</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dig +short myip.opendns.com @resolver1.opendns.com
+
+<span style="color:#75715e"># my ip</span>
+
+dig +short myip.opendns.com @resolver1.opendns.com
 dig TXT +short o-o.myaddr.l.google.com @ns1.google.com
 
 <span style="color:#75715e"># or</span>
 
 nslookup <span style="color:#f92672">[</span>myip.opendns.com<span style="color:#f92672">](</span>http://myip.opendns.com/<span style="color:#f92672">)</span> <span style="color:#f92672">[</span>resolver1.opendns.com<span style="color:#f92672">](</span>http://resolver1.opendns.com/<span style="color:#f92672">)</span>
-</code></pre></div><h3 id="dns-info---nslookup-host-dig-dsenum-fierce">dns info - nslookup, host, dig, dsenum, fierce</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nslookup &lt;ip/url&gt;
+</code></pre></div><h3 id="whois--dns-info">whois &amp; dns info</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whois &lt;url&gt;
+
+nslookup &lt;ip/url&gt;
 
 host &lt;url&gt; <span style="color:#75715e"># all</span>
 host -t a &lt;url&gt; <span style="color:#75715e"># ip</span>
@@ -233,7 +397,7 @@ dig axfr &lt;url&gt; @&lt;name server&gt; <span style="color:#75715e"># lots inc
 dsenum &lt;url&gt; <span style="color:#75715e"># like dig and host but more</span>
 
 fierce -dns &lt;url&gt; <span style="color:#75715e"># like dig and host</span>
-</code></pre></div><h3 id="all-macsips-on-network---arp">all MACs/ips on network - arp</h3>
+</code></pre></div><h3 id="arp---physical-devices">arp - physical devices</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">arp -a
 
 netdiscover
@@ -260,7 +424,7 @@ netstat -ano <span style="color:#ae81ff">1</span> | find <span style="color:#e6d
 
 </code></pre></div><h3 id="scp">scp</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh remote_user@ip <span style="color:#75715e"># connect to computer with file</span>
-scp &lt;file&gt; target_user@ap <span style="color:#75715e"># local or remote or other</span>
+scp &lt;file&gt; &lt;user&gt;@&lt;ip&gt;:&lt;remote_dir&gt; <span style="color:#75715e"># local or remote or other</span>
 </code></pre></div><h3 id="sftp">sftp</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sftp remote_user@ip
 
@@ -268,22 +432,8 @@ scp &lt;file&gt; target_user@ap <span style="color:#75715e"># local or remote or
 <span style="color:#f92672">(</span>!<span style="color:#f92672">)</span>dir <span style="color:#75715e"># (remote) dir</span>
 <span style="color:#f92672">(</span>l<span style="color:#f92672">)</span>cd <span style="color:#75715e"># (local) cd</span>
 put &lt;file&gt; <span style="color:#75715e"># transfer</span>
-</code></pre></div><h3 id="scp-1">scp</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">scp &lt;file&gt; &lt;user&gt;@&lt;ip&gt;:&lt;remote_dir&gt;
-
-scp file.txt james@192.168.1.1:C:
 </code></pre></div><h3 id="openvpn">openvpn</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo openvpn &lt;file&gt;.ovpn
-</code></pre></div><h2 id="other">other</h2>
-<h3 id="tasks-and-pids">tasks and pids</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tasklist | find <span style="color:#e6db74">&#34;&lt;search_term&gt;&#34;</span>
-</code></pre></div><h3 id="loop">loop</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># *nix</span>
-<span style="color:#66d9ef">for</span> i in *.*; <span style="color:#66d9ef">do</span> &lt;&gt;; <span style="color:#66d9ef">done</span>
-
-<span style="color:#75715e"># Windows</span>
-<span style="color:#66d9ef">for</span> /f <span style="color:#e6db74">&#34;tokens=1 delims=.&#34;</span> %a in <span style="color:#f92672">(</span><span style="color:#e6db74">&#39;dir /B *.avi&#39;</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">do</span> &lt;&gt;
-<span style="color:#66d9ef">for</span> /L %i in <span style="color:#f92672">(</span>1,1,10<span style="color:#f92672">)</span>; <span style="color:#66d9ef">do</span> &lt;%i&gt; <span style="color:#66d9ef">done</span>
 </code></pre></div><h3 id="wget">wget</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget -r -l <span style="color:#ae81ff">1</span> https://www.howtostudykorean.com/other-stuff/lesson-list/ --no-check-certificate -k -p
 -c -nc
@@ -292,178 +442,11 @@ wget --mirror --convert-links <span style="color:#f92672">(</span>-k<span style=
 wget --no-check-certificate -mpEk
 wget http://traffic.libsyn.com/talktomeinkorean/ttmikdi-l<span style="color:#f92672">{</span>3..10<span style="color:#f92672">}</span>l<span style="color:#f92672">{</span>1..30<span style="color:#f92672">}</span>.mp3
 wget -A pdf,jpg -m -p -E -k -K -np -nd http://site/path/
-</code></pre></div><h3 id="change-prompt">change prompt</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ PROMPT $G
-&gt; 
-</code></pre></div><h3 id="path">path</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># show</span>
-echo $PATH
-echo %PATH% <span style="color:#75715e"># or %path%</span>
-set <span style="color:#f92672">(</span>displays path and others<span style="color:#f92672">)</span>
-
-<span style="color:#75715e"># temporary</span>
-PATH<span style="color:#f92672">=</span>$PATH:/newdir
-PATH<span style="color:#f92672">=</span>/newdir:$PATH
-set PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;%PATH%;C:\newdir&#34;</span>
-
-<span style="color:#75715e"># permanent</span>
-.profile
-.bashrc
-export PATH<span style="color:#f92672">=</span>$PATH:/newdir <span style="color:#75715e"># at bottom</span>
-setx PATH <span style="color:#e6db74">&#34;%PATH%;C:\newdir&#34;</span> <span style="color:#f92672">(</span>this user, no space, copies all users to local...<span style="color:#f92672">]</span>
-
-<span style="color:#75715e"># beware of fake sudos etc - so use absolute paths</span>
-</code></pre></div><h3 id="deleting">deleting</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo rm -frv ~/.Trash
-
-cd <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>dir /a /r .DS_STORE
-del /s /q /f /a .DS_STORE
-del /s /q /f /a ._.*
-</code></pre></div><h3 id="text-related">text-related</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Bulk replace text in .txt/.html</span>
-perl -pi -w -e <span style="color:#e6db74">&#39;s/SEARCH_FOR/REPLACE_WITH/g;&#39;</span> *.txt
-
-<span style="color:#75715e"># Files to text</span>
-ls -lhR &gt; list.txt
-
-<span style="color:#75715e"># PDF word count</span>
-pdftotext myfile.pdf - | wc -w
-</code></pre></div><h3 id="video-related">video-related</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#39;filename&#39;</span><span style="color:#f92672">{</span>01..71<span style="color:#f92672">}</span>.ts | tr <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#e6db74">&#34;\n&#34;</span> &gt; tslist
-<span style="color:#66d9ef">while</span> read line; <span style="color:#66d9ef">do</span> cat $line &gt;&gt; your_new_video.ts; <span style="color:#66d9ef">done</span> &lt; tslist
-</code></pre></div><h3 id="angle-brackets">angle brackets</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;command&gt; &gt; file.txt
-&lt;command&gt; 2&gt; file.txt <span style="color:#75715e"># error code</span>
-&lt;command&gt; &gt;&gt; file.txt <span style="color:#75715e"># append to file</span>
-&lt;command&gt; &lt; file.txt <span style="color:#75715e"># use file as input for command</span>
-file.txt | &lt;command&gt; <span style="color:#75715e"># same as &lt;</span>
-
-&lt;command&gt; | tee <span style="color:#f92672">(</span>-a<span style="color:#f92672">)</span> file.txt <span style="color:#75715e"># show and add (append)</span>
-</code></pre></div><h3 id="grep">grep</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">grep ./* <span style="color:#75715e"># search all files in directory</span>
-&lt;command&gt; | grep &lt;search_term&gt;
-grep -- -n <span style="color:#75715e"># search for -n</span>
-</code></pre></div><h3 id="copy-to-clipboard">copy to clipboard</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;command&gt; | xclip -sel c <span style="color:#75715e"># to clipboard</span>
-</code></pre></div><h3 id="manuals-etc">manuals etc</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">man &lt;command&gt;
-whatis &lt;command&gt;
-</code></pre></div><h3 id="standard">standard</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">w
-who
-
-uname -a
-
-which &lt;binary&gt;
-
-echo
-cat
-less
-tail
-head
-
-ps
-ps aux
-top
-ps aux | grep &lt;process_name&gt; <span style="color:#75715e"># find pid</span>
-strace
-sudo renice &lt;niceness&gt; &lt;pid&gt;
-
-df -ah <span style="color:#75715e"># all, human-readable</span>
-du <span style="color:#75715e"># disk usage, -s for whole folder, -h for MB/GB not B</span>
-
-service &lt;name&gt; status/start/stop <span style="color:#75715e"># &#39;old&#39; stype</span>
-systemctl status/start/stop/enable/disable/reload/restart &lt;service&gt; <span style="color:#75715e"># &#39;new&#39; version</span>
-journalctl
-
-touch
-mkdir
-mv <span style="color:#75715e"># can rename</span>
-rm <span style="color:#f92672">(</span>-r<span style="color:#f92672">)</span>
-cp
-
-wc <span style="color:#f92672">(</span>-l<span style="color:#f92672">)</span> <span style="color:#75715e"># word (line) count</span>
-
-&lt;command1&gt; <span style="color:#f92672">&amp;&amp;</span> &lt;command2&gt; <span style="color:#75715e"># first then if successful second</span>
-&lt;command1&gt; <span style="color:#f92672">||</span> &lt;command2&gt; <span style="color:#75715e"># second if first fails</span>
-
-&lt;command1&gt; | &lt;command2&gt; <span style="color:#75715e"># pass output of first to second</span>
-&lt;command&gt; | cut -d: -f2 <span style="color:#75715e"># take input, cut lines by &#39;:&#39;, take &#39;2&#39;th part</span>
-&lt;command&gt; | sort
-&lt;command&gt; | uniq <span style="color:#75715e"># unique lines</span>
-
-chmod <span style="color:#f92672">(</span>-R<span style="color:#f92672">)</span> &lt;num&gt;&lt;num&gt;&lt;num&gt; <span style="color:#75715e"># read write execute in binary-coded decimal for admin group all</span>
-chmod +x &lt;file&gt;
-
-useradd
-userdel
-passwd &lt;user&gt; &lt;new_password&gt;
-usermod -L/U &lt;user&gt; <span style="color:#75715e"># un/lock</span>
-
-kill &lt;num&gt; &lt;pid&gt; <span style="color:#75715e"># num opt, def 15, 9 is extreme kill</span>
-pkill
-xkill <span style="color:#75715e"># click window</span>
-
-history
-
-alias &lt;alias_name&gt;<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;command&gt;&#34;</span>
-<span style="color:#75715e"># add to .bashrc for permanent</span>
-
-lsof <span style="color:#75715e"># list open files</span>
-lsof &lt;path/to/file&gt; <span style="color:#75715e"># processes using file</span>
-lsof -p &lt;pid&gt;
-lsof | grep log
-lsof -i :80 <span style="color:#75715e"># port 80</span>
-lsof -i tcp
-
-mount <span style="color:#75715e"># see mounted</span>
-mount /dev/&lt;addr&gt; /mnt <span style="color:#75715e"># mount &lt;addr&gt; to mnt</span>
-
-file &lt;file&gt; <span style="color:#75715e"># file type</span>
-
-xdg-open &lt;file&gt; <span style="color:#75715e"># open with default program</span>
-</code></pre></div><h3 id="directories">directories</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">man hier
-/etc/passwd <span style="color:#75715e"># users</span>
-/etc/shadow <span style="color:#75715e"># hashes</span>
-</code></pre></div><h3 id="cron">cron</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/etc/chron.d/ <span style="color:#75715e"># user</span>
-/etc/crontab <span style="color:#75715e"># global</span>
-
-crontab -e <span style="color:#75715e"># edit, init</span>
-crontab -l <span style="color:#75715e"># list</span>
-
-/etc/cron.allow
-/etc/cron.deny <span style="color:#75715e"># to block</span>
-</code></pre></div><h3 id="monit">monit</h3>
+</code></pre></div><h2 id="other">other</h2>
+<h3 id="monit">monit</h3>
 <p>email alerts if http/mysql/&hellip; change</p>
 <p>can also make <a href="http://localhost" target="_blank">localhost</a> gui</p>
-<h3 id="shell-movement">shell movement</h3>
-<p>ctrl-c stops</p>
-<p>ctrl-d close shell</p>
-<p>tab autocompletion</p>
-<p>clear or ctrl-l</p>
-<p>ctrl-a or home to start</p>
-<p>ctrl-e or end to end</p>
-<p>alt-f alt-b for forward back by word or ctrl left ctrl right</p>
-<p>ctrl-r to search history by most recent, ctrl-g to go back</p>
-<h3 id="tar">tar</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tar -&lt;&gt; &lt;filename&gt;.tar.gz &lt;directory/&gt;
--zxf <span style="color:#75715e"># unzip</span>
--xcf <span style="color:#75715e"># zip</span>
--v <span style="color:#75715e"># verbose</span>
-</code></pre></div><p>avoid tarbombs, best to do from outside directory</p>
-<h3 id="script">script</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">script &lt;filename.log&gt; <span style="color:#75715e"># default is &#39;typescript&#39;</span>
-<span style="color:#75715e"># other commands</span>
-exit <span style="color:#75715e"># or ctrl-c</span>
 
-script -c <span style="color:#e6db74">&#39;&lt;command&gt;&#39;</span> &lt;filename.log&gt; <span style="color:#75715e"># output of single command to log</span>
-
-less &lt;filename.log&gt; <span style="color:#75715e"># to view</span>
-scriptreplay -s &lt;filename.log&gt; --timing<span style="color:#f92672">=</span>time.log <span style="color:#75715e"># real time replay</span>
-</code></pre></div>
                 </div>
                 
                 <div class="post-comments">

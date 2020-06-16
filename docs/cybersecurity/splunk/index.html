@@ -48,7 +48,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-      <a class="navbar-brand" id="green-terminal" href='https://jamesdeluk.github.io/'>
+      <a class="navbar-brand" id="green-terminal" href='https://jamesdeluk.github.io/hugo'>
         user@james ~ $
       </a>
 		</div>
@@ -57,7 +57,7 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href='https://jamesdeluk.github.io/'>/home/user</a>
+					<a href='https://jamesdeluk.github.io/hugo'>/home/user</a>
         </li>
         
 				
@@ -206,20 +206,20 @@ index=main sourcetype=&quot;access_combined_wcookie&quot; status=200 file=succes
 </code></pre><h3 id="useful-search">useful search</h3>
 <pre><code>index=_audit action=&quot;login attempt&quot; info=failed user=admin #module 13
 </code></pre><h3 id="size">size</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># per host:</span>
+<pre><code># per host:
 
-index<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_internal&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*metrics.log&#34;</span> group<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;per_host_thruput&#34;</span> | chart sum<span style="color:#f92672">(</span>kb<span style="color:#f92672">)</span> by series | sort - sum<span style="color:#f92672">(</span>kb<span style="color:#f92672">)</span>
+index=&quot;_internal&quot; source=&quot;*metrics.log&quot; group=&quot;per_host_thruput&quot; | chart sum(kb) by series | sort - sum(kb)
 
-<span style="color:#75715e"># per source:</span>
+# per source:
 
-index<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_internal&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*metrics.log&#34;</span> group<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;per_source_thruput&#34;</span> | chart sum<span style="color:#f92672">(</span>kb<span style="color:#f92672">)</span> by series | sort - sum<span style="color:#f92672">(</span>kb<span style="color:#f92672">)</span>
+index=&quot;_internal&quot; source=&quot;*metrics.log&quot; group=&quot;per_source_thruput&quot; | chart sum(kb) by series | sort - sum(kb)
 
-<span style="color:#75715e"># per sourcetype:</span>
+# per sourcetype:
 
-index<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_internal&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*metrics.log&#34;</span> group<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;per_sourcetype_thruput&#34;</span> | chart sum<span style="color:#f92672">(</span>kb<span style="color:#f92672">)</span> by series | sort - sum<span style="color:#f92672">(</span>kb<span style="color:#f92672">)</span>
-</code></pre></div><h3 id="delete">delete</h3>
+index=&quot;_internal&quot; source=&quot;*metrics.log&quot; group=&quot;per_sourcetype_thruput&quot; | chart sum(kb) by series | sort - sum(kb)
+</code></pre><h3 id="delete">delete</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">splunk stop
-splunk clean eventdata -index yourindex
+splunk clean eventdata -index &lt;index&gt;
 splunk start
 </code></pre></div>
 					
