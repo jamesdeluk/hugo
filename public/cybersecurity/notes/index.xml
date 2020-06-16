@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>notes on james</title>
-    <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/</link>
+    <link>https://www.jamesgibbins.com/cybersecurity/notes/</link>
     <description>Recent content in notes on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://jamesdeluk.github.io/hugo/cybersecurity/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jamesgibbins.com/cybersecurity/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

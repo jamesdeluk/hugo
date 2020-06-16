@@ -6,9 +6,12 @@ theme = "hugo-theme-nix"
 pluralizelisttitles = false
 title = "james"
 # publishDir = "docs" # for github
+enableRobotsTXT = true
+# summaryLength = 100
 
 [params]
   Name = "James"
+  Author = "James"
   HeaderUsername = "user"
   HeaderHostname = "james"
   About = ""
@@ -17,7 +20,7 @@ title = "james"
   Favicon = "favicon.ico"
   # Favicon = "/hugo/favicon.ico" # /hugo for github
 
-  Email = 'jgibbins92@gmail.com'
+  Email = 'james@gibbins.me'
   GithubID = 'jamesdeluk'
   LinkedInID = 'jamgib'
   RedditID = 'jamesdeluk'

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OverTheWire on james</title>
-    <link>https://jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/</link>
+    <link>https://www.jamesgibbins.com/cybersecurity/challenges/overthewire/</link>
     <description>Recent content in OverTheWire on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jamesgibbins.com/cybersecurity/challenges/overthewire/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>natas</title>
-      <link>https://jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/natas/</link>
+      <link>https://www.jamesgibbins.com/cybersecurity/challenges/overthewire/natas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/challenges/overthewire/natas/</guid>
+      <guid>https://www.jamesgibbins.com/cybersecurity/challenges/overthewire/natas/</guid>
       <description>natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14 natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ natas5:iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq natas6:aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1 natas7:7z3hEENjQtflzgnT29q7wAvMNfZdh0i9 natas8:DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe natas9:W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl natas10:nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK natas12:EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3 natas13:jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY natas14:Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1 natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J  Passwords location: /etc/natas_webpass/natas#
 natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi Saw image at /files/, go to to /files, found users.txt
 natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14 Source says &amp;ldquo;not Google&amp;rdquo; → robots.txt

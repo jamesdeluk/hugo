@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on james</title>
-    <link>https://jamesdeluk.github.io/hugo/tags/</link>
+    <link>https://www.jamesgibbins.com/tags/</link>
     <description>Recent content in Tags on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://jamesdeluk.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jamesgibbins.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

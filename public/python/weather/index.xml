@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>weather on james</title>
-    <link>https://jamesdeluk.github.io/hugo/python/weather/</link>
+    <link>https://www.jamesgibbins.com/python/weather/</link>
     <description>Recent content in weather on james</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 14 Jun 2020 18:41:46 +1000</lastBuildDate>
     
-	<atom:link href="https://jamesdeluk.github.io/hugo/python/weather/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jamesgibbins.com/python/weather/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
