@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networking-tools on james</title>
+    <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/</link>
+    <description>Recent content in networking-tools on james</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nmap</title>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/nmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/nmap/</guid>
+      <description>general filtered = unsure if open or closed
+up arrow to check status if in progress
+nmap &amp;lt;args&amp;gt; &amp;lt;ip_address&amp;gt; # default: top 1000 ports -F # fast (100 ports) -p # ports -p- # all ports --top-ports X # X top ports --open # only open -s&amp;lt;&amp;gt; # scan type -sS # stealth -sX # XMAS - rst if closed, nothing if open -sF # FIN - rst if closed, nothing if open -sN # NULL - rst if closed, nothing if open -sA # ACK - test if there is firewall (no firewall = rst, firewall = no response) -sU # UDP --script ipidseq &amp;lt;ip/24&amp;gt; # to find zombie - Incremental -sI &amp;lt;zombie_id&amp;gt; &amp;lt;target_id&amp;gt; # idle scan -Pn # open ports only -A # aggressive; lots of stuff inc OS; very noisy -sV # software/service version -O # operating system -vvv # (very) (very) verbose -n # only ips not names --reason # why nmap says something -L iplist.</description>
+    </item>
+    
+    <item>
+      <title>wireshark</title>
+      <link>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/wireshark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesdeluk.github.io/hugo/cybersecurity/notes/networking-tools/wireshark/</guid>
+      <description>capture filter dst 192.168.1.8 and port 443src 192.168.1.1 and not port 80host wireshark.orgfilter # ipsip.addr == 192.168.1.1ip.src == 192.168.1.1 and ip.dst == 192.168.1.8# portstcp.port == 443tcp.srcport == 443# protocolshttphttp.requests.get == &#39;post&#39;tcptcp.flags.syn==1 # handshakesarpdnsssh# not, these are different!ip.addr == 192.168.1.1ip.addr != 192.168.1.1# frameframe contains “(attachment|tar|exe|zip|pdf)”# keywordstcp contains facebookframe contains facebook# syn floodstcp.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TryHackMe on james</title>
+    <link>https://jamesdeluk.github.io/hugo/cybersecurity/challenges/tryhackme/</link>
+    <description>Recent content in TryHackMe on james</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://jamesdeluk.github.io/hugo/cybersecurity/challenges/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

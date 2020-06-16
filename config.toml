@@ -3,7 +3,7 @@ languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
 title = "james"
-publishDir = "docs" # for github
+# publishDir = "docs" # for github
 
 [params]
   Name = "James"
