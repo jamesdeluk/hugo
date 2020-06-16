@@ -1,5 +1,6 @@
 # baseURL = "https://jamesdeluk.github.io/hugo/" # for github, also headers.html
-baseURL = "https://quizzical-volhard-5f6fd8.netlify.app/" # for netlify
+# baseURL = "https://quizzical-volhard-5f6fd8.netlify.app/" # for netlify
+baseURL = "https://www.jamesgibbins.com/" # for website
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
