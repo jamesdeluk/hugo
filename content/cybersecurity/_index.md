@@ -26,6 +26,8 @@ title: cybersecurity
 
 #### [linux](notes/linux)
 
+#### [git](notes/git)
+
 #### [networking-tools](notes/networking-tools)
 
 ---
