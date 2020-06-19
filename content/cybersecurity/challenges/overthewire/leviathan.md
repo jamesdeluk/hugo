@@ -6,9 +6,11 @@ title: leviathan
 
 **Info**
 
-- data in ~
-- pass at /etc/leviathan_pass
+- data location: ~
+- passwords location: /etc/leviathan_pass
 - leviathAn, not leviathOn
+
+**ToC**
 
 - [leviathan0:leviathan0](#leviathan0-leviathan0)
 - [leviathan1:rioGegei8m](#leviathan1-riogegei8m)
@@ -18,8 +20,6 @@ title: leviathan
 - [leviathan5:Tith4cokei](#leviathan5-tith4cokei)
 - [leviathan6:UgaoFee4li](#leviathan6-ugaofee4li)
 - [leviathan7:ahy7MaeBo9](#leviathan7-ahy7maebo9)
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 # leviathan0:leviathan0
 

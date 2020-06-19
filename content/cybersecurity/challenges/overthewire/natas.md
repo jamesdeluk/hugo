@@ -17,8 +17,7 @@ title: natas
 - [natas14:Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1](#natas14lg96m10tdfapyvbkjdjymbllq5l6qdl1)
 - [natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J](#natas15awwj0w5cvxrziongz9j5stnvkmxdk39j)
 
-
-Passwords location: /etc/natas_webpass/natas#
+passwords location: /etc/natas_webpass/natas#
 
 ### natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
 
