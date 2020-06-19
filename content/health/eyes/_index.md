@@ -2,4 +2,4 @@
 title: eyes
 ---
 
-### I want to make my eyes better.
+the EndMyopia program. more info [here](endmyopia.org)

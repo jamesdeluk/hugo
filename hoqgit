@@ -1,0 +1,107 @@
+[33mcommit f5ebc5c14d28e6d48c3cb349a23c8d610a11851e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: James <jgibbins92@gmail.com>
+Date:   Wed Jun 17 06:50:29 2020 +1000
+
+    email, seo_schema & built
+
+[33mcommit 2b4401267f6d10034365f0008599b0d424988aa8[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 19:42:09 2020 +1000
+
+    change baseurl to jamesgibbins
+
+[33mcommit e92eb74dc54a1b124cb6650b782df29f3f501337[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 18:55:31 2020 +1000
+
+    remove docs for github pages
+
+[33mcommit ec15d177272e7b97d1f3ba7188ce8badf4bf6148[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 18:42:47 2020 +1000
+
+    edits for netlify
+
+[33mcommit 34878f7e481effaf72ca696459dc0581f39b5f42[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 17:30:57 2020 +1000
+
+    built to public folder for netlify
+
+[33mcommit 8a26b1d9ad96101c13cead09d60dd3059a46f681[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 17:29:25 2020 +1000
+
+    remove deleted pages
+
+[33mcommit 00d9e424dd73d2ff2924e1e8837f7c8bf03d965e[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 17:25:35 2020 +1000
+
+    built
+
+[33mcommit 6b5aa512e727b2469378b84aa2a77fdcac055317[m
+Author: James <jgibbins92@gmail.com>
+Date:   Tue Jun 16 17:24:42 2020 +1000
+
+    update notes, changes for netlify
+
+[33mcommit 8ab22b6d8c863da51745a353a41f3ca4714c5277[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 22:41:24 2020 +1000
+
+    lowercase titles, fixed header /hugo, splunk styling
+
+[33mcommit fc07510946ce8ef3a82ddbda386e5bea8417b485[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 19:43:00 2020 +1000
+
+    Links should be fixed now
+
+[33mcommit 579bd8e2ad110d3bb77c134400c7854912d19b79[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 19:30:44 2020 +1000
+
+    baseURL with /
+
+[33mcommit 33e0d76c527e11664c064fbc3744d7aa7c959010[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 19:29:26 2020 +1000
+
+    change baseURL to include https
+
+[33mcommit 5a7e4a781689058b9940369213f9f685a618552a[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 19:16:51 2020 +1000
+
+    half decent, try 2
+
+[33mcommit 4180986aec19ff3668e419125078ca2720f6c295[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 19:13:20 2020 +1000
+
+    half decent
+
+[33mcommit d22a90b0330c95e4afa4c0e8079282452b6960e0[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 00:20:04 2020 +1000
+
+    fix main index
+
+[33mcommit 44a3021c0b9c8466bca64982f3445bb781925e3f[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 00:18:20 2020 +1000
+
+    try again
+
+[33mcommit 37edb478481c88d70a5d495a8b9a66dd0745b00b[m
+Author: James <jgibbins92@gmail.com>
+Date:   Mon Jun 15 00:08:34 2020 +1000
+
+    let's try again
+
+[33mcommit 28eeb77feace7a05ffda0582ed8ddededfd0967d[m
+Author: James <jgibbins92@gmail.com>
+Date:   Sun Jun 14 23:55:59 2020 +1000
+
+    first half working
