@@ -48,9 +48,9 @@ enableRobotsTXT = true
   [[menu.header]]
     name = "about"
     url = "/about"
-  [[menu.header]]
-    name = "posts"
-    url = "/posts"
+  # [[menu.header]]
+  #   name = "posts"
+  #   url = "/posts"
   [[menu.header]]
     identifier = "projects"
     name = "projects"

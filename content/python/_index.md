@@ -4,6 +4,20 @@ title: "python"
 
 ---
 
+## aus postcode checker
+
+[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/) built with flask
+
+[replit on this website](aswpc) embedded iframe
+
+---
+
+## job scraper
+
+most in-demand skills
+
+---
+
 ## reddit & twitter scraper
 
 check every 1 hour, email top 5
@@ -18,23 +32,9 @@ recommend similar books
 
 ---
 
-## job scraper
-
-most in-demand skills
-
----
-
 ## weather
 
 [go to weather app](weather)
-
----
-
-## aus postcode checker
-
-[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/) built with flask
-
-[replit on this website](aswpc) embedded iframe
 
 ---
 
