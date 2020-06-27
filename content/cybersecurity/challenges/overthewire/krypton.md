@@ -2,7 +2,9 @@
 title: krypton
 ---
 
-https://overthewire.org/wargames/krypton/
+[https://overthewire.org/wargames/krypton/](https://overthewire.org/wargames/krypton/)
+
+[CyberChef](https://gchq.github.io/CyberChef/)
 
 - [0](#0)
 - [1:KRYPTONISGREAT](#1-kryptonisgreat)
@@ -14,15 +16,13 @@ https://overthewire.org/wargames/krypton/
 
 # 0
 
-Welcome to Krypton! The first level is easy. The following string encodes the password using Base64:
+> Welcome to Krypton! The first level is easy. The following string encodes the password using Base64:
 
-S1JZUFRPTklTR1JFQVQ=
+> S1JZUFRPTklTR1JFQVQ=
 
-Use this password to log in to krypton.labs.overthewire.org with username krypton1 using SSH on port 2231. You can find the files for other levels in /krypton/
+> Use this password to log in to [krypton.labs.overthewire.org](http://krypton.labs.overthewire.org/) with username krypton1 using SSH on port 2231. You can find the files for other levels in /krypton/
 
-S1JZUFRPTklTR1JFQVQ= → decode Base64 (CyberChef) → success!
-
-KRYPTONISGREAT
+Use CyberChef: Decode Base64 → success!
 
 # 1:KRYPTONISGREAT
 
@@ -30,9 +30,9 @@ KRYPTONISGREAT
 $ cd /krypton/krypton1
 $ cat krypton2
 YRIRY GJB CNFFJBEQ EBGGRA
-
-# use CyberChef, ROT13 → LEVEL TWO PASSWORD ROTTEN → success!
 ```
+
+Use CyberChef: ROT13 → LEVEL TWO PASSWORD ROTTEN → success!
 
 # 2:ROTTEN
 
@@ -40,9 +40,9 @@ YRIRY GJB CNFFJBEQ EBGGRA
 $ cd /krypton/krypton2
 $ cat krypton3
 OMQEMDUEQMEK
-
-# use CyberChef, ROT13, try all "amount"s → success!
 ```
+
+Use CyberChef: ROT13, try all "amount"s → success!
 
 # 3:CAESARISEASY
 
@@ -57,57 +57,45 @@ $ cat found3
 DSNSM YBGVS ENQGW QNBUS KCJDQ ENQIS QGWUJ QJSVL QCNQG WANBM EDJTS JDSAS SJVSX NBTQE VQUUZ QUSCG KDCZD CJKQU SGZVB USWCJ KQUQA SQMJC XMVUZ QNQAQ SMUQG WQJJD QJJCT SMGFG BKGJB GQJMN QVCUJ UBXZB MNUSQ ENSQJ YNCPS CGQUZ CSGJC XCZYB CGJBX ICSKJ DSNSK SNSJK BNBMG WAVQZ FUYBJ UGSQN BGSSO JNSTC JLBXJ DSAQZ FQGWQ VBGEB GSGSQ NJDSB JDSNJ DSUZQ VSUKS NSSOZ SSWCG EVLDQ NWQGW EVBUU LKCJD QVVJD SQYYS QNQGZ SBXAM NGCUD SWEBV WJDSK SCEDJ BXJDS CGUSZ JKQUI SNLNS TQNFQ AVSQG WJQFC GEQVV JDCGE UCGJB ZBGUC WSNQJ CBGCZ BMVWD QNWVL AVQTS RMYCJ SNXBN DCUBY CGCBG NSUYS ZJCGE CJ
 ```
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-freq: SQJUBNCGDZVWMYTXKELAFIOHRP
-
-eng1: etaoinshrdlcumwfgypbvkjxqz → bisryvhxkagpunjztqewolcfmd
-
-eng2: ETAOINSRHDLUCMFYWGPBVKXQJZ → BISHGVRQKAWPCNXZTJEFOLUYMD
-
-final → BOIHGKNQVTWYURXZAJEMSLDFPC (= ABCDEFGHIJKLMNOPQRSTUVWXYZ)
-
-doubles: SS VV UU BB NN JJ
-
-eng: SS, EE, TT, FF, LL, MM, OO
-
-pairs: DS, JD, SN, NS, SQ, UK, SU, CG, DQ, SW, QG
-
-eng: TH, EA, OF, TO, IN, IT, IS, BE, AS, AT, SO
-
-threes: JDS JSN SNS SGJ DCU DSN UYS
-
-eng: THE, EST, FOR, AND, HIS, ENT, THA
-
-assume JDS = THE
-
-→ SS = EE, JJ = TT → fits
-
-alphabet
-
-abcdefghijklmnopqrstuvwxyz
-
-zyxwvutsrqponmlkjihgfedcba
+### Frequency Analysis
 
 [Frequency Analysis Tool - Online Letter Counter Tool](https://www.dcode.fr/frequency-analysis)
 
-for freq anal
+Most to least common: SQJUBNCGDZVWMYTXKELAFIOHRP → sorted for ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+English (1): ETAOINSHRDLCUMWFGYPBVKJXQZ → BISRYVHXKAGPUNJZTQEWOLCFMD
+
+English (2): ETAOINSRHDLUCMFYWGPBVKXQJZ → BISHGVRQKAWPCNXZTJEFOLUYMD
+
+*Depends on source*
+
+Doubles: SS VV UU BB NN JJ
+
+English: SS, EE, TT, FF, LL, MM, OO
+
+Pairs: DS, JD, SN, NS, SQ, UK, SU, CG, DQ, SW, QG
+
+English: TH, EA, OF, TO, IN, IT, IS, BE, AS, AT, SO
+
+Triplets: JDS JSN SNS SGJ DCU DSN UYS
+
+English: THE, EST, FOR, AND, HIS, ENT, THA
+
+Can't figure it out... Let's use a computer for the computations!
 
 [Cryptogram Solver (online tool) | Boxentriq](https://www.boxentriq.com/code-breaking/cryptogram)
 
-manual tool - useful
+This one has a manual tool, if you want to do it yourself
 
 [Substitution Solver](https://www.guballa.de/substitution-solver)
 
-gives correct answer but wrong key! → partial success
+This one gives the correct decrypted answer but wrong key! → partial success
 
 [Substitution cipher breaker](https://planetcalc.com/8047/)
 
-gives correct key → success!
+This one gives the correct decrypted answer and the correct key → success!
 
-key: BOIHGKNQVTWYURXZAJEMSLDFPC
-
-cyberchef → checks out
+*Key = BOIHGKNQVTWYURXZAJEMSLDFPC*
 
 # 4:BRUTE
 
@@ -131,13 +119,15 @@ should reveal the 1st letter of the key, in this case.  Treat this as
 Persistence and some good guesses are the key!
 ```
 
-FA: IRSYXMVKCJLFEWPBNGOTQDZUHA
+Frequency Analysis: IRSYXMVKCJLFEWPBNGOTQDZUHA
+
+Let's use tools again.
 
 [Vigenère Cipher (automatic solver) | Boxentriq](https://www.boxentriq.com/code-breaking/vigenere-cipher)
 
-autosove
+Autosolve → success!
 
-key = FREKEY → success
+*Key = FREKEY*
 
 # 5:CLEARTEXT
 
@@ -151,10 +141,10 @@ cat krypton6
 BELOS Z
 ```
 
-boxentriq autosolve → key = keylength → success!
+Boxentriq Autosolve again → success!
+
+*Key = keylength*
 
 # 6:RANDOM
 
 xor, hexdump, cryptool
-
-to be completed...

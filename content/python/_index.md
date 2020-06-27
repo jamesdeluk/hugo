@@ -4,39 +4,22 @@ title: "python"
 
 ---
 
-## aus postcode checker
+## australian specified work postcode checker
 
-[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/) built with flask
+in australian on a working holiday visa? want to know if the place offering you work is in a regional area?
 
-[replit on this website](aswpc) embedded iframe
+[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/) [built with flask]
 
 ---
 
 ## job scraper
 
-most in-demand skills
+which terms are popular in job descriptions? where are the jobs?
+
+[replit on this website](seek) [embedded iframe]
 
 ---
 
-## reddit & twitter scraper
-
-check every 1 hour, email top 5
-
----
-
-## goodreads
-
-recommend similar books
-
-[github](https://github.com/jamesdeluk/Python-Gread)
-
----
-
-## weather
-
-[go to weather app](weather)
-
----
 
 ## get the gist
 
