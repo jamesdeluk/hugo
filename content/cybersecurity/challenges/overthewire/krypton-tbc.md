@@ -1,20 +1,19 @@
 ---
-title: krypton
+title: 'Krypton (TBC)'
 ---
 
-[https://overthewire.org/wargames/krypton/](https://overthewire.org/wargames/krypton/)
-
-[CyberChef](https://gchq.github.io/CyberChef/)
-
 - [0](#0)
-- [1:KRYPTONISGREAT](#1-kryptonisgreat)
-- [2:ROTTEN](#2-rotten)
-- [3:CAESARISEASY](#3-caesariseasy)
-- [4:BRUTE](#4-brute)
-- [5:CLEARTEXT](#5-cleartext)
-- [6:RANDOM](#6-random)
+- [1:KRYPTONISGREAT](#1:kryptonisgreat)
+- [2:ROTTEN](#2:rotten)
+- [3:CAESARISEASY](#3:caesariseasy)
+	- [Frequency Analysis](#frequency-analysis)
+- [4:BRUTE](#4:brute)
+- [5:CLEARTEXT](#5:cleartext)
+- [6:RANDOM](#6:random)
 
-# 0
+**Link:** [https://overthewire.org/wargames/krypton/](https://overthewire.org/wargames/krypton/)
+
+## 0
 
 > Welcome to Krypton! The first level is easy. The following string encodes the password using Base64:
 
@@ -22,9 +21,11 @@ title: krypton
 
 > Use this password to log in to [krypton.labs.overthewire.org](http://krypton.labs.overthewire.org/) with username krypton1 using SSH on port 2231. You can find the files for other levels in /krypton/
 
+[CyberChef](https://gchq.github.io/CyberChef/)
+
 Use CyberChef: Decode Base64 → success!
 
-# 1:KRYPTONISGREAT
+## 1:KRYPTONISGREAT
 
 ```bash
 $ cd /krypton/krypton1
@@ -34,7 +35,7 @@ YRIRY GJB CNFFJBEQ EBGGRA
 
 Use CyberChef: ROT13 → LEVEL TWO PASSWORD ROTTEN → success!
 
-# 2:ROTTEN
+## 2:ROTTEN
 
 ```bash
 $ cd /krypton/krypton2
@@ -44,7 +45,7 @@ OMQEMDUEQMEK
 
 Use CyberChef: ROT13, try all "amount"s → success!
 
-# 3:CAESARISEASY
+## 3:CAESARISEASY
 
 ```bash
 $ cat krypton4
@@ -97,7 +98,7 @@ This one gives the correct decrypted answer and the correct key → success!
 
 *Key = BOIHGKNQVTWYURXZAJEMSLDFPC*
 
-# 4:BRUTE
+## 4:BRUTE
 
 ```bash
 $ cd /krypton/krypton4
@@ -129,7 +130,7 @@ Autosolve → success!
 
 *Key = FREKEY*
 
-# 5:CLEARTEXT
+## 5:CLEARTEXT
 
 ```bash
 cd /krypton/krypton5
@@ -145,6 +146,6 @@ Boxentriq Autosolve again → success!
 
 *Key = keylength*
 
-# 6:RANDOM
+## 6:RANDOM
 
 xor, hexdump, cryptool

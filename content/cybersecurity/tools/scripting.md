@@ -1,6 +1,13 @@
 ---
-title: scripting
+title: Scripting
 ---
+
+
+chmod +x [script-name-here.sh](http://script-name-here.sh/)
+
+./script-name-here.sh
+sh [script-name-here.sh](http://script-name-here.sh/)
+bash [script-name-here.sh](http://script-name-here.sh/)
 
 ```bash
 #variables

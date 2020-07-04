@@ -1,42 +1,25 @@
 ---
-title: leviathan
+title: 'Leviathan'
 ---
 
-**link**: [https://overthewire.org/wargames/leviathan/](https://overthewire.org/wargames/leviathan/)
+- [leviathan0:leviathan0](#leviathan0:leviathan0)
+- [leviathan1:rioGegei8m](#leviathan1:riogegei8m)
+- [leviathan2:ougahZi8Ta](#leviathan2:ougahzi8ta)
+- [leviathan3:Ahdiemoo1j](#leviathan3:ahdiemoo1j)
+- [leviathan4:vuH0coox6m](#leviathan4:vuh0coox6m)
+- [leviathan5:Tith4cokei](#leviathan5:tith4cokei)
+- [leviathan6:UgaoFee4li](#leviathan6:ugaofee4li)
+- [leviathan7:ahy7MaeBo9](#leviathan7:ahy7maebo9)
 
-### info
+**Link**: [https://overthewire.org/wargames/leviathan/](https://overthewire.org/wargames/leviathan/)
 
-- data location: ~
-- passwords location: /etc/leviathan_pass
+**Info**
+
+- data in ~
+- pass at /etc/leviathan_pass
 - leviathAn, not leviathOn
 
-### commands used
-
-_yes it is literally only these_
-
-```bash
-ls
-cd
-cat
-grep
-mkdir
-echo
-ltrace
-ln
-```
-
-### toc
-
-- [leviathan0:leviathan0](#leviathan0-leviathan0)
-- [leviathan1:rioGegei8m](#leviathan1-riogegei8m)
-- [leviathan2:ougahZi8Ta](#leviathan2-ougahzi8ta)
-- [leviathan3:Ahdiemoo1j](#leviathan3-ahdiemoo1j)
-- [leviathan4:vuH0coox6m](#leviathan4-vuh0coox6m)
-- [leviathan5:Tith4cokei](#leviathan5-tith4cokei)
-- [leviathan6:UgaoFee4li](#leviathan6-ugaofee4li)
-- [leviathan7:ahy7MaeBo9](#leviathan7-ahy7maebo9)
-
-# leviathan0:leviathan0
+## leviathan0:leviathan0
 
 ```bash
 $ ls -la
@@ -49,7 +32,7 @@ $ cat .backups/bookmarks.html | grep leviathan
 <DT><A HREF="[http://leviathan.labs.overthewire.org/passwordus.html](http://leviathan.labs.overthewire.org/passwordus.html) | This will be fixed later, the password for leviathan1 is rioGegei8m" ADD_DATE="1155384634" LAST_CHARSET="ISO-8859-1" ID="rdf:#$2wIU71">password to leviathan1</A> # -> success!
 ```
 
-# leviathan1:rioGegei8m
+## leviathan1:rioGegei8m
 
 ```bash
 $ ls -la
@@ -61,14 +44,14 @@ Wrong password, Good Bye ...
 
 $ ltrace ./check
 __libc_start_main(0x804853b, 1, 0xffffd784, 0x8048610 <unfinished ...>
-printf("password: ") = 10
+printf("password: ")                                                                     = 10
 getchar(1, 0, 0x65766f6c, 0x646f6700password: password
-) = 112
-getchar(1, 0, 0x65766f6c, 0x646f6700) = 97
-getchar(1, 0, 0x65766f6c, 0x646f6700) = 115
-strcmp("pas", "sex") = -1
+)                                                    = 112
+getchar(1, 0, 0x65766f6c, 0x646f6700)                                                    = 97
+getchar(1, 0, 0x65766f6c, 0x646f6700)                                                    = 115
+strcmp("pas", "sex")                                                                     = -1
 puts("Wrong password, Good Bye ..."Wrong password, Good Bye ...
-) = 29
+)                                                     = 29
 +++ exited (status 0) +++
 
 $ ./check
@@ -79,7 +62,7 @@ password: sex
 $ cat /etc/leviathan_pass/leviathan2 # -> success
 ```
 
-# leviathan2:ougahZi8Ta
+## leviathan2:ougahZi8Ta
 
 ```bash
 $ ls -la
@@ -122,7 +105,7 @@ $ ~/printfile "l3 f" # -> success!
 snprintf("/bin/cat l3 f", 511, "/bin/cat %s", "l3 f") = 16
 ```
 
-# leviathan3:Ahdiemoo1j
+## leviathan3:Ahdiemoo1j
 
 ```bash
 $ ls -la
@@ -151,7 +134,7 @@ Enter the password> snlprintf
 $ cat /etc/leviathan_pass/leviathan4 → success
 ```
 
-# leviathan4:vuH0coox6m
+## leviathan4:vuH0coox6m
 
 ```bash
 $ ls -la
@@ -174,7 +157,7 @@ fopen("/etc/leviathan_pass/leviathan5", "r") = 0
 # user cyberchef to convert from binary -> success!
 ```
 
-# leviathan5:Tith4cokei
+## leviathan5:Tith4cokei
 
 ```bash
 $ ls -la
@@ -220,7 +203,7 @@ $ ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
 $ ./leviathan5 # -> success
 ```
 
-# leviathan6:UgaoFee4li
+## leviathan6:UgaoFee4li
 
 ```bash
 $ ls -la
@@ -238,7 +221,7 @@ $ for i in {0000..9999}; do echo $i; ./leviathan6 $i; done
 $ cat /etc/leviathan_pass/leviathan7 # -> success
 ```
 
-# leviathan7:ahy7MaeBo9
+## leviathan7:ahy7MaeBo9
 
 ```bash
 $ ls -la

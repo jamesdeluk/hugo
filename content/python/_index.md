@@ -20,6 +20,13 @@ which terms are popular in job descriptions? where are the jobs?
 
 ---
 
+## notion to python
+
+i write this website in notion. it can export markdown files, but they're not quite formatted right. so i made a little script to make them hugo-friendly.
+
+[find it on github](https://github.com/jamesdeluk/python--notion-to-hugo)
+
+---
 
 ## get the gist
 

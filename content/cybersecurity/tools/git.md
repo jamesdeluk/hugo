@@ -1,6 +1,7 @@
 ---
-title: git
+title: Git
 ---
+
 
 ```bash
 # log
@@ -57,6 +58,8 @@ git commit -m "<msg>"
 git rebase <master> # from branch; pulls all new commits from master into branch
 
 # ftp
-git ftp init "URL"
-git config git-ftp.url "url"
+git ftp init “URL”
+git config git-ftp.url “url"
 ```
+
+[Colt Steele Introduction to Git](Git%20dbbf6b1b2c9049668e5d244b5b63da4c/Colt%20Steele%20Introduction%20to%20Git%2040ce4b6f93a54efa97615194069dcc5a.md)

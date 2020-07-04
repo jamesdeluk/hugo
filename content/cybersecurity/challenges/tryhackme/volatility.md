@@ -1,6 +1,9 @@
 ---
-title: volatility
+title: Volatility
 ---
+
+
+testing RAM
 
 ```bash
 $ sudo apt-get install volatility -y

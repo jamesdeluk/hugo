@@ -2,7 +2,14 @@
 title: nmap
 ---
 
-### general
+- [general](#general)
+- [devices on network](#devices-on-network)
+- [scripts](#scripts)
+- [find ciphers](#find-ciphers)
+- [timing and IDP/IPS](#timing-and-idpips)
+- [webmap](#webmap)
+
+## general
 
 filtered = unsure if open or closed
 
@@ -19,7 +26,7 @@ nmap <args> <ip_address>
 --open # only open
 
 -s<> # scan type
--sS # stealth
+-sS # stealth - syn scan
 -sX # XMAS - rst if closed, nothing if open
 -sF # FIN - rst if closed, nothing if open
 -sN # NULL - rst if closed, nothing if open
@@ -47,18 +54,18 @@ nmap <args> <ip_address>
 -oA # all outputs
 ```
 
-### devices on network
+## devices on network
 
 ```bash
+nmap -sn <ip/24> # with ping, no port scan ; was sP
 nmap -sL <ip/24> # no ping, just list
 nmap -Pn <ip/24> # no ping, more info, no discovery
-nmap -sn <ip/24> # with ping ; sP does the same, now depreciated?
 # shows MAC, name
 
 | grep "Nmap scan" | cut -d" " -f5 > iplist.txt # find and save
 ```
 
-### scripts
+## scripts
 
 ```bash
 ls /usr/share/nmap/scripts
@@ -84,15 +91,18 @@ ms-sql-dump-hashes
 nbstat
 smb-enum-users
 smb-enum-shares
+
+sudo nmap --traceroute --script traceroute-geolocation.nse -p<> <url>
+nmap --script http-enum <ip>
 ```
 
-### find ciphers
+## find ciphers
 
 ```bash
 nmap --script=ssl-enum-ciphers -p 443 <ip/url>
 ```
 
-### timing and IDP/IPS
+## timing and IDP/IPS
 
 ```bash
 -f # fragmentation - small packets - not available for all scans
@@ -110,7 +120,7 @@ nmap --script=ssl-enum-ciphers -p 443 <ip/url>
 --max-hostgroup 1
 ```
 
-### webmap
+## webmap
 
 [SabyasachiRana/WebMap](https://github.com/SabyasachiRana/WebMap)
 

@@ -1,6 +1,16 @@
 ---
-title: anthem
+title: Anthem
 ---
+
+	- [flags](#flags)
+	- [final stage](#final-stage)
+
+# Tools & Commands
+
+- nmap
+- Google
+- View source
+- Remmina
 
 ```php
 $ nmap
@@ -12,9 +22,8 @@ $ nmap
 3389/tcp open  ms-wbt-server
 ```
 
-http://10.10.244.242/robots.txt
+[http://10.10.244.242/robots.txt](http://10.10.244.242/robots.txt)
 
-```
 UmbracoIsTheBest!
 
 # Use for all search robots
@@ -25,12 +34,13 @@ Disallow: /bin/
 Disallow: /config/
 Disallow: /umbraco/
 Disallow: /umbraco_client/
-```
 
-http://10.10.244.242/archive/a-cheers-to-our-it-department/
+[http://10.10.244.242/archive/a-cheers-to-our-it-department/](http://10.10.244.242/archive/a-cheers-to-our-it-department/)
+
 → what's the poem?
 
-http://10.10.244.242/archive/we-are-hiring/
+[http://10.10.244.242/archive/we-are-hiring/](http://10.10.244.242/archive/we-are-hiring/)
+
 → what's the email format?
 
 ### flags

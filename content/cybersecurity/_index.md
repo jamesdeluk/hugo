@@ -6,9 +6,9 @@ title: cybersecurity
 
 ## challenges
 
-#### [OverTheWire](challenges/overthewire)
-
 #### [TryHackMe](challenges/tryhackme)
+
+#### [OverTheWire](challenges/overthewire)
 
 #### [Hack This Site!](challenges/hackthissite)
 
@@ -20,15 +20,9 @@ title: cybersecurity
 
 ---
 
-## notes
+## [tools](tools)
 
-#### [shell](notes/shell)
-
-#### [linux](notes/linux)
-
-#### [git](notes/git)
-
-#### [networking-tools](notes/networking-tools)
+shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerability scanning, exploiting and cracking, ...
 
 ---
 

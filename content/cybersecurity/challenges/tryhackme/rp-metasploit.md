@@ -1,6 +1,7 @@
 ---
-title: 'rp: metasploit'
+title: 'RP: Metasploit'
 ---
+
 
 ```bash
 sudo msfdb init

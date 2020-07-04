@@ -1,8 +1,40 @@
 ---
-title: commands
+title: Commands
 ---
 
-Bash, Terminal, Cmd, PowerShell
+- [standard](#standard)
+	- [basic operations](#basic-operations)
+	- [connecting commands](#connecting-commands)
+	- [system and filesystem](#system-and-filesystem)
+	- [grep](#grep)
+	- [tasks and open files](#tasks-and-open-files)
+	- [users and permissions](#users-and-permissions)
+	- [cron](#cron)
+	- [help](#help)
+	- [change prompt](#change-prompt)
+	- [path](#path)
+	- [text-related](#text-related)
+	- [video-related](#video-related)
+	- [compression](#compression)
+	- [script](#script)
+	- [loop](#loop)
+- [shell control](#shell-control)
+	- [commands](#commands)
+	- [keyboard shortcuts](#keyboard-shortcuts)
+	- [tmux](#tmux)
+- [networking](#networking)
+	- [local info](#local-info)
+	- [whois & dns info](#whois-&-dns-info)
+	- [mac-related](#mac-related)
+	- [netstat - ports, routing table](#netstat---ports,-routing-table)
+	- [scp](#scp)
+	- [sftp](#sftp)
+	- [openvpn](#openvpn)
+	- [wget](#wget)
+- [other](#other)
+	- [monit](#monit)
+
+[macOS-specific](Commands%20bae2315fdeec4308b58dc1d6f489b136/macOS%20specific%204b8b8d1528b94782b93cf810575d5c69.md)
 
 ## standard
 
@@ -11,8 +43,6 @@ Bash, Terminal, Cmd, PowerShell
 ```bash
 sudo rm -frv ~/.Trash
 
-cd \
-dir /a /r .DS_STORE
 del /s /q /f /a .DS_STORE
 del /s /q /f /a ._.*
 
@@ -22,13 +52,16 @@ mv # can rename
 rm (-r)
 cp
 
+type nul > <file.txt>
+echo.> <tile.txt>
+
 echo
 cat
 less
 tail
 head
 
-<command> | xclip -sel c # to clipboard
+<command> | xclip -sel c # to clipboard, inc pwd
 ```
 
 ### connecting commands
@@ -52,40 +85,6 @@ file.txt | <command> # same as <
 
 <command> -- <input> # -- signifies end of options/parameters
 # e.g. rm -f -- -f # force remove a file called -f
-```
-
-### grep
-
-```bash
-grep ./* # search all files in directory
-<command> | grep <search_term>
-grep -- -n # search for -n
--i # ignore case
--w # full words
-```
-
-### tasks and open files
-
-```bash
-tasklist | find "<search_term>"
-
-ps
-ps aux
-top
-ps aux | grep <process_name> # find pid
-strace
-sudo renice <niceness> <pid>
-
-kill <num> <pid> # num opt, def 15, 9 is extreme kill
-pkill
-xkill # click window
-
-lsof # list open files
-lsof <path/to/file> # processes using file
-lsof -p <pid>
-lsof | grep log
-lsof -i :80 # port 80
-lsof -i tcp
 ```
 
 ### system and filesystem
@@ -112,6 +111,58 @@ journalctl
 man hier
 /etc/passwd # users
 /etc/shadow # hashes
+
+# windows, recursive search for file
+dir /s <file>
+
+dir /a /r .DS_STORE
+
+find . -name "<filename>" # search all for filename
+find . -maxdepth 2 -perm /111 # search max 2 levels deep for minimum 111 (also -111 for minimum)
+
+sed '#q;d' <file>.txt # find line # of file
+```
+
+### grep
+
+```bash
+# search file for search_term
+grep "search_term" <file/directory>
+
+*.* # search all files in directory
+./* -R # search all files in directory and subdirectories
+
+-- -n # search for -n
+-i # ignore case
+-w # full words
+-R # recursive
+-n # which line of file it is
+
+<command> | grep <search_term>
+```
+
+### tasks and open files
+
+```bash
+tasklist | find "<search_term>"
+
+ps
+ps aux
+top
+ps aux | grep <process_name> # find pid
+strace
+sudo renice <niceness> <pid>
+
+kill <num> <pid> # num opt, def 15, 9 is extreme kill
+pkill
+xkill # click window
+
+lsof # list open files
+lsof <path/to/file> # processes using file
+lsof -p <pid>
+lsof | grep log
+lsof -i :80 # port 80
+lsof -i tcp
 ```
 
 ### users and permissions
@@ -142,11 +193,15 @@ crontab -l # list
 /etc/cron.deny # to block
 ```
 
-### manuals etc
+### help
 
 ```bash
 man <command>
 whatis <command>
+apropos <command> # search manual page names
+
+# windows
+<command> /?
 ```
 
 ### change prompt
@@ -154,6 +209,7 @@ whatis <command>
 ```bash
 # cmd
 $ PROMPT $G # >
+$ export PROMPT_COMMAND="echo -n \[\$(date +%F-%T)\]\ " # date and time
 ```
 
 ### path
@@ -198,9 +254,14 @@ echo 'filename'{01..71}.ts | tr " " "\n" > tslist
 while read line; do cat $line >> your_new_video.ts; done < tslist
 ```
 
-### tar
+### compression
 
 ```bash
+unzip <file>.zip -d <dir>
+unzip -l <file>.zip # show contents
+
+gzip -d <file>.gz
+
 tar -<> <filename>.tar.gz <directory/>
 -zxf # unzip
 -xcf # zip
@@ -329,12 +390,16 @@ dsenum <url> # like dig and host but more
 fierce -dns <url> # like dig and host
 ```
 
-### arp - physical devices
+### mac-related
 
 ```bash
-arp -a
+$ arp -a
 
-netdiscover
+# *nix
+$ sudo netdiscover
+# netdiscover only does same subnet
+
+$ macchanger
 ```
 
 ### netstat - ports, routing table

