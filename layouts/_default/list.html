@@ -22,7 +22,7 @@
 					{{ end }}
 					<ul id="post-list">
 						<!-- list-post -->
-						{{ range .Paginator.Pages }}
+						{{ range .Pages }}
 						<li>
 							<div class="post-list-item">
 								<div class="post-header">
@@ -37,7 +37,6 @@
 						</li>
 						{{ end }}
 					</ul>
-				{{ partial "pagination" . }}
 				</div>
 			</div>
 		</div>
