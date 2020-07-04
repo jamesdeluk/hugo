@@ -16,6 +16,6 @@ the StrongLifts 5x5 program. more info [here](https://stronglifts.com/5x5/)
 
 see better
 
-the EndMyopia program. more info [here](endmyopia.org)
+the EndMyopia program. more info [here](https://endmyopia.org)
 
 ---
