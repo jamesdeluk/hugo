@@ -4,28 +4,32 @@ title: cybersecurity
 
 ---
 
-## challenges
-
-#### [TryHackMe](challenges/tryhackme)
-
-#### [OverTheWire](challenges/overthewire)
-
-#### [Hack This Site!](challenges/hackthissite)
-
-#### [Hacker101](challenges/hacker101)
-
-#### [picoCTF](challenges/picoctf)
-
-#### [Defend the Web](challenges/defendtheweb)
-
----
-
 ## [tools](tools)
 
 shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerability scanning, exploiting and cracking, ...
 
 ---
 
-## [splunk](splunk)
+## blue team
+
+#### [splunk](blue-team/splunk)
+
+---
+
+## red team
+
+#### [TryHackMe](red-team/tryhackme)
+
+#### [OverTheWire](red-team/overthewire)
+
+#### [Hack This Site!](red-team/hackthissite)
+
+#### [Hacker101](red-team/hacker101)
+
+#### [picoCTF](red-team/picoctf)
+
+#### [Defend the Web](red-team/defendtheweb)
+
+#### [Metasploitable 2](red-team/metasploitable2)
 
 ---
