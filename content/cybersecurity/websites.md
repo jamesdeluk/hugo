@@ -33,7 +33,7 @@ title: useful websites
 - https://builtwith.com/
 - https://www.nirsoft.net/countryip/
 - https://www.dnsleaktest.com/
-- https://- httpstatus.io/
+- https://httpstatus.io/
 - https://www.robtex.com/
 - https://threatcrowd.org/
 - https://whois.domaintools.com/
@@ -58,9 +58,11 @@ title: useful websites
 - https://web.archive.org/
 - https://ciphertrace.com/ciphertrace-maltego-transform/
 - https://www.fakenamegenerator.com/
-http://www.xmh57jrzrnw6insl.onion/
-http://www.darkfailllnkf4vf.onion/
 - https://www.phishtank.com/
 - https://honeydb.io/
 - https://iocfeed.mrlooquer.com/
 - https://www.exploit-db.com/
+
+## Onion
+- http://www.xmh57jrzrnw6insl.onion/
+- http://www.darkfailllnkf4vf.onion/
