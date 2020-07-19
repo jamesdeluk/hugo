@@ -8,15 +8,15 @@ title: 'Metasploitable2'
 	- [gobuster](#gobuster)
 	- [nessus](#nessus)
 - [exploit in progress](#exploit-in-progress)
-	- [php → not done](#php-→-not-done)
+	- [php → not done](#php--not-done)
 	- [telnet](#telnet)
 	- [postgresql](#postgresql)
 - [exploited](#exploited)
-	- [vnc (remmina)](#vnc-(remmina))
-	- [bind shell backdoor (nc)](#bind-shell-backdoor-(nc))
-	- [samba (msf)](#samba-(msf))
-	- [UnrealIRCD (msf)](#unrealircd-(msf))
-	- [ftp (msf)](#ftp-(msf))
+	- [vnc (remmina)](#vnc-remmina)
+	- [bind shell backdoor (nc)](#bind-shell-backdoor-nc)
+	- [samba (msf)](#samba-msf)
+	- [UnrealIRCD (msf)](#unrealircd-msf)
+	- [ftp (msf)](#ftp-msf)
 
 ## recon
 
@@ -221,7 +221,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 ### nessus
 
-![img/img1.png](img/img1.png)
+![img1](img/img1)
 
 ## exploit in progress
 
@@ -337,15 +337,15 @@ PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution                              
 
 ### vnc (remmina)
 
-![img/img2.png](img/img2.png)
+![img2](img/img2)
 
 Use Remmina:
 
-![img/img3.png](img/img3.png)
+![img3](img/img3)
 
 ### bind shell backdoor (nc)
 
-![img/img4.png](img/img4.png)
+![img4](img/img4)
 
 [http://192.168.187.129:1524/](http://192.168.187.129:1524/)
 
@@ -477,3 +477,5 @@ msf5 exploit(unix/ftp/vsftpd_234_backdoor) > run
 whoami
 root
 ```
+
+[page](Metasploitable2%20a5f776ddd70a4390b775e46ecf474913/page%20354ee1d56c624c5c8dc04ac561c3f2dc.md)

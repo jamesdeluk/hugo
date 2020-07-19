@@ -8,7 +8,7 @@ title: health
 
 get stronger
 
-![graph](/img/5x5graph.jpg "my progress")
+![graph](5x5/graph.jpg "my progress")
 
 the StrongLifts 5x5 program. more info [here](https://stronglifts.com/5x5/)
 
