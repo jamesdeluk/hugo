@@ -2,6 +2,17 @@
 title: useful websites
 ---
 
+## Software
+
+- https://github.com/SabyasachiRana/WebMap
+- https://nmap.org/nsedoc/lib/nmap.html
+- https://www.offensive-security.com/metasploit-unleashed/mimikatz/
+- https://github.com/google/tsunami-security-scanner
+- https://beefproject.com/
+- https://netdisco.org/
+- https://www.nedi.ch/download/
+- https://w3af.org/
+
 ## Cryptography etc
 
 - https://gchq.github.io/CyberChef/
@@ -10,21 +21,22 @@ title: useful websites
 - https://meyerweb.com/eric/tools/dencoder/
 - https://crackstation.net/
 
+## Onion
+
+- http://www.xmh57jrzrnw6insl.onion/
+- http://www.darkfailllnkf4vf.onion/
+
 ## Lists
 
 - https://sectools.org/
 - https://www.hacker101.com/resources
 - https://linuxsecurity.expert/security-tools/#categories
 
-## Everything Else
+## Everything else
 
 - https://www.shodan.io/
 - https://www.exploit-db.com/google-hacking-database
 - https://grabify.link/
-- https://github.com/SabyasachiRana/WebMap
-- https://nmap.org/nsedoc/lib/nmap.html
-- https://www.offensive-security.com/metasploit-unleashed/mimikatz/
-- https://github.com/google/tsunami-security-scanner
 - https://github.com/waffl3ss/InNumerator
 - https://urlscan.io/
 - https://sitereport.netcraft.com/
@@ -41,14 +53,9 @@ title: useful websites
 - https://www.virustotal.com/gui/home/url
 - https://www.betterbuys.com/estimating-password-cracking-times/
 - https://www.google.com/search?q=intitle%3A%22index+of%22
-- https://nmap.org/book/zenmap-topology.html
-- https://beefproject.com/
-- https://netdisco.org/
-- https://www.nedi.ch/download/
-- https://w3af.org/
 - https://dfir.blog/unfurl/
-- https://dnstwister.report/
 - https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
+- https://dnstwister.report/
 - https://null-byte.wonderhowto.com/how-to/use-linenum-identify-potential-privilege-escalation-vectors-0197225/
 - https://osintframework.com/
 - https://www.hex-rays.com/products/ida/
@@ -62,7 +69,3 @@ title: useful websites
 - https://honeydb.io/
 - https://iocfeed.mrlooquer.com/
 - https://www.exploit-db.com/
-
-## Onion
-- http://www.xmh57jrzrnw6insl.onion/
-- http://www.darkfailllnkf4vf.onion/

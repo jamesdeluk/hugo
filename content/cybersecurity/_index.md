@@ -18,7 +18,7 @@ shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerabi
 
 ## red team
 
-![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/jamesdeluk.png) > [THM public profile](https://tryhackme.com/badge/regen/97839)
+{{< thm-badge >}}
 
 #### [TryHackMe](red-team/tryhackme)
 
