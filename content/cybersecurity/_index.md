@@ -24,13 +24,13 @@ shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerabi
 
 #### [OverTheWire](red-team/overthewire)
 
-#### [Hack This Site!](red-team/hackthissite)
+<!-- #### [Hack This Site!](red-team/hackthissite) -->
 
 #### [Hacker101](red-team/hacker101)
 
-#### [picoCTF](red-team/picoctf)
+<!-- #### [picoCTF](red-team/picoctf) -->
 
-#### [Defend the Web](red-team/defendtheweb)
+<!-- #### [Defend the Web](red-team/defendtheweb) -->
 
 #### [Metasploitable 2](red-team/metasploitable2)
 
