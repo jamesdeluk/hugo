@@ -1,5 +1,5 @@
 ---
-title: Volatility
+title: 'Volatility'
 ---
 
 

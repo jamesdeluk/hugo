@@ -1,11 +1,11 @@
 ---
-title: Passwords & Brute Forcing
+title: 'Passwords & Brute Forcing'
 ---
 
 - [John](#john)
-- [Hashcat](#hashcat)
+- [hashcat](#hashcat)
 - [fcrackzip](#fcrackzip)
-- [Hydra](#hydra)
+- [hydra](#hydra)
 - [Patador](#patador)
 
 ## John
@@ -19,12 +19,35 @@ john --format=zip hash.txt
 john <file>
 john --show <file>
 
+--format=
+# raw-md5
+# raw-sha1
+
 john /etc/shadow #users of unix machine
 
 rm ./root/.john/john.pot
+
+ssh2john
 ```
 
-## Hashcat
+## hashcat
+
+```bash
+$ hashcat <options> <hashes_file> <wordlist> 
+
+# attack modes
+-a0 # with wordlist
+-a3 # brute force
+-a3 ?a?a?a?a # four chars long, any char
+# ?l, u, d, h, H, s, a, b
+
+# hash type
+-m3200 # bcrypt
+-m1800 # sha512crypt ($6$)
+-m0 # md5
+-m100 # sha1
+https://hashcat.net/wiki/doku.php?id=example_hashes
+```
 
 ## fcrackzip
 
@@ -36,7 +59,7 @@ $ fcrackzip -b --method 2 -D  -p /usr/share/wordlists/rockyou.txt -v ./file.zip
 # -v = verify
 ```
 
-## Hydra
+## hydra
 
 ```bash
 hydra
@@ -56,6 +79,6 @@ ssh
 -t 4 # 4 threads, recommended 1/core
 ```
 
-![Passwords%20Brute%20Forcing%2068ad44bad0e049078035648edec4ea21/Untitled.png](Passwords%20Brute%20Forcing%2068ad44bad0e049078035648edec4ea21/Untitled.png)
+![passwords-&-brute-forcing_img1](../img/passwords-&-brute-forcing_img1.png)
 
 ## Patador

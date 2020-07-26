@@ -1,8 +1,32 @@
 ---
-title: splunk
+title: 'Splunk'
 ---
 
-### Search notes
+- [Mine](#mine)
+- [Intro course](#intro-course)
+	- [search notes](#search-notes)
+	- [table - module 8](#table---module-8)
+	- [top, rare, stats, sort - module 9](#top,-rare,-stats,-sort---module-9)
+	- [module 10](#module-10)
+	- [module 12](#module-12)
+	- [useful search](#useful-search)
+	- [size](#size)
+	- [delete](#delete)
+	- [data usage by day](#data-usage-by-day)
+
+## Mine
+
+```
+# see all source(type)s
+| metadata type=source(type)s index=botsv3
+
+# see all fields
+| stats count by <field>
+```
+
+## Intro course
+
+### search notes
 
 - != and NOT can be different
 - Should add index=main to all searches?
@@ -105,4 +129,10 @@ index="_internal" source="*metrics.log" group="per_sourcetype_thruput" | chart s
 splunk stop
 splunk clean eventdata -index <index>
 splunk start
+```
+
+### data usage by day
+
+```bash
+index="_internal" source="*metrics.log" per_index_thruput | eval GB=kb/(1024*1024) | timechart span=1d sum(GB) | convert ctime(_time) as timestamp
 ```

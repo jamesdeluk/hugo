@@ -1,5 +1,5 @@
 ---
-title: Reverse Engineering
+title: 'Reverse Engineering'
 ---
 
 - [Radare2](#radare2)
@@ -7,6 +7,16 @@ title: Reverse Engineering
 
 ## Radare2
 
-AoC Day 22:
+```bash
+$ r2 -d <file>
+
+[0x00400a30]> aaa
+
+[0x00400a30]> afl
+
+[0x00400a30]> pdf @main
+
+[0x00400a30]> db 0x00400b6b
+```
 
 ## Ghidra

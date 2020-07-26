@@ -2,10 +2,21 @@
 title: 'Kenobi'
 ---
 
+- [Tools & Commands](#tools-&-commands)
 - [1 - Deploy](#1---deploy)
 - [2 - Enumerate Samba](#2---enumerate-samba)
 - [3 - Gain access](#3---gain-access)
 - [4 - Privesc](#4---privesc)
+
+## Tools & Commands
+
+- nmap
+- smbclient
+- smbget
+- nc
+- searchsploit
+- mount
+- ssh
 
 ## 1 - Deploy
 
@@ -196,8 +207,8 @@ kenobi@kenobi:~$ /usr/bin/menu
 1. status check
 2. kernel version
 3. ifconfig
-** Enter your choice :1 # now bash
-# whoami
+** Enter your choice :1 # now bash, prompt is #
+~ whoami
 root
-# cat /root/root.txt
+~ cat /root/root.txt
 ```

@@ -1,5 +1,5 @@
 ---
-title: OSINT & Enumeration
+title: 'OSINT & Enumeration'
 ---
 
 - [OSR Framework](#osr-framework)

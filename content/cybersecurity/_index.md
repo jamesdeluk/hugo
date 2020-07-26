@@ -26,7 +26,7 @@ shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerabi
 
 #### [OverTheWire](red-team/overthewire)
 
-<!-- #### [Hack This Site!](red-team/hackthissite) -->
+#### [Hack This Site!](red-team/hackthissite)
 
 #### [Hacker101](red-team/hacker101)
 

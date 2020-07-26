@@ -1,40 +1,33 @@
 ---
-title: Commands
+title: 'Shell'
 ---
 
-- [standard](#standard)
 	- [basic operations](#basic-operations)
-	- [connecting commands](#connecting-commands)
-	- [system and filesystem](#system-and-filesystem)
-	- [grep](#grep)
-	- [tasks and open files](#tasks-and-open-files)
-	- [users and permissions](#users-and-permissions)
-	- [cron](#cron)
-	- [help](#help)
-	- [change prompt](#change-prompt)
-	- [path](#path)
-	- [text-related](#text-related)
-	- [video-related](#video-related)
-	- [compression](#compression)
-	- [script](#script)
-	- [loop](#loop)
+- [connecting commands](#connecting-commands)
+- [system and filesystem](#system-and-filesystem)
+- [grep](#grep)
+- [tasks and open files](#tasks-and-open-files)
+- [users and permissions](#users-and-permissions)
+- [hashes](#hashes)
+- [scheduling](#scheduling)
+- [help](#help)
+- [change prompt](#change-prompt)
+- [path](#path)
+- [text-related](#text-related)
+- [video-related](#video-related)
+- [compression](#compression)
+- [script](#script)
+- [loop](#loop)
 - [shell control](#shell-control)
 	- [commands](#commands)
 	- [keyboard shortcuts](#keyboard-shortcuts)
 	- [tmux](#tmux)
-- [networking](#networking)
-	- [local info](#local-info)
-	- [whois & dns info](#whois-&-dns-info)
-	- [mac-related](#mac-related)
-	- [netstat - ports, routing table](#netstat---ports,-routing-table)
-	- [scp](#scp)
-	- [sftp](#sftp)
-	- [openvpn](#openvpn)
-	- [wget](#wget)
 - [other](#other)
 	- [monit](#monit)
 
-## standard
+mainly linux
+
+[macOS-specific](Shell%20d063e08d5d504ca689f1449db50a1523/macOS-specific%20a577274835454e0498f24eff787d9ce4.md)
 
 ### basic operations
 
@@ -50,6 +43,9 @@ mv # can rename
 rm (-r)
 cp
 
+# windows
+Xcopy /E /I SourceFolder DestinationFolder # copies all files/folders in SF to DF
+
 type nul > <file.txt>
 echo.> <tile.txt>
 
@@ -60,9 +56,12 @@ tail
 head
 
 <command> | xclip -sel c # to clipboard, inc pwd
+
+sudo <user>
+sudo -l # current user privileges
 ```
 
-### connecting commands
+## connecting commands
 
 ```bash
 <command> > file.txt
@@ -75,6 +74,7 @@ file.txt | <command> # same as <
 
 <command1> && <command2> # first then if successful second
 <command1> || <command2> # second if first fails
+<command1> ; <command2> # do both commands even if first fails
 
 <command1> | <command2> # pass output of first to second
 <command> | cut -d: -f2 # take input, cut lines by ':', take '2'th part
@@ -85,43 +85,58 @@ file.txt | <command> # same as <
 # e.g. rm -f -- -f # force remove a file called -f
 ```
 
-### system and filesystem
+## system and filesystem
 
 ```bash
+# linux system information
 uname -a
 
 which <binary>
 
-file <file> # file type
+# file type
+file <file>
 
-xdg-open <file> # open with default program
+# open with defauly program
+xdg-open <file>
 
-mount # see mounted
-mount /dev/<addr> /mnt # mount <addr> to mnt
+# mounting
+mount # list currently mounted
+mount /dev/<addr> /mnt
 
+# disk free
 df -ah # all, human-readable
-du # disk usage, -s for whole folder, -h for MB/GB not B
 
-service <name> status/start/stop # 'old' stype
-systemctl status/start/stop/enable/disable/reload/restart <service> # 'new' version
+# disk usage
+du # -s for whole folder, -h for MB/GB not B
+
+# explains linux filesystem (hierarchy)
+man hier
+
+# services
+service <name> status/start/stop # 'old' style
+systemctl status/start/stop/enable/disable/reload/restart <service> # 'new' style
 journalctl
 
-man hier
+# see users/passwords
 /etc/passwd # users
 /etc/shadow # hashes
 
 # windows, recursive search for file
 dir /s <file>
-
 dir /a /r .DS_STORE
 
-find . -name "<filename>" # search all for filename
+# linux, recursive search for file
+find . -name "<filename>" # / for root, . for current
 find . -maxdepth 2 -perm /111 # search max 2 levels deep for minimum 111 (also -111 for minimum)
 
-sed '#q;d' <file>.txt # find line # of file
+# find line # of file
+sed '#q;d' <file>.txt
+
+# linux, make link
+ln (-s) <file> <link>
 ```
 
-### grep
+## grep
 
 ```bash
 # search file for search_term
@@ -136,18 +151,20 @@ grep "search_term" <file/directory>
 -R # recursive
 -n # which line of file it is
 
+grep "^......$" rockyou.txt > rockyou6letters.txt
+
 <command> | grep <search_term>
 ```
 
-### tasks and open files
+## tasks and open files
 
 ```bash
 tasklist | find "<search_term>"
 
-ps
+ps (-ef) # ef includes system
 ps aux
-top
 ps aux | grep <process_name> # find pid
+top # bit like task manager
 strace
 sudo renice <niceness> <pid>
 
@@ -163,24 +180,46 @@ lsof -i :80 # port 80
 lsof -i tcp
 ```
 
-### users and permissions
+## users and permissions
 
 ```bash
 w
 who
 
-chmod (-R) <num><num><num> # read write execute in binary-coded decimal for admin group all
+chmod (-R) <num><num><num>
+# owner group all
+# binary-coded decimal; 4 read 2 write 2 execute
 chmod +x <file>
+chown <user> <file>
+chown <user>:<group> <file>
 
-useradd
-userdel
+adduser
+addgroup
+deluser
+# less preferable: userdel, useradd
 passwd <user> <new_password>
 usermod -L/U <user> # un/lock
+usermod -a -G <group-to-add-user-to> <user>
 ```
 
-### cron
+## hashes
 
 ```bash
+# powershell
+PS> Get-Filehash <file>
+-algorithm [md5/sha1]
+
+# linux
+$ sha256sum <file>
+$ sha1sum <file>
+$ md5sum <file>
+```
+
+## scheduling
+
+```bash
+# *nix
+
 /etc/chron.d/ # user
 /etc/crontab # global
 
@@ -189,9 +228,20 @@ crontab -l # list
 
 /etc/cron.allow
 /etc/cron.deny # to block
+
+# windows
+
+schtasks /create /SC hourly /TN <name> /TR <path-to-python path-to-file>
+/ST 15:00 # start time at 3pm
+/SC MINUTE/HOURLY/DAILY/WEEKLY/MONTHLY # frequency
+
+schtasks /query /TN <name>
+schtasks /delete /TN <name>
+
+# https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks
 ```
 
-### help
+## help
 
 ```bash
 man <command>
@@ -202,7 +252,7 @@ apropos <command> # search manual page names
 <command> /?
 ```
 
-### change prompt
+## change prompt
 
 ```bash
 # cmd
@@ -210,7 +260,7 @@ $ PROMPT $G # >
 $ export PROMPT_COMMAND="echo -n \[\$(date +%F-%T)\]\ " # date and time
 ```
 
-### path
+## path
 
 ```bash
 # show
@@ -232,7 +282,7 @@ setx PATH "%PATH%;C:\newdir" (this user, no space, copies all users to local...]
 # beware of fake sudos etc - so use absolute paths
 ```
 
-### text-related
+## text-related
 
 ```bash
 # Bulk replace text in .txt/.html
@@ -245,14 +295,14 @@ wc (-l) # word (line) count
 pdftotext myfile.pdf - | wc -w # PDF word count
 ```
 
-### video-related
+## video-related
 
 ```bash
 echo 'filename'{01..71}.ts | tr " " "\n" > tslist
 while read line; do cat $line >> your_new_video.ts; done < tslist
 ```
 
-### compression
+## compression
 
 ```bash
 unzip <file>.zip -d <dir>
@@ -268,7 +318,7 @@ tar -<> <filename>.tar.gz <directory/>
 
 *avoid tarbombs → best to do from outside directory*
 
-### script
+## script
 
 ```bash
 script <filename.log> # default is 'typescript'
@@ -281,7 +331,7 @@ less <filename.log> # to view
 scriptreplay -s <filename.log> --timing=time.log # real time replay
 ```
 
-### loop
+## loop
 
 ```bash
 # *nix
@@ -345,120 +395,6 @@ d # detach
 
 # in shell
 exit # close pane
-```
-
-## networking
-
-### local info
-
-```bash
-ifconfig # ipconfig on windows
-ipconfig /all
-
-ip addr show
-
-# my ip
-
-dig +short myip.opendns.com @resolver1.opendns.com
-dig TXT +short o-o.myaddr.l.google.com @ns1.google.com
-
-# or
-
-nslookup [myip.opendns.com](http://myip.opendns.com/) [resolver1.opendns.com](http://resolver1.opendns.com/)
-```
-
-### whois & dns info
-
-```bash
-whois <url>
-
-nslookup <ip/url>
-
-host <url> # all
-host -t a <url> # ip
-host -t ns <url> # name server
-host -t mx <url> # mail server
-
-dig <url> # ipv4 address
-dig -t ns <url> # name server
-dig axfr <url> @<name server> # lots inc subdomains
-
-dsenum <url> # like dig and host but more
-
-fierce -dns <url> # like dig and host
-```
-
-### mac-related
-
-```bash
-$ arp -a
-
-# *nix
-$ sudo netdiscover
-# netdiscover only does same subnet
-
-$ macchanger
-```
-
-### netstat - ports, routing table
-
-```bash
-netstat
--a # all ports
--n # ip not name
--o # owning process ID
--p # owning process name
-
--t # tcp
--u # udp
-
-# -ao takes a lot longer than -#ano?
-
--r # routing table
-
--tnlp # listening ports
-
--tulpn # most things
-
-# add number for interval
-netstat -ano 1 | find "<pid>"
-
-```
-
-### scp
-
-```bash
-ssh remote_user@ip # connect to computer with file
-scp <file> <user>@<ip>:<remote_dir> # local or remote or other
-```
-
-### sftp
-
-```bash
-sftp remote_user@ip
-
-(l)pwd # (local) pwd
-(!)dir # (remote) dir
-(l)cd # (local) cd
-put <file> # transfer
-```
-
-### openvpn
-
-```bash
-sudo openvpn <file>.ovpn
-```
-
-### wget
-
-```bash
-wget -r -l 1 https://www.howtostudykorean.com/other-stuff/lesson-list/ --no-check-certificate -k -p
--c -nc
-wget --mirror --convert-links (-k) --adjust-extension (-E) --page-requisites (-p) http://example.org
--D http://howtostudykorean.com/
-wget --no-check-certificate -mpEk
-wget http://traffic.libsyn.com/talktomeinkorean/ttmikdi-l{3..10}l{1..30}.mp3
-wget -A pdf,jpg -m -p -E -k -K -np -nd http://site/path/
 ```
 
 ## other

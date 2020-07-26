@@ -1,5 +1,5 @@
 ---
-title: Linux
+title: 'Linux'
 ---
 
 - [notes](#notes)
@@ -15,14 +15,17 @@ title: Linux
 
 alt-F8 → adjust window size
 
-ctrl-h → show hidden files
+ctrl-h → toggle show hidden files
 
 ## apt
 
 ```bash
 sudo apt-get update && sudo apt-get dist-upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get check
 
-sudo apt install python3-pip gedit htop monit ...
+apt list --upgradabale
+apt list > apt.txt
+
+sudo apt install python3-pip gedit htop ...
 ```
 
 ## sources

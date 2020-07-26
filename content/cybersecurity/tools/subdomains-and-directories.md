@@ -1,5 +1,5 @@
 ---
-title: Subdomains and Directories
+title: 'Subdomains and Directories'
 ---
 
 - [Gobuster](#gobuster)
@@ -22,6 +22,7 @@ also amass, knock, fierce
 # directories and files
 gobuster dir -u <url> -w <wordlist>
 -q -n -e # for grep
+-x "<filetype" # to include files
 
 # subdomains, with ips
 gobuster dns -d <url> -w <wordlist> -i
@@ -73,3 +74,7 @@ nmap -p 80 --script dns-brute.nse <url>
 ## Knockpy
 
 ## also
+
+[OSINT & Enumeration](OSINT%20&%20Enumeration%20586f6428169e42db91939f312aa62c67.md)
+
+[Subdomains Enumeration Cheat Sheet](Subdomains%20and%20Directories%2020f4d61832414a39a9948ee0aec0bbbd/Subdomains%20Enumeration%20Cheat%20Sheet%200e7c469d40a143fc9f04d5936bfb4643.md)

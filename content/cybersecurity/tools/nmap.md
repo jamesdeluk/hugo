@@ -1,5 +1,5 @@
 ---
-title: nmap
+title: 'nmap'
 ---
 
 - [general](#general)
@@ -80,7 +80,10 @@ locate *.nse
 
 # add -sV to ensure the port does relate to the correct service or script won't work
 
+--script(=)
+
 # common scripts
+vuln
 *-brute.nse
 *.info-nse
 dns-recursion
