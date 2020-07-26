@@ -1,6 +1,4 @@
-# baseURL = "https://jamesdeluk.github.io/hugo/" # for github, also headers.html
-# baseURL = "https://quizzical-volhard-5f6fd8.netlify.app/" # for netlify
-baseURL = "https://www.jamesgibbins.com/" # for website
+baseURL = "https://www.jamesgibbins.com/"
 languageCode = "en-gb"
 theme = "hugo-theme-nix"
 pluralizelisttitles = false
@@ -15,10 +13,8 @@ enableRobotsTXT = true
   HeaderUsername = "user"
   HeaderHostname = "james"
   About = ""
-  ProfilePicture = "/img/hshysrot.gif"
-  # ProfilePicture = "/hugo/img/hshysrot.gif" # /hugo for github
-  Favicon = "favicon.ico"
-  # Favicon = "/hugo/favicon.ico" # /hugo for github
+  ProfilePicture = "/img/hshysrot.gif" # /hugo/img for github
+  Favicon = "favicon.ico" # /hugo/img for github
 
   Email = 'james@gibbins.me'
   GithubID = 'jamesdeluk'
@@ -27,23 +23,6 @@ enableRobotsTXT = true
   StackOverflowID = '8680753/jamesdeluk'
   TwitterID = 'jamesdeluk'
   Medium = 'jamesdeluk'
-  # BitbucketID = "your_bitbucket_id"
-  # CodepenID = "your_codepen"
-  # CvURL = "your_cv_url"
-  # FacebookID = "your_facebook"
-  # GitlabId = "your_gitlab"
-  # GnuPGFingerprint = "your_gpg_fingerprint"
-  # GoogleAnalytics = "your_google_analytics_id"
-  # GoogleplusID = "your_googleplus"
-  # InstagramID = "your_instagram"
-  # MastodonURL = "your_mastodon_profile"
-  # Mobile = "+1-201-555-0123"
-  # PayPalMeID = "https://www.paypal.me/..."
-  # Phone = "+1-201-555-0123"
-  # SlackURL = "https://join.slack.com/..."
-  # StackExchangeID = "your_stackexchange_id"
-  # TelegramID = "your_telegram"
-  # XingURL = "https://www.xing.com/profile/..."
 
 [menu]
   [[menu.header]]

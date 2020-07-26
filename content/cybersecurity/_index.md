@@ -18,6 +18,8 @@ shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerabi
 
 ## red team
 
+### websites
+
 {{< thm-badge >}}
 
 #### [TryHackMe](red-team/tryhackme)
@@ -31,6 +33,8 @@ shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerabi
 <!-- #### [picoCTF](red-team/picoctf) -->
 
 <!-- #### [Defend the Web](red-team/defendtheweb) -->
+
+### VMs
 
 #### [Metasploitable 2](red-team/metasploitable2)
 
