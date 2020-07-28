@@ -221,7 +221,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 ### nessus
 
-![metasploitable2_img1](img/metasploitable2_img1.png)
+![metasploitable2_img1](../img/metasploitable2_img1.png)
 
 ## exploit in progress
 
@@ -337,15 +337,15 @@ PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution                              
 
 ### vnc (remmina)
 
-![metasploitable2_img2](img/metasploitable2_img2.png)
+![metasploitable2_img2](../img/metasploitable2_img2.png)
 
 Use Remmina:
 
-![metasploitable2_img3](img/metasploitable2_img3.png)
+![metasploitable2_img3](../img/metasploitable2_img3.png)
 
 ### bind shell backdoor (nc)
 
-![metasploitable2_img4](img/metasploitable2_img4.png)
+![metasploitable2_img4](../img/metasploitable2_img4.png)
 
 [http://192.168.187.129:1524/](http://192.168.187.129:1524/)
 

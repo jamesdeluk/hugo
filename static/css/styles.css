@@ -2,3 +2,23 @@ th, tr, td {
     border: 1px solid;
     padding: 0 10px;
 }
+
+.container {
+    /* padding-top: 50px; */
+    word-break: break-word;
+}
+
+.single h2 {
+    padding-top: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        padding: 0 10px;
+        width: 100%;
+    }
+    
+    .breadcrumb li {
+        display: block;
+    }
+}

@@ -2,13 +2,13 @@
 <html lang="{{ .Language.Lang }}">
 
 	<head>
-		<title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+		<title> {{ .Title }} &middot; user@{{ .Site.Title }} ~ $ </title>
 		{{ partial "head.html" . }}
 	</head>
 	<body>
 		{{ partial "header.html" . }}
 		<div class="flex-wrapper">
-			<div class="container wrapper">
+			<div class="container wrapper list">
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<h1 id=>{{ lower .Title }}</h1>

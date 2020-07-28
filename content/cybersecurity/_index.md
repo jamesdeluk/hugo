@@ -34,9 +34,7 @@ shell, git, linux, OSINT, enumerating, port scanning, packet sniffing, vulnerabi
 
 <!-- #### [Defend the Web](red-team/defendtheweb) -->
 
-### VMs
-
-#### [Metasploitable 2](red-team/metasploitable2)
+### [virtual machines](red-team/vms)
 
 ---
 
