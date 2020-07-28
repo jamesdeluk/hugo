@@ -1,5 +1,6 @@
 ---
 title: 'Advent of Cyber'
+date: 2020-07-28
 ---
 
 - [Day 1](#day-1)

@@ -1,5 +1,6 @@
 ---
 title: 'Kenobi'
+date: 2020-07-28
 ---
 
 - [Tools & Commands](#tools-&-commands)

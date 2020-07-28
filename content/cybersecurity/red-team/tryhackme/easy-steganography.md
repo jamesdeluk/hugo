@@ -1,5 +1,6 @@
 ---
 title: 'Easy steganography'
+date: 2020-07-28
 ---
 
 - [Flag 1](#flag-1)

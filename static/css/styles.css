@@ -14,8 +14,15 @@ th, tr, td {
 
 @media screen and (max-width:600px) {
     .container {
-        padding: 0 10px;
         width: 100%;
+    }
+
+    .container.list {
+        padding: 0 20px;
+    }
+
+    .container.single {
+        padding: 0 10px;
     }
     
     .breadcrumb li {

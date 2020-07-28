@@ -1,5 +1,6 @@
 ---
 title: 'CC: Pen Testing'
+date: 2020-07-28
 ---
 
 - [Task 24 - Final Exam](#task-24---final-exam)
