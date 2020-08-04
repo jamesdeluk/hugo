@@ -4,7 +4,7 @@ title: cybersecurity
 
 ## [gibbins.me](http://gibbins.me)
 
-(external link)([backup link](https://www.notion.so/James-IT-9969909992c04b5ba3a734cdf0a74530))
+([backup link](https://www.notion.so/James-IT-9969909992c04b5ba3a734cdf0a74530))
 
 I take notes with Notion, and they're located on my sister website gibbins.me
 
