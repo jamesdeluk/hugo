@@ -20,7 +20,7 @@ which terms are popular in job descriptions? where are the jobs?
 
 ---
 
-## notion to python
+<!-- ## notion to python
 
 i write this website in notion. it can export markdown files, but they're not quite formatted right. so i made a little script to make them hugo-friendly.
 
@@ -32,4 +32,4 @@ i write this website in notion. it can export markdown files, but they're not qu
 
 {{< gist jamesdeluk b4b0f4a47faa04299a6840dac8fe1d57 >}}
 
----
+--- -->
