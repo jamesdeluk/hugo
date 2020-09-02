@@ -4,11 +4,9 @@ title: health
 
 ---
 
-## [5x5](5x5)
+## [fitness](fitness)
 
-> get stronger
-
-the StrongLifts 5x5 program. more info [here](https://stronglifts.com/5x5/)
+> get stronger get faster
 
 ---
 

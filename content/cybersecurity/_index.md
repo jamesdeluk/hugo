@@ -8,16 +8,21 @@ title: cybersecurity
 
 I take notes with Notion, and they're located on my sister website gibbins.me
 
----
+<!-- ---
 
 ## [useful websites](websites)
 
-Bookmarks, many bookmarks.
+Bookmarks, many bookmarks. -->
 
 ---
 
 ## Achievements
 
+{{< comptia-sec-plus >}}
+
+**ICSI** | CNSS Certified Network Security Specialist
+{{< br >}}
+{{< br >}}
 {{< thm-badge >}}
 
 ---
