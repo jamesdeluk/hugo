@@ -16,6 +16,12 @@ Bookmarks, many bookmarks. -->
 
 ---
 
+## [Articles](articles)
+
+Some things I've written
+
+---
+
 ## Achievements
 
 {{< comptia-sec-plus >}}
