@@ -3,19 +3,25 @@ title: "Splunk BOTSv3 Write-Up"
 date: 2020-09-08
 ---
 
+{{<br>}}
+
 Splunk have several "Boss of the SOC" datasets, simulating a security incident - think of it as a Blue Team/SIEM-based CTF. This is my write-up for BOTSv3, at the time of writing the most recent dataset available. It seems that Taedonggang, a North Korean group, have attacked Frothly, a beer maker...
+
+The official BOTSv3 page is here: [https://github.com/splunk/botsv3](https://github.com/splunk/botsv3)
 
 ---
 
 I wrote this on Notion, and it is best viewed there, as it is always up-to-date and is visually best. See it here:
 
-[https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78](https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78)
+- [https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78](https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78)
 
-It's also on Medium: 
+It's also on Medium:
+
+- [Medium](medium)
 
 Or available as a PDF:
-[PDF from Google Drive](https://drive.google.com/file/d/1SnVvJS-d1UGcp9bOgV7FtQM386C_rv_N/view?usp=sharing)
 
+- [PDF on Google Drive](https://drive.google.com/file/d/1SnVvJS-d1UGcp9bOgV7FtQM386C_rv_N/view?usp=sharing)
 
 ## Contents
 
@@ -84,7 +90,7 @@ Or available as a PDF:
 	- [332 -|- What is the CVE of the vulnerability that escalated permissions on Linux host hoth?](#332----what-is-the-cve-of-the-vulnerability-that-escalated-permissions-on-linux-host-hoth)
 	- [333 -|- What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth?](#333----what-is-the-cve-of-the-vulnerability-that-was-exploited-to-run-commands-on-linux-host-hoth)
 - [Timeline](#timeline)
-- [Learnings](#learnings)
+- [Key Learnings](#key-learnings)
 
 ## Info
 
@@ -101,11 +107,15 @@ Or available as a PDF:
 
 `index=botsv3`: 2,798,824 events
 
+{{<br>}}
+
 ### Timeline
 
 **Date**: 20th August 2018
 
 **Time**: Most between 0900 and 1600
+
+{{<br>}}
 
 ### Hosts and Sourcetypes
 
@@ -140,6 +150,8 @@ Or available as a PDF:
 - console.us.code42.com:443
 - ntesla (2 events, connection to botsv3.ministerofmayhem.com)
 - OD-FM-NA-i-0ad2d665d4bdace22.amazonaws.com (1 event, error about Splunk)
+
+{{<br>}}
 
 **107 sourcetypes**
 - access_combined
@@ -245,6 +257,8 @@ Or available as a PDF:
 - xmlwineventlog:microsoft-windows-sysmon/operational
 - yum-too_small
 
+{{<br>}}
+
 Understanding what's what:
 
 ```bash
@@ -254,6 +268,8 @@ Understanding what's what:
 | tstats count by host sourcetype | sort host -count
 | tstats count by sourcetype host | sort sourcetype -count
 ```
+
+{{<br>}}
 
 **Functions**
 
@@ -267,6 +283,8 @@ Understanding what's what:
     - Only host with `stream:smtp`
 - *hoth* is Linux DC?
     - Has several sourcetypes no other host has
+
+{{<br>}}
 
 **Limited-purpose hosts:**
 
@@ -303,6 +321,8 @@ Then check the `userName` field for unique users.
 
 > bstoll,btun,splunk_access,web_admin
 
+{{<br>}}{{<br>}}
+
 ### 201 -|- What field would you use to alert that AWS API activity have occurred without MFA (multi-factor authentication)?
 
 ```bash
@@ -314,6 +334,8 @@ Looking through the events to see where MFA is mentioned, and you find the field
 > userIdentity.sessionContext.attributes.mfaAuthenticated
 
 More info: [https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail-additional-examples.html#cloudwatch-alarms-for-cloudtrail-no-mfa-example](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail-additional-examples.html#cloudwatch-alarms-for-cloudtrail-no-mfa-example)
+
+{{<br>}}{{<br>}}
 
 ### 202 -|- What is the processor number used on the web servers?
 
@@ -352,6 +374,8 @@ The most common process is `httpd`, and `stream:http` has `server: Apache/2.2.34
 
 > E5-2676
 
+{{<br>}}{{<br>}}
+
 ### 203 -|- Bud accidentally makes an S3 bucket publicly accessible. What is the event ID of the API call that enabled public access?
 
 Searching AWS docs for ACLs we find [https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html](https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html). It mentions the `PutBucketAcl` event is for changing access, and the `AllUsers` value is for public access:
@@ -364,11 +388,15 @@ sourcetype="aws:cloudtrail" eventName="PutBucketAcl" AllUsers
 
 Time = 13:01:46
 
+{{<br>}}{{<br>}}
+
 ### 204 -|- What is the name of the S3 bucket that was made publicly accessible?
 
 Same as previous question
 
 > frothlywebcode
+
+{{<br>}}{{<br>}}
 
 ### 205 -|- What is the name of the text file that was successfully uploaded into the S3 bucket while it was publicly accessible?
 
@@ -405,6 +433,8 @@ sourcetype="aws:s3:accesslogs"
 
 Time = 13:02:44
 
+{{<br>}}{{<br>}}
+
 ### 206 -|- What is the size (in megabytes) of the .tar.gz file that was successfully uploaded into the S3 bucket while it was publicly accessible?
 
 As before, but a .tar.gz file. Only 1 event.
@@ -430,6 +460,8 @@ sourcetype="aws:s3:accesslogs"
 Filename (`key`) = frothly_html_memcached.tar.gz
 
 Time = 13:04:17
+
+{{<br>}}{{<br>}}
 
 ### 208 -|- A Frothly endpoint exhibits signs of coin mining activity. What is the name of the first process to reach 100 percent CPU processor utilization time from this activity on this endpoint?
 
@@ -459,6 +491,8 @@ Time = 13:37:50
 
 Host = BSTOLL-L
 
+{{<br>}}{{<br>}}
+
 ### 209 -|- When a Frothly web server EC2 instance is launched via auto scaling, it performs automated configuration tasks after the instance starts. How many packages and dependent packages are installed by the cloud initialization script?
 
 ```bash
@@ -477,6 +511,8 @@ There's only 6 events, and manually looking through we find the answer.
 
 Times = 13:33:24 (host = gacrux.i-0cc93bade2b3cba63), 14:23:19 (host = gacrux.i-06fea586f3d3c8ce8), 14:25:21 (host = gacrux.i-09cbc261e84259b54)
 
+{{<br>}}{{<br>}}
+
 ### 210 -|- What is the short hostname of the only Frothly endpoint to actually mine Monero cryptocurrency?
 
 Q208 suggests it was mining using Chrome, so Google for phrases similar to "popular monero coin miner web browser" and we find several mentions to Coinhive.
@@ -492,6 +528,8 @@ It seems *splunkhwf.froth.ly* has `cisconvmflowdata` events relating to BudStoll
 Comparing *BSTOLL-L* and *MKRAEUS-L*, and looking at DNS events relating to the Coinhive servers, the latter only has DNS responses, whereas the former has DNS queries also. Everything is pointing to one answer.
 
 > BSTOLL-L
+
+{{<br>}}{{<br>}}
 
 ### 211 -|- How many cryptocurrency mining destinations are visited by Frothly endpoints?
 
@@ -512,6 +550,8 @@ source="cisconvmflowdata" coinhive
 DNS queries to: coinhive[.]com (2x), ws001.coinhive[.]com, ws005.coinhive[.]com, ws011.coinhive[.]com, ws014.coinhive[.]com, ws019.coinhive[.]com
 
 Times = 13:37:33 ~ 13:39:20
+
+{{<br>}}{{<br>}}
 
 ### 212 -|- Using Splunk's event order functions, what is the first seen signature ID of the coin miner threat according to Frothly's Symantec Endpoint Protection (SEP) data?
 
@@ -536,6 +576,8 @@ Events = 46 (23x JSCoinMiner 6, 23x JSCoinMiner 8)
 
 Time = 13:37:40 ~ 13:46:47
 
+{{<br>}}{{<br>}}
+
 ### 213 -|- According to Symantec's website, what is the severity of this specific coin miner threat?
 
 Google the phrase "Symantec "Web Attack: JSCoinminer""
@@ -544,11 +586,15 @@ Google the phrase "Symantec "Web Attack: JSCoinminer""
 
 > Medium
 
+{{<br>}}{{<br>}}
+
 ### 214 -|- What is the short hostname of the only Frothly endpoint to show evidence of defeating the cryptocurrency threat?
 
 As Q212. The assumption is Symantec finding the thread is defeating it. Check the fields, there is only a single `Host_Name`
 
 > BTUN-L
+
+{{<br>}}{{<br>}}
 
 ### 215 -|- What is the FQDN of the endpoint that is running a different Windows operating system edition than the others?
 
@@ -594,6 +640,8 @@ source="cisconvmsysdata"
 
 > BSTOLL-L.froth.ly
 
+{{<br>}}{{<br>}}
+
 ### 216 -|- According to the Cisco NVM flow logs, for how many seconds does the endpoint generate Monero cryptocurrency?
 
 From Q210:
@@ -618,6 +666,8 @@ source="cisconvmflowdata" coinhive
 *Although the answers say 1666...*
 
 Times = 13:37:51 ~ 14:05:23
+
+{{<br>}}{{<br>}}
 
 ### 217 -|- What kind of Splunk visualization was in the first file attachment that Bud emails to Frothly employees to illustrate the coin miner issue?
 
@@ -656,6 +706,8 @@ This is the one we're looking for.
 Time = 13:56:27
 
 Email date = 15/9/2018 02:44:24
+
+{{<br>}}{{<br>}}
 
 ### 218 -|- What IAM user access key generates the most distinct errors when attempting to access IAM resources?
 
@@ -702,6 +754,8 @@ Source IPs = 35.153.154.221 (x4), 209.107.196.112, 82.102.18.111
 
 User Agents = Boto3 Linux (x4), Boto3 Windows, ElasticWolf
 
+{{<br>}}{{<br>}}
+
 ### 219 -|- Bud accidentally commits AWS access keys to an external code repository. Shortly after, he receives a notification from AWS that the account had been compromised. What is the support case ID that Amazon opens on his behalf?
 
 ```bash
@@ -714,6 +768,8 @@ aws support case
 
 Time = 09:16:55
 
+{{<br>}}{{<br>}}
+
 ### 220 -|- AWS access keys consist of two parts: an access key ID (e.g., AKIAIOSFODNN7EXAMPLE) and a secret access key (e.g., wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY). What is the secret access key of the key that was leaked to the external code repository?
 
 The email message from Q219 has a link to a Github repo stating the key was found there. So check the Github link. Also easy!
@@ -723,6 +779,8 @@ The email message from Q219 has a link to a Github repo stating the key was foun
 Access key = AKIAJOGCDXJ5NW5PXUPA
 
 IAM user = web_admin
+
+{{<br>}}{{<br>}}
 
 ### 221 -|- Using the leaked key, the adversary makes an unauthorized attempt to create a key for a specific resource. What is the name of that resource?
 
@@ -745,6 +803,8 @@ sourcetype="ws:cloudtrail" userIdentity.accessKeyId="AKIAJOGCDXJ5NW5PXUPA"
 
 Time = 09:16:12
 
+{{<br>}}{{<br>}}
+
 ### 222 -|- Using the leaked key, the adversary makes an unauthorized attempt to describe an account. What is the full user agent string of the application that originated the request?
 
 Based on the previous search, but change the `eventName` to one for describing accounts, then check the `UserAgent`:
@@ -757,6 +817,8 @@ sourcetype="aws:cloudtrail" userIdentity.accessKeyId="AKIAJOGCDXJ5NW5PXUPA"
 > ElasticWolf/5.1.6
 
 Time = 09:27:06
+
+{{<br>}}{{<br>}}
 
 ### 223 -|- The adversary attempts to launch an Ubuntu cloud image as the compromised IAM user. What is the codename for that operating system version in the first attempt?
 
@@ -800,6 +862,8 @@ Time = 09:16:22
 
 Source IP = 139.198.18.205
 
+{{<br>}}{{<br>}}
+
 ### 224 -|- Frothly uses Amazon Route 53 for their DNS web service. What is the average length of the distinct third-level subdomains in the queries to brewertalk.com?
 
 ```bash
@@ -830,6 +894,8 @@ source="lambda:dns" brewertalk.com
 ```
 
 > 8.1
+
+{{<br>}}{{<br>}}
 
 ### 225 -|- Using the payload data found in the memcached attack, what is the name of the .jpeg file that is used by Taedonggang to deface other brewery websites?
 
@@ -864,6 +930,8 @@ Found web pages also mention "74L15M4N@L", although nothing in BOTSv3 dataset ma
 As an aside, Taedonggang is a North Korean beer.
 
 Times = 15:11:35 ~ 15:27:09
+
+{{<br>}}{{<br>}}
 
 ### 300 -|- What is the full user agent string that uploaded the malicious link file to OneDrive?
 
@@ -916,6 +984,8 @@ Source IP = 104.207.83.63
 User - bgist@froth.ly
 
 Files = stout.png, stout-2.png, morebeer.jpg, BRUCE BIRTHDAY HAPPY HOUR PICS.lnk
+
+{{<br>}}{{<br>}}
 
 ### 301 -|- What external client IP address is able to initiate successful logins to Frothly using an expired user account?
 
@@ -979,6 +1049,8 @@ All very interesting.
 
 > 199.66.91.253
 
+{{<br>}}{{<br>}}
+
 ### 302 -|- According to Symantec's website, what is the discovery date of the malware identified in the macro-enabled file?
 
 ```bash
@@ -1021,6 +1093,8 @@ As for why Colombia, no idea.
 So... Yeah. The answer is 11/11/2016. Presumably the day before Google found it.
 
 > 11/11/2016
+
+{{<br>}}{{<br>}}
 
 ### 303 -|- What is the password for the user that was successfully created by the user "root" on the on-premises Linux system?
 
@@ -1094,6 +1168,8 @@ The second event is the first string decoded from hex. The other decoded/raw com
 
     `247B56657273696F6E7D20247B50726F76696465737D0A` → `${Version} ${Provides}`
 
+{{<br>}}{{<br>}}
+
 ### 304 -|- What is the name of the user that was created after the endpoint was compromised?
 
 It seems the endpoints are Windows (Q215, and others). New users are recorded as event 4720.
@@ -1109,6 +1185,8 @@ EventCode=4720
 Time = 10:08:17
 
 Host = FYODOR-L
+
+{{<br>}}{{<br>}}
 
 ### 305 -|- What is the process ID of the process listening on a "leet" port?
 
@@ -1133,6 +1211,8 @@ Process = netcat
 
 Username = klagerfield
 
+{{<br>}}{{<br>}}
+
 ### 306 -|- A search query originating from an external IP address of Frothly's mail server yields some interesting search terms. What is the search string?
 
 We know Frothly use Microsoft Office 365, and there's an Exchange `Workload`. We're looking for a search query:
@@ -1148,6 +1228,8 @@ sourcetype="ms:o365:management" Workload="Exchange" *query*
 Source = 104.207.83.63:21974
 
 Time = 10:48:28
+
+{{<br>}}{{<br>}}
 
 ### 307 -|- What is the MD5 value of the file downloaded to Fyodor's endpoint system and used to scan Frothly's network?
 
@@ -1190,6 +1272,8 @@ That looks like a scan to me. And the event has the MD5.
 
 Time (hdoor.exe scan) = 10:43:10
 
+{{<br>}}{{<br>}}
+
 ### 308 -|- Based on the information gathered for question 304, what groups was this user assigned to after the endpoint was compromised?
 
 Q304 gave us the username `svcvnc`:
@@ -1209,6 +1293,8 @@ svcvnc EventCode=4732
 > Administrators,Users
 
 Time = 10:08:17 & 10:08:35
+
+{{<br>}}{{<br>}}
 
 ### 309 -|- At some point during the attack, a user's domain account is disabled. What is the email address of the user whose account gets disabled and what is the email address of the user who disabled their account?
 
@@ -1235,6 +1321,8 @@ sourcetype="ms:aad:audit"
 
 Time = 14:47:12
 
+{{<br>}}{{<br>}}
+
 ### 310 -|- Another set of phishing emails were sent to Frothly employees after the adversary gained a foothold on a Frothly computer. This malicious content was detected and left behind a digital artifact. What is the name of this file?
 
 It's an email so start with `stream:smtp`, and we know there is an attachment so include `file_name`:
@@ -1254,6 +1342,8 @@ So, the text file. We found in Q304 it relates to `Frothly-Brewery-Financial-Pla
 > Frothly-Brewery-Financial-Planning-FY2019-Draft.xlsm
 
 Time = 09:55:14
+
+{{<br>}}{{<br>}}
 
 ### 311 -|- Based on the answer to question 310, what is the name of the executable that was embedded in the malware?
 
@@ -1307,6 +1397,8 @@ source="cisconvmflowdata" pn="HxTsr.exe"
 
 All 237 events are started by *svchost.exe*, and every IP/connection looks to be to a valid Microsoft domain (Outlook, Skype, Office, etc).
 
+{{<br>}}{{<br>}}
+
 ### 312 -|- How many unique IP addresses "used" the malicious link file that was sent?
 
 From Q300, the malicious link file was `BRUCE BIRTHDAY HAPPY HOUR PICS.lnk`:
@@ -1326,6 +1418,8 @@ From Q300, the malicious link file was `BRUCE BIRTHDAY HAPPY HOUR PICS.lnk`:
 > 7
 
 Time = 09:59:04 ~ 11:28:30
+
+{{<br>}}{{<br>}}
 
 ### 314 -|- What port number did the adversary use to download their attack tools?
 
@@ -1353,6 +1447,8 @@ Time = 10:47:16
 IP = 45.77.53.176
 
 Host = FYODOR-L
+
+{{<br>}}{{<br>}}
 
 ### 315 -|- During the attack, two files are remotely streamed to the /tmp directory of the on-premises Linux server by the adversary. What are the names of these files?
 
@@ -1383,11 +1479,15 @@ Time = 11:08:36 & 11:08:48
 
 Note files also referenced on `oquery:results`.
 
+{{<br>}}{{<br>}}
+
 ### 316 -|- Based on the information gathered for question 314, what file can be inferred to contain the attack tools?
 
 Q314
 
 > logos.png
+
+{{<br>}}{{<br>}}
 
 ### 317 -|- What is the first executable uploaded to the domain admin account's compromised endpoint system?
 
@@ -1441,6 +1541,8 @@ It looks like, at 10:43:10, Powershell was used to download the file and then ru
 
 Domain Admin = FYODOR-L
 
+{{<br>}}{{<br>}}
+
 ### 318 -|- From what country is a small brute force or password spray attack occurring against the Frothly web servers?
 
 The web servers are called *gacruz.i-XXX*, and are Linux. There's a `linux_secure` sourcetype:
@@ -1469,6 +1571,8 @@ IP = 5.101.40.81
 
 Time = 15:07:22 ~ 15:08:12
 
+{{<br>}}{{<br>}}
+
 ### 319 -|- The adversary created a BCC rule to forward Frothly's email to his personal account. What is the value of the "Name" parameter set to?
 
 From Q306 we know they use Microsoft Office 365 Exchange for emails. We're looking for BCC a.k.a. Blind Carbon Copy
@@ -1485,6 +1589,8 @@ Time = 11:21:40
 
 BCC to = [yunki1984@naver.com → Naver is Korean, and 현기 could be a Korean name.
 
+{{<br>}}{{<br>}}
+
 ### 320 -|- What is the password for the user that was created on the compromised endpoint?
 
 From Q304, the new user is *svcvnc*:
@@ -1496,6 +1602,8 @@ svcvnc
 15 events. Check the `CommandLine` arguments.
 
 > Password123!
+
+{{<br>}}{{<br>}}
 
 ### 321 -|- The Taedonggang adversary sent Grace Hoppy an email bragging about the successful exfiltration of customer data. How many Frothly customer emails were exposed or revealed?
 
@@ -1532,6 +1640,8 @@ Going to the Pastebin, we can count our answer.
 
 Time = 15:15:00
 
+{{<br>}}{{<br>}}
+
 ### 322 -|- What is the path of the URL being accessed by the command and control server?
 
 We know the compromised host, and we know from previous questions they used PowerShell. Often malicious PowerShell commands are base64 encoded, and hence the command will include "FromBase64String"
@@ -1546,6 +1656,8 @@ host="FYODOR-L" FromBase64String
 
 Times = 10:01:44, 10:07:07, 10:11:02, 10:15:28, 11:32:14
 
+{{<br>}}{{<br>}}
+
 ### 323 -|- At least two Frothly endpoints contact the adversary's command and control infrastructure. What are their short hostnames?
 
 We know the C2 URI.
@@ -1557,6 +1669,8 @@ We know the C2 URI.
 3 events, over 2 hosts.
 
 > ABUNGST-L,FYODOR-L
+
+{{<br>}}{{<br>}}
 
 ### 324 -|- Who is Al Bungstein's cell phone provider/carrier?
 
@@ -1576,6 +1690,8 @@ Looks like it's *abungstein@froth.ly*. Do a general search instead of a field va
 
 > Verizon Wireless
 
+{{<br>}}{{<br>}}
+
 ### 325 -|- Microsoft cloud services often have a delay or lag between "index time" and "event creation time". For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin?
 
 First, create fields for the indextime and time, in a unified format. Next, convert them both to epoch time. From there, calculate the difference for each pair, find the max, and convert it to minutes.
@@ -1592,6 +1708,8 @@ sourcetype="ms:aad:signin"
 ```
 
 > 51
+
+{{<br>}}{{<br>}}
 
 ### 326 -|- According to Mallory's advertising research, how is beer meant to be enjoyed?
 
@@ -1624,6 +1742,8 @@ Adding keywords might help:
 34 events. Scrolling through we find a file *BA_Advertising_Code_Overview.pdf* mentioned in a half of the events (17). None of the logs include the file, but it looks like she downloaded it with Chrome, suggesting it's available online. Google the name and it's available at [https://s3-us-west-2.amazonaws.com/brewersassoc/wp-content/uploads/2017/04/BA_Advertising_Code_Overview.pdf](https://s3-us-west-2.amazonaws.com/brewersassoc/wp-content/uploads/2017/04/BA_Advertising_Code_Overview.pdf)
 
 > responsibly
+
+{{<br>}}{{<br>}}
 
 ### 328 -|- What text is displayed on line 2 of the file used to escalate tomcat8's permissions to root?
 
@@ -1677,6 +1797,8 @@ TIme = 11:08:36 & 11:10:55
 
 Host = hoth
 
+{{<br>}}{{<br>}}
+
 ### 329 -|- One of the files uploaded by Taedonggang contains a word that is a much larger in font size than any other in the file. What is that word?
 
 From Q330, we know how to find files uploaded to OneDrive by Taedonggang:
@@ -1710,6 +1832,8 @@ Decoded:
 ![botsv3_img5](../img/botsv3_img5.png)
 
 > Splunk
+
+{{<br>}}{{<br>}}
 
 ### 330 -|- What Frothly VPN user generated the most traffic?
 
@@ -1766,6 +1890,8 @@ sourcetype="cisco:asa" action="teardown" src_ip="192.168.8.117"
 
 > mkraeusen
 
+{{<br>}}{{<br>}}
+
 ### 331 -|- Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier.
 
 Start with the event code (7427 events), then do some maths.
@@ -1782,11 +1908,15 @@ sourcetype="wineventlog" EventCode="4688"
 
 > 1368
 
+{{<br>}}{{<br>}}
+
 ### 332 -|- What is the CVE of the vulnerability that escalated permissions on Linux host hoth?
 
 From Q328, we know *colonel.c* was used for privesc by tomcat on hoth. Google the phrase "CVE Ubuntu 16.04.4 kernel priv esc" and we have the answer.
 
 > CVE-2017-16995
+
+{{<br>}}{{<br>}}
 
 ### 333 -|- What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth?
 
@@ -1836,9 +1966,15 @@ It seems the malicious file is used for remote code execution via *showcase.acti
 | reverse
 ```
 
-11:05:40: `"C:\windows\temp\unziped\lsof-master\iexeplorer.exe" http://192.168.9.30:8080/frothlyinventory/showcase.action whoami`
+11:05:40:
 
-11:05:43: `"age=1&__checkbox_bustedBefore=true&name=${(#szgx='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='whoami').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.close())}&description=1"` (*saveGangster.action* `form_data`)
+`"C:\windows\temp\unziped\lsof-master\iexeplorer.exe" http://192.168.9.30:8080/frothlyinventory/showcase.action whoami`
+
+11:05:43:
+
+`"age=1&__checkbox_bustedBefore=true&name=${(#szgx='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='whoami').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.close())}&description=1"` (*saveGangster.action* `form_data`)
+
+{{<br>}}
 
 The list of RCEs using this method:
 
@@ -1862,7 +1998,7 @@ The list of RCEs using this method:
 
 ## Timeline
 
-*In Notion/the PDF theses are colour-coded by category - links at the top of this page*
+*In Notion/the PDF theses are colour-coded by category - links at the top of this page.*
 
 09:16:12: AKIAJOGCDXJ5NW5PXUPA/web_admin attempts to access IAM resources begin
 
@@ -1976,8 +2112,10 @@ The list of RCEs using this method:
 
 15:15:00: Email bragging about customer data exfiltration
 
-## Learnings
+## Key Learnings
 
 - Do initial recon on hosts, sources, and sourcetypes, to understand where you might find different types of data
 - `FromBase64String` can often provide good results, ditto common Linux strings e.g. `whoami`
 - Often searching key words/phrases will give you a lot more than you expect
+
+{{<br>}}{{<br>}}
