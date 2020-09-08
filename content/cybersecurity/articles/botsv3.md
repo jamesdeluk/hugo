@@ -15,9 +15,9 @@ I wrote this on Notion, and it is best viewed there, as it is always up-to-date 
 
 - [https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78](https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78)
 
-It's also on Medium:
+<!-- It's also on Medium:
 
-- [Medium](medium)
+- [Medium](medium) -->
 
 Or available as a PDF:
 
