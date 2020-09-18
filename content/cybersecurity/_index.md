@@ -26,9 +26,11 @@ Some things I've written
 
 {{< comptia-sec-plus >}} {{< btl1 >}}
 
-**ICSI** | CNSS Certified Network Security Specialist
+{{< icsi-cnss >}}
+
 {{< br >}}
 {{< br >}}
+
 {{< thm-badge >}}
 
 ---
