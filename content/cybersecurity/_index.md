@@ -24,7 +24,7 @@ Some things I've written
 
 ## Achievements
 
-{{< comptia-sec-plus >}}
+{{< comptia-sec-plus >}} {{< btl1 >}}
 
 **ICSI** | CNSS Certified Network Security Specialist
 {{< br >}}
