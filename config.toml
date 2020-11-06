@@ -22,7 +22,7 @@ enableRobotsTXT = true
   RedditID = 'jamesdeluk'
   StackOverflowID = '8680753/jamesdeluk'
   TwitterID = 'jamesdeluk'
-  Medium = 'jamesdeluk'
+  # Medium = 'jamesdeluk'
 
 [menu]
   [[menu.header]]
@@ -42,7 +42,7 @@ enableRobotsTXT = true
     parent = "projects"
     name = "cybersecurity"
     url = "/cybersecurity"
-  [[menu.header]]
-    parent = "projects"
-    name = "health"
-    url = "/health"
+  # [[menu.header]]
+  #   parent = "projects"
+  #   name = "health"
+  #   url = "/health"

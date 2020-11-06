@@ -2,11 +2,13 @@
 title: cybersecurity
 ---
 
-## [Notes](http://notion.gibbins.me)
+## [notes](http://notion.gibbins.me)
 
 ([backup link](https://www.notion.so/James-IT-9969909992c04b5ba3a734cdf0a74530))
 
-I take notes with Notion. See what I know, and maybe learn something yourself.
+i take notes with notion
+
+see what i know, and maybe learn something yourself
 
 <!-- ---
 
@@ -16,17 +18,17 @@ Bookmarks, many bookmarks. -->
 
 ---
 
-## [Articles](articles)
+## [articles](articles)
 
-Some things I've written.
+some things i've written
 
 ---
 
-## Achievements
+## achievements
 
 {{< comptia-sec-plus >}} {{< btl1 >}}
 
-{{< icsi-cnss >}}
+{{< cybrary-soc-l1 >}} {{< icsi-cnss >}}
 
 {{< br >}}
 {{< br >}}
