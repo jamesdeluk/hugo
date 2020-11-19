@@ -6,9 +6,9 @@ title: cybersecurity
 
 ([backup link](https://www.notion.so/James-IT-9969909992c04b5ba3a734cdf0a74530))
 
-i take notes with notion
+I take notes with Notion.
 
-see what i know, and maybe learn something yourself
+See what i know, and maybe learn something yourself.
 
 <!-- ---
 
@@ -20,7 +20,7 @@ Bookmarks, many bookmarks. -->
 
 ## [articles](articles)
 
-some things i've written
+Some things i've written.
 
 ---
 

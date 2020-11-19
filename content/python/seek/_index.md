@@ -2,8 +2,8 @@
 title: job scraper
 ---
 
-**click run |>**
+**Click `Run ►`**
 
-_drag the separator between the code and the output to the top to maximise output_
+_Drag the separator between the code and the output to the top to maximise output_
 
 {{< replit >}}

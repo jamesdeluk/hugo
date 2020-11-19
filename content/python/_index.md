@@ -6,30 +6,18 @@ title: "python"
 
 ## australian specified work postcode checker
 
-in australian on a working holiday visa? want to know if the place offering you work is in a regional area?
+In Australia on a working holiday visa? Want to know if the place offering you work is in a regional area? Put in the postcode and find out here.
 
-[view on pythonanywhere](https://jamesdeluk.pythonanywhere.com/) [built with flask]
+[View on PythonAnywhere](https://jamesdeluk.pythonanywhere.com/)
+
+[built with Flask]
 
 ---
 
 ## seek.com.au job scraper
 
-which terms are popular in job descriptions? where are the jobs?
+Which terms are popular in job descriptions? Where are the jobs?
 
-[replit on this website](seek) [embedded iframe]
+[Repl.it on this website](seek)
 
----
-
-<!-- ## notion to python
-
-i write this website in notion. it can export markdown files, but they're not quite formatted right. so i made a little script to make them hugo-friendly.
-
-[find it on github](https://github.com/jamesdeluk/python--notion-to-hugo)
-
----
-
-## get the gist
-
-{{< gist jamesdeluk b4b0f4a47faa04299a6840dac8fe1d57 >}}
-
---- -->
+[embedded iframe]
