@@ -8,7 +8,7 @@ title: cybersecurity
 
 I take notes with Notion.
 
-See what i know, and maybe learn something yourself.
+See what I know, and maybe learn something yourself.
 
 <!-- ---
 
