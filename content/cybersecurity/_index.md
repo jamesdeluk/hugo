@@ -28,7 +28,7 @@ Some things i've written.
 
 {{< comptia-sec-plus >}} {{< btl1 >}}
 
-{{< cybrary-soc-l1 >}} {{< icsi-cnss >}}
+{{< cybrary-soc-l1 >}} {{< cybrary-neteng >}} {{< icsi-cnss >}}
 
 {{< br >}}
 {{< br >}}
