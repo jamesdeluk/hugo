@@ -1,14 +1,12 @@
 ---
-title: cybersecurity
+title: cyber security
 ---
 
 ## [notes](http://notion.gibbins.me)
 
 ([backup link](https://www.notion.so/James-IT-9969909992c04b5ba3a734cdf0a74530))
 
-I take notes with Notion.
-
-See what I know, and maybe learn something yourself.
+Some cyber security notes I've taken with Notion - over 72,000 words so far.
 
 <!-- ---
 
@@ -20,7 +18,15 @@ Bookmarks, many bookmarks. -->
 
 ## [articles](articles)
 
-Some things i've written.
+Some things I've written.
+
+---
+
+## [tryhackme](tryhackme)
+
+Some write-ups of TryHackMe rooms I've completed. Also available (including more) on Notion: [thm.gibbins.me](http://thm.gibbins.me)
+
+{{< thm-badge >}}
 
 ---
 
@@ -28,11 +34,8 @@ Some things i've written.
 
 {{< comptia-sec-plus >}} {{< btl1 >}}
 
-{{< cybrary-soc-l1 >}} {{< cybrary-neteng >}} {{< cybrary-sysadmin >}} {{< icsi-cnss >}}
+{{< cybrary-soc-l1 >}} {{< cybrary-neteng >}} {{< cybrary-sysadmin >}}
 
-{{< br >}}
-{{< br >}}
-
-{{< thm-badge >}}
+{{< icsi-cnss >}}
 
 ---

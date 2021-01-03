@@ -1,6 +1,6 @@
 ---
-title: "TryHackMe Advent of Cyber 2"
-date: 2021-01-03
+title: "Advent of Cyber 2 - TryHackMe"
+date: 2021-01-02
 ---
 
 The first 23 days are simple bullet points describing how to do the task. Day 24 is a more complete write-up, as it was a more complete challenge!
