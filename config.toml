@@ -36,8 +36,8 @@ enableRobotsTXT = true
     name = "projects"
   [[menu.header]]
     parent = "projects"
-    name = "python"
-    url = "/python"
+    name = "scripting"
+    url = "/scripting"
   [[menu.header]]
     parent = "projects"
     name = "cyber security"
