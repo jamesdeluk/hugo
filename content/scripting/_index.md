@@ -2,7 +2,7 @@
 title: "scripting"
 ---
 
-## Python
+## python
 
 ### australian specified work postcode checker
 
@@ -18,7 +18,7 @@ Which terms are popular in job descriptions? Where are the jobs? Enter your sear
 
 ---
 
-## Bash
+## bash
 
 ### unzip_to_folders
 
