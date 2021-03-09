@@ -18,10 +18,21 @@ Which terms are popular in job descriptions? Where are the jobs? Enter your sear
 
 ---
 
+{{< br >}}
+{{< br >}}
+
 ## bash
 
 ### unzip_to_folders
 
-The Linux `unzip` command unzips to the same directory, or a defined one. This script unzips all zip files within a directory in a single go. If the zip contains a single file, it is unzipped to the base directory. If the zip contains multiple files, it is unzipped to a directory of the same name as the zip. Then the zips are all moved to a "zips" folder.
+The Linux `unzip` command unzips files to the same directory as the .zip file, or to a defined one. You can't batch unzip.
+
+This script unzips all .zip files within a directory in a single command.
+
+If the .zip contains a single file, it is unzipped to the base directory.
+
+If the .zip contains multiple files, it is unzipped to a directory of the same name as the .zip. 
+
+The .zips files are then all moved to a "zips" folder.
 
 {{< gist jamesdeluk 65a5342059ee4d2724d5fb268b86f880 >}}

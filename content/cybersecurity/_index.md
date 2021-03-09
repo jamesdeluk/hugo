@@ -27,15 +27,3 @@ Some things I've written.
 Some write-ups of TryHackMe rooms I've completed. Also available (including more) on Notion: [thm.gibbins.me](http://thm.gibbins.me)
 
 {{< thm-badge >}}
-
----
-
-## achievements
-
-{{< comptia-sec-plus >}} {{< btl1 >}}
-
-{{< cybrary-soc-l1 >}} {{< cybrary-neteng >}} {{< cybrary-sysadmin >}}
-
-{{< icsi-cnss >}}
-
----
