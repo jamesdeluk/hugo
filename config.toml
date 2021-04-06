@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [params]
   Name = "James"
   Author = "James"
-  HeaderUsername = "user"
+  HeaderUsername = ""
   HeaderHostname = "james"
   About = ""
   ProfilePicture = "/img/hshysrot.gif" # /hugo/img for github
@@ -26,7 +26,7 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.header]]
-    name = "about"
+    name = "about/"
     url = "/about"
   # [[menu.header]]
   #   name = "posts"
@@ -36,11 +36,11 @@ enableRobotsTXT = true
     # name = "projects"
   [[menu.header]]
     # parent = "projects"
-    name = "scripting"
+    name = "scripting/"
     url = "/scripting"
   [[menu.header]]
     identifier = "cyber security"
-    name = "cyber security"
+    name = "~/cyber security/"
     # url = "/cybersecurity"
   [[menu.header]]
     parent = "cyber security"
