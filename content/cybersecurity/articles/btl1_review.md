@@ -1,5 +1,5 @@
 ---
-title: "Security Blue Team Level 1 Review"
+title: "Security Blue Team's Blue Team Level 1 Review"
 date: 2021-04-06
 ---
 
