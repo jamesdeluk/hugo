@@ -66,3 +66,7 @@ I'd recommend it to anyone wanting to get into cyber security. In fact, having w
 [Blue Team Level 2](https://securityblue.team/courses/blue-team-level-2-certification-professional/) is in the works, and I'd definitely like to take it. This will be pricier (but, again, not excessively so), and is targeted at companies purchasing it for their staff. So, once it's out, I'll be having a chat with my manager!
 
 In the meantime, Security Blue Team have released [Blue Team Labs Online](https://blueteamlabs.online/). Think TryHackMe, but for defensive activities. I've done a few of the free tier so far and they're definitely worth trying.
+
+### Questions?
+
+Feel free to contact me [@jamesdeluk](https://twitter.com/jamesdeluk)
