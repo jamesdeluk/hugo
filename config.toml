@@ -24,6 +24,8 @@ enableRobotsTXT = true
   TwitterID = 'jamesdeluk'
   # Medium = 'jamesdeluk'
 
+  googleAnalytics = "G-4T1FV3DWGP"
+
 [menu]
   [[menu.header]]
     name = "about/"
