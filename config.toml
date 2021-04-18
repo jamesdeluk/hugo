@@ -28,31 +28,17 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.header]]
-    name = "about/"
+    name = "about"
     url = "/about"
-  # [[menu.header]]
-  #   name = "posts"
-  #   url = "/posts"
-  # [[menu.header]]
-    # identifier = "projects"
-    # name = "projects"
   [[menu.header]]
-    # parent = "projects"
-    name = "scripting/"
-    url = "/scripting"
+    name = "projects"
+    url = "/projects"
   [[menu.header]]
-    identifier = "cyber security"
-    name = "~/cyber security/"
-    # url = "/cybersecurity"
+    name = "articles"
+    url = "/articles"
   [[menu.header]]
-    parent = "cyber security"
-    name = "notes and articles etc"
-    url = "/cybersecurity"
+    name = "notes"
+    url = "/notes"
   [[menu.header]]
-    parent = "cyber security"
-    name = "certificates etc"
-    url = "/certificates"
-  # [[menu.header]]
-  #   parent = "projects"
-  #   name = "health"
-  #   url = "/health"
+    name = "achievements"
+    url = "/achievements"
