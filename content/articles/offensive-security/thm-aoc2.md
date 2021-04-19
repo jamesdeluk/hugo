@@ -1,5 +1,5 @@
 ---
-title: "Advent of Cyber 2 - TryHackMe"
+title: "TryHackMe - Advent of Cyber 2"
 date: 2021-01-02
 ---
 

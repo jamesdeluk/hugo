@@ -31,11 +31,33 @@ enableRobotsTXT = true
     name = "about"
     url = "/about"
   [[menu.header]]
+    identifier = "projects"
     name = "projects"
     url = "/projects"
   [[menu.header]]
+    parent = "projects"
+    name = "python"
+    url = "/projects/python"
+  [[menu.header]]
+    parent = "projects"
+    name = "bash"
+    url = "/projects/bash"
+  [[menu.header]]
+    identifier = "articles"
     name = "articles"
     url = "/articles"
+  [[menu.header]]
+    parent = "articles"
+    name = "reviews"
+    url = "/articles/reviews"
+  [[menu.header]]
+    parent = "articles"
+    name = "offensive security"
+    url = "/articles/offensive-security"
+  [[menu.header]]
+    parent = "articles"
+    name = "digital-forensics"
+    url = "/articles/digital-forensics"
   [[menu.header]]
     name = "notes"
     url = "/notes"
