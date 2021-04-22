@@ -10,6 +10,17 @@ th, tr, td {
 
 .single h2 {
     padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.single h3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:600px) {
