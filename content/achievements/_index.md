@@ -4,7 +4,7 @@ title: achievements
 
 ## Certifications
 
-{{< comptia-sec-plus >}} {{< btl1 >}} {{< microsoft-azure-az900 >}}
+{{< comptia-sec-plus >}} {{< btl1 >}} {{< microsoft-azure-az900 >}} {{< aws-ccp >}}
 
 ## Courses
 
