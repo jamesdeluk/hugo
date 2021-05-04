@@ -1,6 +1,7 @@
 ---
 title: "Splunk BOTSv3 Write-Up"
 date: 2020-09-08
+aliases: [/cybersecurity/articles/botsv3/]
 ---
 
 {{<br>}}

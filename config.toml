@@ -52,7 +52,7 @@ enableRobotsTXT = true
     url = "/articles/reviews"
   [[menu.header]]
     parent = "articles"
-    name = "offensive security"
+    name = "offensive-security"
     url = "/articles/offensive-security"
   [[menu.header]]
     parent = "articles"
