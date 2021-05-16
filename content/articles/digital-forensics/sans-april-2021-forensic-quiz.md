@@ -75,16 +75,16 @@ It looks like we have some executables, some Excel-related files, a .dll, and a 
 
 Based on the file dates, let's start to make a timeline, and analyse each in turn.
 
-Mar 29 23:17  ./Users/wilmer.coughlin/Downloads/subscription_1617056233.xlsb
-Mar 29 23:18  ./Users/Public/4123.do1
-Mar 29 23:21  ./Users/Public/4123.xsg
-Mar 29 23:22  ./Users/Public/4123.xlsb
-Mar 29 23:22  ./ProgramData/huqvg/huqvg.exe
-Mar 29 23:58  ./Users/wilmer.coughlin/AppData/Local/Temp/C618.tmp.dll
-Mar 30 00:07  ./Windows/Temp/adf/anchorAsjuster_x64.exe
-Mar 30 00:08  ./Windows/Temp/adf/anchorDNS_x64.exe
-Mar 30 03:31  ./Windows/Temp/adf/anchor_x64.exe
-Mar 31 18:19 './Windows/System32/Tasks/Sun SvcRestartTask#32640'
+- Mar 29 23:17  ./Users/wilmer.coughlin/Downloads/subscription_1617056233.xlsb
+- Mar 29 23:18  ./Users/Public/4123.do1
+- Mar 29 23:21  ./Users/Public/4123.xsg
+- Mar 29 23:22  ./Users/Public/4123.xlsb
+- Mar 29 23:22  ./ProgramData/huqvg/huqvg.exe
+- Mar 29 23:58  ./Users/wilmer.coughlin/AppData/Local/Temp/C618.tmp.dll
+- Mar 30 00:07  ./Windows/Temp/adf/anchorAsjuster_x64.exe
+- Mar 30 00:08  ./Windows/Temp/adf/anchorDNS_x64.exe
+- Mar 30 03:31  ./Windows/Temp/adf/anchor_x64.exe
+- Mar 31 18:19 './Windows/System32/Tasks/Sun SvcRestartTask#32640'
 
 ### Excel-related
 
