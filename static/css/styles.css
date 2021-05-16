@@ -23,6 +23,23 @@ h1, h2, h3, h4 {
     margin-bottom: 0;
 }
 
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+#search > input {
+    width: 33%;
+    text-align: center;
+    border: black 1px solid;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+#search-results article {
+    margin: 24px 0;
+}
+
 @media screen and (max-width:600px) {
     .container {
         width: 100%;
@@ -44,5 +61,9 @@ h1, h2, h3, h4 {
         min-height: 25px;
         margin-bottom: 10px;
         padding: 5px;
+    }
+
+    #search > input {
+        width: 90%;
     }
 }

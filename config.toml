@@ -64,3 +64,13 @@ enableRobotsTXT = true
   [[menu.header]]
     name = "achievements"
     url = "/achievements"
+  [[menu.header]]
+    name = "search"
+    url = "/search"
+
+[outputFormats.SearchIndex]
+baseName = "search"
+mediaType = "application/json"
+
+[outputs]
+home = [ "HTML", "RSS", "SearchIndex" ]
