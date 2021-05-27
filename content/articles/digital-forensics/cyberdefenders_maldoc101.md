@@ -5,6 +5,17 @@ date: 2021-04-26
 
 From [https://cyberdefenders.org/labs/51](https://cyberdefenders.org/labs/51)
 
+- [Tools Used](#tools-used)
+- [1. Multiple streams contain macros in this document. Provide the number of highest one.](#1-multiple-streams-contain-macros-in-this-document-provide-the-number-of-highest-one)
+- [2. What event is used to begin the execution of the macros?](#2-what-event-is-used-to-begin-the-execution-of-the-macros)
+- [3. What malware family was this maldoc attempting to drop?](#3-what-malware-family-was-this-maldoc-attempting-to-drop)
+- [4. What stream is responsible for the storage of the base64-encoded string?](#4-what-stream-is-responsible-for-the-storage-of-the-base64-encoded-string)
+- [5. This document contains a user-form. Provide the name?](#5-this-document-contains-a-user-form-provide-the-name)
+- [6. This document contains an obfuscated base64 encoded string; what value is used to pad (or obfuscate) this string?](#6-this-document-contains-an-obfuscated-base64-encoded-string--what-value-is-used-to-pad--or-obfuscate--this-string)
+- [7. What is the purpose of the base64 encoded string?](#7-what-is-the-purpose-of-the-base64-encoded-string)
+- [8. What WMI class is used to create the process to launch the trojan?](#8-what-wmi-class-is-used-to-create-the-process-to-launch-the-trojan)
+- [9. Multiple domains were contacted to download a trojan. Provide first FQDN as per the provided hint.](#9-multiple-domains-were-contacted-to-download-a-trojan-provide-first-fqdn-as-per-the-provided-hint)
+
 ## Tools Used
 
 1. oledump
