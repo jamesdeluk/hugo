@@ -59,6 +59,10 @@ enableRobotsTXT = true
     name = "digital-forensics"
     url = "/articles/digital-forensics"
   [[menu.header]]
+    parent = "articles"
+    name = "security-operations"
+    url = "/articles/security-operations"
+  [[menu.header]]
     name = "notes"
     url = "/notes"
   [[menu.header]]
