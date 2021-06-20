@@ -1,9 +1,11 @@
 ---
-title: "CyberDefenders Hammered"
+title: "[ CyberDefenders ] Hammered (Log Analysis)"
 date: 2021-05-27
 ---
 
-From [https://cyberdefenders.org/labs/42](https://cyberdefenders.org/labs/42)
+[https://cyberdefenders.org/labs/42](https://cyberdefenders.org/labs/42)
+
+{{< br >}}
 
 - [Initial Analysis](#initial-analysis)
   * [Initial Findings](#initial-findings)

@@ -1,5 +1,5 @@
 ---
-title: "TryHackMe - Ignite"
+title: "[ TryHackMe ] Ignite"
 date: 2021-01-03
 ---
 

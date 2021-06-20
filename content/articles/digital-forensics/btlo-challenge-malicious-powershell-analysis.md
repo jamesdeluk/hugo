@@ -1,9 +1,12 @@
 ---
-title: "BTLO Challenge: Malicious PowerShell Analysis"
+title: "[ BTLO Challenge ] Malicious PowerShell Analysis"
 date: 2021-05-16
+aliases: ["/articles/digital-forensics/btlo_challenge_malicious_powershell_analysis/"]
 ---
 
 [https://blueteamlabs.online/home/challenge/7](https://blueteamlabs.online/home/challenge/7)
+
+{{< br >}}
 
 - [Open the file](#open-the-file)
 - [Decode the file](#decode-the-file)

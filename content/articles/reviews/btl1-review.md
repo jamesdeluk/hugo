@@ -1,7 +1,7 @@
 ---
 title: "Security Blue Team's Blue Team Level 1 Review"
 date: 2021-04-06
-aliases: [/cybersecurity/articles/btl1_review/]
+aliases: ["/cybersecurity/articles/btl1_review/", "/articles/reviews/btl1_review/"]
 ---
 
 ## Tl;dr

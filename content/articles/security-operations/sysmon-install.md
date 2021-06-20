@@ -1,6 +1,7 @@
 ---
 title: "Sysmon: How to install, upgrade, and uninstall"
 date: 2021-06-02
+aliases: ["/articles/security-operations/sysmon_install/"]
 ---
 
 {{< br >}}
