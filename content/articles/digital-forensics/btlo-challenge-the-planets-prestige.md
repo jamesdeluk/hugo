@@ -70,7 +70,7 @@ UEsDB[...]AAAAA=
 ```
 
 ```bash
-$ echo UEsDB[...]AAAAA=' | base64 -d > PuzzleToCoCanDa.pdf
+$ echo UEsDB[...]AAAAA= | base64 -d > PuzzleToCoCanDa.pdf
 ```
 
 Except if you try to open it with a PDF viewer, it fails. So what is it, really?
