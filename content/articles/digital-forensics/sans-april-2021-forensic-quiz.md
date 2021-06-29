@@ -3,7 +3,9 @@ title: "SANS April 2021 Forensic Quiz"
 date: 2021-04-22
 ---
 
-From https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz/27266/
+[https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz/27266/](https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz/27266/)
+
+{{< br >}}
 
 - [Introduction](#introduction)
 - [Artifacts](#artifacts)
