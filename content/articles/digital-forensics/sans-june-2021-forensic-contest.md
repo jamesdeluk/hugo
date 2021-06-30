@@ -3,6 +3,19 @@ title: "SANS June 2021 Forensic Contest"
 date: 2021-06-29
 ---
 
+## Update
+
+The answers have been released and are available here:
+[https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/](https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/)
+
+They said it was hard, and it was. I'm proud of what I found! Reflecting back:
+
+- For some reason, I thought they meant not all the machines are infected. It turns out all three were! So I skipped over .93 entirely. Similarly, I was thinking each infected machine only had one piece of malware. Wrong again! Because I was looking for the answers and not thinking as if it was a real investigation, I stopped looking too early. I think I would have figured .93 out if I'd looked, although I would have probably missed Hancitor. Talking of...
+- I didn't know Google Feedproxy could be part of a(n) (Hancitor) infection - I thought this traffic was all legit. I'm not upset that I missed it though - this will come with experience. The more I see, the more I learn, and the more I will recognise potentially malicious activity.
+- The zip couldn't be unzipped because the pcap was incomplete (packet loss). Glad I didn't waste too much time trying to figure that out! Although I could have used URLhaus to download the .xlsx malware sample separately. Never thought of that before.
+
+## Original Post
+
 [https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest/27532/](https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest/27532/)
 
 {{< br >}}
