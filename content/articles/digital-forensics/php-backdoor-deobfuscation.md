@@ -20,6 +20,7 @@ There are a few PHP deobfuscation tools available. Individually they didn't get 
 - [Base64 Variables](#base64-variables)
 - [HTML Front-end](#html-front-end)
 - [Investigation](#investigation)
+- [Comments](#comments)
 
 
 ## Tools
@@ -2232,3 +2233,7 @@ Googling for various phrases in the code and the HTML labels returned the follow
 [Found new backdoor script and decoded version. Have fun.](https://gist.github.com/laacz/9934579)
 
 Looks like it's a variation of the WSO backdoor.
+
+## Comments?
+
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_php-backdoor-deobfuscation-activity-6818084342775083009-JofA)
