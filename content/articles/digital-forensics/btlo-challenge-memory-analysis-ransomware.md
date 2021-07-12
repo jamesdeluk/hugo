@@ -16,6 +16,7 @@ date: 2021-07-12
   * [Find the path where the malicious file was first executed](#find-the-path-where-the-malicious-file-was-first-executed)
   * [Can you identify what ransomware it is?](#can-you-identify-what-ransomware-it-is)
   * [What is the filename for the file with the ransomware public key that was used to encrypt the private key?](#what-is-the-filename-for-the-file-with-the-ransomware-public-key-that-was-used-to-encrypt-the-private-key)
+- [Comments](#comments)
 
 
 ## Introduction
@@ -149,3 +150,7 @@ The other thought would be the file directory. Again, `handles` may have given t
 Here we see all the malicious executables, the key, and some other fun files like `00000000.res` and `b.wnry`. The `.wnry` extension is what's used by WannaCry for encrypted files. The `.res` is presumably related to the key. 
 
 > 00000000.eky
+
+## Comments?
+
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_btlo-challenge-memory-analysis-ransomware-activity-6820304637736947712-Z5uP)
