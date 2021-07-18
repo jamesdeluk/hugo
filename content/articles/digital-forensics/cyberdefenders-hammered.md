@@ -5,7 +5,7 @@ date: 2021-05-27
 
 [https://cyberdefenders.org/labs/42](https://cyberdefenders.org/labs/42)
 
-{{< br >}}
+## Contents
 
 - [Initial Analysis](#initial-analysis)
   * [Initial Findings](#initial-findings)

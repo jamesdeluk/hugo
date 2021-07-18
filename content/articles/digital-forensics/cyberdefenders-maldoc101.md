@@ -6,7 +6,7 @@ aliases: ["/articles/digital-forensics/cyberdefenders_maldoc101/"]
 
 [https://cyberdefenders.org/labs/51](https://cyberdefenders.org/labs/51)
 
-{{< br >}}
+## Contents
 
 - [Tools Used](#tools-used)
 - [1. Multiple streams contain macros in this document. Provide the number of highest one.](#1-multiple-streams-contain-macros-in-this-document-provide-the-number-of-highest-one)
