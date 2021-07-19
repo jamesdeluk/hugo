@@ -150,4 +150,4 @@ Put this into Hashcat: `hashcat.exe -m1000 -a3 "ecf53750b76cc9a62057ca85ff4c850e
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](https://www.linkedin.com/in/jamgib/detail/recent-activity/shares/)
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_cyberdefenders-africafalls-disk-image-activity-6822885676925759489-GPOw)
