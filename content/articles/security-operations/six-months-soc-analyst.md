@@ -91,4 +91,4 @@ Here's to another six months - and another six years! (decades might be pushing 
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](https://www.linkedin.com/in/jamgib/detail/recent-activity/shares/), my [Reddit post](https://www.reddit.com/user/jamesdeluk/posts/), or [contact me directly](https://www.jamesgibbins.com/)
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_six-months-as-a-soc-analyst-my-top-three-activity-6826133780428918785-7NfO), my [Reddit post](https://www.reddit.com/r/cybersecurity/comments/ot9fdy/six_months_as_a_soc_analyst_my_top_three_tips/), or [contact me directly](https://www.jamesgibbins.com/)
