@@ -152,4 +152,4 @@ TinEye is much better as it tries to find the exam image. Searching the whole im
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](XXX)
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_cyberdefenders-lespion-osint-activity-6833324757434400768-YuTj)
