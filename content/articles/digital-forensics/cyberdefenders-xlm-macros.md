@@ -194,4 +194,4 @@ However, some more Googling said it was zLoader, although admittedly that mostly
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_cyberdefenders-lespion-osint-activity-6833324757434400768-YuTj)
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_cyberdefenders-xlm-macros-document-analysis-activity-6838753464823242752-O-4B)
