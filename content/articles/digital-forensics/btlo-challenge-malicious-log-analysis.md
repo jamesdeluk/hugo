@@ -5,9 +5,7 @@ date: 2021-08-09
 
 [https://blueteamlabs.online/home/challenge/4](https://blueteamlabs.online/home/challenge/4)
 
-{{< br >}}
-
-# Table of Contents
+## Contents
 
 - [Introduction](#introduction)
 - [Questions](#questions)

@@ -9,7 +9,7 @@ Part of my role involves threat hunting on client servers. During one of these h
 
 There are a few PHP deobfuscation tools available. Individually they didn't get the result, but in combination (along with some manual intervention) I was able to get a good result.
 
-## Table of Contents
+## Contents
 
 - [Tools](#tools)
 - [The .php](#the-php)

@@ -5,7 +5,7 @@ date: 2021-08-17
 
 [https://cyberdefenders.org/labs/73](https://cyberdefenders.org/labs/73)
 
-## Table of Contents
+## Contents
 
 - [Description](#description)
 - [Questions](#questions)
@@ -148,7 +148,6 @@ TinEye is much better as it tries to find the exam image. Searching the whole im
 ![cyberdefenders-lespion-010.png](../img/cyberdefenders-lespion-010.png)
 
 > Indiana
-
 
 ## Comments?
 
