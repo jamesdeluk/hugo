@@ -19,6 +19,7 @@ date: 2021-09-06
   - [What is the first command executed by the attacker?](#what-is-the-first-command-executed-by-the-attacker)
   - [What is the type of shell connection the attacker obtains through command execution?](#what-is-the-type-of-shell-connection-the-attacker-obtains-through-command-execution)
   - [What is the port he uses for the shell connection?](#what-is-the-port-he-uses-for-the-shell-connection)
+- [Comments?](#comments)
 
 ## Introduction
 
