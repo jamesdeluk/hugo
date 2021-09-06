@@ -176,4 +176,4 @@ Again, we already have this from the previous question - `4422`.
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/XXX)
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_btlo-challenge-network-analysis-web-activity-6840569024884146176-Lpvq)
