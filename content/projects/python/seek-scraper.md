@@ -1,5 +1,5 @@
 ---
-title: "Seek.com.au job scraper"
+title: "Seek.com.au Job Scraper"
 date: 2020-07-02
 ---
 
