@@ -182,4 +182,4 @@ But apart from that, I'm very happy with my first Arduino project in almost a de
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib)
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_myopia-measurer-activity-6843076761820000256-uRH7)
