@@ -6,7 +6,7 @@ I take notes using Notion. Lots of commands, tools, hints, and tips. Over 72,000
 
 ## [Live, on Notion](http://notion.gibbins.me)
 
-([backup link](https://www.notion.so/James-IT-9969909992c04b5ba3a734cdf0a74530))
+([backup link](https://jamesdeluk.notion.site/James-IT-Notes-9969909992c04b5ba3a734cdf0a74530))
 
 This is the real-time duplicate of my notes, hosted on notion.so. You might even see my typing.
 
