@@ -36,6 +36,10 @@ enableRobotsTXT = true
     url = "/projects"
   [[menu.header]]
     parent = "projects"
+    name = "arduino"
+    url = "/projects/arduino"
+  [[menu.header]]
+    parent = "projects"
     name = "python"
     url = "/projects/python"
   [[menu.header]]
