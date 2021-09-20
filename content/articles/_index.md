@@ -26,6 +26,12 @@ title: articles
 
 {{< br >}}
 
+## [operational-technology](operational-technology)
+
+> The world of essential services and critical infrastructure. It's bad if your website gets ransomwared, but what if your power grid does?
+
+{{< br >}}
+
 ## [reviews](reviews)
 
 > My opinions.

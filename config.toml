@@ -67,6 +67,10 @@ enableRobotsTXT = true
     name = "security-operations"
     url = "/articles/security-operations"
   [[menu.header]]
+    parent = "articles"
+    name = "operational-technology"
+    url = "/articles/operational-technology"
+  [[menu.header]]
     name = "notes"
     url = "/notes"
   [[menu.header]]
