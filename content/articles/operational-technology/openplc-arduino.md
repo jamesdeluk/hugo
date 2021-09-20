@@ -126,4 +126,4 @@ Here it is in action. Note this uses a different circuit to the other examples, 
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](XXX).
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_arduino-as-a-plc-with-openplc-and-ladder-activity-6845657001528307712-LNNQ).
