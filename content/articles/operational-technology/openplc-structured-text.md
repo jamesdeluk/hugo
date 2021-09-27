@@ -293,4 +293,4 @@ And the output:
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_arduino-as-a-plc-with-openplc-and-ladder-activity-6845657001528307712-LNNQ).
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_structured-text-in-openplc-activity-6848204999881834496-BeXW).
