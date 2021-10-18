@@ -105,4 +105,4 @@ Pretty cool! Note how the values appear live in the code, and the variables tabl
 
 ## Comments?
 
-Feel free to comment on my [LinkedIn post]().
+Feel free to comment on my [LinkedIn post](https://www.linkedin.com/posts/jamgib_creating-an-hmi-in-codesys-activity-6855759629843079168-2y0L).
