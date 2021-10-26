@@ -4,7 +4,7 @@ title: achievements
 
 ## Certifications
 
-{{< comptia-sec-plus >}} {{< comptia-cysa-plus >}} {{< comptia-csap >}} {{< btl1 >}} {{< microsoft-azure-az900 >}} {{< aws-ccp >}}
+{{< comptia-sec-plus >}} {{< comptia-cysa-plus >}} {{< comptia-pentest-plus >}} {{< comptia-csap >}} {{< comptia-cnvp >}} {{< comptia-cnsp >}} {{< btl1 >}} {{< microsoft-azure-az900 >}} {{< aws-ccp >}}
 
 {{< gitlab-certified-associate >}}
 
