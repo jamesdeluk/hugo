@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> Sysmon: How to install, upgrade, and uninstall &middot; user@james ~ $ </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "Sysmon: How to install, upgrade, and uninstall",
+        "headline" : "Sysmon: How to install, upgrade, and uninstall",
+        "description" : "Introduction Helpful Links Install Upgrade Uninstall  The Problem The Investigation The Solution    Introduction If you\u0026rsquo;re on this page you probably don\u0026rsquo;t need me to explain much about what Sysmon is or why it is an excellent tool for security monitoring. In short:\n It\u0026rsquo;s part of Microsoft\u0026rsquo;s Sysinternals Suite  So it should play nice with Windows   It can monitor almost anything that happens on a Windows host  So it can detect all the most common MITRE ATT\u0026amp;CKs   It logs using Windows Event Logs  So it\u0026rsquo;s easy to export to a SIEM etc for analysis    However, if you\u0026rsquo;ve tried rolling Sysmon out to a large number of machines, and then removing or updating it, you may have experienced some issues.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-06-02 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2021-06-02 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/security-operations\/sysmon-install\/",
+        "wordCount" : "829",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="flex-wrapper">
+            <div class="container wrapper single">
+                <ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/security-operations/">security-operations</a>
+    
+  </li>
+
+  
+  <li>
+    
+      Sysmon: How to install, upgrade, and uninstall
+    
+  </li>
+
+</ol>
+
+
+
+                <h1><a href="http://localhost:1313/articles/security-operations/sysmon-install/">Sysmon: How to install, upgrade, and uninstall</a></h1>
+                <span class="post-date">2021-06-02 </span>
+                <div class="post-content">
+                    <br/>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#helpful-links">Helpful Links</a></li>
+<li><a href="#install">Install</a></li>
+<li><a href="#upgrade">Upgrade</a></li>
+<li><a href="#uninstall">Uninstall</a>
+<ul>
+<li><a href="#the-problem">The Problem</a></li>
+<li><a href="#the-investigation">The Investigation</a></li>
+<li><a href="#the-solution">The Solution</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>If you&rsquo;re on this page you probably don&rsquo;t need me to explain much about what Sysmon is or why it is an excellent tool for security monitoring. In short:</p>
+<ul>
+<li>It&rsquo;s part of Microsoft&rsquo;s Sysinternals Suite
+<ul>
+<li>So it should play nice with Windows</li>
+</ul>
+</li>
+<li>It can monitor almost anything that happens on a Windows host
+<ul>
+<li>So it can detect all the most common MITRE ATT&amp;CKs</li>
+</ul>
+</li>
+<li>It logs using Windows Event Logs
+<ul>
+<li>So it&rsquo;s easy to export to a SIEM etc for analysis</li>
+</ul>
+</li>
+</ul>
+<p>However, if you&rsquo;ve tried rolling Sysmon out to a large number of machines, and then removing or updating it, you may have experienced some issues. At least, I did. So I&rsquo;ve collated some of my findings.</p>
+<p>At the time of writing Sysmon is on version 13.20.</p>
+<h2 id="helpful-links">Helpful Links</h2>
+<p>Main website: <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon" target="_blank">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon</a></p>
+<p>Sysmon guide: <a href="https://github.com/trustedsec/SysmonCommunityGuide/blob/master/install-and-configuration.md" target="_blank">https://github.com/trustedsec/SysmonCommunityGuide/blob/master/install-and-configuration.md</a></p>
+<p>Sysmon support: <a href="https://docs.microsoft.com/en-us/answers/topics/windows-sysinternals-sysmon.html" target="_blank">https://docs.microsoft.com/en-us/answers/topics/windows-sysinternals-sysmon.html</a></p>
+<h2 id="install">Install</h2>
+<p>This is the easy bit. Download <code>Sysmon.zip</code> from the main website, extract, then run:</p>
+<p><code>Sysmon64.exe -i</code></p>
+<p>If you have a config file you want to use:</p>
+<p><code>Sysmon64.exe -i &lt;path-to-config.xml&gt;</code></p>
+<p>Done.</p>
+<h2 id="upgrade">Upgrade</h2>
+<p>This is where it gets more complicated. You can&rsquo;t upgrade:</p>
+<p><code>The service Sysmon64 is already registered. Uninstall Sysmon before reinstalling.</code></p>
+<h2 id="uninstall">Uninstall</h2>
+<p>And even this isn&rsquo;t simply. While Sysmon has a built-in uninstall action:</p>
+<p><code>Sysmon64.exe -u</code></p>
+<h3 id="the-problem">The Problem</h3>
+<p>Except, sometimes it fails. And when it does, you&rsquo;re kind of stuck. You can&rsquo;t reinstall Sysmon, as it claims Sysmon is already installed, but you also can&rsquo;t uninstall it by rerunning the command, as it says it&rsquo;s not installed. Catch 22!</p>
+<p>There is another option:</p>
+<p><code>Sysmon64.exe -u force</code></p>
+<p>Although there is no documentation on exactly what it forces. See my forum post: <a href="https://docs.microsoft.com/en-us/answers/questions/404683/sysmon-u-vs-u-force.html" target="_blank">https://docs.microsoft.com/en-us/answers/questions/404683/sysmon-u-vs-u-force.html</a></p>
+<p>And it doesn&rsquo;t seem to make much difference anyway.</p>
+<h3 id="the-investigation">The Investigation</h3>
+<p>This led me to further investigation. I ran several installs and uninstalls and took snapshots using <a href="https://sourceforge.net/projects/regshot/" target="_blank">Regshot</a>, an awesome tool that lets you do before-and-afters for the filesystem and registry.</p>
+<p>From this, I found Sysmon affects the following:</p>
+<ul>
+<li><code>C:\Windows\Sysmon64.exe</code></li>
+<li><code>C:\Windows\SysmonDrv.sys</code></li>
+<li><code>HKLM:\SYSTEM\CurrentControlSet\Services\Sysmon64</code></li>
+<li><code>HKLM:\SYSTEM\CurrentControlSet\Services\SysmonDrv</code></li>
+<li><code>HKLM:\SYSTEM\ControlSet001\Services\Sysmon64</code></li>
+<li><code>HKLM:\SYSTEM\ControlSet001\Services\SysmonDrv</code></li>
+<li><code>HKLM:\SYSTEM\ControlSet002\Services\Sysmon64</code></li>
+<li><code>HKLM:\SYSTEM\ControlSet002\Services\SysmonDrv</code></li>
+<li><code>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational</code></li>
+<li><code>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{5770385f-c22a-43e0-bf4c-06f5698ffbd9}</code></li>
+<li><code>HKLM:\SYSTEM\CurrentControlSet\Control\WMI\Autologger\EventLog-Microsoft-Windows-Sysmon-Operational</code></li>
+</ul>
+<p>Other findings:</p>
+<ol>
+<li>Even though it says <code>Sysmon64 removed.</code>, uninstalling Sysmon does <em>not</em> remove the <code>Sysmon64.exe</code> file itself. This needs to be done manually.</li>
+<li>If it fails, often even a machine reboot won&rsquo;t fix it. This is because the <code>Services\SysmonDrv</code> registry keys, and <code>SysmonDrv.sys</code>, still exist. When the machine restarts, the service will start (note it&rsquo;s not visible in Task Manager or the Services manager). If you try to uninstall or reinstall, you get the above &ldquo;already exists&rdquo; issue.</li>
+</ol>
+<p>This means, if the <code>Sysmon64.exe -u</code> fails, you&rsquo;ll need to do some manual intervention. This is the best I&rsquo;ve found.</p>
+<h3 id="the-solution">The Solution</h3>
+<p>First, I wrote a script to check the above files, to see what exists and what doesn&rsquo;t. In production I used a more complex one that feeds into our SIEM, but this is the core of it:</p>
+<script type="application/javascript" src="https://gist.github.com/jamesdeluk/39e0825067c51ea9684143cfd50caf53.js"></script>
+
+<p>I like to use <code>O</code> for success and <code>X</code> for fail, from my teaching in Korea days.</p>
+<p>For a fresh install, the output is something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">O <span style="color:#960050;background-color:#1e0010">:</span> C:\Windows\Sysmon64.exe
+O <span style="color:#960050;background-color:#1e0010">:</span> C:\Windows\SysmonDrv.sys
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\Sysmon64
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\SysmonDrv
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet001\Services\Sysmon64
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet001\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet002\Services\Sysmon64
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet002\Services\SysmonDrv
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{5770385f-c22a-43e0-bf4c-06f5698ffbd9}
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Control\WMI\Autologger\EventLog-Microsoft-Windows-Sysmon-Operational
+Running <span style="color:#960050;background-color:#1e0010">:</span> Sysmon64
+Running <span style="color:#960050;background-color:#1e0010">:</span> SysmonDrv
+</code></pre></div><p>However, a failed uninstall might look something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">O <span style="color:#960050;background-color:#1e0010">:</span> C:\Windows\Sysmon64.exe
+O <span style="color:#960050;background-color:#1e0010">:</span> C:\Windows\SysmonDrv.sys
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\Sysmon64
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet001\Services\Sysmon64
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet001\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet002\Services\Sysmon64
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet002\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{5770385f-c22a-43e0-bf4c-06f5698ffbd9}
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Control\WMI\Autologger\EventLog-Microsoft-Windows-Sysmon-Operational
+<span style="color:#960050;background-color:#1e0010">:</span> Sysmon64
+Running <span style="color:#960050;background-color:#1e0010">:</span> SysmonDrv
+</code></pre></div><p>The executable is there, but the service relating to it doesn&rsquo;t exist. Yet the driver is still up and running. If you try to stop the driver manually after a failed <code>-u</code> uninstall, it often doesn&rsquo;t - you get a <code>Stopping the service failed</code> error, or it just hangs at <code>Stopping</code>.</p>
+<p>There is a solution, however. If the registry keys relating to the service don&rsquo;t exist, then, on the next reboot, the service doesn&rsquo;t exist either. Hence, it doesn&rsquo;t start (and therefore doesn&rsquo;t need stopping), so you can delete <code>SysmonSys.Drv</code> and you&rsquo;re good to go!</p>
+<p>To make this easier - yeah, another PowerShell script, with error logging:</p>
+<script type="application/javascript" src="https://gist.github.com/jamesdeluk/48f1c5b545a1cd10832e25b677f0e758.js"></script>
+
+<p>The output from my clean install above was (note <code>O</code> means successfully deleted):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\Sysmon64
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\SysmonDrv
+Cannot find path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\ControlSet001\Services\Sysmon64&#39;</span> because it does not exist.
+Cannot find path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\ControlSet001\Services\SysmonDrv&#39;</span> because it does not exist.
+Cannot find path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\ControlSet002\Services\Sysmon64&#39;</span> because it does not exist.
+Cannot find path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\ControlSet002\Services\SysmonDrv&#39;</span> because it does not exist.
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{5770385f-c22a-43e0-bf4c-06f5698ffbd9}
+O <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Control\WMI\Autologger\EventLog-Microsoft-Windows-Sysmon-Operational
+</code></pre></div><p>Then, after a reboot, you can delete <code>C:\Windows\SysmonDrv.sys</code> (and <code>C:\Windows\Sysmon64.exe</code> if you haven&rsquo;t already). If you run <code>sysmon-checks.ps1</code> again you&rsquo;ll get this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">X <span style="color:#960050;background-color:#1e0010">:</span> C:\Windows\Sysmon64.exe
+X <span style="color:#960050;background-color:#1e0010">:</span> C:\Windows\SysmonDrv.sys
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\Sysmon64
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet001\Services\Sysmon64
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet001\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet002\Services\Sysmon64
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\ControlSet002\Services\SysmonDrv
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{5770385f-c22a-43e0-bf4c-06f5698ffbd9}
+X <span style="color:#960050;background-color:#1e0010">:</span> HKLM<span style="color:#960050;background-color:#1e0010">:</span>\SYSTEM\CurrentControlSet\Control\WMI\Autologger\EventLog-Microsoft-Windows-Sysmon-Operational
+<span style="color:#960050;background-color:#1e0010">:</span> Sysmon64
+<span style="color:#960050;background-color:#1e0010">:</span> SysmonDrv
+</code></pre></div><p>And then you can install as normal!</p>
+
+                </div>
+                
+                <div class="post-comments">
+                    
+                </div>
+                
+            </div>
+            <footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+        </div>
+    </body>

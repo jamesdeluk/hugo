@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+		<title> digital forensics &middot; user@james ~ $ </title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "digital forensics",
+        "headline" : "digital forensics",
+        "description" : "",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-10-11 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2021-10-11 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/digital-forensics\/",
+        "wordCount" : "0",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+	</head>
+	<body>
+		<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+		<div class="flex-wrapper">
+			<div class="container wrapper list">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<h1 id=>digital forensics</h1>
+					</div>
+					<ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      digital forensics
+    
+  </li>
+
+</ol>
+
+
+
+					
+						<ul id="post-list">
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-honeybot/">[ CyberDefenders ] HoneyBOT (pcap Analysis)</a></h4>
+										<h4 class="post-date">2021-10-11</h4>
+									</div>
+									<div class="post-summary"><p>https://cyberdefenders.org/labs/45
+Contents  Description  Tools   Questions  1. What is the attackers IP address? 2. What is the targets IP address? 3. Provide the country code for the attackers IP address (a.k.a geo-location). 4. How many TCP sessions are present in the captured traffic? 5. How long did it take to perform the attack (in seconds)? 6. No question 6 . . . 7. Provide the CVE number of the exploited vulnerability.</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-honeybot/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-network-analysis-web-shell/">[ BTLO Challenge ] Network Analysis - Web Shell</a></h4>
+										<h4 class="post-date">2021-09-06</h4>
+									</div>
+									<div class="post-summary"><p>https://blueteamlabs.online/home/challenge/12
+Contents  Introduction Questions  What is the IP responsible for conducting the port scan activity? What is the port range scanned by the suspicious host? What is the type of port scan conducted? Two more tools were used to perform reconnaissance against open ports, what were they? What is the name of the php file through which the attacker uploaded a web shell? What is the name of the web shell that the attacker uploaded?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-network-analysis-web-shell/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-xlm-macros/">[ CyberDefenders ] XLM Macros (Document Analysis)</a></h4>
+										<h4 class="post-date">2021-09-01</h4>
+									</div>
+									<div class="post-summary"><p>https://cyberdefenders.org/labs/55
+Contents  Description  Helpful Tools   Questions  1: Sample1: What is the document decryption password? 2. There is no question 2 . . . 3: Sample1: This document contains six hidden sheets. What are their names? Provide the value of the one starting with S. 4: Sample1: What URL is the malware using to download the next stage? 5: Sample1: What malware family was this document attempting to drop?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-xlm-macros/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-lespion/">[ CyberDefenders ] L&#39;Espion (OSINT)</a></h4>
+										<h4 class="post-date">2021-08-17</h4>
+									</div>
+									<div class="post-summary"><p>https://cyberdefenders.org/labs/73
+Contents  Description Questions  1: Github.txt: What is the API key the insider added to his GitHub repositories? 2: Github.txt: What is the plaintext password the insider added to his GitHub repositories? 3: Github.txt: What cryptocurrency mining tool did the insider use? 4: What university did the insider go to? 5: What gaming website the insider had an account on? 6: What is the link to the insider Instagram profile?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-lespion/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-malicious-log-analysis/">[ BTLO Challenge ] Log Analysis - Privilege Escalation</a></h4>
+										<h4 class="post-date">2021-08-09</h4>
+									</div>
+									<div class="post-summary"><p>https://blueteamlabs.online/home/challenge/4
+Contents  Introduction Questions  What user (other than ‘root’) is present on the server? What script did the attacker try to download to the server? What packet analyzer tool did the attacker try to use? What file extension did the attacker use to bypass the file upload filter implemented by the developer? Based on the commands run by the attacker before removing the php shell, what misconfiguration was exploited in the ‘python’ binary to gain root-level access?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-malicious-log-analysis/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-africafalls/">[ CyberDefenders ] AfricaFalls (Disk Image Forensics)</a></h4>
+										<h4 class="post-date">2021-07-18</h4>
+									</div>
+									<div class="post-summary"><p>https://cyberdefenders.org/labs/66
+Contents  Introduction  Tools   Preparation Questions  #1: What is the MD5 hash value of the suspect disk? #2: What phrase did the suspect search for on 2021-04-29 18:17:38 UTC? #3: What is the IPv4 address of the FTP server the suspect connected to? #4: What date and time was a password list deleted in UTC? #5: How many times was Tor Browser ran on the suspects computer?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-africafalls/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-memory-analysis-ransomware/">[ BTLO Challenge ] Memory Analysis - Ransomware</a></h4>
+										<h4 class="post-date">2021-07-12</h4>
+									</div>
+									<div class="post-summary"><p>https://blueteamlabs.online/home/challenge/1
+  Introduction Questions  Run “vol.py -f infected.vmem &amp;ndash;profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process? What is the parent process ID for the suspicious process? What is the initial malicious executable that created this process? If you drill down on the suspicious PID (vol.py -f infected.vmem &amp;ndash;profile=Win7SP1x86 psscan | grep (PIDhere)), find the process used to delete files Find the path where the malicious file was first executed Can you identify what ransomware it is?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-memory-analysis-ransomware/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/php-backdoor-deobfuscation/">PHP Backdoor Deobfuscation</a></h4>
+										<h4 class="post-date">2021-07-04</h4>
+									</div>
+									<div class="post-summary"><p>Part of my role involves threat hunting on client servers. During one of these hunts I found a PHP backdoor called shell20210526.php. It was obfuscated - challenge accepted!
+There are a few PHP deobfuscation tools available. Individually they didn&rsquo;t get the result, but in combination (along with some manual intervention) I was able to get a good result.
+Contents  Tools The .php Stage 1: UnPHP Stage 2: Manual Editing Stage 3: Run the Function Stage 4: PHP Deobfuscator Base64 Variables HTML Front-end Investigation Comments  Tools UnPHP - The Online PHP Decoder</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/php-backdoor-deobfuscation/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/sans-june-2021-forensic-contest/">SANS June 2021 Forensic Contest</a></h4>
+										<h4 class="post-date">2021-06-29</h4>
+									</div>
+									<div class="post-summary"><p>Update The answers have been released and are available here: https://isc.sans.edu/forums/diary/June&#43;2021&#43;Forensic&#43;Contest&#43;Answers&#43;and&#43;Analysis/27582/
+They said it was hard, and it was. I&rsquo;m proud of what I found! Reflecting back:
+ For some reason, I thought they meant not all the machines are infected. It turns out all three were! So I skipped over .93 entirely. Similarly, I was thinking each infected machine only had one piece of malware. Wrong again! Because I was looking for the answers and not thinking as if it was a real investigation, I stopped looking too early.</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/sans-june-2021-forensic-contest/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-the-planets-prestige/">[ BTLO Challenge ] The Planet&#39;s Prestige (Email and Attachment Analysis)</a></h4>
+										<h4 class="post-date">2021-06-20</h4>
+									</div>
+									<div class="post-summary"><p>https://blueteamlabs.online/home/challenge/10
+  What is the email service used by the malicious actor? What is the Reply-To email address? What is the filetype of the received attachment which helped to continue the investigation What is the name of the malicious actor? What is the location of the attacker in this Universe? What could be the probable C2 domain to control the attacker’s autonomous bots?  What is the email service used by the malicious actor?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-the-planets-prestige/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-hammered/">[ CyberDefenders ] Hammered (Log Analysis)</a></h4>
+										<h4 class="post-date">2021-05-27</h4>
+									</div>
+									<div class="post-summary"><p>https://cyberdefenders.org/labs/42
+Contents  Initial Analysis  Initial Findings   Manipulating the Logs  auth.log - sorted by command then time auth.log - all unique lines sorted by command (excluding timestamp) auth.log - extract commands auth.log - extract IPs www-access.log - extract IPs www-access.log - extract user agents   Questions  #1 Which service did the attackers use to gain access to the system? #2 What is the operating system version of the targeted system?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-hammered/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-malicious-powershell-analysis/">[ BTLO Challenge ] Malicious PowerShell Analysis</a></h4>
+										<h4 class="post-date">2021-05-16</h4>
+									</div>
+									<div class="post-summary"><p>https://blueteamlabs.online/home/challenge/7
+  Open the file Decode the file Deobfuscating the script  Spacing Fillers Chars Variables Format Strings Replaces Splits   Questions  What security protocol is being used for the communication with a malicious domain? What directory does the obfuscated PowerShell create? (Starting from \HOME) What file is being downloaded (full name)? What is used to execute the downloaded file? What is the domain name of the URI ending in ‘/6F2gd/’ Based on the analysis of the obfuscated code, what is the name of the malware?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-malicious-powershell-analysis/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-maldoc101/">[ CyberDefenders ] MalDoc101 (Document Analysis)</a></h4>
+										<h4 class="post-date">2021-04-26</h4>
+									</div>
+									<div class="post-summary"><p>https://cyberdefenders.org/labs/51
+Contents  Tools Used 1. Multiple streams contain macros in this document. Provide the number of highest one. 2. What event is used to begin the execution of the macros? 3. What malware family was this maldoc attempting to drop? 4. What stream is responsible for the storage of the base64-encoded string? 5. This document contains a user-form. Provide the name? 6. This document contains an obfuscated base64 encoded string; what value is used to pad (or obfuscate) this string?</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/cyberdefenders-maldoc101/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/sans-april-2021-forensic-quiz/">SANS April 2021 Forensic Quiz</a></h4>
+										<h4 class="post-date">2021-04-22</h4>
+									</div>
+									<div class="post-summary"><p>https://isc.sans.edu/forums/diary/April&#43;2021&#43;Forensic&#43;Quiz/27266/
+  Introduction Artifacts  Excel-related Executables and DLLs Scheduled Task   Pcaps  Export objects Traffic   Summary  SHAs    Introduction We&rsquo;re provided with a .pcap and a bunch of artifacts (files).
+The AD, we&rsquo;re told, is as follows:
+ LAN segment range: 192.168.5.0/24 (192.168.5.0 through 192.168.5.255) Domain: clockwater.net Domain Controller: 192.168.5.5 - Clockwater-DC LAN segment gateway: 192.168.5.1 LAN segment broadcast address: 192.168.5.255  Artifacts First, let&rsquo;s inspect the artifacts.</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/sans-april-2021-forensic-quiz/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="post-list-item">
+									<div class="post-header">
+										<h4 class="post-link"><a href="http://localhost:1313/articles/digital-forensics/botsv3/">Splunk BOTSv3 Write-Up</a></h4>
+										<h4 class="post-date">2020-09-08</h4>
+									</div>
+									<div class="post-summary"><p>Splunk have several &ldquo;Boss of the SOC&rdquo; datasets, simulating a security incident - think of it as a Blue Team/SIEM-based CTF. This is my write-up for BOTSv3, at the time of writing the most recent dataset available. It seems that Taedonggang, a North Korean group, have attacked Frothly, a beer maker&hellip;
+The official BOTSv3 page is here: https://github.com/splunk/botsv3
+ I wrote this on Notion, and it is best viewed there, as it is always up-to-date and is visually best.</p></div>
+									<div class="post-list-footer text-center">
+										<a href="http://localhost:1313/articles/digital-forensics/botsv3/">Read More</a>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					
+				</div>
+			</div>
+		</div>
+		<footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+	</body>
+</html>

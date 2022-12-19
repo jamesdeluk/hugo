@@ -1,3 +1,0 @@
----
-title: operational-technology
----

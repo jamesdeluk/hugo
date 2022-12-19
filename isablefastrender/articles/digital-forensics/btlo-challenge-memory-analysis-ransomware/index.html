@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> [ BTLO Challenge ] Memory Analysis - Ransomware &middot; user@james ~ $ </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "[ BTLO Challenge ] Memory Analysis - Ransomware",
+        "headline" : "[ BTLO Challenge ] Memory Analysis - Ransomware",
+        "description" : "https:\/\/blueteamlabs.online\/home\/challenge\/1\n  Introduction Questions  Run “vol.py -f infected.vmem \u0026amp;ndash;profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process? What is the parent process ID for the suspicious process? What is the initial malicious executable that created this process? If you drill down on the suspicious PID (vol.py -f infected.vmem \u0026amp;ndash;profile=Win7SP1x86 psscan | grep (PIDhere)), find the process used to delete files Find the path where the malicious file was first executed Can you identify what ransomware it is?",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-07-12 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2021-07-12 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/digital-forensics\/btlo-challenge-memory-analysis-ransomware\/",
+        "wordCount" : "928",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="flex-wrapper">
+            <div class="container wrapper single">
+                <ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/digital-forensics/">digital forensics</a>
+    
+  </li>
+
+  
+  <li>
+    
+      [ BTLO Challenge ] Memory Analysis - Ransomware
+    
+  </li>
+
+</ol>
+
+
+
+                <h1><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-memory-analysis-ransomware/">[ BTLO Challenge ] Memory Analysis - Ransomware</a></h1>
+                <span class="post-date">2021-07-12 </span>
+                <div class="post-content">
+                    <p><a href="https://blueteamlabs.online/home/challenge/1" target="_blank">https://blueteamlabs.online/home/challenge/1</a></p>
+<br/>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#questions">Questions</a>
+<ul>
+<li><a href="#run-volpy--f-infectedvmem---profilewin7sp1x86-psscan-that-will-list-all-processes-what-is-the-name-of-the-suspicious-process">Run “vol.py -f infected.vmem &amp;ndash;profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process?</a></li>
+<li><a href="#what-is-the-parent-process-id-for-the-suspicious-process">What is the parent process ID for the suspicious process?</a></li>
+<li><a href="#what-is-the-initial-malicious-executable-that-created-this-process">What is the initial malicious executable that created this process?</a></li>
+<li><a href="#if-you-drill-down-on-the-suspicious-pid-volpy--f-infectedvmem---profilewin7sp1x86-psscan--grep-pidhere-find-the-process-used-to-delete-files">If you drill down on the suspicious PID (vol.py -f infected.vmem &amp;ndash;profile=Win7SP1x86 psscan | grep (PIDhere)), find the process used to delete files</a></li>
+<li><a href="#find-the-path-where-the-malicious-file-was-first-executed">Find the path where the malicious file was first executed</a></li>
+<li><a href="#can-you-identify-what-ransomware-it-is">Can you identify what ransomware it is?</a></li>
+<li><a href="#what-is-the-filename-for-the-file-with-the-ransomware-public-key-that-was-used-to-encrypt-the-private-key">What is the filename for the file with the ransomware public key that was used to encrypt the private key?</a></li>
+</ul>
+</li>
+<li><a href="#comments">Comments</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<blockquote>
+<p>The Account Executive called the SOC earlier and sounds very frustrated and angry. He stated he can’t access any files on his computer and keeps receiving a pop-up stating that his files have been encrypted. You disconnected the computer from the network and extracted the memory dump of his machine and started analyzing it with Volatility. Continue your investigation to uncover how the ransomware works and how to stop it!</p>
+</blockquote>
+<br/>
+<p>We&rsquo;re provided with one <code>.vmen</code> file. REMnux (the distro I use for my malware analysis) has two versions of Volatility installed - version 3 (<code>vol3</code>) and version 2 (<code>vol.py</code>). The versions are quite different, and from my understanding version 2 is still the most common, so I will be using that. Plus, the instructions for this challenge say to use version 3.</p>
+<p>You can see all the differences here: <a href="https://volatility3.readthedocs.io/en/latest/vol2to3.html" target="_blank">https://volatility3.readthedocs.io/en/latest/vol2to3.html</a></p>
+<h2 id="questions">Questions</h2>
+<h3 id="run-volpy--f-infectedvmem---profilewin7sp1x86-psscan-that-will-list-all-processes-what-is-the-name-of-the-suspicious-process">Run “vol.py -f infected.vmem &ndash;profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process?</h3>
+<p>Do as we&rsquo;re told and we&rsquo;re provided with a big table:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-0.png" alt="btlo-challenge-memory-analysis-ransomware-0.png"></p>
+<p>Looking through the different process names, there are a couple strange ones</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-1.png" alt="btlo-challenge-memory-analysis-ransomware-1.png"></p>
+<blockquote>
+<p>@WanaDecryptor</p>
+</blockquote>
+<h3 id="what-is-the-parent-process-id-for-the-suspicious-process">What is the parent process ID for the suspicious process?</h3>
+<p>From the table headings in the first image, we can see both <code>@WanaDecryptor</code> processes have a PPID (parent PID) or 2732.</p>
+<blockquote>
+<p>2732</p>
+</blockquote>
+<h3 id="what-is-the-initial-malicious-executable-that-created-this-process">What is the initial malicious executable that created this process?</h3>
+<p>Checking the PID column for 2732 gives us the answer.</p>
+<blockquote>
+<p>or4qtckT.exe</p>
+</blockquote>
+<h3 id="if-you-drill-down-on-the-suspicious-pid-volpy--f-infectedvmem---profilewin7sp1x86-psscan--grep-pidhere-find-the-process-used-to-delete-files">If you drill down on the suspicious PID (vol.py -f infected.vmem &ndash;profile=Win7SP1x86 psscan | grep (PIDhere)), find the process used to delete files</h3>
+<p>Run the command as we&rsquo;re told:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-2.png" alt="btlo-challenge-memory-analysis-ransomware-2.png"></p>
+<p>There&rsquo;s one more related process!</p>
+<blockquote>
+<p>taskdl.exe</p>
+</blockquote>
+<h3 id="find-the-path-where-the-malicious-file-was-first-executed">Find the path where the malicious file was first executed</h3>
+<p>We&rsquo;re not told how to find this, so we&rsquo;ll have to do some more research ourselves.</p>
+<p>Fortunately SANS has created an excellent Volatility cheat sheet, available free here: <a href="https://www.sans.org/posters/memory-forensics-cheat-sheet/" target="_blank">https://www.sans.org/posters/memory-forensics-cheat-sheet/</a></p>
+<p>If we check handles for or4qwtckT.exe using the command <code>handles -p 2732</code> (note this and all commands below require <code>$ vol.py -f infected.vmem --profile=Win7SP1x86</code> before, as with the <code>psscan</code> example). The second handle is a File:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-3.png" alt="btlo-challenge-memory-analysis-ransomware-3.png"></p>
+<p>This suggests the file is on the User hacker&rsquo;s desktop.</p>
+<br/>
+<p>Similarly, if we check related DLLs with the command <code>dlllist -p 2732</code>, we get confirmation of this:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-4.png" alt="btlo-challenge-memory-analysis-ransomware-4.png"></p>
+<br/>
+<p>One more thing we can do is scan the memory dump for files, with <code>filescan | grep or4qtckT</code>. And once again:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-5.png" alt="btlo-challenge-memory-analysis-ransomware-5.png"></p>
+<br/>
+<p>It&rsquo;s always good to verify your answer with multiple methods, if possible.</p>
+<blockquote>
+<p>C:\Users\hacker\Desktop\or4qtckT.exe</p>
+</blockquote>
+<h3 id="can-you-identify-what-ransomware-it-is">Can you identify what ransomware it is?</h3>
+<p>My first thought is to get the hash of the file and check it.</p>
+<p>We can extract the process using the command <code>procdump -p 2732 -n --dump-dir=./</code>, which gives us a file called <code>executable.2732.exe</code>.</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-6.png" alt="btlo-challenge-memory-analysis-ransomware-6.png"></p>
+<p>We can take the hash of it with <code>$ sha256sum executable.2732.exe</code>, which gives us <code>5215d03bf5b6db206a3da5dde0a6cbefc8b4fee2f84b99109b0fce07bd2246d6</code>. Putting the hash into VirusTotal:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-7.png" alt="btlo-challenge-memory-analysis-ransomware-7.png"></p>
+<br/>
+<p>Alternatively, we can extract the file itself, as we know the filename, using the command <code>dumpfiles -r or4qtckT -n --dump-dir=./</code>.</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-8.png" alt="btlo-challenge-memory-analysis-ransomware-8.png"></p>
+<p>This produces a file called <code>file.2732.0x83eb0c58.or4qtckT.exe.img</code>. The SHA 256 is <code>993aa68f3bbe281506fd977e51c520d94916d349ff44acfdefba179ca1404d15</code> (note it&rsquo;s different), but according to VirusTotal:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-9.png" alt="btlo-challenge-memory-analysis-ransomware-9.png"></p>
+<br/>
+<p>The result is the same.</p>
+<blockquote>
+<p>WannaCry</p>
+</blockquote>
+<h3 id="what-is-the-filename-for-the-file-with-the-ransomware-public-key-that-was-used-to-encrypt-the-private-key">What is the filename for the file with the ransomware public key that was used to encrypt the private key?</h3>
+<p>If we&rsquo;re looking for files, the most obvious thought is <code>filescan</code>. However, this produces <em>lot</em> of files - and this is only a small memory dump. We could try to limit but filetype, but who says they&rsquo;ll use a standard key extension? We could also try and search by directory, but then again, in theory it could be anywhere. However, before we go down this path&hellip;</p>
+<p>We&rsquo;ve already used the <code>handles</code> to show us the files etc being accessed/used by a specific process to find the filename. What if we look deeper?</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-10.png" alt="btlo-challenge-memory-analysis-ransomware-10.png"></p>
+<p>That looks like it could be something.</p>
+<p>I want to do a bit more on <code>filescan</code>, however, to see how easy it would be to find.</p>
+<p>For the file extension, Google might help. We know it&rsquo;s WannaCry, so let&rsquo;s search something simple like &ldquo;wannacry public key file extension&rdquo;. The first link for me was a FireEye article: <a href="https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html" target="_blank">https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html</a></p>
+<p>Lots of interesting information here. And, near the top is the following:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-11.png" alt="btlo-challenge-memory-analysis-ransomware-11.png"></p>
+<p>That looks&hellip; Familiar. We don&rsquo;t need to do a <code>filescan</code> and <code>grep</code> for those because we&rsquo;ve already found one through <code>handles</code>.</p>
+<p>The other thought would be the file directory. Again, <code>handles</code> may have given this away, but it wouldn&rsquo;t be too surprising for the malware and the key to be in the same directory (that is, Desktop). If we do <code>filescan | grep -F &quot;hacker\Desktop</code> (the <code>-F</code> means <code>grep</code> seaches for the fixed string, not using regex), we get quite a lot:</p>
+<p><img src="../img/btlo-challenge-memory-analysis-ransomware-12.png" alt="btlo-challenge-memory-analysis-ransomware-12.png"></p>
+<p>Here we see all the malicious executables, the key, and some other fun files like <code>00000000.res</code> and <code>b.wnry</code>. The <code>.wnry</code> extension is what&rsquo;s used by WannaCry for encrypted files. The <code>.res</code> is presumably related to the key.</p>
+<blockquote>
+<p>00000000.eky</p>
+</blockquote>
+<h2 id="comments">Comments?</h2>
+<p>Feel free to comment on my <a href="https://www.linkedin.com/posts/jamgib_btlo-challenge-memory-analysis-ransomware-activity-6820304637736947712-Z5uP" target="_blank">LinkedIn post</a></p>
+
+                </div>
+                
+                <div class="post-comments">
+                    
+                </div>
+                
+            </div>
+            <footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+        </div>
+    </body>

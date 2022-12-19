@@ -20,7 +20,7 @@ enableRobotsTXT = true
   GithubID = 'jamesdeluk'
   LinkedInID = 'jamgib'
   RedditID = 'jamesdeluk'
-  StackOverflowID = '8680753/jamesdeluk'
+  # StackOverflowID = '8680753/jamesdeluk'
   TwitterID = 'jamesdeluk'
   # Medium = 'jamesdeluk'
 
@@ -47,35 +47,13 @@ enableRobotsTXT = true
     name = "bash"
     url = "/projects/bash"
   [[menu.header]]
-    identifier = "articles"
-    name = "articles"
-    url = "/articles"
+    parent = "projects"
+    name = "cyber-security"
+    url = "/projects/cyber-security"
   [[menu.header]]
-    parent = "articles"
-    name = "reviews"
-    url = "/articles/reviews"
-  [[menu.header]]
-    parent = "articles"
-    name = "offensive-security"
-    url = "/articles/offensive-security"
-  [[menu.header]]
-    parent = "articles"
-    name = "digital-forensics"
-    url = "/articles/digital-forensics"
-  [[menu.header]]
-    parent = "articles"
-    name = "security-operations"
-    url = "/articles/security-operations"
-  [[menu.header]]
-    parent = "articles"
-    name = "operational-technology"
-    url = "/articles/operational-technology"
-  [[menu.header]]
-    name = "notes"
-    url = "/notes"
-  [[menu.header]]
-    name = "achievements"
-    url = "/achievements"
+    parent = "projects"
+    name = "cyber-security-achievements"
+    url = "/projects/cyber-security-achievements"
   [[menu.header]]
     name = "search"
     url = "/search"

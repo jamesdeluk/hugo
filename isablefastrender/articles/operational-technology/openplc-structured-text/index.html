@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> Structured Text in OpenPLC &middot; user@james ~ $ </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "Structured Text in OpenPLC",
+        "headline" : "Structured Text in OpenPLC",
+        "description" : "Introduction Structured Text Project Examples  Two-Button Latching Circuit One-Button Latching Circuit with Emergency Stop Playing with Timers Steady(ish) State (e.g Temperature)   Comments?  Introduction After playing around with ladder logic (LL) in OpenPLC, I wanted to get a basic grip of structured text (ST). While LL is a visual method of programming PLCs, ST is a C-like language for programming PLCs, featuring well-know coding functions such as IF and WHILE.",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-09-27 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2021-09-27 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/operational-technology\/openplc-structured-text\/",
+        "wordCount" : "1463",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="flex-wrapper">
+            <div class="container wrapper single">
+                <ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/operational-technology/">operational-technology</a>
+    
+  </li>
+
+  
+  <li>
+    
+      Structured Text in OpenPLC
+    
+  </li>
+
+</ol>
+
+
+
+                <h1><a href="http://localhost:1313/articles/operational-technology/openplc-structured-text/">Structured Text in OpenPLC</a></h1>
+                <span class="post-date">2021-09-27 </span>
+                <div class="post-content">
+                    <ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#structured-text">Structured Text</a></li>
+<li><a href="#project-examples">Project Examples</a>
+<ul>
+<li><a href="#two-button-latching-circuit">Two-Button Latching Circuit</a></li>
+<li><a href="#one-button-latching-circuit-with-emergency-stop">One-Button Latching Circuit with Emergency Stop</a></li>
+<li><a href="#playing-with-timers">Playing with Timers</a></li>
+<li><a href="#steadyish-state-eg-temperature">Steady(ish) State (e.g Temperature)</a></li>
+</ul>
+</li>
+<li><a href="#comments">Comments?</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>After <a href="https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/" target="_blank">playing around</a> with ladder logic (LL) in OpenPLC, I wanted to get a basic grip of structured text (ST). While LL is a visual method of programming PLCs, ST is a C-like language for programming PLCs, featuring well-know coding functions such as IF and WHILE.</p>
+<p>Fortunately, OpenPLC also allows you to program PLCs using ST! There is one minor difference; with Ladder Logic, OpenPLC can simulate the circuit and get a pretty visualisation based on the LL design itself - see the images in my <a href="https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/#one-button-latching-circuit-with-emergency-stop" target="_blank">previous post</a>. With ST, because there is no design, there is no pretty visualisation. However, the Debugger does give a timeline of the states of the various variables, and it can be used to force a value, so you can still simulate a circuit.</p>
+<p>While studying ST, I noticed many of the tutorials used a piece of software called CODESYS for their programming. This is much more feature-rich than OpenPLC, and can do visualisations - it can do full HMI, with buttons and lights etc. So you can guess what a future post will be about ;-)</p>
+<h2 id="structured-text">Structured Text</h2>
+<p>You&rsquo;ll see the code below, but a few things about the language first:</p>
+<ul>
+<li>A mandatory semi-colon <code>;</code> ends each statement</li>
+<li><code>IF</code> is closed with <code>END_IF</code>, requires <code>THEN</code>, and brackets are not used</li>
+<li><code>:=</code> is used for variable assignment</li>
+</ul>
+<h2 id="project-examples">Project Examples</h2>
+<p>Let&rsquo;s recreate the <a href="https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/#project-examples" target="_blank">basic designs</a> I created with LL before in OpenPLC and get them running on the Arduino.</p>
+<p>The physical Arduino circuit is the same as before (<a href="https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/#project-examples" target="_blank">see here</a>), and of course OpenPLC is installed and configured in the same way also (<a href="https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/#installation" target="_blank">see here</a>).</p>
+<h3 id="two-button-latching-circuit">Two-Button Latching Circuit</h3>
+<p>The variables are the same as before:</p>
+<p><img src="../img/Untitled.png" alt="Untitled"></p>
+<p>The code is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">IF PB1 THEN
+  LED :<span style="color:#f92672">=</span> TRUE;
+END_IF;
+
+IF PB2 THEN
+  LED :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+</code></pre></div><p>Even if you&rsquo;ve never done any coding before, I&rsquo;m sure this will make sense. If <code>PB1</code> is pressed, set <code>LED</code> to <code>TRUE</code> (on). If <code>PB2</code> is pressed, turn it off.</p>
+<p>Note how <code>PB1</code> doesn&rsquo;t have to be physically held on to keep <code>LED</code> on; once it is pressed, <code>LED</code> is set to <code>TRUE</code>, and this stays until it is changed. With LL we needed a contact linked to the LED in parallel with the push button to latch it; in ST, it&rsquo;s effectively self-latching.</p>
+<p>To simulate this in OpenPLC, click the Simulate button and let it compile and start etc:</p>
+<p><img src="../img/openplc-st-1.png" alt="openplc-st-1"></p>
+<p>Next, click Debug on the left panel:</p>
+<p><img src="../img/openplc-st-2.png" alt="openplc-st-2"></p>
+<p>A new tab will appear, and the person will become a STOP sign:</p>
+<p><img src="../img/openplc-st-3.png" alt="openplc-st-3"></p>
+<p>On right panel, it will change to the Debugger tab, but currently it&rsquo;s empty:</p>
+<p><img src="../img/openplc-st-4.png" alt="openplc-st-4"></p>
+<p>To Debug (view) the individual variables, click the glasses icon for each in the left panel:</p>
+<p><img src="../img/openplc-st-5.png" alt="openplc-st-5"></p>
+<p>They will appear in the right panel:</p>
+<p><img src="../img/openplc-st-6.png" alt="openplc-st-6"></p>
+<p>If you hover over then double-click, we get visuals!</p>
+<p><img src="../img/openplc-st-7.png" alt="openplc-st-7"></p>
+<p>Repeat for all, and then if you hover over the visual, you can change the size. I like the middle-size one:</p>
+<p><img src="../img/openplc-st-8.png" alt="openplc-st-8"></p>
+<p>Now, if you hover over the value (in this case, False), you get a new menu:</p>
+<p><img src="../img/openplc-st-9.png" alt="openplc-st-9"></p>
+<p>If you click the padlock, you can set the value in a new popup:</p>
+<p><img src="../img/openplc-st-10.png" alt="openplc-st-10"></p>
+<p>Click Toggle value then OK, and the chart will change:</p>
+<p><img src="../img/openplc-st-11.png" alt="openplc-st-11"></p>
+<p>And note how this has turned the LED on!</p>
+<p>You can force all the values all the values this way to see the behaviour. Note you&rsquo;ll have to Toggle the <code>PB1</code> both on and off (<code>TRUE</code> and <code>FALSE</code>) to simulate pressing and releasing the button.</p>
+<p>If the speed is too fast, you can change the Duration setting in the Debugger. I found 30s good.</p>
+<p>Here&rsquo;s the full &ldquo;routine&rdquo; - <code>PB1</code> <code>TRUE</code> (<code>LED</code> <code>TRUE</code>) then <code>FALSE</code>, then <code>PB2</code> <code>TRUE</code> (<code>LED</code> <code>FALSE</code>) then <code>FALSE</code>:</p>
+<p><img src="../img/openplc-st-12.png" alt="openplc-st-12"></p>
+<p>Interestingly, if you hold <code>PB2</code> <code>TRUE</code> (i.e. keep the button pressed), <code>LED</code> stays <code>FALSE</code> even if you press <code>PB1</code>. This is because, in the ST, the code for <code>PB2</code> comes after the code for <code>PB1</code></p>
+<p><img src="../img/openplc-st-13.png" alt="openplc-st-13"></p>
+<p>Changing the code around:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">IF PB2 <span style="color:#f92672">=</span> TRUE THEN
+  LED :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+
+IF PB1 <span style="color:#f92672">=</span> TRUE THEN
+  LED :<span style="color:#f92672">=</span> TRUE;
+END_IF;
+</code></pre></div><p>Creates the opposite effect:</p>
+<p><img src="../img/openplc-st-14.png" alt="openplc-st-14"></p>
+<p>Also, if you decrease the Duration enough, you can see the ramp for the change:</p>
+<p><img src="../img/openplc-st-15.png" alt="openplc-st-15"></p>
+<p>Uploading to the Arduino works in the same way as with LL and creates the same result as the Debugger. Unsurprising, really.</p>
+<h3 id="one-button-latching-circuit-with-emergency-stop">One-Button Latching Circuit with Emergency Stop</h3>
+<p>Next one! The initial thought is this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">IF PB1 AND NOT PB2 THEN
+  LED :<span style="color:#f92672">=</span> NOT LED;
+END_IF;
+
+IF PB2 THEN
+  LED :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+</code></pre></div><p>The second line, quite simply, toggles the value of <code>LED</code> to the opposite of what it was. <code>TRUE</code> becomes <code>FALSE</code>, and <code>FALSE</code> becomes <code>TRUE</code>. If <code>PB2</code> (emergency stop) is pressed, this will not happen. And whatever value <code>LED</code> is, if <code>PB2</code> is pressed, the <code>LED</code> goes off.</p>
+<p>However, this creates a strange effect:</p>
+<p><img src="../img/openplc-st-16.png" alt="openplc-st-16"></p>
+<p>Let&rsquo;s zoom in by changing the Duration:</p>
+<p><img src="../img/openplc-st-17.png" alt="openplc-st-17"></p>
+<p>On the actual Arduino, this is the LED flashing continuously.</p>
+<p>Why is this? Well, PLC code loops continously. This means, every loop, it sees <code>PB1</code> high, and toggles <code>LED</code>. Not quite what we want.</p>
+<p>The solution is using states; in particular, using a variable to log the previous state of <code>PB1</code>, and only do something if the previous state has changed. So, we add a new variable, <code>PB1_PREV</code> (note this does not relate to anything physical; it is purely a variable):</p>
+<p><img src="../img/openplc-st-18.png" alt="openplc-st-18"></p>
+<p>And the code looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">IF PB1 AND NOT PB1_PREV AND NOT PB2 THEN
+  LED :<span style="color:#f92672">=</span> NOT LED;
+END_IF;
+
+PB1_PREV :<span style="color:#f92672">=</span> PB1;
+
+IF PB2 THEN
+  LED :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+</code></pre></div><p>This is the same as before, but each loop, <code>PB1_PREV</code> is set to be the same as <code>PB1</code>, and the <code>IF</code> only functions if <code>PB1</code> is <em>not</em> equal to <code>PB1_PREV</code>.</p>
+<p>Here is the full functionality, both turned on and off by <code>PB1</code>, and an emergency stop caused by <code>PB2</code> even though <code>PB1</code> was still <code>TRUE</code> (and, if <code>PB2</code> is <code>TRUE</code>, <code>PB1</code> has no effect):</p>
+<p><img src="../img/openplc-st-19.png" alt="openplc-st-19"></p>
+<h3 id="playing-with-timers">Playing with Timers</h3>
+<p>The variables:</p>
+<p><img src="../img/openplc-st-20.png" alt="openplc-st-20"></p>
+<p>The code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">my_ton_in :<span style="color:#f92672">=</span> PB1;
+
+my_ton(
+     IN :<span style="color:#f92672">=</span> my_ton_in,
+     PT :<span style="color:#f92672">=</span> my_pt,
+     Q <span style="color:#f92672">=&gt;</span> my_ton_q);
+
+my_tof(
+     IN :<span style="color:#f92672">=</span> my_ton_q,
+     PT :<span style="color:#f92672">=</span> my_pt,
+     Q <span style="color:#f92672">=&gt;</span> my_tof_q);
+     
+LED :<span style="color:#f92672">=</span> my_tof_q;
+</code></pre></div><p>The <code>TON</code> (timer on) <code>my_ton</code> input <code>my_ton_in</code> is set to be the same as <code>PB1</code>. <code>PT</code> is for the time variable, <code>my_pt</code>, set to <code>T#2000ms</code> (I&rsquo;ve used the same variable, two seconds, for each timer, but of course different variables could be used). The output of <code>my_ton</code> is assigned to <code>my_ton_q</code>, which is used as the input for the <code>TOF</code> (timer off) <code>my_tof</code>. The output of this, <code>my_tof_q</code>, is then assigned to <code>LED</code>.</p>
+<p>The functionality. Note the delay between <code>PB1</code> and <code>LED</code>:</p>
+<p><img src="../img/openplc-st-21.png" alt="openplc-st-21"></p>
+<h3 id="steadyish-state-eg-temperature">Steady(ish) State (e.g Temperature)</h3>
+<p>The variables are the same as LL (I&rsquo;ve explained the strange numbers <a href="https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/#steadyish-state-eg-temperature" target="_blank">here</a>), except the temperatures are also included up here, and I&rsquo;ve used initial values to make the simulation look better:</p>
+<p><img src="../img/openplc-st-22.png" alt="openplc-st-22"></p>
+<p>The code is actually simpler than using LL, as each comparison can change multiple variables. It&rsquo;s easy to read what it does:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">IF sensor <span style="color:#f92672">&gt;=</span> temp_max THEN
+  cooler_on :<span style="color:#f92672">=</span> TRUE;
+  heater_on :<span style="color:#f92672">=</span> FALSE;
+  ideal_temp :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+
+IF sensor <span style="color:#f92672">&lt;=</span> temp_min THEN
+  heater_on :<span style="color:#f92672">=</span> TRUE;
+  cooler_on :<span style="color:#f92672">=</span> FALSE;
+  ideal_temp :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+
+IF sensor <span style="color:#f92672">&lt;=</span> temp_max AND sensor <span style="color:#f92672">&gt;=</span> temp_min THEN
+  ideal_temp :<span style="color:#f92672">=</span> TRUE;
+END_IF;
+</code></pre></div><p>As a reminder, here is the same functionality in LL:</p>
+<p><img src="../img/openplc-st-23.png" alt="openplc-st-23"></p>
+<p>Note how, in this case, <code>cooler_on</code> and <code>heater_on</code> are de-energized using a NC contactor linked to <code>ideal_temp</code>, which would be similar to <code>IF (sensor &gt;= temp_max) AND NOT ideal_temp THEN</code>. However, not only does this not seem to work as well in ST, it also isn&rsquo;t really what we want if we think logically about the functionality. A better way, which we did in ST above, is to directly define the values of <code>cooler_on</code> and <code>heater_on</code> depending on the comparison.</p>
+<p>As for the Debug chart:</p>
+<p><img src="../img/openplc-st-24.png" alt="openplc-st-24"></p>
+<p>With ST, it&rsquo;s very easy to take this a step further. We can keep the heater or cooler on until it hits the perfect temperature, and then stop. So, instead of potentially yo-yoing between the <code>temp_max</code> and <code>temp_min</code>, it will only increase or decrease to the perfect temperature. This involves setting a new variable, <code>perfect_temp</code>, and let&rsquo;s say set to 42598 (the mid-point). The new code looks like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">IF sensor <span style="color:#f92672">&gt;=</span> temp_max THEN
+  cooler_on :<span style="color:#f92672">=</span> TRUE;
+  heater_on :<span style="color:#f92672">=</span> FALSE;
+  ideal_temp :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+
+IF sensor <span style="color:#f92672">&lt;=</span> temp_min THEN
+  heater_on :<span style="color:#f92672">=</span> TRUE;
+  cooler_on :<span style="color:#f92672">=</span> FALSE;
+  ideal_temp :<span style="color:#f92672">=</span> FALSE;
+END_IF;
+
+IF sensor <span style="color:#f92672">&lt;=</span> temp_max AND sensor <span style="color:#f92672">&gt;=</span> temp_min THEN
+  ideal_temp :<span style="color:#f92672">=</span> TRUE;
+  IF sensor <span style="color:#f92672">&lt;</span> perfect_temp THEN
+    heater_on :<span style="color:#f92672">=</span> TRUE;
+    cooler_on :<span style="color:#f92672">=</span> FALSE;
+  END_IF;
+  IF sensor <span style="color:#f92672">&gt;</span> perfect_temp THEN
+    cooler_on :<span style="color:#f92672">=</span> TRUE;
+    heater_on :<span style="color:#f92672">=</span> FALSE;
+  END_IF;
+  IF sensor <span style="color:#f92672">=</span> perfect_temp THEN
+    cooler_on :<span style="color:#f92672">=</span> FALSE;
+    heater_on :<span style="color:#f92672">=</span> FALSE;
+  END_IF;
+END_IF;
+</code></pre></div><p>And the output:</p>
+<p><img src="../img/openplc-st-25.png" alt="openplc-st-25"></p>
+<h2 id="comments">Comments?</h2>
+<p>Feel free to comment on my <a href="https://www.linkedin.com/posts/jamgib_structured-text-in-openplc-activity-6848204999881834496-BeXW" target="_blank">LinkedIn post</a>.</p>
+
+                </div>
+                
+                <div class="post-comments">
+                    
+                </div>
+                
+            </div>
+            <footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+        </div>
+    </body>

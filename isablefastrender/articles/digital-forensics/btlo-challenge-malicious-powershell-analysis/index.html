@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> [ BTLO Challenge ] Malicious PowerShell Analysis &middot; user@james ~ $ </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.90.0" />
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/nix.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/styles.css">
+
+
+<script src=http://localhost:1313/js/lunr-search.js></script>
+<script src=http://localhost:1313/js/lunr.js></script>
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T1FV3DWGP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4T1FV3DWGP');
+</script>
+
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http:\/\/localhost:1313\/"
+        },
+        "articleSection" : "articles",
+        "name" : "[ BTLO Challenge ] Malicious PowerShell Analysis",
+        "headline" : "[ BTLO Challenge ] Malicious PowerShell Analysis",
+        "description" : "https:\/\/blueteamlabs.online\/home\/challenge\/7\n  Open the file Decode the file Deobfuscating the script  Spacing Fillers Chars Variables Format Strings Replaces Splits   Questions  What security protocol is being used for the communication with a malicious domain? What directory does the obfuscated PowerShell create? (Starting from \\HOME) What file is being downloaded (full name)? What is used to execute the downloaded file? What is the domain name of the URI ending in ‘\/6F2gd\/’ Based on the analysis of the obfuscated code, what is the name of the malware?",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2021",
+        "datePublished": "2021-05-16 00:00:00 \u002b0000 UTC",
+        "dateModified" : "2021-05-16 00:00:00 \u002b0000 UTC",
+        "url" : "http:\/\/localhost:1313\/articles\/digital-forensics\/btlo-challenge-malicious-powershell-analysis\/",
+        "wordCount" : "803",
+        "keywords" : [ "Blog" ]
+    }
+</script>
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      <a class="navbar-brand" id="green-terminal" href='http://localhost:1313/'>
+        @james ~ $
+      </a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href='http://localhost:1313/'>/home/</a>
+        </li>
+        
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/achievements">~/achievements</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">articles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/articles/digital-forensics">~/digital-forensics</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/offensive-security">~/offensive-security</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/operational-technology">~/operational-technology</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/reviews">~/reviews</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/articles/security-operations">~/security-operations</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/notes">~/notes</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="http://localhost:1313/projects/arduino">~/arduino</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/bash">~/bash</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="http://localhost:1313/projects/python">~/python</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="http://localhost:1313/search">~/search</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="flex-wrapper">
+            <div class="container wrapper single">
+                <ol class="breadcrumb">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li>
+    
+      <a href="/">james</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/">articles</a>
+    
+  </li>
+
+  
+  <li>
+    
+      <a href="/articles/digital-forensics/">digital forensics</a>
+    
+  </li>
+
+  
+  <li>
+    
+      [ BTLO Challenge ] Malicious PowerShell Analysis
+    
+  </li>
+
+</ol>
+
+
+
+                <h1><a href="http://localhost:1313/articles/digital-forensics/btlo-challenge-malicious-powershell-analysis/">[ BTLO Challenge ] Malicious PowerShell Analysis</a></h1>
+                <span class="post-date">2021-05-16 </span>
+                <div class="post-content">
+                    <p><a href="https://blueteamlabs.online/home/challenge/7" target="_blank">https://blueteamlabs.online/home/challenge/7</a></p>
+<br/>
+<ul>
+<li><a href="#open-the-file">Open the file</a></li>
+<li><a href="#decode-the-file">Decode the file</a></li>
+<li><a href="#deobfuscating-the-script">Deobfuscating the script</a>
+<ul>
+<li><a href="#spacing">Spacing</a></li>
+<li><a href="#fillers">Fillers</a></li>
+<li><a href="#chars">Chars</a></li>
+<li><a href="#variables">Variables</a></li>
+<li><a href="#format-strings">Format Strings</a></li>
+<li><a href="#replaces">Replaces</a></li>
+<li><a href="#splits">Splits</a></li>
+</ul>
+</li>
+<li><a href="#questions">Questions</a>
+<ul>
+<li><a href="#what-security-protocol-is-being-used-for-the-communication-with-a-malicious-domain-">What security protocol is being used for the communication with a malicious domain?</a></li>
+<li><a href="#what-directory-does-the-obfuscated-powershell-create---starting-from--home--">What directory does the obfuscated PowerShell create? (Starting from \HOME)</a></li>
+<li><a href="#what-file-is-being-downloaded--full-name--">What file is being downloaded (full name)?</a></li>
+<li><a href="#what-is-used-to-execute-the-downloaded-file-">What is used to execute the downloaded file?</a></li>
+<li><a href="#what-is-the-domain-name-of-the-uri-ending-in---6f2gd--">What is the domain name of the URI ending in ‘/6F2gd/’</a></li>
+<li><a href="#based-on-the-analysis-of-the-obfuscated-code--what-is-the-name-of-the-malware-">Based on the analysis of the obfuscated code, what is the name of the malware?</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="open-the-file">Open the file</h2>
+<p>Let&rsquo;s open the text file in a text editor (I like VSCodium) and see what we&rsquo;re dealing with.</p>
+<p><img src="../img/btlo_challenge_malicious_powershell_analysis-0.png" alt="btlo_challenge_malicious_powershell_analysis-0"></p>
+<p>An encoded PowerShell script.</p>
+<h2 id="decode-the-file">Decode the file</h2>
+<p>CyberChef is an excellent tool for decoding it. Note PoweShell uses an uncommon encoding (UTF-16LE), so we also need to decode the text as well as convert it from Base64.</p>
+<p><img src="../img/btlo_challenge_malicious_powershell_analysis-1.png" alt="btlo_challenge_malicious_powershell_analysis-1"></p>
+<p>Now we have a decoded, but obfuscated, PowerShell script. Let&rsquo;s copy that into our text editor and start deobfuscating.</p>
+<h2 id="deobfuscating-the-script">Deobfuscating the script</h2>
+<p>I tried a few automated scripts and tools, but none worked that well. So I&rsquo;ll do it manually.</p>
+<p>To make things easier, you can set PowerShell syntax highlighting in VSCodium so, as you progress, more colour will appear.</p>
+<p>I also save as a new file after each step in case I need to revert, as some of this might break the actual script. However, it&rsquo;s malicious anyway, so if we make it unrunnable, that&rsquo;s not necessarily a bad thing!</p>
+<h3 id="spacing">Spacing</h3>
+<p>The semicolon splits commands in PowerShell, so for readability, we can replace <code>;</code> with two new lines (<code>\n\n</code> in regex).</p>
+<h3 id="fillers">Fillers</h3>
+<p>Delete all <code>'+'</code> and backticks ```, as they just seem to be filler.</p>
+<p>We see quite a few parts split with various combinations of parenthesis, addition signs, and quotes/apostrophes. For example: <code>$Swrp6tc = (('A69')+'S')</code></p>
+<p>We can replace these using regex:</p>
+<p><code>\(\('(.*?)'\)\+'(.*?)'\)</code> → <code>$1$2</code></p>
+<p><code>\('(.*?)'\+\('(.*?)'\)\)</code> → <code>$1$2</code></p>
+<p>It also looks okay to delete all <code>')+('</code>, <code>'+('</code>, and <code>')+'</code> in this script. As mentioned above, if it breaks the script (as it probably will), it doesn&rsquo;t matter - it&rsquo;s safer, and we have a backup anyway.</p>
+<p>There are a couple others which I did manually, by sight.</p>
+<h3 id="chars">Chars</h3>
+<p>There are a few <code>[char](##)</code> values. For example, <code>[char](64)</code> is <code>@</code> according to the ASCII table.</p>
+<h3 id="variables">Variables</h3>
+<p>PowerShell variables begin with <code>$</code>. We can see this script has several variables, such as <code>$J16J=N_0P</code>. However, if you search the script for the variable e.g. <code>J16J</code>, you see it&rsquo;s not in the script. It&rsquo;s purely filler. We can delete all like this, especially given early in the script we see <code>$ErrorActionPreference = SilentlyContine</code>, meaning any missing variables will simply be ignored.</p>
+<p>In other places, where the variable is only mentioned in two places, we can substitute the variable into where it is called e.g. <code>$Swrp6tc</code>.</p>
+<p><em>Side note</em>: NOP is a &ldquo;no operation&rdquo; instruction in assembly language, and is often used in malware for buffer overflows.</p>
+<h3 id="format-strings">Format Strings</h3>
+<p>The format operator <code>-f</code> is used to split and reorder strings. You simply need to rearrange them in order of the numbers (note it starts with 0). This can be done using a tool, although in this case I did it manually as it&rsquo;s not too complex (and, as mentioned above, the automated tools I tried failed).</p>
+<p><code>[TYPe](&quot;{0}{1}{2}{4}{3}&quot; -F 'SYsT','eM.','io.DI','ORY','rECt')</code> = <code>SYsteM.io.DIrECtORY</code> → <code>System.IO.Directory</code></p>
+<p><code>[TYPe](&quot;{6}{8}{0}{3}{4}{5}{2}{7}{1}&quot; -f'SteM','Ger','Ma','.n','et.seRVIcepOi','nt','s','NA','Y')</code> = <code>sYSteM.net.seRVIcepOintMaNAGer</code> → <code>System.Net.ServicePointManager</code></p>
+<p><code>($HOME + (('{0}Db_bh30{0}Yf5be5g{0}') -F \))</code> = <code>($HOME + ('\Db_bh30\Yf5be5g\')</code></p>
+<h3 id="replaces">Replaces</h3>
+<p>There are some <code>.Replace</code> commands, which, as the name suggests, replace one thing with another thing. Note for both the below I&rsquo;ve already replaced variables and chars and some fillers seen above.</p>
+<p>The first one is easier:</p>
+<p><code>$Imd1yck=$HOME+((('UOHDb_bh30UOHYf5be5gUOH')).&quot;RePlACe&quot;(('UOH'),[StrInG]\))+A69S+(.dll</code></p>
+<p>If we replace <code>UOH</code> with <code>\</code>, and get rid of some more filler, we get:</p>
+<p><code>$Imd1yck=$HOME+('\Db_bh30\Yf5be5g\A69S.dll')</code></p>
+<p>The second is a bit more complicated:</p>
+<p><code>$B9fhbyv=]anw[3s://admintk.com/wp-admin/L/@]anw[3s://mikegeerinck.com/c/YYsa/@]anw[3://freelancerwebdesignerhyderabad.com/cgi-bin/S/@]anw[3://etdog.com/wp-content/nu/@]anw[3s://www.hintup.com.br/wp-content/dE/@]anw[3://www.stmarouns.nsw.edu.au/paypal/b8G/@]anw[3://wm.mcdevelop.net/content/6F2gd/.&quot;REplACe&quot;(]anw[3,(('sd','sw'),(('http,'3d')[1])</code></p>
+<p>Fortunately with a bit of common sense we can see <code>]anw[3</code> is being replaced with <code>http</code>.</p>
+<p><code>$B9fhbyv=https://admintk.com/wp-admin/L/@https://mikegeerinck.com/c/YYsa/@http://freelancerwebdesignerhyderabad.com/cgi-bin/S/@http://etdog.com/wp-content/nu/@https://www.hintup.com.br/wp-content/dE/@http://www.stmarouns.nsw.edu.au/paypal/b8G/@http://wm.mcdevelop.net/content/6F2gd/</code></p>
+<h3 id="splits">Splits</h3>
+<p>Leading on nicely from the previous result, as it is followed by a split:</p>
+<p><code>$B9fhbyv=https://admintk.com/wp-admin/L/@https://mikegeerinck.com/c/YYsa/@http://freelancerwebdesignerhyderabad.com/cgi-bin/S/@http://etdog.com/wp-content/nu/@https://www.hintup.com.br/wp-content/dE/@http://www.stmarouns.nsw.edu.au/paypal/b8G/@http://wm.mcdevelop.net/content/6F2gd/.&quot;sPLIT&quot;(@)</code></p>
+<p>Split on <code>@</code> - in other words, replace <code>@</code> with <code>,</code> and wrap the whole statement in <code>@()</code> - gives us an array of URLs:</p>
+<p><code>$B9fhbyv=@(https://admintk.com/wp-admin/L/,https://mikegeerinck.com/c/YYsa/,http://freelancerwebdesignerhyderabad.com/cgi-bin/S/,http://etdog.com/wp-content/nu/,https://www.hintup.com.br/wp-content/dE/,http://www.stmarouns.nsw.edu.au/paypal/b8G/,http://wm.mcdevelop.net/content/6F2gd/)</code></p>
+<p>By now we should have enough to answer all the questions!</p>
+<h2 id="questions">Questions</h2>
+<h3 id="what-security-protocol-is-being-used-for-the-communication-with-a-malicious-domain">What security protocol is being used for the communication with a malicious domain?</h3>
+<p><code>&quot;sEcuRITYproTocol&quot; = Tls12</code></p>
+<h3 id="what-directory-does-the-obfuscated-powershell-create-starting-from-home">What directory does the obfuscated PowerShell create? (Starting from \HOME)</h3>
+<p><code>\HOME\Db_bh30\Yf5be5g\</code></p>
+<h3 id="what-file-is-being-downloaded-full-name">What file is being downloaded (full name)?</h3>
+<p><code>A69S.dll</code></p>
+<h3 id="what-is-used-to-execute-the-downloaded-file">What is used to execute the downloaded file?</h3>
+<p><code>rundll32</code></p>
+<h3 id="what-is-the-domain-name-of-the-uri-ending-in-6f2gd">What is the domain name of the URI ending in ‘/6F2gd/’</h3>
+<p><code>wm.mcdevelop.net</code></p>
+<h3 id="based-on-the-analysis-of-the-obfuscated-code-what-is-the-name-of-the-malware">Based on the analysis of the obfuscated code, what is the name of the malware?</h3>
+<p>The script itself doesn&rsquo;t give us this answer. However, if we Google for some of the artifact names, e.g. <code>A69S.dll</code> or <code>wm.mcdevelop.net</code>, we get our answer:</p>
+<p><a href="https://bazaar.abuse.ch/sample/23be1cb22c94fe77cea5f8e7fef6710eeef5a23e7e7eb9b9dd53f56d1b954269/" target="_blank">MalwareBazaar | SHA256 23be1cb22c94fe77cea5f8e7fef6710eeef5a23e7e7eb9b9dd53f56d1b954269 (Heodo)</a></p>
+<p><a href="https://urlhaus.abuse.ch/url/948889/" target="_blank">URLhaus | http://wm.mcdevelop.net/content/6F2gd/</a></p>
+
+                </div>
+                
+                <div class="post-comments">
+                    
+                </div>
+                
+            </div>
+            <footer class="footer text-center">
+<p>Copyright &copy; 2022 James -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+        </div>
+    </body>

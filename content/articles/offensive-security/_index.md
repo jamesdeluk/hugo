@@ -1,3 +1,0 @@
----
-title: offensive security
----
