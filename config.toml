@@ -31,29 +31,28 @@ enableRobotsTXT = true
     name = "about"
     url = "/about"
   [[menu.header]]
-    identifier = "projects"
-    name = "projects"
-    url = "/projects"
+    name = "achievements"
+    url = "/achievements"
   [[menu.header]]
-    parent = "projects"
+    identifier = "computing"
+    name = "computing"
+    url = "/computing"
+  [[menu.header]]
+    parent = "computing"
     name = "arduino"
-    url = "/projects/arduino"
+    url = "/computing/arduino"
   [[menu.header]]
-    parent = "projects"
+    parent = "computing"
     name = "python"
-    url = "/projects/python"
+    url = "/computing/python"
   [[menu.header]]
-    parent = "projects"
+    parent = "computing"
     name = "bash"
-    url = "/projects/bash"
+    url = "/computing/bash"
   [[menu.header]]
-    parent = "projects"
+    parent = "computing"
     name = "cyber-security"
-    url = "/projects/cyber-security"
-  [[menu.header]]
-    parent = "projects"
-    name = "cyber-security-achievements"
-    url = "/projects/cyber-security-achievements"
+    url = "/computing/cyber-security"
   [[menu.header]]
     name = "search"
     url = "/search"
