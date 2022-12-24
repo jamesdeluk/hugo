@@ -1,65 +1,106 @@
-baseURL = "https://www.jamesgibbins.com/"
-languageCode = "en-gb"
-theme = "hugo-theme-nix"
-pluralizelisttitles = false
-title = "james"
-# publishDir = "docs" # for github
-enableRobotsTXT = true
-# summaryLength = 100
+baseURL = 'http://www.jamesgibbins.com/'
+languageCode = 'en-gb'
+languageName = "English"
+theme = 'LoveIt'
+title = 'James'
 
-[params]
-  Name = "James"
-  Author = "James"
-  HeaderUsername = ""
-  HeaderHostname = "james"
-  About = ""
-  ProfilePicture = "/img/hshysrot.gif" # /hugo/img for github
-  Favicon = "favicon.ico" # /hugo/img for github
-
-  Email = 'james@gibbins.me'
-  GithubID = 'jamesdeluk'
-  LinkedInID = 'jamgib'
-  RedditID = 'jamesdeluk'
-  # StackOverflowID = '8680753/jamesdeluk'
-  TwitterID = 'jamesdeluk'
-  # Medium = 'jamesdeluk'
-
-  googleAnalytics = "G-4T1FV3DWGP"
+[author]
+  name = "James"
+  email = "james@gibbins.me"
+  link = ""
 
 [menu]
-  [[menu.header]]
-    name = "about"
-    url = "/about"
-  [[menu.header]]
-    name = "achievements"
-    url = "/achievements"
-  [[menu.header]]
-    identifier = "computing"
-    name = "computing"
-    url = "/computing"
-  [[menu.header]]
-    parent = "computing"
-    name = "arduino"
-    url = "/computing/arduino"
-  [[menu.header]]
-    parent = "computing"
-    name = "python"
-    url = "/computing/python"
-  [[menu.header]]
-    parent = "computing"
-    name = "bash"
-    url = "/computing/bash"
-  [[menu.header]]
-    parent = "computing"
-    name = "cyber-security"
-    url = "/computing/cyber-security"
-  [[menu.header]]
-    name = "search"
-    url = "/search"
+  [[menu.main]]
+    weight = 1
+    identifier = "home"
+    name = "Home"
+    url = "/"
+  [[menu.main]]
+    weight = 2
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    weight = 3
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    weight = 4
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+  [[menu.main]]
+    weight = 5
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
 
-[outputFormats.SearchIndex]
-baseName = "search"
-mediaType = "application/json"
+[markup]
+  [markup.highlight]
+    noClasses = false
 
-[outputs]
-home = [ "HTML", "RSS", "SearchIndex" ]
+[params]
+title = ""
+description = ""
+
+  [params.header]
+    [params.header.title]
+      logo = "/img/hshysrot.gif"
+      name = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = true
+    copyright = false
+    author = false
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = "/img/hshysrot.gif"
+      title = ""
+      subtitle = "New site for 2023!"
+      typeit = true
+      social = true
+    [params.home.posts]
+      enable = true
+      paginate = 6
+  [params.social]
+    Email = "james@gibbins.me"
+    Linkedin = "jamgib"
+    Twitter = "jamesdeluk"
+    Goodreads = "89676019-james"
+    Reddit = "jamesdeluk"
+    GitHub = "jamesdeluk"
+    Youtubechannel = "UCKo-rY6saVM3fMV6Ycq-JBw"
+    # Medium = ""
+    # Spotify = "drakelet"
+
+  [params.app]
+    title = "James"
+
+  [params.page.share]
+    enable = true
+    Twitter = true
+    Facebook = false
+    Linkedin = true
+    HackerNews = false
+    Line = false
+    Weibo = false
+
+  [params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = "G-4T1FV3DWGP"
+
+  [params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    absoluteURL = false
+
+  [outputs]
+    home = ["HTML", "RSS", "JSON"]
