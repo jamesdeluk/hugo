@@ -1,4 +1,4 @@
-baseURL = 'http://www.jamesgibbins.com/'
+baseURL = 'https://www.jamesgibbins.com/'
 languageCode = 'en-gb'
 languageName = "English"
 theme = 'LoveIt'
