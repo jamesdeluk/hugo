@@ -71,13 +71,13 @@ description = ""
   [params.social]
     Email = "james@gibbins.me"
     Linkedin = "jamgib"
+    Medium = "@jgibbins"
     Twitter = "jamesdeluk"
     Goodreads = "89676019-james"
     Reddit = "jamesdeluk"
     GitHub = "jamesdeluk"
+    Spotify = "drakelet"
     Youtubechannel = "UCKo-rY6saVM3fMV6Ycq-JBw"
-    # Medium = ""
-    # Spotify = "drakelet"
 
   [params.app]
     title = "James"
