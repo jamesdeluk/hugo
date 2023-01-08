@@ -7,8 +7,6 @@ tags: ["Articles","Banking","Batteries","Blinkist","Cameras","Carbon Capture","C
 date: 2023-01-08
 ---
 
-*My very rough notes from some of the media I consumed this week.*
-
 ### [Podcast] [My First Million] The Annual Milly Awards: The Winners, The Losers And Everything In Between With Andrew Wilkinson
 
 - A good decision can have a bad result. A bad decision can have a good result. Good decisions win in the long run
