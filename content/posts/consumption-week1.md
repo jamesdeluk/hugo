@@ -80,7 +80,7 @@ date: 2023-01-08
 - [https://www.visualcapitalist.com/who-americans-spend-their-time-with](https://www.visualcapitalist.com/who-americans-spend-their-time-with)
 - Mostly alone, colleagues and partner similar until retirement.
 
-### **[Article] Animated Chart: The Smartphone Effect on the Camera Market**
+### [Article] Animated Chart: The Smartphone Effect on the Camera Market
 
 - [https://www.visualcapitalist.com/cp/charting-the-smartphone-effect-camera-market](https://www.visualcapitalist.com/cp/charting-the-smartphone-effect-camera-market)
 - Standalone digital cameras had a tiny lifespan. What else could be this way?
@@ -166,7 +166,7 @@ date: 2023-01-08
 - Tips: Rinse in cold water; don't remove labels; keep plastic lids on (colour and type sorting machinery handles); leave plastic on cardboard box/envelope (machines separate).
 - Listening made me positive about achieving something?
 
-### [Article] **New EV entrants disrupt Europe’s automotive market**
+### [Article] New EV entrants disrupt Europe’s automotive market
 
 - [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/new-ev-entrants-disrupt-europes-automotive-market](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/new-ev-entrants-disrupt-europes-automotive-market)
 - The new entrants, however, have chosen vastly different GTM strategies. These range from direct-to-consumer (DTC) strategies that feature their own outlets (such as NIO and Lynk & Co.), strategic partnerships with importers for wholesale distribution (for example, BYD), pure importer models (for instance, Skywell) and partnerships with non-automotive retailers (such as Aiways that has partnered with an electronics retailer in Germany).
@@ -176,7 +176,7 @@ date: 2023-01-08
     ![Untitled](../img/week1-8.png)
     
 
-### [Article] ****World’s largest vertical farm is being built in the UK and it’s the size of 96 tennis courts****
+### [Article] World’s largest vertical farm is being built in the UK and it’s the size of 96 tennis courts
 
 - [https://www.euronews.com/green/2022/06/09/world-s-largest-vertical-farm-is-being-built-in-the-uk-and-it-s-the-size-of-96-tennis-cour](https://www.euronews.com/green/2022/06/09/world-s-largest-vertical-farm-is-being-built-in-the-uk-and-it-s-the-size-of-96-tennis-cour)
 - Jones Food Company (JFC), Lincolnshire, 13,500m2
