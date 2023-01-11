@@ -1,6 +1,6 @@
 ---
 title: Arduino Myopia Measurer
-categories: ['Hardware & Software']
+categories: ['Tech Projects']
 tags: ['Arduino']
 date: 2021-09-13
 ---

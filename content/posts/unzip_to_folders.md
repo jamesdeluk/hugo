@@ -1,6 +1,6 @@
 ---
 title: unzip_to_folders
-categories: ['Hardware & Software']
+categories: ['Tech Projects']
 tags: ['Bash']
 date: 2021-01-08
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Seek.com.au Job Scraper"
-categories: ['Hardware & Software']
+categories: ['Tech Projects']
 tags: ['Python']
 date: 2020-07-02
 ---

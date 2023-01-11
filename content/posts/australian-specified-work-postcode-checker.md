@@ -1,6 +1,6 @@
 ---
 title: Australian Specified Work Postcode Checker
-categories: ['Hardware & Software']
+categories: ['Tech Projects']
 tags: ['Python']
 date: 2020-05-30
 ---
