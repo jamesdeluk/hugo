@@ -1,5 +1,5 @@
 ---
-title: Applying core mental models to strategy consulting
+title: Applying Core Mental Models to Strategy Consulting
 categories: ["Cognition"]
 tags: ["Mental Models", "Energy", "Farnam Street", "Strategy", "Consulting"]
 date: 2023-01-11
