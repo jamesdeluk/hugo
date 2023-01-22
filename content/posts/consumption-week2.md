@@ -6,8 +6,6 @@ categories: ["Consumption"]
 tags: ['Articles','Binaural Beats','Biology','Blockchain','Bras','Business','Carbon Capture','CES','China','Create','Decisions','Entrepreneurialism','Expertise','Eyesight','Focus','Habits','Health','Identity','Marketing','Mental Models','Mobility','Monopolies','Personal Development','Podcasts','Reasons','Relationships','Sales','Sustainability','Technology','Toilets','TV','Value']
 date: 2023-01-15
 ---
-# Week 2
-
 ## Podcasts
 
 ### [Brave New Earth] S1E6: Kieran White, Founder of Return
