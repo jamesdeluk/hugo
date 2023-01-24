@@ -1,7 +1,7 @@
 ---
 title: Fallacies, Politics, and ChatGPT
 date: 2023-01-18
-categories: ['Cognition']
+categories: ["Consulting & Cognition"]
 tags: ['AI','Argument','ChatGPT','Logical Fallacies','Politics','Reasoning',]
 ---
 
