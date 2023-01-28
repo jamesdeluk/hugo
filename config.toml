@@ -2,7 +2,7 @@ baseURL = 'https://www.jamesgibbins.com/'
 languageCode = 'en-gb'
 languageName = "English"
 theme = 'LoveIt'
-title = 'James'
+title = 'Peredutions by James'
 
 [author]
   name = "James"
