@@ -3,7 +3,7 @@ title: Consumption Week 4
 subtitle: "My notes from some of the media I consumed this week."
 summary: "My notes from some of the media I consumed this week."
 categories: ["Consumption"]
-tags: []
+tags: ["Advice","Agriculture","Asteroid Mining","Attention Economy","Awareness","Batteries","Big Picture","Capitalism","Carbon Capture","Cardio","Cars","CES","China","Climate","Debt","Deforestation","Denmark","Design","Diet","Distractions","Economic Cycles","Electrification","Emotions","Energy","Energy Storage","Entrepreneurship","Exercise","Fibre","Floating","Focus","Gen Z","Happiness","Hydrogen","Hyundai","Learning","Lies","Maturity","Mental Models","Mindset","Negotiation","Oceans","Overcoming Difficulties","PR","Reframing","Relationships","Resilience","Science","Self Control","Sleep","Socialising","Solar","Spotify","Statistics","Strategy","Taxation","Technology","TikTok","Trust","Waste","Wind"]
 date: 2023-01-29
 ---
 Now grouped by topic. Note not everything fits perfectly. Also noting my comments directly.
