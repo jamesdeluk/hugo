@@ -40,6 +40,9 @@ title = 'Peredutions by James'
   [markup.highlight]
     noClasses = false
 
+[permalinks]
+  posts = ':section/:title'
+
 [params]
 title = ""
 description = ""
