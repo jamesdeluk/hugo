@@ -369,18 +369,18 @@ Triangles:
 - Any side must be greater than the difference between the lengths of the other two sides.
 - The length of a side must lie between the difference and the sum of the two other sides.
 
-![45 Triangle](../img/gmat-quant-triangle-45.png)
+![45 Triangle](/img/gmat-quant-triangle-45.png)
 
 Note also half a square.
 
-![60 Triangle](../img/gmat-quant-triangle-60.png)
+![60 Triangle](/img/gmat-quant-triangle-60.png)
 
 Note also half a rectangle.
 
 ---
 
-![Circle](../img/gmat-quant-circle.png)
+![Circle](/img/gmat-quant-circle.png)
 
 ---
 
-![Quadrants](../img/gmat-quant-quadrants.png)
+![Quadrants](/img/gmat-quant-quadrants.png)
