@@ -15,7 +15,7 @@ date: 2023-01-08
 
 ### [Article] The 10 Best Ideas I Learned in 2022 [Gurwinder]
 
-[https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022](https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022s)
+[https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022](https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022)
 
 1. Solomon's Paradox:
 2. Cunningham's Law:

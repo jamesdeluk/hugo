@@ -16,7 +16,7 @@ date: 2021-10-18
 
 ## Introduction
 
-Until now I've used OpenPLC for all my PLC ([ladder logic](https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/), [structured text](https://www.jamesgibbins.com/articles/operational-technology/openplc-structured-text/)) projects, as it's very user-friendly and it makes using an Arduino as a PLC very simply. However, as I was studying LL and ST, another piece of software kept being mentioned - CODESYS.
+Until now I've used OpenPLC for all my PLC ([ladder logic](https://www.jamesgibbins.com/posts/openplc-structured-text/)) projects, as it's very user-friendly and it makes using an Arduino as a PLC very simply. However, as I was studying LL and ST, another piece of software kept being mentioned - CODESYS.
 
 According to CODESYS, they are "the leading manufacturer-independent IEC 61131-3 automation software for engineering control systems". Compared with OpenPLC, it is much more feature-rich (and more complex), able to interface with a large number of PLCs. However, the reason I was interested in it is for one particular feature it has that OpenPLC doesn't - you can make your own basic HMI (human-machine interfaces) with it.
 
@@ -32,7 +32,7 @@ First video, which covers LL and HMI:
 
 ## Temperature Control HMI
 
-In OpenPLC I had a steady(ish) state project (both [LL](https://www.jamesgibbins.com/articles/operational-technology/openplc-arduino/) and [ST](https://www.jamesgibbins.com/articles/operational-technology/openplc-structured-text/)) which turned on a heater or cooler based on the value of a sensor - the idea being, in a very simple way, to keep the temperature between 60° and 70°, perfect for your cup of tea or coffee.
+In OpenPLC I had a steady(ish) state project (both [LL](https://www.jamesgibbins.com/posts/openplc-structured-text/)) which turned on a heater or cooler based on the value of a sensor - the idea being, in a very simple way, to keep the temperature between 60° and 70°, perfect for your cup of tea or coffee.
 
 I thought I'd use this same project (in ST form) as a way to experiment with creating an HMI with CODESYS.
 

@@ -123,7 +123,7 @@ date: 2023-01-15
 
 *No special notes for any of the below.*
 
-- [Podcast] [My First Million] Top 5 Interviews of 2022: https://www.mfmpod.com/top-5-interviews-of-2022/](https://www.mfmpod.com/top-5-interviews-of-2022/)
+- [Podcast] [My First Million] Top 5 Interviews of 2022: [https://www.mfmpod.com/top-5-interviews-of-2022/](https://www.mfmpod.com/top-5-interviews-of-2022/)
 - [Podcast] [Modern Wisdom] #574 – 600k Q&A – Masculinity Crisis, Overrated Thinkers & Lex Fridman: [https://modernwisdom.libsyn.com/574-600k-qa](https://modernwisdom.libsyn.com/574-600k-qa)
 - [Podcast] [Conversations in Cleantech] Collaborating for Cleaner Energy with Will Rowe: [https://podcasts.apple.com/gb/podcast/collaborating-for-cleaner-energy-with-will-rowe/id1563032743?i=1000593439260](https://podcasts.apple.com/gb/podcast/collaborating-for-cleaner-energy-with-will-rowe/id1563032743?i=1000593439260)
 - [Podcast] [World Changing Ideas] The Fast Company podcast team looks back on 2022: [https://open.spotify.com/episode/30CJO3h811hF56c3MGFLjv](https://open.spotify.com/episode/30CJO3h811hF56c3MGFLjv)
