@@ -41,7 +41,7 @@ title = 'Peredutions by James'
     noClasses = false
 
 [permalinks]
-  posts = ':section/:title'
+  posts = ':section/:slugorfilename'
 
 [params]
 title = ""
