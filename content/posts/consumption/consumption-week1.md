@@ -3,7 +3,7 @@ title: Consumption Week 1
 subtitle: "My very rough notes from some of the media I consumed this week."
 summary: "My very rough notes from some of the media I consumed this week."
 categories: ["Consumption"]
-tags: ["Articles","Banking","Batteries","Blinkist","Cameras","Carbon Capture","Cimate Tech","Climate Change","Decision Making","Electricity Grid","Energy","EVs","Funerals","Inequality","Inflation","Investment","Journalling","Loneliness","Mental Models","Personal Review","Podcasts","Recycling","Smartphones","Trees","Vertical Farming"]
+tags: ["Articles","Banking","Batteries","Blinkist","Cameras","Carbon Capture","Climate Tech","Climate Change","Decision Making","Electricity Grid","Energy","EVs","Funerals","Inequality","Inflation","Investment","Journalling","Loneliness","Mental Models","Personal Review","Podcasts","Recycling","Smartphones","Trees","Vertical Farming"]
 date: 2023-01-08
 ---
 
