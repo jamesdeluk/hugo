@@ -1,6 +1,6 @@
 ---
 title: "L'Espion (OSINT)"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['CyberDefenders']
 date: 2021-08-17
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Structured Text in OpenPLC"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['OpenPLC', 'Operational Technology']
 date: 2021-09-27
 ---

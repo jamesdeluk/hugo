@@ -1,6 +1,6 @@
 ---
 title: "XLM Macros (Document Analysis)"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['CyberDefenders']
 date: 2021-09-01
 ---

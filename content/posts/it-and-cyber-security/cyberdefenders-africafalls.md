@@ -1,6 +1,6 @@
 ---
 title: "AfricaFalls (Disk Image Forensics)"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['CyberDefenders']
 date: 2021-07-18
 ---

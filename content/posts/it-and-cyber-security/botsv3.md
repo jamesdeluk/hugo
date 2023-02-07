@@ -1,6 +1,6 @@
 ---
 title: "Splunk BOTSv3 Write-Up"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 date: 2020-09-08
 ---
 

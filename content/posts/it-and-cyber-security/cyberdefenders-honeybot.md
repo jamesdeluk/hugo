@@ -1,6 +1,6 @@
 ---
 title: "HoneyBOT (pcap Analysis)"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['CyberDefenders']
 date: 2021-10-11
 ---

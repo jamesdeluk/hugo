@@ -1,6 +1,6 @@
 ---
 title: "Advent of Cyber 2"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['TryHackMe']
 date: 2021-01-02
 ---

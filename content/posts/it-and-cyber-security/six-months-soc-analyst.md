@@ -1,6 +1,6 @@
 ---
 title: Six Months as a SOC Analyst - My Top Three Tips
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Security Monitoring']
 date: 2021-07-25
 ---

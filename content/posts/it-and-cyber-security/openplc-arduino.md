@@ -1,6 +1,6 @@
 ---
 title: "Arduino as a PLC with OpenPLC and Ladder Logic"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['OpenPLC', 'Arduino', 'Operational Technology']
 date: 2021-09-20
 ---

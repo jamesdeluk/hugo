@@ -1,6 +1,6 @@
 ---
 title: "Security Blue Team's Blue Team Level 1 Review"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 date: 2021-04-06
 ---
 

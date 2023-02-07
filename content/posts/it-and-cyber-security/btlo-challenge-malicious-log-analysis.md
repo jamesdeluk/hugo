@@ -1,6 +1,6 @@
 ---
 title: "Log Analysis - Privilege Escalation"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Blue Team Labs Online']
 date: 2021-08-09
 ---

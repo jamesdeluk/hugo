@@ -1,6 +1,6 @@
 ---
 title: Cyber Security Notes
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 date: 2022-03-07
 ---
 

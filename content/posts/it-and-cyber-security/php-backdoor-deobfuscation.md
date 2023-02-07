@@ -1,6 +1,6 @@
 ---
 title: PHP Backdoor Deobfuscation
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Digital Forensics']
 date: 2021-07-04
 ---

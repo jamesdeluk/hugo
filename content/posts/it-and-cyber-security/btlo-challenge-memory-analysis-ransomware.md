@@ -1,6 +1,6 @@
 ---
 title: "Memory Analysis - Ransomware"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Blue Team Labs Online']
 date: 2021-07-12
 ---

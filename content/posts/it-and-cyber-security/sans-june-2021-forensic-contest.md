@@ -1,6 +1,6 @@
 ---
 title: "SANS June 2021 Forensic Contest"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Digital Forensics']
 date: 2021-06-29
 ---

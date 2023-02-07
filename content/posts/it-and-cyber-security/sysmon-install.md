@@ -1,6 +1,6 @@
 ---
 title: "Sysmon: How to install, upgrade, and uninstall"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Security Monitoring']
 date: 2021-06-02
 ---

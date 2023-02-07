@@ -1,6 +1,6 @@
 ---
 title: "MalDoc101 (Document Analysis)"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['CyberDefenders']
 date: 2021-04-26
 ---

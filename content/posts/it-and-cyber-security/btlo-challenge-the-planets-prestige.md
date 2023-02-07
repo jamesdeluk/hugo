@@ -1,6 +1,6 @@
 ---
 title: "The Planet's Prestige (Email and Attachment Analysis)"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Blue Team Labs Online']
 date: 2021-06-20
 ---

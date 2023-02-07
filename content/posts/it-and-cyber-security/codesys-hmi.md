@@ -1,6 +1,6 @@
 ---
 title: "Creating an HMI in CODESYS"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['CODESYS', 'Operational Technology']
 date: 2021-10-18
 ---

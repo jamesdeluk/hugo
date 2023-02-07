@@ -1,6 +1,6 @@
 ---
 title: MITRE D3FEND - Security BSides London Talk
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Conference Talk']
 date: 2022-01-10
 ---

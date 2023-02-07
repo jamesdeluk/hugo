@@ -1,6 +1,6 @@
 ---
 title: "SANS April 2021 Forensic Quiz"
-categories: ['Cyber Security']
+categories: ["IT and Cyber Security"]
 tags: ['Digital Forensics']
 date: 2021-04-22
 ---
