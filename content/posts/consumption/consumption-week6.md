@@ -3,7 +3,7 @@ title: Consumption Week 6
 subtitle: "My notes from some of the media I consumed this week."
 summary: "My notes from some of the media I consumed this week."
 categories: ["Consumption"]
-tags: []
+tags: ["Air Travel","Aircraft","Books","Business","Carbon Capture","China","Climate","Contemplation","Energy","Entrepreneurship","EVs","Fuels","Hydrogen","Luck","Minerals","Pensions","Personal Development","Pharmaceuticals","Problem Solving","Skill","Solar","Start","Stress","Success","Supply Chain","Sweden","Technology"]
 date: 2023-02-12
 ---
 ## Energy, Climate, and the Future
@@ -48,9 +48,16 @@ date: 2023-02-12
 - I love this series, imaging the world in 2050 based on the advancement of coming to market of modern technologies. It's like "how it works" from the future.
 - This covers loads, including future airframes (e.g. blended wing) and fuels (e.g. SAFs).
 
+## Personal Development, Health, and Fitness
+
+### Your Head is a Houseboat
+
+- 5/5
+- Can read it in an evening, and incredibly thought-provoking.
+
 ## Politics, Economics, and Business
 
-### **This Ingenious System Could Guarantee Public Pensions Worldwide**
+### This Ingenious System Could Guarantee Public Pensions Worldwide
 
 [https://youtu.be/61TfTwBHYCw](https://youtu.be/61TfTwBHYCw)
 
@@ -75,6 +82,11 @@ date: 2023-02-12
 
 - For multiple choice questions, the order of options dramatically changes what is picked. The first option is most likely.
 
+### Fall in Love with the Problem, Not the Solution - Uri Levine
+
+- 3/5
+- Massive Silicon Valley vibes. Build an app, don’t make profit, sell it.
+
 ## Science, Technology, and Nature
 
 ### [Sliced Bread] Painkillers
@@ -82,15 +94,3 @@ date: 2023-02-12
 - Cheap ones are 90% as good as expensive ones.
 - In general, ibuprofen > paracetamol> aspirin.
 - Some painkillers don’t work for some people (e.g. only ~25% of people get good relief from aspirin).
-
-## Books
-
-### Fall in Love with the Problem, Not the Solution - Uri Levine
-
-- 3/5
-- Massive Silicon Valley vibes. Build an app, don’t make profit, sell it.
-
-### Your Head is a Houseboat
-
-- 5/5
-- Can read it in an evening, and incredibly thought-provoking.
