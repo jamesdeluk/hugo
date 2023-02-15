@@ -30,6 +30,14 @@ span.post-category > a > i {
   height: auto;
 }
 
+.single .post-footer .post-tags {
+  max-width: 100%;
+}
+
+.home[data-home=posts] .summary .post-footer {
+  display: block;
+}
+
 // .test {
 //   color: red;
 // }
