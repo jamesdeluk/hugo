@@ -1,7 +1,7 @@
 ---
 title: Consumption Week 2
 subtitle: "My notes from some of the media I consumed this week."
-summary: "My notes from some of the media I consumed this week."
+summary: "Building habits, Our Flag Means Death, dry eyes, and robotic bras."
 categories: ["Consumption and Media"]
 tags: ['Articles','Binaural Beats','Biology','Blockchain','Bras','Business','Carbon Capture','CES','China','Creativity','Decisions','Entrepreneurship','Expertise','Eyesight','Focus','Habits','Health','Identity','Marketing','Mental Models','Mobility','Monopolies','Personal Development','Podcasts','Reasons','Relationships','Sales','Sustainability','Technology','Toilets','TV','Value']
 date: 2023-01-15

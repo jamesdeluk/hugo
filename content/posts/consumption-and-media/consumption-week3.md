@@ -1,7 +1,7 @@
 ---
 title: Consumption Week 3
 subtitle: "My notes from some of the media I consumed this week."
-summary: "My notes from some of the media I consumed this week."
+summary: "Lost civilsations, EV tyres, global risks, and circumcision."
 categories: ["Consumption and Media"]
 tags: ["Agriculture","Ambition","Atlantis","Batteries","Biology","Business","Childlessness","China","Climate Change","Conspiracies","Construction","Curiosity","Cynicism","Debt","Discipline","Economic Bubbles","Energy","Entrepreneurship","EVs","False History","Focus","Happiness","Health","History","Leadership","Market Crashes","Mindset","Movies","Networking","Nuclear","Organisation","Predictions","Pricing Strategy","Recycling","Relationships","Renewable Energy","Risk","Success","Trade","Venture Capital",Vertical Farming"]
 date: 2023-01-22

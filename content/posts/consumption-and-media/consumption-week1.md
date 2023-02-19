@@ -1,7 +1,7 @@
 ---
 title: Consumption Week 1
 subtitle: "My very rough notes from some of the media I consumed this week."
-summary: "My very rough notes from some of the media I consumed this week."
+summary: "2022 best-ofs and 2023 preductions, green investing and inflation protection, planting trees, and solar vortices."
 categories: ["Consumption and Media"]
 tags: ["Articles","Banking","Batteries","Blinkist","Cameras","Carbon Capture","Climate Tech","Climate Change","Decision Making","Electricity Grid","Energy","EVs","Funerals","Inequality","Inflation","Investment","Journalling","Loneliness","Mental Models","Personal Review","Podcasts","Recycling","Smartphones","Trees","Vertical Farming"]
 date: 2023-01-08
@@ -17,16 +17,16 @@ date: 2023-01-08
 
 [https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022](https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022)
 
-1. Solomon's Paradox:
-2. Cunningham's Law:
-3. Bonhoeffer's Theory of Stupidity:
-4. Anattā:
-5. Gibson's Law:
-6. Surrogate Activities:
-7. Shirky Principle:
-8. Babble Hypothesis:
-9. Noble Cause Corruption:
-10. Noise Bottlenecks:
+1. Solomon's Paradox
+2. Cunningham's Law
+3. Bonhoeffer's Theory of Stupidity
+4. Anattā
+5. Gibson's Law
+6. Surrogate Activities
+7. Shirky Principle
+8. Babble Hypothesis
+9. Noble Cause Corruption
+10. Noise Bottlenecks
 
 ### [Podcast] [The Knowledge Project with Shane Parrish] #155 Best of 2022: Conversations of the Year
 

@@ -1,7 +1,7 @@
 ---
 title: Consumption Week 6
 subtitle: "My notes from some of the media I consumed this week."
-summary: "My notes from some of the media I consumed this week."
+summary: "EV minerals, future flight, better pensions, and painkillers."
 categories: ["Consumption and Media"]
 tags: ["Air Travel","Aircraft","Books","Business","Carbon Capture","China","Climate","Contemplation","Energy","Entrepreneurship","EVs","Fuels","Hydrogen","Luck","Minerals","Pensions","Personal Development","Pharmaceuticals","Problem Solving","Skill","Solar","Start","Stress","Success","Supply Chain","Sweden","Technology"]
 date: 2023-02-12

@@ -1,7 +1,7 @@
 ---
 title: Consumption Week 5
 subtitle: "My notes from some of the media I consumed this week."
-summary: "My notes from some of the media I consumed this week."
+summary: "How to be happy, how to be fertile, magical calendars, and fun flights."
 categories: ["Consumption and Media"]
 tags: ["Air Travel","Aircraft","Attention","Beliefs","Business","Calendar","Construction","Discipline","Economy","Emissions","Energy Saving","Entomophagy","Fertility","Focus","Friendships","Fundraising","Future","Habits","Happiness","Health","Industry","Influencers","Initial D","Interest Rates","Kickstarter","Learning","Mental Models","Problem Solving","Relationships","Science","Stress","Trends"]
 date: 2023-02-05
