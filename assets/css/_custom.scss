@@ -21,11 +21,6 @@ span.post-category > a > i {
   display: inline-block !important;
 }
 
-#TableOfContents {
-  overflow-y: scroll;
-  max-height: 500px;
-}
-
 .single .content img {
   height: auto;
 }
@@ -42,3 +37,15 @@ span.post-category > a > i {
 //   color: red;
 // }
 // {.test}
+
+#toc-auto {
+  .toc-content {
+    overflow-y: scroll;
+    max-height: 450px;
+    ul {
+      ul {
+        display: block;
+      }
+    }
+  }
+}
