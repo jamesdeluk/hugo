@@ -5,6 +5,7 @@
 {{- define "content" -}}
     {{- $taxonomies := .Data.Plural -}}
     {{- $terms := .Data.Terms.Alphabetical -}}
+    <!-- $terms := .Data.Terms.ByCount -->
     {{- $type := .Type -}}
 
     <div class="page archive">
@@ -28,6 +29,7 @@
                                 </a>
                             </h3>
                             {{- range first 3 $pages -}}
+                            <!-- 5 -->
                                 <article class="archive-item">
                                     <a href="{{ .RelPermalink }}" class="archive-item-link">
                                         {{- .Title | emojify -}}
@@ -35,6 +37,7 @@
                                 </article>
                             {{- end -}}
                             {{- if gt (len $pages) 3 -}}
+                            <!-- 5 -->
                                 <span class="more-post">
                                     <a href="{{ .RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
                                 </span>
@@ -48,7 +51,8 @@
         {{- /* Tag Cloud Page */ -}}
         {{- else if eq $taxonomies "tags" -}}
             <div class="tag-cloud-tags">
-                {{- range $.Site.Taxonomies.tags.ByCount -}}
+                {{- range $.Site.Taxonomies.tags.Alphabetical -}} 
+                <!-- range $.Site.Taxonomies.tags.ByCount  -->
                     <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
                 {{- end -}}
             </div>
