@@ -2,7 +2,7 @@
 title: "Imagining the Future of Energy"
 date: 2023-02-08
 categories: ["Energy, Climate, and the Future"]
-tags: ["Business Models","China","Distributed Energy","Distribution Networks","Electricity","Electrification","Energy","Energy Storage","EVs","Future","Geopolitics","Health","Heatpumps","IEA","Oil","Renewable Energy","Solar","Supply Chain","Transmission Networks","V2G","Vertical Farming","War","Wind"]
+tags: ["Business Models","China","Distributed Energy","Distribution Networks","Electricity","Electrification","Energy","Energy Storage","EVs","Future","Geopolitics","Health","Heat Pumps","IEA","Oil","Renewable Energy","Solar","Supply Chain","Transmission Networks","V2G","Vertical Farming","War","Wind"]
 ---
 
 The harnessing of energy is one of the most transformative shifts in human history. Controlling fire enabled the cooking of food, which potentially led to an increased brain size; coal and the steam engine powered the industrial revolution, initiating accessible intercontinental travel and the spread of culture; and oil turned multi-week voyages into multi-hour trips - and our first steps off the Earth. Energy has been instrumental in human civilisation - and will continue to be so into our future.
