@@ -3,7 +3,7 @@ title: "➤ Assorted Thoughts"
 categories: ["Contemplations and Society"]
 tags: ["Self-Control","Focus","Relationships","Finances","Wealth","Career","Entrepreneurship","Business","Meditation","Reflecton","Contemplations","Skills","Learning","Decision Making","Mindset"]
 date: 2023-01-28
-lastmod: 2023-02-04
+lastmod: 2023-03-12
 ---
 Some things that popped into my mind and I decided to write down. They may only apply to me. They may be incorrect. They may be well-known concepts that I’m reminding myself of. Take it all with a pinch of salt - but I’d love to hear any comments, so feel free to reach out via [LinkedIn](https://www.linkedin.com/in/jamgib/) or [email](mailto:james@gibbins.me).
 
@@ -20,6 +20,8 @@ I’ll update this post every so often with additional thoughts.
 - Use timers for productivity. The Pomodoro technique is great. I like [Pomofocus](https://pomofocus.io/app).
 - When focussing (in deep work), have your phone recording in the background. If a thought arises that is distracting, speak/record it. Even if it would only take 30 seconds to check, it breaks your focus and reduces your productivity.
 - How much time do you spend planning vs doing?
+- Don't task-switch while waiting for e.g. a webpage to load as you'll forget to do the original task.
+- Rather than immediately pursuing a thought/idea, unless it is urgent, first write it down (e.g. on a to-do list) and come back to it. Although you might think it will only take 5 minutes, it could easily lead you down a rabbit hole and swallow up more time than you expect. If you are adamant about actioning it it at that time, set a hard, short time limit (e.g. 10 mintues).
 
 ## Finances
 
@@ -31,6 +33,7 @@ I’ll update this post every so often with additional thoughts.
 
 - In the virtual world, people can simply not reply. It’s much harder in person, when you’re in front of them. Also, in person, you can choreograph coincidental meetings. While working from home has certain advantages, it can be a blocker to progress.
 - Your manager plays a key role in your success. Is your manager a go-getter, or more relaxed? A risk-taker, or after stability? It may be suboptimal if you are one and they are the other.
+- Being/working for a VC, or knowing VCs, could be a great way to meet new entrepreneurs and keep a feel on the pulse of innovation.
 
 ## Entrepreneurship
 
@@ -44,6 +47,14 @@ I’ll update this post every so often with additional thoughts.
 - Cory Allen’s [Luminosity](https://open.spotify.com/album/3TJueIbMYvSK4XC2hlgMAJ?si=5m79bT6cQKGyKZ1RwNkD9A) or [Stillness](https://open.spotify.com/track/7I11UL0IAOFFaSdYFNNBWK?si=b4e5e1ce2f1b42b1) are wonderful for [NSDR](https://youtu.be/AKGrmY8OSHM)-style motionlessness.
 - Have two diaries: 1, a written fact-based log of what took place; 2: an audio recording for  feelings and emotions.
 - When meditating/relaxing and you catch yourself with a thought, track back to see what initiated it. For example, I recently caught myself thinking of a movie. Tracking back, I realised the path was: movie ← activity in the movie ← item involved in that activity ← the sensation of my foot touching that item.
+- Don't “quick check” anything such as emails or social media before a planned meditation session - you might see something important and feel the need to sort it otherwise you'd be distracted. But almost nothing can be so urgent it can't be done 10mins later.
+
+## Health, wellbeing, and relationships
+
+- When you're ill, your body is already busy fighting. It's not uncommon for you to catch something else at the same time, or soon after. Don't panic. You're not dying.
+- Curiosity can cause overwhelm. There’s simply too much to learn, watch, listen, read - especially in the modern world. For me, this makes it hard to relax, as I feel like it’s a waste of my limited time - although I rationally know relaxation is important. I still don’t have the solution to this. More meditation is a technique I’m testing.
+- Consuming media can be a form of self-medication against loneliness. People want to laugh, and statistics show we rarely laugh when we’re alone but often do with others. Watching TV or listening to podcasts of people talking and laughing and having fun makes you feel you’re part of it - but you’re not. This self-medication only works for very short periods, if at all. Social media works in a similar way.
+- Males tend to bond slowly through shared time doing activities. Women tend to bond through conversations. The former is an emphasis on time; the latter of intensity. As such, making male friendships can be more difficult.
 
 ## Skills and learning
 
@@ -52,6 +63,8 @@ I’ll update this post every so often with additional thoughts.
 - How do humans best learn? There is no answer. There are different tools and techniques, and some may be better for some than others. For example, some people can learn a language well through watching TV, but for me that doesn’t work at all!
 - Take all advice with a pinch of salt - however confidently it’s given. So much has been proven to be wrong, or at least not completely correct. Especially now with social media and the monetisation of mass-appear content, advice has become like opinions (and arseholes) - everyone has one. What to do? First, consider the advice-giver - Are they following their own advice? Do they have evidenced expertise? Is their life one you want (beyond the highlights they post on social media)? Second, absorb a range of ideas, to a) further entrench the feeling there is no “best”, b) see what resonates with you, c) find things to test on yourself.
 - If there is something you don’t want to do, but have to do, consider what you can learn from it.
+- You don’t need to be perfect for everything. What is the minimum level of proficiency you need to achieve your goal?
+- If you have to read multiple documents, skim-read them all first to see how they relate - it might be better to read them concurrently, for example, reading all the introductions, conclusions, and glossaries first, rather than reading each from start to finish in order.
 
 ## Decisions and mindset
 
@@ -59,3 +72,4 @@ I’ll update this post every so often with additional thoughts.
 - There is no perfect, only progress.
 - What am I avoiding? What emotions are behind it?
 - Have I already been told this?
+- When you're young, you're proactive and put in extra effort, with the thought that it will pay off in the long run. As you age you realise a lot of this time and effort goes unrewarded, resulting in a loss of drive and motivation. The solution is to target your energy towards something with a higher chance of a positive outcome.
