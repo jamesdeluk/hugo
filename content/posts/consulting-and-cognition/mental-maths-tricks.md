@@ -2,6 +2,7 @@
 title: Mental Maths Tricks
 summary: A bunch of tricks to speed up mental calculations. Really useful!
 date: 2023-03-08
+lastmod: 2023-03-13
 categories: ["Consulting and Cognition"]
 tags: ["Maths"]
 # math: false
@@ -130,13 +131,29 @@ e.g. 12 × 34 with base 20
 
 {{<br>}}
 
-If squaring:
+**If squaring**
 
-e.g. 13^2 with base 10:
+e.g. 13^2, base 10:
 
 = 10(13+0) + 3^2
 
 = 169
+
+{{<br>}}
+
+**Alternative squaring method based on bases**
+
+e.g 69^2, base 60:
+
+69 = 60 + 9
+
+69 + 9 = 78
+
+78 × 60 = 4680
+
+9^2 = 81
+
+69^2 = 4680 + 81 = 4761
 
 {{<br>}}
 
