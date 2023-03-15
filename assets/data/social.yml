@@ -1,18 +1,18 @@
-# Email
-email:
-  Weight: 1
-  Template: mailto:%v
-  Title: Email
-  Icon:
-    Class: far fa-envelope fa-fw
-
 # 002: LinkedIn
 linkedin:
-  Weight: 2
+  Weight: 1
   Prefix: https://linkedin.com/in/
   Title: LinkedIn
   Icon:
     Class: fab fa-linkedin fa-fw
+
+# Email
+email:
+  Weight: 2
+  Template: mailto:%v
+  Title: Email
+  Icon:
+    Class: far fa-envelope fa-fw
 
 # 007: Medium
 medium:
