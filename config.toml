@@ -2,7 +2,7 @@ baseURL = 'https://www.jamesgibbins.com/'
 languageCode = 'en-gb'
 languageName = "English"
 theme = 'LoveIt'
-title = 'Peredutions by James'
+title = "James' Pereductions"
 
 [author]
   name = "James"
@@ -15,11 +15,11 @@ title = 'Peredutions by James'
     identifier = "home"
     name = "Home"
     url = "/"
-  [[menu.main]]
-    weight = 2
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+  # [[menu.main]]
+  #   weight = 2
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
   [[menu.main]]
     weight = 3
     identifier = "posts"
@@ -65,7 +65,7 @@ description = ""
       enable = true
       avatarURL = "/img/hshysrot.gif"
       title = ""
-      subtitle = "New site for 2023!"
+      subtitle = ""
       typeit = true
       social = true
     [params.home.posts]
