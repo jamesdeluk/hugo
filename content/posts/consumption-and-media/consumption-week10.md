@@ -6,8 +6,6 @@ categories: ["Consumption and Media"]
 tags: ["Air Conditioning","Business","Cars","ChatGPT","Climate Change","CO2","Construction","Cooling","Disability","Electricity Generation","Emissions","Emotions","Energy Efficiency","Energy Storage","Entrepreneurialism","Food","Future","Heat Pumps","History","Hormones","Male-Female Differences","Medicine","Mental Health","Negotiation","Pharmaceuticals","Pricing Strategy","Psychology","Relationships","Religion","Skills","Surgery","Therapy"]
 date: 2023-03-12
 ---
-# Week 10
-
 ## Energy, Climate, and the Future
 
 ### New membrane generates electricity while filtering wastewater
