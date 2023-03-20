@@ -225,3 +225,5 @@ date: 2023-03-05
 
 - For males: statistically insignificant health benefits, risk of death from herpes or loss of dick.
 - For females: evil, painful, dangerous form of patriarchal control; anyone who agrees with it should be put to death.
+
+![FMG](/img/week9-8.png)
