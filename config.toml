@@ -70,7 +70,7 @@ description = ""
       social = true
     [params.home.posts]
       enable = true
-      paginate = 12
+      paginate = 20
   [params.social]
     Email = "james@gibbins.me"
     Linkedin = "jamgib"
