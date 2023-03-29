@@ -1,7 +1,7 @@
 ---
 title: Arduino Myopia Measurer
 categories: ["Projects"]
-tags: ['Arduino']
+tags: ["Myopia","EndMyopia","Eyesight","Health","Arduino"]
 date: 2021-09-13
 ---
 
