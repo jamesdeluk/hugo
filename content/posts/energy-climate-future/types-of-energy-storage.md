@@ -29,7 +29,7 @@ The world of energy storage is growing at a rapid pace. In this post I’ve coll
     - **Uses**: Home batteries, EVs
 - Lithium Cobalt Oxide: LCO, LiCoO2
     - **Uses**: Electronics
-- Lithium Titanium Oxide (LTO) battery [lower energy density][some EVs, electronics]
+- Lithium Titanium Oxide: LTO
     - **Features**: Lower energy density
     - **Uses**: Some EVs, electronics
 - Sulphur
