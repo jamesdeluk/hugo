@@ -2,10 +2,11 @@
 title: "The Different Types of Energy Storage"
 summary: "The world of energy storage is growing at a rapid pace. In this post I’ve collated the various articles, videos, and papers on the topic I’ve come across. Most is in note form, for my reference. I’ll update it every so often with new findings."
 date: 2023-02-22
+lastmod: 2023-04-06
 categories: ["Energy, Climate, and the Future"]
 tags: ["Energy Storage","Batteries","Electrochemical Batteries","Lithium","Flow Batteries","Vanadium","Zinc Bromine","Sodium","Aluminium","Silver","Air Batteries","Mechanical Batteries","CAES","LAES","Compressed CO2","Pumped hydro","Thermal Batteries","Molten Salt","Molten Metal","Water Batteries","Sand Batteries","Hydrogen","Massless Batteries","Grid Storage"]
 ---
-The world of energy storage is growing at a rapid pace. In this post I’ve collated the various articles, videos, and papers on the topic I’ve come across. Most is in note form, for my reference. I’ll update it every so often with new findings.
+In this post I’ve collated the various articles, videos, and papers on energy storage systems I’ve come across. Most is in note form, for my reference. I’ll update it every so often with new findings. If you find any errors, please do get in touch!
 
 ## Electrochemical
 
@@ -56,22 +57,41 @@ The world of energy storage is growing at a rapid pace. In this post I’ve coll
     - **Companies**: Ionblox
     - [https://wonderfulengineering.com/this-new-ev-battery-has-50-more-energy-density-and-can-charge-in-10-minutes/](https://wonderfulengineering.com/this-new-ev-battery-has-50-more-energy-density-and-can-charge-in-10-minutes/)
     - [https://interestingengineering.com/innovation/ev-battery-startup-impressive-charging-times](https://interestingengineering.com/innovation/ev-battery-startup-impressive-charging-times)
+- No anode
+    - Replacing the conventional graphite anodes solely with a copper-foil current collector.
+    - The copper foil became covered with irregular microscopic structures (dendrites) during recharging and discharging that “can, and will, lead to battery short circuits between the anode and cathode, which in turn can cause battery fires,”
+    - The new battery can hold 72 percent more energy by weight and 95 percent more energy by volume than commercial lithium-ion batteries.
+    - [https://spectrum.ieee.org/solid-state-battery-no-anode](https://spectrum.ieee.org/solid-state-battery-no-anode)
+
+{{<br>}}
 
 **_Lithium Air_**
 
-**Features**: Higher energy density (685 Wh/kg at room temperature), inexpensive to produce, safer (is solid state), slightly lower energy efficiency
+**Features**
+
+- Higher energy density (685 Wh/kg at room temperature)
+- Inexpensive to produce
+- Safer (is solid state)
+- Slightly lower energy efficiency
 
 ![Lithium air chart](/img/energy-storage-1.png)
 
-[https://arstechnica.com/science/2023/02/new-battery-seems-to-offer-it-all-lithium-metal-lithium-air-electrodes/](https://arstechnica.com/science/2023/02/new-battery-seems-to-offer-it-all-lithium-metal-lithium-air-electrodes/)
+**Developments**
 
-[https://cleantechnica.com/2023/02/06/researchers-report-progress-on-a-solid-state-lithium-air-battery-with-high-energy-density/](https://cleantechnica.com/2023/02/06/researchers-report-progress-on-a-solid-state-lithium-air-battery-with-high-energy-density/)
+- Solid instead of liquid electrolyte and uses environment air not oxygen tanks, expected 1200Wh/kg and lasts >1200 cycles
+    - [https://cleantechnica.com/2023/02/23/new-design-for-lithium-air-battery-could-offer-much-longer-driving-range/](https://cleantechnica.com/2023/02/23/new-design-for-lithium-air-battery-could-offer-much-longer-driving-range/)
+    - [https://arstechnica.com/science/2023/02/new-battery-seems-to-offer-it-all-lithium-metal-lithium-air-electrodes/](https://arstechnica.com/science/2023/02/new-battery-seems-to-offer-it-all-lithium-metal-lithium-air-electrodes/)
+    - [https://cleantechnica.com/2023/02/06/researchers-report-progress-on-a-solid-state-lithium-air-battery-with-high-energy-density/](https://cleantechnica.com/2023/02/06/researchers-report-progress-on-a-solid-state-lithium-air-battery-with-high-energy-density/)
+
+{{<br>}}
 
 **_Thin-Film Lithium_**
 
 **Features**
 
 - Better performance, physically flexible
+
+{{<br>}}
 
 **_Lithium-ion polymer (LiPo)_**
 
@@ -87,36 +107,15 @@ The world of energy storage is growing at a rapid pace. In this post I’ve coll
 
 - Higher specific density, safer
 
-**_Solid state_**
-
-**Features**
-
-- More energy dense, safer, potentially longer life, theoretically lower cost
-
-**Developments**
-
-- Lithium metal batteries with solid electrolytes have been slow to develop due to mysterious short-circuiting and failure. According to the team, the issue was down to mechanical stress, which was induced while recharging the batteries. Chueh’s team is looking at ways to use these very same mechanical forces intentionally to toughen the material during manufacturing, much like a blacksmith anneals a blade during production.
-
-[https://youtu.be/CAfGozXBou0](https://www.youtube.com/watch?v=CAfGozXBou0&t=0s)
-
-[https://wonderfulengineering.com/these-scientists-have-just-solved-the-mystery-to-evolve-next-gen-lithium-batteries/](https://wonderfulengineering.com/these-scientists-have-just-solved-the-mystery-to-evolve-next-gen-lithium-batteries/)
-
-[https://cleantechnica.com/2023/01/21/bmws-excellent-solid-state-ev-battery-adventure/](https://cleantechnica.com/2023/01/21/bmws-excellent-solid-state-ev-battery-adventure/)
-
-**_3D-printed solid state_**
-
-- 3D printing instead of roll to roll
-- 40% less material (so cheaper and lighter), smaller machinery, can print in any shape, 80% capacity in 15mins (C5), expects 800/1000Wh/l, longer life than traditional Li-ion
-
-[https://www.fastcompany.com/90851150/this-startup-can-3d-print-a-battery-into-any-shape-you-want](https://www.fastcompany.com/90851150/this-startup-can-3d-print-a-battery-into-any-shape-you-want)
-
-[https://cleantechnica.com/2023/02/16/sakuu-announces-3d-printed-solid-state-battery-success/](https://cleantechnica.com/2023/02/16/sakuu-announces-3d-printed-solid-state-battery-success/)
+{{<br>}}
 
 **_Battery Streak_**
 
 - Reduced heat generated from charging → faster charging
 
 [https://youtu.be/48vPgAPtkJg](https://youtu.be/48vPgAPtkJg)
+
+{{<br>}}
 
 **_EnergyX_**
 
@@ -127,9 +126,29 @@ The world of energy storage is growing at a rapid pace. In this post I’ve coll
 
 [https://youtu.be/_NLG9TLRm14](https://youtu.be/_NLG9TLRm14)
 
+{{<br>}}
+
+**_Fast charging developments_**
+
+- A team of researchers, led by Professor Noriyoshi Matsumi from Japan Advanced Institute of Science and Technology (JAIST), showcases a new approach to facilitate fast charging using a binder material which promotes Li-ion intercalation of active material.
+
+[https://cleantechnica.com/2023/03/05/speeding-up-extreme-fast-charging-capability-in-lithium-ion-batteries/](https://cleantechnica.com/2023/03/05/speeding-up-extreme-fast-charging-capability-in-lithium-ion-batteries/)
+
+{{<br>}}
+
+**_HOS-PFM_**
+
+- The HOS-PFM coating conducts both electrons and ions at the same time. This ensures battery stability and high charge/discharge rates while enhancing battery life from an average of 10 years to about 15 years.
+
+[https://cleantechnica.com/2023/03/13/electric-vehicle-batteries-could-get-big-boost-with-new-polymer-coating/](https://cleantechnica.com/2023/03/13/electric-vehicle-batteries-could-get-big-boost-with-new-polymer-coating/)
+
+{{<br>}}
+
 **Other Links**
 
 [https://en.wikipedia.org/wiki/Research_in_lithium-ion_batteries](https://en.wikipedia.org/wiki/Research_in_lithium-ion_batteries)
+
+{{<br>}}
 
 ### (Redox) Flow battery
 
@@ -183,6 +202,8 @@ _Zinc bromine_
 
 [https://youtu.be/2wsSRq-bEm0](https://youtu.be/2wsSRq-bEm0)
 
+{{<br>}}
+
 ### Sodium
 
 **_Sodium-ion (SIB/NIB)_**
@@ -211,6 +232,8 @@ _Zinc bromine_
 
 [https://www.tycorun.com/blogs/news/top10-sodium-ion-battery-companies-in-the-world-in-2022](https://www.tycorun.com/blogs/news/top10-sodium-ion-battery-companies-in-the-world-in-2022)
 
+{{<br>}}
+
 **_Sodium Sulphur_**
 
 **Features**
@@ -228,17 +251,23 @@ _Zinc bromine_
 
 [https://youtu.be/tHRoefpqMaM](https://youtu.be/tHRoefpqMaM)
 
+{{<br>}}
+
 **_Sodium Aluminium_**
 
 - The new sodium-based molten salt battery uses two distinct reactions. The team previously reported a neutral molten salt reaction. The new discovery shows that this neutral molten salt can undergo a further reaction into an acidic molten salt. Crucially, this second acidic reaction mechanism increases the battery’s capacity. Specifically, after 345 charge/discharge cycles at high current, this acidic reaction mechanism retained 82.8 percent of peak charge capacity.
 
 [https://cleantechnica.com/2023/02/07/new-sodium-aluminum-battery-aims-to-integrate-renewables-for-grid-resiliency/](https://cleantechnica.com/2023/02/07/new-sodium-aluminum-battery-aims-to-integrate-renewables-for-grid-resiliency/)
 
+{{<br>}}
+
 **_Seawater separator_**
 
 - Increase lifetime, capacity, efficiency.
 
 [https://www.bristol.ac.uk/news/2022/october/seaweed-based-battery-.html](https://www.bristol.ac.uk/news/2022/october/seaweed-based-battery-.html)
+
+{{<br>}}
 
 ### Aluminium
 
@@ -266,6 +295,8 @@ _Zinc bromine_
 
 [https://youtu.be/n1TBAWlbXKI](https://youtu.be/n1TBAWlbXKI)
 
+{{<br>}}
+
 ### Silver zinc
 
 **Features**
@@ -281,7 +312,11 @@ _Zinc bromine_
 
 [https://en.wikipedia.org/wiki/Silver_zinc_battery](https://en.wikipedia.org/wiki/Silver_zinc_battery)
 
-### Carbon-oxygen
+{{<br>}}
+
+### Oxygen
+
+**_Carbon-oxygen_**
 
 **About**
 
@@ -305,6 +340,49 @@ _Zinc bromine_
 [https://www.canarymedia.com/articles/long-duration-energy-storage/noon-energy-raises-28m-for-a-whole-new-kind-of-long-duration-storage](https://www.canarymedia.com/articles/long-duration-energy-storage/noon-energy-raises-28m-for-a-whole-new-kind-of-long-duration-storage)
 
 [https://cleantechnica.com/2023/01/19/noon-energy-raises-28-million-to-develop-carbon-based-long-term-energy-storage/](https://cleantechnica.com/2023/01/19/noon-energy-raises-28-million-to-develop-carbon-based-long-term-energy-storage/)
+
+{{<br>}}
+
+**_Oxygen-ion_**
+
+**About**
+
+- Made from ceramics
+
+**Features**
+
+- No degradation over time
+- No rare elements
+- Approx 1/3 energy density of Li-ion
+- Works at 200-400°C
+- Non-flammable
+
+**Use**
+
+- Grid
+
+**Links**
+
+[https://www.eurekalert.org/news-releases/983590](https://www.eurekalert.org/news-releases/983590)
+
+[https://spectrum.ieee.org/solid-state-battery-no-anode](https://spectrum.ieee.org/solid-state-battery-no-anode)
+
+{{<br>}}
+
+### Chitosan-zinc
+
+**About**
+
+- Crustaceans such as crabs, shrimps and lobsters have exoskeletons made of cells that contain chitin, a kind of polysaccharide that makes their shells hard and resistant. This valuable material is abundant in nature and can also be found in fungi and insects, but is usually thrown away as food waste from restaurants and a byproduct of the food industry.
+- Chitin can be synthesised into a firm gel membrane and used as an electrolyte for a battery. By combining this chitosan electrolyte with zinc, Hu’s team was able to create a renewable battery.
+- The battery is 99.7% energy efficient even after 1,000 battery cycles, which is about 400 hours.
+- The batteries are not flammable and the two-thirds of the battery made of chitosan can break down in soil thanks to microbial degradation in just five months, leaving behind recyclable zinc.
+
+**Links**
+
+[https://www.theguardian.com/science/2022/sep/01/crab-lobster-shells-could-used-make-renewable-batteries](https://www.theguardian.com/science/2022/sep/01/crab-lobster-shells-could-used-make-renewable-batteries)
+
+{{<br>}}
 
 ### Air
 
@@ -336,6 +414,8 @@ _Zinc bromine_
 
 [https://youtu.be/Ui6wWzxCrQ8](https://youtu.be/Ui6wWzxCrQ8)
 
+{{<br>}}
+
 **_Zinc air_**
 
 **Features**
@@ -361,6 +441,61 @@ _Zinc bromine_
 
 [https://www.rechargenews.com/transition/new-zinc-air-battery-is-cheaper-safer-and-far-longer-lasting-than-lithium-ion/2-1-812068](https://www.rechargenews.com/transition/new-zinc-air-battery-is-cheaper-safer-and-far-longer-lasting-than-lithium-ion/2-1-812068)
 
+{{<br>}}
+
+### Solid state
+
+**About**
+
+- A technology not a chemistry
+- Mostly seems to apply to lithium-based batteries for now (in part because they are the most popular)
+
+**Features**
+
+- More energy dense
+- Safer
+- Potentially longer life
+- Theoretically lower cost
+
+**_Developments_**
+
+**Reducing short-circuiting**
+
+Lithium metal batteries with solid electrolytes have been slow to develop due to mysterious short-circuiting and failure. According to the team, the issue was down to mechanical stress, which was induced while recharging the batteries. Chueh’s team is looking at ways to use these very same mechanical forces intentionally to toughen the material during manufacturing, much like a blacksmith anneals a blade during production.
+
+[https://youtu.be/CAfGozXBou0](https://www.youtube.com/watch?v=CAfGozXBou0&t=0s)
+
+[https://wonderfulengineering.com/these-scientists-have-just-solved-the-mystery-to-evolve-next-gen-lithium-batteries/](https://wonderfulengineering.com/these-scientists-have-just-solved-the-mystery-to-evolve-next-gen-lithium-batteries/)
+
+[https://cleantechnica.com/2023/01/21/bmws-excellent-solid-state-ev-battery-adventure/](https://cleantechnica.com/2023/01/21/bmws-excellent-solid-state-ev-battery-adventure/)
+
+**Argyrodite**
+
+- Argyrodite as solid-state electrolyte.
+- High Li-ion concentration, high stability.
+- The main obstacle for argyrodite solid-state batteries is to maximize the structure, in order to meet or beat the ionic conductivity of liquid electrolytes. The new research describes the successful synthesis of a high-performing solid electrolyte in a “one-pot” process, that can be carried out at room temperature, under normal pressure, and completed in less than 15 hours.
+
+[https://cleantechnica.com/2023/04/03/arg-new-one-pot-solid-state-batteries-deploy-argyrodite-to-solve-high-heat-conundrum/](https://cleantechnica.com/2023/04/03/arg-new-one-pot-solid-state-batteries-deploy-argyrodite-to-solve-high-heat-conundrum/)
+
+**Isostatic Pressing**
+
+- This process uses fluids and gases like water, oil or argon inside a machine to apply consistent pressure across a battery component, creating a highly uniform material.
+- Could make battery production easier and faster while creating better conditions for energy flow.
+- May also allow manufacturing the three battery layers as a single, dense system rather than creating them separately before joining them.
+
+[https://cleantechnica.com/2023/03/28/research-team-supports-isostatic-pressing-for-solid-state-battery-manufacturing/](https://cleantechnica.com/2023/03/28/research-team-supports-isostatic-pressing-for-solid-state-battery-manufacturing/)
+
+**3D-printed solid state**
+
+- 3D printing instead of roll to roll
+- 40% less material (so cheaper and lighter), smaller machinery, can print in any shape, 80% capacity in 15mins (C5), expects 800/1000Wh/l, longer life than traditional Li-ion
+
+[https://www.fastcompany.com/90851150/this-startup-can-3d-print-a-battery-into-any-shape-you-want](https://www.fastcompany.com/90851150/this-startup-can-3d-print-a-battery-into-any-shape-you-want)
+
+[https://cleantechnica.com/2023/02/16/sakuu-announces-3d-printed-solid-state-battery-success/](https://cleantechnica.com/2023/02/16/sakuu-announces-3d-printed-solid-state-battery-success/)
+
+{{<br>}}
+
 ## Mechanical
 
 ### Compressed air (CAES)
@@ -382,6 +517,8 @@ _Zinc bromine_
 **Links**
 
 [https://en.wikipedia.org/wiki/Compressed-air_energy_storage](https://en.wikipedia.org/wiki/Compressed-air_energy_storage)
+
+{{<br>}}
 
 ### Liquid air (LAES)
 
@@ -406,6 +543,8 @@ _Zinc bromine_
 **Links**
 
 [https://youtu.be/yb1Nuk3_t_4](https://youtu.be/yb1Nuk3_t_4)
+
+{{<br>}}
 
 ### Compressed CO2
 
@@ -435,6 +574,8 @@ _Zinc bromine_
 
 [https://youtu.be/LXSSH6ZuOWk](https://youtu.be/LXSSH6ZuOWk)
 
+{{<br>}}
+
 ### Ocean tanks
 
 **About**
@@ -458,6 +599,8 @@ _Zinc bromine_
 
 [https://youtu.be/gd1fTJ-csio](https://youtu.be/gd1fTJ-csio)
 
+{{<br>}}
+
 ### Pumped hydro
 
 **Largest**
@@ -478,6 +621,8 @@ _Zinc bromine_
 
 [https://youtu.be/qBW3KpXp1FM](https://youtu.be/qBW3KpXp1FM)
 
+{{<br>}}
+
 ## Thermal
 
 Heat used to boil water to power steam turbine, or just moved around for heating directly.
@@ -485,6 +630,8 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 **Links**
 
 [https://www.canarymedia.com/articles/energy-storage/5-reasons-why-thermal-storage-may-finally-be-set-to-take-off](https://www.canarymedia.com/articles/energy-storage/5-reasons-why-thermal-storage-may-finally-be-set-to-take-off)
+
+{{<br>}}
 
 ### Molten salt
 
@@ -499,6 +646,8 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 **Links**
 
 [https://youtu.be/QbzqLBL-m8I](https://youtu.be/QbzqLBL-m8I)
+
+{{<br>}}
 
 ### Molten metal
 
@@ -529,6 +678,8 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 [https://youtu.be/m8751tkBU_Q](https://www.youtube.com/watch?v=m8751tkBU_Q&t=0s)
 
+{{<br>}}
+
 ### Bricks
 
 **About**
@@ -547,11 +698,15 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 [https://youtu.be/QbzqLBL-m8I](https://youtu.be/QbzqLBL-m8I)
 
+{{<br>}}
+
 ### Hot water
 
 **Largest**
 
 Mustikkamaa heat storage, 11.6GWh, hot water
+
+{{<br>}}
 
 ### Sand
 
@@ -571,11 +726,15 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 [https://youtu.be/G6ZrM-IZlTE](https://youtu.be/G6ZrM-IZlTE)
 
+{{<br>}}
+
 ## Other
 
 ### Hydrogen
 
 ![Hydrogen efficiency](/img/energy-storage-2.png)
+
+{{<br>}}
 
 ### Massless
 
@@ -585,6 +744,8 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 [https://www.sciencedaily.com/releases/2021/03/210322091632.htm](https://www.sciencedaily.com/releases/2021/03/210322091632.htm)
 
+{{<br>}}
+
 ### Non-rechargeable
 
 **Aluminium-air**
@@ -593,6 +754,8 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 - Non-rechargeable without replacing anodes
 
 [https://en.wikipedia.org/wiki/Aluminium–air_battery](https://en.wikipedia.org/wiki/Aluminium%E2%80%93air_battery)
+
+{{<br>}}
 
 ## Other Links
 
@@ -615,3 +778,7 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 [https://www.eia.gov/analysis/studies/electricity/batterystorage/](https://www.eia.gov/analysis/studies/electricity/batterystorage/)
 
 [https://www.youtube.com/playlist?list=PLnTSM-ORSgi51JjqvxlP0JTYSU0-910Ks](https://www.youtube.com/playlist?list=PLnTSM-ORSgi51JjqvxlP0JTYSU0-910Ks) [Battery technology playlist by Undecided with Matt Ferrell]
+
+[https://www.ctvc.co/ldes-long-duration-energy-storage-tech/](https://www.ctvc.co/ldes-long-duration-energy-storage-tech/)
+
+![LDES Sector Compass](/img/LDES-Sector-Compass.png)
