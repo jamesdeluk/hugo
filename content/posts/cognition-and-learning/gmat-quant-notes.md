@@ -1,7 +1,7 @@
 ---
 title: GMAT Quant Notes
 date: 2023-01-14
-categories: ["Consulting and Cognition"]
+categories: ["Cognition and Learning"]
 tags: ['Maths','GMAT']
 math: true
 ---

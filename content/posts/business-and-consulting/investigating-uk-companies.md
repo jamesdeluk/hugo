@@ -1,7 +1,7 @@
 ---
-title: Investigating UK Companies - What can we learn from the ONS and Companies House?
+title: "Investigating UK Companies: What can we learn from the ONS and Companies House?"
 date: 2023-04-19
-categories: ["Consulting and Cognition"]
+categories: ["Business and Consulting"]
 tags: ["Business","Entrepreneurship","Data Analysis","Industry Analysis","Market Research","Growth","Electric Vehicles","Motorbikes"]
 ---
 Last week I found a page by the Office for National Statistics (ONS) breaking down UK companies by Standard Industrial Classification and turnover. I noted it in my weekly Consumption [post](https://www.jamesgibbins.com/posts/consumption-week14/#companies-by-sic-section-and-turnover-size), and I’ve decided to dig into it further to find out what other interesting information the ONS and Companies House may provide.

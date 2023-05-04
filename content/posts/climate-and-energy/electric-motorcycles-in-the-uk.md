@@ -1,7 +1,7 @@
 ---
 title: "Electric Motorcycles in the UK"
 date: 2023-04-12
-categories: ["Energy, Climate, and the Future"]
+categories: ["Climate and Energy"]
 tags: ["Motorbikes","Scooters","e-scooters","e-bikes","Mobility","Micromobility","Shared Mobility","Policy","Pollution","Traffic","Efficiency"]
 ---
 ## Fazer vs e-scooter

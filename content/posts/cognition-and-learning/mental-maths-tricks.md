@@ -3,7 +3,7 @@ title: Mental Maths Tricks
 summary: A bunch of tricks to speed up mental calculations. Really useful!
 date: 2023-03-08
 lastmod: 2023-03-13
-categories: ["Consulting and Cognition"]
+categories: ["Cognition and Learning"]
 tags: ["Maths"]
 # math: false
 ---
