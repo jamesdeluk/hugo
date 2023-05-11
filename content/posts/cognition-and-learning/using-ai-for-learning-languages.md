@@ -2,7 +2,7 @@
 title: Using AI for Learning Languages
 date: 2023-05-11
 categories: ["Cognition and Learning"]
-tags: []
+tags: ["Learning","Languages","Korean","한국어","AI","ChatGPT"]
 ---
 I’ve read a lot recently about using AI as a language learning aid, so I thought I’d give it a go. After all, it’s cheaper than a tutor, and always available.
 
