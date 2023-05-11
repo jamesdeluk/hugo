@@ -72,7 +72,7 @@ This had the same issues as the above. The “acting” was pretty good, but the
 
 I love this. A Firefox/Chrome extension that lets you easily translate any highlighted text. It also has text-to-speech. Keyboard shorcut default is Ctrl-Space.
 
-[https://github.com/sienori/simple-translate/releases](https://github.com/sienori/simple-translate/releases)
+[https://github.com/sienori/simple-translate](https://github.com/sienori/simple-translate)
 
 ### Read Aloud
 
