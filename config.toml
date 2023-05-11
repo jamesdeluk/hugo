@@ -3,6 +3,7 @@ languageCode = 'en-gb'
 languageName = "English"
 theme = 'LoveIt'
 title = "James' Pereductions"
+enableEmoji = true
 
 [author]
   name = "James"
