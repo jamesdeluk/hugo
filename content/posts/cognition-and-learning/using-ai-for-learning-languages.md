@@ -1,6 +1,7 @@
 ---
 title: Using AI for Learning Languages
 date: 2023-05-11
+lastmod: 2023-05-14
 categories: ["Cognition and Learning"]
 tags: ["Learning","Languages","Korean","한국어","AI","ChatGPT"]
 ---
@@ -19,10 +20,20 @@ Quizzing on words, flash-card style, can be useful, but tends to be a bit boring
 
 ## Learn through sentences
 
-Following on from the above, learning word-translation pairs out of context is not really how our brains work. Learning words in context, in sentences, is much better. But finding a list of sentences featuring the words you’re learning can be very time-consuming, especially if you want to sentences to ****only**** include the words you’re learning. This also worked pretty well. You can also do a similar thing with grammar.
+Following on from the above, learning word-translation pairs out of context is not really how our brains work. Learning words in context, in sentences, is much better. But finding a list of sentences featuring the words you’re learning can be very time-consuming, especially if you want to sentences to _only_ include the words you’re learning. This also worked pretty well. You can also do a similar thing with grammar.
 
-> Create 10 sentences with only these words: 맡다 목적 문의 미각 및 바라보다 반대하다 발견하다 보고서 본 부담 부분 분야 상상력 서두르다 서류 설득하다 성장하다 소중하다 숲 시각 영양 옛 운동 인내심 일정하다 자원봉사 재료 전달하다 점점 정기적 정작 정치 즐겁다 진정하다 집안일 찬성하다 참을성 청각 촉각 축제 후각. Every sentence must use 성장하다.
+> Create 10 sentences in  using only these words: 맡다 목적 문의 미각 및 바라보다 반대하다 발견하다 보고서 본 부담 부분 분야 상상력 서두르다 서류 설득하다 성장하다 소중하다 숲 시각 영양 옛 운동 인내심 일정하다 자원봉사 재료 전달하다 점점 정기적 정작 정치 즐겁다 진정하다 집안일 찬성하다 참을성 청각 촉각 축제 후각. 
 > 
+
+Additional prompt ideas:
+
+> Surround each word from the list in double asterisks, like **this**
+
+> Every sentence must use 성장하다
+
+> Write the sentences is 해요체
+
+> Each sentence must contain more than one word from the following list
 
 :star::star::star::star::star:
 
