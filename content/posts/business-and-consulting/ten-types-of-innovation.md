@@ -43,7 +43,7 @@ Where you can build enduring relationships with customers, when they are hungry 
 
 ## Ambitions
 
-### **Core Innovation: Change the Known**
+### Core Innovation: Change the Known
 
 Single innovation type - “Find a problem and fix it!”
 
