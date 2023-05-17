@@ -1,7 +1,7 @@
 baseURL = 'https://www.jamesgibbins.com/'
 languageCode = 'en-gb'
 languageName = "English"
-theme = 'LoveIt'
+theme = 'DoIt'
 title = "James' Pereductions"
 enableEmoji = true
 
@@ -72,6 +72,7 @@ description = ""
     [params.home.posts]
       enable = true
       paginate = 20
+
   [params.social]
     Email = "james@gibbins.me"
     Linkedin = "jamgib"
@@ -86,6 +87,15 @@ description = ""
   [params.app]
     title = "James"
 
+  [params.section]
+    paginate = 20
+
+  [params.list]
+    paginate = 20
+
+  [params.page.math]
+    enable = true
+
   [params.page.share]
     enable = true
     Twitter = true
@@ -95,6 +105,11 @@ description = ""
     Line = false
     Weibo = false
 
+  [params.page.toc]
+    enable = true
+    keepStatic = false
+    auto = false
+
   [params.analytics]
     enable = true
     [params.analytics.google]
@@ -102,7 +117,6 @@ description = ""
 
   [params.search]
     enable = true
-    type = "lunr"
     contentLength = 4000
     absoluteURL = false
 

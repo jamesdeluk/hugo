@@ -4,8 +4,6 @@
 
 {{- define "content" -}}
     {{- $taxonomies := .Data.Plural -}}
-    {{- $terms := .Data.Terms.Alphabetical -}}
-    <!-- $terms := .Data.Terms.ByCount -->
     {{- $type := .Type -}}
 
     <div class="page archive">
@@ -16,6 +14,7 @@
 
         {{- /* Categories Page */ -}}
         {{- if eq $taxonomies "categories" -}}
+            {{- $terms := .Data.Terms.Alphabetical -}}
             <div class="categories-card">
                 {{- range $terms -}}
                     {{- $term := .Term -}}
@@ -25,19 +24,83 @@
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
                                 <a href="{{ .RelPermalink }}">
-                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;{{ .Page.Title }}
+                                    <i class="far fa-folder fa-fw"></i>&nbsp;{{ .Page.Title }} <sup>{{- len $pages -}}</sup>
                                 </a>
                             </h3>
-                            {{- range first 4 $pages -}}
-                            <!-- 5 -->
+                            {{- range first 4 $pages -}} 
                                 <article class="archive-item">
                                     <a href="{{ .RelPermalink }}" class="archive-item-link">
-                                        {{- .Title | emojify -}}
+                                        {{- .Title -}}
                                     </a>
                                 </article>
                             {{- end -}}
                             {{- if gt (len $pages) 4 -}}
-                            <!-- 5 -->
+                                <span class="more-post">
+                                    <a href="{{ .RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
+                                </span>
+                            {{- end -}}
+                        </div>
+                    </div>
+                    {{- end -}}
+                {{- end -}}
+            </div>
+
+        {{- /* Series Page */ -}}
+        {{- else if eq $taxonomies "series" -}}
+            {{- $terms := .Data.Terms.ByCount -}}
+            <div class="series-card">
+                {{- range $terms -}}
+                    {{- $term := .Term -}}
+                    {{- $pages := .Pages -}}
+                    {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $term) -}}
+                    <div class="card-item">
+                        <div class="card-item-wrapper">
+                            <h3 class="card-item-title">
+                                <a href="{{ .RelPermalink }}">
+                                    <i class="far fa-folder fa-fw"></i>&nbsp;{{ .Page.Title }} <sup>{{- len $pages -}}</sup>
+                                </a>
+                            </h3>
+                            {{- range first 4 $pages -}}
+                                <article class="archive-item">
+                                    <a href="{{ .RelPermalink }}" class="archive-item-link">
+                                        {{- .Title -}}
+                                    </a>
+                                </article>
+                            {{- end -}}
+                            {{- if gt (len $pages) 4 -}}
+                                <span class="more-post">
+                                    <a href="{{ .RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
+                                </span>
+                            {{- end -}}
+                        </div>
+                    </div>
+                    {{- end -}}
+                {{- end -}}
+            </div>
+            
+        {{- /* Author Page */ -}}
+        {{- else if eq $taxonomies "authors" -}}
+            {{- $terms := .Data.Terms.Alphabetical -}}
+            <div class="author-card">
+                {{- range $terms -}}
+                    {{- $term := .Term -}}
+                    {{- $pages := .Pages -}}
+                    {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $term) -}}
+                    <div class="card-item">
+                        <div class="card-item-wrapper">
+                            <h3 class="card-item-title">
+                                <a href="{{ .RelPermalink }}">
+                                    <i class="fas fa-user-circle fa-fw"></i>&nbsp;{{ .Page.Title }} <sup>{{- len $pages -}}</sup>
+                                </a>
+                            </h3>
+                            {{- range first 4 $pages -}}
+                                <article class="archive-item">
+                                    <a href="{{ .RelPermalink }}" class="archive-item-link">
+                                        {{- .Title -}}
+                                    </a>
+                                </article>
+                            {{- end -}}
+                            {{- if gt (len $pages) 4 -}}
                                 <span class="more-post">
                                     <a href="{{ .RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
                                 </span>
@@ -51,8 +114,7 @@
         {{- /* Tag Cloud Page */ -}}
         {{- else if eq $taxonomies "tags" -}}
             <div class="tag-cloud-tags">
-                {{- range $.Site.Taxonomies.tags.Alphabetical -}} 
-                <!-- range $.Site.Taxonomies.tags.ByCount  -->
+                {{- range $.Site.Taxonomies.tags.Alphabetical -}}
                     <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
                 {{- end -}}
             </div>
