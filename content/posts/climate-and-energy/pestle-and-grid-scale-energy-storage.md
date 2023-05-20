@@ -1,8 +1,10 @@
 ---
 title: "PESTLE and Grid-Scale Energy Storage"
 date: 2023-05-03
+lastmod: 2023-05-20
 categories: ["Climate and Energy","Business and Consulting"]
 tags: ["Energy Storage","Batteries","Electrochemical Batteries","Lithium","Flow Batteries","Sodium","Grid Storage"]
+math: false
 ---
 I’ve been thinking about energy storage recently, and what may affect the industry in the coming months and years.
 
