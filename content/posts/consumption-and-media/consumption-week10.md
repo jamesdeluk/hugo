@@ -3,7 +3,7 @@ title: Consumption Week 10
 subtitle: "My notes from some of the media I consumed this week."
 summary: "Emissions, negotiation, male-female differences, and wine-milk."
 categories: ["Consumption and Media"]
-tags: ["Air Conditioning","Business","Cars","ChatGPT","Climate Change","CO2","Construction","Cooling","Disability","Electricity Generation","Emissions","Emotions","Energy Efficiency","Energy Storage","Entrepreneurialism","Food","Future","Heat Pumps","History","Hormones","Male-Female Differences","Medicine","Mental Health","Negotiation","Pharmaceuticals","Pricing Strategy","Psychology","Relationships","Religion","Skills","Surgery","Therapy"]
+tags: ["Air Conditioning","Business","Cars","ChatGPT","Climate Change","CO2","Construction","Cooling","Disability","Electricity Generation","Emissions","Emotions","Energy Efficiency","Energy Storage","Entrepreneurship","Food","Future","Heat Pumps","History","Hormones","Male-Female Differences","Medicine","Mental Health","Negotiation","Pharmaceuticals","Pricing Strategy","Psychology","Relationships","Religion","Skills","Surgery","Therapy"]
 date: 2023-03-12
 ---
 ## Energy, Climate, and the Future

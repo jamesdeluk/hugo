@@ -3,7 +3,7 @@ title: Consumption Week 7
 subtitle: "My notes from some of the media I consumed this week."
 summary: "How to start a cleantech company, the science of love and coffee, smart people having stupid beliefs, and where to be for the coming crisis."
 categories: ["Consumption and Media"]
-tags: ["Agriculture","Agrivoltaics","Batteries","Biases","Caffeine","Carbon Capture","Cash","China","China","Coffee","Crisis","Curiosity","Debt","Deep Sea Mining","Economic Cycles","Entreprenership","EVs","Finances","Investing","Jobs","Lithium","Love","Minerals","Ray Dalio","Recycling","Science","Sleep","Society","Solar","Vision","War","Wealth","Wind","Work"]
+tags: ["Agriculture","Agrivoltaics","Batteries","Biases","Caffeine","Carbon Capture","Cash","China","China","Coffee","Crisis","Curiosity","Debt","Deep Sea Mining","Economic Cycles","Entrepreneurship","EVs","Finances","Investing","Jobs","Lithium","Love","Minerals","Ray Dalio","Recycling","Science","Sleep","Society","Solar","Vision","War","Wealth","Wind","Work"]
 date: 2023-02-19
 ---
 ## Energy, Climate, and the Future
