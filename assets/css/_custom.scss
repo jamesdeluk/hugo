@@ -2,6 +2,13 @@
     width: 12rem;
   }
 
+.home-avatar img, .logo {
+  [theme="dark"] &,
+  [theme="black"] & {
+    filter: invert(1.0);
+  }
+}
+
 .single .post-meta .author {
   font-size: .875rem;
 }
