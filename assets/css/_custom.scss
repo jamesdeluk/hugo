@@ -42,3 +42,17 @@ span.post-category > a > i {
 .page.archive {
     width: 100%;
 }
+
+#toc-auto {
+  position: fixed;
+  top: 76px;
+}
+#TableOfContents {
+  max-height: 80vh !important;
+}
+
+#back-to-top-button {
+  bottom: 1.5rem;
+  left: 1.5rem;
+  right: unset;
+}
