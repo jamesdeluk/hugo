@@ -1,8 +1,8 @@
----
+**---
 title: Mental Maths Tricks
 summary: A bunch of tricks to speed up mental calculations. Really useful!
 date: 2023-03-08
-lastmod: 2023-03-13
+lastmod: 2023-07-12
 categories: ["Cognition and Learning"]
 tags: ["Maths"]
 # math: false
@@ -133,9 +133,9 @@ e.g. 12 × 34 with base 20
 
 **If squaring**
 
-e.g. 13^2, base 10:
+e.g. 13², base 10:
 
-= 10(13+0) + 3^2
+= 10(13+0) + 3²
 
 = 169
 
@@ -143,7 +143,7 @@ e.g. 13^2, base 10:
 
 **Alternative squaring method based on bases**
 
-e.g 69^2, base 60:
+e.g 69², base 60:
 
 69 = 60 + 9
 
@@ -151,9 +151,9 @@ e.g 69^2, base 60:
 
 78 × 60 = 4680
 
-9^2 = 81
+9² = 81
 
-69^2 = 4680 + 81 = 4761
+69² = 4680 + 81 = 4761
 
 {{<br>}}
 
@@ -186,6 +186,24 @@ e.g. 88 × 66
 = [54][408]
 
 = 5808
+
+### Squaring a three-digit number
+
+**ABC² = 10000(A²) + 100(B²) + C² + 1000(2×A×B) + 100(2×A×C) + 10(2×B×C)**
+
+*≡ 10000(A²) + 100(B²) + C² + 2[1000(A×B) + 100(A×C) + 10(B×C)]*
+
+*≡ 10000(A²) + 1000(2×A×B) + 100(B²+2×A×C) + 10(2×B×C) + C²*
+
+{{<br>}}
+
+e.g. 317²
+
+= 10000(3²) + 100(1²) + 7² + 1000(2×3×1) + 100(2×3×7) + 10(2×1×7)
+
+= 90000 + 100 + 49 + 6000 + 4200 + 140 = 100489
+
+= 100489
 
 ## Division
 
@@ -284,9 +302,9 @@ e.g. √1849
 
 Final digit = 9
 
-... so final digit of answer is 3 (3^2=9) or 7 (7^2=49) [see table above]
+... so final digit of answer is 3 (3²=9) or 7 (7²=49) [see table above]
 
-Nearest square below 18 = 4 (4^2=16) [see table above]
+Nearest square below 18 = 4 (4²=16) [see table above]
 
 4 × (4+1) = 20
 
@@ -368,4 +386,4 @@ e.g. √87
 
 ## Links
 
-[https://www.youtube.com/@mathOgenius/videos](https://www.youtube.com/@mathOgenius/videos)
+[https://www.youtube.com/@mathOgenius/videos](https://www.youtube.com/@mathOgenius/videos)**
