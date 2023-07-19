@@ -95,6 +95,10 @@ description = ""
 
   [params.page.math]
     enable = true
+    blockLeftDelimiter = "\\["
+    blockRightDelimiter = "\\]"
+    inlineLeftDelimiter = "\\("
+    inlineRightDelimiter = "\\)"
 
   [params.page.share]
     enable = true
