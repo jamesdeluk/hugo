@@ -5,7 +5,7 @@ tags: ['Digital Forensics']
 date: 2021-07-04
 ---
 
-{{< br >}}
+<br>
 
 Part of my role involves threat hunting on client servers. During one of these hunts I found a PHP backdoor called `shell20210526.php`. It was obfuscated - challenge accepted!
 

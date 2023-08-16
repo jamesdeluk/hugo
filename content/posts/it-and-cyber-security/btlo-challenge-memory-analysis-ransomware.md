@@ -7,25 +7,25 @@ date: 2021-07-12
 
 [https://blueteamlabs.online/home/challenge/1](https://blueteamlabs.online/home/challenge/1)
 
-{{< br >}}
+<br>
 
 - [Introduction](#introduction)
 - [Questions](#questions)
-  * [Run “vol.py -f infected.vmem --profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process?](#run-volpy--f-infectedvmem---profilewin7sp1x86-psscan-that-will-list-all-processes-what-is-the-name-of-the-suspicious-process)
-  * [What is the parent process ID for the suspicious process?](#what-is-the-parent-process-id-for-the-suspicious-process)
-  * [What is the initial malicious executable that created this process?](#what-is-the-initial-malicious-executable-that-created-this-process)
-  * [If you drill down on the suspicious PID (vol.py -f infected.vmem --profile=Win7SP1x86 psscan | grep (PIDhere)), find the process used to delete files](#if-you-drill-down-on-the-suspicious-pid-volpy--f-infectedvmem---profilewin7sp1x86-psscan--grep-pidhere-find-the-process-used-to-delete-files)
-  * [Find the path where the malicious file was first executed](#find-the-path-where-the-malicious-file-was-first-executed)
-  * [Can you identify what ransomware it is?](#can-you-identify-what-ransomware-it-is)
-  * [What is the filename for the file with the ransomware public key that was used to encrypt the private key?](#what-is-the-filename-for-the-file-with-the-ransomware-public-key-that-was-used-to-encrypt-the-private-key)
-- [Comments](#comments)
+  - [Run “vol.py -f infected.vmem --profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process?](#run-volpy--f-infectedvmem---profilewin7sp1x86-psscan-that-will-list-all-processes-what-is-the-name-of-the-suspicious-process)
+  - [What is the parent process ID for the suspicious process?](#what-is-the-parent-process-id-for-the-suspicious-process)
+  - [What is the initial malicious executable that created this process?](#what-is-the-initial-malicious-executable-that-created-this-process)
+  - [If you drill down on the suspicious PID (vol.py -f infected.vmem --profile=Win7SP1x86 psscan | grep (PIDhere)), find the process used to delete files](#if-you-drill-down-on-the-suspicious-pid-volpy--f-infectedvmem---profilewin7sp1x86-psscan--grep-pidhere-find-the-process-used-to-delete-files)
+  - [Find the path where the malicious file was first executed](#find-the-path-where-the-malicious-file-was-first-executed)
+  - [Can you identify what ransomware it is?](#can-you-identify-what-ransomware-it-is)
+  - [What is the filename for the file with the ransomware public key that was used to encrypt the private key?](#what-is-the-filename-for-the-file-with-the-ransomware-public-key-that-was-used-to-encrypt-the-private-key)
+- [Comments?](#comments)
 
 
 ## Introduction
 
 > The Account Executive called the SOC earlier and sounds very frustrated and angry. He stated he can’t access any files on his computer and keeps receiving a pop-up stating that his files have been encrypted. You disconnected the computer from the network and extracted the memory dump of his machine and started analyzing it with Volatility. Continue your investigation to uncover how the ransomware works and how to stop it!
 
-{{< br >}}
+<br>
 
 We're provided with one `.vmen` file. REMnux (the distro I use for my malware analysis) has two versions of Volatility installed - version 3 (`vol3`) and version 2 (`vol.py`). The versions are quite different, and from my understanding version 2 is still the most common, so I will be using that. Plus, the instructions for this challenge say to use version 3.
 
@@ -79,19 +79,19 @@ If we check handles for or4qwtckT.exe using the command `handles -p 2732` (note 
 
 This suggests the file is on the User hacker's desktop.
 
-{{< br >}}
+<br>
 
 Similarly, if we check related DLLs with the command `dlllist -p 2732`, we get confirmation of this:
 
 ![btlo-challenge-memory-analysis-ransomware-4.png](/img/btlo-challenge-memory-analysis-ransomware-4.png)
 
-{{< br >}}
+<br>
 
 One more thing we can do is scan the memory dump for files, with `filescan | grep or4qtckT`. And once again:
 
 ![btlo-challenge-memory-analysis-ransomware-5.png](/img/btlo-challenge-memory-analysis-ransomware-5.png)
 
-{{< br >}}
+<br>
 
 It's always good to verify your answer with multiple methods, if possible.
 
@@ -109,7 +109,7 @@ We can take the hash of it with `$ sha256sum executable.2732.exe`, which gives u
 
 ![btlo-challenge-memory-analysis-ransomware-7.png](/img/btlo-challenge-memory-analysis-ransomware-7.png)
 
-{{< br >}}
+<br>
 
 Alternatively, we can extract the file itself, as we know the filename, using the command `dumpfiles -r or4qtckT -n --dump-dir=./`.
 
@@ -119,7 +119,7 @@ This produces a file called `file.2732.0x83eb0c58.or4qtckT.exe.img`. The SHA 256
 
 ![btlo-challenge-memory-analysis-ransomware-9.png](/img/btlo-challenge-memory-analysis-ransomware-9.png)
 
-{{< br >}}
+<br>
 
 The result is the same.
 

@@ -7,7 +7,7 @@ date: 2021-05-16
 
 [https://blueteamlabs.online/home/challenge/7](https://blueteamlabs.online/home/challenge/7)
 
-{{< br >}}
+<br>
 
 - [Open the file](#open-the-file)
 - [Decode the file](#decode-the-file)

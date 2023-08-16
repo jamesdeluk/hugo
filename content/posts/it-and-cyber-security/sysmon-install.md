@@ -5,7 +5,7 @@ tags: ['Security Monitoring']
 date: 2021-06-02
 ---
 
-{{< br >}}
+<br>
 
 - [Introduction](#introduction)
 - [Helpful Links](#helpful-links)

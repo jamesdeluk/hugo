@@ -7,7 +7,7 @@ date: 2021-04-22
 
 [https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz/27266/](https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz/27266/)
 
-{{< br >}}
+<br>
 
 - [Introduction](#introduction)
 - [Artifacts](#artifacts)

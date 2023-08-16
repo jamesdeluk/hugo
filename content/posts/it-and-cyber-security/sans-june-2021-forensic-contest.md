@@ -20,7 +20,7 @@ They said it was hard, and it was. I'm proud of what I found! Reflecting back:
 
 [https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest/27532/](https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest/27532/)
 
-{{< br >}}
+<br>
 
 - [Preparation](#preparation)
 - [Questions](#questions)
@@ -54,29 +54,29 @@ Following the suggestion from Brad, I'll start by splitting the pcap into separa
 
 Let's start with Export Objects → HTTP. This can show if any malware was downloaded.
 
-{{< br >}}
+<br>
 
 **.93**
 
 We have many .cabs and a few .exes from windowsupdate.com from an Akamai IP (which is legit). VirusTotal seems to think these files are safe.
 
-{{< br >}}
+<br>
 
 **.119**
 
 A large number of objects, including some from suspicious domains such as ststephenskisugu.church and hadevatjulps.com, as well as some from raw IPs including octet-streams. This could be something.
 
-{{< br >}}
+<br>
 
 **.187**
 
 This, again, has windowsupdate.com, as well as some from solarwindsonline.com, including documents.zip and Oliver.Williams-84.zip.
 
-{{< br >}}
+<br>
 
 This suggests **.119 and .187** are the infected machines.
 
-{{< br >}}
+<br>
 
 A bit more looking into .93, to confirm nothing bad is happening.
 
@@ -88,7 +88,7 @@ Nothing too scary looking. Nearly all the server names (`tls.handshake.extension
 
 Checking the Endpoints again, the largest number of bytes transferred to a single IP is only 1099k, and this is part of Windows Updates. In fact, all the top IPs relate to Akami (Windows Updates) or Microsoft, so no large malware is downloaded, nor is there a large amount of communication (such as for C2).
 
-{{< br >}}
+<br>
 
 I think we can safely say **.119 and .187** are the infected machines.
 
@@ -189,7 +189,7 @@ Checking Endpoints again, there are a lot of packets with `185[.]66[.]15[.]228`.
 
 In the timeline of events, this data exfil comes after the above executables (and data) are downloaded (i.e. after FickerStealer), but before the `pixel` (C2) connections.
 
-{{< br >}}
+<br>
 
 **.187**
 
@@ -294,7 +294,7 @@ and number of TCP streams:
 
 FickerStealer
 
-{{< br >}}
+<br>
 
 **.187**
 

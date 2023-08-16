@@ -10,7 +10,7 @@ date: 2022-03-07
 
 I take notes using Notion. Lots of commands, tools, hints, and tips. Over 72,000 words so far!
 
-{{< br >}}
+<br>
 
 **Screenshot as of October 2021:**
 

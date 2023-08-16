@@ -7,7 +7,7 @@ date: 2021-06-20
 
 [https://blueteamlabs.online/home/challenge/10](https://blueteamlabs.online/home/challenge/10)
 
-{{< br >}}
+<br>
 
 - [What is the email service used by the malicious actor?](#what-is-the-email-service-used-by-the-malicious-actor)
 - [What is the Reply-To email address?](#what-is-the-reply-to-email-address)

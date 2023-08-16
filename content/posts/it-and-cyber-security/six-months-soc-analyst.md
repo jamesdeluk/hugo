@@ -25,7 +25,7 @@ You'll spend a *lot* of time looking through logs, so get to know how to sort th
 
 Every SIEM has it's own syntax for searching, but they're all pretty similar. Splunk, for example, has a complex searching system, with piping, calculations, lookups, stats, and more. ELK (Elastic/Logstash/Kibana), on the other hand, has a more simple search, but has separate tools for creating visualisations and data tables, as well as Elasticsearch Query DSL which allows you to create JSON-like searches. However, **fundamentally, they're all logical operators (ANDs, ORs) mixed with fields and values**, e.g. `data_source=flow_logs AND (destination_port=80 OR destination_port=443)`.
 
-{{< br >}}
+<br>
 
 Also, learn how the events in your SIEM get there. In general, raw logs will be created by the endpoint, transmitted to your infrastructure, processed, and then appear in your SIEM. **But what specifically generates the logs on the endpoint? Where exactly does the processing take place? How is it done?**
 
@@ -43,7 +43,7 @@ Another time **I wanted to check the status of a service and check the size of a
 
 Automation and scripting really are the **ultimate timesavers**.
 
-{{< br >}}
+<br>
 
 Another advantage of knowing these languages is being able to **understand something someone else has written**.
 
@@ -51,19 +51,19 @@ Another advantage of knowing these languages is being able to **understand somet
 
 Relatedly, sooner or later you'll find a **malicious script** on a machine (an Empire script, a PHP backdoor, a Bash reverse shell) placed there by a friendly threat actor. Being able to read and understand what it does will let you know what next steps to take - and how ^&%$ed you might be.
 
-{{< br >}}
+<br>
 
 **How do you learn** to write scripts? You don't need me to tell you this. Google. StackOverflow. There are so many great resources.
 
-{{< br >}}
+<br>
 
 Even **Excel** can be a powerful tool, especially when dealing with data that needs to be made user-friendly (i.e. for sharing with management, or copy-pasting) or comes from other sources (e.g. CSV exports). Sure, you could write a Python script using Pandas/Numpy to manipulate it and Matplotlib or Seaborn to visualise it, but Excel is often a lot quicker! Simple Excel spreadsheets with a few interconnected functions have also saved me countless hours.
 
-{{< br >}}
+<br>
 
 I'm also going to throw **regex** (regular expressions) in here too. It's an incredibly efficient tool for extracting and manipulating data, and can be done easily in text editors such as VSCodium. The more regex you know, the more powerful it is, and it's very easy to get proficient quickly! If you look at my challenge write-ups and other investigations, you'll see I use regex a lot. And a lot of detection rules are based on regex, so there's yet another reason to learn it.
 
-{{< br >}}
+<br>
 
 Finally, **templates**. A lot of alerts will be similar and hence will require sending similar tickets/emails. Don't go through the pain of writing it out each time - create a template that you can copy and paste! Even better, using scripting and automation, integrate this template with your tools so that the email auto-generates. Another small thing, but it saves you yet more hours.
 
@@ -71,7 +71,7 @@ Finally, **templates**. A lot of alerts will be similar and hence will require s
 
 The third suggestion I'll make applies to almost everything in life. Take the initiative! **Don't wait for someone else to do something for you**, or simply complain about it - do it yourself.
 
-{{< br >}}
+<br>
 
 This ties in nicely with the previous two points too.
 
@@ -79,7 +79,7 @@ If, through learning your tools, you find your logs are missing data you think m
 
 If you find yourself doing something simple regularly (checking things, configuration changes, processing data), you should try and automate it. **Write a script or web application, test it, and if it's working well, share it with your team.** Even if you can't write it yourself, see if one already exists. As mentioned, GitHub is an excellent resource - it's very unlikely you're the only person to have faced the issue you're facing. Just remember to check the code first and don't trust it blindly.
 
-{{< br >}}
+<br>
 
 Of course, there are caveats to taking the initiative. Don't go fiddling with things you shouldn't and annoying your Engineers by breaking things (you shouldn't be able to anyway if you're abiding by the principle of least privilege, but better safe than sorry). Test a lot, and check with whomever you need to before rolling something out. For bigger, more strategic things, you should check you won't be wasting your time - don't spend months investigating SOAR A if there's already a plan to implement SOAR B. And, most importantly, make sure this doesn't detract from you doing your actual job - those alerts need to be dealt with!
 
@@ -87,7 +87,7 @@ Of course, there are caveats to taking the initiative. Don't go fiddling with th
 
 There we have it; three simple bits of advice for new people in infosec. There's a lot more I could have written, but these are what have helped me most in my first six months, and for a newbie, these are where I'd recommend you start.
 
-{{< br >}}
+<br>
 
 Here's to another six months - and another six years! (decades might be pushing it)
 
