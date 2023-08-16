@@ -1,4 +1,4 @@
-**---
+---
 title: Mental Maths Tricks
 summary: A bunch of tricks to speed up mental calculations. Really useful!
 date: 2023-03-08
