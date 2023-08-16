@@ -55,7 +55,7 @@ etc
 
 e.g. 14 × 16 = [1 × 2][4 × 6] = [2][24] = 224
 
-{{<br>}}
+<br>
 
 Note when B=C=5:
 
@@ -71,7 +71,7 @@ e.g. 35 × 35
 
 e.g. 14 × 16 = 14 × 4 × 4 = 56 × 4 = 224
 
-{{<br>}}
+<br>
 
 ### Criss-cross method (my favourite!)
 
@@ -87,7 +87,7 @@ e.g. 12 × 34
 
 = 408
 
-{{<br>}}
+<br>
 
 **ABC × DEF = [A×D][A×E+D×B][A×F+B×E+D×C][B×F+E×C][C×F]**
 
@@ -103,7 +103,7 @@ e.g. 123 × 456
 
 = 56088
 
-{{<br>}}
+<br>
 
 ### Bases method (similar size, or squaring)
 
@@ -111,7 +111,7 @@ When AB=base+E and CD=base+F:
 
 **base(AB+F) + E×F**
 
-{{<br>}}
+<br>
 
 e.g. 12 × 34 with base 10
 
@@ -129,7 +129,7 @@ e.g. 12 × 34 with base 20
 
 = 408
 
-{{<br>}}
+<br>
 
 **If squaring**
 
@@ -139,7 +139,7 @@ e.g. 13², base 10:
 
 = 169
 
-{{<br>}}
+<br>
 
 **Alternative squaring method based on bases**
 
@@ -155,13 +155,13 @@ e.g 69², base 60:
 
 69² = 4680 + 81 = 4761
 
-{{<br>}}
+<br>
 
 ### 100 minus method (if close to 100)
 
 **AB × CD = [100-((100-AB)+(100-CD))][(100-AB)×(100-CD)]**
 
-{{<br>}}
+<br>
 
 e.g. 12 × 34
 
@@ -175,7 +175,7 @@ e.g. 12 × 34
 
 = 408
 
-{{<br>}}
+<br>
 
 e.g. 88 × 66
 
@@ -195,7 +195,7 @@ e.g. 88 × 66
 
 *≡ 10000(A²) + 1000(2×A×B) + 100(B²+2×A×C) + 10(2×B×C) + C²*
 
-{{<br>}}
+<br>
 
 e.g. 317²
 
@@ -213,13 +213,13 @@ e.g. 317²
 
 e.g. 77 / 3 = 25.666…
 
-{{<br>}}
+<br>
 
 **5** → Decimal = final digit of dividend × 2 / 10
 
 e.g. 1234 / 5 = _something_.8
 
-{{<br>}}
+<br>
 
 **6** → Decimal multiple of 0.5 × 0.333
 
@@ -227,13 +227,13 @@ e.g. 77 / 6 = 12.833
 
 where 0.833 = 0.333 × 2.5
 
-{{<br>}}
+<br>
 
 **9** → x / 9 = 0.xxx
 
 e.g. 5 / 9 = 0.555…
 
-{{<br>}}
+<br>
 
 **7** → Repeating pattern to memorise
 
@@ -243,13 +243,13 @@ e.g. 5 / 9 = 0.555…
 
 3 / 7 = 0.42857142857
 
-{{<br>}}
+<br>
 
 **11** → Multiples of 0.09… recurring
 
 e.g. 4 / 11 = 0.4545…
 
-{{<br>}}
+<br>
 
 ### Divisible by
 
@@ -259,27 +259,27 @@ e.g. 4 / 11 = 0.4545…
 
 **8**: last three digits divisible by 8 (or 000)
 
-{{<br>}}
+<br>
 
 **3**: sum of digits divisibly by 3
 
 **9**: sum of digits divisible by 9
 
-{{<br>}}
+<br>
 
 **5**: final digit 0 or 5
 
-{{<br>}}
+<br>
 
 **6**: divisible by 2 + divisible by 3
 
 **12**: divisible by 3 + divisible by 4
 
-{{<br>}}
+<br>
 
 **11**: (sum odd position numbers - sum even position numbers) divisible by 11 (or 0)
 
-{{<br>}}
+<br>
 
 ## Square Rooting
 
@@ -330,7 +330,7 @@ e.g. √87
 
 = 9.333
 
-{{<br>}}
+<br>
 
 √138
 

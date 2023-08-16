@@ -18,7 +18,7 @@ date: 2021-04-06
 
 If you have less than a couple years, it probably is worth it, yes!
 
-{{<br>}}{{<br>}}
+<br><br>
 
 ![btl1-coin](/img/btl1-coin.jpg)
 

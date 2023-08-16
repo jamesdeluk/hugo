@@ -63,7 +63,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
     - The new battery can hold 72 percent more energy by weight and 95 percent more energy by volume than commercial lithium-ion batteries.
     - [https://spectrum.ieee.org/solid-state-battery-no-anode](https://spectrum.ieee.org/solid-state-battery-no-anode)
 
-{{<br>}}
+<br>
 
 **_Lithium Air_**
 
@@ -83,7 +83,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
     - [https://arstechnica.com/science/2023/02/new-battery-seems-to-offer-it-all-lithium-metal-lithium-air-electrodes/](https://arstechnica.com/science/2023/02/new-battery-seems-to-offer-it-all-lithium-metal-lithium-air-electrodes/)
     - [https://cleantechnica.com/2023/02/06/researchers-report-progress-on-a-solid-state-lithium-air-battery-with-high-energy-density/](https://cleantechnica.com/2023/02/06/researchers-report-progress-on-a-solid-state-lithium-air-battery-with-high-energy-density/)
 
-{{<br>}}
+<br>
 
 **_Thin-Film Lithium_**
 
@@ -91,7 +91,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 
 - Better performance, physically flexible
 
-{{<br>}}
+<br>
 
 **_Lithium-ion polymer (LiPo)_**
 
@@ -107,7 +107,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 
 - Higher specific density, safer
 
-{{<br>}}
+<br>
 
 **_Battery Streak_**
 
@@ -115,7 +115,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 
 [https://youtu.be/48vPgAPtkJg](https://youtu.be/48vPgAPtkJg)
 
-{{<br>}}
+<br>
 
 **_EnergyX_**
 
@@ -126,7 +126,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 
 [https://youtu.be/_NLG9TLRm14](https://youtu.be/_NLG9TLRm14)
 
-{{<br>}}
+<br>
 
 **_Fast charging developments_**
 
@@ -134,7 +134,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 
 [https://cleantechnica.com/2023/03/05/speeding-up-extreme-fast-charging-capability-in-lithium-ion-batteries/](https://cleantechnica.com/2023/03/05/speeding-up-extreme-fast-charging-capability-in-lithium-ion-batteries/)
 
-{{<br>}}
+<br>
 
 **_HOS-PFM_**
 
@@ -142,13 +142,13 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 
 [https://cleantechnica.com/2023/03/13/electric-vehicle-batteries-could-get-big-boost-with-new-polymer-coating/](https://cleantechnica.com/2023/03/13/electric-vehicle-batteries-could-get-big-boost-with-new-polymer-coating/)
 
-{{<br>}}
+<br>
 
 **Other Links**
 
 [https://en.wikipedia.org/wiki/Research_in_lithium-ion_batteries](https://en.wikipedia.org/wiki/Research_in_lithium-ion_batteries)
 
-{{<br>}}
+<br>
 
 ### (Redox) Flow battery
 
@@ -202,7 +202,7 @@ _Zinc bromine_
 
 [https://youtu.be/2wsSRq-bEm0](https://youtu.be/2wsSRq-bEm0)
 
-{{<br>}}
+<br>
 
 ### Sodium
 
@@ -232,7 +232,7 @@ _Zinc bromine_
 
 [https://www.tycorun.com/blogs/news/top10-sodium-ion-battery-companies-in-the-world-in-2022](https://www.tycorun.com/blogs/news/top10-sodium-ion-battery-companies-in-the-world-in-2022)
 
-{{<br>}}
+<br>
 
 **_Sodium Sulphur_**
 
@@ -251,7 +251,7 @@ _Zinc bromine_
 
 [https://youtu.be/tHRoefpqMaM](https://youtu.be/tHRoefpqMaM)
 
-{{<br>}}
+<br>
 
 **_Sodium Aluminium_**
 
@@ -259,7 +259,7 @@ _Zinc bromine_
 
 [https://cleantechnica.com/2023/02/07/new-sodium-aluminum-battery-aims-to-integrate-renewables-for-grid-resiliency/](https://cleantechnica.com/2023/02/07/new-sodium-aluminum-battery-aims-to-integrate-renewables-for-grid-resiliency/)
 
-{{<br>}}
+<br>
 
 **_Seawater separator_**
 
@@ -267,7 +267,7 @@ _Zinc bromine_
 
 [https://www.bristol.ac.uk/news/2022/october/seaweed-based-battery-.html](https://www.bristol.ac.uk/news/2022/october/seaweed-based-battery-.html)
 
-{{<br>}}
+<br>
 
 ### Aluminium
 
@@ -295,7 +295,7 @@ _Zinc bromine_
 
 [https://youtu.be/n1TBAWlbXKI](https://youtu.be/n1TBAWlbXKI)
 
-{{<br>}}
+<br>
 
 ### Silver zinc
 
@@ -312,7 +312,7 @@ _Zinc bromine_
 
 [https://en.wikipedia.org/wiki/Silver_zinc_battery](https://en.wikipedia.org/wiki/Silver_zinc_battery)
 
-{{<br>}}
+<br>
 
 ### Oxygen
 
@@ -341,7 +341,7 @@ _Zinc bromine_
 
 [https://cleantechnica.com/2023/01/19/noon-energy-raises-28-million-to-develop-carbon-based-long-term-energy-storage/](https://cleantechnica.com/2023/01/19/noon-energy-raises-28-million-to-develop-carbon-based-long-term-energy-storage/)
 
-{{<br>}}
+<br>
 
 **_Oxygen-ion_**
 
@@ -367,7 +367,7 @@ _Zinc bromine_
 
 [https://spectrum.ieee.org/solid-state-battery-no-anode](https://spectrum.ieee.org/solid-state-battery-no-anode)
 
-{{<br>}}
+<br>
 
 ### Chitosan-zinc
 
@@ -382,7 +382,7 @@ _Zinc bromine_
 
 [https://www.theguardian.com/science/2022/sep/01/crab-lobster-shells-could-used-make-renewable-batteries](https://www.theguardian.com/science/2022/sep/01/crab-lobster-shells-could-used-make-renewable-batteries)
 
-{{<br>}}
+<br>
 
 ### Air
 
@@ -414,7 +414,7 @@ _Zinc bromine_
 
 [https://youtu.be/Ui6wWzxCrQ8](https://youtu.be/Ui6wWzxCrQ8)
 
-{{<br>}}
+<br>
 
 **_Zinc air_**
 
@@ -441,7 +441,7 @@ _Zinc bromine_
 
 [https://www.rechargenews.com/transition/new-zinc-air-battery-is-cheaper-safer-and-far-longer-lasting-than-lithium-ion/2-1-812068](https://www.rechargenews.com/transition/new-zinc-air-battery-is-cheaper-safer-and-far-longer-lasting-than-lithium-ion/2-1-812068)
 
-{{<br>}}
+<br>
 
 ### Solid state
 
@@ -494,7 +494,7 @@ Lithium metal batteries with solid electrolytes have been slow to develop due to
 
 [https://cleantechnica.com/2023/02/16/sakuu-announces-3d-printed-solid-state-battery-success/](https://cleantechnica.com/2023/02/16/sakuu-announces-3d-printed-solid-state-battery-success/)
 
-{{<br>}}
+<br>
 
 ## Mechanical
 
@@ -518,7 +518,7 @@ Lithium metal batteries with solid electrolytes have been slow to develop due to
 
 [https://en.wikipedia.org/wiki/Compressed-air_energy_storage](https://en.wikipedia.org/wiki/Compressed-air_energy_storage)
 
-{{<br>}}
+<br>
 
 ### Liquid air (LAES)
 
@@ -544,7 +544,7 @@ Lithium metal batteries with solid electrolytes have been slow to develop due to
 
 [https://youtu.be/yb1Nuk3_t_4](https://youtu.be/yb1Nuk3_t_4)
 
-{{<br>}}
+<br>
 
 ### Compressed CO2
 
@@ -574,7 +574,7 @@ Lithium metal batteries with solid electrolytes have been slow to develop due to
 
 [https://youtu.be/LXSSH6ZuOWk](https://youtu.be/LXSSH6ZuOWk)
 
-{{<br>}}
+<br>
 
 ### Ocean tanks
 
@@ -599,7 +599,7 @@ Lithium metal batteries with solid electrolytes have been slow to develop due to
 
 [https://youtu.be/gd1fTJ-csio](https://youtu.be/gd1fTJ-csio)
 
-{{<br>}}
+<br>
 
 ### Pumped hydro
 
@@ -621,7 +621,7 @@ Lithium metal batteries with solid electrolytes have been slow to develop due to
 
 [https://youtu.be/qBW3KpXp1FM](https://youtu.be/qBW3KpXp1FM)
 
-{{<br>}}
+<br>
 
 ## Thermal
 
@@ -631,7 +631,7 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 [https://www.canarymedia.com/articles/energy-storage/5-reasons-why-thermal-storage-may-finally-be-set-to-take-off](https://www.canarymedia.com/articles/energy-storage/5-reasons-why-thermal-storage-may-finally-be-set-to-take-off)
 
-{{<br>}}
+<br>
 
 ### Molten salt
 
@@ -647,7 +647,7 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 [https://youtu.be/QbzqLBL-m8I](https://youtu.be/QbzqLBL-m8I)
 
-{{<br>}}
+<br>
 
 ### Molten metal
 
@@ -678,7 +678,7 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 [https://youtu.be/m8751tkBU_Q](https://www.youtube.com/watch?v=m8751tkBU_Q&t=0s)
 
-{{<br>}}
+<br>
 
 ### Bricks
 
@@ -698,7 +698,7 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 [https://youtu.be/QbzqLBL-m8I](https://youtu.be/QbzqLBL-m8I)
 
-{{<br>}}
+<br>
 
 ### Hot water
 
@@ -706,7 +706,7 @@ Heat used to boil water to power steam turbine, or just moved around for heating
 
 Mustikkamaa heat storage, 11.6GWh, hot water
 
-{{<br>}}
+<br>
 
 ### Sand
 
@@ -726,7 +726,7 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 [https://youtu.be/G6ZrM-IZlTE](https://youtu.be/G6ZrM-IZlTE)
 
-{{<br>}}
+<br>
 
 ## Other
 
@@ -734,7 +734,7 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 ![Hydrogen efficiency](/img/energy-storage-2.png)
 
-{{<br>}}
+<br>
 
 ### Massless
 
@@ -744,7 +744,7 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 [https://www.sciencedaily.com/releases/2021/03/210322091632.htm](https://www.sciencedaily.com/releases/2021/03/210322091632.htm)
 
-{{<br>}}
+<br>
 
 ### Non-rechargeable
 
@@ -755,7 +755,7 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 [https://en.wikipedia.org/wiki/Aluminium–air_battery](https://en.wikipedia.org/wiki/Aluminium%E2%80%93air_battery)
 
-{{<br>}}
+<br>
 
 ## Other Links
 
