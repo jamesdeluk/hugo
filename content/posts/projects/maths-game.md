@@ -14,7 +14,8 @@ Features addition, subtraction, multiplication, division, random (a combination 
 The embed doesn't seem to work, so you can visit Repl.it directly and play the game there:
 
 [https://replit.com/@Jamesdeluk/MathsGame#main.py](https://replit.com/@Jamesdeluk/MathsGame#main.py)
-<!-- {{< maths-game-repl >}} -->
+
+<!-- <iframe src="https://replit.com/@Jamesdeluk/MathsGame#main.py" width="600" height="400" /> -->
 
 ## Gist
 {{< gist jamesdeluk 603ab0cfd99e1a2cecf00b260bad760f >}}
