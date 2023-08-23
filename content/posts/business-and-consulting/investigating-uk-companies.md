@@ -75,7 +75,7 @@ What about the ratio between the two, to see the growth of an industry?
 
 ![Birth death ratio](/img/investigating-uk-companies-7.png)
 
-This is much close. Electricity, gas, steam, and AC supply come out top now (the only one with over two births for every death), followed by Manufacturing of beverages, and Water collection, treatment and supply. Ignoring those with no new births (and hence no bar), the losers are Gambling, Manufacture of fabricated metal products, and Printing and reproduction of recorded media.
+This is much closer. Electricity, gas, steam, and AC supply come out top now (the only one with over two births for every death), followed by Manufacturing of beverages, and Water collection, treatment and supply. Ignoring those with no new births (and hence no bar), the losers are Gambling, Manufacture of fabricated metal products, and Printing and reproduction of recorded media.
 
 Note that a y-axis value of 1 means one death for every one birth - anything below this line means more companies died than were born. 15 industries were below this replacement rate.
 
