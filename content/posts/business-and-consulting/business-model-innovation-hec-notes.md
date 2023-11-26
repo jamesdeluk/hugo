@@ -1,7 +1,7 @@
 ---
 title: "Business Model Innovation (HEC Paris) Course Notes"
 date: 2023-08-30
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Strategy","Business","Business Models","Coursera"]
 ---
 [https://www.coursera.org/learn/business-model](https://www.coursera.org/learn/business-model)

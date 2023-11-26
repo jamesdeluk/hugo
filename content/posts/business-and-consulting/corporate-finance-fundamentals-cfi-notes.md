@@ -1,7 +1,7 @@
 ---
 title: "Corporate Finance Fundamentals (CFI) Course Notes"
 date: 2023-08-09
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Finance","Corporate Finance","M&A","Debt","Capital","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/corporate-finance-fundamentals/](https://corporatefinanceinstitute.com/course/corporate-finance-fundamentals/)

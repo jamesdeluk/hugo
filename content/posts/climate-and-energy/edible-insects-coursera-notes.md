@@ -1,7 +1,7 @@
 ---
 title: Edible Insects (National Taiwan University) Course Notes
 date: 2023-07-05
-categories: ["Climate and Energy"]
+categories: ["Climate and Energy","Course Notes"]
 tags: ["Entomophagy","Food","Farming","Sustainability","Innovation","Market Strategy","Coursera"]
 ---
 https://www.coursera.org/learn/edible-insects

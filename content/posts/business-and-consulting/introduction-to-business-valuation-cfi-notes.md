@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Business Valuation (CFI) Course Notes"
 date: 2023-08-16
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Finance","Corporate Finance","M&A","Valuation","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/intro-business-valuation/](https://corporatefinanceinstitute.com/course/intro-business-valuation/)

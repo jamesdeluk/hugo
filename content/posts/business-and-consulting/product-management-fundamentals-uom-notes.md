@@ -1,7 +1,7 @@
 ---
 title: "Product Management Fundamentals (University of Maryland) Course Notes"
 date: 2023-09-20
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Product Management","Business","Design","Product Design","Marketing","edX"]
 ---
 [https://www.edx.org/learn/product-management/the-university-of-maryland-college-park-product-management-fundamentals](https://www.edx.org/learn/product-management/the-university-of-maryland-college-park-product-management-fundamentals)

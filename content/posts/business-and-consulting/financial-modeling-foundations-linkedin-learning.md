@@ -1,7 +1,7 @@
 ---
 title: "Financial Modeling Foundations (LinkedIn Learning) Course Notes"
 date: 2023-07-26
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Finance","Business","Modelling","LinkedIn"]
 ---
 [https://www.linkedin.com/learning/financial-modeling-foundations](https://www.linkedin.com/learning/financial-modeling-foundations)

@@ -1,7 +1,7 @@
 ---
 title: "Entrepreneurship – from ideas to reality (Open University) Course Notes"
 date: 2023-09-06
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Entrepreneurship","Business","Business Models","Open University"]
 ---
 [https://www.open.edu/openlearn/money-business/entrepreneurship-ideas-reality/content-section-overview](https://www.open.edu/openlearn/money-business/entrepreneurship-ideas-reality/content-section-overview)

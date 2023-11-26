@@ -1,7 +1,7 @@
 ---
 title: "Reading Financial Statements (CFI) Course Notes"
 date: 2023-08-23
-categories: ["Business and Consulting"]
+categories: ["Course Notes"]
 tags: ["Finance","Corporate Finance","Valuation","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/learn-to-read-financial-statements-free-course/](https://corporatefinanceinstitute.com/course/learn-to-read-financial-statements-free-course/)
