@@ -1,6 +1,6 @@
 ---
-title: "➤ Achievements"
-categories: ["IT and Cyber Security"]
+title: "Cyber Achievements"
+categories: ["IT and Cyber Security","+ Pinned"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Lotus New Market Strategy"
 date: 2023-11-22
-categories: ["Business and Consulting"]
+categories: ["Business and Consulting","+ Pinned"]
 tags: ["Strategy","Growth","Growth Strategy","Market Entry","Cars","EVs","Business"]
 ---
 Something I threw together for a bit of fun. What if the car brand Lotus wanted to expand into a new market? The PPTX deck can be found [here](/files/Lotus-New-Market-Strategy.pptx).

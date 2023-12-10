@@ -1,6 +1,6 @@
 ---
-title: "➤ IT Cheatsheet"
-categories: ["IT and Cyber Security"]
+title: "IT Cheatsheet"
+categories: ["IT and Cyber Security","+ Pinned"]
 tags: ["IT","Computing","Regex","JavaScript","Scripting"]
 date: 2023-07-02
 ---
