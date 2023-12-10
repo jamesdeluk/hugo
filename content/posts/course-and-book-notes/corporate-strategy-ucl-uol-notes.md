@@ -1,8 +1,8 @@
 ---
-title: Corporate Strategy (UCL/UoL) Course Notes
+title: Corporate Strategy (UCL/UoL)
 date: 2023-06-21
 lastmod: 2023-06-23
-categories: ["Course Notes"]
+categories: ["Course and Book Notes"]
 tags: ["Strategy","Business","M&A","Coursera"]
 ---
 [https://www.coursera.org/learn/corporatestrategy](https://www.coursera.org/learn/corporatestrategy)

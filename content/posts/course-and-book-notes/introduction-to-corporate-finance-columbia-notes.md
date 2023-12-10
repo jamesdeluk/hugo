@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Corporate Finance (Columbia Business School) Course Notes"
+title: "Introduction to Corporate Finance (Columbia Business School)"
 date: 2023-07-19
-categories: ["Course Notes"]
+categories: ["Course and Book Notes"]
 tags: ["Finance","Corporate Finance","Business","M&A","edX"]
 ---
 # Introduction to Corporate Finance

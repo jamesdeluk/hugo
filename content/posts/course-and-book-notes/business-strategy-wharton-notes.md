@@ -1,7 +1,7 @@
 ---
-title: "Business Strategy from Wharton: Competitive Advantage Course Notes"
+title: "Business Strategy from Wharton: Competitive Advantage"
 date: 2023-07-12
-categories: ["Course Notes"]
+categories: ["Course and Book Notes"]
 tags: ["Strategy","Business","Value Chain","Porter's Five Forces","edX"]
 ---
 [https://learning.edx.org/course/course-v1:Wharton+StrategyX+1T2023/home](https://learning.edx.org/course/course-v1:Wharton+StrategyX+1T2023/home)

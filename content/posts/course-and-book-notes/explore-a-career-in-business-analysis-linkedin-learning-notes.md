@@ -1,7 +1,7 @@
 ---
-title: Explore a Career in Business Analysis (LinkedIn Learning) Course Notes
+title: Explore a Career in Business Analysis (LinkedIn Learning)
 date: 2023-11-15
-categories: ["Course Notes"]
+categories: ["Course and Book Notes"]
 tags: ["Business Analysis","Business","LinkedIn"]
 ---
 [https://www.linkedin.com/learning/paths/explore-a-career-in-business-analysis](https://www.linkedin.com/learning/paths/explore-a-career-in-business-analysis)

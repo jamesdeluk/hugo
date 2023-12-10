@@ -1,6 +1,6 @@
 ---
 title: "Don't Trust Your Gut - Seth Stephens-Davidowitz"
-categories: ["Cognition and Learning"]
+categories: ["Cognition and Learning","Course and Book Notes"]
 tags: ["Books","Book Summary","Dating","Family","Success","Wealth","Business","Entrepreneurship","Sales","Happiness","Sex","Psychology"]
 date: 2023-04-05
 ---
