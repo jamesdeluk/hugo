@@ -3,6 +3,7 @@ title: "Bookmarklets"
 categories: ["IT and Cyber Security"]
 tags: ["IT","Computing","Internet","Bookmarks","Boookmarklets","JavaScript","Scripting"]
 date: 2023-10-04
+lastmod: 2023-12-16
 ---
 ## Introduction
 
@@ -104,9 +105,39 @@ javascript:window.scrollTo(0,document.documentElement.scrollHeight)
 window.scrollTo(0,document.documentElement.scrollHeight)
 ```
 
+## Tab title word count prefix
+
+Word count gives you a rough indication of reading time. It's not perfect, just a quick hack.
+
+### Add
+
+This is also available as a userscript, available on [Greasy Fork](https://greasyfork.org/en/scripts/481785-prefix-title-with-word-count).
+
+```js
+javascript:(function()%7Bwc%3Ddocument.body.innerText.match(%2F%5B%5Cw%5Cd%5D%2B%2Fgi).length%3B%0Atitle%3Ddocument.title%3B%0Adocument.title%3D%22%5B%22%2Bwc%2B%22%5D%20%22%2Btitle%3B%7D)()%3B
+```
+
+```js
+wc=document.body.innerText.match(/[\w\d]+/gi).length;
+title=document.title;
+document.title="["+wc+"] "+title;
+```
+
+### Remove
+
+Simply removes the first "word" in the title.
+
+```js
+javascript:(function()%7Bdocument.title%3Ddocument.title.split('%20').slice(1).join('%20')%7D)()%3B
+```
+
+```js
+document.title=document.title.split(' ').slice(1).join(' ')
+```
+
 ## Summarise YouTube videos 
 
-In a new tab
+In a new tab. Don't always work.
 
 ### Summarize.tech
 
