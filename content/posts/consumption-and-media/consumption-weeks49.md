@@ -6,8 +6,6 @@ categories: ["Consumption and Media"]
 tags: ["Attitude","Bankruptcy","Bedding","Business","Cash Flow","Children","Corporate Politics","Debt","Education","Environment","Funding","Household","Korea","Luck","Materials","Mental Fortitude","North Korea","Opportunities","Organisational Structure","Profits","Sports","Startups","Strategy","Success","Training","Venture Capital","War","Wood"]
 date: 2023-12-10
 ---
-# Week 49
-
 ## Be lucky - it's an easy skill to learn
 
 [https://www.telegraph.co.uk/technology/3304496/Be-lucky-its-an-easy-skill-to-learn.html](https://www.telegraph.co.uk/technology/3304496/Be-lucky-its-an-easy-skill-to-learn.html)
