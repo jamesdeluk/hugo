@@ -2,7 +2,7 @@
 title: Mental Maths Tricks
 summary: A bunch of tricks to speed up mental calculations. Really useful!
 date: 2023-03-08
-lastmod: 2023-07-12
+lastmod: 2023-12-27
 categories: ["Cognition and Learning"]
 tags: ["Maths"]
 # math: false
@@ -135,13 +135,17 @@ e.g. 12 × 34 with base 20
 
 e.g. 13², base 10:
 
-= 10(13+0) + 3²
+13 = 10 + 3
 
-= 169
+13 + 3 = 16
+
+16 * 10 = 160
+
+3² = 9
+
+160 + 9 = 169
 
 <br>
-
-**Alternative squaring method based on bases**
 
 e.g 69², base 60:
 
@@ -386,4 +390,4 @@ e.g. √87
 
 ## Links
 
-[https://www.youtube.com/@mathOgenius/videos](https://www.youtube.com/@mathOgenius/videos)**
+[https://www.youtube.com/@mathOgenius/videos](https://www.youtube.com/@mathOgenius/videos)
