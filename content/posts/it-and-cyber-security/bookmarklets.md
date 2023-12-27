@@ -3,7 +3,7 @@ title: "Bookmarklets"
 categories: ["IT and Cyber Security"]
 tags: ["IT","Computing","Internet","Bookmarks","Boookmarklets","JavaScript","Scripting"]
 date: 2023-10-04
-lastmod: 2023-12-16
+lastmod: 2023-12-27
 ---
 ## Introduction
 
@@ -95,17 +95,7 @@ javascript:(function()%7Bdocument.title%3Ddocument.getElementsByTagName('h1')%5B
 document.title=document.getElementsByTagName('h1')[0].innerText
 ```
 
-## Scroll to bottom of a page
-
-```js
-javascript:window.scrollTo(0,document.documentElement.scrollHeight)
-```
-
-```js
-window.scrollTo(0,document.documentElement.scrollHeight)
-```
-
-## Tab title word count prefix
+## Prefix tab title with word count
 
 Word count gives you a rough indication of reading time. It's not perfect, just a quick hack.
 
@@ -133,6 +123,46 @@ javascript:(function()%7Bdocument.title%3Ddocument.title.split('%20').slice(1).j
 
 ```js
 document.title=document.title.split(' ').slice(1).join(' ')
+```
+
+## Prefix tab title with scroll percentage
+
+I actually used an AI/LLM (Poe) to create this one:
+
+> Create a bookmarklet that prefixes the tab title with the % of page scrolled that updates on scroll
+
+```js
+javascript:(function() {
+  var originalTitle = document.title;
+  
+  function updateTitle() {
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+    var percentScrolled = Math.round((scrollTop / scrollHeight) * 100);
+    
+    document.title = '[' + percentScrolled + '%] ' + originalTitle;
+  }
+  
+  window.addEventListener('scroll', updateTitle);
+})();
+```
+
+And instead of using CyberChef, I simply asked the LLM to minify and encode it:
+
+```js
+javascript:(function(){var%20e=document.title;function%20t(){var%20t=document.documentElement.scrollTop||document.body.scrollTop,n=document.documentElement.scrollHeight||document.body.scrollHeight,r=Math.round(t/n*100);document.title='['+r+'%] '+e}window.addEventListener('scroll',t)})();
+```
+
+Which actually does a better job, as it replaces the variable names etc too.
+
+## Scroll to bottom of a page
+
+```js
+javascript:window.scrollTo(0,document.documentElement.scrollHeight)
+```
+
+```js
+window.scrollTo(0,document.documentElement.scrollHeight)
 ```
 
 ## Summarise YouTube videos 
