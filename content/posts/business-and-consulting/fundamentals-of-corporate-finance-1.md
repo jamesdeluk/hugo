@@ -1,6 +1,7 @@
 ---
 title: "Fundamentals of Corporate Finance 1: Goals and Governance of the Corporation"
 date: 2024-01-11
+lastmod: 2024-01-11
 categories: ["Business and Consulting","Course and Book Notes"]
 tags: ["Business","Finance","Corporate Finance","Books","Book Summary"]
 ---
