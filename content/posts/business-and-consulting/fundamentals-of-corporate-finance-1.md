@@ -1,22 +1,29 @@
 ---
 title: "Fundamentals of Corporate Finance 1: Goals and Governance of the Corporation"
 date: 2024-01-11
+lastmod: 2024-01-11
 categories: ["Business and Consulting","Course and Book Notes"]
 tags: ["Business","Finance","Corporate Finance","Books","Book Summary"]
 ---
-*Based on the questions at the end of chapter 1 of Fundamentals of Corporate Finance International Edition (11e) by Brealey, Myers, Marcus.*
+*Based on the questions at the end of chapter 1 of Fundamentals of Corporate Finance International Edition (11th edition) by Brealey, Myers, Marcus.*
+
+A **security** is a tradeable financial instrument, such as a stock, bond, option, future, or mutual fund.
 
 Companies usually buy **real assets**. These include both **tangible** assets (such as trademarks, trucks, lands, and labour) and **intangible** assets (such as brand names). The decision about which assets to buy is usually termed the **capital budgeting or investment decision**. Stocking up on inventory, developing new software, and selling a warehouse, are all investment decisions.
 
-To pay for these assets, companies sell **financial assets** such as bonds. The decision about how to raise the money is usually termed the **financing decision**. Shares, IOUs, cash in a bank account, and a bank loan, are all financial assets. Decisions relating to financial assets are **financial decision**s. Increasing dividends or repaying debt from profits are financial decisions.
+To pay for these assets, companies sell **financial assets** such as bonds. Shares, IOUs, cash in a bank account, and a bank loan, are all financial assets. Decisions relating to financial assets are **financial decisions**. Increasing dividends or repaying debt from profits are financial decisions.
 
-**Capital structure** refers to how an investment is paid for, i.e. debt vs equity.
+The decision about how to raise the money is usually termed the **capital structure or financing decision**. **Capital structure** refers to how an investment is paid for, i.e. debt vs equity.
 
 **Partnerships** do not pay income tax (the owners do) but face unlimited liability.
 
 **Private corporations** are owned by a small group of investors. They are not publicly traded; they are closely held.
 
-**Public corporations** are owned by shareholders. Shareholders can sell their shares (i.e. ownership can be transferred) without disrupting the business, and managers can be fired with no effect on ownership (the corporation survives even if managers leave to organisation). Shareholders have limited liability, meaning they are not personally liable for debts or legal issues. This reduces the risk of investing in a business. Limited liability can be a disadvantage; external finance may require collateral, and a corporation with limited assets may have less to offer than a group of persons who are individually liable, therefore it may be more difficult to access finance. Corporations are subject to **double taxation**, as there is both corporation tax (paid by the corporation) and capital gains tax (paid by the shareholders).
+**Public corporations** are owned by shareholders. Shareholders can sell their shares (i.e. ownership can be transferred) without disrupting the business, and managers can be fired with no effect on ownership (the corporation survives even if managers leave to organisation).
+
+The owners of corporations (investors if a private corporation and shareholders if a public corporation) have **limited liability**, meaning they are not personally liable for debts or legal issues. This reduces the risk of investing in a business. Limited liability can be a disadvantage; external finance may require collateral, and a corporation with limited assets may have less to offer than a group of persons who are individually liable, therefore it may be more difficult to access finance.
+
+Corporations are subject to **double taxation**, as there is both corporation tax (paid by the corporation) and capital gains tax (paid by the shareholders).
 
 The **CFO** is responsibly for the overall financial strategy for the organisation.
 
@@ -46,9 +53,11 @@ Both national and local brands could be damaged by **unethical** actions. If a n
 
 The **opportunity cost of capital** is the rate of return for an alternative investment. A safe investment (risk-free rate), for comparison, is typically a treasury bond.
 
+For a shareholder to be satisfied, the rate of return of an investment by a corporation into a real asset must be higher than an investment into a financial asset. This includes the shareholder selling their shares in the corporation to invest in a different corporation with a higher rate of return. 
+
 An attractive **rate of return** is one that is satisfactory given the risk level. Even a risk-averse investor may support a high-risk investment if the opportunity cost of capital is low and the expected rate of return significantly outweighs the alternative.
 
-A company can get a bank loan at 7%. They have an opportunity to invest in an average-risk project with a 9.5% rate of return. This might be a good investment (9.5 > 7), but the total WACC (including cost of equity) needs to be considered (to ensure shareholders are also satisfied). It should also be considered if there is a better alternative investment (e.g. higher return or lower risk).
+The opportunity cost of capital is generally not the interest rate that the firm pays on a loan from a bank or insurance company, due to the risk of the investment. For example, a company can get a bank loan at 7%. and it has the opportunity to invest in an average-risk project with a 9.5% rate of return. This might be a good investment (9.5 > 7), but the total WACC (including cost of equity) needs to be considered (to ensure shareholders are also satisfied), and a higher return might be required if it was a high-risk project. It should also be considered if there is a better alternative investment (e.g. higher return or lower risk).
 
 If there is an investment opportunity with a **guaranteed return** above the risk-free rate, it is typically a good investment. If funding is limited, the highest guaranteed return should be invested in first. If the return is not guaranteed (i.e. it is variable, such as correlating to a commodity price), a risk analysis should be done to determine against this opportunity and alternatives to understand the expected rates of return and risk profiles.
 
@@ -57,3 +66,9 @@ If there is an investment opportunity with a **guaranteed return** above the ris
 Clear and comprehensive **financial reports** promote effective corporate governance as nothing can be hidden or missed; this builds trust and accountability. It also provides compliance and supports effective decision-making.
 
 A **long-term relationship** between a corporation and a bank could lead to more cronyism; however, competition between banks for the custom of a corporations could lead to unethical tactics and bribes.
+
+1. Corporate finance is about adding value.
+2. The opportunity cost of capital sets the standard for investments.
+3. A safe dollar is worth more than a risky one, and a dollar today is worth more than a future one.
+4. Smart investment decisions create more value than smart financing decisions.
+5. Good governance matters.
