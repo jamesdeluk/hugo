@@ -6,6 +6,8 @@ tags: ["AI","Alcohol","Anatomy","Animals","Bacteria","China","Colleagues","Cooki
 date: 2024-01-14
 lastmod: 2024-01-14
 ---
+{{< small-image-button >}}
+
 ## General Personal Development
 
 - Anterior mid-cingulate cortex correlates with willpower. It grows by doing things you don't want to, especially physically, such as going for a run in the rain or taking a cold shower, or not doing things you want to, like eating the cookie. It doesn’t grow by putting in effort, such as a hard run that you actually enjoy. It’s a possible predictor of life duration. [1]

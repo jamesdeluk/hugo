@@ -1,0 +1,9 @@
+<button onclick="smallImages()" class="small-image-button">Toggle small images</button>
+<script>
+    function smallImages() {
+      var images = document.getElementsByTagName('img');
+      for (var i = 0; i < images.length; i++) {
+        images[i].classList.toggle('small-image');
+      }
+    }
+</script>
