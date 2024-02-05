@@ -1,9 +1,14 @@
 ---
-title: "Cyber Achievements"
-categories: ["IT and Cyber Security","+ Pinned"]
+title: "Achievements and Certifications"
+categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
+lastmod: 2024-02-05
 ---
+
+## Finance
+
+<a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI-certificate-AF"></a>
 
 ## Cyber Security
 
@@ -28,9 +33,9 @@ date: 2022-08-23
 
 ### Courses
 
-<a href="https://app.cybrary.it/courses/api/certificate/CC-3beb7e33-1435-48ec-9fed-16b0d585baa6/view" target="_blank"><img height="200" src="/img/cybrary-cert-soc-analyst-level-1.jpg" alt="Cybrary SOC Level 1"></a>
-<a href="https://app.cybrary.it/courses/api/certificate/CC-1f4bc6e6-8666-4cee-ab1c-e27178f3ae19/view" target="_blank"><img height="200" src="/img/cybrary-cert-network-engineer.jpg" alt="Cybrary Network Engineer"></a>
-<a href="https://app.cybrary.it/courses/api/certificate/CC-b14d45ad-5e0a-4ffe-ac91-c4f75fc08101/view" target="_blank"><img height="200" src="/img/cybrary-cert-system-administrator.jpg" alt="Cybrary System Administrator"></a>
+<a href="https://app.cybrary.it/courses/api/certificate/CC-3beb7e33-1435-48ec-9fed-16b0d585baa6/view" target="_blank"><img height="180" src="/img/cybrary-cert-soc-analyst-level-1.jpg" alt="Cybrary SOC Level 1"></a>
+<a href="https://app.cybrary.it/courses/api/certificate/CC-1f4bc6e6-8666-4cee-ab1c-e27178f3ae19/view" target="_blank"><img height="180" src="/img/cybrary-cert-network-engineer.jpg" alt="Cybrary Network Engineer"></a>
+<a href="https://app.cybrary.it/courses/api/certificate/CC-b14d45ad-5e0a-4ffe-ac91-c4f75fc08101/view" target="_blank"><img height="180" src="/img/cybrary-cert-system-administrator.jpg" alt="Cybrary System Administrator"></a>
 
 <br>
 
