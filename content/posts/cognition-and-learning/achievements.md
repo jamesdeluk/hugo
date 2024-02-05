@@ -8,6 +8,8 @@ lastmod: 2024-02-05
 
 ## Finance
 
+[Verification on Accredible/Credential.net](https://www.credential.net/profile/jamesgibbins94329/wallet)
+
 <a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI-certificate-AF" height="180px"></a>
 <a href="/img/CFI-certificate-APS.png" target="_blank"><img src="/img/CFI-certificate-APS.png" alt="CFI-certificate-APS" height="180px"></a>
 <a href="/img/CFI-certificate-CFF.png" target="_blank"><img src="/img/CFI-certificate-CFF.png" alt="CFI-certificate-CFF" height="180px"></a>
@@ -17,6 +19,7 @@ lastmod: 2024-02-05
 <a href="/img/CFI-certificate-MFP.png" target="_blank"><img src="/img/CFI-certificate-MFP.png" alt="CFI-certificate-MFP" height="180px"></a>
 <a href="/img/CFI-certificate-OM.png" target="_blank"><img src="/img/CFI-certificate-OM.png" alt="CFI-certificate-OM" height="180px"></a>
 <a href="/img/CFI-certificate-RFS.png" target="_blank"><img src="/img/CFI-certificate-RFS.png" alt="CFI-certificate-RFS" height="180px"></a>
+<a href="/img/CFI-certificate-DVM.png" target="_blank"><img src="/img/CFI-certificate-DVM.png" alt="CFI-certificate-DVM" height="180px"></a>
 
 ## Cyber Security
 
