@@ -8,7 +8,17 @@ lastmod: 2024-02-05
 
 ## Finance
 
-<a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI-certificate-AF"></a>
+<!-- ![/img/CFI-certificate-APS.png](/img/CFI-certificate-AF.png) -->
+
+<a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI-certificate-AF" height="180px"></a>
+<a href="/img/CFI-certificate-APS.png" target="_blank"><img src="/img/CFI-certificate-APS.png" alt="CFI-certificate-APS" height="180px"></a>
+<a href="/img/CFI-certificate-CFF.png" target="_blank"><img src="/img/CFI-certificate-CFF.png" alt="CFI-certificate-CFF" height="180px"></a>
+<a href="/img/CFI-certificate-FAF.png" target="_blank"><img src="/img/CFI-certificate-FAF.png" alt="CFI-certificate-FAF" height="180px"></a>
+<a href="/img/CFI-certificate-I3SM.png" target="_blank"><img src="/img/CFI-certificate-I3SM.png" alt="CFI-certificate-I3SM" height="180px"></a>
+<a href="/img/CFI-certificate-IBV.png" target="_blank"><img src="/img/CFI-certificate-IBV.png" alt="CFI-certificate-IBV" height="180px"></a>
+<a href="/img/CFI-certificate-MFP.png" target="_blank"><img src="/img/CFI-certificate-MFP.png" alt="CFI-certificate-MFP" height="180px"></a>
+<a href="/img/CFI-certificate-OM.png" target="_blank"><img src="/img/CFI-certificate-OM.png" alt="CFI-certificate-OM" height="180px"></a>
+<a href="/img/CFI-certificate-RFS.png" target="_blank"><img src="/img/CFI-certificate-RFS.png" alt="CFI-certificate-RFS" height="180px"></a>
 
 ## Cyber Security
 
