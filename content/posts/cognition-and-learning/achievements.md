@@ -8,8 +8,6 @@ lastmod: 2024-02-05
 
 ## Finance
 
-<!-- ![/img/CFI-certificate-APS.png](/img/CFI-certificate-AF.png) -->
-
 <a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI-certificate-AF" height="180px"></a>
 <a href="/img/CFI-certificate-APS.png" target="_blank"><img src="/img/CFI-certificate-APS.png" alt="CFI-certificate-APS" height="180px"></a>
 <a href="/img/CFI-certificate-CFF.png" target="_blank"><img src="/img/CFI-certificate-CFF.png" alt="CFI-certificate-CFF" height="180px"></a>
