@@ -91,6 +91,10 @@ description = ""
 
   [params.section]
     paginate = 20
+    [params.section.recentlyUpdated]
+      enable = true
+      days = 30
+      maxCount = 10
 
   [params.list]
     paginate = 20
