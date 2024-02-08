@@ -20,6 +20,7 @@ lastmod: 2024-02-05
 <a href="/img/CFI-certificate-OM.png" target="_blank"><img src="/img/CFI-certificate-OM.png" alt="CFI-certificate-OM" height="180px"></a>
 <a href="/img/CFI-certificate-RFS.png" target="_blank"><img src="/img/CFI-certificate-RFS.png" alt="CFI-certificate-RFS" height="180px"></a>
 <a href="/img/CFI-certificate-DVM.png" target="_blank"><img src="/img/CFI-certificate-DVM.png" alt="CFI-certificate-DVM" height="180px"></a>
+<a href="/img/CFI-certificate-CVA.png" target="_blank"><img src="/img/CFI-certificate-CVA.png" alt="CFI-certificate-CVA" height="180px"></a>
 
 ## Cyber Security
 
