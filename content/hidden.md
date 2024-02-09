@@ -9,3 +9,4 @@
 ![/img/CFI-certificate-RFS.png](/img/CFI-certificate-RFS.png)
 ![/img/CFI-certificate-DVM.png](/img/CFI-certificate-DVM.png)
 ![/img/CFI-certificate-CVA.png](/img/CFI-certificate-CVA.png)
+![/img/CFI-certificate-3SM.png](/img/CFI-certificate-3SM.png)
