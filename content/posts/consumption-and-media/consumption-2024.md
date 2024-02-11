@@ -2,9 +2,9 @@
 title: Consumption 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["AI","Alcohol","Anatomy","Animals","Astrology","Attraction","Bacteria","Biography","Business","Cars","China","Colleagues","Cooking","Dating","Design","Drugs","EVs","Entrepreneurship","Experience","Fraud","Freedom","Goals","Goods","Habits","Happiness","Health","History","Hydrogen","Inspiration","Investing","Japan","Korea","Language","London","Loss","Magic","Marketing","Markets","Maths","Medicine","Mouse","Names","Nature","Neuroscience","Oceans","Personalities","Plastic","Relationships","Religion","Rice","Sales","Scams","Science","Shares","Sleep","Space","Stock","Stocks","Strategy","Sustainability","Technology","Tents","Tolerance","Transport","UFOs","Weight","Wildfires","Willpower"]
+tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Animals","Astrology","Attraction","Bacteria","Biography","Business","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Competition","Competitor Analysis","Cooking","Dating","David Goggins","Design","Drugs","EVs","Entrepreneurship","Experience Goods","Fraud","Freedom","Goals","Habits","Happiness","Health","History","Hydrogen","Inspiration","Investing","Japan","Jordan Harbinger","Korea","Language","Lex Fridman","London","Magic","Marketing","Maths","Medicine","Mental Health","Mindset","Mouse","My First Million","Names","Nature","Neuroscience","Oceans","Personalities","Plastic","Podcast","Productivity","Relationships","Religion","Rice","Robert Glover","Sales","Scams","Science","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Sustainability","Technology","Tents","Tim Ferriss","Tolerance","Transport","UFOs","Weight Loss","Wildfires","Willpower"]
 date: 2024-01-14
-lastmod: 2024-01-28
+lastmod: 2024-02-11
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -19,6 +19,9 @@ lastmod: 2024-01-28
 - Instead of New Year’s resolutions, have New Year’s anticipations - what am I looking forward to? [5]
 - Build a Strategic Life Strategy using organisational principles (purpose, visions, benchmarks, etc). Strategic life areas including relationships, body/mind/spirit, community/society, job/learning/finances, interests/entertainment, personal care. Plot importance vs satisfaction. [4 - images]
 - A statistical analysis of astrological signs against 37 different life outcomes showed no correlation (an r value of 0) [13]
+- Change your state (low to high, e.g. through exercise) before trying to fix things [26]
+- Your "waiting room" of things to do, projects to tackle, opportunities to address, people to see, and ideas to pursue will always be full. You will never make a dent in it—and expecting otherwise will only serve to create anxiety. [28]
+- Motion vs action. Planning feels like action, but it’s only motion. [31]
 
 ## Culture
 
@@ -32,13 +35,22 @@ lastmod: 2024-01-28
 - Sharing bed with partner has mixed results. Possible solution: two duvets. No food within 3 hours of bed was the best for males and females. Melatonin and yoga had mixed results. [10 - image]
 - Who is disproportionate attractive to you? [23]
 - You want your partner to be an experience good i.e. gets better with more time, more experience. If they instantly seem perfect, there may be a lot of competition [23]
+- Men like to solve tension, whereas women like tension - it's why they like dramas and romcoms. If you listen to their problems, you're relieving their tension - which turns them off. You need to add some tension to their life - add some dominance and submission, some uncertainty. [30]
 
 ## Work and Career
 
 - You need great colleagues to do great work. One way to know: do they inspire you to work hard, to do your best? [12]
+- What do other people hate that you like? [23]
+- What feels like play to you that feels like work to others? [27]
+- Create the content you want to consume. Writing online enables serendipity at scale. You never know who’s reading. [24]
+- Spend as much time as possible with people with the “right” mindset (e.g. learn, earn) [27]
+- Do exciting work with exciting people [27]
+
+## Entrepreneurship and Business
+
 - BRRT: [b]uy a cash-flow business in a [r]ecession-resistant industry then [r]aise prices with inflation and value adds then add [t]ech [14]
 - PROMISE: [p]rofit / protected margins, [r]ecurring revenue, [o]nline presence, [m]outh to mouth marketing (referrals), [i]nterpersonal relationships, [s]ales tiers and subscriptions, [e]xpectations (reviews) [14]
-- What do other people hate that you like? [23]
+- Market Command Matrix: mindshare (how well customers know a company exists) vs resources (funding/capability) [32]
 
 ## Economy and Financial
 
@@ -51,6 +63,8 @@ lastmod: 2024-01-28
 - Take any four-digit number, using at least two different digits (leading zeros are allowed). Arrange the digits in descending and then in ascending order to get two four-digit numbers, adding leading zeros if necessary. Subtract the smaller number from the bigger number. Go back to step 2 and repeat. The answer will be 6174. [16]
 - Knowing the maths behind pop-up tents makes them far easier to stow away. Saving this for later! [20]
 - 0-100kph in <1 second. How? Break it down to first principles (power, grip, strength) and improve all - plus find a loophole in the rules. [22]
+- An autonomous machine that drives around fixing cracks in roads before potholes appear. [25]
+- Until 2010, social *media* and social *networking* had equal search volume. Since then, social *media* has taken oven - along with the shift from these sites being about community and connection to being about influence and eyeballs. What else happened in 2010? The movie The Social Network came out. Did it accidentally cause the shift? [29]
 
 ## Nature
 
@@ -86,3 +100,12 @@ lastmod: 2024-01-28
 21. [Why are TfL fares so high?](https://youtu.be/L0vVABZ_-7Y)
 22. [0-100 in 0.9 Seconds, Built by Students](https://youtu.be/kb1yk_068Kc)
 23. [[Modern Wisdom] #735 - Rory Sutherland - Hidden Psychology Of The World’s Best Advertising](https://pdst.fm/e/chrt.fm/track/G454/prfx.byspotify.com/e/traffic.megaphone.fm/SIXMSB8778417092.mp3?updated=1705950234)
+24. [Reflections After 1 Year of BRB, Massaman Curry & The Creative Act](https://nathanpaumier.substack.com/p/reflections-after-1-year-of-brb-massaman)
+25. [Robotiz3d: ARRES Prevent](https://www.robotiz3d.com/arres-prevent/)
+26. [The Tim Ferriss Show Trancripts: Matt Mullenweg — The Art of Crafting a Sabbatical, Tips for Defending Against Hackers, Leveraging Open Source, Thriving in an AI World, and Tips for Life’s Darkest Hours (#713)](https://tim.blog/2024/01/02/matt-mullenweg-2-transcript/)
+27. [10 Years of Money Wisdom in Under 28 Minutes](https://youtu.be/5Q4Vth5CnPw)
+28. [10 Ideas That Changed Our Lives](https://www.sahilbloom.com/newsletter/10-ideas-that-changed-our-lives)
+29. [Google Trends: social network, social networking, social media](https://trends.google.com/trends/explore?date=all&q=social%20network,social%20networking,social%20media&hl=en-GB)
+30. [[Modern Wisdom] #739 - Dr Robert Glover - The Lifetime Problem With Being A “Nice Guy”](https://pdst.fm/e/chrt.fm/track/G454/prfx.byspotify.com/e/traffic.megaphone.fm/SIXMSB3960198175.mp3?updated=1706729382)
+31. [[The Jordan Harbinger Show] 947: Getting Back on Track After Cyberbully's Attack | Feedback Friday](https://www.jordanharbinger.com/getting-back-on-track-after-cyberbullys-attack-feedback-friday/)
+32. [Competitor Research and Strategy](https://patticus.com/2023/12/16/competitive-research-playbook/)
