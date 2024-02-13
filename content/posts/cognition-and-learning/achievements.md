@@ -23,6 +23,7 @@ lastmod: 2024-02-13
 <a href="/img/CFI-certificate-CVA.png" target="_blank"><img src="/img/CFI-certificate-CVA.png" alt="CFI certificate Comparative Valuation Analysis" height="180px"></a>
 <a href="/img/CFI-certificate-3SM.png" target="_blank"><img src="/img/CFI-certificate-3SM.png" alt="CFI certificate 3-Statement Modeling" height="180px"></a>
 <a href="/img/CFI-certificate-BaF.png" target="_blank"><img src="/img/CFI-certificate-BaF.png" alt="CFI certificate Budgeting and Forecasting" height="180px"></a>
+<a href="/img/CFI-certificate-FPAMCFF.png" target="_blank"><img src="/img/CFI-certificate-FPAMCFF.png" alt="CFI certificate FP&A Monthly Cash Flow Forecasting" height="180px"></a>
 
 ## Cyber Security
 
