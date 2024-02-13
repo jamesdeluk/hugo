@@ -72,13 +72,13 @@ description = ""
       typeit = true
       social = true
     [params.home.posts]
-      enable = true
+      enable = false
       paginate = 20
 
   [params.social]
     Email = "james@gibbins.me"
     Linkedin = "jamgib"
-    Medium = "@jgibbins"
+    # Medium = "@jgibbins"
     Twitter = "jamesdeluk"
     Goodreads = "89676019-james"
     Reddit = "jamesdeluk"

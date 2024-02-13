@@ -1,6 +1,9 @@
-.home[posts] .home-avatar img {
-    width: 12rem;
-  }
+.home .home-profile .home-avatar img {
+  width: 12rem;
+}
+// .home[posts] .home-avatar img {
+//   width: 12rem;
+// }
 
 .home-avatar img, .logo {
   [theme="dark"] &,
