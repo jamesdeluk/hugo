@@ -3,25 +3,26 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
-lastmod: 2024-02-09
+lastmod: 2024-02-13
 ---
 
 ## Finance
 
 [Verification on Accredible/Credential.net](https://www.credential.net/profile/jamesgibbins94329/wallet)
 
-<a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI-certificate-AF" height="180px"></a>
-<a href="/img/CFI-certificate-APS.png" target="_blank"><img src="/img/CFI-certificate-APS.png" alt="CFI-certificate-APS" height="180px"></a>
-<a href="/img/CFI-certificate-CFF.png" target="_blank"><img src="/img/CFI-certificate-CFF.png" alt="CFI-certificate-CFF" height="180px"></a>
-<a href="/img/CFI-certificate-FAF.png" target="_blank"><img src="/img/CFI-certificate-FAF.png" alt="CFI-certificate-FAF" height="180px"></a>
-<a href="/img/CFI-certificate-I3SM.png" target="_blank"><img src="/img/CFI-certificate-I3SM.png" alt="CFI-certificate-I3SM" height="180px"></a>
-<a href="/img/CFI-certificate-IBV.png" target="_blank"><img src="/img/CFI-certificate-IBV.png" alt="CFI-certificate-IBV" height="180px"></a>
-<a href="/img/CFI-certificate-MFP.png" target="_blank"><img src="/img/CFI-certificate-MFP.png" alt="CFI-certificate-MFP" height="180px"></a>
-<a href="/img/CFI-certificate-OM.png" target="_blank"><img src="/img/CFI-certificate-OM.png" alt="CFI-certificate-OM" height="180px"></a>
-<a href="/img/CFI-certificate-RFS.png" target="_blank"><img src="/img/CFI-certificate-RFS.png" alt="CFI-certificate-RFS" height="180px"></a>
-<a href="/img/CFI-certificate-DVM.png" target="_blank"><img src="/img/CFI-certificate-DVM.png" alt="CFI-certificate-DVM" height="180px"></a>
-<a href="/img/CFI-certificate-CVA.png" target="_blank"><img src="/img/CFI-certificate-CVA.png" alt="CFI-certificate-CVA" height="180px"></a>
-<a href="/img/CFI-certificate-3SM.png" target="_blank"><img src="/img/CFI-certificate-3SM.png" alt="CFI-certificate-3SM" height="180px"></a>
+<a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI certificate Accounting Fundamentals" height="180px"></a>
+<a href="/img/CFI-certificate-APS.png" target="_blank"><img src="/img/CFI-certificate-APS.png" alt="CFI certificate Accounting Principles and Standards" height="180px"></a>
+<a href="/img/CFI-certificate-CFF.png" target="_blank"><img src="/img/CFI-certificate-CFF.png" alt="CFI certificate Corporate Finance Fundamentals" height="180px"></a>
+<a href="/img/CFI-certificate-FAF.png" target="_blank"><img src="/img/CFI-certificate-FAF.png" alt="CFI certificate Financial Analysis Fundamentals" height="180px"></a>
+<a href="/img/CFI-certificate-I3SM.png" target="_blank"><img src="/img/CFI-certificate-I3SM.png" alt="CFI certificate Introduction to 3-Statement Modeling" height="180px"></a>
+<a href="/img/CFI-certificate-IBV.png" target="_blank"><img src="/img/CFI-certificate-IBV.png" alt="CFI certificate Introduction to Business Valuation" height="180px"></a>
+<a href="/img/CFI-certificate-MFP.png" target="_blank"><img src="/img/CFI-certificate-MFP.png" alt="CFI certificate Math for Finanec Professionals" height="180px"></a>
+<a href="/img/CFI-certificate-OM.png" target="_blank"><img src="/img/CFI-certificate-OM.png" alt="CFI certificate Operational Modeling" height="180px"></a>
+<a href="/img/CFI-certificate-RFS.png" target="_blank"><img src="/img/CFI-certificate-RFS.png" alt="CFI certificate Reading Financial Statements" height="180px"></a>
+<a href="/img/CFI-certificate-DVM.png" target="_blank"><img src="/img/CFI-certificate-DVM.png" alt="CFI certificate DCF Valuation Modeling" height="180px"></a>
+<a href="/img/CFI-certificate-CVA.png" target="_blank"><img src="/img/CFI-certificate-CVA.png" alt="CFI certificate Comparative Valuation Analysis" height="180px"></a>
+<a href="/img/CFI-certificate-3SM.png" target="_blank"><img src="/img/CFI-certificate-3SM.png" alt="CFI certificate 3-Statement Modeling" height="180px"></a>
+<a href="/img/CFI-certificate-BaF.png" target="_blank"><img src="/img/CFI-certificate-BaF.png" alt="CFI certificate Budgeting and Forecasting" height="180px"></a>
 
 ## Cyber Security
 
