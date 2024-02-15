@@ -26,6 +26,7 @@ lastmod: 2024-02-15
 <a href="/img/CFI-certificate-FPAMCFF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-FPAMCFF.png" alt="CFI certificate FP&A Monthly Cash Flow Forecasting"></a>
 <a href="/img/CFI-certificate-SSA.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-SSA.png" alt="CFI certificate Scenario & Sensitivity Analysis"></a>
 <a href="/img/CFI-certificate-DDV.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-DDV.png" alt="CFI certificate Dashboards & Data Visualization"></a>
+<a href="/img/CFI-certificate-PE.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PE.png" alt="CFI certificate Professional Ethics"></a>
 
 ## Cyber Security
 
