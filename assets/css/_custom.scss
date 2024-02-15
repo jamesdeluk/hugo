@@ -76,3 +76,12 @@ span.post-category > a > i {
   color: #1baa3c;
   border: 2px solid#1baa3c;
 }
+
+.cert-img-3-2 {
+  width: 32%;
+}
+@media screen and (max-width: 600px) {
+  .cert-img-3-2 {
+    width: 49%;
+  }
+}

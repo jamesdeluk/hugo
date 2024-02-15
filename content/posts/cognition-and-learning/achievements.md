@@ -10,22 +10,22 @@ lastmod: 2024-02-15
 
 [Verification on Accredible/Credential.net](https://www.credential.net/profile/jamesgibbins94329/wallet)
 
-<a href="/img/CFI-certificate-AF.png" target="_blank"><img src="/img/CFI-certificate-AF.png" alt="CFI certificate Accounting Fundamentals" height="180px"></a>
-<a href="/img/CFI-certificate-APS.png" target="_blank"><img src="/img/CFI-certificate-APS.png" alt="CFI certificate Accounting Principles and Standards" height="180px"></a>
-<a href="/img/CFI-certificate-CFF.png" target="_blank"><img src="/img/CFI-certificate-CFF.png" alt="CFI certificate Corporate Finance Fundamentals" height="180px"></a>
-<a href="/img/CFI-certificate-FAF.png" target="_blank"><img src="/img/CFI-certificate-FAF.png" alt="CFI certificate Financial Analysis Fundamentals" height="180px"></a>
-<a href="/img/CFI-certificate-I3SM.png" target="_blank"><img src="/img/CFI-certificate-I3SM.png" alt="CFI certificate Introduction to 3-Statement Modeling" height="180px"></a>
-<a href="/img/CFI-certificate-IBV.png" target="_blank"><img src="/img/CFI-certificate-IBV.png" alt="CFI certificate Introduction to Business Valuation" height="180px"></a>
-<a href="/img/CFI-certificate-MFP.png" target="_blank"><img src="/img/CFI-certificate-MFP.png" alt="CFI certificate Math for Finanec Professionals" height="180px"></a>
-<a href="/img/CFI-certificate-OM.png" target="_blank"><img src="/img/CFI-certificate-OM.png" alt="CFI certificate Operational Modeling" height="180px"></a>
-<a href="/img/CFI-certificate-RFS.png" target="_blank"><img src="/img/CFI-certificate-RFS.png" alt="CFI certificate Reading Financial Statements" height="180px"></a>
-<a href="/img/CFI-certificate-DVM.png" target="_blank"><img src="/img/CFI-certificate-DVM.png" alt="CFI certificate DCF Valuation Modeling" height="180px"></a>
-<a href="/img/CFI-certificate-CVA.png" target="_blank"><img src="/img/CFI-certificate-CVA.png" alt="CFI certificate Comparative Valuation Analysis" height="180px"></a>
-<a href="/img/CFI-certificate-3SM.png" target="_blank"><img src="/img/CFI-certificate-3SM.png" alt="CFI certificate 3-Statement Modeling" height="180px"></a>
-<a href="/img/CFI-certificate-BaF.png" target="_blank"><img src="/img/CFI-certificate-BaF.png" alt="CFI certificate Budgeting and Forecasting" height="180px"></a>
-<a href="/img/CFI-certificate-FPAMCFF.png" target="_blank"><img src="/img/CFI-certificate-FPAMCFF.png" alt="CFI certificate FP&A Monthly Cash Flow Forecasting" height="180px"></a>
-<a href="/img/CFI-certificate-SSA.png" target="_blank"><img src="/img/CFI-certificate-SSA.png" alt="CFI certificate Scenario & Sensitivity Analysis" height="180px"></a>
-<a href="/img/CFI-certificate-DDV.png" target="_blank"><img src="/img/CFI-certificate-DDV.png" alt="CFI certificate Dashboards & Data Visualization" height="180px"></a>
+<a href="/img/CFI-certificate-AF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AF.png" alt="CFI certificate Accounting Fundamentals"></a>
+<a href="/img/CFI-certificate-APS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-APS.png" alt="CFI certificate Accounting Principles and Standards"></a>
+<a href="/img/CFI-certificate-CFF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CFF.png" alt="CFI certificate Corporate Finance Fundamentals"></a>
+<a href="/img/CFI-certificate-FAF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-FAF.png" alt="CFI certificate Financial Analysis Fundamentals"></a>
+<a href="/img/CFI-certificate-I3SM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-I3SM.png" alt="CFI certificate Introduction to 3-Statement Modeling"></a>
+<a href="/img/CFI-certificate-IBV.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-IBV.png" alt="CFI certificate Introduction to Business Valuation"></a>
+<a href="/img/CFI-certificate-MFP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-MFP.png" alt="CFI certificate Math for Finanec Professionals"></a>
+<a href="/img/CFI-certificate-OM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-OM.png" alt="CFI certificate Operational Modeling"></a>
+<a href="/img/CFI-certificate-RFS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-RFS.png" alt="CFI certificate Reading Financial Statements"></a>
+<a href="/img/CFI-certificate-DVM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-DVM.png" alt="CFI certificate DCF Valuation Modeling"></a>
+<a href="/img/CFI-certificate-CVA.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CVA.png" alt="CFI certificate Comparative Valuation Analysis"></a>
+<a href="/img/CFI-certificate-3SM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-3SM.png" alt="CFI certificate 3-Statement Modeling"></a>
+<a href="/img/CFI-certificate-BaF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-BaF.png" alt="CFI certificate Budgeting and Forecasting"></a>
+<a href="/img/CFI-certificate-FPAMCFF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-FPAMCFF.png" alt="CFI certificate FP&A Monthly Cash Flow Forecasting"></a>
+<a href="/img/CFI-certificate-SSA.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-SSA.png" alt="CFI certificate Scenario & Sensitivity Analysis"></a>
+<a href="/img/CFI-certificate-DDV.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-DDV.png" alt="CFI certificate Dashboards & Data Visualization"></a>
 
 ## Cyber Security
 
@@ -50,9 +50,9 @@ lastmod: 2024-02-15
 
 ### Courses
 
-<a href="https://app.cybrary.it/courses/api/certificate/CC-3beb7e33-1435-48ec-9fed-16b0d585baa6/view" target="_blank"><img height="180" src="/img/cybrary-cert-soc-analyst-level-1.jpg" alt="Cybrary SOC Level 1"></a>
-<a href="https://app.cybrary.it/courses/api/certificate/CC-1f4bc6e6-8666-4cee-ab1c-e27178f3ae19/view" target="_blank"><img height="180" src="/img/cybrary-cert-network-engineer.jpg" alt="Cybrary Network Engineer"></a>
-<a href="https://app.cybrary.it/courses/api/certificate/CC-b14d45ad-5e0a-4ffe-ac91-c4f75fc08101/view" target="_blank"><img height="180" src="/img/cybrary-cert-system-administrator.jpg" alt="Cybrary System Administrator"></a>
+<a href="https://app.cybrary.it/courses/api/certificate/CC-3beb7e33-1435-48ec-9fed-16b0d585baa6/view" target="_blank"><img class="cert-img-3-2" src="/img/cybrary-cert-soc-analyst-level-1.jpg" alt="Cybrary SOC Level 1"></a>
+<a href="https://app.cybrary.it/courses/api/certificate/CC-1f4bc6e6-8666-4cee-ab1c-e27178f3ae19/view" target="_blank"><img class="cert-img-3-2" src="/img/cybrary-cert-network-engineer.jpg" alt="Cybrary Network Engineer"></a>
+<a href="https://app.cybrary.it/courses/api/certificate/CC-b14d45ad-5e0a-4ffe-ac91-c4f75fc08101/view" target="_blank"><img class="cert-img-3-2" src="/img/cybrary-cert-system-administrator.jpg" alt="Cybrary System Administrator"></a>
 
 <br>
 
@@ -97,7 +97,7 @@ lastmod: 2024-02-15
 
 <br><br>
 
-<a href="https://www.credential.net/9d3651d4-c667-4095-9029-7e6281f6774f" target="_blank"><img height="180" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/18385810" alt="ICSI CNSS Certified Network Security Specialist"></a>
+<a href="https://www.credential.net/9d3651d4-c667-4095-9029-7e6281f6774f" target="_blank"><img  class="cert-img-3-2" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/18385810" alt="ICSI CNSS Certified Network Security Specialist"></a>
 
 <br><br>
 
