@@ -3,7 +3,7 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
-lastmod: 2024-02-13
+lastmod: 2024-02-15
 ---
 
 ## Finance
@@ -25,6 +25,7 @@ lastmod: 2024-02-13
 <a href="/img/CFI-certificate-BaF.png" target="_blank"><img src="/img/CFI-certificate-BaF.png" alt="CFI certificate Budgeting and Forecasting" height="180px"></a>
 <a href="/img/CFI-certificate-FPAMCFF.png" target="_blank"><img src="/img/CFI-certificate-FPAMCFF.png" alt="CFI certificate FP&A Monthly Cash Flow Forecasting" height="180px"></a>
 <a href="/img/CFI-certificate-SSA.png" target="_blank"><img src="/img/CFI-certificate-SSA.png" alt="CFI certificate Scenario & Sensitivity Analysis" height="180px"></a>
+<a href="/img/CFI-certificate-DDV.png" target="_blank"><img src="/img/CFI-certificate-DDV.png" alt="CFI certificate Dashboards & Data Visualization" height="180px"></a>
 
 ## Cyber Security
 

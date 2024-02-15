@@ -13,3 +13,4 @@
 ![/img/CFI-certificate-BaF.png](/img/CFI-certificate-BaF.png)
 ![/img/CFI-certificate-FPAMCFF.png](/img/CFI-certificate-FPAMCFF.png)
 ![/img/CFI-certificate-SSA.png](/img/CFI-certificate-SSA.png)
+![/img/CFI-certificate-DDV.png](/img/CFI-certificate-DDV.png)
