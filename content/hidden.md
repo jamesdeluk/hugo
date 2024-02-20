@@ -16,3 +16,4 @@
 ![/img/CFI-certificate-DDV.png](/img/CFI-certificate-DDV.png)
 ![/img/CFI-certificate-PE.png](/img/CFI-certificate-PE.png)
 ![/img/CFI-certificate-PPP.png](/img/CFI-certificate-PPP.png)
+![/img/CFI-certificate-PBIF.png](/img/CFI-certificate-PBIF.png)
