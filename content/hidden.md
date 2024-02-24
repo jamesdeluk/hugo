@@ -19,3 +19,4 @@
 ![/img/CFI-certificate-PBIF.png](/img/CFI-certificate-PBIF.png)
 ![/img/CFI-certificate-PQF.png](/img/CFI-certificate-PQF.png)
 ![/img/CFI-certificate-PPF.png](/img/CFI-certificate-PPF.png)
+![/img/CFI-certificate-AM.png](/img/CFI-certificate-AM.png)
