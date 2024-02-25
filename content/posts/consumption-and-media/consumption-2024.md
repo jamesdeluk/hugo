@@ -2,13 +2,13 @@
 title: Consumption 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Animals","Astrology","Attraction","Bacteria","Biography","Business","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Competition","Competitor Analysis","Cooking","Dating","David Goggins","Design","Drugs","EVs","Entrepreneurship","Experience Goods","Fraud","Freedom","Goals","Habits","Happiness","Health","History","Hydrogen","Inspiration","Investing","Japan","Jordan Harbinger","Korea","Language","Lex Fridman","London","Magic","Marketing","Maths","Medicine","Mental Health","Mindset","Mouse","My First Million","Names","Nature","Neuroscience","Oceans","Personalities","Plastic","Podcast","Productivity","Relationships","Religion","Rice","Robert Glover","Sales","Scams","Science","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Sustainability","Technology","Tents","Tim Ferriss","Tolerance","Transport","UFOs","Weight Loss","Wildfires","Willpower"]
+tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Career","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Cooking","Curiosity","Customer Service","Dating","David Goggins","Design","Digestion","Drugs","EVs","Eating","Electronics","Engineering","Entrepreneurship","Experience Goods","Founding","Fraud","Freedom","Goals","Habits","Happiness","Health","Hiring","History","Hydrogen","Inspiration","Investing","Japan","Job","Jordan Harbinger","Korea","Language","Lex Fridman","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Morgan Housel","Mouse","My First Million","Names","Nature","Neuroscience","Oceans","Optimism","Oral","Passion","Personalities","Plastic","Podcast","Pricing","Productivity","Promotion","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Sales","Scams","Science","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Tim Ferriss","Time Management","Tolerance","Transport","UFOs","Weight Loss","Wildfires","Willpower"]
 date: 2024-01-14
-lastmod: 2024-02-11
+lastmod: 2024-02-25
 ---
 <!-- {{< small-image-button >}} -->
 
-## General Personal Development
+## General
 
 - Anterior mid-cingulate cortex correlates with willpower. It grows by doing things you don't want to, especially physically, such as going for a run in the rain or taking a cold shower, or not doing things you want to, like eating the cookie. It doesn’t grow by putting in effort, such as a hard run that you actually enjoy. It’s a possible predictor of life duration. [1]
 - How to improve your life in 2024 according to science: minimise pre-sleep light; fidget; get cold; get dirty; talk to strangers; be scared; learn skills; exercise; breathe; make friends; forgive; eat colours; drink coffee; have a hobby [2]
@@ -22,6 +22,9 @@ lastmod: 2024-02-11
 - Change your state (low to high, e.g. through exercise) before trying to fix things [26]
 - Your "waiting room" of things to do, projects to tackle, opportunities to address, people to see, and ideas to pursue will always be full. You will never make a dent in it—and expecting otherwise will only serve to create anxiety. [28]
 - Motion vs action. Planning feels like action, but it’s only motion. [31]
+- Productivity techniques: 2-Minute, Twice, Rule 0f 72, 5-Second, Highlight, Hell yes, WHO, Procrastination, 90/90/1, 12-Week, Prime Time, 80%, Frog, Parkinson, 80/20, ABCDE, Auditing, Chain, Energy, Zeigarnik, Pomodoro, Batch, Slice, Visualization, 25/5, Feynman, 5 WHYs, Stacking, Rest, Quality, Say NO, Blocks, Theme, Decisions, Routine, Detox, Future Self, Spotlight, Ulysses, Plan, Notebook [33]
+- Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
+- Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
 
 ## Culture
 
@@ -36,6 +39,7 @@ lastmod: 2024-02-11
 - Who is disproportionate attractive to you? [23]
 - You want your partner to be an experience good i.e. gets better with more time, more experience. If they instantly seem perfect, there may be a lot of competition [23]
 - Men like to solve tension, whereas women like tension - it's why they like dramas and romcoms. If you listen to their problems, you're relieving their tension - which turns them off. You need to add some tension to their life - add some dominance and submission, some uncertainty. [30]
+- Do you want to be helped (solutions/practical), heard (rant/social), or hugged (emotion) [45]
 
 ## Work and Career
 
@@ -45,16 +49,26 @@ lastmod: 2024-02-11
 - Create the content you want to consume. Writing online enables serendipity at scale. You never know who’s reading. [24]
 - Spend as much time as possible with people with the “right” mindset (e.g. learn, earn) [27]
 - Do exciting work with exciting people [27]
+- Job success: Stand out; create a brand; write a newsletter, work on important projects; solve a paper cut problem; have a connected/driven manager; find the most interesting people; have a good vidcall setup to look professional [38]
+- Recruiters get paid for placing candidates. Befriend a recruiter and have them mentor you into getting the job. [42]
+- Productivity ≠ activity. In the past (agriculture, manufacturing), business = output. Now we live in the knowledge economy, where thinking is important. [43]
+- A lot of productive activities do not look so. A conversation over dinner can lead to insight. Walking in silence enables thinking. Often large companies stifle creativity due to employees having to look busy. [44]
 
 ## Entrepreneurship and Business
 
 - BRRT: [b]uy a cash-flow business in a [r]ecession-resistant industry then [r]aise prices with inflation and value adds then add [t]ech [14]
 - PROMISE: [p]rofit / protected margins, [r]ecurring revenue, [o]nline presence, [m]outh to mouth marketing (referrals), [i]nterpersonal relationships, [s]ales tiers and subscriptions, [e]xpectations (reviews) [14]
 - Market Command Matrix: mindshare (how well customers know a company exists) vs resources (funding/capability) [32]
+- Customer service: Be angrier than they are about the problem. Only one person can be angry. [37]
+- Raising prices can result in more sales. Experiment. [40]
+- Buy a cashflow-positive business then improve (with tech, marketing, operations, ...) [42]
+- A founders job is not to build the product, it's to build the team to build the product. [48]
+- Pick the underserved market before the product [48]
 
 ## Economy and Financial
 
 - The mean year the S&P returned 10-20%, followed by 0-20%. One year, 40-50%, three years +40-50%. [7 - image]
+- Enshittification: As Governments weakened their anti-competitive stances, companies have gained huge amounts of power, through buying competitors and becoming monopolies/oligopolies. Through this, companies have been able to control regulation, in turn stopping users from blocking the dark patterns used by companies to maintain their control and custom. Network effects (as many large tech companies benefit from) also make it harder for consumers to change companies/suppliers. Workers of these companies were originally bribed with huge salaries and perks to not complain, then were made disposable as the supply of skilled employees skyrocketed (due to the salaries and perks). [41]
 
 ## Science and Technology
 
@@ -65,11 +79,18 @@ lastmod: 2024-02-11
 - 0-100kph in <1 second. How? Break it down to first principles (power, grip, strength) and improve all - plus find a loophole in the rules. [22]
 - An autonomous machine that drives around fixing cracks in roads before potholes appear. [25]
 - Until 2010, social *media* and social *networking* had equal search volume. Since then, social *media* has taken oven - along with the shift from these sites being about community and connection to being about influence and eyeballs. What else happened in 2010? The movie The Social Network came out. Did it accidentally cause the shift? [29]
+- This was why I initially decided to study engineering - control systems were always my favourite. A cube that can self-balance on its corner - and even rotate and jump about! [34][35]
+
+## Health
+
+- Oral health: Enamel can be remineralised, dentin cannot; alkali good, acidic (carbs, tea/coffee) and dry bad. Rinse mouth after acid. Don't constantly be drinking tea/coffee. Toothpaste with hydroxyapatite. Commercial mouthwash is bad (especially alcohol-based); brine is better. [39]
+- To dramatically improve sleep, finish eating early (e.g. before midday) so your digestion has finished by the time you sleep [
 
 ## Nature
 
 - “Mouse filmed tidying up man's shed every night” Does it know what it’s doing? Why is it doing it? Was Hitchhiker’s Guide to the Galaxy correct? [11]
 - Orcas and humans used to work together to hunt whales… Until humans got greedy. [15]
+- “Fluffy”, the alligator snapping turtle. [36]
 
 ## Misc
 
@@ -109,3 +130,19 @@ lastmod: 2024-02-11
 30. [[Modern Wisdom] #739 - Dr Robert Glover - The Lifetime Problem With Being A “Nice Guy”](https://pdst.fm/e/chrt.fm/track/G454/prfx.byspotify.com/e/traffic.megaphone.fm/SIXMSB3960198175.mp3?updated=1706729382)
 31. [[The Jordan Harbinger Show] 947: Getting Back on Track After Cyberbully's Attack | Feedback Friday](https://www.jordanharbinger.com/getting-back-on-track-after-cyberbullys-attack-feedback-friday/)
 32. [Competitor Research and Strategy](https://patticus.com/2023/12/16/competitive-research-playbook/)
+33. [[in 11 Minute] Every TIME MANAGEMENT and PRODUCTIVITY Technique Explained](https://www.youtube.com/watch?v=eOUcRYHukwk)
+34. [Balancing cube – Willem Pennings](https://willempennings.nl/balancing-cube/)
+35. [The Cubli: a cube that can jump up, balance, and 'walk'](https://www.youtube.com/watch?v=n_6p-1J551Y)
+36. [Meet Fluffy the alligator snapping turtle found in Urswick Tarn, Cumbria](https://www.bbc.co.uk/news/av/uk-68261267)
+37. [[Modern Wisdom] #738 - Alex Hormozi - 21 Brutally Honest Lessons About Life](https://pdst.fm/e/chrt.fm/track/G454/prfx.byspotify.com/e/traffic.megaphone.fm/SIXMSB5883897388.mp3?updated=1706321505)
+38. [[My First Million] The Fastest Way To Get Promoted (Career Cheat Codes)](https://www.mfmpod.com/the-fastest-way-to-get-promoted-career-cheat-codes/)
+39. [[Huberman Lab] How to Improve Oral Health & It’s Critical Role in Brain & Body Health](https://www.hubermanlab.com/episode/how-to-improve-oral-health-its-critical-role-in-brain-body-health)
+40. [[The Exit - Presented By Flippa] Soldier to Seller: Jon Caldwell's Amazon Exit Story](https://podcasts.apple.com/us/podcast/soldier-to-seller-jon-caldwells-amazon-exit-story/id1532346146?i=1000645002644)
+41. [‘Enshittification’ is coming for absolutely everything](https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5)
+42. [How I Went From Broke to Rich (4 Steps)](https://www.youtube.com/watch?v=NoU8M2415HI)
+43. [Cal Newport — How to Embrace Slow Productivity, Build a Deep Life, Achieve Mastery, and Defend Your Time (#722)](https://tim.blog/2024/02/21/cal-newport-slow-productivity/)
+44. [#746 – Morgan Housel – 12 Unexpected Laws Of Human Psychology](https://pdst.fm/e/chrt.fm/track/G454/prfx.byspotify.com/e/traffic.megaphone.fm/SIXMSB4242562097.mp3?updated=1707965324)
+45. [How to become a Super-communicator | Charles Duhigg](https://www.youtube.com/watch?v=vgt_fpbZGHo)
+46. [Bryan Johnson: Five Habits for Longer Living [The Knowledge Project Ep. #188]](https://fs.blog/knowledge-project-podcast/bryan-johnson/)
+47. [952: Adam Grant | The Science of Tapping Into Your Hidden Potential](https://www.jordanharbinger.com/adam-grant-the-science-of-tapping-into-your-hidden-potential/)
+48. [3 Niche Business Ideas We Thought Would Fail… But Actually Crushed It](https://www.mfmpod.com/3-niche-business-ideas-we-thought-would-fail-but-actually-crushed-it/)
