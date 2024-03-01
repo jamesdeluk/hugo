@@ -33,6 +33,7 @@ lastmod: 2024-02-27
 <a href="/img/CFI-certificate-PPF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PPF.png" alt="CFI certificate Power Pivot Fundamentals"></a>
 <a href="/img/CFI-certificate-AM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AM.png" alt="CFI certificate Assessing Management"></a>
 <a href="/img/CFI-certificate-EBP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-EBP.png" alt="CFI certificate Evaluating a Business Plan"></a>
+<a href="/img/CFI-certificate-CBS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CBS.png" alt="CFI certificate Corporate & Business Strategy"></a>
 
 ## Cyber Security
 
