@@ -18,6 +18,7 @@
 ![/img/CFI-certificate-PPP.png](/img/CFI-certificate-PPP.png)
 ![/img/CFI-certificate-PBIF.png](/img/CFI-certificate-PBIF.png)
 ![/img/CFI-certificate-PQF.png](/img/CFI-certificate-PQF.png)
+![/img/CFI-certificate-PQFCS.png](/img/CFI-certificate-PQFCS.png)
 ![/img/CFI-certificate-PPF.png](/img/CFI-certificate-PPF.png)
 ![/img/CFI-certificate-AM.png](/img/CFI-certificate-AM.png)
 ![/img/CFI-certificate-EBP.png](/img/CFI-certificate-EBP.png)

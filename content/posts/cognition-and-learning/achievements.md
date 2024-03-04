@@ -3,39 +3,54 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
-lastmod: 2024-02-27
+lastmod: 2024-03-04
 ---
 
 ## Finance
 
 [Verification on Accredible/Credential.net](https://www.credential.net/profile/jamesgibbins94329/wallet)
 
-<a href="/img/CFI-certificate-AF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AF.png" alt="CFI certificate Accounting Fundamentals"></a>
-<a href="/img/CFI-certificate-APS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-APS.png" alt="CFI certificate Accounting Principles and Standards"></a>
+### Modelling and Analysis
+
 <a href="/img/CFI-certificate-CFF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CFF.png" alt="CFI certificate Corporate Finance Fundamentals"></a>
-<a href="/img/CFI-certificate-FAF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-FAF.png" alt="CFI certificate Financial Analysis Fundamentals"></a>
+<a href="/img/CFI-certificate-RFS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-RFS.png" alt="CFI certificate Reading Financial Statements"></a>
 <a href="/img/CFI-certificate-I3SM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-I3SM.png" alt="CFI certificate Introduction to 3-Statement Modeling"></a>
 <a href="/img/CFI-certificate-IBV.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-IBV.png" alt="CFI certificate Introduction to Business Valuation"></a>
-<a href="/img/CFI-certificate-MFP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-MFP.png" alt="CFI certificate Math for Finanec Professionals"></a>
+<a href="/img/CFI-certificate-3SM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-3SM.png" alt="CFI certificate 3-Statement Modeling"></a>
 <a href="/img/CFI-certificate-OM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-OM.png" alt="CFI certificate Operational Modeling"></a>
-<a href="/img/CFI-certificate-RFS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-RFS.png" alt="CFI certificate Reading Financial Statements"></a>
+<a href="/img/CFI-certificate-SSA.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-SSA.png" alt="CFI certificate Scenario & Sensitivity Analysis"></a>
+<a href="/img/CFI-certificate-FAF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-FAF.png" alt="CFI certificate Financial Analysis Fundamentals"></a>
 <a href="/img/CFI-certificate-DVM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-DVM.png" alt="CFI certificate DCF Valuation Modeling"></a>
 <a href="/img/CFI-certificate-CVA.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CVA.png" alt="CFI certificate Comparative Valuation Analysis"></a>
-<a href="/img/CFI-certificate-3SM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-3SM.png" alt="CFI certificate 3-Statement Modeling"></a>
 <a href="/img/CFI-certificate-BaF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-BaF.png" alt="CFI certificate Budgeting and Forecasting"></a>
 <a href="/img/CFI-certificate-FPAMCFF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-FPAMCFF.png" alt="CFI certificate FP&A Monthly Cash Flow Forecasting"></a>
-<a href="/img/CFI-certificate-SSA.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-SSA.png" alt="CFI certificate Scenario & Sensitivity Analysis"></a>
-<a href="/img/CFI-certificate-DDV.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-DDV.png" alt="CFI certificate Dashboards & Data Visualization"></a>
-<a href="/img/CFI-certificate-PE.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PE.png" alt="CFI certificate Professional Ethics"></a>
-<a href="/img/CFI-certificate-PPP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PPP.png" alt="CFI certificate PowerPoint & Pitchbooks"></a>
-<a href="/img/CFI-certificate-PBIF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PBIF.png" alt="CFI certificate Power BI Fundamentals"></a>
-<a href="/img/CFI-certificate-PQF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PQF.png" alt="CFI certificate Power Query Fundamentals"></a>
-<a href="/img/CFI-certificate-PPF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PPF.png" alt="CFI certificate Power Pivot Fundamentals"></a>
+
+### Accounting
+
+<a href="/img/CFI-certificate-AF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AF.png" alt="CFI certificate Accounting Fundamentals"></a>
+<a href="/img/CFI-certificate-APS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-APS.png" alt="CFI certificate Accounting Principles and Standards"></a>
+
+### Strategy and Governance
+
+<a href="/img/CFI-certificate-CBS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CBS.png" alt="CFI certificate Corporate & Business Strategy"></a>
 <a href="/img/CFI-certificate-AM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AM.png" alt="CFI certificate Assessing Management"></a>
 <a href="/img/CFI-certificate-EBP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-EBP.png" alt="CFI certificate Evaluating a Business Plan"></a>
-<a href="/img/CFI-certificate-CBS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-CBS.png" alt="CFI certificate Corporate & Business Strategy"></a>
+<a href="/img/CFI-certificate-PE.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PE.png" alt="CFI certificate Professional Ethics"></a>
 
-## Cyber Security
+### Technologies
+
+<a href="/img/CFI-certificate-PPF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PPF.png" alt="CFI certificate Power Pivot Fundamentals"></a>
+<a href="/img/CFI-certificate-PQF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PQF.png" alt="CFI certificate Power Query Fundamentals"></a>
+<a href="/img/CFI-certificate-PQFCS.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PQFCS.png" alt="CFI certificate Power Query Fundamentals Case Study"></a>
+<a href="/img/CFI-certificate-PBIF.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PBIF.png" alt="CFI certificate Power BI Fundamentals"></a>
+<a href="/img/CFI-certificate-DDV.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-DDV.png" alt="CFI certificate Dashboards & Data Visualization"></a>
+<a href="/img/CFI-certificate-PPP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PPP.png" alt="CFI certificate PowerPoint & Pitchbooks"></a>
+
+### Other
+
+<a href="/img/CFI-certificate-MFP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-MFP.png" alt="CFI certificate Math for Finanec Professionals"></a>
+
+## IT and Cyber Security
 
 ### Certifications
 
