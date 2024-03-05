@@ -23,3 +23,4 @@
 ![/img/CFI-certificate-AM.png](/img/CFI-certificate-AM.png)
 ![/img/CFI-certificate-EBP.png](/img/CFI-certificate-EBP.png)
 ![/img/CFI-certificate-CBS.png](/img/CFI-certificate-CBS.png)
+![/img/CFI-certificate-RESFM.png](/img/CFI-certificate-RESFM.png)
