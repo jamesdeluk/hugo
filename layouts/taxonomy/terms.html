@@ -27,14 +27,14 @@
                                     <i class="far fa-folder fa-fw"></i>&nbsp;{{ .Page.Title }} <sup>{{- len $pages -}}</sup>
                                 </a>
                             </h3>
-                            {{- range first 4 $pages -}} 
+                            {{- range first 6 $pages -}} 
                                 <article class="archive-item">
                                     <a href="{{ .RelPermalink }}" class="archive-item-link">
                                         {{- .Title -}}
                                     </a>
                                 </article>
                             {{- end -}}
-                            {{- if gt (len $pages) 4 -}}
+                            {{- if gt (len $pages) 6 -}}
                                 <span class="more-post">
                                     <a href="{{ .RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
                                 </span>
