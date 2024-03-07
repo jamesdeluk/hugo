@@ -3,7 +3,7 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
-lastmod: 2024-03-05
+lastmod: 2024-03-07
 ---
 
 ## Finance
@@ -37,6 +37,7 @@ lastmod: 2024-03-05
 <a href="/img/CFI-certificate-AM.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AM.png" alt="CFI certificate Assessing Management"></a>
 <a href="/img/CFI-certificate-EBP.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-EBP.png" alt="CFI certificate Evaluating a Business Plan"></a>
 <a href="/img/CFI-certificate-PE.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-PE.png" alt="CFI certificate Professional Ethics"></a>
+<a href="/img/CFI-certificate-AGDBR.png" target="_blank"><img class="cert-img-3-2" src="/img/CFI-certificate-AGDBR.png" alt="CFI certificate Analyzing Growth Drivers & Business Risk"></a>
 
 ### Technologies
 
