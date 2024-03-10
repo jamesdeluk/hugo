@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Career","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Cooking","Curiosity","Customer Service","Dating","David Goggins","Design","Digestion","Drugs","EVs","Eating","Electronics","Engineering","Entrepreneurship","Experience Goods","Founding","Fraud","Freedom","Goals","Habits","Happiness","Health","Hiring","History","Hydrogen","Inspiration","Investing","Japan","Job","Jordan Harbinger","Korea","Language","Lex Fridman","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Morgan Housel","Mouse","My First Million","Names","Nature","Neuroscience","Oceans","Optimism","Oral","Passion","Personalities","Plastic","Podcast","Pricing","Productivity","Promotion","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Sales","Scams","Science","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Tim Ferriss","Time Management","Tolerance","Transport","UFOs","Weight Loss","Wildfires","Willpower"]
+tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Drugs","EVs","Eating","Electronics","Emotions","Engineering","Entrepreneurship","Evolution","Exercise","Experience Goods","Fat","Fertility","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hydrogen","Inspiration","Investing","Japan","Job","Jordan Harbinger","Korea","Language","Lex Fridman","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Oceans","Optimism","Oral","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Tim Ferriss","Time","Time Management","Tolerance","Transport","UFOs","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-02-25
+lastmod: 2024-03-10
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -24,6 +24,7 @@ lastmod: 2024-02-25
 - Motion vs action. Planning feels like action, but it’s only motion. [31]
 - Productivity techniques: 2-Minute, Twice, Rule 0f 72, 5-Second, Highlight, Hell yes, WHO, Procrastination, 90/90/1, 12-Week, Prime Time, 80%, Frog, Parkinson, 80/20, ABCDE, Auditing, Chain, Energy, Zeigarnik, Pomodoro, Batch, Slice, Visualization, 25/5, Feynman, 5 WHYs, Stacking, Rest, Quality, Say NO, Blocks, Theme, Decisions, Routine, Detox, Future Self, Spotlight, Ulysses, Plan, Notebook [33]
 - Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
+- The #1 Personality Trait That Made These Business Moguls +$450M: Obsession; going all in. [54]
 - Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
 
 ## Culture
@@ -32,14 +33,18 @@ lastmod: 2024-02-25
 - Tolerance of intolerance is cowardice [17]
 - Japanese has the fastest speaking rate, but French and English have the fastest information rates [19]
 - Transport for London gets ~70% of it’s money from fares. Most major cities globally are ~70% funded by governments. Hence why London public transport is so expensive. [21]
+- A theory: North Korea was always used by Russia and China - it needed them to survive, but they didn’t care about it. NK thought getting weapons that could hit mainland USA would finally get the West to listen to them, and potentially, through negotiations and deals, be treated like any other country - and escape from being under China/Russia. However, their olive branch was rejected; they achieved nothing. Now, with again increased tension between the West and China and Russia, once again NK may give up on trying to join the global economy and return to working closely with Russia and China. [50]
+- More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occuring. [56]
 
 ## Relationships
 
 - Sharing bed with partner has mixed results. Possible solution: two duvets. No food within 3 hours of bed was the best for males and females. Melatonin and yoga had mixed results. [10 - image]
-- Who is disproportionate attractive to you? [23]
+- Who is disproportionately attractive to you? [23]
 - You want your partner to be an experience good i.e. gets better with more time, more experience. If they instantly seem perfect, there may be a lot of competition [23]
 - Men like to solve tension, whereas women like tension - it's why they like dramas and romcoms. If you listen to their problems, you're relieving their tension - which turns them off. You need to add some tension to their life - add some dominance and submission, some uncertainty. [30]
 - Do you want to be helped (solutions/practical), heard (rant/social), or hugged (emotion) [45]
+- Dating apps start off well, then some users abuse them through lying, so genuine users lose trust and leave. Other services fix misuse through reviews, but that isn’t really compatible with dating. [49]
+- Deep questions: feelings over facts e.g. instead of “what did you do today?”, ask “what was the best thing that's happened today?” [58]
 
 ## Work and Career
 
@@ -64,6 +69,9 @@ lastmod: 2024-02-25
 - Buy a cashflow-positive business then improve (with tech, marketing, operations, ...) [42]
 - A founders job is not to build the product, it's to build the team to build the product. [48]
 - Pick the underserved market before the product [48]
+- Before you write (especially sales copy), think: What do you want the audience reaction/emotion and action to be? What is the one-line takeaway? [52]
+- Learn to write, and warm up, through copywork - find someone else's writing/style you like, and simply copy it. It’s what we do for music, for cooking. [52]
+- Positioning as adding value instead of saving time. e.g. Status quo: 200 leads in 2 days. Your solution = doubling: 400 leads in 2 days OR 200 leads in 1 day. The former, you can charge for 200 leads and their existing cost. The latter, how do you price 1 day in time saving? [53]
 
 ## Economy and Financial
 
@@ -84,17 +92,23 @@ lastmod: 2024-02-25
 ## Health
 
 - Oral health: Enamel can be remineralised, dentin cannot; alkali good, acidic (carbs, tea/coffee) and dry bad. Rinse mouth after acid. Don't constantly be drinking tea/coffee. Toothpaste with hydroxyapatite. Commercial mouthwash is bad (especially alcohol-based); brine is better. [39]
-- To dramatically improve sleep, finish eating early (e.g. before midday) so your digestion has finished by the time you sleep [
+- To improve sleep, finish eating early (e.g. before midday) so your digestion has finished by the time you sleep [46]
+- Norwegian 4x4 Protocol: 4mins as fast as you can sustain (typically ~80% max heart rate) followed by 3m recovery, x4 [55]
+- 60s intense throughout day e.g. air squats, burpees [55]
+- Min 2 seconds per strength rep e.g. 1s up 1s down [55]
+- Eat protein/fat 30mins before carbs [55]
 
 ## Nature
 
 - “Mouse filmed tidying up man's shed every night” Does it know what it’s doing? Why is it doing it? Was Hitchhiker’s Guide to the Galaxy correct? [11]
 - Orcas and humans used to work together to hunt whales… Until humans got greedy. [15]
 - “Fluffy”, the alligator snapping turtle. [36]
+- Humans don’t have tails and don’t lay eggs, and it’s possible being tailless and giving birth to live young is actually a disadvantage. So why did we lose our tails and stop laying eggs? There isn’t a survival-of-the-fittest explanation; it’s likely it’s arbitrary, it’s luck, it’s a mistake. [51]
 
 ## Misc
 
 - Incredible six-hour conversation detailing years of fraud [18]
+- Another life story: The Pacific odyssey of a runaway rebel - Ruth Shaw spent years on ships and islands, trying to outrun her past [57]
 
 ## References
 
@@ -146,3 +160,13 @@ lastmod: 2024-02-25
 46. [Bryan Johnson: Five Habits for Longer Living [The Knowledge Project Ep. #188]](https://fs.blog/knowledge-project-podcast/bryan-johnson/)
 47. [952: Adam Grant | The Science of Tapping Into Your Hidden Potential](https://www.jordanharbinger.com/adam-grant-the-science-of-tapping-into-your-hidden-potential/)
 48. [3 Niche Business Ideas We Thought Would Fail… But Actually Crushed It](https://www.mfmpod.com/3-niche-business-ideas-we-thought-would-fail-but-actually-crushed-it/)
+49. [The dating app paradox: Why dating apps may be worse than ever](https://www.npr.org/sections/money/2024/02/13/1228749143/the-dating-app-paradox-why-dating-apps-may-be-worse-than-ever)
+50. [Kim Jong-Un’s New Strategy](https://youtu.be/FLAKcprc8NU)
+51. [Why don't humans have tails or lay eggs? Adventures in evolutionary randomness.](https://www.forkingpaths.co/p/why-dont-humans-have-tails-or-lay)
+52. [[My First Million] Become A Better Writer In 60 Minutes (Masterclass)](https://www.mfmpod.com/become-a-better-writer-in-60-minutes-masterclass/)
+53. [[My First Million] This AI Startup Idea Has 500 Million Customers Waiting For It](https://www.mfmpod.com/this-ai-startup-idea-has-500-million-customers-waiting-for-it/)
+54. [[My First Million] The #1 Personality Trait That Made These Business Moguls +$450M](https://www.mfmpod.com/the-1-personality-trait-that-made-these-business-moguls-450m/)
+55. [[Modern Wisdom] #750 - Dr Rhonda Patrick - The Most Important Daily Habits For Health & Longevity](https://pdst.fm/e/chrt.fm/track/G454/prfx.byspotify.com/e/traffic.megaphone.fm/SIXMSB1064719738.mp3?updated=1708905708)
+56. [[Discovery] Uncharted: The returning soldier](https://www.bbc.co.uk/programmes/m001qw4s)
+57. [[Lives Less Ordinary] The Pacific odyssey of a runaway rebel](https://www.bbc.co.uk/programmes/p0hds2pj)
+58. [[The Art of Manliness] Podcast #968: The Secrets of Supercommunicators](https://www.artofmanliness.com/people/social-skills/podcast-968-the-secrets-of-supercommunicators/)
