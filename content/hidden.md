@@ -25,3 +25,4 @@
 ![/img/CFI-certificate-CBS.png](/img/CFI-certificate-CBS.png)
 ![/img/CFI-certificate-RESFM.png](/img/CFI-certificate-RESFM.png)
 ![/img/CFI-certificate-AGDBR.png](/img/CFI-certificate-AGDBR.png)
+![/img/CFI-certificate-FMVA.png](/img/CFI-certificate-FMVA.png)

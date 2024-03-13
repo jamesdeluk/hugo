@@ -77,11 +77,26 @@ span.post-category > a > i {
   border: 2px solid#1baa3c;
 }
 
-.cert-img-3-2 {
+.cert-img-quarter {
+  width: 24%;
+}
+.cert-img-third {
   width: 32%;
 }
+.cert-img-half {
+  width: 49%;
+}
+.cert-img-CISA {
+  width: 125px;
+}
 @media screen and (max-width: 600px) {
-  .cert-img-3-2 {
+  .cert-img-quarter, .cert-img-third, .cert-img-CISA {
     width: 49%;
+  }
+  .cert-img-third {
+    width: 49%;
+  }
+  .cert-img-half {
+    width: 100%;
   }
 }
