@@ -2,13 +2,13 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Drugs","EVs","Eating","Electronics","Emotions","Engineering","Entrepreneurship","Evolution","Exercise","Experience Goods","Fat","Fertility","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hydrogen","Inspiration","Investing","Japan","Job","Jordan Harbinger","Korea","Language","Lex Fridman","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Oceans","Optimism","Oral","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Tim Ferriss","Time","Time Management","Tolerance","Transport","UFOs","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotions","Energy","Energy Efficiency","Engineering","Entrepreneurship","Evolution","Exercise","Experience Goods","Fat","Fertility","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Household","Hydrogen","Inspiration","Investing","Japan","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Oceans","Optimism","Oral","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Tim Ferriss","Time","Time Management","Tolerance","Transport","UFOs","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-03-10
+lastmod: 2024-03-24
 ---
 <!-- {{< small-image-button >}} -->
 
-## General
+## General success
 
 - Anterior mid-cingulate cortex correlates with willpower. It grows by doing things you don't want to, especially physically, such as going for a run in the rain or taking a cold shower, or not doing things you want to, like eating the cookie. It doesn’t grow by putting in effort, such as a hard run that you actually enjoy. It’s a possible predictor of life duration. [1]
 - How to improve your life in 2024 according to science: minimise pre-sleep light; fidget; get cold; get dirty; talk to strangers; be scared; learn skills; exercise; breathe; make friends; forgive; eat colours; drink coffee; have a hobby [2]
@@ -22,10 +22,17 @@ lastmod: 2024-03-10
 - Change your state (low to high, e.g. through exercise) before trying to fix things [26]
 - Your "waiting room" of things to do, projects to tackle, opportunities to address, people to see, and ideas to pursue will always be full. You will never make a dent in it—and expecting otherwise will only serve to create anxiety. [28]
 - Motion vs action. Planning feels like action, but it’s only motion. [31]
-- Productivity techniques: 2-Minute, Twice, Rule 0f 72, 5-Second, Highlight, Hell yes, WHO, Procrastination, 90/90/1, 12-Week, Prime Time, 80%, Frog, Parkinson, 80/20, ABCDE, Auditing, Chain, Energy, Zeigarnik, Pomodoro, Batch, Slice, Visualization, 25/5, Feynman, 5 WHYs, Stacking, Rest, Quality, Say NO, Blocks, Theme, Decisions, Routine, Detox, Future Self, Spotlight, Ulysses, Plan, Notebook [33]
+- Action over goals [62]
 - Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
-- The #1 Personality Trait That Made These Business Moguls +$450M: Obsession; going all in. [54]
+- Most important personality trait: Obsession; going all in. [54]
 - Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
+
+### Lists
+
+- Productivity techniques: 2-Minute, Twice, Rule 0f 72, 5-Second, Highlight, Hell yes, WHO, Procrastination, 90/90/1, 12-Week, Prime Time, 80%, Frog, Parkinson, 80/20, ABCDE, Auditing, Chain, Energy, Zeigarnik, Pomodoro, Batch, Slice, Visualization, 25/5, Feynman, 5 WHYs, Stacking, Rest, Quality, Say NO, Blocks, Theme, Decisions, Routine, Detox, Future Self, Spotlight, Ulysses, Plan, Notebook [33]
+- 1. You are not your thoughts.; 2. Action is the antidote to anxiety.; 3. Loneliness is a kind of tax you have to pay to atone for a certain complexity of mind.; 4. Your weirdness is your competitive advantage.; 5. Joy has to be found today, not tomorrow.; 6. Never lie.; 7. Keep promises to yourself.; 8. Most problems are easily fixed.; 9. You are the sky, everything else is just the weather. [59]
+- 1. Your relationship with others is a direct reflection of your relationship with yourself; 2. The only way to feel better about yourself is to do things worth feeling good about; 3. The only failure is not trying; 4. No one is coming to save you; 5. Be the partner you want to have; 6. The most valuable things in life compound over a long period of time; 7. The most sexy and exciting things in life are the opposite; 8. If you’re not turning down things that excite you, then you’re not focused enough on what matters; 9. Taking responsibility for all of your problems alleviates more suffering than it creates; 10. You give power to who you blame; 11. If you have to tell someone you’re that, then you’re not that; 12. Motivation is not the cause of action, but the effect; 13. Love is not the cause of commitment, but the effect; 14. Passion is not the cause of good work, but the effect; 15. The person you marry is the person you fight with; 16. A happy life is not a life without stress. It’s a life of meaningful stress; 17. Don’t view exercise as an exchange for something; 18. Trust people; 19. There’s no such thing as a life without problems; 20. Growth is rarely accompanied by joy and celebration; 21. Fuck being normal; 22. If you can’t say no, then your yeses mean nothing; 23. Be careful how you define yourself; 24. Don’t make assumptions about people; 25. No one thinks about you as much as you think about yourself; 26. Confidence does not come from an expectation of success. It comes from a comfort with failure; 27. Develop a willingness to be disliked; 28. You cannot be a life-changing presence to some people without also being a complete fucking joke to others; 29. Floss and wear sunscreen every day; 30. Extraordinary results come from repeating ordinary actions over an inordinate amount of time; 31. Choosing a partner is not about romance; 32. Don’t overestimate romantic love; 33. Trust is the currency of all relationships; 34. If all of your relationships have the same problem…; 35. There’s no such thing as a bad emotion, only a bad response to an emotion; 36. Go to bed and wake up early; 37. You don’t have to prove anything to anyone, including yourself; 38. Life advice is like clothing; 39. Nothing meaningful in life is easy, nothing easy in life is meaningful; 40. It’s never too late to change [60]
+- Brutally honest career advice to my younger self: 1/ It’s okay to feel lost; 2/ Take more swings; 3/ Be the hub; 4/ Document your learning online; 5/ Learn copywriting; 6/ Master the art of the cold email; 7/ Mentors are overrated; 8/ Build independent income streams; 9/ Give way less fucks about other people; 10/ Have more patience that it will work out; 11/ Practice positive self-talk; 12/ Don’t jump ship too early; 13/ Don’t let work consume your life; 14/ Peer up the career ladder; 15/ Your network DOES matter; 16/ Read more biographies; 17/ Keep a journal; 18/ You’re gonna be okay [61]
 
 ## Culture
 
@@ -72,6 +79,7 @@ lastmod: 2024-03-10
 - Before you write (especially sales copy), think: What do you want the audience reaction/emotion and action to be? What is the one-line takeaway? [52]
 - Learn to write, and warm up, through copywork - find someone else's writing/style you like, and simply copy it. It’s what we do for music, for cooking. [52]
 - Positioning as adding value instead of saving time. e.g. Status quo: 200 leads in 2 days. Your solution = doubling: 400 leads in 2 days OR 200 leads in 1 day. The former, you can charge for 200 leads and their existing cost. The latter, how do you price 1 day in time saving? [53]
+- Own your own business (especially a boring business) [63]
 
 ## Economy and Financial
 
@@ -88,6 +96,7 @@ lastmod: 2024-03-10
 - An autonomous machine that drives around fixing cracks in roads before potholes appear. [25]
 - Until 2010, social *media* and social *networking* had equal search volume. Since then, social *media* has taken oven - along with the shift from these sites being about community and connection to being about influence and eyeballs. What else happened in 2010? The movie The Social Network came out. Did it accidentally cause the shift? [29]
 - This was why I initially decided to study engineering - control systems were always my favourite. A cube that can self-balance on its corner - and even rotate and jump about! [34][35]
+- How to use LLMs: Give them as much details as possible (in prompt and uploads - or you can ask it to ask you the context); Speaking is better than typing; Use multiple LLMs as if they’re multiple friends, and ask them what they think of the responses of others; Interactive and iterative (ask for 10 ideas, then 10 more, then pick the top 5 and ask for 10 more like those 5); Simple test: Ask about an emotional, human decision, ask it to ask you 3 to 4 questions about the problem before giving recommendations. [65]
 
 ## Health
 
@@ -109,6 +118,7 @@ lastmod: 2024-03-10
 
 - Incredible six-hour conversation detailing years of fraud [18]
 - Another life story: The Pacific odyssey of a runaway rebel - Ruth Shaw spent years on ships and islands, trying to outrun her past [57]
+- Dishwashers use less water and energy. Eco settings clean prioritising enzymes (over a longer time) than higher temperatures. [64]
 
 ## References
 
@@ -170,3 +180,6 @@ lastmod: 2024-03-10
 56. [[Discovery] Uncharted: The returning soldier](https://www.bbc.co.uk/programmes/m001qw4s)
 57. [[Lives Less Ordinary] The Pacific odyssey of a runaway rebel](https://www.bbc.co.uk/programmes/p0hds2pj)
 58. [[The Art of Manliness] Podcast #968: The Secrets of Supercommunicators](https://www.artofmanliness.com/people/social-skills/podcast-968-the-secrets-of-supercommunicators/)
+59. [3MM: Thoughts, O's & Truth](https://unique-thinker-7318.ck.page/posts/3mm-thoughts-o-s-truth)
+60. [40 Life Lessons I Know at 40 (That I Wish I Knew at 20)](https://markmanson.net/40-lessons-at-40)
+61. [Brutally honest career advice to my younger self](https://noahkagan.com/brutally-honest-career-advice-to-my-younger-self/)
