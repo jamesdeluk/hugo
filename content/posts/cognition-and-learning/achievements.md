@@ -3,7 +3,7 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD']
 date: 2022-08-23
-lastmod: 2024-03-13
+lastmod: 2024-04-01
 ---
 
 ## Finance
@@ -53,6 +53,10 @@ lastmod: 2024-03-13
 ### Other
 
 <a href="/img/CFI-certificate-MFP.png" target="_blank"><img class="cert-img-quarter" src="/img/CFI-certificate-MFP.png" alt="CFI certificate Math for Finanec Professionals"></a>
+
+## Product Management
+
+<a href="/img/certificate-of-completion-for-product-strategy-microcertification.png" target="_blank"><img class="cert-img-half" src="/img/certificate-of-completion-for-product-strategy-microcertification.png" alt="Product School Product Strategy certificate"></a>
 
 ## IT and Cyber Security
 
