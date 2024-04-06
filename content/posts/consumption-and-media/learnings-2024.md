@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotions","Energy","Energy Efficiency","Engineering","Entrepreneurship","Evolution","Exercise","Experience Goods","Fat","Fertility","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Household","Hydrogen","Inspiration","Investing","Japan","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Oceans","Optimism","Oral","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Tim Ferriss","Time","Time Management","Tolerance","Transport","UFOs","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotions","Energy","Energy Efficiency","Engineering","Entrepreneurship","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Injury","Inspiration","Intuition","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Parenting","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Tim Ferriss","Time","Time Management","Tolerance","Transport","UFOs","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-03-24
+lastmod: 2024-04-06
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -26,6 +26,7 @@ lastmod: 2024-03-24
 - Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
 - Most important personality trait: Obsession; going all in. [54]
 - Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
+- Intuition cannot be explained, so don’t ask someone to; instead, judge how much experience in the situation they have, and use that to value their intuition. [72]
 
 ### Lists
 
@@ -33,6 +34,7 @@ lastmod: 2024-03-24
 - Some of the most important realisations I’ve come upon: 1. You are not your thoughts.; 2. Action is the antidote to anxiety.; 3. Loneliness is a kind of tax you have to pay to atone for a certain complexity of mind.; 4. Your weirdness is your competitive advantage.; 5. Joy has to be found today, not tomorrow.; 6. Never lie.; 7. Keep promises to yourself.; 8. Most problems are easily fixed.; 9. You are the sky, everything else is just the weather. [59]
 - 40 Life Lessons I Know at 40 (That I Wish I Knew at 20): 1. Your relationship with others is a direct reflection of your relationship with yourself; 2. The only way to feel better about yourself is to do things worth feeling good about; 3. The only failure is not trying; 4. No one is coming to save you; 5. Be the partner you want to have; 6. The most valuable things in life compound over a long period of time; 7. The most sexy and exciting things in life are the opposite; 8. If you’re not turning down things that excite you, then you’re not focused enough on what matters; 9. Taking responsibility for all of your problems alleviates more suffering than it creates; 10. You give power to who you blame; 11. If you have to tell someone you’re that, then you’re not that; 12. Motivation is not the cause of action, but the effect; 13. Love is not the cause of commitment, but the effect; 14. Passion is not the cause of good work, but the effect; 15. The person you marry is the person you fight with; 16. A happy life is not a life without stress. It’s a life of meaningful stress; 17. Don’t view exercise as an exchange for something; 18. Trust people; 19. There’s no such thing as a life without problems; 20. Growth is rarely accompanied by joy and celebration; 21. Fuck being normal; 22. If you can’t say no, then your yeses mean nothing; 23. Be careful how you define yourself; 24. Don’t make assumptions about people; 25. No one thinks about you as much as you think about yourself; 26. Confidence does not come from an expectation of success. It comes from a comfort with failure; 27. Develop a willingness to be disliked; 28. You cannot be a life-changing presence to some people without also being a complete fucking joke to others; 29. Floss and wear sunscreen every day; 30. Extraordinary results come from repeating ordinary actions over an inordinate amount of time; 31. Choosing a partner is not about romance; 32. Don’t overestimate romantic love; 33. Trust is the currency of all relationships; 34. If all of your relationships have the same problem…; 35. There’s no such thing as a bad emotion, only a bad response to an emotion; 36. Go to bed and wake up early; 37. You don’t have to prove anything to anyone, including yourself; 38. Life advice is like clothing; 39. Nothing meaningful in life is easy, nothing easy in life is meaningful; 40. It’s never too late to change [60]
 - Brutally honest career advice to my younger self: 1/ It’s okay to feel lost; 2/ Take more swings; 3/ Be the hub; 4/ Document your learning online; 5/ Learn copywriting; 6/ Master the art of the cold email; 7/ Mentors are overrated; 8/ Build independent income streams; 9/ Give way less fucks about other people; 10/ Have more patience that it will work out; 11/ Practice positive self-talk; 12/ Don’t jump ship too early; 13/ Don’t let work consume your life; 14/ Peer up the career ladder; 15/ Your network DOES matter; 16/ Read more biographies; 17/ Keep a journal; 18/ You’re gonna be okay [61]
+- Psychological traps: Ostrich effect; Inability to close doors; Contrast effect; Chauffeur knowledge; IKEA effect; Curse of specificity; Spotlight effect; Halo effect; Reciprocity; Self serving bias; Diderot effect; Anchoring effect; Negativity bias; Sunk cost fallacy; Paradox of choices; Framing effect; End of history illusion; Pygmalion effect; Consistency effect; Planning fallacy; Confirmation bias; Bandwagon effect; Dunning Kruger effect; Loss aversion; Decoy effect; Availability heuristic; Gamblers fallacy; Hindsight bias; Reactance bias; Action bias; Survivorship bias; Unity principle; Zeigarnik effect; Bystander effect; Ambiguity effect; Curse of knowledge; Illusion of averages; Endowment effect [66]
 
 ## Culture
 
@@ -41,7 +43,8 @@ lastmod: 2024-03-24
 - Japanese has the fastest speaking rate, but French and English have the fastest information rates [19]
 - Transport for London gets ~70% of it’s money from fares. Most major cities globally are ~70% funded by governments. Hence why London public transport is so expensive. [21]
 - A theory: North Korea was always used by Russia and China - it needed them to survive, but they didn’t care about it. NK thought getting weapons that could hit mainland USA would finally get the West to listen to them, and potentially, through negotiations and deals, be treated like any other country - and escape from being under China/Russia. However, their olive branch was rejected; they achieved nothing. Now, with again increased tension between the West and China and Russia, once again NK may give up on trying to join the global economy and return to working closely with Russia and China. [50]
-- More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occuring. [56]
+- More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occurring. [56]
+- Taesong (대성) village in Korea’s DMZ: Free rent, no tax, lots of farmland, and being able to hear (but not see) North Korean soldiers singing - although everyone is leaving, and only ~100 people are left. [69]
 
 ## Relationships
 
@@ -52,6 +55,7 @@ lastmod: 2024-03-24
 - Do you want to be helped (solutions/practical), heard (rant/social), or hugged (emotion) [45]
 - Dating apps start off well, then some users abuse them through lying, so genuine users lose trust and leave. Other services fix misuse through reviews, but that isn’t really compatible with dating. [49]
 - Deep questions: feelings over facts e.g. instead of “what did you do today?”, ask “what was the best thing that's happened today?” [58]
+- Fathers also have large hormonal changes post-birth and can also get post-natal depression. Women naturally get attached; men, the more time with their baby, the better. [73]
 
 ## Work and Career
 
@@ -106,6 +110,7 @@ lastmod: 2024-03-24
 - 60s intense throughout day e.g. air squats, burpees [55]
 - Min 2 seconds per strength rep e.g. 1s up 1s down [55]
 - Eat protein/fat 30mins before carbs [55]
+- Stress doesn’t come from hard work. Stress primarily comes from not taking action over something that you can have some control over. [Jeff Bezos]
 
 ## Nature
 
@@ -119,6 +124,9 @@ lastmod: 2024-03-24
 - Incredible six-hour conversation detailing years of fraud [18]
 - Another life story: The Pacific odyssey of a runaway rebel - Ruth Shaw spent years on ships and islands, trying to outrun her past [57]
 - Dishwashers use less water and energy. Eco settings clean prioritising enzymes (over a longer time) than higher temperatures. [64]
+- North Korea TV censors Alan Titchmarsh's trousers [67]
+- The least random random number is 37. The median second prime factor of all numbers is 37. It’s also many other “types” of prime. The marriage secretary problem: How to pick the “best” option if you don’t know the value of options in advance? Test the first 37% of options, then pick the next option which is better than any you’ve seen so far. This gives you a 37% chance of success. Put another way: Want to get married in 10 years? Test for 3.7 years, then pick the next best person. [68]
+- Motorbike armour is… Basically useless. Remove it and be comfortable, and/or wear an airbag. Or… not? [70][71]
 
 ## References
 
@@ -183,3 +191,15 @@ lastmod: 2024-03-24
 59. [3MM: Thoughts, O's & Truth](https://unique-thinker-7318.ck.page/posts/3mm-thoughts-o-s-truth)
 60. [40 Life Lessons I Know at 40 (That I Wish I Knew at 20)](https://markmanson.net/40-lessons-at-40)
 61. [Brutally honest career advice to my younger self](https://noahkagan.com/brutally-honest-career-advice-to-my-younger-self/)
+62. [[My First Million] The Cashflow King: “Here’s How I Do It”, Negotiating w/ Jeff Bezos, Elon’s Cracked Rocket](https://www.mfmpod.com/the-cashflow-king-heres-how-i-do-it-negotiating-w-jeff-bezos-elons-cracked-rocket-jason-fr/)
+63. [The Millionaire Next Door](https://en.wikipedia.org/wiki/The_Millionaire_Next_Door)
+64. [[Sliced Bread] Dishwashers](https://www.bbc.co.uk/sounds/play/m001xdbx)
+65. [[Think Fast, Talk Smart: Communication Techniques] 134. How to Chat with Bots: The Secrets to Getting the Information You Need from AI](https://www.gsb.stanford.edu/insights/how-chat-bots-secrets-getting-information-you-need-ai)
+66. [Every Psychological Trap Explained in 13 Minutes](https://youtu.be/MChqrjv4YFI)
+67. [North Korea TV censors Alan Titchmarsh's trousers](https://www.bbc.co.uk/news/world-asia-68664644)
+68. [Why is this number everywhere?](https://youtu.be/d6iQrh2TK98)
+69. [The hidden village just metres from North Korea](https://www.bbc.co.uk/news/uk-68505383)
+70. [Why I Stopped Wearing Motorcycle Body Armour](https://www.youtube.com/watch?v=nINIJ1cAbYM)
+71. [Why I always wear motorcycle armour (it's NOT useless)](https://www.youtube.com/watch?v=NOJxubCS0wM)
+72. [[Thinkers & Ideas] The Intelligence of Intuition with Gerd Gigerenzer](https://podcasts.apple.com/us/podcast/the-intelligence-of-intuition-with-gerd-gigerenzer/id1450867110?i=1000650483799)
+73. [How becoming a father changes men ｜ DW Documentary](https://www.youtube.com/watch?v=Ig8YqizJgOg)
