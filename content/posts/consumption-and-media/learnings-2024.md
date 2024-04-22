@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotions","Energy","Energy Efficiency","Engineering","Entrepreneurship","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Injury","Inspiration","Intuition","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Parenting","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Tim Ferriss","Time","Time Management","Tolerance","Transport","UFOs","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Birds","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotions","Energy","Energy Efficiency","Engineering","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Injury","Inspiration","Intuition","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Transport","Trolley Problem","UFOs","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-04-06
+lastmod: 2024-04-22
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -13,20 +13,21 @@ lastmod: 2024-04-06
 - Anterior mid-cingulate cortex correlates with willpower. It grows by doing things you don't want to, especially physically, such as going for a run in the rain or taking a cold shower, or not doing things you want to, like eating the cookie. It doesn’t grow by putting in effort, such as a hard run that you actually enjoy. It’s a possible predictor of life duration. [1]
 - How to improve your life in 2024 according to science: minimise pre-sleep light; fidget; get cold; get dirty; talk to strangers; be scared; learn skills; exercise; breathe; make friends; forgive; eat colours; drink coffee; have a hobby [2]
 - Have:want ratio for happiness - you can increase haves (works temporarily) or decrease wants (works permanently) [3]
-- Always have a top three goals, not an infinite list (for day, month, year; for a project; etc) [3]
 - Sabbaticals are essential (minimum 6 weeks; one example, simply read incessantly); build habits: obvious (in sight in mind), easy (start small), attractive (pick the exercise you enjoy most), satisfying (reward) [3]
-- Low-carb (lower calories, lower GI) rice cookers exist [3]
-- Instead of New Year’s resolutions, have New Year’s anticipations - what am I looking forward to? [5]
 - Build a Strategic Life Strategy using organisational principles (purpose, visions, benchmarks, etc). Strategic life areas including relationships, body/mind/spirit, community/society, job/learning/finances, interests/entertainment, personal care. Plot importance vs satisfaction. [4 - images]
-- A statistical analysis of astrological signs against 37 different life outcomes showed no correlation (an r value of 0) [13]
 - Change your state (low to high, e.g. through exercise) before trying to fix things [26]
 - Your "waiting room" of things to do, projects to tackle, opportunities to address, people to see, and ideas to pursue will always be full. You will never make a dent in it—and expecting otherwise will only serve to create anxiety. [28]
-- Motion vs action. Planning feels like action, but it’s only motion. [31]
-- Action over goals [62]
 - Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
 - Most important personality trait: Obsession; going all in. [54]
-- Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
+- Perfectionists often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
 - Intuition cannot be explained, so don’t ask someone to; instead, judge how much experience in the situation they have, and use that to value their intuition. [72]
+
+### Goals and Action
+
+- Instead of New Year’s resolutions, have New Year’s anticipations - what am I looking forward to? [5]
+- Always have a top three goals, not an infinite list (for day, month, year; for a project; etc) [3]
+- Action over goals [62]
+- Motion vs action. Planning feels like action, but it’s only motion. [31]
 
 ### Lists
 
@@ -46,7 +47,7 @@ lastmod: 2024-04-06
 - More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occurring. [56]
 - Taesong (대성) village in Korea’s DMZ: Free rent, no tax, lots of farmland, and being able to hear (but not see) North Korean soldiers singing - although everyone is leaving, and only ~100 people are left. [69]
 
-## Relationships
+## Relationships and Personalities
 
 - Sharing bed with partner has mixed results. Possible solution: two duvets. No food within 3 hours of bed was the best for males and females. Melatonin and yoga had mixed results. [10 - image]
 - Who is disproportionately attractive to you? [23]
@@ -56,34 +57,46 @@ lastmod: 2024-04-06
 - Dating apps start off well, then some users abuse them through lying, so genuine users lose trust and leave. Other services fix misuse through reviews, but that isn’t really compatible with dating. [49]
 - Deep questions: feelings over facts e.g. instead of “what did you do today?”, ask “what was the best thing that's happened today?” [58]
 - Fathers also have large hormonal changes post-birth and can also get post-natal depression. Women naturally get attached; men, the more time with their baby, the better. [73]
+- A statistical analysis of astrological signs against 37 different life outcomes showed no correlation (an r value of 0) [13]
 
 ## Work and Career
 
-- You need great colleagues to do great work. One way to know: do they inspire you to work hard, to do your best? [12]
 - What do other people hate that you like? [23]
 - What feels like play to you that feels like work to others? [27]
 - Create the content you want to consume. Writing online enables serendipity at scale. You never know who’s reading. [24]
-- Spend as much time as possible with people with the “right” mindset (e.g. learn, earn) [27]
-- Do exciting work with exciting people [27]
 - Job success: Stand out; create a brand; write a newsletter, work on important projects; solve a paper cut problem; have a connected/driven manager; find the most interesting people; have a good vidcall setup to look professional [38]
 - Recruiters get paid for placing candidates. Befriend a recruiter and have them mentor you into getting the job. [42]
+
+### Productivity
+
 - Productivity ≠ activity. In the past (agriculture, manufacturing), business = output. Now we live in the knowledge economy, where thinking is important. [43]
 - A lot of productive activities do not look so. A conversation over dinner can lead to insight. Walking in silence enables thinking. Often large companies stifle creativity due to employees having to look busy. [44]
 
+### Colleagues
+
+- You need great colleagues to do great work. One way to know: do they inspire you to work hard, to do your best? [12]
+- Spend as much time as possible with people with the “right” mindset (e.g. learn, earn) [27]
+- Do exciting work with exciting people [27]
+
 ## Entrepreneurship and Business
 
+- Best entrepreneurs: lots of ideas, great at networking, quick decision making [77]
+- To be rich, own your own business (especially a boring business) [63]
 - BRRT: [b]uy a cash-flow business in a [r]ecession-resistant industry then [r]aise prices with inflation and value adds then add [t]ech [14]
+- Buy a cashflow-positive business then improve (with tech, marketing, operations, ...) [42]
 - PROMISE: [p]rofit / protected margins, [r]ecurring revenue, [o]nline presence, [m]outh to mouth marketing (referrals), [i]nterpersonal relationships, [s]ales tiers and subscriptions, [e]xpectations (reviews) [14]
 - Market Command Matrix: mindshare (how well customers know a company exists) vs resources (funding/capability) [32]
-- Customer service: Be angrier than they are about the problem. Only one person can be angry. [37]
-- Raising prices can result in more sales. Experiment. [40]
-- Buy a cashflow-positive business then improve (with tech, marketing, operations, ...) [42]
-- A founders job is not to build the product, it's to build the team to build the product. [48]
 - Pick the underserved market before the product [48]
+- Customer service: Be angrier than they are about the problem. Only one person can be angry. [37]
+- A founders job is not to build the product, it's to build the team to build the product. [48]
+- A bunch of idea generation tips, including tools such as Keywords Everywhere, Subreddit Stats, Anvaka’s Map of Reddit [75]
+
+### Sales, Copywriting, and Pricing
+
+- Raising prices can result in more sales. Experiment. [40]
 - Before you write (especially sales copy), think: What do you want the audience reaction/emotion and action to be? What is the one-line takeaway? [52]
 - Learn to write, and warm up, through copywork - find someone else's writing/style you like, and simply copy it. It’s what we do for music, for cooking. [52]
-- Positioning as adding value instead of saving time. e.g. Status quo: 200 leads in 2 days. Your solution = doubling: 400 leads in 2 days OR 200 leads in 1 day. The former, you can charge for 200 leads and their existing cost. The latter, how do you price 1 day in time saving? [53]
-- Own your own business (especially a boring business) [63]
+- Position as adding value instead of saving time. e.g. Status quo: 200 leads in 2 days. Your solution = doubling: 400 leads in 2 days OR 200 leads in 1 day. The former, you can charge for 200 leads and their existing cost. The latter, how do you price 1 day in time saving? [53]
 
 ## Economy and Financial
 
@@ -104,6 +117,7 @@ lastmod: 2024-04-06
 
 ## Health
 
+- Low-carb (lower calories, lower GI) rice cookers exist [3]
 - Oral health: Enamel can be remineralised, dentin cannot; alkali good, acidic (carbs, tea/coffee) and dry bad. Rinse mouth after acid. Don't constantly be drinking tea/coffee. Toothpaste with hydroxyapatite. Commercial mouthwash is bad (especially alcohol-based); brine is better. [39]
 - To improve sleep, finish eating early (e.g. before midday) so your digestion has finished by the time you sleep [46]
 - Norwegian 4x4 Protocol: 4mins as fast as you can sustain (typically ~80% max heart rate) followed by 3m recovery, x4 [55]
@@ -118,6 +132,7 @@ lastmod: 2024-04-06
 - Orcas and humans used to work together to hunt whales… Until humans got greedy. [15]
 - “Fluffy”, the alligator snapping turtle. [36]
 - Humans don’t have tails and don’t lay eggs, and it’s possible being tailless and giving birth to live young is actually a disadvantage. So why did we lose our tails and stop laying eggs? There isn’t a survival-of-the-fittest explanation; it’s likely it’s arbitrary, it’s luck, it’s a mistake. [51]
+- Bird mimicking police siren at Bicester station [74]
 
 ## Misc
 
@@ -127,6 +142,7 @@ lastmod: 2024-04-06
 - North Korea TV censors Alan Titchmarsh's trousers [67]
 - The least random random number is 37. The median second prime factor of all numbers is 37. It’s also many other “types” of prime. The marriage secretary problem: How to pick the “best” option if you don’t know the value of options in advance? Test the first 37% of options, then pick the next option which is better than any you’ve seen so far. This gives you a 37% chance of success. Put another way: Want to get married in 10 years? Test for 3.7 years, then pick the next best person. [68]
 - Motorbike armour is… Basically useless. Remove it and be comfortable, and/or wear an airbag. Or… not? [70][71]
+- The trolley problem is a false dichotomy - break the trolley! [76]
 
 ## References
 
@@ -203,3 +219,8 @@ lastmod: 2024-04-06
 71. [Why I always wear motorcycle armour (it's NOT useless)](https://www.youtube.com/watch?v=NOJxubCS0wM)
 72. [[Thinkers & Ideas] The Intelligence of Intuition with Gerd Gigerenzer](https://podcasts.apple.com/us/podcast/the-intelligence-of-intuition-with-gerd-gigerenzer/id1450867110?i=1000650483799)
 73. [How becoming a father changes men ｜ DW Documentary](https://www.youtube.com/watch?v=Ig8YqizJgOg)
+74. [Bird mimicking police siren at Bicester station confuses officers](https://www.bbc.co.uk/news/av/uk-england-oxfordshire-68785461)
+75. [How to Find Your Next Big Idea Hiding on the Internet - Ep. 10 with Steph Smith](https://youtu.be/1XzKXz9CmvM)
+76. [Reid Hoffman on How AI Might Answer Our Biggest Questions](https://every.to/chain-of-thought/transcript-reid-hoffman-on-how-ai-might-answer-our-biggest-questions)
+77. [The Entrepreneurial Mindset Part 1 with Rita McGrath](https://theinnovationshow.io/episode/the-entrepreneurial-mindset-part-1-with-rita-mcgrath/)
+78. [Bizarre traveling flame discovery](https://youtu.be/SqhXQUzVMlQ)
