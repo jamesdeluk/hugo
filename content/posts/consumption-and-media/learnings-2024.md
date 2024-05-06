@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Babies","Bacteria","Biography","Birds","Brand","Bribery","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotions","Energy","Energy Efficiency","Engineering","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Founding","Fraud","Freedom","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Injury","Inspiration","Intuition","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","My First Million","Names","Nature","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Sleep","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Transport","Trolley Problem","UFOs","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Founding","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Transport","Trolley Problem","UFOs","V10s","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-04-22
+lastmod: 2024-05-06
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -13,21 +13,19 @@ lastmod: 2024-04-22
 - Anterior mid-cingulate cortex correlates with willpower. It grows by doing things you don't want to, especially physically, such as going for a run in the rain or taking a cold shower, or not doing things you want to, like eating the cookie. It doesn’t grow by putting in effort, such as a hard run that you actually enjoy. It’s a possible predictor of life duration. [1]
 - How to improve your life in 2024 according to science: minimise pre-sleep light; fidget; get cold; get dirty; talk to strangers; be scared; learn skills; exercise; breathe; make friends; forgive; eat colours; drink coffee; have a hobby [2]
 - Have:want ratio for happiness - you can increase haves (works temporarily) or decrease wants (works permanently) [3]
+- Always have a top three goals, not an infinite list (for day, month, year; for a project; etc) [3]
 - Sabbaticals are essential (minimum 6 weeks; one example, simply read incessantly); build habits: obvious (in sight in mind), easy (start small), attractive (pick the exercise you enjoy most), satisfying (reward) [3]
+- Instead of New Year’s resolutions, have New Year’s anticipations - what am I looking forward to? [5]
 - Build a Strategic Life Strategy using organisational principles (purpose, visions, benchmarks, etc). Strategic life areas including relationships, body/mind/spirit, community/society, job/learning/finances, interests/entertainment, personal care. Plot importance vs satisfaction. [4 - images]
 - Change your state (low to high, e.g. through exercise) before trying to fix things [26]
 - Your "waiting room" of things to do, projects to tackle, opportunities to address, people to see, and ideas to pursue will always be full. You will never make a dent in it—and expecting otherwise will only serve to create anxiety. [28]
+- Motion vs action. Planning feels like action, but it’s only motion. [31]
+- Action over goals [62]
 - Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
 - Most important personality trait: Obsession; going all in. [54]
-- Perfectionists often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
+- Persistence and rejection [84]
+- Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
 - Intuition cannot be explained, so don’t ask someone to; instead, judge how much experience in the situation they have, and use that to value their intuition. [72]
-
-### Goals and Action
-
-- Instead of New Year’s resolutions, have New Year’s anticipations - what am I looking forward to? [5]
-- Always have a top three goals, not an infinite list (for day, month, year; for a project; etc) [3]
-- Action over goals [62]
-- Motion vs action. Planning feels like action, but it’s only motion. [31]
 
 ### Lists
 
@@ -61,47 +59,43 @@ lastmod: 2024-04-22
 
 ## Work and Career
 
+- You need great colleagues to do great work. One way to know: do they inspire you to work hard, to do your best? [12]
 - What do other people hate that you like? [23]
 - What feels like play to you that feels like work to others? [27]
 - Create the content you want to consume. Writing online enables serendipity at scale. You never know who’s reading. [24]
-- Job success: Stand out; create a brand; write a newsletter, work on important projects; solve a paper cut problem; have a connected/driven manager; find the most interesting people; have a good vidcall setup to look professional [38]
-- Recruiters get paid for placing candidates. Befriend a recruiter and have them mentor you into getting the job. [42]
-
-### Productivity
-
-- Productivity ≠ activity. In the past (agriculture, manufacturing), business = output. Now we live in the knowledge economy, where thinking is important. [43]
-- A lot of productive activities do not look so. A conversation over dinner can lead to insight. Walking in silence enables thinking. Often large companies stifle creativity due to employees having to look busy. [44]
-
-### Colleagues
-
-- You need great colleagues to do great work. One way to know: do they inspire you to work hard, to do your best? [12]
 - Spend as much time as possible with people with the “right” mindset (e.g. learn, earn) [27]
 - Do exciting work with exciting people [27]
+- Job success: Stand out; create a brand; write a newsletter, work on important projects; solve a paper cut problem; have a connected/driven manager; find the most interesting people; have a good vidcall setup to look professional [38]
+- Recruiters get paid for placing candidates. Befriend a recruiter and have them mentor you into getting the job. [42]
+- Productivity ≠ activity. In the past (agriculture, manufacturing), business = output. Now we live in the knowledge economy, where thinking is important. [43]
+- A lot of productive activities do not look so. A conversation over dinner can lead to insight. Walking in silence enables thinking. Often large companies stifle creativity due to employees having to look busy. [44]
+- Best negotiation tactic: give your offer, say nothing. The one who can handle the awkwardness best often wins. [83]
+- Find what you can get good at, or just work extra hard. [84]
+- Your employer's success is your success. Your manager's success is your success. [84]
 
 ## Entrepreneurship and Business
 
-- Best entrepreneurs: lots of ideas, great at networking, quick decision making [77]
-- To be rich, own your own business (especially a boring business) [63]
 - BRRT: [b]uy a cash-flow business in a [r]ecession-resistant industry then [r]aise prices with inflation and value adds then add [t]ech [14]
-- Buy a cashflow-positive business then improve (with tech, marketing, operations, ...) [42]
 - PROMISE: [p]rofit / protected margins, [r]ecurring revenue, [o]nline presence, [m]outh to mouth marketing (referrals), [i]nterpersonal relationships, [s]ales tiers and subscriptions, [e]xpectations (reviews) [14]
 - Market Command Matrix: mindshare (how well customers know a company exists) vs resources (funding/capability) [32]
-- Pick the underserved market before the product [48]
 - Customer service: Be angrier than they are about the problem. Only one person can be angry. [37]
-- A founders job is not to build the product, it's to build the team to build the product. [48]
-- A bunch of idea generation tips, including tools such as Keywords Everywhere, Subreddit Stats, Anvaka’s Map of Reddit [75]
-
-### Sales, Copywriting, and Pricing
-
 - Raising prices can result in more sales. Experiment. [40]
+- Buy a cashflow-positive business then improve (with tech, marketing, operations, ...) [42]
+- A founders job is not to build the product, it's to build the team to build the product. [48]
+- Pick the underserved market before the product [48]
 - Before you write (especially sales copy), think: What do you want the audience reaction/emotion and action to be? What is the one-line takeaway? [52]
 - Learn to write, and warm up, through copywork - find someone else's writing/style you like, and simply copy it. It’s what we do for music, for cooking. [52]
-- Position as adding value instead of saving time. e.g. Status quo: 200 leads in 2 days. Your solution = doubling: 400 leads in 2 days OR 200 leads in 1 day. The former, you can charge for 200 leads and their existing cost. The latter, how do you price 1 day in time saving? [53]
+- Positioning as adding value instead of saving time. e.g. Status quo: 200 leads in 2 days. Your solution = doubling: 400 leads in 2 days OR 200 leads in 1 day. The former, you can charge for 200 leads and their existing cost. The latter, how do you price 1 day in time saving? [53]
+- To be rich, own your own business (especially a boring business) [63]
+- A bunch of idea generation tips, including tools such as Keywords Everywhere, Subreddit Stats, Anvaka’s Map of Reddit [75]
+- Best entrepreneurs: lots of ideas, great at networking, quick decision making [77]
+- Tiers of marketing: sell a product → solution → lifestyle → emotion → identity (although personally I think 3 and 5 are similar) [82]
 
 ## Economy and Financial
 
 - The mean year the S&P returned 10-20%, followed by 0-20%. One year, 40-50%, three years +40-50%. [7 - image]
 - Enshittification: As Governments weakened their anti-competitive stances, companies have gained huge amounts of power, through buying competitors and becoming monopolies/oligopolies. Through this, companies have been able to control regulation, in turn stopping users from blocking the dark patterns used by companies to maintain their control and custom. Network effects (as many large tech companies benefit from) also make it harder for consumers to change companies/suppliers. Workers of these companies were originally bribed with huge salaries and perks to not complain, then were made disposable as the supply of skilled employees skyrocketed (due to the salaries and perks). [41]
+- Good banks: Nationwide, Tandem. Bad banks: Most of the others (including Chase, HSBC, Barclay’s, Santander…) [81]
 
 ## Science and Technology
 
@@ -114,6 +108,10 @@ lastmod: 2024-04-22
 - Until 2010, social *media* and social *networking* had equal search volume. Since then, social *media* has taken oven - along with the shift from these sites being about community and connection to being about influence and eyeballs. What else happened in 2010? The movie The Social Network came out. Did it accidentally cause the shift? [29]
 - This was why I initially decided to study engineering - control systems were always my favourite. A cube that can self-balance on its corner - and even rotate and jump about! [34][35]
 - How to use LLMs: Give them as much details as possible (in prompt and uploads - or you can ask it to ask you the context); Speaking is better than typing; Use multiple LLMs as if they’re multiple friends, and ask them what they think of the responses of others; Interactive and iterative (ask for 10 ideas, then 10 more, then pick the top 5 and ask for 10 more like those 5); Simple test: Ask about an emotional, human decision, ask it to ask you 3 to 4 questions about the problem before giving recommendations. [65]
+- Fire is cool. Fire travelling in a loop is even cooler. [78]
+- An entire first-person adventure game from the browser. Super cool. [79]
+- Due to the cylinder/firing configuration, the pitch of a V10 is a major third, which is nice to our ears. That’s why they sound so damn good! [80]
+- Britain needs to return to the era of crazy engineers. Incredible. [81]
 
 ## Health
 
@@ -224,3 +222,9 @@ lastmod: 2024-04-22
 76. [Reid Hoffman on How AI Might Answer Our Biggest Questions](https://every.to/chain-of-thought/transcript-reid-hoffman-on-how-ai-might-answer-our-biggest-questions)
 77. [The Entrepreneurial Mindset Part 1 with Rita McGrath](https://theinnovationshow.io/episode/the-entrepreneurial-mindset-part-1-with-rita-mcgrath/)
 78. [Bizarre traveling flame discovery](https://youtu.be/SqhXQUzVMlQ)
+79. [Equinox](https://equinox.space/)
+80. [Why We’re Wired to Love F1 V10s](https://youtu.be/IY7GGiV8fKM)
+81. [Ranked: the UK’s DIRTIEST banks – and the greenest](https://good-with-money.com/2024/04/29/ranked-the-uks-dirtiest-banks-and-the-greenest/)
+82. [[My First Million] The Wild Story Of ‘Mr. Tull’ - From Laundromats To $3.5B Hollywood Production Company](https://www.mfmpod.com/the-wild-story-of-mr-tull-from-laundromats-to-35b-hollywood-production-company/)
+83. [[My First Million] We Turned $5M Into $419M Buying Cashflow Businesses ft. Jeremy Giffon](https://www.mfmpod.com/we-turned-5m-into-419m-buying-cashflow-businesses-ft-jeremy-giffon/)
+84. [[The James Altucher Show] Scott Galloway's Ultimate Guide to Financial Well-Being: The Algebra of Wealth](https://jamesaltuchershow.com/episode/scott-galloways-ultimate-guide-to-financial-well-being-the-algebra-of-wealth)
