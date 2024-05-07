@@ -1,6 +1,7 @@
 ---
 title: GMAT Quant Notes
 date: 2023-01-14
+lastmod: 2024-05-07
 categories: ["Cognition and Learning"]
 tags: ['Maths','GMAT']
 ---
@@ -37,19 +38,31 @@ Sufficiency from testing:
 
 ## Fractions, percentages, decimals
 
+Try to simplify before multiply(ing):
+
+\\[\frac{13}{52}\times\frac{4}{9}?\\]
+
+\\[\frac{13}{52}\rightarrow\frac{1}{4}\\]
+
+\\[\frac{1}{4}\times\frac{4}{9}\rightarrow\frac{1}{1}\times\frac{1}{9}\\]
+
+\\[=\frac{1}{9}\\]
+
+For comparisons, cross-multiply:
+
 \\[\frac{45}{76}>\frac{65}{87}?\\]
 
 \\[45\times87=3915\\\\76\times65=4940\\\\3915>4940\\]
 
-Therefore the statement is correct.
+Therefore the statement is incorrect.
 
-Also:
+<!-- Also:
 
 \\[76 \times 87 = 6612\\]
 
 So:
 
-\\[\frac{45}{76}±\frac{65}{87}=\frac{3915±4940}{6612}\\]
+\\[\frac{45}{76}±\frac{65}{87}=\frac{3915±4940}{6612}\\] -->
 
 ---
 
@@ -136,7 +149,7 @@ Splitting doesn’t work for addition, subtraction.
 
 Beware disguised quadratics:
 
-\\[3x^2=6x\rightarrow x=?\\]
+\\[3x^2=6x\\\\x=?\\]
 
 Incorrect:
 

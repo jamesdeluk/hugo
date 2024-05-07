@@ -2,7 +2,7 @@
 title: Mental Maths Tricks
 summary: A bunch of tricks to speed up mental calculations. Really useful!
 date: 2023-03-08
-lastmod: 2023-12-27
+lastmod: 2024-05-07
 categories: ["Cognition and Learning"]
 tags: ["Maths"]
 # math: false
@@ -89,6 +89,16 @@ e.g. 12 × 34
 
 <br>
 
+**Duplicate: AA, or AB × AC, or BA × CA (not AB × CA)**
+
+e.g. 33 × 78 = 100(3×7) + 10(3 × 7+8) + (3×8) ≡ 2100 + 450 + 24 = 2574
+
+e.g. 37 × 38 = 100(3×3) + 10(3 × 7+8) + (7×8) ≡ 0900 + 450 + 56 = 1406
+
+e.g. 73 × 83 = 100(7×8) + 10(3 × 7+8) + (3×3) ≡ 5600 + 450 + 09 = 6059
+
+<br>
+
 **ABC × DEF = [A×D][A×E+D×B][A×F+B×E+D×C][B×F+E×C][C×F]**
 
 = 10000(A×D) + 1000(A×E + D×B) + 100 (A×F + B×E + D×C) + 10(B×F + E×C) + (C×F)
@@ -105,7 +115,7 @@ e.g. 123 × 456
 
 <br>
 
-### Bases method (similar size, or squaring)
+### Bases method (for similar size, or squaring)
 
 When AB=base+E and CD=base+F:
 
