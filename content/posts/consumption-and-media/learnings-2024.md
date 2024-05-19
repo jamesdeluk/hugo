@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Drugs","EVs","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Founding","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Transport","Trolley Problem","UFOs","V10s","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Dogs","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Forecasting","Founding","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Race","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","UFOs","V10s","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-05-06
+lastmod: 2024-05-19
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -23,9 +23,10 @@ lastmod: 2024-05-06
 - Action over goals [62]
 - Passion and obsession are the most powerful traits. Next, optimism and curiosity. [42]
 - Most important personality trait: Obsession; going all in. [54]
-- Persistence and rejection [84]
+- Persistence and rejection [85]
 - Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
 - Intuition cannot be explained, so don’t ask someone to; instead, judge how much experience in the situation they have, and use that to value their intuition. [72]
+- Spontaneous trait transference: Traits and emotions are associated with those in proximity, not those who are directly related to them. The messenger is often shot because the it is provider of the bad news that is most closely associate with the negative emotion. Those who complain, even about genuine issues such as climate change, are viewed negatively, as they incite the negativity. Those who are positive, flatter and praise, are seen as nice purely based on their words and not their actions. You love everyone after you’ve gone for a run (because of the endorphins), and hate everyone after being stuck in traffic. You’re thinking about your work problems at home in the evening, and you get annoyed with your family not because they caused the problems but simply because they are there. [89]
 
 ### Lists
 
@@ -44,6 +45,7 @@ lastmod: 2024-05-06
 - A theory: North Korea was always used by Russia and China - it needed them to survive, but they didn’t care about it. NK thought getting weapons that could hit mainland USA would finally get the West to listen to them, and potentially, through negotiations and deals, be treated like any other country - and escape from being under China/Russia. However, their olive branch was rejected; they achieved nothing. Now, with again increased tension between the West and China and Russia, once again NK may give up on trying to join the global economy and return to working closely with Russia and China. [50]
 - More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occurring. [56]
 - Taesong (대성) village in Korea’s DMZ: Free rent, no tax, lots of farmland, and being able to hear (but not see) North Korean soldiers singing - although everyone is leaving, and only ~100 people are left. [69]
+- Ever wondered how old a building in London is? Or what architectural style? Or what it’s used for? [86]
 
 ## Relationships and Personalities
 
@@ -69,9 +71,9 @@ lastmod: 2024-05-06
 - Recruiters get paid for placing candidates. Befriend a recruiter and have them mentor you into getting the job. [42]
 - Productivity ≠ activity. In the past (agriculture, manufacturing), business = output. Now we live in the knowledge economy, where thinking is important. [43]
 - A lot of productive activities do not look so. A conversation over dinner can lead to insight. Walking in silence enables thinking. Often large companies stifle creativity due to employees having to look busy. [44]
-- Best negotiation tactic: give your offer, say nothing. The one who can handle the awkwardness best often wins. [83]
-- Find what you can get good at, or just work extra hard. [84]
-- Your employer's success is your success. Your manager's success is your success. [84]
+- Best negotiation tactic: give your offer, say nothing. The one who can handle the awkwardness best often wins. [84]
+- Find what you can get good at, or just work extra hard. [85]
+- Your employer's success is your success. Your manager's success is your success. [85]
 
 ## Entrepreneurship and Business
 
@@ -89,13 +91,13 @@ lastmod: 2024-05-06
 - To be rich, own your own business (especially a boring business) [63]
 - A bunch of idea generation tips, including tools such as Keywords Everywhere, Subreddit Stats, Anvaka’s Map of Reddit [75]
 - Best entrepreneurs: lots of ideas, great at networking, quick decision making [77]
-- Tiers of marketing: sell a product → solution → lifestyle → emotion → identity (although personally I think 3 and 5 are similar) [82]
+- Tiers of marketing: sell a product → solution → lifestyle → emotion → identity (although personally I think 3 and 5 are similar) [84]
 
 ## Economy and Financial
 
 - The mean year the S&P returned 10-20%, followed by 0-20%. One year, 40-50%, three years +40-50%. [7 - image]
 - Enshittification: As Governments weakened their anti-competitive stances, companies have gained huge amounts of power, through buying competitors and becoming monopolies/oligopolies. Through this, companies have been able to control regulation, in turn stopping users from blocking the dark patterns used by companies to maintain their control and custom. Network effects (as many large tech companies benefit from) also make it harder for consumers to change companies/suppliers. Workers of these companies were originally bribed with huge salaries and perks to not complain, then were made disposable as the supply of skilled employees skyrocketed (due to the salaries and perks). [41]
-- Good banks: Nationwide, Tandem. Bad banks: Most of the others (including Chase, HSBC, Barclay’s, Santander…) [81]
+- Good banks: Nationwide, Tandem. Bad banks: Most of the others (including Chase, HSBC, Barclay’s, Santander…) [82]
 
 ## Science and Technology
 
@@ -112,6 +114,7 @@ lastmod: 2024-05-06
 - An entire first-person adventure game from the browser. Super cool. [79]
 - Due to the cylinder/firing configuration, the pitch of a V10 is a major third, which is nice to our ears. That’s why they sound so damn good! [80]
 - Britain needs to return to the era of crazy engineers. Incredible. [81]
+- Dogs seem to sense earthquakes hours before they happen. A smart collar that measures a dog’s biometrics will attempt to use dogs to predict earthquakes. [87]
 
 ## Health
 
@@ -131,6 +134,7 @@ lastmod: 2024-05-06
 - “Fluffy”, the alligator snapping turtle. [36]
 - Humans don’t have tails and don’t lay eggs, and it’s possible being tailless and giving birth to live young is actually a disadvantage. So why did we lose our tails and stop laying eggs? There isn’t a survival-of-the-fittest explanation; it’s likely it’s arbitrary, it’s luck, it’s a mistake. [51]
 - Bird mimicking police siren at Bicester station [74]
+- The 36 skin colours [88]
 
 ## Misc
 
@@ -224,7 +228,12 @@ lastmod: 2024-05-06
 78. [Bizarre traveling flame discovery](https://youtu.be/SqhXQUzVMlQ)
 79. [Equinox](https://equinox.space/)
 80. [Why We’re Wired to Love F1 V10s](https://youtu.be/IY7GGiV8fKM)
-81. [Ranked: the UK’s DIRTIEST banks – and the greenest](https://good-with-money.com/2024/04/29/ranked-the-uks-dirtiest-banks-and-the-greenest/)
-82. [[My First Million] The Wild Story Of ‘Mr. Tull’ - From Laundromats To $3.5B Hollywood Production Company](https://www.mfmpod.com/the-wild-story-of-mr-tull-from-laundromats-to-35b-hollywood-production-company/)
-83. [[My First Million] We Turned $5M Into $419M Buying Cashflow Businesses ft. Jeremy Giffon](https://www.mfmpod.com/we-turned-5m-into-419m-buying-cashflow-businesses-ft-jeremy-giffon/)
-84. [[The James Altucher Show] Scott Galloway's Ultimate Guide to Financial Well-Being: The Algebra of Wealth](https://jamesaltuchershow.com/episode/scott-galloways-ultimate-guide-to-financial-well-being-the-algebra-of-wealth)
+81. [World's First SCREW-BIKE](https://www.youtube.com/watch?v=nfna15r4EXM)
+82. [Ranked: the UK’s DIRTIEST banks – and the greenest](https://good-with-money.com/2024/04/29/ranked-the-uks-dirtiest-banks-and-the-greenest/)
+83. [[My First Million] The Wild Story Of ‘Mr. Tull’ - From Laundromats To $3.5B Hollywood Production Company](https://www.mfmpod.com/the-wild-story-of-mr-tull-from-laundromats-to-35b-hollywood-production-company/)
+84. [[My First Million] We Turned $5M Into $419M Buying Cashflow Businesses ft. Jeremy Giffon](https://www.mfmpod.com/we-turned-5m-into-419m-buying-cashflow-businesses-ft-jeremy-giffon/)
+85. [[The James Altucher Show] Scott Galloway's Ultimate Guide to Financial Well-Being: The Algebra of Wealth](https://jamesaltuchershow.com/episode/scott-galloways-ultimate-guide-to-financial-well-being-the-algebra-of-wealth)
+86. [Colouring Britain](https://colouringlondon.org/)
+87. [This biometric dog collar could help in predicting earthquakes](https://interestingengineering.com/innovation/petpace-biometric-dog-collar-earthquake)
+88. [Von Luschan's chromatic scale](https://en.wikipedia.org/wiki/Von_Luschan's_chromatic_scale)
+89. [How Good, Kind, Caring People Became The Bad Guys](https://www.okdoomer.io/thebadguys/)
