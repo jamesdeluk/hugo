@@ -1,6 +1,7 @@
 ---
 title: "Making a website with ChatGPT: DiscussAnyPage"
 date: 2024-05-21
+lastmod: 2024-05-21
 categories: ["Projects"]
 tags: ["ChatGPT","Python","Projects","AI","LLMs"]
 ---
@@ -152,6 +153,7 @@ Following this, I used prompts to:
 - Add functionality to the website, including (but not limited to):
     - Dynamically enable the adding of pages
     - Encode and decode URLs to base64
+    - Removing tracking parameters from URLs
     - Scrape the tab title from the webpage
     - Password protect the website as a whole
     - Require users to log in to post comments
