@@ -1,7 +1,7 @@
 ---
 title: "Making a website with ChatGPT: DiscussAnyPage"
 date: 2024-05-21
-lastmod: 2024-05-21
+lastmod: 2024-05-28
 categories: ["Projects"]
 tags: ["ChatGPT","Python","Projects","AI","LLMs"]
 ---
@@ -9,11 +9,11 @@ tags: ["ChatGPT","Python","Projects","AI","LLMs"]
 
 I went from an idea to a live website using ChatGPT in only a handful of prompts and a couple of hours, writing no code myself, and only copy and pasting commands.
 
-URL: https://discussanypage-c0e4ca460756.herokuapp.com/
+URL: https://discussanypage.onrender.com/
 
-I’ve added a simple login to limit access. The username is “dapuser”, and the password is “chatgpt”. There's also a comment and new page hourly limit.
+<!-- I’ve added a simple login to limit access. The username is “dapuser”, and the password is “chatgpt”. There's also a comment and new page hourly limit. -->
 
-_NB This is different from the login required to add comments on the site._
+<!-- _NB This is different from the login required to add comments on the site._ -->
 
 ## The idea
 
@@ -155,12 +155,12 @@ Following this, I used prompts to:
     - Encode and decode URLs to base64
     - Removing tracking parameters from URLs
     - Scrape the tab title from the webpage
-    - Password protect the website as a whole
+    - Password protect the website as a whole (now removed)
     - Require users to log in to post comments
     - Rate limit commenting and adding pages
     - Save posts in a permanent database
     - Style the website
-- Host the website on Heroku
+- Host the website on Heroku (now moved to Render)
 - Create a bookmarklet, a Firefox extension, and a Chrome extension, to save pages to DAP
 - Solve a bunch of errors (some caused by ChatGPT, some caused by James)
 
