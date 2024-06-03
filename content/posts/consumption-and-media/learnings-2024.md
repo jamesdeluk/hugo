@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Design","Diet","Digestion","Dishwashers","Dogs","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Forecasting","Founding","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Race","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","UFOs","V10s","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Forecasting","Founding","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Race","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-05-19
+lastmod: 2024-06-03
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -27,6 +27,7 @@ lastmod: 2024-05-19
 - Perfectionist often a) focus on the wrong things (the things they can control) and b) don't take risks (to avoid imperfection) [47]
 - Intuition cannot be explained, so don’t ask someone to; instead, judge how much experience in the situation they have, and use that to value their intuition. [72]
 - Spontaneous trait transference: Traits and emotions are associated with those in proximity, not those who are directly related to them. The messenger is often shot because the it is provider of the bad news that is most closely associate with the negative emotion. Those who complain, even about genuine issues such as climate change, are viewed negatively, as they incite the negativity. Those who are positive, flatter and praise, are seen as nice purely based on their words and not their actions. You love everyone after you’ve gone for a run (because of the endorphins), and hate everyone after being stuck in traffic. You’re thinking about your work problems at home in the evening, and you get annoyed with your family not because they caused the problems but simply because they are there. [89]
+- Chalkboard decisions: The maths makes the decision “obvious”, but ignores unknown unknowns. A mortgage example: if the mortgage rate is 2%, it’s better to invest in the stock market at 6%. But what if there’s a pandemic, and the market drops 20%? And then your mortgage rate increases to 8%? Suddenly those chalkboard gains are losses. [91]
 
 ### Lists
 
@@ -46,6 +47,7 @@ lastmod: 2024-05-19
 - More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occurring. [56]
 - Taesong (대성) village in Korea’s DMZ: Free rent, no tax, lots of farmland, and being able to hear (but not see) North Korean soldiers singing - although everyone is leaving, and only ~100 people are left. [69]
 - Ever wondered how old a building in London is? Or what architectural style? Or what it’s used for? [86]
+- The English language is incredibly weird - more noises, question formation, meaningless do, phrasal words, and of course pronuncuation[90]
 
 ## Relationships and Personalities
 
@@ -115,6 +117,7 @@ lastmod: 2024-05-19
 - Due to the cylinder/firing configuration, the pitch of a V10 is a major third, which is nice to our ears. That’s why they sound so damn good! [80]
 - Britain needs to return to the era of crazy engineers. Incredible. [81]
 - Dogs seem to sense earthquakes hours before they happen. A smart collar that measures a dog’s biometrics will attempt to use dogs to predict earthquakes. [87]
+- Expensive tyres typically are worth it - last longer, stop quicker, and more fuel efficient [92]
 
 ## Health
 
@@ -237,3 +240,6 @@ lastmod: 2024-05-19
 87. [This biometric dog collar could help in predicting earthquakes](https://interestingengineering.com/innovation/petpace-biometric-dog-collar-earthquake)
 88. [Von Luschan's chromatic scale](https://en.wikipedia.org/wiki/Von_Luschan's_chromatic_scale)
 89. [How Good, Kind, Caring People Became The Bad Guys](https://www.okdoomer.io/thebadguys/)
+90. [The weirdest things about English](https://youtu.be/6lhxxiqqlQY)
+91. [Chalkboard Decisions](https://fs.blog/brain-food/june-2-2024/)
+92. [Sliced Bread Car Tyres](https://www.bbc.co.uk/sounds/play/m001znkw)
