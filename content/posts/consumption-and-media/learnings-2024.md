@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Forecasting","Founding","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lists","London","Magic","Management","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Productivity","Promotion","Protein","Psychology","Race","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Cities","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Forecasting","Founding","Framework","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lifestyle","Lists","London","Magic","Management","Market","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Product","Product-Market Fit","Productivity","Promotion","Protein","Psychology","Public Transport","Race","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Safety","Sales","Scams","Science","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Walking","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-06-03
+lastmod: 2024-06-29
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -37,7 +37,7 @@ lastmod: 2024-06-03
 - Brutally honest career advice to my younger self: 1/ It’s okay to feel lost; 2/ Take more swings; 3/ Be the hub; 4/ Document your learning online; 5/ Learn copywriting; 6/ Master the art of the cold email; 7/ Mentors are overrated; 8/ Build independent income streams; 9/ Give way less fucks about other people; 10/ Have more patience that it will work out; 11/ Practice positive self-talk; 12/ Don’t jump ship too early; 13/ Don’t let work consume your life; 14/ Peer up the career ladder; 15/ Your network DOES matter; 16/ Read more biographies; 17/ Keep a journal; 18/ You’re gonna be okay [61]
 - Psychological traps: Ostrich effect; Inability to close doors; Contrast effect; Chauffeur knowledge; IKEA effect; Curse of specificity; Spotlight effect; Halo effect; Reciprocity; Self serving bias; Diderot effect; Anchoring effect; Negativity bias; Sunk cost fallacy; Paradox of choices; Framing effect; End of history illusion; Pygmalion effect; Consistency effect; Planning fallacy; Confirmation bias; Bandwagon effect; Dunning Kruger effect; Loss aversion; Decoy effect; Availability heuristic; Gamblers fallacy; Hindsight bias; Reactance bias; Action bias; Survivorship bias; Unity principle; Zeigarnik effect; Bystander effect; Ambiguity effect; Curse of knowledge; Illusion of averages; Endowment effect [66]
 
-## Culture
+## Culture and Travel
 
 - Chinese doesn’t have a way of writing foreign words; they use their character sounds but ignore the underlying meaning (whereas their language is typically more about the meaning than the sounds). When speaking Korean names, they use the hanja behind the meanings and pronounces them in the Chinese way, so in some situations they sound quite different. [6]
 - Tolerance of intolerance is cowardice [17]
@@ -47,7 +47,8 @@ lastmod: 2024-06-03
 - More sex = more boys (at the population level). Getting pregnant earlier in a female’s cycle slightly increases the chance of a boy, and the more sex a society is having, the higher the chance of early-cycle sex occurring. [56]
 - Taesong (대성) village in Korea’s DMZ: Free rent, no tax, lots of farmland, and being able to hear (but not see) North Korean soldiers singing - although everyone is leaving, and only ~100 people are left. [69]
 - Ever wondered how old a building in London is? Or what architectural style? Or what it’s used for? [86]
-- The English language is incredibly weird - more noises, question formation, meaningless do, phrasal words, and of course pronuncuation[90]
+- The English language is incredibly weird - more noises, question formation, meaningless do, phrasal words, and of course pronunciation [90]
+- There is a town in Korea full of ex-Soviet State Russian-speaking ethnic Koreans. [95]
 
 ## Relationships and Personalities
 
@@ -94,6 +95,7 @@ lastmod: 2024-06-03
 - A bunch of idea generation tips, including tools such as Keywords Everywhere, Subreddit Stats, Anvaka’s Map of Reddit [75]
 - Best entrepreneurs: lots of ideas, great at networking, quick decision making [77]
 - Tiers of marketing: sell a product → solution → lifestyle → emotion → identity (although personally I think 3 and 5 are similar) [84]
+- Is the product a hair-on-fire, a hard-fact, or a future-vision one? Which one it is will vary your challenges and opportunities. I think I naturally most align with hard facts. [93]
 
 ## Economy and Financial
 
@@ -243,3 +245,6 @@ lastmod: 2024-06-03
 90. [The weirdest things about English](https://youtu.be/6lhxxiqqlQY)
 91. [Chalkboard Decisions](https://fs.blog/brain-food/june-2-2024/)
 92. [Sliced Bread Car Tyres](https://www.bbc.co.uk/sounds/play/m001znkw)
+93. [The Arc Product-Market Fit Framework](https://www.sequoiacap.com/article/pmf-framework/)
+94. [The world’s most, and least, walkable cities](https://www.economist.com/interactive/2024-walkable-cities)
+95. [BBC World Service - The Documentary Podcast, Ukraine to Korea](https://www.bbc.co.uk/programmes/p0j4ybdh)
