@@ -27,4 +27,5 @@
 ![/img/CFI-certificate-AGDBR.png](/img/CFI-certificate-AGDBR.png)
 ![/img/CFI-certificate-FMVA.png](/img/CFI-certificate-FMVA.png)
 ![/img/CFI-certificate-SQLF.png](/img/CFI-certificate-SQLF.png)
+![/img/CFI-certificate-CDAE.png](/img/CFI-certificate-CDAE.png)
 ![/img/certificate-of-completion-for-product-strategy-microcertification.png](/img/certificate-of-completion-for-product-strategy-microcertification.png)
