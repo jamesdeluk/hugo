@@ -70,7 +70,7 @@ description = ""
       title = ""
       subtitle = ""
       typeit = true
-      social = false
+      social = true
     [params.home.posts]
       enable = false
       paginate = 20
