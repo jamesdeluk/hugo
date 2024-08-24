@@ -28,4 +28,11 @@
 ![/img/CFI-certificate-FMVA.png](/img/CFI-certificate-FMVA.png)
 ![/img/CFI-certificate-SQLF.png](/img/CFI-certificate-SQLF.png)
 ![/img/CFI-certificate-CDAE.png](/img/CFI-certificate-CDAE.png)
+
 ![/img/certificate-of-completion-for-product-strategy-microcertification.png](/img/certificate-of-completion-for-product-strategy-microcertification.png)
+
+![/img/kaggle-itml.png](/img/kaggle-itml.png)
+![/img/kaggle-iml.png](/img/kaggle-iml.png)
+![/img/kaggle-pandas.png](/img/kaggle-pandas.png)
+![/img/365ds-itdads.png](/img/365ds-itdads.png)
+![/img/365ds-stats.png](/img/365ds-stats.png)
