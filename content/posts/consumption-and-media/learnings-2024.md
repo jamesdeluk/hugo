@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Cities","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Corruption", "Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Forecasting","Founding","Framework","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lifestyle","Lists","London","Magic","Management","Manufacturing","Market","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Product","Product-Market Fit","Productivity","Promotion","Protein","Psychology","Public Transport","Race","Recruitment","Regulation","Relationships","Religion","Rice","Robert Glover","Robotics","Russia","Safety","Sales","Scams","Science","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sun","Suncream","Sunlight","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Walking","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Aphantasia","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Cities","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Cornwall","Corruption","Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Devon","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Food","Forecasting","Founding","Framework","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lifestyle","Lists","London","Magic","Management","Manufacturing","Market","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Product","Product-Market Fit","Productivity","Promotion","Protein","Psychology","Public Transport","Race","Recruitment","Regulation","Relationships","Religion","Rice","Rivalry","Robert Glover","Robotics","Russia","Safety","Sales","Scams","Science","Scones","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sun","Suncream","Sunlight","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Walking","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-07-28
+lastmod: 2024-08-25
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -52,6 +52,7 @@ lastmod: 2024-07-28
 - Ever wondered how old a building in London is? Or what architectural style? Or what it’s used for? [86]
 - The English language is incredibly weird - more noises, question formation, meaningless do, phrasal words, and of course pronunciation [90]
 - There is a town in Korea full of ex-Soviet State Russian-speaking ethnic Koreans. [95]
+- Cream then jam on scones. Scientists have proven it. [103]
 
 ## Relationships and Personalities
 
@@ -124,6 +125,7 @@ lastmod: 2024-07-28
 - Britain needs to return to the era of crazy engineers. Incredible. [81]
 - Dogs seem to sense earthquakes hours before they happen. A smart collar that measures a dog’s biometrics will attempt to use dogs to predict earthquakes. [87]
 - Expensive tyres typically are worth it - last longer, stop quicker, and more fuel efficient [92]
+- A visual representation of aphantasia [102]
 
 ## Health
 
@@ -260,3 +262,5 @@ lastmod: 2024-07-28
 99. [Inside a JAPANESE HELMETS FACTORY: here's WHY they are INSANE! - Arai](https://youtu.be/gEosbaSJK44) 
 100. [The Sunscreen Debate — Are We Blocking Our Way to Better Health?](https://www.artofmanliness.com/health-fitness/health/podcast-1004-the-sunscreen-debate-are-we-blocking-our-way-to-better-health/)
 101. [The family hiding in the bush after leaking Russian secrets](https://www.bbc.co.uk/programmes/p0jcjhrw)
+102. [What Happens in a Mind That Can’t ‘See’ Mental Images](https://www.quantamagazine.org/what-happens-in-a-mind-that-cant-see-mental-images-20240801/)
+103. [Scientists have finally revealed whether you should put cream or jam first on scones](https://metro.co.uk/2024/08/19/scientists-finally-revealed-whether-put-cream-jam-first-scones-21447575/)
