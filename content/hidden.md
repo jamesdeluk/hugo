@@ -36,3 +36,5 @@
 ![/img/kaggle-pandas.png](/img/kaggle-pandas.png)
 ![/img/365ds-itdads.png](/img/365ds-itdads.png)
 ![/img/365ds-stats.png](/img/365ds-stats.png)
+![/img/365ds-prob.png](/img/365ds-prob.png)
+![/img/365ds-maths.png](/img/365ds-maths.png)
