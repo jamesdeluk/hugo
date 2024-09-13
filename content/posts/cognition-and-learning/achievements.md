@@ -3,7 +3,7 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 date: 2022-08-23
-lastmod: 2024-09-10
+lastmod: 2024-09-13
 ---
 
 ## Data Science
@@ -14,6 +14,7 @@ lastmod: 2024-09-10
 
 <a href="/img/365ds-itdads.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-itdads.png" alt="365 Data Science Introduction to Data and Data Science"></a>
 <a href="/img/365ds-mlip.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-mlip.png" alt="365 Data Science Machine Learning in Python"></a>
+<a href="/img/365ds-ppb.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-ppb.png" alt="365 Data Science Python Programmer Bootcamp"></a>
 <a href="/img/365ds-stats.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-stats.png" alt="365 Data Science Statistics"></a>
 <a href="/img/365ds-prob.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-prob.png" alt="365 Data Science Probability"></a>
 <a href="/img/365ds-maths.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-maths.png" alt="365 Data Science Mathematics"></a>
