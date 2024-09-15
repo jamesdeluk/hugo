@@ -34,6 +34,7 @@
 ![/img/kaggle-itml.png](/img/kaggle-itml.png)
 ![/img/kaggle-iml.png](/img/kaggle-iml.png)
 ![/img/kaggle-pandas.png](/img/kaggle-pandas.png)
+![/img/kaggle-dc.png](/img/kaggle-dc.png)
 ![/img/365ds-itdads.png](/img/365ds-itdads.png)
 ![/img/365ds-mlip.png](/img/365ds-mlip.png)
 ![/img/365ds-stats.png](/img/365ds-stats.png)
