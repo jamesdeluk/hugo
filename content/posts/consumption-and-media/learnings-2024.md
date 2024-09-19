@@ -259,7 +259,7 @@ lastmod: 2024-08-25
 96. [Your Entire Life Will Change The Moment You…](https://www.sahilbloom.com/newsletter/your-entire-life-will-change-the-moment-you)
 97. [9 Ideas from a Weekend With Legends](https://www.sahilbloom.com/newsletter/9-ideas-from-a-weekend-with-legends)
 98. [Lessons From an Imperfect Father to His Perfect Son](https://www.sahilbloom.com/newsletter/lessons-from-an-imperfect-father-to-his-perfect-son)
-99. [Inside a JAPANESE HELMETS FACTORY: here's WHY they are INSANE! - Arai](https://youtu.be/gEosbaSJK44) 
+99. [Inside a JAPANESE HELMETS FACTORY: here's WHY they are INSANE! - Arai](https://youtu.be/gEosbaSJK44)
 100. [The Sunscreen Debate — Are We Blocking Our Way to Better Health?](https://www.artofmanliness.com/health-fitness/health/podcast-1004-the-sunscreen-debate-are-we-blocking-our-way-to-better-health/)
 101. [The family hiding in the bush after leaking Russian secrets](https://www.bbc.co.uk/programmes/p0jcjhrw)
 102. [What Happens in a Mind That Can’t ‘See’ Mental Images](https://www.quantamagazine.org/what-happens-in-a-mind-that-cant-see-mental-images-20240801/)
