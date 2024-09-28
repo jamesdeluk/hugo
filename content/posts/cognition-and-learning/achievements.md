@@ -3,13 +3,14 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 date: 2022-08-23
-lastmod: 2024-09-27
+lastmod: 2024-09-28
 ---
 
 ## Data Science
 
 <a href="/img/kaggle-itml.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-itml.png" alt="Kaggle Introduction to Machine Learning"></a>
 <a href="/img/kaggle-iml.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-iml.png" alt="Kaggle Intermediate Machine Learning"></a>
+<a href="/img/kaggle-ts.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-ts.png" alt="Kaggle Time Series"></a>
 <a href="/img/kaggle-pandas.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-pandas.png" alt="Kaggle Pandas"></a>
 <a href="/img/kaggle-dc.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-dc.png" alt="Kaggle Data Cleaning"></a>
 
