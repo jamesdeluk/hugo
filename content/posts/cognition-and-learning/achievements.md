@@ -20,6 +20,7 @@ lastmod: 2024-09-28
 <a href="/img/365ds-mlaaz.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-mlaaz.png" alt="365 Data Science The Machine Learning Algorithms A-Z"></a>
 <a href="/img/365ds-mlddbacw.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-mlddbacw.png" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
 <a href="/img/365ds-ppb.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-ppb.png" alt="365 Data Science Python Programmer Bootcamp"></a>
+<a href="/img/365ds-sql.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-sql.png" alt="365 Data Science SQL"></a>
 <a href="/img/365ds-stats.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-stats.png" alt="365 Data Science Statistics"></a>
 <a href="/img/365ds-prob.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-prob.png" alt="365 Data Science Probability"></a>
 <a href="/img/365ds-maths.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-maths.png" alt="365 Data Science Mathematics"></a>
