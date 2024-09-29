@@ -2,9 +2,9 @@
 title: Learnings 2024
 summary: "All the notes I take from things I've consumed in 2024"
 categories: ["Consumption and Media"]
-tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Aphantasia","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","China","Chris Williamson","Cities","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Cornwall","Corruption","Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Devon","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Food","Forecasting","Founding","Framework","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Korea","LLMs","Language","Lex Fridman","Lifestyle","Lists","London","Magic","Management","Manufacturing","Market","Marketing","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Product","Product-Market Fit","Productivity","Promotion","Protein","Psychology","Public Transport","Race","Recruitment","Regulation","Relationships","Religion","Rice","Rivalry","Robert Glover","Robotics","Russia","Safety","Sales","Scams","Science","Scones","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Success","Sun","Suncream","Sunlight","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Walking","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
+tags: ["37","3D","AI","Alcohol","Anatomy","Andrew Huberman","Anger","Animals","Aphantasia","Architecture","Astrology","Attraction","Awkwardness","Babies","Bacteria","Banks","Bargaining","Bartering","Biography","Birds","Brand","Bribery","Browser","Business","Cal Newport","Carbs","Career","Cars","Censorship","Cheating","China","Chris Williamson","Cities","Codie Sanchez","Colleagues","Colour","Communication","Competition","Competitor Analysis","Control Systems","Conversations","Cooking","Copy","Copying","Cornwall","Corruption","Curiosity","Customer Service","Dating","David Goggins","Decision Making","Design","Devon","Diet","Digestion","Dishwashers","Dogs","Driving","Drugs","EVs","Earthquakes","Eating","Efficiency","Electronics","Emotion","Emotions","Energy","Energy Efficiency","Engineering","Engines","Entrepreneurship","Ethics","Evolution","Exercise","Experience Goods","Fat","Fatherhood","Fertility","Fire","Food","Forecasting","Founding","Framework","Fraud","Freedom","Game","Gender","Geopolitics","Goals","Habits","Happiness","Health","Hiring","History","Hormones","Household","Hydrogen","Identity","Injury","Inspiration","Intuition","Invention","Investing","Japan","Jeff Bezos","Job","Jordan Harbinger","Kindness","Korea","LLMs","Language","Learning","Lex Fridman","Lifestyle","Lists","London","Love","Magic","Management","Manufacturing","Market","Marketing","Marriage","Maths","Medicine","Mental Health","Mindset","Money","Morgan Housel","Motorbike","Motorcycle","Mouse","Music","Music Theory","My First Million","Names","Natural Disasters","Nature","Negotiation","Neuroscience","North Korea","Numbers","Oceans","Optimism","Oral","Paradoxes","Parenting","Passion","Persistence","Personalities","Plastic","Podcast","Predicting","Pricing","Pricing Strategy","Problem Solving","Product","Product-Market Fit","Productivity","Promotion","Protein","Psychology","Public Transport","Race","Recruitment","Regulation","Relationships","Religion","Rice","Rivalry","Robert Glover","Robotics","Russia","Safety","Sales","Scams","Science","Scones","Self-Confidence","Sex","Shares","Skin","Sleep","Sound","Sound Theory","Space","Stock Markets","Stocks","Strategy","Studying","Success","Sun","Suncream","Sunlight","Sustainability","Teams","Technology","Teeth","Tents","Thinking","Thought Experiments","Tim Ferriss","Time","Time Management","Tolerance","Traits","Transference","Transport","Trolley Problem","Tyres","UFOs","V10s","Walking","Washing","Waste","Water","Weight Loss","Wildfires","Willpower","Writing"]
 date: 2024-01-14
-lastmod: 2024-08-25
+lastmod: 2024-09-29
 ---
 <!-- {{< small-image-button >}} -->
 
@@ -65,6 +65,16 @@ lastmod: 2024-08-25
 - Deep questions: feelings over facts e.g. instead of “what did you do today?”, ask “what was the best thing that's happened today?” [58]
 - Fathers also have large hormonal changes post-birth and can also get post-natal depression. Women naturally get attached; men, the more time with their baby, the better. [73]
 - A statistical analysis of astrological signs against 37 different life outcomes showed no correlation (an r value of 0) [13]
+- Watch out for your partner’s “bids” - comments where they are trying to get a response, a sign of interest or support [104]
+- Contempt / criticism is the primary factor for relationships ending; kindness is the best predictor of success, and comes easier with practise [104]
+- Types of responses: passive destructive (ignore), passive constructive (”that’s great”), active destructive (”but what about the negatives…”), and active constructive (”great! let’s talk more about it!”). [104]
+- In a relationship, one person is often afraid of losing the other person (abandonment issues), the other person is often afraid of losing themselves (suffocation / they refuse to change/be flexible). [106]
+- The balance between being “close to you, without losing me”, and “hold onto me, without losing you” [106]
+- Often infidelity isn't about the relationship - it's about a feeling of freedom, reconnecting with yourself. Cheating doesn’t mean the person doesn’t value the relationship. Those who can compartmentalise find "cheating" easier as they know they two are not connected (in their head) [106]
+
+## Learning
+
+- Learning is simply not forgetting. The best way to not forget? Test test test. [105]
 
 ## Work and Career
 
@@ -117,7 +127,7 @@ lastmod: 2024-08-25
 - 0-100kph in <1 second. How? Break it down to first principles (power, grip, strength) and improve all - plus find a loophole in the rules. [22]
 - An autonomous machine that drives around fixing cracks in roads before potholes appear. [25]
 - Until 2010, social *media* and social *networking* had equal search volume. Since then, social *media* has taken oven - along with the shift from these sites being about community and connection to being about influence and eyeballs. What else happened in 2010? The movie The Social Network came out. Did it accidentally cause the shift? [29]
-- This was why I initially decided to study engineering - control systems were always my favourite. A cube that can self-balance on its corner - and even rotate and jump about! [34][35]
+- This was why I initially decided to study engineering - control systems were always my favourite. A cube that can self-balance on its corner - and even rotate and jump about! [34] [35]
 - How to use LLMs: Give them as much details as possible (in prompt and uploads - or you can ask it to ask you the context); Speaking is better than typing; Use multiple LLMs as if they’re multiple friends, and ask them what they think of the responses of others; Interactive and iterative (ask for 10 ideas, then 10 more, then pick the top 5 and ask for 10 more like those 5); Simple test: Ask about an emotional, human decision, ask it to ask you 3 to 4 questions about the problem before giving recommendations. [65]
 - Fire is cool. Fire travelling in a loop is even cooler. [78]
 - An entire first-person adventure game from the browser. Super cool. [79]
@@ -155,7 +165,7 @@ lastmod: 2024-08-25
 - Dishwashers use less water and energy. Eco settings clean prioritising enzymes (over a longer time) than higher temperatures. [64]
 - North Korea TV censors Alan Titchmarsh's trousers [67]
 - The least random random number is 37. The median second prime factor of all numbers is 37. It’s also many other “types” of prime. The marriage secretary problem: How to pick the “best” option if you don’t know the value of options in advance? Test the first 37% of options, then pick the next option which is better than any you’ve seen so far. This gives you a 37% chance of success. Put another way: Want to get married in 10 years? Test for 3.7 years, then pick the next best person. [68]
-- Motorbike armour is… Basically useless. Remove it and be comfortable, and/or wear an airbag. Or… not? [70][71]
+- Motorbike armour is… Basically useless. Remove it and be comfortable, and/or wear an airbag. Or… not? [70] [71]
 - The trolley problem is a false dichotomy - break the trolley! [76]
 - Worked for Russia, discovered corruption, then the rest of his life on the run. Crazy story. [101]
 
@@ -264,3 +274,6 @@ lastmod: 2024-08-25
 101. [The family hiding in the bush after leaking Russian secrets](https://www.bbc.co.uk/programmes/p0jcjhrw)
 102. [What Happens in a Mind That Can’t ‘See’ Mental Images](https://www.quantamagazine.org/what-happens-in-a-mind-that-cant-see-mental-images-20240801/)
 103. [Scientists have finally revealed whether you should put cream or jam first on scones](https://metro.co.uk/2024/08/19/scientists-finally-revealed-whether-put-cream-jam-first-scones-21447575/)
+104. [The Secret to Love Is Just Kindness - The Atlantic](https://www.theatlantic.com/health/archive/2014/06/happily-ever-after/372573/)
+105. [Optimal Protocols for Studying & Learning - Huberman Lab](https://www.hubermanlab.com/episode/optimal-protocols-for-studying-learning)
+106. [Esther Perel: How to Find, Build & Maintain Healthy Romantic Relationships](https://www.hubermanlab.com/episode/esther-perel-how-to-find-build-maintain-healthy-romantic-relationships)
