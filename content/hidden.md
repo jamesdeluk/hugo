@@ -38,6 +38,7 @@
 ![/img/kaggle-dc.png](/img/kaggle-dc.png)
 ![/img/365ds-itdads.png](/img/365ds-itdads.png)
 ![/img/365ds-mlip.png](/img/365ds-mlip.png)
+![/img/365ds-dlwtf2.png](/img/365ds-dlwtf2.png)
 ![/img/365ds-stats.png](/img/365ds-stats.png)
 ![/img/365ds-prob.png](/img/365ds-prob.png)
 ![/img/365ds-maths.png](/img/365ds-maths.png)

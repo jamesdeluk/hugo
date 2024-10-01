@@ -3,7 +3,7 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security"]
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 date: 2022-08-23
-lastmod: 2024-09-28
+lastmod: 2024-10-01
 ---
 
 ## Data Science
@@ -19,6 +19,7 @@ lastmod: 2024-09-28
 <a href="/img/365ds-mlpaz.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-mlpaz.png" alt="365 Data Science The Machine Learning Process A-Z"></a>
 <a href="/img/365ds-mlaaz.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-mlaaz.png" alt="365 Data Science The Machine Learning Algorithms A-Z"></a>
 <a href="/img/365ds-mlddbacw.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-mlddbacw.png" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
+<a href="/img/365ds-dlwtf2.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-dlwtf2.png" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
 <a href="/img/365ds-ppb.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-ppb.png" alt="365 Data Science Python Programmer Bootcamp"></a>
 <a href="/img/365ds-sql.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-sql.png" alt="365 Data Science SQL"></a>
 <a href="/img/365ds-stats.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-stats.png" alt="365 Data Science Statistics"></a>
