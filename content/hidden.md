@@ -37,6 +37,7 @@
 ![/img/kaggle-pandas.png](/img/kaggle-pandas.png)
 ![/img/kaggle-dc.png](/img/kaggle-dc.png)
 ![/img/365ds-itdads.png](/img/365ds-itdads.png)
+![/img/365ds-tsawp.png](/img/365ds-tsawp.png)
 ![/img/365ds-mlip.png](/img/365ds-mlip.png)
 ![/img/365ds-dlwtxf2.png](/img/365ds-dlwtf2.png)
 ![/img/365ds-dcpp.png](/img/365ds-dcpp.png)
