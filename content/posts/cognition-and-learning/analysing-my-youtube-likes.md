@@ -1,6 +1,6 @@
 ---
 title: "Analysing my YouTube Likes"
-categories: ["Cognition and Learning"]
+categories: ["Cognition and Learning", "Data Science"]
 tags: ["Data Analysis","AI","LLMs","YouTube"]
 date: 2023-12-27
 ---
