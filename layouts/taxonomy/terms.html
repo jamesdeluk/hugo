@@ -27,14 +27,14 @@
                                     {{ partial "plugin/fontawesome.html" (dict "Style" "regular" "Icon" "folder") }}&nbsp;{{ .Page.Title }} <sup>{{- len $pages -}}</sup>
                                 </a>
                             </h3>
-                            {{- range first 6 $pages -}} 
+                            {{- range first 3 $pages -}} 
                                 <article class="archive-item">
                                     <a href="{{ .RelPermalink }}" class="archive-item-link">
                                         {{- .Title -}}
                                     </a>
                                 </article>
                             {{- end -}}
-                            {{- if gt (len $pages) 6 -}}
+                            {{- if gt (len $pages) 3 -}}
                                 <span class="more-post">
                                     <a href="{{ .RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
                                 </span>
