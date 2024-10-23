@@ -25,6 +25,7 @@ lastmod: 2024-10-22
 <a href="/img/365ds-dcpp.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-dcpp.png" alt="365 Data Science Data Cleaning and Preprocessing with pandas"></a>
 <a href="/img/365ds-dpwn.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-dpwn.png" alt="365 Data Science Data Preprocessing with NumPy"></a>
 <a href="/img/365ds-ppb.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-ppb.png" alt="365 Data Science Python Programmer Bootcamp"></a>
+<a href="/img/365ds-itp.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-itp.png" alt="365 Data Science Introduction to Python"></a>
 <a href="/img/365ds-sql.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-sql.png" alt="365 Data Science SQL"></a>
 <a href="/img/365ds-ite.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-ite.png" alt="365 Data Science Introduction to Excel"></a>
 <a href="/img/365ds-stats.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-stats.png" alt="365 Data Science Statistics"></a>
