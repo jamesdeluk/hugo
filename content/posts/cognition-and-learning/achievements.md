@@ -3,7 +3,7 @@ title: "Achievements and Certifications"
 categories: ["+ Pinned","Business and Consulting","Course and Book Notes","IT and Cyber Security","Data Science"]
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 date: 2022-08-23
-lastmod: 2024-10-23
+lastmod: 2024-10-24
 ---
 
 ## Data Science
@@ -13,6 +13,8 @@ lastmod: 2024-10-23
 <a href="/img/kaggle-ts.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-ts.png" alt="Kaggle Time Series"></a>
 <a href="/img/kaggle-pandas.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-pandas.png" alt="Kaggle Pandas"></a>
 <a href="/img/kaggle-dc.png" target="_blank"><img class="cert cert-img-quarter" src="/img/kaggle-dc.png" alt="Kaggle Data Cleaning"></a>
+
+<a href="/img/365ds-dact.png" target="_blank"><img class="cert cert-img-half" src="/img/365ds-dact.png" alt="365 Data Science Data Analyst Career Track"></a>
 
 <a href="/img/365ds-itdads.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-itdads.png" alt="365 Data Science Introduction to Data and Data Science"></a>
 <a href="/img/365ds-tsawp.png" target="_blank"><img class="cert cert-img-quarter" src="/img/365ds-tsawp.png" alt="365 Data Science Time Series Analysis with Python"></a>
