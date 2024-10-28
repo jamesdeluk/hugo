@@ -1,6 +1,6 @@
 baseURL: https://www.jamesgibbins.com/
 
-languageCode: bn
+languageCode: en
 title: "John's Blog"
 
 # Use Hugo modules to add theme
