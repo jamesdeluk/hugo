@@ -5,6 +5,10 @@
 // h1.greeting {
 //   display: none;
 // }
+.home .background {
+  transform: scale(1.0);
+  filter: blur(0px);
+}
 
 // #about .col-sm-6:first-of-type {
 //   width: 80%;
@@ -17,17 +21,17 @@
     max-width: 100%;
 }
 
-.card .card-head {
-    // height: auto !important;
-    // display: none;
-}
+// .card .card-head {
+//     height: auto !important;
+//     display: none;
+// }
 // .card .card-body {
 //     max-height: 300px;
 //     overflow: scroll;
 // }
 .card .card-body .tags {
     max-height: 200px;
-    overflow: scroll;
+    overflow-y: auto;
 }
 .card .card-body .tags .btn-info {
     font-size: 1.4em;
