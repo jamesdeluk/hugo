@@ -63,7 +63,7 @@ Tags: Jobs, Interviews, Negotiation
 
 ## Visualizing the Future Global Economy by GDP in 2050
 
-![Future GDP](/img/week34.png)
+![Future GDP](/images/sections/consumption-and-media/week34.png)
 
 Tags: Future, Economies, Geopolitics, Predictions
 
@@ -71,7 +71,7 @@ Tags: Future, Economies, Geopolitics, Predictions
 
 [https://www.visualcapitalist.com/cp/china-trade-partners/](https://www.visualcapitalist.com/cp/china-trade-partners/)
 
-![China's Trade Partners](/img/week34-1.png)
+![China's Trade Partners](/images/sections/consumption-and-media/week34-1.png)
 
 Tags: China, Trade, Geopolitics
 
@@ -79,9 +79,9 @@ Tags: China, Trade, Geopolitics
 
 [https://www.artofmanliness.com/career-wealth/career/the-power-of-the-third-space-how-to-set-yourself-up-for-success-for-the-next-thing-in-life/](https://www.artofmanliness.com/career-wealth/career/the-power-of-the-third-space-how-to-set-yourself-up-for-success-for-the-next-thing-in-life/)
 
-![Microtransaction](/img/week34-2.png)
+![Microtransaction](/images/sections/consumption-and-media/week34-2.png)
 
-![Third Space Phases](/img/week34-3.png)
+![Third Space Phases](/images/sections/consumption-and-media/week34-3.png)
 
 Reflect
 

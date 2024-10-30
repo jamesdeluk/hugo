@@ -46,7 +46,7 @@ Tags: Climate, Law
 
 [https://www.visualcapitalist.com/top-economies-in-the-world-1980-2075/](https://www.visualcapitalist.com/top-economies-in-the-world-1980-2075/)
 
-![Untitled](/img/week30.png)
+![Untitled](/images/sections/consumption-and-media/week30.png)
 
 Tags: Economies, Geopolitics, Future, Predictions
 
@@ -54,7 +54,7 @@ Tags: Economies, Geopolitics, Future, Predictions
 
 [https://www.visualcapitalist.com/top-100-brand-value-2023/](https://www.visualcapitalist.com/top-100-brand-value-2023/)
 
-![Untitled](/img/week30-1.png)
+![Untitled](/images/sections/consumption-and-media/week30-1.png)
 
 Tags: Business, Companies
 
@@ -147,7 +147,7 @@ Tags: Meditations, Reflections, Life
 - The number of pregnancies deemed to require caesarean sections has gradually increased because this method of delivering babies is more profitable. Likewise, if you’re simply sad then medical companies can’t monetize you, but if your distress is reclassified as, say, gender dysphoria, those companies can sell you puberty blockers or surgical procedures.
 - Research shows conservatives tend to have an internal locus of control, which means they believe that their decisions, as opposed to external forces, control their destiny. Liberals, meanwhile, tend to have an external locus, which means they believe their lives are determined by forces beyond their control.
     
-    ![Untitled](/img/week30-2.png)
+    ![Untitled](/images/sections/consumption-and-media/week30-2.png)
     
 - The polar opposite of pathologization is Cognitive Behavioural Therapy (CBT). Although referred to as therapy, it’s closer to a form of mental training. Based on the Ancient Greek philosophy of Stoicism, it teaches a lesson the West has all but forgotten: that our feelings are not always valid, but often deluded and self-destructive. It trains people to overcome harmful emotions by reframing harmful thoughts into alternatives that are more agentic and soluble. So, “That made me angry” becomes “I reacted to that by getting angry.” And “Life sucks” becomes “I feel like life sucks right now.” Where pathologization places problems outside your control, CBT places them within your control. Where pathologization bundles many small issues into one giant insurmountable problem, CBT breaks down giant problems into small manageable pieces.
 
@@ -175,7 +175,7 @@ Tags: War, Korea, North Korea
 
 [https://xkcd.com/2807/](https://xkcd.com/2807/)
 
-![Untitled](/img/week30-3.png)
+![Untitled](/images/sections/consumption-and-media/week30-3.png)
 
 Tags: Maps, Geography, Comics
 

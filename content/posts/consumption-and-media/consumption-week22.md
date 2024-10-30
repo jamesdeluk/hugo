@@ -27,7 +27,7 @@ Tags: Bankruptcy, Scams, Unethical
 
 [https://www.visualcapitalist.com/cp/number-democracies-globally](https://www.visualcapitalist.com/cp/number-democracies-globally/)
 
-![Democracies](/img/week22.png)
+![Democracies](/images/sections/consumption-and-media/week22.png)
 
 Tags: Democracy, Politics
 
@@ -51,7 +51,7 @@ Tags: Demographics, Aging
 
 [https://www.visualcapitalist.com/population-pyramids-compared/](https://www.visualcapitalist.com/population-pyramids-compared/)
 
-![Population pyramics](/img/week22-1.png)
+![Population pyramics](/images/sections/consumption-and-media/week22-1.png)
 
 Tags: Demographics
 

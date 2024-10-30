@@ -105,7 +105,7 @@ Tags: London, Funny
 
 [https://www.visualcapitalist.com/top-sp-500-stocks-over-20-years/](https://www.visualcapitalist.com/top-sp-500-stocks-over-20-years/)
 
-![S&P returns over 20 years](/img/week52.png)
+![S&P returns over 20 years](/images/sections/consumption-and-media/week52.png)
 
 Tags: Stocks, Stock Market, Investing
 

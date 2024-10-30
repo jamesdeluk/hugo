@@ -75,9 +75,9 @@ date: 2023-01-22
 
 [https://www.visualcapitalist.com/global-risks-2023/](https://www.visualcapitalist.com/global-risks-2023/)
 
-![Global risks](/img/week3-1.png)
+![Global risks](/images/sections/consumption-and-media/week3-1.png)
 
-![Risk perception](/img/week3-2.png)
+![Risk perception](/images/sections/consumption-and-media/week3-2.png)
 
 - Highest impact risks are the most obvious, immediate ones (energy and the cost of living).
 - Least prepared for the slowly approaching end of existence (climate change).

@@ -10,7 +10,7 @@ date: 2023-04-23
 
 [https://www.lazard.com/research-insights/2023-levelized-cost-of-energyplus/](https://www.lazard.com/research-insights/2023-levelized-cost-of-energyplus/)
 
-![Lazard LCoE](/img/week16-0.png)
+![Lazard LCoE](/images/sections/consumption-and-media/week16-0.png)
 
 ## Solarge Debuts Lightweight Fully Recyclable Solar Panels
 
@@ -86,13 +86,13 @@ date: 2023-04-23
 5. Technology changes—e.g. AI.
 - Because populists are so committed to winning at all costs and are unwilling to compromise, more-intense-than-expected battles are more likely. Each one of these forces is a part of the system. For example, the debt ceiling increase will not go as smoothly as most people expect and will likely become a big election issue that will split the country because both sides will fight for victories and will be less willing to compromise. Also, in this election year, aggressiveness with China will intensify because most everyone is anti-China, so those running will want to outdo each other with their China-bashing. Continuing engagement between US and Taiwanese leaders will likely still happen, which, together with the Gallagher House Select Committee on the Chinese Communist Party hearings, will push the US-China conflict closer to the brink (or over the brink).
 
-![Where we are](/img/week16-1.png)
+![Where we are](/images/sections/consumption-and-media/week16-1.png)
 
 ## The Most Bizarre Economics Research Ever? - Economics Explained Essentials
 
 [https://youtu.be/lJ0U4p2A14Y](https://youtu.be/lJ0U4p2A14Y)
 
-![Menstrual cycle vs income](/img/week16-2.png)
+![Menstrual cycle vs income](/images/sections/consumption-and-media/week16-2.png)
 
 ## Why Kangaroos are Scarier Than You Think - Real Science
 

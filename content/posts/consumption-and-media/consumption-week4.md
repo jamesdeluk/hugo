@@ -20,7 +20,7 @@ Now grouped by topic. Note not everything fits perfectly. Also noting my comment
 
 [https://techxplore.com/news/2022-12-disguising-solar-panels-ancient-roman.html](https://techxplore.com/news/2022-12-disguising-solar-panels-ancient-roman.html)
 
-![Untitled](/img/week4-0.png)
+![Untitled](/images/sections/consumption-and-media/week4-0.png)
 
 - The traditional PV tiles are made from a polymer compound, which allows the sun's rays to filter through. The photovoltaic cells are then integrated into it by hand and covered with a layer of the polymer compound. "We can also give it the look of stone, wood, concrete, and brick. As a result, such a solution can be installed not only on roofs but also on walls and floors,"
 
@@ -58,7 +58,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://www.mckinsey.com/capabilities/sustainability/our-insights/innovating-to-net-zero-an-executives-guide-to-climate-technology](https://www.mckinsey.com/capabilities/sustainability/our-insights/innovating-to-net-zero-an-executives-guide-to-climate-technology)
 
-![Untitled](/img/week4-1.png)
+![Untitled](/images/sections/consumption-and-media/week4-1.png)
 
 ## Automotive
 
@@ -66,13 +66,13 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://www.designboom.com/technology/hyundai-mobis-e-corner-system-crabwalk-ioniq-5-ev-prototype-01-12-2023/](https://www.designboom.com/technology/hyundai-mobis-e-corner-system-crabwalk-ioniq-5-ev-prototype-01-12-2023/)
 
-![Untitled](/img/week4-2.png)
+![Untitled](/images/sections/consumption-and-media/week4-2.png)
 
 ### carsized
 
 [https://www.carsized.com/en/](https://www.carsized.com/en/)
 
-![Untitled](/img/week4-3.png)
+![Untitled](/images/sections/consumption-and-media/week4-3.png)
 
 ## Personal Development, Health, and Fitness
 
@@ -87,7 +87,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://haleynahman.substack.com/p/95-are-you-baby-a-litmus-test](https://haleynahman.substack.com/p/95-are-you-baby-a-litmus-test)
 
-![Untitled](/img/week4-4.png)
+![Untitled](/images/sections/consumption-and-media/week4-4.png)
 
 - Context 1: Your friends were late for the party, so you could wait for them, or go in alone.
 - Context 2: You want to leave the dancefloor, your friends want to stay. Staying because you think your friends will be upset is treating them as babies, and staying is passive/avoidant.

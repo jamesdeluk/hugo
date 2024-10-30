@@ -28,7 +28,7 @@ Tags: EVs, Hydrogen
 
 [https://www.standard.co.uk/homesandproperty/property-news/london-s-property-market-heatmap-postcodes-biggest-discounts-b1090904.html](https://www.standard.co.uk/homesandproperty/property-news/london-s-property-market-heatmap-postcodes-biggest-discounts-b1090904.html)
 
-![London house prices](/img/week27.png)
+![London house prices](/images/sections/consumption-and-media/week27.png)
 
 Tags: Housing, London, Cost of Living
 
@@ -150,6 +150,6 @@ Tags: Health, Exercise, Diet, Meditation
 
 - The maths went way over my head, but it’s pretty cool.
 
-![Square wheeled car](/img/week27-1.png)
+![Square wheeled car](/images/sections/consumption-and-media/week27-1.png)
 
 Tags: Maths, Science, Engineering

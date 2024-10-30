@@ -26,7 +26,7 @@ date: 2023-05-21
 - Wiki: Crony capitalism, sometimes called cronyism, is an economic system in which businesses thrive not as a result of free enterprise, but rather as a return on money amassed through collusion between a business class and the political class.
 - This year the publication details 2,640 billionaires worth $12trn or 12% of gdp. Most of those listed do not operate in rent-seeking (an economic rent is the surplus remaining once capital and labour have been paid which, with perfect competition, tends towards zero) sectors.
 
-![Untitled](/img/week20.png)
+![Untitled](/images/sections/consumption-and-media/week20.png)
 
 ## BT to axe up to 55,000 jobs by 2030 as it pushes into AI
 

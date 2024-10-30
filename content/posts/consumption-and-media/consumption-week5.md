@@ -149,7 +149,7 @@ date: 2023-02-05
 
 [https://bigthink.com/starts-with-a-bang/one-page-calendar/](https://bigthink.com/starts-with-a-bang/one-page-calendar/)
 
-![Calendar](/img/week5-calendar.png)
+![Calendar](/images/sections/consumption-and-media/week5-calendar.png)
 
 - Another year? Except for the placement of the months (in blue) in the upper-right corner of the one-page calendar, everything else is always the same, year-after-year. Moreover, the way the months are placed shifts in an extremely predictable, repeating pattern. There are only 14 possible calendar configurations: one for each of the seven non-leap years where January 1st begins on each of the seven days of the week, and one for each of the seven leap years where January 1st begins on each possible day of the week. The same calendar that works in 2023 will also work again in 2034, 2045, 2051, 2062, 2073, 2079, 2090, 2102, 2113, and 2119.
 
@@ -159,9 +159,9 @@ date: 2023-02-05
 
 - The delivery flight of the last 747 to be built.
 
-![747 flight](/img/week5-747-1.png)
+![747 flight](/images/sections/consumption-and-media/week5-747-1.png)
 
-![747 flight](/img/week5-747-2.png)
+![747 flight](/images/sections/consumption-and-media/week5-747-2.png)
 
 ### Initial D AE86 wireless mouse
 
@@ -169,4 +169,4 @@ date: 2023-02-05
 
 - I want this so much.
 
-![AE86](/img/week5-ae86.png)
+![AE86](/images/sections/consumption-and-media/week5-ae86.png)

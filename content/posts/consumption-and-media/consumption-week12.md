@@ -93,7 +93,7 @@ date: 2023-03-26
 
 [https://www.visualcapitalist.com/cp/visualized-heads-of-state-each-country-by-age/](https://www.visualcapitalist.com/cp/visualized-heads-of-state-each-country-by-age/)
 
-![Heads of states](/img/week12-0.png)
+![Heads of states](/images/sections/consumption-and-media/week12-0.png)
 
 ### Visualizing 90 Years of Stock and Bond Portfolio Performance
 
@@ -136,7 +136,7 @@ date: 2023-03-26
 
 [https://www.guinnessworldrecords.com/world-records/380709-largest-gps-drawing-by-cycle-team](https://www.guinnessworldrecords.com/world-records/380709-largest-gps-drawing-by-cycle-team)
 
-![GPS drawing](/img/week12-1.png)
+![GPS drawing](/images/sections/consumption-and-media/week12-1.png)
 
 ### Oxfam‘s bizarre’ language guide says sorry for using English and warns staff not to use words like 'mother and people'
 
@@ -160,7 +160,7 @@ date: 2023-03-26
 
 [https://www.abc.net.au/news/2023-03-24/happy-the-calf-to-live-life-as-a-mascot-after-being-sold/102129472](https://www.abc.net.au/news/2023-03-24/happy-the-calf-to-live-life-as-a-mascot-after-being-sold/102129472)
 
-![Hapypy calf](/img/week12-2.png)
+![Hapypy calf](/images/sections/consumption-and-media/week12-2.png)
 
 ## Quotes
 

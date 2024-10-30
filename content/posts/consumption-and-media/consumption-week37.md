@@ -13,7 +13,7 @@ date: 2023-09-17
 - One model is to have the battery manufacturer, carmaker or a third party own the battery throughout its life. A battery manufacturer could lease the battery to a carmaker, then a consumer, and then reuse or recycle it after it can no longer power a vehicle.
 - A battery no longer suitable for use in a vehicle still has the potential to be used for other purposes, ranging from lighting streets and homes to powering appliances or offering energy storage.
 
-![Battery recycling](/img/week37.png)
+![Battery recycling](/images/sections/consumption-and-media/week37.png)
 
 Tags: EVs, Batteries, Recycling, Circular Economy
 

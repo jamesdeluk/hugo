@@ -60,4 +60,4 @@ date: 2023-04-16
 
 [https://wonderfulengineering.com/japanese-rail-workers-build-adorable-track-underpasses-for-turtles/](https://wonderfulengineering.com/japanese-rail-workers-build-adorable-track-underpasses-for-turtles/)
 
-![Turtle underpass](/img/week15.png)
+![Turtle underpass](/images/sections/consumption-and-media/week15.png)

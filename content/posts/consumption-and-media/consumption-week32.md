@@ -18,9 +18,9 @@ Tags: EVs, CCUS, Sustainability
 
 [https://www.energy.gov/eere/articles/us-department-energy-releases-2023-critical-materials-assessment-evaluate-supply](https://www.energy.gov/eere/articles/us-department-energy-releases-2023-critical-materials-assessment-evaluate-supply)
 
-![Short term assessment](/img/week32.png)
+![Short term assessment](/images/sections/consumption-and-media/week32.png)
 
-![Long term assessment](/img/week32-1.png)
+![Long term assessment](/images/sections/consumption-and-media/week32-1.png)
 
 Tags: Materials, Minerals, Sustainability, Supply Chain, Scarcity
 
@@ -36,7 +36,7 @@ Tags: Solar, Renewable Energy, Innovation
 
 [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/enabling-renewable-energy-with-battery-energy-storage-systems](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/enabling-renewable-energy-with-battery-energy-storage-systems)
 
-![BES value chain](/img/week32-2.png)
+![BES value chain](/images/sections/consumption-and-media/week32-2.png)
 
 Tags: Batteries, Energy Storage, Value Chain
 

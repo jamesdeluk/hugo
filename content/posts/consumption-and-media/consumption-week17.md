@@ -19,7 +19,7 @@ date: 2023-04-30
 - JG: Super cool. A metal with memory: set a shape when it’s hot, deform it when it’s cold, but when it’s re-heated, it returns to its original shape. It’s also super stretchy.
 - [Summarize.tech](http://Summarize.tech) summary: NASA has developed a metal alloy that can stretch up to 30 times its original size without deforming and can spring back to its initial size with no damage, allowing the creation of airless tires suitable for low-pressure conditions on other planets. Nitinol, the nickel and titanium alloy, has great elasticity, can endure more stress than steel and maintains its shape when heated, making it an excellent material for making wheels. Nitinol tires can stretch up to 8% of its length without causing permanent damage, and the unique properties of nitinol make it useful for creating complete suspension systems without adding weight. Nitinol is also used in medical stents and actuators that generate significant force. Furthermore, Henson Shaving produced a lifetime razor that is modeled after aerospace technology.
 
-![Nitinol](/img/week17.png)
+![Nitinol](/images/sections/consumption-and-media/week17.png)
 
 ## Big Oil Profits Reached Record High Levels in 2022
 
@@ -54,7 +54,7 @@ date: 2023-04-30
 
 [https://www.carbonbrief.org/qa-what-does-the-eus-new-deforestation-law-mean-for-climate-and-biodiversity/](https://www.carbonbrief.org/qa-what-does-the-eus-new-deforestation-law-mean-for-climate-and-biodiversity/)
 
-![Deforestation](/img/week17-1.png)
+![Deforestation](/images/sections/consumption-and-media/week17-1.png)
 
 ## Jellyfish-inspired robot can gently remove ocean waste without harming marine life
 
@@ -74,9 +74,9 @@ date: 2023-04-30
 
 ## Marketing vs Sales and the Death/Dead Zone - FourWeekMBA
 
-![Marketing vs sales](/img/week17-2.png)
+![Marketing vs sales](/images/sections/consumption-and-media/week17-2.png)
 
-![Death zone](/img/week17-3.png)
+![Death zone](/images/sections/consumption-and-media/week17-3.png)
 
 ## [The Documentary Podcast] Murder in Mayfair
 

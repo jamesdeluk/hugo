@@ -23,7 +23,7 @@ Tags: Trends, Future
 
 [https://www.gov.uk/government/publications/national-risk-register-2023](https://www.gov.uk/government/publications/national-risk-register-2023)
 
-![Risk Register](/img/week31.png)
+![Risk Register](/images/sections/consumption-and-media/week31.png)
 
 Tags: Risks, Future, Geopolitics, Threats
 
@@ -56,7 +56,7 @@ Tags: Business, Entrepreneurship, Market Research, Personal Development, Social,
 
 [https://www.visualcapitalist.com/the-top-performing-sp-500-sectors-over-the-business-cycle/](https://www.visualcapitalist.com/the-top-performing-sp-500-sectors-over-the-business-cycle/)
 
-![S&P Sector Performance](/img/week31-1.png)
+![S&P Sector Performance](/images/sections/consumption-and-media/week31-1.png)
 
 |  | Recession | Recovery | Expansion | Slowdown | Average | Weighted Average |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Tags: Reuse, Innovation, Sustainability, Batteries, Agriculture, Plastic, Waste
 
 - A wonderful little animation.
 
-![Lithium Battery Charging](/img/week31-2.png)
+![Lithium Battery Charging](/images/sections/consumption-and-media/week31-2.png)
 
 Tags: Batteries, Safety, EVs
 

@@ -26,7 +26,7 @@ date: 2023-03-05
 
 [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-race-to-decarbonize-electric-vehicle-batteries](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-race-to-decarbonize-electric-vehicle-batteries)
 
-![Decarbonise EVs](/img/week9-0.png)
+![Decarbonise EVs](/images/sections/consumption-and-media/week9-0.png)
 
 ### NREL Scientists Find More Eureka Moments, Patent Activity Climbs In FY ’22
 
@@ -63,7 +63,7 @@ date: 2023-03-05
 
 - JG: I don’t really like these quizzes as the answer is **always** it depends, and these questions never have context. But still, I’m (with low certainty) a “[Daring Moderator](https://www.trendhunter.com/daring-moderator)”.
 
-![Innovation](/img/week9-1.png)
+![Innovation](/images/sections/consumption-and-media/week9-1.png)
 
 ### ‘Keep your eyes open – and leap into the future’: 100 centenarians’ 100 tips for a life well lived
 
@@ -140,7 +140,7 @@ date: 2023-03-05
 
 [https://www.visualcapitalist.com/cp/mapped-the-price-of-starbucks-in-every-country/](https://www.visualcapitalist.com/cp/mapped-the-price-of-starbucks-in-every-country/)
 
-![Starbucks prices](/img/week9-2.png)
+![Starbucks prices](/images/sections/consumption-and-media/week9-2.png)
 
 ### What’s the most positive or negative religion? — Sentiment and Data Analysis of Holy Books with R
 
@@ -152,9 +152,9 @@ date: 2023-03-05
     - Quran: Reward vs infidel
     - Dhammapada: Beloved vs sorrow
 
-![Religious sentiments 1](/img/week9-3.png)
+![Religious sentiments 1](/images/sections/consumption-and-media/week9-3.png)
 
-![Religious sentiments 2](/img/week9-4.png)
+![Religious sentiments 2](/images/sections/consumption-and-media/week9-4.png)
 
 ### Applying Sentiment Analysis to the Bible
 
@@ -162,7 +162,7 @@ date: 2023-03-05
 
 - I see why most quotes on Facebook/Instagram etc are from Psalms
 
-![Bible sentiments](/img/week9-5.png)
+![Bible sentiments](/images/sections/consumption-and-media/week9-5.png)
 
 ### Shifting Skills, Moving Targets, and Remaking the Workforce
 
@@ -178,7 +178,7 @@ date: 2023-03-05
     - Social media skills, such as experience with Facebook, LinkedIn, and Adobe Photoshop, are in demand in the current media climate.
 - JG: This is one of the reasons I chose not to go into software/data - within 5 years, your knowledge is outdated.
 
-![Skill changes](/img/week9-6.png)
+![Skill changes](/images/sections/consumption-and-media/week9-6.png)
 
 ### [Brave New Earth] E11: Amory Poulden, Founder of D2
 
@@ -211,7 +211,7 @@ date: 2023-03-05
 
 [https://www.visualcapitalist.com/visually-ranking-biotoxins-in-nature/](https://www.visualcapitalist.com/visually-ranking-biotoxins-in-nature/)
 
-![Biotoxins](/img/week9-7.png)
+![Biotoxins](/images/sections/consumption-and-media/week9-7.png)
 
 ### How to Make Coffee Without the Beans
 
@@ -226,4 +226,4 @@ date: 2023-03-05
 - For males: statistically insignificant health benefits, risk of death from herpes or loss of dick.
 - For females: evil, painful, dangerous form of patriarchal control; anyone who agrees with it should be put to death.
 
-![FMG](/img/week9-8.png)
+![FMG](/images/sections/consumption-and-media/week9-8.png)

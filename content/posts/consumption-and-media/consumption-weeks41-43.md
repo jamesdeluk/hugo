@@ -98,6 +98,6 @@ Tags: Health, Environment, Chemicals
 
 [https://www.mckinsey.com/mgi/our-research/global-trade-explorer-how-interdependent-are-two-economies](https://www.mckinsey.com/mgi/our-research/global-trade-explorer-how-interdependent-are-two-economies)
 
-![China US trade](/img/weeks41-43.png)
+![China US trade](/images/sections/consumption-and-media/weeks41-43.png)
 
 Tags: Trade, China

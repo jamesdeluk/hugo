@@ -85,7 +85,7 @@ date: 2023-01-08
 - [https://www.visualcapitalist.com/cp/charting-the-smartphone-effect-camera-market](https://www.visualcapitalist.com/cp/charting-the-smartphone-effect-camera-market)
 - Standalone digital cameras had a tiny lifespan. What else could be this way?
     
-    ![Untitled](/img/week1-0.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-0.png)
     
 
 ### [Article] Can Planting a Trillion New Trees Save the World?
@@ -116,20 +116,20 @@ date: 2023-01-08
 
 - [https://twitter.com/10kdiver/status/1439281692989034504](https://twitter.com/10kdiver/status/1439281692989034504)
 
-![Untitled](/img/week1-9.png)
+![Untitled](/images/sections/consumption-and-media/week1-9.png)
 
 ### [Article] Pixels make the picture: A guided tour through the granular world
 
 - [https://www.mckinsey.com/mgi/our-research/Pixels-of-progress-chapter-1](https://www.mckinsey.com/mgi/our-research/Pixels-of-progress-chapter-1)
 - There is a lot of variety within a country
     
-    ![Untitled](/img/week1-1.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-1.png)
     
-    ![Untitled](/img/week1-2.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-2.png)
     
-    ![Untitled](/img/week1-3.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-3.png)
     
-    ![Untitled](/img/week1-4.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-4.png)
     
 
 ### [Article] What’s next for batteries
@@ -149,9 +149,9 @@ date: 2023-01-08
 - Global warming can cause harsh winter weather in other ways too. Warmer temperatures mean a warmer atmosphere. National Geographic explains that when an atmosphere is warmer, it can hold more moisture which causes an increase in precipitation — hence more snowfall when temperatures are below freezing. This can cause blizzards to be more intense.
 - Perhaps paradoxically, it's a strong, extremely cold polar vortex that results in stable, warm temperatures across the more populous mid-latitudes in winter.
     
-    ![Untitled](/img/week1-5.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-5.png)
     
-    ![Untitled](/img/week1-6.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-6.png)
     
 
 ### [Podcast] [The Big Green Money Show] How to Recycle: With Biffa CEO
@@ -171,9 +171,9 @@ date: 2023-01-08
 - [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/new-ev-entrants-disrupt-europes-automotive-market](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/new-ev-entrants-disrupt-europes-automotive-market)
 - The new entrants, however, have chosen vastly different GTM strategies. These range from direct-to-consumer (DTC) strategies that feature their own outlets (such as NIO and Lynk & Co.), strategic partnerships with importers for wholesale distribution (for example, BYD), pure importer models (for instance, Skywell) and partnerships with non-automotive retailers (such as Aiways that has partnered with an electronics retailer in Germany).
     
-    ![Untitled](/img/week1-7.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-7.png)
     
-    ![Untitled](/img/week1-8.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-8.png)
     
 
 ### [Article] World’s largest vertical farm is being built in the UK and it’s the size of 96 tennis courts
@@ -216,4 +216,4 @@ date: 2023-01-08
 
 [https://david.blog/proposal-a-founder-focused-climate-tech-taxonomy-6ea32a07a495](https://david.blog/proposal-a-founder-focused-climate-tech-taxonomy-6ea32a07a495)
 
-![Taxonomy](/img/week1-10.png)
+![Taxonomy](/images/sections/consumption-and-media/week1-10.png)

@@ -1,8 +1,8 @@
 ---
 title: "Launching an Edible Insect Business, Part I: Market"
 date: 2023-05-24
-categories: ["Business and Consulting","+ Pinned"]
 tags: ["Business","Entrepreneurship","Case Study","Market Entry","Market Research","Agriculture","Food","Insects","Entomophagy"]
+hero: /images/sections/business-and-consulting/beondegi.jpg
 ---
 Along with energy and transport, I’ve always been interested in agriculture; growing up on a farm no doubt influenced that. In particular, entomophagy - eating insects - has always intrigued me. Aside from the (illogical) “yuck factor”, they’re nutritious, environmentally-friendly, and ethical. Cultures across the planet and throughout history have eaten insects. So why don’t we now?
 

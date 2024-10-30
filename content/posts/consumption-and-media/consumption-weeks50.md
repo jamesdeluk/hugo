@@ -52,7 +52,7 @@ Tags: Illusions, Anagrams, AI
 
 - More innovation from Hyundai-Kia.
 
-![Snow chain tyre](/img/week50.png)
+![Snow chain tyre](/images/sections/consumption-and-media/week50.png)
 
 Tags: Innovation, Cars
 
@@ -86,7 +86,7 @@ Tags: Language, English, Optimisation
 
 [https://twitter.com/ichthys30/status/1734953685451460712](https://twitter.com/ichthys30/status/1734953685451460712)
 
-![How couples meet graph](/img/week50-1.png)
+![How couples meet graph](/images/sections/consumption-and-media/week50-1.png)
 
 Tags: Dating, Relationships
 
@@ -193,6 +193,6 @@ Tags: Life, Lifespan, Longevity, Animals, Nature, Fish
 
 - "I lost my daughter to suicide nearly four years ago and this is my way of getting people to have that moment of happiness.”
 
-![Gingerbread woman](/img/week50-2.png)
+![Gingerbread woman](/images/sections/consumption-and-media/week50-2.png)
 
 Tags: Fun, Funny, British

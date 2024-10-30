@@ -10,7 +10,7 @@ date: 2023-04-09
 
 [https://climate-hack.beehiiv.com/p/80-uk-climate-tech-startups](https://climate-hack.beehiiv.com/p/80-uk-climate-tech-startups)
 
-![Untitled](/img/week14-0.png)
+![Untitled](/images/sections/consumption-and-media/week14-0.png)
 
 ## This hypersonic hydrogen jet takes 4 hours to fly from Europe to Australia
 
@@ -27,7 +27,7 @@ date: 2023-04-09
 
 - Helixx vehicles are locally manufactured within the company’s licensed Mobility Hubs and are available through a business-to-business fleet subscription pricing model starting at just $0.25 per hour, providing an accessible option for commercial users.
 
-![Untitled](/img/week14-1.png)
+![Untitled](/images/sections/consumption-and-media/week14-1.png)
 
 ## Putting an autonomous vehicle to the test in downtown London
 
@@ -48,9 +48,9 @@ date: 2023-04-09
 
 - The only reason we think we need cars to get around, is because we have wasted most of our space on accommodating cars, which spread everything out so far (and made everything so loud and dangerous) that nobody feels like walking or biking! [JG: Particularly in the US]
 
-![Untitled](/img/week14-2.png)
+![Untitled](/images/sections/consumption-and-media/week14-2.png)
 
-![Untitled](/img/week14-3.png)
+![Untitled](/images/sections/consumption-and-media/week14-3.png)
 
 ## Research estimates EV drivers could earn billions of pounds selling power back to the grid
 
@@ -159,7 +159,7 @@ date: 2023-04-09
 
 [https://cleantechnica.com/2023/03/28/research-confirms-risks-of-deep-sea-mining-are-greater-than-the-rewards/](https://cleantechnica.com/2023/03/28/research-confirms-risks-of-deep-sea-mining-are-greater-than-the-rewards/)
 
-![Untitled](/img/week14-4.png)
+![Untitled](/images/sections/consumption-and-media/week14-4.png)
 
 ## [The Big Green Money Show] Medicines and Healthcare, with GSK
 
@@ -213,9 +213,9 @@ date: 2023-04-09
 
 - But even though it was 1875 math, I’d say it was pretty close.
 
-![Untitled](/img/week14-5.png)
+![Untitled](/images/sections/consumption-and-media/week14-5.png)
 
-![Untitled](/img/week14-6.png)
+![Untitled](/images/sections/consumption-and-media/week14-6.png)
 
 ## Companies by SIC section and turnover size
 

@@ -184,7 +184,7 @@ date: 2023-01-15
 
 [https://wonderfulengineering.com/this-family-has-been-living-in-the-middle-of-a-roundabout-for-40-years/](https://wonderfulengineering.com/this-family-has-been-living-in-the-middle-of-a-roundabout-for-40-years/)
 
-![Roundabout](/img/week2-roundabout.png)
+![Roundabout](/images/sections/consumption-and-media/week2-roundabout.png)
 
 ### CES 2023 Robot Roundup: Bots to Make Our Lives Better, Easier, or Just More Fun
 
@@ -219,4 +219,4 @@ date: 2023-01-15
 ### [CTVC] 🌎 $40B and 1,000+ deals in 2022 market downtick
 [https://www.ctvc.co/40b-and-1-000-deals-in-2022-market-downtick/](https://www.ctvc.co/40b-and-1-000-deals-in-2022-market-downtick/)
 - Now's an excellent time for climate tech!
-![Investment](/img/week2-investment.png)
+![Investment](/images/sections/consumption-and-media/week2-investment.png)

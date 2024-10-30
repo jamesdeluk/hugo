@@ -87,7 +87,7 @@ Tags: Materials, Bedding, Household, Environment
 - Since thicker wood is strong, it could be a partially load-bearing light source, potentially acting as a ceiling that provides soft, ambient light to a room.
 - Transparent wood is a far better insulator than glass, so it could help buildings retain heat or keep it out.
 
-![Transparent wood process](/img/week49.png)
+![Transparent wood process](/images/sections/consumption-and-media/week49.png)
 
 ![Transparent wood](/img/week49.jpeg)
 

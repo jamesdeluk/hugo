@@ -18,7 +18,7 @@ Tags: EVs, Batteries
 
 [https://www.visualcapitalist.com/life-cycle-emissions-evs-vs-combustion-engine-vehicles/](https://www.visualcapitalist.com/life-cycle-emissions-evs-vs-combustion-engine-vehicles/)
 
-![EV emissions](/img/week25.png)
+![EV emissions](/images/sections/consumption-and-media/week25.png)
 
 - And the potential to reduce far further when the electricity production becomes sustainable.
 
@@ -26,7 +26,7 @@ Tags: EVs, Emissions, Carbon
 
 ## Interactive: Comparing Carmaker Revenue vs. Country GDP
 
-![Carmakers vs GDPs](/img/week25-1.png)
+![Carmakers vs GDPs](/images/sections/consumption-and-media/week25-1.png)
 
 Tags: EVs, Economies
 
@@ -90,7 +90,7 @@ Tags: Persuasion, Communication, Language
 - Kleck (1980) told his research subjects they’d engage in a study to test discrimination. He painted scars on some of their faces, and then had them attend job interviews. The participants with scars painted on their faces reported feeling discriminated against for their looks. However, unknown to them, their scars had been removed before they entered the interviews. It would seem we can be victimized by the mere belief that we’re a victim.
 - How do "kind" falsehoods like "sex is a spectrum" and "obesity is healthy" go mainstream? Activists with PhDs use academic journals & scientific jargon to disguise ideology as knowledge, which is then cited as fact by the media & Wikipedia.
 
-![Happiness vs age](/img/week25-2.png)
+![Happiness vs age](/images/sections/consumption-and-media/week25-2.png)
 
 Tags: Mental Models, Talent, Skill, Mindset, Happiness
 

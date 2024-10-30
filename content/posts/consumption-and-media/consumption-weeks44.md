@@ -10,7 +10,7 @@ date: 2023-11-05
 
 [https://www.visualcapitalist.com/sp/ranked-the-worlds-most-sustainable-economies-in-2023/](https://www.visualcapitalist.com/sp/ranked-the-worlds-most-sustainable-economies-in-2023/)
 
-![Sustainable economies](/img/week44.png)
+![Sustainable economies](/images/sections/consumption-and-media/week44.png)
 
 Tags: Economics, Societies, Environment
 
@@ -40,7 +40,7 @@ Tags: Chemicals, Health
 
 - Choose Planet A’s the Good Cup is glued together with a water-based coating, called aqueous, that makes it leak-proof, recyclable (up to seven times), and even biodegradable. “If you throw it in the water or the forest,” Choose Planet A’s co-founder and managing director Cyril Drouet says, “it will biodegrade and disappear.” The cup also has a foldable paper lid, cutting the need for a plastic top.
 
-![Good Cup](/img/week44-1.png)
+![Good Cup](/images/sections/consumption-and-media/week44-1.png)
 
 Tags: Recycling, Paper, Plastic, Coffee
 
@@ -178,6 +178,6 @@ Tags: Stock Markets, Economics, Globalisation, Investing
 
 [https://www.visualcapitalist.com/north-korean-defectors-escape-routes/](https://www.visualcapitalist.com/north-korean-defectors-escape-routes/)
 
-![NK Defectors](/img/week44-2.png)
+![NK Defectors](/images/sections/consumption-and-media/week44-2.png)
 
 Tags: North Korea

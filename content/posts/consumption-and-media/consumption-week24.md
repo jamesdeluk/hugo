@@ -43,7 +43,7 @@ Tags: Heating, Energy Efficiency
 
 [https://www.visualcapitalist.com/10-year-annualized-forecasts-for-major-asset-classes/](https://www.visualcapitalist.com/10-year-annualized-forecasts-for-major-asset-classes/)
 
-![Asset forecasts](/img/week24.png)
+![Asset forecasts](/images/sections/consumption-and-media/week24.png)
 
 Tags: Investing, Stocks
 

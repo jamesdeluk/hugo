@@ -44,7 +44,7 @@ date: 2023-05-28
 
 - Very funny, yet interesting.
 
-![Baby](/img/week21.png)
+![Baby](/images/sections/consumption-and-media/week21.png)
 
 ## The Math behind QR code, what happens inside there?
 
@@ -58,7 +58,7 @@ date: 2023-05-28
 
 - ~20,000 companies registered to a Chinese takeaway
 
-![Chinese takeaway](/img/week21-1.png)
+![Chinese takeaway](/images/sections/consumption-and-media/week21-1.png)
 
 ## [The Leader | Evening Standard daily] The sour truth of Oxford Street’s candy shop curse
 

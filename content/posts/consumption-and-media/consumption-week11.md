@@ -18,7 +18,7 @@ date: 2023-03-19
 
 [https://www.visualcapitalist.com/cp/charting-the-movement-of-global-plastic-waste/](https://www.visualcapitalist.com/cp/charting-the-movement-of-global-plastic-waste/)
 
-![Plastic waste](/img/week11-0.png)
+![Plastic waste](/images/sections/consumption-and-media/week11-0.png)
 
 | Rank | Country | Exported Plastic Waste (2020) |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 - US companies, although I recently found out Trader Joe’s is owned by Aldi. Either way, something to consider.
 - See also: One of the best South Park episodes in a while - [https://southpark.fandom.com/wiki/Japanese_Toilet](https://southpark.fandom.com/wiki/Japanese_Toilet)
 
-![Toilet paper brands](/img/week11-2.png)
+![Toilet paper brands](/images/sections/consumption-and-media/week11-2.png)
 
 ### That rocks: Study estimates novel rock crushing process could capture 0.5 per cent of global CO2
 
@@ -66,7 +66,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.facebook.com/story.php?story_fbid=pfbid0ydcYN8MQKiNq5oGVGY8rJGFb5Hm1JLZvQxhYJFkFiGvF3QaFUBeK9HVUop2cFMrol&id=100064842364566](https://www.facebook.com/story.php?story_fbid=pfbid0ydcYN8MQKiNq5oGVGY8rJGFb5Hm1JLZvQxhYJFkFiGvF3QaFUBeK9HVUop2cFMrol&id=100064842364566)
 
-![Gardens vs nature](/img/week11-3.png)
+![Gardens vs nature](/images/sections/consumption-and-media/week11-3.png)
 
 ## Politics, Economics, Business, and Culture
 
@@ -77,7 +77,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 - Based on the book “Ten Types of Innovation: The Discipline of Building Breakthroughs”
 - Link to a PDF summary of tactics for each type is broken, but thanks to the Internet Archive it still exists: [https://web.archive.org/web/20200429223947/https://doblin.com/dist/images/uploads/TenTypesInnovation.pdf](https://web.archive.org/web/20200429223947/https://doblin.com/dist/images/uploads/TenTypesInnovation.pdf)
 
-![Innovation types](/img/week11-4.png)
+![Innovation types](/images/sections/consumption-and-media/week11-4.png)
 
 ### How the Housing Market Screwed Young People
 
@@ -99,4 +99,4 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.aspi.org.au/report/critical-technology-tracker](https://www.aspi.org.au/report/critical-technology-tracker)
 
-![China's domination](/img/week11-1.png)
+![China's domination](/images/sections/consumption-and-media/week11-1.png)

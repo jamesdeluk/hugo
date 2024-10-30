@@ -27,9 +27,9 @@ Tags: Innovation, Future, Technology, Batteries, AI, Air Travel, Medicine, Healt
 
 [https://www.nrel.gov/news/program/2023/how-do-we-inventory-the-materials-needed-to-build-wind-and-solar-farms.html](https://www.nrel.gov/news/program/2023/how-do-we-inventory-the-materials-needed-to-build-wind-and-solar-farms.html)
 
-![Untitled](/img/week33.png)
+![Untitled](/images/sections/consumption-and-media/week33.png)
 
-![Untitled](/img/week33-1.png)
+![Untitled](/images/sections/consumption-and-media/week33-1.png)
 
 Tags: Renewable Energy, Wind, Solar, Resources, Materials
 

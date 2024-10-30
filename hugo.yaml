@@ -1,7 +1,7 @@
 baseURL: https://www.jamesgibbins.com/
 
 languageCode: en
-title: "John's Blog"
+title: "James's Peredutions"
 
 # Use Hugo modules to add theme
 module:
@@ -58,8 +58,8 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
+    main: /images/site/hshysrot.gif
+    inverted: /images/site/hshysrot.gif
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
@@ -69,7 +69,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 7
 
   # Configure various features of this theme
   features:
@@ -299,4 +299,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

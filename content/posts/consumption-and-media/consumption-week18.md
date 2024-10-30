@@ -23,13 +23,13 @@ date: 2023-05-07
 
 [https://www.visualcapitalist.com/cp/which-jobs-artificial-intelligence-gpt-impact/](https://www.visualcapitalist.com/cp/which-jobs-artificial-intelligence-gpt-impact/)
 
-![AI jobs](/img/week18.png)
+![AI jobs](/images/sections/consumption-and-media/week18.png)
 
 ## These Skills and Jobs Will Be Most in Demand as AI Churns the Market
 
 [https://singularityhub.com/2023/05/03/a-quarter-of-jobs-will-change-in-the-next-5-years/](https://singularityhub.com/2023/05/03/a-quarter-of-jobs-will-change-in-the-next-5-years/)
 
-![AI jobs](/img/week18-1.png)
+![AI jobs](/images/sections/consumption-and-media/week18-1.png)
 
 ## What I Think Is Going On 1) with China-US Relations, 2) with Their Relations with Other Countries, and 3) in China
 
@@ -46,7 +46,7 @@ date: 2023-05-07
 - Mapping 3D space onto a 2D plane in the brain seems to explain why our nervous system is cross-wired: Counterintuitive as it may seem, directing nerve fibers across the midline is the topologically simplest way to avoid errors.
 - Since left and right depend on a frame of reference, people frequently confuse the letters “d” and “b,” and “p” and “q,” but they rarely confuse “q” and “d.” In the first two cases, the identical shapes are flipped along the vertical axis (swapping left and right), and in the second, they are flipped along the horizontal axis (swapping up and down). As bilaterally symmetrical creatures we never mistake up and down, because those directions are always the same, regardless of viewpoint, but left and right are relative to an object.
 
-![Crossed wires](/img/week18-2.png)
+![Crossed wires](/images/sections/consumption-and-media/week18-2.png)
 
 ## The Modern World Is Aging Your Brain
 

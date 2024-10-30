@@ -94,7 +94,7 @@ Tags: Food, Waste, Innovation
 
 [https://www.visualcapitalist.com/cp/mapped-meat-consumption-by-country-and-type/](https://www.visualcapitalist.com/cp/mapped-meat-consumption-by-country-and-type/)
 
-![Meat Consumption](/img/week28.png)
+![Meat Consumption](/images/sections/consumption-and-media/week28.png)
 
 Tags: Food, Meat
 

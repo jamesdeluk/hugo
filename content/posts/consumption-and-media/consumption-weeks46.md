@@ -28,7 +28,7 @@ Tags: Life, Attitude
 
 [https://www.visualcapitalist.com/cost-of-insulin-by-country/](https://www.visualcapitalist.com/cost-of-insulin-by-country/)
 
-![Insulin costs](/img/week46.png)
+![Insulin costs](/images/sections/consumption-and-media/week46.png)
 
 Tags: Pricing, Price Gouging, Corporate Greed
 
@@ -49,28 +49,28 @@ Tags: Learning
 
 1. Anders Ericsson: deliberate practice
     
-    ![Untitled](/img/week46-1.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-1.png)
     
 2. John Sweller: cognitive load, examples can be better than problem-solving
     
-    ![Untitled](/img/week46-2.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-2.png)
     
 3. Robert Bjork: desirable difficulties (spacing, retrieval, variability)
     
-    ![Untitled](/img/week46-3.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-3.png)
     
 4. Michelene Chi: concepts over superficial understanding
 5. Herbert Simon: reducing the problem space
     
-    ![Untitled](/img/week46-4.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-4.png)
     
 6. John Anderson: declarative (facts) and procedural memory
     
-    ![Untitled](/img/week46-5.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-5.png)
     
 7. Walter Kintsch: battle conflicting ideas to see which wins
     
-    ![Untitled](/img/week46-6.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-6.png)
     
 
 Tags: Learning

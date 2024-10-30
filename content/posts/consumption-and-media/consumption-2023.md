@@ -84,7 +84,7 @@ date: 2023-12-31
 - [https://www.visualcapitalist.com/cp/charting-the-smartphone-effect-camera-market](https://www.visualcapitalist.com/cp/charting-the-smartphone-effect-camera-market)
 - Standalone digital cameras had a tiny lifespan. What else could be this way?
     
-    ![Untitled](/img/week1-0.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-0.png)
     
 
 ## Can Planting a Trillion New Trees Save the World?
@@ -115,20 +115,20 @@ date: 2023-12-31
 
 - [https://twitter.com/10kdiver/status/1439281692989034504](https://twitter.com/10kdiver/status/1439281692989034504)
 
-![Untitled](/img/week1-9.png)
+![Untitled](/images/sections/consumption-and-media/week1-9.png)
 
 ## Pixels make the picture: A guided tour through the granular world
 
 - [https://www.mckinsey.com/mgi/our-research/Pixels-of-progress-chapter-1](https://www.mckinsey.com/mgi/our-research/Pixels-of-progress-chapter-1)
 - There is a lot of variety within a country
     
-    ![Untitled](/img/week1-1.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-1.png)
     
-    ![Untitled](/img/week1-2.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-2.png)
     
-    ![Untitled](/img/week1-3.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-3.png)
     
-    ![Untitled](/img/week1-4.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-4.png)
     
 
 ## What’s next for batteries
@@ -148,9 +148,9 @@ date: 2023-12-31
 - Global warming can cause harsh winter weather in other ways too. Warmer temperatures mean a warmer atmosphere. National Geographic explains that when an atmosphere is warmer, it can hold more moisture which causes an increase in precipitation — hence more snowfall when temperatures are below freezing. This can cause blizzards to be more intense.
 - Perhaps paradoxically, it's a strong, extremely cold polar vortex that results in stable, warm temperatures across the more populous mid-latitudes in winter.
     
-    ![Untitled](/img/week1-5.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-5.png)
     
-    ![Untitled](/img/week1-6.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-6.png)
     
 
 ## [The Big Green Money Show] How to Recycle: With Biffa CEO
@@ -170,9 +170,9 @@ date: 2023-12-31
 - [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/new-ev-entrants-disrupt-europes-automotive-market](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/new-ev-entrants-disrupt-europes-automotive-market)
 - The new entrants, however, have chosen vastly different GTM strategies. These range from direct-to-consumer (DTC) strategies that feature their own outlets (such as NIO and Lynk & Co.), strategic partnerships with importers for wholesale distribution (for example, BYD), pure importer models (for instance, Skywell) and partnerships with non-automotive retailers (such as Aiways that has partnered with an electronics retailer in Germany).
     
-    ![Untitled](/img/week1-7.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-7.png)
     
-    ![Untitled](/img/week1-8.png)
+    ![Untitled](/images/sections/consumption-and-media/week1-8.png)
     
 
 ## World’s largest vertical farm is being built in the UK and it’s the size of 96 tennis courts
@@ -215,7 +215,7 @@ date: 2023-12-31
 
 [https://david.blog/proposal-a-founder-focused-climate-tech-taxonomy-6ea32a07a495](https://david.blog/proposal-a-founder-focused-climate-tech-taxonomy-6ea32a07a495)
 
-![Taxonomy](/img/week1-10.png)
+![Taxonomy](/images/sections/consumption-and-media/week1-10.png)
 
 ## [Brave New Earth] S1E6: Kieran White, Founder of Return
 
@@ -387,7 +387,7 @@ date: 2023-12-31
 
 [https://wonderfulengineering.com/this-family-has-been-living-in-the-middle-of-a-roundabout-for-40-years/](https://wonderfulengineering.com/this-family-has-been-living-in-the-middle-of-a-roundabout-for-40-years/)
 
-![Roundabout](/img/week2-roundabout.png)
+![Roundabout](/images/sections/consumption-and-media/week2-roundabout.png)
 
 ## CES 2023 Robot Roundup: Bots to Make Our Lives Better, Easier, or Just More Fun
 
@@ -420,7 +420,7 @@ date: 2023-12-31
 ## [CTVC] 🌎 $40B and 1,000+ deals in 2022 market downtick
 [https://www.ctvc.co/40b-and-1-000-deals-in-2022-market-downtick/](https://www.ctvc.co/40b-and-1-000-deals-in-2022-market-downtick/)
 - Now's an excellent time for climate tech!
-![Investment](/img/week2-investment.png)
+![Investment](/images/sections/consumption-and-media/week2-investment.png)
 
 ## [Brave New Earth] E7: How Vertical Farms are changing the food we eat... w. Alexander Olesen, Founder of Babylon Microfarms
 
@@ -487,9 +487,9 @@ date: 2023-12-31
 
 [https://www.visualcapitalist.com/global-risks-2023/](https://www.visualcapitalist.com/global-risks-2023/)
 
-![Global risks](/img/week3-1.png)
+![Global risks](/images/sections/consumption-and-media/week3-1.png)
 
-![Risk perception](/img/week3-2.png)
+![Risk perception](/images/sections/consumption-and-media/week3-2.png)
 
 - Highest impact risks are the most obvious, immediate ones (energy and the cost of living).
 - Least prepared for the slowly approaching end of existence (climate change).
@@ -600,7 +600,7 @@ Now grouped by topic. Note not everything fits perfectly. Also noting my comment
 
 [https://techxplore.com/news/2022-12-disguising-solar-panels-ancient-roman.html](https://techxplore.com/news/2022-12-disguising-solar-panels-ancient-roman.html)
 
-![Untitled](/img/week4-0.png)
+![Untitled](/images/sections/consumption-and-media/week4-0.png)
 
 - The traditional PV tiles are made from a polymer compound, which allows the sun's rays to filter through. The photovoltaic cells are then integrated into it by hand and covered with a layer of the polymer compound. "We can also give it the look of stone, wood, concrete, and brick. As a result, such a solution can be installed not only on roofs but also on walls and floors,"
 
@@ -638,19 +638,19 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://www.mckinsey.com/capabilities/sustainability/our-insights/innovating-to-net-zero-an-executives-guide-to-climate-technology](https://www.mckinsey.com/capabilities/sustainability/our-insights/innovating-to-net-zero-an-executives-guide-to-climate-technology)
 
-![Untitled](/img/week4-1.png)
+![Untitled](/images/sections/consumption-and-media/week4-1.png)
 
 ## thanks to a 'crabwalk' system, this hyundai IONIQ 5 can move sideways and rotate 180°
 
 [https://www.designboom.com/technology/hyundai-mobis-e-corner-system-crabwalk-ioniq-5-ev-prototype-01-12-2023/](https://www.designboom.com/technology/hyundai-mobis-e-corner-system-crabwalk-ioniq-5-ev-prototype-01-12-2023/)
 
-![Untitled](/img/week4-2.png)
+![Untitled](/images/sections/consumption-and-media/week4-2.png)
 
 ## carsized
 
 [https://www.carsized.com/en/](https://www.carsized.com/en/)
 
-![Untitled](/img/week4-3.png)
+![Untitled](/images/sections/consumption-and-media/week4-3.png)
 
 ## How My Views on Learning Have Changed Over Time
 
@@ -663,7 +663,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://haleynahman.substack.com/p/95-are-you-baby-a-litmus-test](https://haleynahman.substack.com/p/95-are-you-baby-a-litmus-test)
 
-![Untitled](/img/week4-4.png)
+![Untitled](/images/sections/consumption-and-media/week4-4.png)
 
 - Context 1: Your friends were late for the party, so you could wait for them, or go in alone.
 - Context 2: You want to leave the dancefloor, your friends want to stay. Staying because you think your friends will be upset is treating them as babies, and staying is passive/avoidant.
@@ -958,7 +958,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://bigthink.com/starts-with-a-bang/one-page-calendar/](https://bigthink.com/starts-with-a-bang/one-page-calendar/)
 
-![Calendar](/img/week5-calendar.png)
+![Calendar](/images/sections/consumption-and-media/week5-calendar.png)
 
 - Another year? Except for the placement of the months (in blue) in the upper-right corner of the one-page calendar, everything else is always the same, year-after-year. Moreover, the way the months are placed shifts in an extremely predictable, repeating pattern. There are only 14 possible calendar configurations: one for each of the seven non-leap years where January 1st begins on each of the seven days of the week, and one for each of the seven leap years where January 1st begins on each possible day of the week. The same calendar that works in 2023 will also work again in 2034, 2045, 2051, 2062, 2073, 2079, 2090, 2102, 2113, and 2119.
 
@@ -968,9 +968,9 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 - The delivery flight of the last 747 to be built.
 
-![747 flight](/img/week5-747-1.png)
+![747 flight](/images/sections/consumption-and-media/week5-747-1.png)
 
-![747 flight](/img/week5-747-2.png)
+![747 flight](/images/sections/consumption-and-media/week5-747-2.png)
 
 ## Initial D AE86 wireless mouse
 
@@ -978,7 +978,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 - I want this so much.
 
-![AE86](/img/week5-ae86.png)
+![AE86](/images/sections/consumption-and-media/week5-ae86.png)
 
 
 ## energy-harvesting carbon nanotube yarn generates electricity when stretched or twisted
@@ -1074,7 +1074,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 - Sunzuan's ingenuity lies in the use of bifacial solar modules in its design which negates the need to install the panels in a south-facing configuration [JG: in the northern hemisphere].
 - They can be used in existing fields and arable lands without sacrificing them and make it simpler to install the solar panels since no elevated platforms need to be built.
 
-![vertical pv](/img/week7-0.png)
+![vertical pv](/images/sections/consumption-and-media/week7-0.png)
 
 ## [Redefining Energy] 92. Who’s winning the battery arms race?
 
@@ -1145,7 +1145,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://economicprinciples.org/downloads/DalioRay_Power_Index_Appendix.pdf](https://economicprinciples.org/downloads/DalioRay_Power_Index_Appendix.pdf)
 
-![power index](/img/week7-1.png)
+![power index](/images/sections/consumption-and-media/week7-1.png)
 
 ## Magenta: The colour that doesn't exist
 
@@ -1157,7 +1157,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 [https://cleantechnica.com/2023/02/16/toyota-creates-all-electric-drift-car-from-classic-hachi-roku/](https://cleantechnica.com/2023/02/16/toyota-creates-all-electric-drift-car-from-classic-hachi-roku/)
 
-![ev ae86](/img/week7-2.png)
+![ev ae86](/images/sections/consumption-and-media/week7-2.png)
 
 ## [Tech and Science Daily | Evening Standard] The Science of Love | Valentine's Day
 
@@ -1359,7 +1359,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-race-to-decarbonize-electric-vehicle-batteries](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-race-to-decarbonize-electric-vehicle-batteries)
 
-![Decarbonise EVs](/img/week9-0.png)
+![Decarbonise EVs](/images/sections/consumption-and-media/week9-0.png)
 
 ## NREL Scientists Find More Eureka Moments, Patent Activity Climbs In FY ’22
 
@@ -1394,7 +1394,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 - JG: I don’t really like these quizzes as the answer is **always** it depends, and these questions never have context. But still, I’m (with low certainty) a “[Daring Moderator](https://www.trendhunter.com/daring-moderator)”.
 
-![Innovation](/img/week9-1.png)
+![Innovation](/images/sections/consumption-and-media/week9-1.png)
 
 ## ‘Keep your eyes open – and leap into the future’: 100 centenarians’ 100 tips for a life well lived
 
@@ -1469,7 +1469,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://www.visualcapitalist.com/cp/mapped-the-price-of-starbucks-in-every-country/](https://www.visualcapitalist.com/cp/mapped-the-price-of-starbucks-in-every-country/)
 
-![Starbucks prices](/img/week9-2.png)
+![Starbucks prices](/images/sections/consumption-and-media/week9-2.png)
 
 ## What’s the most positive or negative religion? — Sentiment and Data Analysis of Holy Books with R
 
@@ -1481,9 +1481,9 @@ Activity: Try delabelling/blind taste testing wine etc
     - Quran: Reward vs infidel
     - Dhammapada: Beloved vs sorrow
 
-![Religious sentiments 1](/img/week9-3.png)
+![Religious sentiments 1](/images/sections/consumption-and-media/week9-3.png)
 
-![Religious sentiments 2](/img/week9-4.png)
+![Religious sentiments 2](/images/sections/consumption-and-media/week9-4.png)
 
 ## Applying Sentiment Analysis to the Bible
 
@@ -1491,7 +1491,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 - I see why most quotes on Facebook/Instagram etc are from Psalms
 
-![Bible sentiments](/img/week9-5.png)
+![Bible sentiments](/images/sections/consumption-and-media/week9-5.png)
 
 ## Shifting Skills, Moving Targets, and Remaking the Workforce
 
@@ -1507,7 +1507,7 @@ Activity: Try delabelling/blind taste testing wine etc
     - Social media skills, such as experience with Facebook, LinkedIn, and Adobe Photoshop, are in demand in the current media climate.
 - JG: This is one of the reasons I chose not to go into software/data - within 5 years, your knowledge is outdated.
 
-![Skill changes](/img/week9-6.png)
+![Skill changes](/images/sections/consumption-and-media/week9-6.png)
 
 ## [Brave New Earth] E11: Amory Poulden, Founder of D2
 
@@ -1538,7 +1538,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://www.visualcapitalist.com/visually-ranking-biotoxins-in-nature/](https://www.visualcapitalist.com/visually-ranking-biotoxins-in-nature/)
 
-![Biotoxins](/img/week9-7.png)
+![Biotoxins](/images/sections/consumption-and-media/week9-7.png)
 
 ## How to Make Coffee Without the Beans
 
@@ -1553,7 +1553,7 @@ Activity: Try delabelling/blind taste testing wine etc
 - For males: statistically insignificant health benefits, risk of death from herpes or loss of dick.
 - For females: evil, painful, dangerous form of patriarchal control; anyone who agrees with it should be put to death.
 
-![FMG](/img/week9-8.png)
+![FMG](/images/sections/consumption-and-media/week9-8.png)
 
 ## New membrane generates electricity while filtering wastewater
 
@@ -1591,13 +1591,13 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://www.wri.org/insights/interactive-chart-shows-changes-worlds-top-10-emitters](https://www.wri.org/insights/interactive-chart-shows-changes-worlds-top-10-emitters)
 
-![Emissions by country](/img/week10-0.png)
+![Emissions by country](/images/sections/consumption-and-media/week10-0.png)
 
 ## Charted: Global Energy Consumption by Source, and Carbon Emissions (1900-2021)
 
 [https://www.visualcapitalist.com/cp/charting-consumption-production-fossil-fuels/](https://www.visualcapitalist.com/cp/charting-consumption-production-fossil-fuels/)
 
-![Emissions since 1750](/img/week10-1.png)
+![Emissions since 1750](/images/sections/consumption-and-media/week10-1.png)
 
 ## [Lex Fridman Podcast] #364 – Chris Voss: FBI Hostage Negotiator
 
@@ -1630,7 +1630,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://www.weforum.org/agenda/2023/01/skills-jobs-future-workplace/](https://www.weforum.org/agenda/2023/01/skills-jobs-future-workplace/)
 
-![Future skills](/img/week10-2.png)
+![Future skills](/images/sections/consumption-and-media/week10-2.png)
 
 - "The report finds that “Business Consulting, Specialized Sales, Database Architecture and Administration, Network Protocols, Web Design and Development” are all seeing a big drop-off in demand. The role of web developer has been hit hard by low-code, no code platforms that allow people to build their own websites quickly and easily."
 - JG: Interesting when viewed alongside the BCG report from [last week](https://www.jamesgibbins.com/posts/consumption-week9/#shifting-skills-moving-targets-and-remaking-the-workforce). New technologies earn more money, but are also potentially quickly outdated. Note how web developer was huge, and is now having the biggest decrease. Will we be saying the same about AI/cloud in 5 years? And social media is, I feel, on a downward trend already.
@@ -1652,7 +1652,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://interestingengineering.com/culture/2000-year-old-statue-with-giant-penis](https://interestingengineering.com/culture/2000-year-old-statue-with-giant-penis)
 
-![Statue](/img/week10-3.png)
+![Statue](/images/sections/consumption-and-media/week10-3.png)
 
 ## For years, the Vatican referred to capybaras as "fish"
 
@@ -1683,7 +1683,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 - Nightmare time:
 
-![Removed twin](/img/week10-4.png)
+![Removed twin](/images/sections/consumption-and-media/week10-4.png)
 
 ## New vocal cords on a chip can let mute people speak
 
@@ -1712,7 +1712,7 @@ Activity: Try delabelling/blind taste testing wine etc
 
 [https://www.visualcapitalist.com/cp/charting-the-movement-of-global-plastic-waste/](https://www.visualcapitalist.com/cp/charting-the-movement-of-global-plastic-waste/)
 
-![Plastic waste](/img/week11-0.png)
+![Plastic waste](/images/sections/consumption-and-media/week11-0.png)
 
 | Rank | Country | Exported Plastic Waste (2020) |
 | --- | --- | --- |
@@ -1746,7 +1746,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 - US companies, although I recently found out Trader Joe’s is owned by Aldi. Either way, something to consider.
 - See also: One of the best South Park episodes in a while - [https://southpark.fandom.com/wiki/Japanese_Toilet](https://southpark.fandom.com/wiki/Japanese_Toilet)
 
-![Toilet paper brands](/img/week11-2.png)
+![Toilet paper brands](/images/sections/consumption-and-media/week11-2.png)
 
 ## That rocks: Study estimates novel rock crushing process could capture 0.5 per cent of global CO2
 
@@ -1760,7 +1760,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.facebook.com/story.php?story_fbid=pfbid0ydcYN8MQKiNq5oGVGY8rJGFb5Hm1JLZvQxhYJFkFiGvF3QaFUBeK9HVUop2cFMrol&id=100064842364566](https://www.facebook.com/story.php?story_fbid=pfbid0ydcYN8MQKiNq5oGVGY8rJGFb5Hm1JLZvQxhYJFkFiGvF3QaFUBeK9HVUop2cFMrol&id=100064842364566)
 
-![Gardens vs nature](/img/week11-3.png)
+![Gardens vs nature](/images/sections/consumption-and-media/week11-3.png)
 
 ## 10 Types of Innovation: The Art of Discovering a Breakthrough Product
 
@@ -1769,7 +1769,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 - Based on the book “Ten Types of Innovation: The Discipline of Building Breakthroughs”
 - Link to a PDF summary of tactics for each type is broken, but thanks to the Internet Archive it still exists: [https://web.archive.org/web/20200429223947/https://doblin.com/dist/images/uploads/TenTypesInnovation.pdf](https://web.archive.org/web/20200429223947/https://doblin.com/dist/images/uploads/TenTypesInnovation.pdf)
 
-![Innovation types](/img/week11-4.png)
+![Innovation types](/images/sections/consumption-and-media/week11-4.png)
 
 ## How the Housing Market Screwed Young People
 
@@ -1789,7 +1789,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.aspi.org.au/report/critical-technology-tracker](https://www.aspi.org.au/report/critical-technology-tracker)
 
-![China's domination](/img/week11-1.png)
+![China's domination](/images/sections/consumption-and-media/week11-1.png)
 
 ## Solar Panels Floating on Reservoirs Could Provide a Third of the World’s Electricity
 
@@ -1872,7 +1872,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.visualcapitalist.com/cp/visualized-heads-of-state-each-country-by-age/](https://www.visualcapitalist.com/cp/visualized-heads-of-state-each-country-by-age/)
 
-![Heads of states](/img/week12-0.png)
+![Heads of states](/images/sections/consumption-and-media/week12-0.png)
 
 ## Visualizing 90 Years of Stock and Bond Portfolio Performance
 
@@ -1915,7 +1915,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.guinnessworldrecords.com/world-records/380709-largest-gps-drawing-by-cycle-team](https://www.guinnessworldrecords.com/world-records/380709-largest-gps-drawing-by-cycle-team)
 
-![GPS drawing](/img/week12-1.png)
+![GPS drawing](/images/sections/consumption-and-media/week12-1.png)
 
 ## Oxfam‘s bizarre’ language guide says sorry for using English and warns staff not to use words like 'mother and people'
 
@@ -1937,7 +1937,7 @@ Germany, which is the world’s largest exporter of plastic scraps and waste at 
 
 [https://www.abc.net.au/news/2023-03-24/happy-the-calf-to-live-life-as-a-mascot-after-being-sold/102129472](https://www.abc.net.au/news/2023-03-24/happy-the-calf-to-live-life-as-a-mascot-after-being-sold/102129472)
 
-![Hapypy calf](/img/week12-2.png)
+![Hapypy calf](/images/sections/consumption-and-media/week12-2.png)
 
 ## Quotes
 
@@ -1959,7 +1959,7 @@ I decided to scrap the categories, as there is a lot of overlap. They’re still
 
 - The price of solar, onshore wind, and offshore wind have fallen by 62%, 55%, and 75% in under a decade. The main obstacles to generating more energy from wind and solar now are a broken planning system and archaic regulation for grid connections. It is not inevitable that it should take 12 years to build a new wind farm, 4 years to build a new solar farm, or 8 years to build a new transmission line to take energy to where it is most needed.
 
-![Offshore wind timeline](/img/week13-0.png)
+![Offshore wind timeline](/images/sections/consumption-and-media/week13-0.png)
 
 ## The road to autonomous driving is winding
 
@@ -1967,7 +1967,7 @@ I decided to scrap the categories, as there is a lot of overlap. They’re still
 
 - JG: A number of articles on the future of mobility covering areas including regulation, technologies (including autonomy and robo-vehicles), customers, profit models, barriers (charging, geopolitics, supply shortages, etc). I’m a big fan of minimobility (1~2 seaters):
 
-![Minimobility](/img/week13-1.png)
+![Minimobility](/images/sections/consumption-and-media/week13-1.png)
 
 ## What is a 15-minute city and why is the idea so controversial?
 
@@ -2090,7 +2090,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://climate-hack.beehiiv.com/p/80-uk-climate-tech-startups](https://climate-hack.beehiiv.com/p/80-uk-climate-tech-startups)
 
-![Untitled](/img/week14-0.png)
+![Untitled](/images/sections/consumption-and-media/week14-0.png)
 
 ## This hypersonic hydrogen jet takes 4 hours to fly from Europe to Australia
 
@@ -2107,7 +2107,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 - Helixx vehicles are locally manufactured within the company’s licensed Mobility Hubs and are available through a business-to-business fleet subscription pricing model starting at just $0.25 per hour, providing an accessible option for commercial users.
 
-![Untitled](/img/week14-1.png)
+![Untitled](/images/sections/consumption-and-media/week14-1.png)
 
 ## Putting an autonomous vehicle to the test in downtown London
 
@@ -2128,9 +2128,9 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 - The only reason we think we need cars to get around, is because we have wasted most of our space on accommodating cars, which spread everything out so far (and made everything so loud and dangerous) that nobody feels like walking or biking! [JG: Particularly in the US]
 
-![Untitled](/img/week14-2.png)
+![Untitled](/images/sections/consumption-and-media/week14-2.png)
 
-![Untitled](/img/week14-3.png)
+![Untitled](/images/sections/consumption-and-media/week14-3.png)
 
 ## Research estimates EV drivers could earn billions of pounds selling power back to the grid
 
@@ -2239,7 +2239,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://cleantechnica.com/2023/03/28/research-confirms-risks-of-deep-sea-mining-are-greater-than-the-rewards/](https://cleantechnica.com/2023/03/28/research-confirms-risks-of-deep-sea-mining-are-greater-than-the-rewards/)
 
-![Untitled](/img/week14-4.png)
+![Untitled](/images/sections/consumption-and-media/week14-4.png)
 
 ## [The Big Green Money Show] Medicines and Healthcare, with GSK
 
@@ -2293,9 +2293,9 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 - But even though it was 1875 math, I’d say it was pretty close.
 
-![Untitled](/img/week14-5.png)
+![Untitled](/images/sections/consumption-and-media/week14-5.png)
 
-![Untitled](/img/week14-6.png)
+![Untitled](/images/sections/consumption-and-media/week14-6.png)
 
 ## Companies by SIC section and turnover size
 
@@ -2384,13 +2384,13 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://wonderfulengineering.com/japanese-rail-workers-build-adorable-track-underpasses-for-turtles/](https://wonderfulengineering.com/japanese-rail-workers-build-adorable-track-underpasses-for-turtles/)
 
-![Turtle underpass](/img/week15.png)
+![Turtle underpass](/images/sections/consumption-and-media/week15.png)
 
 ## 2023 Levelized Cost Of Energy+
 
 [https://www.lazard.com/research-insights/2023-levelized-cost-of-energyplus/](https://www.lazard.com/research-insights/2023-levelized-cost-of-energyplus/)
 
-![Lazard LCoE](/img/week16-0.png)
+![Lazard LCoE](/images/sections/consumption-and-media/week16-0.png)
 
 ## Solarge Debuts Lightweight Fully Recyclable Solar Panels
 
@@ -2466,13 +2466,13 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 5. Technology changes—e.g. AI.
 - Because populists are so committed to winning at all costs and are unwilling to compromise, more-intense-than-expected battles are more likely. Each one of these forces is a part of the system. For example, the debt ceiling increase will not go as smoothly as most people expect and will likely become a big election issue that will split the country because both sides will fight for victories and will be less willing to compromise. Also, in this election year, aggressiveness with China will intensify because most everyone is anti-China, so those running will want to outdo each other with their China-bashing. Continuing engagement between US and Taiwanese leaders will likely still happen, which, together with the Gallagher House Select Committee on the Chinese Communist Party hearings, will push the US-China conflict closer to the brink (or over the brink).
 
-![Where we are](/img/week16-1.png)
+![Where we are](/images/sections/consumption-and-media/week16-1.png)
 
 ## The Most Bizarre Economics Research Ever? - Economics Explained Essentials
 
 [https://youtu.be/lJ0U4p2A14Y](https://youtu.be/lJ0U4p2A14Y)
 
-![Menstrual cycle vs income](/img/week16-2.png)
+![Menstrual cycle vs income](/images/sections/consumption-and-media/week16-2.png)
 
 ## Why Kangaroos are Scarier Than You Think - Real Science
 
@@ -2508,7 +2508,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 - JG: Super cool. A metal with memory: set a shape when it’s hot, deform it when it’s cold, but when it’s re-heated, it returns to its original shape. It’s also super stretchy.
 - [Summarize.tech](http://Summarize.tech) summary: NASA has developed a metal alloy that can stretch up to 30 times its original size without deforming and can spring back to its initial size with no damage, allowing the creation of airless tires suitable for low-pressure conditions on other planets. Nitinol, the nickel and titanium alloy, has great elasticity, can endure more stress than steel and maintains its shape when heated, making it an excellent material for making wheels. Nitinol tires can stretch up to 8% of its length without causing permanent damage, and the unique properties of nitinol make it useful for creating complete suspension systems without adding weight. Nitinol is also used in medical stents and actuators that generate significant force. Furthermore, Henson Shaving produced a lifetime razor that is modeled after aerospace technology.
 
-![Nitinol](/img/week17.png)
+![Nitinol](/images/sections/consumption-and-media/week17.png)
 
 ## Big Oil Profits Reached Record High Levels in 2022
 
@@ -2543,7 +2543,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://www.carbonbrief.org/qa-what-does-the-eus-new-deforestation-law-mean-for-climate-and-biodiversity/](https://www.carbonbrief.org/qa-what-does-the-eus-new-deforestation-law-mean-for-climate-and-biodiversity/)
 
-![Deforestation](/img/week17-1.png)
+![Deforestation](/images/sections/consumption-and-media/week17-1.png)
 
 ## Jellyfish-inspired robot can gently remove ocean waste without harming marine life
 
@@ -2563,9 +2563,9 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 ## Marketing vs Sales and the Death/Dead Zone - FourWeekMBA
 
-![Marketing vs sales](/img/week17-2.png)
+![Marketing vs sales](/images/sections/consumption-and-media/week17-2.png)
 
-![Death zone](/img/week17-3.png)
+![Death zone](/images/sections/consumption-and-media/week17-3.png)
 
 ## [The Documentary Podcast] Murder in Mayfair
 
@@ -2595,13 +2595,13 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://www.visualcapitalist.com/cp/which-jobs-artificial-intelligence-gpt-impact/](https://www.visualcapitalist.com/cp/which-jobs-artificial-intelligence-gpt-impact/)
 
-![AI jobs](/img/week18.png)
+![AI jobs](/images/sections/consumption-and-media/week18.png)
 
 ## These Skills and Jobs Will Be Most in Demand as AI Churns the Market
 
 [https://singularityhub.com/2023/05/03/a-quarter-of-jobs-will-change-in-the-next-5-years/](https://singularityhub.com/2023/05/03/a-quarter-of-jobs-will-change-in-the-next-5-years/)
 
-![AI jobs](/img/week18-1.png)
+![AI jobs](/images/sections/consumption-and-media/week18-1.png)
 
 ## What I Think Is Going On 1) with China-US Relations, 2) with Their Relations with Other Countries, and 3) in China
 
@@ -2618,7 +2618,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 - Mapping 3D space onto a 2D plane in the brain seems to explain why our nervous system is cross-wired: Counterintuitive as it may seem, directing nerve fibers across the midline is the topologically simplest way to avoid errors.
 - Since left and right depend on a frame of reference, people frequently confuse the letters “d” and “b,” and “p” and “q,” but they rarely confuse “q” and “d.” In the first two cases, the identical shapes are flipped along the vertical axis (swapping left and right), and in the second, they are flipped along the horizontal axis (swapping up and down). As bilaterally symmetrical creatures we never mistake up and down, because those directions are always the same, regardless of viewpoint, but left and right are relative to an object.
 
-![Crossed wires](/img/week18-2.png)
+![Crossed wires](/images/sections/consumption-and-media/week18-2.png)
 
 ## The Modern World Is Aging Your Brain
 
@@ -2777,7 +2777,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 - Wiki: Crony capitalism, sometimes called cronyism, is an economic system in which businesses thrive not as a result of free enterprise, but rather as a return on money amassed through collusion between a business class and the political class.
 - This year the publication details 2,640 billionaires worth $12trn or 12% of gdp. Most of those listed do not operate in rent-seeking (an economic rent is the surplus remaining once capital and labour have been paid which, with perfect competition, tends towards zero) sectors.
 
-![Untitled](/img/week20.png)
+![Untitled](/images/sections/consumption-and-media/week20.png)
 
 ## BT to axe up to 55,000 jobs by 2030 as it pushes into AI
 
@@ -2883,7 +2883,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 - Very funny, yet interesting.
 
-![Baby](/img/week21.png)
+![Baby](/images/sections/consumption-and-media/week21.png)
 
 ## The Math behind QR code, what happens inside there?
 
@@ -2897,7 +2897,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 - ~20,000 companies registered to a Chinese takeaway
 
-![Chinese takeaway](/img/week21-1.png)
+![Chinese takeaway](/images/sections/consumption-and-media/week21-1.png)
 
 ## [The Leader | Evening Standard daily] The sour truth of Oxford Street’s candy shop curse
 
@@ -2924,7 +2924,7 @@ Tags: Bankruptcy, Scams, Unethical
 
 [https://www.visualcapitalist.com/cp/number-democracies-globally](https://www.visualcapitalist.com/cp/number-democracies-globally/)
 
-![Democracies](/img/week22.png)
+![Democracies](/images/sections/consumption-and-media/week22.png)
 
 Tags: Democracy, Politics
 
@@ -2948,7 +2948,7 @@ Tags: Demographics, Aging
 
 [https://www.visualcapitalist.com/population-pyramids-compared/](https://www.visualcapitalist.com/population-pyramids-compared/)
 
-![Population pyramics](/img/week22-1.png)
+![Population pyramics](/images/sections/consumption-and-media/week22-1.png)
 
 Tags: Demographics
 
@@ -3072,13 +3072,13 @@ Tags: Greenwashing, Advertising
 
 [https://www.visualcapitalist.com/fastest-rising-asset-classes-in-2023/](https://www.visualcapitalist.com/fastest-rising-asset-classes-in-2023/)
 
-![Asset classes](/img/week23.png)
+![Asset classes](/images/sections/consumption-and-media/week23.png)
 
 Tags: Investing, Stocks, Stock Market
 
 ## Mapped: The Growth in House Prices by Country
 
-![House prices](/img/week23-1.png)
+![House prices](/images/sections/consumption-and-media/week23-1.png)
 
 Tags: Housing
 
@@ -3113,7 +3113,7 @@ Tags: Biographies, Inspirational, Success
 
 [https://www.visualcapitalist.com/economic-freedom-map-2023/](https://www.visualcapitalist.com/economic-freedom-map-2023/)
 
-![Economic freedom](/img/week23-2.png)
+![Economic freedom](/images/sections/consumption-and-media/week23-2.png)
 
 Tags: Regulation, Entrepreneurship, Business, Politics
 
@@ -3212,7 +3212,7 @@ Tags: Heating, Energy Efficiency
 
 [https://www.visualcapitalist.com/10-year-annualized-forecasts-for-major-asset-classes/](https://www.visualcapitalist.com/10-year-annualized-forecasts-for-major-asset-classes/)
 
-![Asset forecasts](/img/week24.png)
+![Asset forecasts](/images/sections/consumption-and-media/week24.png)
 
 Tags: Investing, Stocks
 
@@ -3285,7 +3285,7 @@ Tags: EVs, Batteries
 
 [https://www.visualcapitalist.com/life-cycle-emissions-evs-vs-combustion-engine-vehicles/](https://www.visualcapitalist.com/life-cycle-emissions-evs-vs-combustion-engine-vehicles/)
 
-![EV emissions](/img/week25.png)
+![EV emissions](/images/sections/consumption-and-media/week25.png)
 
 - And the potential to reduce far further when the electricity production becomes sustainable.
 
@@ -3293,7 +3293,7 @@ Tags: EVs, Emissions, Carbon
 
 ## Interactive: Comparing Carmaker Revenue vs. Country GDP
 
-![Carmakers vs GDPs](/img/week25-1.png)
+![Carmakers vs GDPs](/images/sections/consumption-and-media/week25-1.png)
 
 Tags: EVs, Economies
 
@@ -3357,7 +3357,7 @@ Tags: Persuasion, Communication, Language
 - Kleck (1980) told his research subjects they’d engage in a study to test discrimination. He painted scars on some of their faces, and then had them attend job interviews. The participants with scars painted on their faces reported feeling discriminated against for their looks. However, unknown to them, their scars had been removed before they entered the interviews. It would seem we can be victimized by the mere belief that we’re a victim.
 - How do "kind" falsehoods like "sex is a spectrum" and "obesity is healthy" go mainstream? Activists with PhDs use academic journals & scientific jargon to disguise ideology as knowledge, which is then cited as fact by the media & Wikipedia.
 
-![Happiness vs age](/img/week25-2.png)
+![Happiness vs age](/images/sections/consumption-and-media/week25-2.png)
 
 Tags: Mental Models, Talent, Skill, Mindset, Happiness
 
@@ -3402,7 +3402,7 @@ Tags: TV, Future, Sci-Fi
 
 [https://www.economist.com/graphic-detail/2023/06/21/the-worlds-most-liveable-cities-in-2023](https://www.economist.com/graphic-detail/2023/06/21/the-worlds-most-liveable-cities-in-2023)
 
-![Liveable cities](/img/week26.png)
+![Liveable cities](/images/sections/consumption-and-media/week26.png)
 
 Tags: Liveability, Education, Healthcare, Infrastructure, Stability, Culture, Cost of Living, Politics, Travel
 
@@ -3437,7 +3437,7 @@ Tags: Energy Networks, Electricity, Transmission
 
 [https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/chart-of-the-day/land-squeeze](https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/chart-of-the-day/land-squeeze)
 
-![Wind power in Germany](/img/week26-1.png)
+![Wind power in Germany](/images/sections/consumption-and-media/week26-1.png)
 
 Tags: Renewable Energy, Wind, Regulation
 
@@ -3479,7 +3479,7 @@ Tags: Business, Economics, Profits, Wages, Inflation
 
 [https://www.visualcapitalist.com/sp/ranking-industries-by-their-potential-for-ai-automation/](https://www.visualcapitalist.com/sp/ranking-industries-by-their-potential-for-ai-automation/)
 
-![AI industries](/img/week26-2.png)
+![AI industries](/images/sections/consumption-and-media/week26-2.png)
 
 Tags: AI, Jobs, Future
 
@@ -3487,7 +3487,7 @@ Tags: AI, Jobs, Future
 
 [https://xkcd.com/2794/](https://xkcd.com/2794/)
 
-![xkcd alphabet](/img/week26-3.png)
+![xkcd alphabet](/images/sections/consumption-and-media/week26-3.png)
 
 Tags: Language, Comic
 
@@ -3513,7 +3513,7 @@ Tags: EVs, Hydrogen
 
 [https://www.standard.co.uk/homesandproperty/property-news/london-s-property-market-heatmap-postcodes-biggest-discounts-b1090904.html](https://www.standard.co.uk/homesandproperty/property-news/london-s-property-market-heatmap-postcodes-biggest-discounts-b1090904.html)
 
-![London house prices](/img/week27.png)
+![London house prices](/images/sections/consumption-and-media/week27.png)
 
 Tags: Housing, London, Cost of Living
 
@@ -3635,7 +3635,7 @@ Tags: Health, Exercise, Diet, Meditation
 
 - The maths went way over my head, but it’s pretty cool.
 
-![Square wheeled car](/img/week27-1.png)
+![Square wheeled car](/images/sections/consumption-and-media/week27-1.png)
 
 Tags: Maths, Science, Engineering
 
@@ -3727,7 +3727,7 @@ Tags: Food, Waste, Innovation
 
 [https://www.visualcapitalist.com/cp/mapped-meat-consumption-by-country-and-type/](https://www.visualcapitalist.com/cp/mapped-meat-consumption-by-country-and-type/)
 
-![Meat Consumption](/img/week28.png)
+![Meat Consumption](/images/sections/consumption-and-media/week28.png)
 
 Tags: Food, Meat
 
@@ -3836,9 +3836,9 @@ Tags: EVs, China
 
 [https://www.bcg.com/publications/2023/next-generation-climate-mitigation-technologies](https://www.bcg.com/publications/2023/next-generation-climate-mitigation-technologies)
 
-![Valley of Death](/img/week29-0.png)
+![Valley of Death](/images/sections/consumption-and-media/week29-0.png)
 
-![Emerging Climate Technologies](/img/week29-1.png)
+![Emerging Climate Technologies](/images/sections/consumption-and-media/week29-1.png)
 
 Tags: Sustainability, Climate Change, Opportunity, EVs, Funding
 
@@ -3956,7 +3956,7 @@ Tags: Climate, Law
 
 [https://www.visualcapitalist.com/top-economies-in-the-world-1980-2075/](https://www.visualcapitalist.com/top-economies-in-the-world-1980-2075/)
 
-![Untitled](/img/week30.png)
+![Untitled](/images/sections/consumption-and-media/week30.png)
 
 Tags: Economies, Geopolitics, Future, Predictions
 
@@ -3964,7 +3964,7 @@ Tags: Economies, Geopolitics, Future, Predictions
 
 [https://www.visualcapitalist.com/top-100-brand-value-2023/](https://www.visualcapitalist.com/top-100-brand-value-2023/)
 
-![Untitled](/img/week30-1.png)
+![Untitled](/images/sections/consumption-and-media/week30-1.png)
 
 Tags: Business, Companies
 
@@ -4057,7 +4057,7 @@ Tags: Meditations, Reflections, Life
 - The number of pregnancies deemed to require caesarean sections has gradually increased because this method of delivering babies is more profitable. Likewise, if you’re simply sad then medical companies can’t monetize you, but if your distress is reclassified as, say, gender dysphoria, those companies can sell you puberty blockers or surgical procedures.
 - Research shows conservatives tend to have an internal locus of control, which means they believe that their decisions, as opposed to external forces, control their destiny. Liberals, meanwhile, tend to have an external locus, which means they believe their lives are determined by forces beyond their control.
     
-    ![Untitled](/img/week30-2.png)
+    ![Untitled](/images/sections/consumption-and-media/week30-2.png)
     
 - The polar opposite of pathologization is Cognitive Behavioural Therapy (CBT). Although referred to as therapy, it’s closer to a form of mental training. Based on the Ancient Greek philosophy of Stoicism, it teaches a lesson the West has all but forgotten: that our feelings are not always valid, but often deluded and self-destructive. It trains people to overcome harmful emotions by reframing harmful thoughts into alternatives that are more agentic and soluble. So, “That made me angry” becomes “I reacted to that by getting angry.” And “Life sucks” becomes “I feel like life sucks right now.” Where pathologization places problems outside your control, CBT places them within your control. Where pathologization bundles many small issues into one giant insurmountable problem, CBT breaks down giant problems into small manageable pieces.
 
@@ -4085,7 +4085,7 @@ Tags: War, Korea, North Korea
 
 [https://xkcd.com/2807/](https://xkcd.com/2807/)
 
-![Untitled](/img/week30-3.png)
+![Untitled](/images/sections/consumption-and-media/week30-3.png)
 
 Tags: Maps, Geography, Comics
 
@@ -4116,7 +4116,7 @@ Tags: Trends, Future
 
 [https://www.gov.uk/government/publications/national-risk-register-2023](https://www.gov.uk/government/publications/national-risk-register-2023)
 
-![Risk Register](/img/week31.png)
+![Risk Register](/images/sections/consumption-and-media/week31.png)
 
 Tags: Risks, Future, Geopolitics, Threats
 
@@ -4149,7 +4149,7 @@ Tags: Business, Entrepreneurship, Market Research, Personal Development, Social,
 
 [https://www.visualcapitalist.com/the-top-performing-sp-500-sectors-over-the-business-cycle/](https://www.visualcapitalist.com/the-top-performing-sp-500-sectors-over-the-business-cycle/)
 
-![S&P Sector Performance](/img/week31-1.png)
+![S&P Sector Performance](/images/sections/consumption-and-media/week31-1.png)
 
 |  | Recession | Recovery | Expansion | Slowdown | Average | Weighted Average |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -4185,7 +4185,7 @@ Tags: Reuse, Innovation, Sustainability, Batteries, Agriculture, Plastic, Waste
 
 - A wonderful little animation.
 
-![Lithium Battery Charging](/img/week31-2.png)
+![Lithium Battery Charging](/images/sections/consumption-and-media/week31-2.png)
 
 Tags: Batteries, Safety, EVs
 
@@ -4321,9 +4321,9 @@ Tags: EVs, CCUS, Sustainability
 
 [https://www.energy.gov/eere/articles/us-department-energy-releases-2023-critical-materials-assessment-evaluate-supply](https://www.energy.gov/eere/articles/us-department-energy-releases-2023-critical-materials-assessment-evaluate-supply)
 
-![Short term assessment](/img/week32.png)
+![Short term assessment](/images/sections/consumption-and-media/week32.png)
 
-![Long term assessment](/img/week32-1.png)
+![Long term assessment](/images/sections/consumption-and-media/week32-1.png)
 
 Tags: Materials, Minerals, Sustainability, Supply Chain, Scarcity
 
@@ -4339,7 +4339,7 @@ Tags: Solar, Renewable Energy, Innovation
 
 [https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/enabling-renewable-energy-with-battery-energy-storage-systems](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/enabling-renewable-energy-with-battery-energy-storage-systems)
 
-![BES value chain](/img/week32-2.png)
+![BES value chain](/images/sections/consumption-and-media/week32-2.png)
 
 Tags: Batteries, Energy Storage, Value Chain
 
@@ -4431,9 +4431,9 @@ Tags: Innovation, Future, Technology, Batteries, AI, Air Travel, Medicine, Healt
 
 [https://www.nrel.gov/news/program/2023/how-do-we-inventory-the-materials-needed-to-build-wind-and-solar-farms.html](https://www.nrel.gov/news/program/2023/how-do-we-inventory-the-materials-needed-to-build-wind-and-solar-farms.html)
 
-![Untitled](/img/week33.png)
+![Untitled](/images/sections/consumption-and-media/week33.png)
 
-![Untitled](/img/week33-1.png)
+![Untitled](/images/sections/consumption-and-media/week33-1.png)
 
 Tags: Renewable Energy, Wind, Solar, Resources, Materials
 
@@ -4536,7 +4536,7 @@ Tags: Jobs, Interviews, Negotiation
 
 ## Visualizing the Future Global Economy by GDP in 2050
 
-![Future GDP](/img/week34.png)
+![Future GDP](/images/sections/consumption-and-media/week34.png)
 
 Tags: Future, Economies, Geopolitics, Predictions
 
@@ -4544,7 +4544,7 @@ Tags: Future, Economies, Geopolitics, Predictions
 
 [https://www.visualcapitalist.com/cp/china-trade-partners/](https://www.visualcapitalist.com/cp/china-trade-partners/)
 
-![China's Trade Partners](/img/week34-1.png)
+![China's Trade Partners](/images/sections/consumption-and-media/week34-1.png)
 
 Tags: China, Trade, Geopolitics
 
@@ -4552,9 +4552,9 @@ Tags: China, Trade, Geopolitics
 
 [https://www.artofmanliness.com/career-wealth/career/the-power-of-the-third-space-how-to-set-yourself-up-for-success-for-the-next-thing-in-life/](https://www.artofmanliness.com/career-wealth/career/the-power-of-the-third-space-how-to-set-yourself-up-for-success-for-the-next-thing-in-life/)
 
-![Microtransaction](/img/week34-2.png)
+![Microtransaction](/images/sections/consumption-and-media/week34-2.png)
 
-![Third Space Phases](/img/week34-3.png)
+![Third Space Phases](/images/sections/consumption-and-media/week34-3.png)
 
 Reflect
 
@@ -4703,7 +4703,7 @@ Tags: Career, Passion
 - One model is to have the battery manufacturer, carmaker or a third party own the battery throughout its life. A battery manufacturer could lease the battery to a carmaker, then a consumer, and then reuse or recycle it after it can no longer power a vehicle.
 - A battery no longer suitable for use in a vehicle still has the potential to be used for other purposes, ranging from lighting streets and homes to powering appliances or offering energy storage.
 
-![Battery recycling](/img/week37.png)
+![Battery recycling](/images/sections/consumption-and-media/week37.png)
 
 Tags: EVs, Batteries, Recycling, Circular Economy
 
@@ -4799,7 +4799,7 @@ Tags: Animals
 
 [https://www.visualcapitalist.com/cp/most-searched-electric-vehicles-by-country/](https://www.visualcapitalist.com/cp/most-searched-electric-vehicles-by-country/)
 
-![EVs by country](/img/week39.png)
+![EVs by country](/images/sections/consumption-and-media/week39.png)
 
 Tags: EVs
 
@@ -4816,7 +4816,7 @@ Tags: Heating, Cooling, Housing
 
 [https://interestingengineering.com/innovation/coating-that-works-in-winters-summers](https://interestingengineering.com/innovation/coating-that-works-in-winters-summers)
 
-![Temp vs colour](/img/week39-1.png)
+![Temp vs colour](/images/sections/consumption-and-media/week39-1.png)
 
 Tags: Heating, Cooling, Housing
 
@@ -4878,7 +4878,7 @@ Tags: Success, Learning, Mastery, Skills
 
 [https://www.visualcapitalist.com/ranked-the-worlds-top-10-automotive-exporters-2000-2022/](https://www.visualcapitalist.com/ranked-the-worlds-top-10-automotive-exporters-2000-2022/)
 
-![Automotive exporters](/img/week40.png)
+![Automotive exporters](/images/sections/consumption-and-media/week40.png)
 
 Tags: Cars, EVs, Trade
 
@@ -5055,7 +5055,7 @@ Tags: Health, Environment, Chemicals
 
 [https://www.mckinsey.com/mgi/our-research/global-trade-explorer-how-interdependent-are-two-economies](https://www.mckinsey.com/mgi/our-research/global-trade-explorer-how-interdependent-are-two-economies)
 
-![China US trade](/img/weeks41-43.png)
+![China US trade](/images/sections/consumption-and-media/weeks41-43.png)
 
 Tags: Trade, China
 
@@ -5063,7 +5063,7 @@ Tags: Trade, China
 
 [https://www.visualcapitalist.com/sp/ranked-the-worlds-most-sustainable-economies-in-2023/](https://www.visualcapitalist.com/sp/ranked-the-worlds-most-sustainable-economies-in-2023/)
 
-![Sustainable economies](/img/week44.png)
+![Sustainable economies](/images/sections/consumption-and-media/week44.png)
 
 Tags: Economics, Societies, Environment
 
@@ -5093,7 +5093,7 @@ Tags: Chemicals, Health
 
 - Choose Planet A’s the Good Cup is glued together with a water-based coating, called aqueous, that makes it leak-proof, recyclable (up to seven times), and even biodegradable. “If you throw it in the water or the forest,” Choose Planet A’s co-founder and managing director Cyril Drouet says, “it will biodegrade and disappear.” The cup also has a foldable paper lid, cutting the need for a plastic top.
 
-![Good Cup](/img/week44-1.png)
+![Good Cup](/images/sections/consumption-and-media/week44-1.png)
 
 Tags: Recycling, Paper, Plastic, Coffee
 
@@ -5231,7 +5231,7 @@ Tags: Stock Markets, Economics, Globalisation, Investing
 
 [https://www.visualcapitalist.com/north-korean-defectors-escape-routes/](https://www.visualcapitalist.com/north-korean-defectors-escape-routes/)
 
-![NK Defectors](/img/week44-2.png)
+![NK Defectors](/images/sections/consumption-and-media/week44-2.png)
 
 Tags: North Korea
 
@@ -5321,7 +5321,7 @@ Tags: Life, Attitude
 
 [https://www.visualcapitalist.com/cost-of-insulin-by-country/](https://www.visualcapitalist.com/cost-of-insulin-by-country/)
 
-![Insulin costs](/img/week46.png)
+![Insulin costs](/images/sections/consumption-and-media/week46.png)
 
 Tags: Pricing, Price Gouging, Corporate Greed
 
@@ -5342,28 +5342,28 @@ Tags: Learning
 
 1. Anders Ericsson: deliberate practice
     
-    ![Untitled](/img/week46-1.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-1.png)
     
 2. John Sweller: cognitive load, examples can be better than problem-solving
     
-    ![Untitled](/img/week46-2.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-2.png)
     
 3. Robert Bjork: desirable difficulties (spacing, retrieval, variability)
     
-    ![Untitled](/img/week46-3.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-3.png)
     
 4. Michelene Chi: concepts over superficial understanding
 5. Herbert Simon: reducing the problem space
     
-    ![Untitled](/img/week46-4.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-4.png)
     
 6. John Anderson: declarative (facts) and procedural memory
     
-    ![Untitled](/img/week46-5.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-5.png)
     
 7. Walter Kintsch: battle conflicting ideas to see which wins
     
-    ![Untitled](/img/week46-6.png)
+    ![Untitled](/images/sections/consumption-and-media/week46-6.png)
     
 
 Tags: Learning
@@ -5372,7 +5372,7 @@ Tags: Learning
 
 [https://www.visualcapitalist.com/cp/hours-worked-vs-salaries-in-oecd-countries/](https://www.visualcapitalist.com/cp/hours-worked-vs-salaries-in-oecd-countries/)
 
-![Hours vs salaries](/img/week47.png)
+![Hours vs salaries](/images/sections/consumption-and-media/week47.png)
 
 Tags: Work, Work-Life Balance
 
@@ -5446,11 +5446,11 @@ Tags: Language
 
 [https://www.nytimes.com/interactive/2017/05/14/upshot/if-americans-can-find-north-korea-on-a-map-theyre-more-likely-to-prefer-diplomacy.html](https://www.nytimes.com/interactive/2017/05/14/upshot/if-americans-can-find-north-korea-on-a-map-theyre-more-likely-to-prefer-diplomacy.html)
 
-![Map](/img/week47-1.png)
+![Map](/images/sections/consumption-and-media/week47-1.png)
 
-![Democracy stats](/img/week47-2.png)
+![Democracy stats](/images/sections/consumption-and-media/week47-2.png)
 
-![Demographics stats](/img/week47-3.png)
+![Demographics stats](/images/sections/consumption-and-media/week47-3.png)
 
 Tags: USA, North Korea, Ignorance, Geography, Geopolitics, Democracy
 
@@ -5474,7 +5474,7 @@ Tags: Plastic, Environment, Sustainability
 
 [https://www.youtube.com/watch?v=Nd6C0y8xc20](https://www.youtube.com/watch?v=Nd6C0y8xc20)
 
-![Uniwheel](/img/week48.png)
+![Uniwheel](/images/sections/consumption-and-media/week48.png)
 
 Tags: Cars, Innovation
 
@@ -5482,7 +5482,7 @@ Tags: Cars, Innovation
 
 [https://www.visualcapitalist.com/cp/global-coffee-trade/](https://www.visualcapitalist.com/cp/global-coffee-trade/)
 
-![Coffee trade](/img/week48-1.png)
+![Coffee trade](/images/sections/consumption-and-media/week48-1.png)
 
 Tags: Coffee, Trade
 
@@ -5490,7 +5490,7 @@ Tags: Coffee, Trade
 
 [https://www.visualcapitalist.com/visualizing-the-top-energy-priorities-of-major-countries/](https://www.visualcapitalist.com/visualizing-the-top-energy-priorities-of-major-countries/)
 
-![Energy priorities](/img/week48-2.png)
+![Energy priorities](/images/sections/consumption-and-media/week48-2.png)
 
 Tags: Energy, Cost of Living, Carbon Emissions, Deforestation
 
@@ -5508,7 +5508,7 @@ Tags: Innovation, Coffee, Plastics, Waste
 
 [https://www.visualcapitalist.com/charted-american-life-expectancy-trends-2023/](https://www.visualcapitalist.com/charted-american-life-expectancy-trends-2023/)
 
-![Life expectancy](/img/week48-3.png)
+![Life expectancy](/images/sections/consumption-and-media/week48-3.png)
 
 Tags: Life, Death, Statistics, Health
 
@@ -5516,7 +5516,7 @@ Tags: Life, Death, Statistics, Health
 
 [https://www.visualcapitalist.com/recession-risk-sectors-least-vulnerable/](https://www.visualcapitalist.com/recession-risk-sectors-least-vulnerable/)
 
-![Recession risk](/img/week48-4.png)
+![Recession risk](/images/sections/consumption-and-media/week48-4.png)
 
 Tags: Economy, Recession, Inflation, Interest Rates
 
@@ -5524,7 +5524,7 @@ Tags: Economy, Recession, Inflation, Interest Rates
 
 [https://www.consumerreports.org/cars/car-reliability-owner-satisfaction/who-makes-the-most-reliable-cars-a7824554938/](https://www.consumerreports.org/cars/car-reliability-owner-satisfaction/who-makes-the-most-reliable-cars-a7824554938/)
 
-![Car reliabilty](/img/week48-5.png)
+![Car reliabilty](/images/sections/consumption-and-media/week48-5.png)
 
 Tags: Cars, Quality, Reliability, Consumer Rights
 
@@ -5617,7 +5617,7 @@ Tags: Materials, Bedding, Household, Environment
 - Since thicker wood is strong, it could be a partially load-bearing light source, potentially acting as a ceiling that provides soft, ambient light to a room.
 - Transparent wood is a far better insulator than glass, so it could help buildings retain heat or keep it out.
 
-![Transparent wood process](/img/week49.png)
+![Transparent wood process](/images/sections/consumption-and-media/week49.png)
 
 ![Transparent wood](/img/week49.jpeg)
 
@@ -5669,7 +5669,7 @@ Tags: Illusions, Anagrams, AI
 
 - More innovation from Hyundai-Kia.
 
-![Snow chain tyre](/img/week50.png)
+![Snow chain tyre](/images/sections/consumption-and-media/week50.png)
 
 Tags: Innovation, Cars
 
@@ -5703,7 +5703,7 @@ Tags: Language, English, Optimisation
 
 [https://twitter.com/ichthys30/status/1734953685451460712](https://twitter.com/ichthys30/status/1734953685451460712)
 
-![How couples meet graph](/img/week50-1.png)
+![How couples meet graph](/images/sections/consumption-and-media/week50-1.png)
 
 Tags: Dating, Relationships
 
@@ -5810,7 +5810,7 @@ Tags: Life, Lifespan, Longevity, Animals, Nature, Fish
 
 - "I lost my daughter to suicide nearly four years ago and this is my way of getting people to have that moment of happiness.”
 
-![Gingerbread woman](/img/week50-2.png)
+![Gingerbread woman](/images/sections/consumption-and-media/week50-2.png)
 
 Tags: Fun, Funny, British
 
@@ -5953,7 +5953,7 @@ Tags: Marketing, Promotion
 
 [https://xkcd.com/2870/](https://xkcd.com/2870/)
 
-![XKCD love songs](/img/week51.png)
+![XKCD love songs](/images/sections/consumption-and-media/week51.png)
 
 Tags: Love, Relationships, Songs, Music
 
@@ -6063,7 +6063,7 @@ Tags: London, Funny
 
 [https://www.visualcapitalist.com/top-sp-500-stocks-over-20-years/](https://www.visualcapitalist.com/top-sp-500-stocks-over-20-years/)
 
-![S&P returns over 20 years](/img/week52.png)
+![S&P returns over 20 years](/images/sections/consumption-and-media/week52.png)
 
 Tags: Stocks, Stock Market, Investing
 

@@ -16,7 +16,7 @@ I decided to scrap the categories, as there is a lot of overlap. They’re still
 
 - The price of solar, onshore wind, and offshore wind have fallen by 62%, 55%, and 75% in under a decade. The main obstacles to generating more energy from wind and solar now are a broken planning system and archaic regulation for grid connections. It is not inevitable that it should take 12 years to build a new wind farm, 4 years to build a new solar farm, or 8 years to build a new transmission line to take energy to where it is most needed.
 
-![Offshore wind timeline](/img/week13-0.png)
+![Offshore wind timeline](/images/sections/consumption-and-media/week13-0.png)
 
 ## The road to autonomous driving is winding
 
@@ -24,7 +24,7 @@ I decided to scrap the categories, as there is a lot of overlap. They’re still
 
 - JG: A number of articles on the future of mobility covering areas including regulation, technologies (including autonomy and robo-vehicles), customers, profit models, barriers (charging, geopolitics, supply shortages, etc). I’m a big fan of minimobility (1~2 seaters):
 
-![Minimobility](/img/week13-1.png)
+![Minimobility](/images/sections/consumption-and-media/week13-1.png)
 
 ## What is a 15-minute city and why is the idea so controversial?
 

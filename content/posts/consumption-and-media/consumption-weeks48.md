@@ -10,7 +10,7 @@ date: 2023-12-03
 
 [https://www.youtube.com/watch?v=Nd6C0y8xc20](https://www.youtube.com/watch?v=Nd6C0y8xc20)
 
-![Uniwheel](/img/week48.png)
+![Uniwheel](/images/sections/consumption-and-media/week48.png)
 
 Tags: Cars, Innovation
 
@@ -18,7 +18,7 @@ Tags: Cars, Innovation
 
 [https://www.visualcapitalist.com/cp/global-coffee-trade/](https://www.visualcapitalist.com/cp/global-coffee-trade/)
 
-![Coffee trade](/img/week48-1.png)
+![Coffee trade](/images/sections/consumption-and-media/week48-1.png)
 
 Tags: Coffee, Trade
 
@@ -26,7 +26,7 @@ Tags: Coffee, Trade
 
 [https://www.visualcapitalist.com/visualizing-the-top-energy-priorities-of-major-countries/](https://www.visualcapitalist.com/visualizing-the-top-energy-priorities-of-major-countries/)
 
-![Energy priorities](/img/week48-2.png)
+![Energy priorities](/images/sections/consumption-and-media/week48-2.png)
 
 Tags: Energy, Cost of Living, Carbon Emissions, Deforestation
 
@@ -44,7 +44,7 @@ Tags: Innovation, Coffee, Plastics, Waste
 
 [https://www.visualcapitalist.com/charted-american-life-expectancy-trends-2023/](https://www.visualcapitalist.com/charted-american-life-expectancy-trends-2023/)
 
-![Life expectancy](/img/week48-3.png)
+![Life expectancy](/images/sections/consumption-and-media/week48-3.png)
 
 Tags: Life, Death, Statistics, Health
 
@@ -52,7 +52,7 @@ Tags: Life, Death, Statistics, Health
 
 [https://www.visualcapitalist.com/recession-risk-sectors-least-vulnerable/](https://www.visualcapitalist.com/recession-risk-sectors-least-vulnerable/)
 
-![Recession risk](/img/week48-4.png)
+![Recession risk](/images/sections/consumption-and-media/week48-4.png)
 
 Tags: Economy, Recession, Inflation, Interest Rates
 
@@ -60,7 +60,7 @@ Tags: Economy, Recession, Inflation, Interest Rates
 
 [https://www.consumerreports.org/cars/car-reliability-owner-satisfaction/who-makes-the-most-reliable-cars-a7824554938/](https://www.consumerreports.org/cars/car-reliability-owner-satisfaction/who-makes-the-most-reliable-cars-a7824554938/)
 
-![Car reliabilty](/img/week48-5.png)
+![Car reliabilty](/images/sections/consumption-and-media/week48-5.png)
 
 Tags: Cars, Quality, Reliability, Consumer Rights
 

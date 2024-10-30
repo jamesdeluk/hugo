@@ -22,9 +22,9 @@ Tags: EVs, China
 
 [https://www.bcg.com/publications/2023/next-generation-climate-mitigation-technologies](https://www.bcg.com/publications/2023/next-generation-climate-mitigation-technologies)
 
-![Valley of Death](/img/week29-0.png)
+![Valley of Death](/images/sections/consumption-and-media/week29-0.png)
 
-![Emerging Climate Technologies](/img/week29-1.png)
+![Emerging Climate Technologies](/images/sections/consumption-and-media/week29-1.png)
 
 Tags: Sustainability, Climate Change, Opportunity, EVs, Funding
 

@@ -86,13 +86,13 @@ Tags: Greenwashing, Advertising
 
 [https://www.visualcapitalist.com/fastest-rising-asset-classes-in-2023/](https://www.visualcapitalist.com/fastest-rising-asset-classes-in-2023/)
 
-![Asset classes](/img/week23.png)
+![Asset classes](/images/sections/consumption-and-media/week23.png)
 
 Tags: Investing, Stocks, Stock Market
 
 ## Mapped: The Growth in House Prices by Country
 
-![House prices](/img/week23-1.png)
+![House prices](/images/sections/consumption-and-media/week23-1.png)
 
 Tags: Housing
 
@@ -127,7 +127,7 @@ Tags: Biographies, Inspirational, Success
 
 [https://www.visualcapitalist.com/economic-freedom-map-2023/](https://www.visualcapitalist.com/economic-freedom-map-2023/)
 
-![Economic freedom](/img/week23-2.png)
+![Economic freedom](/images/sections/consumption-and-media/week23-2.png)
 
 Tags: Regulation, Entrepreneurship, Business, Politics
 

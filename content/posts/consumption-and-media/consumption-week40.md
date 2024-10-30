@@ -10,7 +10,7 @@ date: 2023-10-08
 
 [https://www.visualcapitalist.com/ranked-the-worlds-top-10-automotive-exporters-2000-2022/](https://www.visualcapitalist.com/ranked-the-worlds-top-10-automotive-exporters-2000-2022/)
 
-![Automotive exporters](/img/week40.png)
+![Automotive exporters](/images/sections/consumption-and-media/week40.png)
 
 Tags: Cars, EVs, Trade
 

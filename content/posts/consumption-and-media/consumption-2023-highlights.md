@@ -119,7 +119,7 @@ I’ve also noted my favourite movies/shows/books etc from the year at the end o
 
 ## And finally: Happy the calf
 
-![Happy the calf](/img/week12-2.png)
+![Happy the calf](/images/sections/consumption-and-media/week12-2.png)
 
 ## AI/LLM Analyses
 

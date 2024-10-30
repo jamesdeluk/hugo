@@ -20,7 +20,7 @@ date: 2023-02-19
 - Sunzuan's ingenuity lies in the use of bifacial solar modules in its design which negates the need to install the panels in a south-facing configuration [JG: in the northern hemisphere].
 - They can be used in existing fields and arable lands without sacrificing them and make it simpler to install the solar panels since no elevated platforms need to be built.
 
-![vertical pv](/img/week7-0.png)
+![vertical pv](/images/sections/consumption-and-media/week7-0.png)
 
 ### [Redefining Energy] 92. Who’s winning the battery arms race?
 
@@ -95,7 +95,7 @@ date: 2023-02-19
 
 [https://economicprinciples.org/downloads/DalioRay_Power_Index_Appendix.pdf](https://economicprinciples.org/downloads/DalioRay_Power_Index_Appendix.pdf)
 
-![power index](/img/week7-1.png)
+![power index](/images/sections/consumption-and-media/week7-1.png)
 
 ## Science, Technology, and Nature
 
@@ -109,7 +109,7 @@ date: 2023-02-19
 
 [https://cleantechnica.com/2023/02/16/toyota-creates-all-electric-drift-car-from-classic-hachi-roku/](https://cleantechnica.com/2023/02/16/toyota-creates-all-electric-drift-car-from-classic-hachi-roku/)
 
-![ev ae86](/img/week7-2.png)
+![ev ae86](/images/sections/consumption-and-media/week7-2.png)
 
 ### [Tech and Science Daily | Evening Standard] The Science of Love | Valentine's Day
 

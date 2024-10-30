@@ -10,7 +10,7 @@ date: 2023-10-01
 
 [https://www.visualcapitalist.com/cp/most-searched-electric-vehicles-by-country/](https://www.visualcapitalist.com/cp/most-searched-electric-vehicles-by-country/)
 
-![EVs by country](/img/week39.png)
+![EVs by country](/images/sections/consumption-and-media/week39.png)
 
 Tags: EVs
 
@@ -27,7 +27,7 @@ Tags: Heating, Cooling, Housing
 
 [https://interestingengineering.com/innovation/coating-that-works-in-winters-summers](https://interestingengineering.com/innovation/coating-that-works-in-winters-summers)
 
-![Temp vs colour](/img/week39-1.png)
+![Temp vs colour](/images/sections/consumption-and-media/week39-1.png)
 
 Tags: Heating, Cooling, Housing
 

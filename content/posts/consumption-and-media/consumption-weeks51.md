@@ -145,7 +145,7 @@ Tags: Marketing, Promotion
 
 [https://xkcd.com/2870/](https://xkcd.com/2870/)
 
-![XKCD love songs](/img/week51.png)
+![XKCD love songs](/images/sections/consumption-and-media/week51.png)
 
 Tags: Love, Relationships, Songs, Music
 

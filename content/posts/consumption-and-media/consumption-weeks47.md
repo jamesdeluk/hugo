@@ -10,7 +10,7 @@ date: 2023-11-26
 
 [https://www.visualcapitalist.com/cp/hours-worked-vs-salaries-in-oecd-countries/](https://www.visualcapitalist.com/cp/hours-worked-vs-salaries-in-oecd-countries/)
 
-![Hours vs salaries](/img/week47.png)
+![Hours vs salaries](/images/sections/consumption-and-media/week47.png)
 
 Tags: Work, Work-Life Balance
 
@@ -84,11 +84,11 @@ Tags: Language
 
 [https://www.nytimes.com/interactive/2017/05/14/upshot/if-americans-can-find-north-korea-on-a-map-theyre-more-likely-to-prefer-diplomacy.html](https://www.nytimes.com/interactive/2017/05/14/upshot/if-americans-can-find-north-korea-on-a-map-theyre-more-likely-to-prefer-diplomacy.html)
 
-![Map](/img/week47-1.png)
+![Map](/images/sections/consumption-and-media/week47-1.png)
 
-![Democracy stats](/img/week47-2.png)
+![Democracy stats](/images/sections/consumption-and-media/week47-2.png)
 
-![Demographics stats](/img/week47-3.png)
+![Demographics stats](/images/sections/consumption-and-media/week47-3.png)
 
 Tags: USA, North Korea, Ignorance, Geography, Geopolitics, Democracy
 

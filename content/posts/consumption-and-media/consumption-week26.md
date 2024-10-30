@@ -10,7 +10,7 @@ date: 2023-07-02
 
 [https://www.economist.com/graphic-detail/2023/06/21/the-worlds-most-liveable-cities-in-2023](https://www.economist.com/graphic-detail/2023/06/21/the-worlds-most-liveable-cities-in-2023)
 
-![Liveable cities](/img/week26.png)
+![Liveable cities](/images/sections/consumption-and-media/week26.png)
 
 Tags: Liveability, Education, Healthcare, Infrastructure, Stability, Culture, Cost of Living, Politics, Travel
 
@@ -45,7 +45,7 @@ Tags: Energy Networks, Electricity, Transmission
 
 [https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/chart-of-the-day/land-squeeze](https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/chart-of-the-day/land-squeeze)
 
-![Wind power in Germany](/img/week26-1.png)
+![Wind power in Germany](/images/sections/consumption-and-media/week26-1.png)
 
 Tags: Renewable Energy, Wind, Regulation
 
@@ -87,7 +87,7 @@ Tags: Business, Economics, Profits, Wages, Inflation
 
 [https://www.visualcapitalist.com/sp/ranking-industries-by-their-potential-for-ai-automation/](https://www.visualcapitalist.com/sp/ranking-industries-by-their-potential-for-ai-automation/)
 
-![AI industries](/img/week26-2.png)
+![AI industries](/images/sections/consumption-and-media/week26-2.png)
 
 Tags: AI, Jobs, Future
 
@@ -95,6 +95,6 @@ Tags: AI, Jobs, Future
 
 [https://xkcd.com/2794/](https://xkcd.com/2794/)
 
-![xkcd alphabet](/img/week26-3.png)
+![xkcd alphabet](/images/sections/consumption-and-media/week26-3.png)
 
 Tags: Language, Comic

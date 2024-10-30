@@ -44,13 +44,13 @@ date: 2023-03-12
 
 [https://www.wri.org/insights/interactive-chart-shows-changes-worlds-top-10-emitters](https://www.wri.org/insights/interactive-chart-shows-changes-worlds-top-10-emitters)
 
-![Emissions by country](/img/week10-0.png)
+![Emissions by country](/images/sections/consumption-and-media/week10-0.png)
 
 ### Charted: Global Energy Consumption by Source, and Carbon Emissions (1900-2021)
 
 [https://www.visualcapitalist.com/cp/charting-consumption-production-fossil-fuels/](https://www.visualcapitalist.com/cp/charting-consumption-production-fossil-fuels/)
 
-![Emissions since 1750](/img/week10-1.png)
+![Emissions since 1750](/images/sections/consumption-and-media/week10-1.png)
 
 ## Personal Development, Health, and Fitness
 
@@ -87,7 +87,7 @@ date: 2023-03-12
 
 [https://www.weforum.org/agenda/2023/01/skills-jobs-future-workplace/](https://www.weforum.org/agenda/2023/01/skills-jobs-future-workplace/)
 
-![Future skills](/img/week10-2.png)
+![Future skills](/images/sections/consumption-and-media/week10-2.png)
 
 - "The report finds that “Business Consulting, Specialized Sales, Database Architecture and Administration, Network Protocols, Web Design and Development” are all seeing a big drop-off in demand. The role of web developer has been hit hard by low-code, no code platforms that allow people to build their own websites quickly and easily."
 - JG: Interesting when viewed alongside the BCG report from [last week](https://www.jamesgibbins.com/posts/consumption-week9/#shifting-skills-moving-targets-and-remaking-the-workforce). New technologies earn more money, but are also potentially quickly outdated. Note how web developer was huge, and is now having the biggest decrease. Will we be saying the same about AI/cloud in 5 years? And social media is, I feel, on a downward trend already.
@@ -109,7 +109,7 @@ date: 2023-03-12
 
 [https://interestingengineering.com/culture/2000-year-old-statue-with-giant-penis](https://interestingengineering.com/culture/2000-year-old-statue-with-giant-penis)
 
-![Statue](/img/week10-3.png)
+![Statue](/images/sections/consumption-and-media/week10-3.png)
 
 ### For years, the Vatican referred to capybaras as "fish"
 
@@ -142,7 +142,7 @@ date: 2023-03-12
 
 - Nightmare time:
 
-![Removed twin](/img/week10-4.png)
+![Removed twin](/images/sections/consumption-and-media/week10-4.png)
 
 ### New vocal cords on a chip can let mute people speak
 
