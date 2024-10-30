@@ -31,10 +31,11 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/jamesdeluk"
+  url: "james@gibbins.me"
 
-# - name: Stackoverflow
-#   icon: "fab fa-stack-overflow"
-#   url: "#"
+# - name: Greasy Fork
+#   icon: "fab fa-file-code"
+#   url: "https://greasyfork.org/en/users/242246-jamesdeluk"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
@@ -43,19 +44,6 @@ socialLinks:
 - name: X
   icon: "fab fa-twitter"
   url: "https://twitter.com/jamesdeluk"
-
-# - name: Facebook
-#   icon: "fab fa-facebook"
-#   url: "#"
-
-# - name: Mastadon
-#   icon: "fab fa-mastodon"
-#   url: "#"
-#   rel: "me noopener"
-
-# - name: ResearchGate
-#   icon: "fab fa-researchgate"
-#   url: "https://www.researchgate.net/profile/john-doe"
 
 - name: Spotify
   icon: "fab fa-spotify"
@@ -72,6 +60,23 @@ socialLinks:
 - name: GoodReads
   icon: "fab fa-goodreads"
   url: "https://www.goodreads.com/user/show/89676019-james"
+  
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# - name: Mastadon
+#   icon: "fab fa-mastodon"
+#   url: "#"
+#   rel: "me noopener"
+
+# - name: ResearchGate
+#   icon: "fab fa-researchgate"
+#   url: "https://www.researchgate.net/profile/john-doe"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
