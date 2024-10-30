@@ -89,6 +89,6 @@ Tags: Materials, Bedding, Household, Environment
 
 ![Transparent wood process](/images/sections/consumption-and-media/week49.png)
 
-![Transparent wood](/img/week49.jpeg)
+![Transparent wood](/images/old/week49.jpeg)
 
 Tags: Materials, Wood

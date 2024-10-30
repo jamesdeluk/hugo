@@ -2218,7 +2218,7 @@ $sql;
 
 Putting this in a browser (or using an HTML-to-image converter) gives us:
 
-![php-backdoor-deobfuscation-webpage](/img/php-backdoor-deobfuscation-webpage.jpg)
+![php-backdoor-deobfuscation-webpage](/images/old/php-backdoor-deobfuscation-webpage.jpg)
 
 And now we can see at least some of the functions!
 

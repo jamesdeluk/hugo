@@ -343,7 +343,7 @@ There were 87 other car companies in existence at the time
 
 ## Competitor/Industry Analysis
 
-![Area map](/img/ttoi.jpeg)
+![Area map](/images/old/ttoi.jpeg)
 
 ## Fostering Innovation
 

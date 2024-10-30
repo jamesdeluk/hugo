@@ -57,7 +57,7 @@ date: 2023-05-21
 
 [https://cleantechnica.com/2023/05/15/ucla-says-we-can-hack-the-ocean-to-store-carbon-dioxide/](https://cleantechnica.com/2023/05/15/ucla-says-we-can-hack-the-ocean-to-store-carbon-dioxide/)
 
-![Untitled](/img/week20.webp)
+![Untitled](/images/old/week20.webp)
 
 - The seawater would flow through a mesh that allows an electrical charge to pass into the water, rendering it alkaline. This kicks off a set of chemical reactions that ultimately combine dissolved carbon dioxide with calcium and magnesium native to seawater, producing limestone and magnesite by a process similar to how seashells form. The seawater that flows out would then be depleted of dissolved carbon dioxide and ready to take up more. A co-product of the reaction, besides minerals, is hydrogen, which is a clean fuel.
 

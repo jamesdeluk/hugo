@@ -6,7 +6,7 @@ tags: ["Finance","Corporate Finance","Valuation","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/learn-to-read-financial-statements-free-course/](https://corporatefinanceinstitute.com/course/learn-to-read-financial-statements-free-course/)
 
-![Certificate](/img/cfi-rfs-cert.jpg)
+![Certificate](/images/old/cfi-rfs-cert.jpg)
 
 [https://www.credential.net/6ea89591-f3eb-477b-b5c4-fc5c9f2a806e](https://www.credential.net/6ea89591-f3eb-477b-b5c4-fc5c9f2a806e)
 

@@ -1014,7 +1014,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 - Spoiler: China wins.
 
-![EV mineral shortage](/img/week6.jpg)
+![EV mineral shortage](/images/old/week6.jpg)
 
 ## [Climate Vision 2050] Sustainability at 36 000 Feet
 
@@ -1207,7 +1207,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 - Only 80kph and 140km range, but I still want one.
 
-![mobilize duo](/img/week8.gif)
+![mobilize duo](/images/old/week8.gif)
 
 ## [The Art of Manliness] Throw a 2-Hour Cocktail Party That Can Change Your Life
 
@@ -2499,7 +2499,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://interestingengineering.com/transportation/hyundai-mobis-e-corner-system-technology-has-hit-the-streets](https://interestingengineering.com/transportation/hyundai-mobis-e-corner-system-technology-has-hit-the-streets)
 
-![Hyundai e-Corner](/img/week17.webp)
+![Hyundai e-Corner](/images/old/week17.webp)
 
 ## How NASA Reinvented The Wheel
 
@@ -2514,7 +2514,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://www.visualcapitalist.com/cp/big-oil-profits-reached-record-high-levels-in-2022/](https://www.visualcapitalist.com/cp/big-oil-profits-reached-record-high-levels-in-2022/)
 
-![Oil profits](/img/week17-1.webp)
+![Oil profits](/images/old/week17-1.webp)
 
 ## Shell admits 1.5C climate goal means immediate end to fossil fuel growth
 
@@ -2553,13 +2553,13 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 ## Visualizing the Biomass of All the World’s Mammals
 
-![Biomass](/img/week17-2.webp)
+![Biomass](/images/old/week17-2.webp)
 
 ## Context-Based Market Entry Strategies For Startups - FourWeekMBA
 
 [https://fourweekmba.com/market-entry-strategies/](https://fourweekmba.com/market-entry-strategies/)
 
-![Market entry](/img/week17-3.webp)
+![Market entry](/images/old/week17-3.webp)
 
 ## Marketing vs Sales and the Death/Dead Zone - FourWeekMBA
 
@@ -2808,7 +2808,7 @@ Ian McKeown, BBC Global News Podcast 31/3/23
 
 [https://cleantechnica.com/2023/05/15/ucla-says-we-can-hack-the-ocean-to-store-carbon-dioxide/](https://cleantechnica.com/2023/05/15/ucla-says-we-can-hack-the-ocean-to-store-carbon-dioxide/)
 
-![Untitled](/img/week20.webp)
+![Untitled](/images/old/week20.webp)
 
 - The seawater would flow through a mesh that allows an electrical charge to pass into the water, rendering it alkaline. This kicks off a set of chemical reactions that ultimately combine dissolved carbon dioxide with calcium and magnesium native to seawater, producing limestone and magnesite by a process similar to how seashells form. The seawater that flows out would then be depleted of dissolved carbon dioxide and ready to take up more. A co-product of the reaction, besides minerals, is hydrogen, which is a clean fuel.
 
@@ -3410,7 +3410,7 @@ Tags: Liveability, Education, Healthcare, Infrastructure, Stability, Culture, Co
 
 [https://www.visualcapitalist.com/cp/competitive-countries-rankings/](https://www.visualcapitalist.com/cp/competitive-countries-rankings/)
 
-![Competitive countries](/img/week26.jpeg)
+![Competitive countries](/images/old/week26.jpeg)
 
 Tags: Entrepreneurship, Economy, Government, Business, Infrastructure
 
@@ -3654,7 +3654,7 @@ Tags: Wealth, Success, Personalities
 
 [https://www.visualcapitalist.com/top-sp-500-stocks-by-annual-returns/](https://www.visualcapitalist.com/top-sp-500-stocks-by-annual-returns/)
 
-![S&P Returns](/img/week28.jpeg)
+![S&P Returns](/images/old/week28.jpeg)
 
 Tags: Investing, Profits
 
@@ -4093,7 +4093,7 @@ Tags: Maps, Geography, Comics
 
 [https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/](https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/)
 
-![Untitled](/img/week30.jpeg)
+![Untitled](/images/old/week30.jpeg)
 
 - A crinkle crankle wall, also called a serpentine wall, is a wavy wall that may seem to sacrifice some efficiency for aesthetics. The curves add visual interest, but they use more material than a straight wall. Except they don’t! They use more bricks than a straight wall of the same thickness but they don’t have to be as thick.
 
@@ -4256,7 +4256,7 @@ Tags: Greenwashing, Climate, Advertising, PR, Propaganda, Social Media
 
 [https://www.visualcapitalist.com/charted-americas-import-reliance-of-key-minerals/](https://www.visualcapitalist.com/charted-americas-import-reliance-of-key-minerals/)
 
-![Mineral reliance](/img/week31.jpeg)
+![Mineral reliance](/images/old/week31.jpeg)
 
 Tags: Resources, Trade, Geopolitics, Supply Chain
 
@@ -4264,7 +4264,7 @@ Tags: Resources, Trade, Geopolitics, Supply Chain
 
 [https://www.visualcapitalist.com/cp/space-debris-by-country/](https://www.visualcapitalist.com/cp/space-debris-by-country/)
 
-![Space debris](/img/week31-1.jpeg)
+![Space debris](/images/old/week31-1.jpeg)
 
 Tags: Space, Waste
 
@@ -4367,7 +4367,7 @@ Tags: Trade, Prices, Outsourcing, Supply Chain, Manufacturing
 
 - A barrier to Chinese/Indian growth/domination?
 
-![Water scarcity](/img/week32.jpeg)
+![Water scarcity](/images/old/week32.jpeg)
 
 Tags: Water, Scarcity, Resources, India, China
 
@@ -4685,7 +4685,7 @@ Tags:
 
 ## Visualized: How Much Metal is Used in Clean Energy Technology?
 
-![CER metals](/img/week36.jpeg)
+![CER metals](/images/old/week36.jpeg)
 
 Tags: Renewable Energy, Resources, Metals
 
@@ -4783,7 +4783,7 @@ Tags: Animals
 
 [https://londonist.com/london/transport/bakerloo-other-tube-lines](https://londonist.com/london/transport/bakerloo-other-tube-lines)
 
-![London tube lines](/img/week38.jpeg)
+![London tube lines](/images/old/week38.jpeg)
 
 - Tags: London, Transport, Fun, Etymology
 
@@ -4791,7 +4791,7 @@ Tags: Animals
 
 [https://londonist.com/london/secret/sermon-lane-peters-hill](https://londonist.com/london/secret/sermon-lane-peters-hill)
 
-![London street names](/img/week38-1.jpeg)
+![London street names](/images/old/week38-1.jpeg)
 
 - Tags: London, Etymology
 
@@ -5111,7 +5111,7 @@ Tags: Sustainability, Materials, Mining
 
 [https://www.bhout.com/](https://www.bhout.com/)
 
-![BHOUT](/img/week44.webp)
+![BHOUT](/images/old/week44.webp)
 
 Tags: Fitness, Health, Sport, Boxing
 
@@ -5255,7 +5255,7 @@ Tags: Business, Entrepreneurship
 
 [https://www.bbc.co.uk/news/uk-england-suffolk-67331308](https://www.bbc.co.uk/news/uk-england-suffolk-67331308)
 
-![Dog kitty mum](/img/week45.webp)
+![Dog kitty mum](/images/old/week45.webp)
 
 Tags: Nature, Animals, Cats, Dogs, Love, Parenting
 
@@ -5619,7 +5619,7 @@ Tags: Materials, Bedding, Household, Environment
 
 ![Transparent wood process](/images/sections/consumption-and-media/week49.png)
 
-![Transparent wood](/img/week49.jpeg)
+![Transparent wood](/images/old/week49.jpeg)
 
 Tags: Materials, Wood
 
@@ -5655,11 +5655,11 @@ Tags: Productivity, Success, Motivation
 
 [https://dangeng.github.io/visual_anagrams/](https://dangeng.github.io/visual_anagrams/)
 
-![Visual analgram 1](/img/week50.gif)
+![Visual analgram 1](/images/old/week50.gif)
 
-![Visual analgram 2](/img/week50-1.gif)
+![Visual analgram 2](/images/old/week50-1.gif)
 
-![Visual analgram 3](/img/week50-2.gif)
+![Visual analgram 3](/images/old/week50-2.gif)
 
 Tags: Illusions, Anagrams, AI
 
@@ -5835,7 +5835,7 @@ Tags: Psychology, Motivation, Incentives
 
 ## The 24 Universal Character Strengths, in One Graphic
 
-![Character strengths](/img/week51.jpeg)
+![Character strengths](/images/old/week51.jpeg)
 
 Tags: Personalities, Traits, Strengths, Attitudes
 
@@ -5851,7 +5851,7 @@ Tags: Behaviour, Aggression, Male-Female Dynamics, Dating, Relationships
 
 [https://www.visualcapitalist.com/60-years-of-stock-market-cycles/](https://www.visualcapitalist.com/60-years-of-stock-market-cycles/)
 
-![Stock market cycles](/img/week51-1.jpeg)
+![Stock market cycles](/images/old/week51-1.jpeg)
 
 Tags: Investing, Stock Markets
 
@@ -5859,7 +5859,7 @@ Tags: Investing, Stock Markets
 
 [https://www.visualcapitalist.com/top-sp-500-stocks-return/](https://www.visualcapitalist.com/top-sp-500-stocks-return/)
 
-![Top S&P returns](/img/week51-2.jpeg)
+![Top S&P returns](/images/old/week51-2.jpeg)
 
 Tags: Investing, Renewable Energy, Solar, AI
 
@@ -6071,4 +6071,4 @@ Tags: Stocks, Stock Market, Investing
 
 [https://www.visualcapitalist.com/the-events-that-defined-2023-visualized/](https://www.visualcapitalist.com/the-events-that-defined-2023-visualized/)
 
-![2023 events](/img/week52.jpeg)
+![2023 events](/images/old/week52.jpeg)

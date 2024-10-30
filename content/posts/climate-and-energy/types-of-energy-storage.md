@@ -74,7 +74,7 @@ In this post I’ve collated the various articles, videos, and papers on energy 
 - Safer (is solid state)
 - Slightly lower energy efficiency
 
-![Lithium air chart](/img/energy-storage-1.png)
+![Lithium air chart](/images/old/energy-storage-1.png)
 
 **Developments**
 
@@ -732,7 +732,7 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 ### Hydrogen
 
-![Hydrogen efficiency](/img/energy-storage-2.png)
+![Hydrogen efficiency](/images/old/energy-storage-2.png)
 
 <br>
 
@@ -781,4 +781,4 @@ Mustikkamaa heat storage, 11.6GWh, hot water
 
 [https://www.ctvc.co/ldes-long-duration-energy-storage-tech/](https://www.ctvc.co/ldes-long-duration-energy-storage-tech/)
 
-![LDES Sector Compass](/img/LDES-Sector-Compass.png)
+![LDES Sector Compass](/images/old/LDES-Sector-Compass.png)

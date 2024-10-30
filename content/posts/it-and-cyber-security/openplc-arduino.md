@@ -52,13 +52,13 @@ I found a great pair of videos on YouTube, walking you through the above steps. 
 
 All of the below projects (except the last one) use the same basic physical setup. I was using my large breadboard for my [myopia measurer](https://www.jamesgibbins.com/posts/arduino-myopia-measurer/), and didn't want to disassemble it. Fortunately my kit came with a tiny extension board, and as these projects only need one or two push-buttons and an LED, it was plenty for my needs. I ran out of red wires so orange represents +5V.
 
-![circuit](/img/circuit.jpg)
+![circuit](/images/old/circuit.jpg)
 
 So what are you looking at? There's an LED between the Arduino output (white wire) and ground, and there are two push-buttons, with one side connected to live (+5V), the other side connected to the Arduino inputs (blue wires) with pull-down resistors to ground. The pull-down resistors ensure that, when not pressed, the push-button provides a logic 0 (i.e. off) to the Arduino.
 
 The below schematic is from the OpenPLC Project.
 
-![schematic](/img/schematic.png)
+![schematic](/images/old/schematic.png)
 
 ### Two-Button Latching Circuit
 
@@ -66,11 +66,11 @@ The functionality of this circuit is simple. Press the Start button, and the LED
 
 You can see how it works, in stages, by the following diagram, courtesy of [Inst Tools](https://instrumentationtools.com/plc-ladder-logic-contacts-coils/). Blue is activated.
 
-![latch-2](/img/latch-1.png)
+![latch-2](/images/old/latch-1.png)
 
 This is what it looks like in the OpenPLC Editor. Nice and simple. The location values are defined by OpenPLC, and are explained within the Arduino page on their website (link above).
 
-![latch-2](/img/latch-2.png)
+![latch-2](/images/old/latch-2.png)
 
 ### One-Button Latching Circuit with Emergency Stop
 
@@ -80,29 +80,29 @@ This ladder logic came from [mayurhaldankar.wordpress.com](https://mayurhaldanka
 
 These are the variables. Note M0 and M1 have no physical representation, and hence no location.
 
-![latch-3](/img/latch-3.png)
+![latch-3](/images/old/latch-3.png)
 
 Using the OpenPLC simulator, you can see the operation from the following steady states. Note this is different from the diagram from Inst Tools above, as that is done rung-by-rung, whereas the below is done state-by-state. Note in particular the states of the coils M0 and M1 in relation to the "true" output Q0 (in my circuit, the LED).
 
 Starting state:
 
-![latch-4](/img/latch-4.png)
+![latch-4](/images/old/latch-4.png)
 
 Press PB0 (forced true):
 
-![latch-5](/img/latch-5.png)
+![latch-5](/images/old/latch-5.png)
 
 Release PB0 (force false):
 
-![latch-6](/img/latch-6.png)
+![latch-6](/images/old/latch-6.png)
 
 PB0 pressed again:
 
-![latch-7](/img/latch-7.png)
+![latch-7](/images/old/latch-7.png)
 
 PB1 released again:
 
-![latch-8](/img/latch-8.png)
+![latch-8](/images/old/latch-8.png)
 
 ### Playing with Timers
 
@@ -110,13 +110,13 @@ Timers are very commonly used in OT, such as turning a pump on 30 seconds after 
 
 This simply turns the LED on two seconds (the T#2000ms) after the button is pressed, and turns it off two seconds after the button is pressed a second time.
 
-![timers.gif](/img/timers.gif)
+![timers.gif](/images/old/timers.gif)
 
 ### Steady(ish) State (e.g Temperature)
 
 The idea of this design is to keep a variable within a threshold range (for example, water temperature). In reality the output would be the input (i.e. it would have feedback), and it would use more a complex control system (e.g. PIDs), but this is just a simple experiment using comparative function blocks.
 
-![temp-control](/img/temp-control.png)
+![temp-control](/images/old/temp-control.png)
 
 In this design, if it is within the threshold range, the "ideal temperature" light (green LED) comes on. If it's below, the "increaser" comes on (e.g. turn on a heater - simulated by the red LED). If it's above, the "decreaser" comes on (e.g. turn on a cooler - simulated by the blue LED). Note the NC contactor relating to the `ideal_temp` coil - in other words, if it's within the ideal range, neither the increaser or decreaser can function.
 

@@ -23,11 +23,11 @@ The theory also defines four archetypes. Each turning lasts roughly a generation
 
 Rather than go into detail myself, I found a great tabular summary of the turnings on [Lifecourse](https://www.lifecourse.com/about/method/the-four-turnings.html):
 
-![the-fourth-turning-1.png](/img/the-fourth-turning-1.png)
+![the-fourth-turning-1.png](/images/old/the-fourth-turning-1.png)
 
 [Generational Dynamics](https://www.generationaldynamics.com/pg/ww2010.book2.tftmodel.htm) (a similar model which considers and tries to overcome the limitations of Strauss and Howe’s model) has a chart showing how each archetype goes through life:
 
-![the-fourth-turning-2](/img/the-fourth-turning-2.png)
+![the-fourth-turning-2](/images/old/the-fourth-turning-2.png)
 
 ## Now and the future
 

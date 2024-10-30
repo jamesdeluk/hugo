@@ -6,7 +6,7 @@ tags: ["Finance","Corporate Finance","M&A","Debt","Capital","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/corporate-finance-fundamentals/](https://corporatefinanceinstitute.com/course/corporate-finance-fundamentals/)
 
-![Certificate](/img/cfi-cff-cert.jpg)
+![Certificate](/images/old/cfi-cff-cert.jpg)
 
 [https://www.credential.net/78615569](https://www.credential.net/78615569)
 
@@ -63,7 +63,7 @@ Standalone value + [hard synergies (cost savings) + soft synergies (revenue enha
 
 Capital structure = debt vs equity (high leverage = high debt:equity)(equity + debt = assets)
 
-![WACC vs Leverage](/img/cfi-cff.png)
+![WACC vs Leverage](/images/old/cfi-cff.png)
 
 **WACC** (%) = cost of equity * % equity + cost of debt *  % net debt
 
@@ -85,7 +85,7 @@ Senior debt: revolver, term loans → usually 2-3x EBITDA, required 2x interest 
 
 Subordinated debt: bonds, mezz, notes → some dilute equity
 
-![Debt Comparison](/img/cfi-cff-1.png)
+![Debt Comparison](/images/old/cfi-cff-1.png)
 
 Credit ratings: investment grade: Baa3/BBB-/BBB (low) and above; high yield/junk bonds: Ba1, BB+, BB (high) and below
 
@@ -121,6 +121,6 @@ Share buyback increasees EPS; paying dividend (if regular) increases yield
 
 ### Business Lifecycle
 
-![Lifecycle](/img/cfi-cff-2.png)
+![Lifecycle](/images/old/cfi-cff-2.png)
 
-![Risk over time](/img/cfi-cff-3.png)
+![Risk over time](/images/old/cfi-cff-3.png)

@@ -694,11 +694,11 @@ sourcetype="stream:smtp" sender="Bud Stoll <bstoll@froth.ly>" content{}="*splunk
 
 **image002.jpg**
 
-![botsv3_img1](/img/botsv3_img1.png)
+![botsv3_img1](/images/old/botsv3_img1.png)
 
 **image003.jpg**
 
-![botsv3_img2](/img/botsv3_img2.png)
+![botsv3_img2](/images/old/botsv3_img2.png)
 
 This is the one we're looking for.
 
@@ -1334,7 +1334,7 @@ sourcetype="stream:smtp" file_name=*
 
 11 events. There are 7 unique `file_name`s. Most are images with generic names, but `pwned.jpg` and `Malware Alert Text.txt` look interesting. We saw the text file earlier in Q304... But first let's look at `pwned.jpg`. Looking at the email `content_body` (message), it doesn't seem like anything abnormal. Let's decode the `pwned.jpg` using [https://base64.guru/converter/decode/image](https://base64.guru/converter/decode/image) anyway.
 
-![botsv3_img3](/img/botsv3_img3.png)
+![botsv3_img3](/images/old/botsv3_img3.png)
 
 Nice.
 
@@ -1818,7 +1818,7 @@ sourcetype="stream:smtp" hyunki1984@naver.com attach_filename{}=*
 
 Here we find 1534778082419.png. Decoding that gives
 
-![botsv3_img4](/img/botsv3_img4.png)
+![botsv3_img4](/images/old/botsv3_img4.png)
 
 No words there are much larger.
 
@@ -1830,7 +1830,7 @@ definitelydontinvestigatethisfile.sh
 
 Decoded:
 
-![botsv3_img5](/img/botsv3_img5.png)
+![botsv3_img5](/images/old/botsv3_img5.png)
 
 > Splunk
 

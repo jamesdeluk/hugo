@@ -113,4 +113,4 @@ Tags: Stocks, Stock Market, Investing
 
 [https://www.visualcapitalist.com/the-events-that-defined-2023-visualized/](https://www.visualcapitalist.com/the-events-that-defined-2023-visualized/)
 
-![2023 events](/img/week52.jpeg)
+![2023 events](/images/old/week52.jpeg)

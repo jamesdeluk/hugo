@@ -26,7 +26,7 @@ Tags: Business, Entrepreneurship
 
 [https://www.bbc.co.uk/news/uk-england-suffolk-67331308](https://www.bbc.co.uk/news/uk-england-suffolk-67331308)
 
-![Dog kitty mum](/img/week45.webp)
+![Dog kitty mum](/images/old/week45.webp)
 
 Tags: Nature, Animals, Cats, Dogs, Love, Parenting
 

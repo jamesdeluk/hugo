@@ -14,7 +14,7 @@ Inspired by the excellent book Back of the Napkin, I’m going to use some hand-
 
 I imagine MECE like a cooktop, with sets (circles) A through D, and one item in each:
 
-![mece1.png](/img/mece1.png)
+![mece1.png](/images/old/mece1.png)
 
 A couple of things to note, that may not be immediately obvious:
 
@@ -32,7 +32,7 @@ How could you segment your customers? Some obvious ideas are age, sex at birth, 
 
 Say you start with your biggest customer segment, middle-income males in the 25-34 age bracket. For the next set you decide to expand it to everyone 25-34 with a middle income. Next… How about the biggest customer segment, but high income? And finally, let’s go only those in their 30s.
 
-![mece2.png](/img/mece2.png)
+![mece2.png](/images/old/mece2.png)
 
 Looks good! But it isn’t MECE.
 
@@ -44,7 +44,7 @@ Thirdly, does that contain all people? Anyone under 25, anyone over 40, anyone l
 
 In reality the above Venn would look like this:
 
-![mece3.png](/img/mece3.png)
+![mece3.png](/images/old/mece3.png)
 
 No way near as organised - and anything outside of A~D would be ignored (I’ve put in a few items, but there are more).
 
@@ -52,19 +52,19 @@ It turns out this was a terrible way to segment your customers!
 
 In general, it’s better to pick a single differentiator, and make sure it includes all options. Such as age:
 
-![mece4.png](/img/mece4.png)
+![mece4.png](/images/old/mece4.png)
 
 Income level:
 
-![mece5.png](/img/mece5.png)
+![mece5.png](/images/old/mece5.png)
 
 Or sex at birth:
 
-![mece6.png](/img/mece6.png)
+![mece6.png](/images/old/mece6.png)
 
 You could potentially use the catch-all “other” too, although this isn’t ideal. However, especially when there are multiple differentiators, it can be difficult to group sufficiently precisely, without ending up with bubble wrap instead of a cooktop. I could imagine using it in certain situations, such as if the other three (which are MECE) make up 95%+ of your customers, or when you’re consciously focussing on a specific customer segment - it’s better than leaving them outside the circles in no-man’s land.
 
-![mece7.png](/img/mece7.png)
+![mece7.png](/images/old/mece7.png)
 
 ### Job Application
 
@@ -84,13 +84,13 @@ On the other hand, be careful not to miss anything important - it’s possible c
 
 Let’s say this process results in a shortlist of problem-solving, leadership, an entrepreneurial mindset, and knowledge of the industry. These are the sets, the cookers.
 
-![mece8.png](/img/mece8.png)
+![mece8.png](/images/old/mece8.png)
 
 Now it’s time to say why you have these attributes, and MECE comes in again. Think of all your experiences and focus on matching one experience with one ability. While it’s not necessarily bad to have multiple experiences supporting one ability, you risk not sufficiently demonstrating all abilities (as you’ll run out of space), or being too vague by suggesting several experience supports all the abilities (resulting in a weak argument). Making it MECE makes it easy for the recruiter to resolve, which makes it more likely you’ll progress to the next stage.
 
 For example, let’s take problem-solving. No doubt you’ve solved many problems throughout your career, be it a drop in revenue, an IT system malfunction, or a conflict with a client. It could be easy to write about all of these, to really prove you’re an excellent problem solver - but, given you have limited space, this might mean you’re unable to demonstrate your leadership abilities, which may cost you the job. So, pick the best example, ideally one with objective proof of success and closely related to the job you’re applying for. Then, move on to the next ability to demonstrate.
 
-![mece9.png](/img/mece9.png)
+![mece9.png](/images/old/mece9.png)
 
 Once you have strong examples for all four abilities (not saying the four above are!), craft your application. If there is additional space or time, it might be worth including further examples - but ensure that MECE is met beforehand.
 

@@ -14,17 +14,17 @@ As of today, there are 407 companies with the SIC code 30910.
 
 Of these, 218 are still active, 188 are dissolved, and 1 is in liquidation.
 
-![Untitled](/img/exploring30910-0.png)
+![Untitled](/images/old/exploring30910-0.png)
 
 ## When did they start?
 
 Most companies have been incorporated recently. In fact, the median incorporation date is 15 January 2020 - about three and a half years ago. The trend is pretty similar regardless of whether the company is still active or not. Only 16 companies are still active and over 20 years old.
 
-![Untitled](/img/exploring30910-1.png)
+![Untitled](/images/old/exploring30910-1.png)
 
-![Untitled](/img/exploring30910-2.png)
+![Untitled](/images/old/exploring30910-2.png)
 
-![Untitled](/img/exploring30910-3.png)
+![Untitled](/images/old/exploring30910-3.png)
 
 ## Who’s been around the longest?
 
@@ -67,27 +67,27 @@ Natures are how Companies House describes the SICs. Companies can have multiple 
 
 Focussing on the companies still active, we can see over half of the companies have more than one nature:
 
-![Untitled](/img/exploring30910-4.png)
+![Untitled](/images/old/exploring30910-4.png)
 
 This has been growing over time:
 
-![Untitled](/img/exploring30910-5.png)
+![Untitled](/images/old/exploring30910-5.png)
 
 The most common natures in conjunction with 30910 are 45400 (Sale, maintenance and repair of motorcycles and related parts and accessories), 29100 (Manufacture of motor vehicles), and 30920 (Manufacture of bicycles and invalid carriages):
 
-![Untitled](/img/exploring30910-6.png)
+![Untitled](/images/old/exploring30910-6.png)
 
 ## Where are they?
 
 About 20% were in London:
 
-![Untitled](/img/exploring30910-7.png)
+![Untitled](/images/old/exploring30910-7.png)
 
 This was the same for active companies (18:82) and dissolved companies (19:81).
 
 Plotting all the postcodes on a map gives us a pretty good spread across the country:
 
-![Untitled](/img/exploring30910-8.png)
+![Untitled](/images/old/exploring30910-8.png)
 
 This is for active and dissolved companies, but splitting them still has a similar result. Interestingly my part of the country seems to be a bit of a dead zone!
 

@@ -64,7 +64,7 @@ Tags: Trade, Prices, Outsourcing, Supply Chain, Manufacturing
 
 - A barrier to Chinese/Indian growth/domination?
 
-![Water scarcity](/img/week32.jpeg)
+![Water scarcity](/images/old/week32.jpeg)
 
 Tags: Water, Scarcity, Resources, India, China
 

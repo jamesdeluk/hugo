@@ -10,7 +10,7 @@ date: 2023-04-30
 
 [https://interestingengineering.com/transportation/hyundai-mobis-e-corner-system-technology-has-hit-the-streets](https://interestingengineering.com/transportation/hyundai-mobis-e-corner-system-technology-has-hit-the-streets)
 
-![Hyundai e-Corner](/img/week17.webp)
+![Hyundai e-Corner](/images/old/week17.webp)
 
 ## How NASA Reinvented The Wheel
 
@@ -25,7 +25,7 @@ date: 2023-04-30
 
 [https://www.visualcapitalist.com/cp/big-oil-profits-reached-record-high-levels-in-2022/](https://www.visualcapitalist.com/cp/big-oil-profits-reached-record-high-levels-in-2022/)
 
-![Oil profits](/img/week17-1.webp)
+![Oil profits](/images/old/week17-1.webp)
 
 ## Shell admits 1.5C climate goal means immediate end to fossil fuel growth
 
@@ -64,13 +64,13 @@ date: 2023-04-30
 
 ## Visualizing the Biomass of All the World’s Mammals
 
-![Biomass](/img/week17-2.webp)
+![Biomass](/images/old/week17-2.webp)
 
 ## Context-Based Market Entry Strategies For Startups - FourWeekMBA
 
 [https://fourweekmba.com/market-entry-strategies/](https://fourweekmba.com/market-entry-strategies/)
 
-![Market entry](/img/week17-3.webp)
+![Market entry](/images/old/week17-3.webp)
 
 ## Marketing vs Sales and the Death/Dead Zone - FourWeekMBA
 

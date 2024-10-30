@@ -47,7 +47,7 @@ A PCAP analysis exercise highlighting attacker's interactions with honeypots and
 
 Let's start by opening the .pcap in Wireshark and checking the Endpoints from the Statistics menu.
 
-![cyberdefenders-honeybot-0](/img/cyberdefenders-honeybot-0.png)
+![cyberdefenders-honeybot-0](/images/old/cyberdefenders-honeybot-0.png)
 
 There's only two - presumably, one is the attacker, one is the target. This is easy, as the challenge gives us a couple of the digits of the IP. Without this, we would need to look a bit deeper - but as we investigate further, it's still easy to determine.
 
@@ -65,7 +65,7 @@ This will be the other one.
 
 There are loads of websites which give you the location of an IP. A quick Google and my first result was [https://tools.keycdn.com/geo](https://tools.keycdn.com/geo)
 
-![cyberdefenders-honeybot-1](/img/cyberdefenders-honeybot-1.png)
+![cyberdefenders-honeybot-1](/images/old/cyberdefenders-honeybot-1.png)
 
 > US
 > 
@@ -74,7 +74,7 @@ There are loads of websites which give you the location of an IP. A quick Google
 
 Conversations from the Statistics menu gives us this:
 
-![cyberdefenders-honeybot-2](/img/cyberdefenders-honeybot-2.png)
+![cyberdefenders-honeybot-2](/images/old/cyberdefenders-honeybot-2.png)
 
 > 5
 > 
@@ -92,21 +92,21 @@ This .pcap captures the entire attack, and nothing else. The first timestamp is 
 
 The answer guide shows us it's CVE-2003-XXXX, which helps a bit. All the initial traffic is SMB, so it's likely the exploit is related to that. Following the TCP stream (#1) gives us this:
 
-![cyberdefenders-honeybot-3](/img/cyberdefenders-honeybot-3.png)
+![cyberdefenders-honeybot-3](/images/old/cyberdefenders-honeybot-3.png)
 
 VIDCAM is a bit strange, but it turns out that's just the NetBIOS name:
 
-![cyberdefenders-honeybot-4](/img/cyberdefenders-honeybot-4.png)
+![cyberdefenders-honeybot-4](/images/old/cyberdefenders-honeybot-4.png)
 
 lsass also jumps out, as lsass is often abused, but I'm not sure how in this case.
 
 The Info column of the stream also gives us some more information:
 
-![cyberdefenders-honeybot-5](/img/cyberdefenders-honeybot-5.png)
+![cyberdefenders-honeybot-5](/images/old/cyberdefenders-honeybot-5.png)
 
 Near the bottom, before the exploit finishes, there is `DsRoleUpgradeDownlevelServer`. I don't know what this is, but it sounds it could be related to the exploit, so let's Google it.
 
-![cyberdefenders-honeybot-6](/img/cyberdefenders-honeybot-6.png)
+![cyberdefenders-honeybot-6](/images/old/cyberdefenders-honeybot-6.png)
 
 Success!
 
@@ -124,13 +124,13 @@ This links to the previous question.
 
 The Protocol Statistics doesn't give us much, as it's mostly Socks:
 
-![cyberdefenders-honeybot-7](/img/cyberdefenders-honeybot-7.png)
+![cyberdefenders-honeybot-7](/images/old/cyberdefenders-honeybot-7.png)
 
 However, there are a couple ways to get the answer.
 
 First, we can follow the TCP streams - after all, there's only a few. We saw the first stream above. The second stream gives us:
 
-![cyberdefenders-honeybot-8](/img/cyberdefenders-honeybot-8.png)
+![cyberdefenders-honeybot-8](/images/old/cyberdefenders-honeybot-8.png)
 
 (There is nothing in the other direction)
 
@@ -138,7 +138,7 @@ These are SMB commands, and mention FTP.
 
 The third stream give us:
 
-![cyberdefenders-honeybot-9](/img/cyberdefenders-honeybot-9.png)
+![cyberdefenders-honeybot-9](/images/old/cyberdefenders-honeybot-9.png)
 
 This is FTP, `RETR`ieving `ssms.exe` using port 1080 (4*256 + 56). The download happens in stream four.
 
@@ -146,11 +146,11 @@ Everything here is looking to be FTP, right?
 
 There's also another tool, Brim. I've never used it before this challenge, but it's pretty cool. Opening the .pcap gives us this:
 
-![cyberdefenders-honeybot-10](/img/cyberdefenders-honeybot-10.png)
+![cyberdefenders-honeybot-10](/images/old/cyberdefenders-honeybot-10.png)
 
 This also mentions FTP, and we can see it's used to download an application. Clicking it gives us more information:
 
-![cyberdefenders-honeybot-11](/img/cyberdefenders-honeybot-11.png)
+![cyberdefenders-honeybot-11](/images/old/cyberdefenders-honeybot-11.png)
 
 > FTP
 > 
@@ -166,7 +166,7 @@ This comes from the previous question.
 
 The TCP Endpoints Statistics have five ports for the attacking IP:
 
-![cyberdefenders-honeybot-12](/img/cyberdefenders-honeybot-12.png)
+![cyberdefenders-honeybot-12](/images/old/cyberdefenders-honeybot-12.png)
 
 The first two communicate with the target on port 445 for the initial attack, and port 1924 is used in stream two for the SMB `echo` commands. These `echo` commands mention opening port 8884, which we can see from question 9 is used for the FTP connection.
 
@@ -177,15 +177,15 @@ The first two communicate with the target on port 445 for the initial attack, an
 
 Brim is good for this too. If we open the `files` line relating to the malware, it provides the hash of the file, and a context menu to look it up in VirusTotal:
 
-![cyberdefenders-honeybot-13](/img/cyberdefenders-honeybot-13.png)
+![cyberdefenders-honeybot-13](/images/old/cyberdefenders-honeybot-13.png)
 
 If we do this we get some scary stuff:
 
-![cyberdefenders-honeybot-14](/img/cyberdefenders-honeybot-14.png)
+![cyberdefenders-honeybot-14](/images/old/cyberdefenders-honeybot-14.png)
 
 And the details tab gives us our answer:
 
-![cyberdefenders-honeybot-15](/img/cyberdefenders-honeybot-15.png)
+![cyberdefenders-honeybot-15](/images/old/cyberdefenders-honeybot-15.png)
 
 > 2007-06-27
 > 
@@ -216,7 +216,7 @@ See above.
 
 A full RE would be required to know for definite, but VirusTotal actually gives us the answer, under the Details tab:
 
-![cyberdefenders-honeybot-16](/img/cyberdefenders-honeybot-16.png)
+![cyberdefenders-honeybot-16](/images/old/cyberdefenders-honeybot-16.png)
 
 > KERNEL32.dll
 

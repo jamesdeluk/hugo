@@ -14,4 +14,4 @@ I take notes using Notion. Lots of commands, tools, hints, and tips. Over 72,000
 
 **Screenshot as of October 2021:**
 
-![notion-notes-screenshot](/img/notion-notes-screenshot.png)
+![notion-notes-screenshot](/images/old/notion-notes-screenshot.png)

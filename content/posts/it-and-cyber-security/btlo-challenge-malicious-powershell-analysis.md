@@ -31,7 +31,7 @@ date: 2021-05-16
 
 Let's open the text file in a text editor (I like VSCodium) and see what we're dealing with.
 
-![btlo_challenge_malicious_powershell_analysis-0](/img/btlo_challenge_malicious_powershell_analysis-0.png)
+![btlo_challenge_malicious_powershell_analysis-0](/images/old/btlo_challenge_malicious_powershell_analysis-0.png)
 
 An encoded PowerShell script.
 
@@ -39,7 +39,7 @@ An encoded PowerShell script.
 
 CyberChef is an excellent tool for decoding it. Note PoweShell uses an uncommon encoding (UTF-16LE), so we also need to decode the text as well as convert it from Base64.
 
-![btlo_challenge_malicious_powershell_analysis-1](/img/btlo_challenge_malicious_powershell_analysis-1.png)
+![btlo_challenge_malicious_powershell_analysis-1](/images/old/btlo_challenge_malicious_powershell_analysis-1.png)
 
 Now we have a decoded, but obfuscated, PowerShell script. Let's copy that into our text editor and start deobfuscating.
 

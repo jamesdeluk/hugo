@@ -41,7 +41,7 @@ date: 2023-02-12
 
 - Spoiler: China wins.
 
-![EV mineral shortage](/img/week6.jpg)
+![EV mineral shortage](/images/old/week6.jpg)
 
 ### [Climate Vision 2050] Sustainability at 36 000 Feet
 

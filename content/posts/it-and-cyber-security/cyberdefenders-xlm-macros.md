@@ -48,13 +48,13 @@ It seems I can open the document in LibreOffice Calc and use the `oledump` tools
 
 `$ msoffcrypto-tool -t -v sample1-fb5ed444ddc37d748639f624397cff2a.bin`
 
-![cyberdefenders-xlm-macros-0.png](/img/cyberdefenders-xlm-macros-0.png)
+![cyberdefenders-xlm-macros-0.png](/images/old/cyberdefenders-xlm-macros-0.png)
 
 `msoffcrypto` also has a cracking tool:
 
 `$ msoffcrypto-crack.py sample1-fb5ed444ddc37d748639f624397cff2a.bin`
 
-![cyberdefenders-xlm-macros-1.png](/img/cyberdefenders-xlm-macros-1.png)
+![cyberdefenders-xlm-macros-1.png](/images/old/cyberdefenders-xlm-macros-1.png)
 
 > VelvetSweatshop
 
@@ -74,7 +74,7 @@ What sheets are there?
 
 `$ grep -i sheet olevba-sample1.txt`
 
-![cyberdefenders-xlm-macros-2.png](/img/cyberdefenders-xlm-macros-2.png)
+![cyberdefenders-xlm-macros-2.png](/images/old/cyberdefenders-xlm-macros-2.png)
 
 > SOCWNEScLLxkLhtJp
 
@@ -84,7 +84,7 @@ Let's use the same output file and look for URLs:
 
 `$ grep -i http olevba-sample1.txt`
 
-![cyberdefenders-xlm-macros-3.png](/img/cyberdefenders-xlm-macros-3.png)
+![cyberdefenders-xlm-macros-3.png](/images/old/cyberdefenders-xlm-macros-3.png)
 
 > hxxp://rilaer[.]com
 
@@ -92,7 +92,7 @@ Let's use the same output file and look for URLs:
 
 We have the full URL. What do online sources say? My first go-to is always URLhaus: [https://urlhaus.abuse.ch/browse.php?search=http%3A%2F%2Frilaer.com%2FIfAmGZIJjbwzvKNTxSPM%2Fixcxmzcvqi.exe](https://urlhaus.abuse.ch/browse.php?search=http%3A%2F%2Frilaer.com%2FIfAmGZIJjbwzvKNTxSPM%2Fixcxmzcvqi.exe)
 
-![cyberdefenders-xlm-macros-4.png](/img/cyberdefenders-xlm-macros-4.png)
+![cyberdefenders-xlm-macros-4.png](/images/old/cyberdefenders-xlm-macros-4.png)
 
 > Dridex
 
@@ -104,7 +104,7 @@ Let's do the same as before:
 
 `$ grep -i sheet olevba-sample2.txt`
 
-![cyberdefenders-xlm-macros-5.png](/img/cyberdefenders-xlm-macros-5.png)
+![cyberdefenders-xlm-macros-5.png](/images/old/cyberdefenders-xlm-macros-5.png)
 
 > CSHykdYHvi
 
@@ -112,11 +112,11 @@ Let's do the same as before:
 
 `$ grep -ni reg.exe olevba-sample2.txt`
 
-![cyberdefenders-xlm-macros-6.png](/img/cyberdefenders-xlm-macros-6.png)
+![cyberdefenders-xlm-macros-6.png](/images/old/cyberdefenders-xlm-macros-6.png)
 
 It's EXPORTing `HKCU\Software\Microsoft\Office\GET.WORKSPACE(2)\Excel\Security` to `1.reg`. `grep`ing for this file:
 
-![cyberdefenders-xlm-macros-7.png](/img/cyberdefenders-xlm-macros-7.png)
+![cyberdefenders-xlm-macros-7.png](/images/old/cyberdefenders-xlm-macros-7.png)
 
 We can see the reg file is opened, then read then starting at byte 215:
 
@@ -128,11 +128,11 @@ Before we get to that, let's look at another tool, XLM Deobfuscator:
 
 `$ xlmdeobfuscator -f sample2-b5d469a07709b5ca6fee934b1e5e8e38.bin`
 
-![cyberdefenders-xlm-macros-8.png](/img/cyberdefenders-xlm-macros-8.png)
+![cyberdefenders-xlm-macros-8.png](/images/old/cyberdefenders-xlm-macros-8.png)
 
 Some useful data, similar to what we had before, but there's an error. I updated to the latest development version of XLM Deobfuscator from the GitLab repo ([https://github.com/DissectMalware/XLMMacroDeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator)) as the pip version is only 0.1.6, the GitLab is 0.1.8. It still errored out, but gave some more info first:
 
-![cyberdefenders-xlm-macros-9.png](/img/cyberdefenders-xlm-macros-9.png)
+![cyberdefenders-xlm-macros-9.png](/images/old/cyberdefenders-xlm-macros-9.png)
 
 It seems the error isn't just for me either: [https://www.gitmemory.com/issue/DissectMalware/XLMMacroDeobfuscator/77/782828869](https://www.gitmemory.com/issue/DissectMalware/XLMMacroDeobfuscator/77/782828869)
 

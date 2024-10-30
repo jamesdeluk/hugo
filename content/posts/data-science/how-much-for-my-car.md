@@ -139,9 +139,9 @@ One thing to note: This is the asking price on the website, not the actual selli
 
 Now for quality control. Let’s see what we’ve got, starting with `.head()` and `.describe()`:
 
-![st-E3C7D3DD-803D-4612-9E3B-8FC5411B7388.png](/img/st-E3C7D3DD-803D-4612-9E3B-8FC5411B7388.png)
+![st-E3C7D3DD-803D-4612-9E3B-8FC5411B7388.png](/images/old/st-E3C7D3DD-803D-4612-9E3B-8FC5411B7388.png)
 
-![st-DA0D8712-FE2C-4B31-9CE1-7CB7B6DF2B52.png](/img/st-DA0D8712-FE2C-4B31-9CE1-7CB7B6DF2B52.png)
+![st-DA0D8712-FE2C-4B31-9CE1-7CB7B6DF2B52.png](/images/old/st-DA0D8712-FE2C-4B31-9CE1-7CB7B6DF2B52.png)
 
 We have 635 cars in the dataset, ranging from ~£3000 to ~£27,000. The average car is a 2016 7th gen (as generation is an integer) with 47k miles and being located 175 miles from mine, with an asking price of just over £11,900. Trim and Seller has NaN (not a number) for the stats because they’re text values, although it does state Trade an ST-3s are most common.
 
@@ -149,7 +149,7 @@ We have 635 cars in the dataset, ranging from ~£3000 to ~£27,000. The average 
 
 First, null/missing values, found using `.isnull().sum()`. If there were some, I would tweak the extraction script and re-check it had got all the data, until we got 0 for all:
 
-![st-561E24A1-1643-4969-9192-DEFFA2846EED.png](/img/st-561E24A1-1643-4969-9192-DEFFA2846EED.png)
+![st-561E24A1-1643-4969-9192-DEFFA2846EED.png](/images/old/st-561E24A1-1643-4969-9192-DEFFA2846EED.png)
 
 ### Remapping
 
@@ -159,15 +159,15 @@ Second, I did some remapping of values. There were three columns with only two v
 
 Third, outliers. `.describe()` and boxplots were useful.
 
-![st-8D73A974-456A-42D6-ACB1-6801E751184B.png](/img/st-8D73A974-456A-42D6-ACB1-6801E751184B.png)
+![st-8D73A974-456A-42D6-ACB1-6801E751184B.png](/images/old/st-8D73A974-456A-42D6-ACB1-6801E751184B.png)
 
 For example, the former gave the max Year as 2025 (which is in the future, so impossible), and the latter showed that the car with Mileage of 164,500 miles an outlier. Both showed one car with a Year of 1100, which also seemed unlikely.
 
-![st-image.png](/img/st-image.png)
+![st-image.png](/images/old/st-image.png)
 
 I went back the original data to get the correct years, and simply removed the individual car with incredibly high mileage. There was one car with a Mileage of only 9, but checking the data, this seemed legit - it was a brand new car.
 
-![st-image.png](/img/st-image-1.png)
+![st-image.png](/images/old/st-image-1.png)
 
 This looks better, although Distance has many points outside the interquartile range.
 
@@ -179,25 +179,25 @@ Everything looks good, so finally I simply split the data into groups for future
 
 Now the data was ready, I wanted to briefly see how mine compared. `.describe()` was good for this. My car is younger slightly than average, and the Mileage is >20% less than the mean.
 
-![st-5EF7651A-9C8C-4C62-A13F-46CF0F7B967B.png](/img/st-5EF7651A-9C8C-4C62-A13F-46CF0F7B967B.png)
+![st-5EF7651A-9C8C-4C62-A13F-46CF0F7B967B.png](/images/old/st-5EF7651A-9C8C-4C62-A13F-46CF0F7B967B.png)
 
 ### Scattering
 
 What does the data look like? Let’s plot all the data. There is a linear-ish relationship between Price and Mileage, but not perfectly so - mostly due to the two Generations. Price clearly goes up with Year. Distance seems to have no correlation, although they seemed to be bunched between ~130 and ~230 miles away.
 
-![st-st_16_0.png](/img/st-st_16_0.png)
+![st-st_16_0.png](/images/old/st-st_16_0.png)
 
-![st-st_16_1.png](/img/st-st_16_1.png)
+![st-st_16_1.png](/images/old/st-st_16_1.png)
 
-![st-st_16_2.png](/img/st-st_16_2.png)
+![st-st_16_2.png](/images/old/st-st_16_2.png)
 
 Next, only the 7th Gen ST-3s. The relationship between Price and Mileage in particular looks linear, although there are some outliers. A Private seller could ask ~£9000 to ~£9800 for a car with 38k Mileage, whereas a Trade seller could ask for ~£1000 more (albeit with a smaller range). Distance is similar to before - no correlation, most ~130 to ~230 miles away.
 
-![st-st_17_0.png](/img/st-st_17_0.png)
+![st-st_17_0.png](/images/old/st-st_17_0.png)
 
-![st-st_17_1.png](/img/st-st_17_1.png)
+![st-st_17_1.png](/images/old/st-st_17_1.png)
 
-![st-st_17_2.png](/img/st-st_17_2.png)
+![st-st_17_2.png](/images/old/st-st_17_2.png)
 
 ### Histograms
 
@@ -205,27 +205,27 @@ Histograms are used to see the distribution of the data. If the data is normally
 
 Across all the data, only Distance is roughly normally distributed. For 7th Generation, Mileage and Price are also fairly normally distributed, but with some skew (positive for Price, negative for Mileage).
 
-![st-image.png](/img/st-image-2.png)
+![st-image.png](/images/old/st-image-2.png)
 
-![st-image.png](/img/st-image-3.png)
+![st-image.png](/images/old/st-image-3.png)
 
 ### Q-Q plots
 
 Q-Q (quantile–quantile) plots can also show if a linear regression is good. A straight line in the plot suggests a linear relationship. For all data, Price, Year, and Mileage are mostly S-shaped, so slightly linear, but not really. Again, the alikes appear to be more linear.
 
-![st-image.png](/img/st-image-4.png)
+![st-image.png](/images/old/st-image-4.png)
 
-![st-image.png](/img/st-image-5.png)
+![st-image.png](/images/old/st-image-5.png)
 
 ### Scipy statistics
 
 More linearity! This time with the `scipy` module, which can measure. Shapiro, Kolmogorov-Smirnov (KS), and skew/kurtosis. Firstly, for all data:
 
-![st-D4424127-6681-4767-8ACA-B81797E61C3A.png](/img/st-D4424127-6681-4767-8ACA-B81797E61C3A.png)
+![st-D4424127-6681-4767-8ACA-B81797E61C3A.png](/images/old/st-D4424127-6681-4767-8ACA-B81797E61C3A.png)
 
 And then just for the alikes:
 
-![st-image.png](/img/st-image-6.png)
+![st-image.png](/images/old/st-image-6.png)
 
 Shapiro statistics closer to 1 suggest higher linearity; several of the features, for both datasets, have statistics over 0.9, which suggests normality. However, a low p-value (say, <0.05) suggests they deviate from normality - in this case, all the features for all data, and Year for the alikes.
 
@@ -239,17 +239,17 @@ Skew relates to symmetry, and kurtosis relates to tails. A normal distribution i
 
 And finally, correlations. Pandas supports three types of correlation coefficients - Pearson, Kendall Tau, and Spearman’s rank. All showed similar results. For the full dataset, Price is strongly positively correlated with Year, and strongly negatively correlated with Generation (remember, 1 is the older model) and Mileage. Trim is mildly positive, Seller is mildly negative. Distance shows almost no correlation (as the scatters suggest also).
 
-![st-image.png](/img/st-image-7.png)
+![st-image.png](/images/old/st-image-7.png)
 
 It’s similar for the alikes, simply with fewer features.
 
-![st-image.png](/img/st-image-8.png)
+![st-image.png](/images/old/st-image-8.png)
 
 ### Multicollinearity
 
 Multicollinearity measures how much one feature varies with another. Using variation inflation factor from statsmodels:
 
-![st-7718AC9B-0742-44F6-9676-5D574E774F45.png](/img/st-7718AC9B-0742-44F6-9676-5D574E774F45.png)
+![st-7718AC9B-0742-44F6-9676-5D574E774F45.png](/images/old/st-7718AC9B-0742-44F6-9676-5D574E774F45.png)
 
 Typically, a value over 10, such as Year, is bad, and should be removed. However, I don’t like the idea of removing it - if I was considering buying a car, year is important. So, for now, I’ll leave it in.
 
@@ -259,29 +259,29 @@ One more thing. This isn’t really an exercise where clustering would be helpfu
 
 For Price vs Mileage for all data, the elbow is clearly at 2:
 
-![st-image.png](/img/st-image-9.png)
+![st-image.png](/images/old/st-image-9.png)
 
 Giving a diagonal split:
 
-![st-image.png](/img/st-image-10.png)
+![st-image.png](/images/old/st-image-10.png)
 
 Not that we learn much from this.
 
 What about Price vs Distance? There was no clear elbow, but 3 looks slightly better:
 
-![st-image.png](/img/st-image-11.png)
+![st-image.png](/images/old/st-image-11.png)
 
 Running the algorithm a few times mostly gave a split similar to the top one, but occasionally one more like the bottom:
 
-![st-image.png](/img/st-image-12.png)
+![st-image.png](/images/old/st-image-12.png)
 
-![st-image.png](/img/st-image-13.png)
+![st-image.png](/images/old/st-image-13.png)
 
 I was actually expecting a larger single cluster, given the density there.
 
 I thought it would be interesting to check this against a population map of the UK. Distance is measured from the black box in the map below (source: [ONS](https://www.ons.gov.uk/census/maps/choropleth/population/population-density/population-density/persons-per-square-kilometre)), which is where the car is. The darker the colour, the higher the population density. London, Birmingham, and Manchester - the darker, high-density places - all fall in the 160-230 mile range, which correlates with the areas on scatter chart with many points.
 
-![st-F66DD130-0AFB-441C-B06B-B677F5DA2F7C.png](/img/st-F66DD130-0AFB-441C-B06B-B677F5DA2F7C.png)
+![st-F66DD130-0AFB-441C-B06B-B677F5DA2F7C.png](/images/old/st-F66DD130-0AFB-441C-B06B-B677F5DA2F7C.png)
 
 ### Summary
 
@@ -293,7 +293,7 @@ Everything above suggests linear modelling might work for alikes, and for the fu
 
 After getting the data ready, I did a simple linear regression - Ordinary Least Squares - using statsmodels.  This is great, because alongside the coefficients, it provides P-values, R-squared values, F-statistics, and more.
 
-![st-D58624E0-8D2E-4E6C-B5FC-7581123120B5.png](/img/st-D58624E0-8D2E-4E6C-B5FC-7581123120B5.png)
+![st-D58624E0-8D2E-4E6C-B5FC-7581123120B5.png](/images/old/st-D58624E0-8D2E-4E6C-B5FC-7581123120B5.png)
 
 At this stage, the predicted price is £9262.
 
@@ -313,7 +313,7 @@ A key observation at this time is that Distance has a P-value of 0.284. This is 
 
 So let’s remove it, and re-do the OLS:
 
-![st-F1DF81D6-4EB4-4A6A-8BF1-02F45A37AF55.png](/img/st-F1DF81D6-4EB4-4A6A-8BF1-02F45A37AF55.png)
+![st-F1DF81D6-4EB4-4A6A-8BF1-02F45A37AF55.png](/images/old/st-F1DF81D6-4EB4-4A6A-8BF1-02F45A37AF55.png)
 
 The adjusted R-squared drops minimally, suggesting it’s slightly less accurate (probably as we lost 1/3 of the features), but F-stat has improved, and it is still significant. LL, AIC, and BIC, barely changed, nor did the conditional number. The normality worsened slightly. Overall, the model didn’t particularly improve or deteriorate, but we have removed the statistically insignificant feature, which is good.
 
@@ -345,7 +345,7 @@ Finally, I wanted to know what would happen if I also removed Year, given Year a
 
 A quick OLS, and sklearn regressions:
 
-![st-E190EADE-64DB-4F92-B833-253802BAB93F.png](/img/st-E190EADE-64DB-4F92-B833-253802BAB93F.png)
+![st-E190EADE-64DB-4F92-B833-253802BAB93F.png](/images/old/st-E190EADE-64DB-4F92-B833-253802BAB93F.png)
 
 R² dropped slightly. F-stat improved. LL, AIC, BIC were all similar. The features were slightly more normal, and the conditional number dropped, but is still very high (even though there is only one feature?!) The coefficient, now that there is no Year, rises to ~£11k - the same we found when changing to relative years - and the gradient of the Mileage line increased by ~3%.
 
@@ -365,7 +365,7 @@ Standard linear regression with Year and Distance features removed had a fractio
 
 I again started with an OLS analysis; while I know the data isn’t linear, it would give insight into the different features. R-squared, F-stat are better, but LL/AIC/BIC significantly worse, than the alikes, due to the larger size of the dataset and the other features (which are all, apart from Distance, significant - although for now I’ll opt to keep Distance included). The data is still not normal, and there is still multicollinearity.
 
-![st-A52BE89E-DBF6-469C-9828-1B32891E1629.png](/img/st-A52BE89E-DBF6-469C-9828-1B32891E1629.png)
+![st-A52BE89E-DBF6-469C-9828-1B32891E1629.png](/images/old/st-A52BE89E-DBF6-469C-9828-1B32891E1629.png)
 
 ### Quick predictions
 
@@ -379,7 +379,7 @@ Next I split the data, with `train_test_split`. This time I used 20% of the data
 
 Cross-validating (10 times) again has gradient boost as the best, this time with a slightly-lower MAE of 660, a standard deviation of 95, and a slightly worse (but still good) mean R² of 0.970. Random forest and XGBoost were again the next best; I’ll take all three to the next stage, hyperparameter tuning, to see how low I can get the MAE and how high the R².
 
-![st-A7D14725-D148-4BEE-B53C-DDC4C9853C8F.png](/img/st-A7D14725-D148-4BEE-B53C-DDC4C9853C8F.png)
+![st-A7D14725-D148-4BEE-B53C-DDC4C9853C8F.png](/images/old/st-A7D14725-D148-4BEE-B53C-DDC4C9853C8F.png)
 
 ### Hyperparameter tuning: RandomizedSearchCV, GridSearchCV, BayesSearchCV
 
@@ -463,7 +463,7 @@ I did also play with removing Year (as it is multicollinear with other factors),
 
 Combining all the results (including those from the simple modelling above) in a single table:
 
-![st-FE3E05AA-26AA-48EA-94E4-BEB7B46E9E57.png](/img/st-FE3E05AA-26AA-48EA-94E4-BEB7B46E9E57.png)
+![st-FE3E05AA-26AA-48EA-94E4-BEB7B46E9E57.png](/images/old/st-FE3E05AA-26AA-48EA-94E4-BEB7B46E9E57.png)
 
 The mean of the six is £9626 - amazingly close to the top-ranked model.
 

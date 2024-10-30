@@ -116,9 +116,9 @@ However, it can also become tedious, especially when it starts repeating the sam
 
 You may have noticed above there was a fallacy called the slipper slope. This was not my error:
 
-![list.png](/img/fallacies-politics-chatgpt-list.png)
+![list.png](/images/old/fallacies-politics-chatgpt-list.png)
 
-![slipper.png](/img/fallacies-politics-chatgpt-slipper.png)
+![slipper.png](/images/old/fallacies-politics-chatgpt-slipper.png)
 
 However, when I asked the original question again, it again responded with “slipper slope”. I did ask if it had a foot fetish, but it denied.
 
@@ -128,15 +128,15 @@ It was quite cool that ChatGPT could create examples for you to guess the fallac
 
 By default, it seems to give the question and the answer, rather than actually test. This wasn’t very useful:
 
-![test1.png](/img/fallacies-politics-chatgpt-test1.png)
+![test1.png](/images/old/fallacies-politics-chatgpt-test1.png)
 
 This was better:
 
-![test2.png](/img/fallacies-politics-chatgpt-test2.png)
+![test2.png](/images/old/fallacies-politics-chatgpt-test2.png)
 
 Although it doesn’t always understand your answer correctly:
 
-![strawman.png](/img/fallacies-politics-chatgpt-strawman.png)
+![strawman.png](/images/old/fallacies-politics-chatgpt-strawman.png)
 
 ## Summary
 

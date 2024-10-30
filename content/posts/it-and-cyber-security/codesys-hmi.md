@@ -95,13 +95,13 @@ Note that as this isn't being transferred to run on an Arduino with the 16-bit a
 
 The videos linked to above explain how to create the HMI. I used a potentiometer to simulate the sensor, then three lights to simulate the outputs - a blue light for the cooler, a red light for the heater, and a green light for when your cup of tea or coffee is within the ideal temperature range.
 
-![codesys-hmi](/img/codesys-hmi.png)
+![codesys-hmi](/images/old/codesys-hmi.png)
 
 ### Simulation
 
 Once it's all in place, you can build, log in, and debug (again, explained in the above videos), and then we get something that looks like this.
 
-![codesys-visualisation](/img/codesys-visualisation.gif)
+![codesys-visualisation](/images/old/codesys-visualisation.gif)
 
 Pretty cool! Note how the values appear live in the code, and the variables table, and are reflected in the HMI, which would make debugging more advanced projects much simpler than with OpenPLC.
 

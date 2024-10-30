@@ -27,7 +27,7 @@ Tags: Psychology, Motivation, Incentives
 
 ## The 24 Universal Character Strengths, in One Graphic
 
-![Character strengths](/img/week51.jpeg)
+![Character strengths](/images/old/week51.jpeg)
 
 Tags: Personalities, Traits, Strengths, Attitudes
 
@@ -43,7 +43,7 @@ Tags: Behaviour, Aggression, Male-Female Dynamics, Dating, Relationships
 
 [https://www.visualcapitalist.com/60-years-of-stock-market-cycles/](https://www.visualcapitalist.com/60-years-of-stock-market-cycles/)
 
-![Stock market cycles](/img/week51-1.jpeg)
+![Stock market cycles](/images/old/week51-1.jpeg)
 
 Tags: Investing, Stock Markets
 
@@ -51,7 +51,7 @@ Tags: Investing, Stock Markets
 
 [https://www.visualcapitalist.com/top-sp-500-stocks-return/](https://www.visualcapitalist.com/top-sp-500-stocks-return/)
 
-![Top S&P returns](/img/week51-2.jpeg)
+![Top S&P returns](/images/old/week51-2.jpeg)
 
 Tags: Investing, Renewable Energy, Solar, AI
 

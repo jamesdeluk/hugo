@@ -107,19 +107,19 @@ Warning: no OLE file was found inside this ZIP container (OPC)
 
 Let's open the file, using LibreOffice Calc on REMnux.
 
-![sans-april-2021-forensic-quiz-0.png](/img/sans-april-2021-forensic-quiz-0.png)
+![sans-april-2021-forensic-quiz-0.png](/images/old/sans-april-2021-forensic-quiz-0.png)
 
 As expected. The sheet is protected, but we can unprotect it with a click of a button. And what about hidden sheets?
 
-![sans-april-2021-forensic-quiz-1.png](/img/sans-april-2021-forensic-quiz-1.png)
+![sans-april-2021-forensic-quiz-1.png](/images/old/sans-april-2021-forensic-quiz-1.png)
 
 Lots of random information. Names, ages phone numbers. A random poem in several languages:
 
-![sans-april-2021-forensic-quiz-2.png](/img/sans-april-2021-forensic-quiz-2.png)
+![sans-april-2021-forensic-quiz-2.png](/images/old/sans-april-2021-forensic-quiz-2.png)
 
 One sheet was empty, but when you change the font colour to black you find some things that look familiar:
 
-![sans-april-2021-forensic-quiz-3.png](/img/sans-april-2021-forensic-quiz-3.png)
+![sans-april-2021-forensic-quiz-3.png](/images/old/sans-april-2021-forensic-quiz-3.png)
 
 So I guess that's where those three files come from. Note the combined size of the three is almost identical to the single xlsb. Anyway, onto them.
 
@@ -151,7 +151,7 @@ I'm not going to go deep into reverse engineering them, but I'll at least throw 
 
 First, .do1:
 
-![sans-april-2021-forensic-quiz-4.png](/img/sans-april-2021-forensic-quiz-4.png)
+![sans-april-2021-forensic-quiz-4.png](/images/old/sans-april-2021-forensic-quiz-4.png)
 
 Crypto stuff, malloc, and LoadLibrary (with few imports). Suspicious. The other two are actually the same, probably the same functionality in a different package.
 
@@ -161,23 +161,23 @@ OK, next file. ./ProgramData/huqvg/huqvg.exe, appeared at the same time as the a
 
 About 40 minutes later ./Users/wilmer.coughlin/AppData/Local/Temp/C618.tmp.dll appears. Yup, this looks quite nasty:
 
-![sans-april-2021-forensic-quiz-5.png](/img/sans-april-2021-forensic-quiz-5.png)
+![sans-april-2021-forensic-quiz-5.png](/images/old/sans-april-2021-forensic-quiz-5.png)
 
 Strings include months, countries, language codes, trigonometry functions. And all this badness:
 
-![sans-april-2021-forensic-quiz-6.png](/img/sans-april-2021-forensic-quiz-6.png)
+![sans-april-2021-forensic-quiz-6.png](/images/old/sans-april-2021-forensic-quiz-6.png)
 
 And finally let's check the anchor exes. First we have Mar 30 00:07  ./Windows/Temp/adf/anchorAsjuster_x64.exe:
 
-![sans-april-2021-forensic-quiz-7.png](/img/sans-april-2021-forensic-quiz-7.png)
+![sans-april-2021-forensic-quiz-7.png](/images/old/sans-april-2021-forensic-quiz-7.png)
 
 Mar 30 00:08  ./Windows/Temp/adf/anchorDNS_x64.exe. Includes CreateRemoteThread, so perhaps C2. Also references to AnchorDNS, cmd.exe, and owerShell.
 
-![sans-april-2021-forensic-quiz-8.png](/img/sans-april-2021-forensic-quiz-8.png)
+![sans-april-2021-forensic-quiz-8.png](/images/old/sans-april-2021-forensic-quiz-8.png)
 
 And a few hours later, Mar 30 03:31  ./Windows/Temp/adf/anchor_x64.exe. Basically identical to the above.
 
-![sans-april-2021-forensic-quiz-9.png](/img/sans-april-2021-forensic-quiz-9.png)
+![sans-april-2021-forensic-quiz-9.png](/images/old/sans-april-2021-forensic-quiz-9.png)
 
 ### Scheduled Task
 
@@ -257,7 +257,7 @@ That will do for now. Let's do some Malware Traffic Analysis.
 
 First I like to export any HTTP objects. In this case, there are many:
 
-![sans-april-2021-forensic-quiz-10.png](/img/sans-april-2021-forensic-quiz-10.png)
+![sans-april-2021-forensic-quiz-10.png](/images/old/sans-april-2021-forensic-quiz-10.png)
 
 That said, when we look though them, the main one of interest is packet 1837, `rt3ret3.exe`. Download it and run some quick checks:
 
@@ -342,7 +342,7 @@ Yup.
 
 At 00:12 (4~5 minutes after the first two Anchor files appear), we have a DNS lookup to [xyskencevli.com](http://xyskencevli.com/). Created January 28th. Two minutes later, [sluaknhbsoe.com](http://sluaknhbsoe.com/), same creation date. And then the fun begins. Approximately 700 requests over about 10 minutes that look something like this:
 
-![sans-april-2021-forensic-quiz-11.png](/img/sans-april-2021-forensic-quiz-11.png)
+![sans-april-2021-forensic-quiz-11.png](/images/old/sans-april-2021-forensic-quiz-11.png)
 
 Looks legit, right? Like the "Onedrive" connections, these continue until the end of the pcap.
 
@@ -368,13 +368,13 @@ I said earlier I don't want to look up the SHAs, as a quick peek shows that they
 
 [https://tria.ge/210413-5h2m2q8ysx/behavioral2](https://tria.ge/210413-5h2m2q8ysx/behavioral2)
 
-![sans-april-2021-forensic-quiz-12.png](/img/sans-april-2021-forensic-quiz-12.png)
+![sans-april-2021-forensic-quiz-12.png](/images/old/sans-april-2021-forensic-quiz-12.png)
 
 `4123.do1` : `93cc5e6a6b671d9b0124ade32ae8b09269de9f03c5c5e66347fbfc7a8c3b305e`
 
 [https://www.joesandbox.com/analysis/384021/0/html](https://www.joesandbox.com/analysis/384021/0/html)
 
-![sans-april-2021-forensic-quiz-13.png](/img/sans-april-2021-forensic-quiz-13.png)
+![sans-april-2021-forensic-quiz-13.png](/images/old/sans-april-2021-forensic-quiz-13.png)
 
 `4123.xsg`, `4123.xlsb` : `92bb3324b68e8780d718ed808cb9633dc1ef1f7988d2b85cc0f9f431ed63a63d`
 
@@ -388,7 +388,7 @@ I said earlier I don't want to look up the SHAs, as a quick peek shows that they
 
 [https://urlhaus.abuse.ch/browse.php?search=291c573996c647508544e8e21bd2764e6e4c834d53d6d2c8903a0001c783764b](https://urlhaus.abuse.ch/browse.php?search=291c573996c647508544e8e21bd2764e6e4c834d53d6d2c8903a0001c783764b)
 
-![sans-april-2021-forensic-quiz-14.png](/img/sans-april-2021-forensic-quiz-14.png)
+![sans-april-2021-forensic-quiz-14.png](/images/old/sans-april-2021-forensic-quiz-14.png)
 
 `YPbR` : `3792a39e3f6437dcfa32799796b1791f3b443190d10d0697fe1166604dc9bbfd`
 
@@ -397,26 +397,26 @@ I said earlier I don't want to look up the SHAs, as a quick peek shows that they
 `C618.tmp.dll` : `cc74f7e82eb33a14ffdea343a8975d8a81be151ffcb753cb3f3be10242c8a252`
 [https://otx.alienvault.com/indicator/file/9abf8579ed3b6e5d3d43b408509a53db](https://otx.alienvault.com/indicator/file/9abf8579ed3b6e5d3d43b408509a53db)
 
-![sans-april-2021-forensic-quiz-15.png](/img/sans-april-2021-forensic-quiz-15.png)
+![sans-april-2021-forensic-quiz-15.png](/images/old/sans-april-2021-forensic-quiz-15.png)
 
 [https://app.any.run/tasks/820bbcb2-6924-44fe-92c0-fa6fd752b2b7/](https://app.any.run/tasks/820bbcb2-6924-44fe-92c0-fa6fd752b2b7/)
 
-![sans-april-2021-forensic-quiz-16.png](/img/sans-april-2021-forensic-quiz-16.png)
+![sans-april-2021-forensic-quiz-16.png](/images/old/sans-april-2021-forensic-quiz-16.png)
 
 `anchorAsjuster_x64.exe` : `3ab8a1ee10bd1b720e1c8a8795e78cdc09fec73a6bb91526c0ccd2dc2cfbc28d`
 
 [https://www.joesandbox.com/analysis/381815/0/html](https://www.joesandbox.com/analysis/381815/0/html)
 
-![sans-april-2021-forensic-quiz-17.png](/img/sans-april-2021-forensic-quiz-17.png)
+![sans-april-2021-forensic-quiz-17.png](/images/old/sans-april-2021-forensic-quiz-17.png)
 
 `anchorDNS_x64.exe` : `9fdbd76141ec43b6867f091a2dca503edb2a85e4b98a4500611f5fe484109513`
 
 [https://www.joesandbox.com/analysis/381811/0/html](https://www.joesandbox.com/analysis/381811/0/html)
 
-![sans-april-2021-forensic-quiz-18.png](/img/sans-april-2021-forensic-quiz-18.png)
+![sans-april-2021-forensic-quiz-18.png](/images/old/sans-april-2021-forensic-quiz-18.png)
 
 `anchor_x64.exe` : `a8a8c66b155fcf9bfdf34ba0aca98991440c3d34b8a597c3fdebc8da251c9634`  
 
 [https://www.joesandbox.com/analysis/381816/0/html](https://www.joesandbox.com/analysis/381816/0/html)
 
-![sans-april-2021-forensic-quiz-19.png](/img/sans-april-2021-forensic-quiz-19.png)
+![sans-april-2021-forensic-quiz-19.png](/images/old/sans-april-2021-forensic-quiz-19.png)

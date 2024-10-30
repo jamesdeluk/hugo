@@ -7,7 +7,7 @@ tags: ["Strategy","Business","M&A","Coursera"]
 ---
 [https://www.coursera.org/learn/corporatestrategy](https://www.coursera.org/learn/corporatestrategy)
 
-![Certificate](/img/corporate-strategy-ucl-uol-certificate.jpg)
+![Certificate](/images/old/corporate-strategy-ucl-uol-certificate.jpg)
 
 ## Introduction
 
@@ -156,7 +156,7 @@ BCG matrix: Market growth vs market share (question marks, stars, cash cows, dog
 
 Synergistic portfolio framework
 
-![Synergistic portfolio framework](/img/spf.png)
+![Synergistic portfolio framework](/images/old/spf.png)
 
 Incoming benefit = (EV of business before spin-off) - (EV of business after spin-off)
 

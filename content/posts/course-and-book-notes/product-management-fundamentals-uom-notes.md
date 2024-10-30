@@ -12,7 +12,7 @@ tags: ["Product Management","Business","Design","Product Design","Marketing","ed
 
 ### Customer Wants
 
-![Customer wants](/img/pmf-customer-wants.png)
+![Customer wants](/images/old/pmf-customer-wants.png)
 
 ### Product Manager Role
 
@@ -22,7 +22,7 @@ tags: ["Product Management","Business","Design","Product Design","Marketing","ed
 - Intersection of Customer (what do they want?) + Technology (is it technically viable?) + Business (is it commercially viable?)
 - Support Design, Development, Marketing (Commercial)
 
-![Product manager role venn diagram](/img/pmf-venn.png)
+![Product manager role venn diagram](/images/old/pmf-venn.png)
 
 *Starts at Opportunities and moves clockwise*
 

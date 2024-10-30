@@ -18,7 +18,7 @@ Tags: Liveability, Education, Healthcare, Infrastructure, Stability, Culture, Co
 
 [https://www.visualcapitalist.com/cp/competitive-countries-rankings/](https://www.visualcapitalist.com/cp/competitive-countries-rankings/)
 
-![Competitive countries](/img/week26.jpeg)
+![Competitive countries](/images/old/week26.jpeg)
 
 Tags: Entrepreneurship, Economy, Government, Business, Infrastructure
 

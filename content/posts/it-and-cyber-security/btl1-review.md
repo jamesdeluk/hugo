@@ -20,7 +20,7 @@ If you have less than a couple years, it probably is worth it, yes!
 
 <br><br>
 
-![btl1-coin](/img/btl1-coin.jpg)
+![btl1-coin](/images/old/btl1-coin.jpg)
 
 ## Ntl;wr
 

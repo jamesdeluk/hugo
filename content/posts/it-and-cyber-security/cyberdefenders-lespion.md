@@ -41,7 +41,7 @@ The first thing I'll do is take a look around. If they have a large number of re
 
 And I do. Top repo, top file:
 
-![cyberdefenders-lespion-00.png](/img/cyberdefenders-lespion-00.png)
+![cyberdefenders-lespion-00.png](/images/old/cyberdefenders-lespion-00.png)
 
 > aJFRaLHjMXvYZgLPwiJkroYLGRkNBW
 
@@ -49,7 +49,7 @@ And I do. Top repo, top file:
 
 This isn't much harder. Search for pass, and the same file gives:
 
-![cyberdefenders-lespion-01.png](/img/cyberdefenders-lespion-01.png)
+![cyberdefenders-lespion-01.png](/images/old/cyberdefenders-lespion-01.png)
 
 CyberChef can handle the rest.
 
@@ -59,7 +59,7 @@ CyberChef can handle the rest.
 
 Not login related, so it doesn't look the be the same file. What other repos does the user have?
 
-![cyberdefenders-lespion-02.png](/img/cyberdefenders-lespion-02.png)
+![cyberdefenders-lespion-02.png](/images/old/cyberdefenders-lespion-02.png)
 
 One of the most popular pieces of malware out there right now!
 
@@ -69,7 +69,7 @@ One of the most popular pieces of malware out there right now!
 
 The first thing I did is start Googling.
 
-![cyberdefenders-lespion-03.png](/img/cyberdefenders-lespion-03.png)
+![cyberdefenders-lespion-03.png](/images/old/cyberdefenders-lespion-03.png)
 
 First, the GitHub username, EMarseille99, but it returned nothing useful. The password found above is no better. The email gives nothing either, nor does the company/job. I tried some other search engines but they were no better.
 
@@ -77,13 +77,13 @@ I next tried a username search tool, [https://namechk.com/](https://namechk.com/
 
 Next the GitHub profile image. `exiftool` provides nothing useful either! Google reverse image gives:
 
-![cyberdefenders-lespion-04.png](/img/cyberdefenders-lespion-04.png)
+![cyberdefenders-lespion-04.png](/images/old/cyberdefenders-lespion-04.png)
 
 O...kay. And TinEye gives a load of stock images.
 
 The first hint suggested LinkedIn. This took my a while, but a combination of the job title (although written differently) and the surname (which apparently is not a pseudonym) gave me the answer.
 
-![cyberdefenders-lespion-05.png](/img/cyberdefenders-lespion-05.png)
+![cyberdefenders-lespion-05.png](/images/old/cyberdefenders-lespion-05.png)
 
 > Sorbonne
 
@@ -101,7 +101,7 @@ Also, the QR code on her Instagram (below) takes you to her page.
 
 Same format as GitHub, and searching the full name provided by LinkedIn also returns the same.
 
-![cyberdefenders-lespion-06.png](/img/cyberdefenders-lespion-06.png)
+![cyberdefenders-lespion-06.png](/images/old/cyberdefenders-lespion-06.png)
 
 > [https://www.instagram.com/emarseille99/](https://www.instagram.com/emarseille99/)
 
@@ -109,7 +109,7 @@ Same format as GitHub, and searching the full name provided by LinkedIn also ret
 
 Insta tells all.
 
-![cyberdefenders-lespion-07.png](/img/cyberdefenders-lespion-07.png)
+![cyberdefenders-lespion-07.png](/images/old/cyberdefenders-lespion-07.png)
 
 I know where this is, but if you don't, I'm sure you can Google "ship on top of building" or something.
 
@@ -119,7 +119,7 @@ I know where this is, but if you don't, I'm sure you can Google "ship on top of 
 
 Good old Insta.
 
-![cyberdefenders-lespion-08.png](/img/cyberdefenders-lespion-08.png)
+![cyberdefenders-lespion-08.png](/images/old/cyberdefenders-lespion-08.png)
 
 Reverse image searches (Google, TinEye) give nothing.
 
@@ -139,7 +139,7 @@ Easy one again. Look at the photo, Google a few of the places on the street sign
 
 It looks to me like a US college, so that limits it to over... 5000.
 
-![cyberdefenders-lespion-09.png](/img/cyberdefenders-lespion-09.png)
+![cyberdefenders-lespion-09.png](/images/old/cyberdefenders-lespion-09.png)
 
 My first thought was to do a reverse image search to see if there were any similar images.
 
@@ -147,7 +147,7 @@ Google seems to try to determine what the image is and generally return images m
 
 TinEye is much better as it tries to find the exam image. Searching the whole image returned one result but with no info. So, I cropped the image to remove the border and it returned one other result:
 
-![cyberdefenders-lespion-010.png](/img/cyberdefenders-lespion-010.png)
+![cyberdefenders-lespion-010.png](/images/old/cyberdefenders-lespion-010.png)
 
 > Indiana
 

@@ -6,7 +6,7 @@ tags: ["Finance","Business","Modelling","LinkedIn"]
 ---
 [https://www.linkedin.com/learning/financial-modeling-foundations](https://www.linkedin.com/learning/financial-modeling-foundations)
 
-![Certificate](/img/fmf-certificate.jpg)
+![Certificate](/images/old/fmf-certificate.jpg)
 [https://www.linkedin.com/learning/certificates/61b4251cb70b473f8b1820d156848110144fdf6450252fca362d9706a6d36749](https://www.linkedin.com/learning/certificates/61b4251cb70b473f8b1820d156848110144fdf6450252fca362d9706a6d36749)
 
 ## Financial models should:
@@ -78,11 +78,11 @@ Often includes DCF model and 3S model
 
 ### Corporate finance
 
-![Corporate finance modelling](/img/fmf1.png)
+![Corporate finance modelling](/images/old/fmf1.png)
 
 ### Investment
 
-![Investment modelling](/img/fmf2.png)
+![Investment modelling](/images/old/fmf2.png)
 
 ## Other notes
 

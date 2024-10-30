@@ -38,11 +38,11 @@ Tags: Productivity, Success, Motivation
 
 [https://dangeng.github.io/visual_anagrams/](https://dangeng.github.io/visual_anagrams/)
 
-![Visual analgram 1](/img/week50.gif)
+![Visual analgram 1](/images/old/week50.gif)
 
-![Visual analgram 2](/img/week50-1.gif)
+![Visual analgram 2](/images/old/week50-1.gif)
 
-![Visual analgram 3](/img/week50-2.gif)
+![Visual analgram 3](/images/old/week50-2.gif)
 
 Tags: Illusions, Anagrams, AI
 

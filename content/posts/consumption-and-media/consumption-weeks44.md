@@ -58,7 +58,7 @@ Tags: Sustainability, Materials, Mining
 
 [https://www.bhout.com/](https://www.bhout.com/)
 
-![BHOUT](/img/week44.webp)
+![BHOUT](/images/old/week44.webp)
 
 Tags: Fitness, Health, Sport, Boxing
 

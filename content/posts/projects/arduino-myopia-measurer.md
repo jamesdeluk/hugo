@@ -47,15 +47,15 @@ The right-most potentiometer is required to adjust the LCD contrast.
 
 So, without further ado, here is my little invention:
 
-![mm-angle.jpg](/img/mm-angle.jpg)
+![mm-angle.jpg](/images/old/mm-angle.jpg)
 
 Note the numbers are in the middle of changing, hence the strange blur.
 
-![mm-top.jpg](/img/mm-top.jpg)
+![mm-top.jpg](/images/old/mm-top.jpg)
 
 View from the top, to get a better idea of wiring.
 
-![mm-front.jpg](/img/mm-front.jpg)
+![mm-front.jpg](/images/old/mm-front.jpg)
 
 View from the front, as if you were using it (move away until `HC-SR04` is sliiiightly blurry).
 
@@ -63,7 +63,7 @@ View from the front, as if you were using it (move away until `HC-SR04` is sliii
 
 Made with Autodesk EAGLE.
 
-![mm-schematic.png](/img/mm-schematic.png)
+![mm-schematic.png](/images/old/mm-schematic.png)
 
 ### Code
 

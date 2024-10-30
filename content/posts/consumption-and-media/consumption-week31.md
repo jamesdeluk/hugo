@@ -163,7 +163,7 @@ Tags: Greenwashing, Climate, Advertising, PR, Propaganda, Social Media
 
 [https://www.visualcapitalist.com/charted-americas-import-reliance-of-key-minerals/](https://www.visualcapitalist.com/charted-americas-import-reliance-of-key-minerals/)
 
-![Mineral reliance](/img/week31.jpeg)
+![Mineral reliance](/images/old/week31.jpeg)
 
 Tags: Resources, Trade, Geopolitics, Supply Chain
 
@@ -171,7 +171,7 @@ Tags: Resources, Trade, Geopolitics, Supply Chain
 
 [https://www.visualcapitalist.com/cp/space-debris-by-country/](https://www.visualcapitalist.com/cp/space-debris-by-country/)
 
-![Space debris](/img/week31-1.jpeg)
+![Space debris](/images/old/week31-1.jpeg)
 
 Tags: Space, Waste
 

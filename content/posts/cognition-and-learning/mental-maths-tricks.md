@@ -396,7 +396,7 @@ e.g. √87
 
 ## Cases
 
-![I Got An Offer tricks](/img/mental-maths-tricks-1.png)
+![I Got An Offer tricks](/images/old/mental-maths-tricks-1.png)
 
 ## Links
 

@@ -21,7 +21,7 @@ Tags: Wealth, Success, Personalities
 
 [https://www.visualcapitalist.com/top-sp-500-stocks-by-annual-returns/](https://www.visualcapitalist.com/top-sp-500-stocks-by-annual-returns/)
 
-![S&P Returns](/img/week28.jpeg)
+![S&P Returns](/images/old/week28.jpeg)
 
 Tags: Investing, Profits
 

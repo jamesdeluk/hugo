@@ -41,7 +41,7 @@ The physical Arduino circuit is the same as before ([see here](https://www.james
 
 The variables are the same as before:
 
-![Untitled](/img/Untitled.png)
+![Untitled](/images/old/Untitled.png)
 
 The code is:
 
@@ -61,47 +61,47 @@ Note how `PB1` doesn't have to be physically held on to keep `LED` on; once it i
 
 To simulate this in OpenPLC, click the Simulate button and let it compile and start etc:
 
-![openplc-st-1](/img/openplc-st-1.png)
+![openplc-st-1](/images/old/openplc-st-1.png)
 
 Next, click Debug on the left panel:
 
-![openplc-st-2](/img/openplc-st-2.png)
+![openplc-st-2](/images/old/openplc-st-2.png)
 
 A new tab will appear, and the person will become a STOP sign:
 
-![openplc-st-3](/img/openplc-st-3.png)
+![openplc-st-3](/images/old/openplc-st-3.png)
 
 On right panel, it will change to the Debugger tab, but currently it's empty:
 
-![openplc-st-4](/img/openplc-st-4.png)
+![openplc-st-4](/images/old/openplc-st-4.png)
 
 To Debug (view) the individual variables, click the glasses icon for each in the left panel:
 
-![openplc-st-5](/img/openplc-st-5.png)
+![openplc-st-5](/images/old/openplc-st-5.png)
 
 They will appear in the right panel:
 
-![openplc-st-6](/img/openplc-st-6.png)
+![openplc-st-6](/images/old/openplc-st-6.png)
 
 If you hover over then double-click, we get visuals!
 
-![openplc-st-7](/img/openplc-st-7.png)
+![openplc-st-7](/images/old/openplc-st-7.png)
 
 Repeat for all, and then if you hover over the visual, you can change the size. I like the middle-size one:
 
-![openplc-st-8](/img/openplc-st-8.png)
+![openplc-st-8](/images/old/openplc-st-8.png)
 
 Now, if you hover over the value (in this case, False), you get a new menu:
 
-![openplc-st-9](/img/openplc-st-9.png)
+![openplc-st-9](/images/old/openplc-st-9.png)
 
 If you click the padlock, you can set the value in a new popup:
 
-![openplc-st-10](/img/openplc-st-10.png)
+![openplc-st-10](/images/old/openplc-st-10.png)
 
 Click Toggle value then OK, and the chart will change:
 
-![openplc-st-11](/img/openplc-st-11.png)
+![openplc-st-11](/images/old/openplc-st-11.png)
 
 And note how this has turned the LED on!
 
@@ -111,11 +111,11 @@ If the speed is too fast, you can change the Duration setting in the Debugger. I
 
 Here's the full "routine" - `PB1` `TRUE` (`LED` `TRUE`) then `FALSE`, then `PB2` `TRUE` (`LED` `FALSE`) then `FALSE`:
 
-![openplc-st-12](/img/openplc-st-12.png)
+![openplc-st-12](/images/old/openplc-st-12.png)
 
 Interestingly, if you hold `PB2` `TRUE` (i.e. keep the button pressed), `LED` stays `FALSE` even if you press `PB1`. This is because, in the ST, the code for `PB2` comes after the code for `PB1`
 
-![openplc-st-13](/img/openplc-st-13.png)
+![openplc-st-13](/images/old/openplc-st-13.png)
 
 Changing the code around:
 
@@ -131,11 +131,11 @@ END_IF;
 
 Creates the opposite effect:
 
-![openplc-st-14](/img/openplc-st-14.png)
+![openplc-st-14](/images/old/openplc-st-14.png)
 
 Also, if you decrease the Duration enough, you can see the ramp for the change:
 
-![openplc-st-15](/img/openplc-st-15.png)
+![openplc-st-15](/images/old/openplc-st-15.png)
 
 Uploading to the Arduino works in the same way as with LL and creates the same result as the Debugger. Unsurprising, really.
 
@@ -157,11 +157,11 @@ The second line, quite simply, toggles the value of `LED` to the opposite of wha
 
 However, this creates a strange effect:
 
-![openplc-st-16](/img/openplc-st-16.png)
+![openplc-st-16](/images/old/openplc-st-16.png)
 
 Let's zoom in by changing the Duration:
 
-![openplc-st-17](/img/openplc-st-17.png)
+![openplc-st-17](/images/old/openplc-st-17.png)
 
 On the actual Arduino, this is the LED flashing continuously.
 
@@ -169,7 +169,7 @@ Why is this? Well, PLC code loops continously. This means, every loop, it sees `
 
 The solution is using states; in particular, using a variable to log the previous state of `PB1`, and only do something if the previous state has changed. So, we add a new variable, `PB1_PREV` (note this does not relate to anything physical; it is purely a variable):
 
-![openplc-st-18](/img/openplc-st-18.png)
+![openplc-st-18](/images/old/openplc-st-18.png)
 
 And the code looks like this:
 
@@ -189,13 +189,13 @@ This is the same as before, but each loop, `PB1_PREV` is set to be the same as `
 
 Here is the full functionality, both turned on and off by `PB1`, and an emergency stop caused by `PB2` even though `PB1` was still `TRUE` (and, if `PB2` is `TRUE`, `PB1` has no effect):
 
-![openplc-st-19](/img/openplc-st-19.png)
+![openplc-st-19](/images/old/openplc-st-19.png)
 
 ### Playing with Timers
 
 The variables:
 
-![openplc-st-20](/img/openplc-st-20.png)
+![openplc-st-20](/images/old/openplc-st-20.png)
 
 The code:
 
@@ -219,13 +219,13 @@ The `TON` (timer on) `my_ton` input `my_ton_in` is set to be the same as `PB1`. 
 
 The functionality. Note the delay between `PB1` and `LED`:
 
-![openplc-st-21](/img/openplc-st-21.png)
+![openplc-st-21](/images/old/openplc-st-21.png)
 
 ### Steady(ish) State (e.g Temperature)
 
 The variables are the same as LL (I've explained the strange numbers [here](https://www.jamesgibbins.com/posts/openplc-arduino/#steadyish-state-eg-temperature)), except the temperatures are also included up here, and I've used initial values to make the simulation look better:
 
-![openplc-st-22](/img/openplc-st-22.png)
+![openplc-st-22](/images/old/openplc-st-22.png)
 
 The code is actually simpler than using LL, as each comparison can change multiple variables. It's easy to read what it does:
 
@@ -249,13 +249,13 @@ END_IF;
 
 As a reminder, here is the same functionality in LL:
 
-![openplc-st-23](/img/openplc-st-23.png)
+![openplc-st-23](/images/old/openplc-st-23.png)
 
 Note how, in this case, `cooler_on` and `heater_on` are de-energized using a NC contactor linked to `ideal_temp`, which would be similar to `IF (sensor >= temp_max) AND NOT ideal_temp THEN`. However, not only does this not seem to work as well in ST, it also isn't really what we want if we think logically about the functionality. A better way, which we did in ST above, is to directly define the values of `cooler_on` and `heater_on` depending on the comparison.
 
 As for the Debug chart:
 
-![openplc-st-24](/img/openplc-st-24.png)
+![openplc-st-24](/images/old/openplc-st-24.png)
 
 With ST, it's very easy to take this a step further. We can keep the heater or cooler on until it hits the perfect temperature, and then stop. So, instead of potentially yo-yoing between the `temp_max` and `temp_min`, it will only increase or decrease to the perfect temperature. This involves setting a new variable, `perfect_temp`, and let's say set to 42598 (the mid-point). The new code looks like:
 
@@ -291,7 +291,7 @@ END_IF;
 
 And the output:
 
-![openplc-st-25](/img/openplc-st-25.png)
+![openplc-st-25](/images/old/openplc-st-25.png)
 
 ## Comments?
 

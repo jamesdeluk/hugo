@@ -39,4 +39,4 @@ I've also added ads, partially to learn more about how ad-based apps work, and p
 If you have any comments or feedback, I suggest posting on the [thread on the Endmyopia forums](https://community.endmyopia.org/t/i-made-a-myopia-measurer-android-app/19311). I do read them and implement features I can.
 
 Also, if you want to leave a (positive) review on the Google Play Store, please do - ideally not one like this:
-![Review](/img/myopia-measurer-app-review.png)
+![Review](/images/old/myopia-measurer-app-review.png)

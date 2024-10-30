@@ -18,4 +18,4 @@ tags: ["Sustainability","Business","Circular Economy","Recycling","Agriculture",
   - Design must consider end-of-life dismantling for recycling/reuse
   - Right to repair
 
-![Circular economy diagram](/img/bsatce.png)
+![Circular economy diagram](/images/old/bsatce.png)

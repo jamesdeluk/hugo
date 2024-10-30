@@ -48,9 +48,9 @@ Often different VPs for different stakeholders
 
 ### Perceived value vs price/cost
 
-![Value vs price](/img/bmi-hec.png)
+![Value vs price](/images/old/bmi-hec.png)
 
-![Value vs cost](/img/bmi-hec-3.png)
+![Value vs cost](/images/old/bmi-hec-3.png)
 
 **Game changing**
 
@@ -62,7 +62,7 @@ Zipcar: differentiate from car ownership (can be lower price and higher value/lo
 
 x = value attributes (can be split by customer); y = level of offer (low to high)
 
-![Value curve](/img/bmi-hec-1.png)
+![Value curve](/images/old/bmi-hec-1.png)
 
 **Differentiation**: create (no surprise), raise (bed quality), eliminiate (receptonist), reduce (room size)
 
@@ -76,7 +76,7 @@ Can be for a business or an industry
 
 Porter’s original structure:
 
-![Porter’s original structure](/img/bmi-hec-2.png)
+![Porter’s original structure](/images/old/bmi-hec-2.png)
 
 Porter’s original structure
 

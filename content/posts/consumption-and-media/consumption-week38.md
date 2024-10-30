@@ -57,7 +57,7 @@ Tags: Animals
 
 [https://londonist.com/london/transport/bakerloo-other-tube-lines](https://londonist.com/london/transport/bakerloo-other-tube-lines)
 
-![London tube lines](/img/week38.jpeg)
+![London tube lines](/images/old/week38.jpeg)
 
 - Tags: London, Transport, Fun, Etymology
 
@@ -65,6 +65,6 @@ Tags: Animals
 
 [https://londonist.com/london/secret/sermon-lane-peters-hill](https://londonist.com/london/secret/sermon-lane-peters-hill)
 
-![London street names](/img/week38-1.jpeg)
+![London street names](/images/old/week38-1.jpeg)
 
 - Tags: London, Etymology

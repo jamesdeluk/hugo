@@ -6,7 +6,7 @@ tags: ["Finance","Corporate Finance","M&A","Valuation","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/intro-business-valuation/](https://corporatefinanceinstitute.com/course/intro-business-valuation/)
 
-![Certificate](/img/cfi-ibv-cert.jpg)
+![Certificate](/images/old/cfi-ibv-cert.jpg)
 
 [https://www.credential.net/6424b711-a689-4088-b6f7-4e389cedff20](https://www.credential.net/6424b711-a689-4088-b6f7-4e389cedff20)
 
@@ -181,7 +181,7 @@ Multiples affected by
 | P/E | Used for mature, publicly traded companies | Demoniator based on accrual accounting which can be manipulated |
 | P/B | Used for banks | Limited usefulness for non-banks |
 
-![Multiples over time](/img/ibv.png)
+![Multiples over time](/images/old/ibv.png)
 
 ### Process
 

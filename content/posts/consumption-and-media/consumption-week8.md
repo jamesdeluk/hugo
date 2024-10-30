@@ -45,7 +45,7 @@ date: 2023-02-26
 
 - Only 80kph and 140km range, but I still want one.
 
-![mobilize duo](/img/week8.gif)
+![mobilize duo](/images/old/week8.gif)
 
 ## Personal Development, Health, and Fitness
 

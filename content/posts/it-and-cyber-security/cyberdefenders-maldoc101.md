@@ -94,7 +94,7 @@ $ olevba sample.bin
 
 Alternatively, we can open the malicious document and view (edit) the macro. I did so using LibreOffice Writer.
 
-![cyberdefenders-maldoc101-0.png](/img/cyberdefenders-maldoc101-0.png)
+![cyberdefenders-maldoc101-0.png](/images/old/cyberdefenders-maldoc101-0.png)
 
 ## 3. What malware family was this maldoc attempting to drop?
 
@@ -105,7 +105,7 @@ $ sha256sum sample.bin
 d50d98dcc8b7043cb5c38c3de36a2ad62b293704e3cf23b0cd7450174df53fee  sample.bin
 ```
 
-![cyberdefenders-maldoc101-1.png](/img/cyberdefenders-maldoc101-1.png)
+![cyberdefenders-maldoc101-1.png](/images/old/cyberdefenders-maldoc101-1.png)
 
 Looks like we're dealing with Emotet.
 
@@ -135,7 +135,7 @@ We can also look at the actual VBA script in LibreOffice.
 
 There is line 43, which `Split`s the string based on that value:
 
-![cyberdefenders-maldoc101-2.png](/img/cyberdefenders-maldoc101-2.png)
+![cyberdefenders-maldoc101-2.png](/images/old/cyberdefenders-maldoc101-2.png)
 
 There's also this on line 10:
 
@@ -163,7 +163,7 @@ ViperMonkey errors out quite a bit, but I got some useful information with `-s`,
 
 Opening this in a graphical editor (to avoid line wrapping), we get some interesting information:
 
-![cyberdefenders-maldoc101-3.png](/img/cyberdefenders-maldoc101-3.png)
+![cyberdefenders-maldoc101-3.png](/images/old/cyberdefenders-maldoc101-3.png)
 
 `Win32_Process` is a well-known WMI class, and (as we can see above) is often related to PowerShell (in this case with `-e`, meaning encoded command). This is our answer.
 
@@ -177,7 +177,7 @@ See the previous question.
 
 Let's dig into that encoded PowerShell command. CyberChef will decode it:
 
-![cyberdefenders-maldoc101-4.png](/img/cyberdefenders-maldoc101-4.png)
+![cyberdefenders-maldoc101-4.png](/images/old/cyberdefenders-maldoc101-4.png)
 
 And gives us this:
 
@@ -189,4 +189,4 @@ It's still a but obfuscated, but we can easily see the URLs, and some is easily 
 
 Let's look on URLhaus for one of these URLs:
 
-![cyberdefenders-maldoc101-5.png](/img/cyberdefenders-maldoc101-5.png)
+![cyberdefenders-maldoc101-5.png](/images/old/cyberdefenders-maldoc101-5.png)

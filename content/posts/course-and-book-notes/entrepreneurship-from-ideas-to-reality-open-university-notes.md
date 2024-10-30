@@ -6,9 +6,9 @@ tags: ["Entrepreneurship","Business","Business Models","Open University"]
 ---
 [https://www.open.edu/openlearn/money-business/entrepreneurship-ideas-reality/content-section-overview](https://www.open.edu/openlearn/money-business/entrepreneurship-ideas-reality/content-section-overview)
 
-![Entrepreneurship_–_from_ideas_to_reality.png](/img/entrepreneurship-open-university-Entrepreneurship__from_ideas_to_reality.png)
+![Entrepreneurship_–_from_ideas_to_reality.png](/images/old/entrepreneurship-open-university-Entrepreneurship__from_ideas_to_reality.png)
 
-![ENT_1_statement_annotated-1.png](/img/entrepreneurship-open-university-ENT_1_statement_annotated-1.png)
+![ENT_1_statement_annotated-1.png](/images/old/entrepreneurship-open-university-ENT_1_statement_annotated-1.png)
 
 ## Ideas
 
@@ -72,7 +72,7 @@ Sometimes new or better solutions can come from:
 
 ## Double diamond
 
-![Untitled](/img/entrepreneurship-open-university-0.png)
+![Untitled](/images/old/entrepreneurship-open-university-0.png)
 
 ## Disruption
 
@@ -89,7 +89,7 @@ In 2020, the government estimated around 6 million businesses in the UK, of whic
 
 Micro-businesses are considered to be those with fewer than ten employees and a turnover of less than £2m. An SME may have up to 250 employees and a turnover of up to £25m, which in the UK represents over 99 per cent of all businesses (Rhodes, 2017).
 
-![Untitled](/img/entrepreneurship-open-university-1.png)
+![Untitled](/images/old/entrepreneurship-open-university-1.png)
 
 The UK government prioritises financial services, science and technology, energy and health sectors. You may find that funding is more readily available in the priority sectors.
 
@@ -144,15 +144,15 @@ and settle invoices, pay your taxes, comply with regulations and so on)
     - [Trade & Invest Wales](https://tradeandinvest.wales/)
 - Nesta incubators and accelerators ([https://www.nesta.org.uk/blog/incubators-and-accelerators-an-updated-directory-for-the-uk/](https://www.nesta.org.uk/blog/incubators-and-accelerators-an-updated-directory-for-the-uk/))
 
-![Untitled](/img/entrepreneurship-open-university-2.png)
+![Untitled](/images/old/entrepreneurship-open-university-2.png)
 
 ## McKinsey’s value delivery system		
 
-![Untitled](/img/entrepreneurship-open-university-3.png)
+![Untitled](/images/old/entrepreneurship-open-university-3.png)
 
 ## Business model canvas
 
-![Business_Model_Canvas.png](/img/entrepreneurship-open-university-Business_Model_Canvas.png)
+![Business_Model_Canvas.png](/images/old/entrepreneurship-open-university-Business_Model_Canvas.png)
 
 ## Dilemmas
 
@@ -177,7 +177,7 @@ and settle invoices, pay your taxes, comply with regulations and so on)
 
 ## Customer segments
 
-![Untitled](/img/entrepreneurship-open-university-4.png)
+![Untitled](/images/old/entrepreneurship-open-university-4.png)
 
 ## Marketing Mix
 
@@ -191,7 +191,7 @@ and settle invoices, pay your taxes, comply with regulations and so on)
 
 ## Rogers’ technology adoption curve
 
-![Untitled](/img/entrepreneurship-open-university-5.png)
+![Untitled](/images/old/entrepreneurship-open-university-5.png)
 
 ## Mutual value
 
@@ -229,7 +229,7 @@ Feature or benefit?
 
 ## Transformation
 
-![Untitled](/img/entrepreneurship-open-university-6.png)
+![Untitled](/images/old/entrepreneurship-open-university-6.png)
 
 **Inputs**
 

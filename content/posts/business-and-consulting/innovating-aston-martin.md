@@ -37,7 +37,7 @@ AM could create a limited-edition model that is purchased exclusively through au
 
 An Aston Martin motorbike. Okay, as I found out while writing this article, they’ve actually done this - collaborating with the French company Brough Superior to create am £80k track-only sports bike. But even better? But a collab with Triumph, another famous British brand, to create a road bike with a Ducati price tag (£30-£50k). Here’s a mockup by Stable Diffusion:
 
-![Aston Martin motorbike](/img/innovating-aston-martin.png)
+![Aston Martin motorbike](/images/old/innovating-aston-martin.png)
 
 ## Product Performance
 

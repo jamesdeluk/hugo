@@ -8,7 +8,7 @@ tags: ["Business Analysis","Business","LinkedIn"]
 
 [https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/](https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/)
 
-![CertificateOfCompletion_Explore a Career in Business Analysis.jpg](/img/CertificateOfCompletion_Explore_a_Career_in_Business_Analysis.jpg)
+![CertificateOfCompletion_Explore a Career in Business Analysis.jpg](/images/old/CertificateOfCompletion_Explore_a_Career_in_Business_Analysis.jpg)
 
 # What Is Business Analysis?
 
@@ -264,7 +264,7 @@ Circle is what you have control over (i.e. organisation), box represents what yo
 
 Don’t get too complex e.g. group different suppliers into single supplier entity if the same processes/relationships
 
-![Untitled.png](/img/eaciball.png)
+![Untitled.png](/images/old/eaciball.png)
 
 ### 2. Functional Flow Diagram
 
@@ -274,7 +274,7 @@ Focus on a single interaction
 
 Focus on the what is transacted not how
 
-![Untitled.png](/img/eaciball-1.png)
+![Untitled.png](/images/old/eaciball-1.png)
 
 ### 3. Cross-Functional Flow Diagram
 
@@ -284,7 +284,7 @@ Verb-noun combination
 
 Rule of thumb: no more than 16 boxes
 
-![Untitled](/img/eaciball-2.png)
+![Untitled](/images/old/eaciball-2.png)
 
 ### 4. Flowchart Diagram
 
@@ -296,7 +296,7 @@ Enables impact assessments
 
 Focus on a single functional area
 
-![Untitled.png](/img/eaciball-3.png)
+![Untitled.png](/images/old/eaciball-3.png)
 
 # Business Analysis Foundations: Competencies
 

@@ -183,7 +183,7 @@ Tags: Maps, Geography, Comics
 
 [https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/](https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/)
 
-![Untitled](/img/week30.jpeg)
+![Untitled](/images/old/week30.jpeg)
 
 - A crinkle crankle wall, also called a serpentine wall, is a wavy wall that may seem to sacrifice some efficiency for aesthetics. The curves add visual interest, but they use more material than a straight wall. Except they don’t! They use more bricks than a straight wall of the same thickness but they don’t have to be as thick.
 

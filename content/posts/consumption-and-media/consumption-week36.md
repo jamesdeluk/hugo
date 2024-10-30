@@ -33,7 +33,7 @@ Tags:
 
 ## Visualized: How Much Metal is Used in Clean Energy Technology?
 
-![CER metals](/img/week36.jpeg)
+![CER metals](/images/old/week36.jpeg)
 
 Tags: Renewable Energy, Resources, Metals
 
