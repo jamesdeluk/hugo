@@ -28,11 +28,6 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "james@gibbins.me"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/jamesdeluk"
-  url: "james@gibbins.me"
-
 # - name: Greasy Fork
 #   icon: "fab fa-file-code"
 #   url: "https://greasyfork.org/en/users/242246-jamesdeluk"
@@ -40,6 +35,10 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/jamgib/"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/jamesdeluk"
 
 - name: X
   icon: "fab fa-twitter"
@@ -106,7 +105,7 @@ badges:
 - type: soft-skill-indicator
   name: Life
   percentage: 35
-  color: red
+  color: yellow
 
 - type: soft-skill-indicator
   name: Countries
