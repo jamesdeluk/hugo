@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Top Skills
   id: skills
   enable: true
   weight: 5
@@ -26,37 +26,37 @@ buttons:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
-  logo: /images/sections/skills/python.svg
+  logo: /images/site/python.svg
   summary: "An avid user for everything from data analysis to web development, scripting to scraping."
   categories: ["technology"]
 
 - name: Machine Learning
-  logo: /images/sections/skills/tensorflow.svg
+  logo: /images/site/tensorflow.svg
   summary: "Regression, clustering, and linear analysis using scikit-learn (sklearn), TensorFlow/Keras, and PyTorch."
   categories: ["technology"]
 
 - name: Data Visualisation
-  logo: /images/sections/skills/tableau.svg
+  logo: /images/site/tableau.svg
   summary: "Using Excel, Python, Tableau, and Power BI to ensure stakeholders have the information they need to make informed decisions."
   categories: ["technology"]
 
 # - name: Cloud Computing
-  # logo: /images/sections/skills/cloud.png
+  # logo: /images/site/cloud.png
   # summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
   # categories: ["others"]
 
 - name: Git
-  logo: /images/sections/skills/git.svg
+  logo: /images/site/git.svg
   summary: "Both professionally and personally, with GitHub and GitLab."
   categories: ["technology"]
   # url: "https://git-scm.com/"
 
 - name: Risk Management
-  logo: /images/sections/skills/nist.svg
+  logo: /images/site/nist.svg
   summary: "Using frameworks and methodologies to assess and manage risk, primarily for critical infrastructure."
   categories: ["business"]
 
 - name: Korean
-  logo: /images/sections/skills/taegeukki.svg
+  logo: /images/site/taegeukki.svg
   summary: "Intermediate level, having lived in the country. Can converse with natives, and am working towards business proficiency."
   categories: ["life"]
