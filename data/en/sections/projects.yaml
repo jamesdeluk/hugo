@@ -28,8 +28,8 @@ projects:
   # timeline: "Jun 2018 - Present"
   # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
   url: /posts/data-science/how-much-for-my-car/
-  summary: Using multivariable regression and feature engineering to determine optimum selling price
-  tags: ["machine-learning", "regression"]
+  summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price.
+  tags: ["machine-learning", "regressions", "pricing"]
 
 - name: Solar generation forecasting
   # logo: /images/posts/projects/tensorflow.png
@@ -37,5 +37,14 @@ projects:
   # timeline: "Jun 2018 - Present"
   # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
   # url: /posts/data-science/how-much-for-my-car/
-  summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium
-  tags: ["machine-learning", "tensorflow"]
+  summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium.
+  tags: ["machine-learning", "tensorflow", "energy"]
+
+- name: Customer segmentation and purchase predictions
+  # logo: /images/posts/projects/tensorflow.png
+  # role: Developer
+  # timeline: "Jun 2018 - Present"
+  # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
+  # url: /posts/data-science/how-much-for-my-car/
+  summary: Using K-nearest neighbours, K-means clustering, Principal Component Analysis, and hierarchical clustering to segment customers, then used logistic modelling to predict buying outcomes.
+  tags: ["machine-learning", "regressions", "segmentation"]
