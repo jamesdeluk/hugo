@@ -1,7 +1,6 @@
 ---
 title: "BYD Auto Analysis: 3Cs, Business Model Canvas, Value Proposition Canvas, SWOT, 7Ps, Porter’s Five Forces, STEEPLE"
 date: 2023-09-27
-categories: ["Business and Consulting"]
 tags: ["Strategy","Business","Analysis","3Cs","Business Model Canvas","Business Model","Value Proposition Canvas",Value Proposition,"SWOT","7Ps","Marketing","STEEPLE","Porter's Five Forces","EVs"]
 summary: "A quick review of BYD Auto, focussing on EVs, using a number of frameworks."
 ---

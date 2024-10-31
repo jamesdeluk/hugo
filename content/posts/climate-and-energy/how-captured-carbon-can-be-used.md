@@ -1,7 +1,6 @@
 ---
 title: "How Captured Carbon Can Be Used"
 date: 2023-09-13
-categories: ["Climate and Energy"]
 tags: ["Carbon","CO2","Carbon Capture","DAC","CCUS","Biochar","Oceans","Plants","Trees","Plastic","Buildings","Construction","Chemistry","Geology","Greenwashing"]
 ---
 ## Why carbon capture?

@@ -1,7 +1,6 @@
 ---
 title: Is it MECE? Use a Venn
 date: 2023-01-25
-categories: ["Business and Consulting"]
 tags: ["MECE","Consulting","Segmentation","Analysis","Structure"]
 ---
 MECE is one of the most well-known acronyms in consulting. Standing for Mutually Exclusive, Collectively Exhaustive, it is a principle used when doing any form of segmentation, to ensure no duplication (ME) or missed items (CE). This exists in a bunch of scenarios, such as solving problems, writing documents, and preparing presentations.

@@ -1,7 +1,6 @@
 ---
 title: Wind and Solar Potential
 date: 2023-02-01
-categories: ["Climate and Energy"]
 tags: ["Wind","Solar","Energy","Renewable Energy","Climate","Green","Desertec","IEA"]
 ---
 Which countries have the most potential for wind and solar power?

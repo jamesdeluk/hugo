@@ -1,6 +1,5 @@
 ---
 title: "Your Head is a Houseboat - Campbell Walker"
-categories: ["Contemplations and Society","Course and Book Notes"]
 tags: ["Books","Book Summary","Personal Development","Mental Health","Meditation","Journalling","Contemplation","Memories","Motivation","Fears","Biases","Human Nature","Compassion"]
 date: 2023-03-01
 ---

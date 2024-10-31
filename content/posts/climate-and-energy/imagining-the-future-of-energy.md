@@ -1,7 +1,6 @@
 ---
 title: "Imagining the Future of Energy"
 date: 2023-02-08
-categories: ["Climate and Energy"]
 tags: ["Business Models","China","Distributed Energy","Distribution Networks","Electricity","Electrification","Energy","Energy Storage","EVs","Future","Geopolitics","Health","Heat Pumps","IEA","Oil","Renewable Energy","Solar","Supply Chain","Transmission Networks","V2G","Vertical Farming","War","Wind"]
 ---
 

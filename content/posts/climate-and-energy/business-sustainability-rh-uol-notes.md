@@ -1,7 +1,6 @@
 ---
 title: Business Sustainability in the Circular Economy (RH/UoL)
 date: 2023-06-28
-categories: ["Course and Book Notes"]
 tags: ["Sustainability","Business","Circular Economy","Recycling","Agriculture","Emissions","Logistics","Coursera"]
 ---
 [https://www.coursera.org/learn/business-sustainability-circular-economy](https://www.coursera.org/learn/business-sustainability-circular-economy)

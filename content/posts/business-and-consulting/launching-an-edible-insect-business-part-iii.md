@@ -1,7 +1,6 @@
 ---
 title: "Launching an Edible Insect Business, Part III: Product"
 date: 2023-06-07
-categories: ["Business and Consulting"]
 tags: ["Business","Entrepreneurship","Case Study","Market Entry","Product Analysis","Agriculture","Food","Insects","Entomophagy"]
 ---
 ## Current products on the market

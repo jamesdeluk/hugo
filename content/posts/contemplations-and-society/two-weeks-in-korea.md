@@ -1,6 +1,5 @@
 ---
 title: "Two Weeks in Korea"
-categories: ["Contemplations and Society"]
 tags: ["Korea","Travel"]
 date: 2023-11-01
 ---

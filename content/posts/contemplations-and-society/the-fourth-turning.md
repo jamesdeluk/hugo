@@ -1,6 +1,5 @@
 ---
 title: "The Fourth Turning - the High is coming!"
-categories: ["Contemplations and Society"]
 tags: ["Society","Humanity","Cycles","Samsara","Economic Cycles","Crisis","War","Opportunity","Future","Personalities","Theories"]
 date: 2023-02-15
 ---

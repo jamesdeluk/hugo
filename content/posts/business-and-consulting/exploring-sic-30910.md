@@ -1,7 +1,6 @@
 ---
 title: "Exploring SIC 30910"
 date: 2023-05-17
-categories: ["Business and Consulting"]
 tags: ["Business","Entrepreneurship","Data Analysis","Industry Analysis","Market Research","Growth","Electric Vehicles","Motorbikes"]
 ---
 In a [previous post](https://www.jamesgibbins.com/posts/investigating-uk-companies/) I investigated a few companies using Companies House and the Office for National Statistics. In particular, I looked into the ONS data for electric vehicles, primarily based on SIC code 30910 (manufacture of motorcycles).

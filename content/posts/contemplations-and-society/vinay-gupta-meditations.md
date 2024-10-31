@@ -1,7 +1,6 @@
 ---
 title: Vinay Gupta on Meditation
 date: 2023-03-22
-categories: ["Contemplations and Society","Course and Book Notes"]
 tags: ["Meditation", "Thoughts", "Emotions", "Fears", "Trauma", "Happiness"]
 ---
 ## What enlightenment is

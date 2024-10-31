@@ -1,6 +1,5 @@
 ---
 title: "Assorted Thoughts"
-categories: ["Contemplations and Society"]
 tags: ["Self-Control","Focus","Relationships","Finances","Wealth","Career","Entrepreneurship","Business","Meditation","Reflecton","Contemplations","Skills","Learning","Decision Making","Mindset"]
 date: 2023-01-28
 lastmod: 2023-03-12

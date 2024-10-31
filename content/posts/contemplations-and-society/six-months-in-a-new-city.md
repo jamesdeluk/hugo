@@ -1,6 +1,5 @@
 ---
 title: "Six Months in a New City"
-categories: ["Contemplations and Society"]
 tags: ["Living","London","Housing","Work","Hobbies","Relationships","Communities","Networking"]
 date: 2023-10-11
 ---

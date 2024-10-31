@@ -3,7 +3,6 @@ title: "The Different Types of Energy Storage"
 summary: "The world of energy storage is growing at a rapid pace. In this post I’ve collated the various articles, videos, and papers on the topic I’ve come across. Most is in note form, for my reference. I’ll update it every so often with new findings."
 date: 2023-02-22
 lastmod: 2023-04-06
-categories: ["Climate and Energy"]
 tags: ["Energy Storage","Batteries","Electrochemical Batteries","Lithium","Flow Batteries","Vanadium","Zinc Bromine","Sodium","Aluminium","Silver","Air Batteries","Mechanical Batteries","CAES","LAES","Compressed CO2","Pumped Hydro","Thermal Batteries","Molten Salt","Molten Metal","Water Batteries","Sand Batteries","Hydrogen","Massless Batteries","Grid Storage"]
 ---
 In this post I’ve collated the various articles, videos, and papers on energy storage systems I’ve come across. Most is in note form, for my reference. I’ll update it every so often with new findings. If you find any errors, please do get in touch!

@@ -2,7 +2,6 @@
 title: "Fundamentals of Corporate Finance Notes"
 date: 2024-01-11
 lastmod: 2024-03-06
-categories: ["Business and Consulting","Course and Book Notes"]
 tags: ["Business","Finance","Corporate Finance","Stocks","Bonds","Debt","Markets","Books","Book Summary"]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Launching an Edible Insect Business, Part IV: Go-to-Market"
 date: 2023-06-14
-categories: ["Business and Consulting"]
 tags: ["Business","Entrepreneurship","Case Study","Market Entry","Strategy","Go-to-Market","Agriculture","Food","Insects","Entomophagy"]
 ---
 We’ve assessed the potential [market size](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-i/) and we’ve seen [who](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-ii/)’s currently in the market, along with their [product](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-iii/) lines. Next: based on everything we’ve found so far from our research, what's our go-to-market strategy?

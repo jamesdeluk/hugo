@@ -1,7 +1,6 @@
 ---
 title: "$100M Offers - Alex Hormozi"
 date: 2023-11-08
-categories: ["Business and Consulting","Course and Book Notes"]
 tags: ["Books","Book Summary","Business","Entrepreneurship","Sales","Marketing"]
 ---
 ## Grand Slam Offers

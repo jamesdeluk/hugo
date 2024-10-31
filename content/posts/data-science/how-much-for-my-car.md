@@ -2,7 +2,7 @@
 title: How much for my car? Using machine learning to find out
 date: 2024-10-16
 tags: ["Data Science", "Data Analysis", "Python", "Cars"]
-hero: /images/sections/data-science/st-angle.jpeg
+hero: /images/posts/data-science/st-angle.jpeg
 ---
 ## Intro
 

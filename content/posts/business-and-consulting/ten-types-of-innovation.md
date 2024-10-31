@@ -1,6 +1,5 @@
 ---
 title: "Doblin's Ten Types of Innovation"
-categories: ["Business and Consulting","Course and Book Notes"]
 tags: ["Books","Book Summary","Innovation","Business","Entrepreneurship","Business Models"]
 date: 2023-04-25
 ---

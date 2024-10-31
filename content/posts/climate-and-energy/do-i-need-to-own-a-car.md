@@ -1,7 +1,6 @@
 ---
 title: "Do I Need to Own a Car? And the Future of Mobility."
 date: 2023-03-15
-categories: ["Climate and Energy"]
 tags: ["Cars","Motorbikes","Mobility","Micromobility","Shared Mobility","Public Transport","Autonomous Vehicles","Connected Vehicles","EVs","Pollution","Traffic","Efficiency","Cost-Benefit Analysis","Opportunity Cost"]
 ---
 I love cars - always have. I’ve been driving tractors as long as I remember. I got my driving licence within three months of when I was legally able to. And this love has expanded into motorbikes, when I first left the rain of the UK and experienced the joys of the Australian mountain roads. Currently I own a car (Fiesta ST) and motorbike (Yamaha Fazer)

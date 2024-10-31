@@ -1,6 +1,5 @@
 ---
 title: "The Three Cs: Consumption, Creation, and Contemplation"
-categories: ["Contemplations and Society"]
 tags: ["Productivity", "Time Management", "Creativity", "Contemplations", "Education", "Learning"]
 date: 2023-01-01
 ---

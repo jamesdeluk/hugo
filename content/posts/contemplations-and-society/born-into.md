@@ -1,6 +1,5 @@
 ---
 title: "What were you “born into”?"
-categories: ["Contemplations and Society"]
 tags: ["Mindset","Attitude","Biases","Mental Blindspots"]
 date: 2023-08-02
 ---
