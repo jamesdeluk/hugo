@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Major Projects
   id: projects
   enable: true
   weight: 3
@@ -23,7 +23,7 @@ section:
 projects:
 
 - name: Car pricing modelling
-  # logo: /images/sections/projects/tensorflow.png
+  # logo: /images/posts/projects/tensorflow.png
   # role: Developer
   # timeline: "Jun 2018 - Present"
   # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
@@ -32,7 +32,7 @@ projects:
   tags: ["machine-learning", "regression"]
 
 - name: Solar generation forecasting
-  # logo: /images/sections/projects/tensorflow.png
+  # logo: /images/posts/projects/tensorflow.png
   # role: Developer
   # timeline: "Jun 2018 - Present"
   # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
