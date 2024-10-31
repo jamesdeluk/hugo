@@ -110,7 +110,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -269,7 +269,7 @@ params:
     
     # Number of posts to show to each page. Default is "12"
     pagination:
-       maxPostsPerPage: 12
+       maxPostsPerPage: 15
 
 
   # Provide footer configuration.
