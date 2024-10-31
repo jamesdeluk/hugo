@@ -4,9 +4,6 @@ p, #page-content li {
 #about p {
   font-size: 0.9rem;
 }
-.nav-link {
-  font-size: 0.9rem;
-}
 h1 {
   font-size: 2rem;
 }
@@ -18,6 +15,9 @@ h5 {
 }
 pre code {
   font-size: 0.8rem;
+}
+.nav-item {
+  line-height: 2em;
 }
 
 .home img {
