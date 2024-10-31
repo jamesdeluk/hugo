@@ -36,6 +36,16 @@ pre code {
   height: 30px;
   width: 1.5px;
 }
+@media screen and (max-width: 1200px) {
+  #top-nav-items {
+    padding-left: 0;
+  }
+  .top-navbar #top-navbar-divider {
+    // height: 1.5px;
+    // width: auto;
+    display: none;
+  }
+}
 
 // #about .col-sm-6:first-of-type {
 //   width: 80%;
