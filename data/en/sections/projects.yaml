@@ -1,14 +1,11 @@
-# section information
 section:
   name: Projects
   id: projects
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
 # buttons:
 # - name: All
 #   filter: "all"
@@ -19,32 +16,22 @@ section:
 # - name: Hobby
 #   filter: "hobby"
 
-# your projects
 projects:
 
 - name: Car pricing modelling
-  # logo: /images/posts/projects/tensorflow.png
-  # role: Developer
-  # timeline: "Jun 2018 - Present"
-  # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
+  logo: /images/posts/data-science/st/st-st_16_0.png
   url: /posts/data-science/how-much-for-my-car/
-  summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price.
+  summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
   tags: ["machine-learning", "regressions", "pricing"]
 
 - name: Solar generation forecasting
-  # logo: /images/posts/projects/tensorflow.png
-  # role: Developer
-  # timeline: "Jun 2018 - Present"
-  # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
+  logo: /images/site/solar.png
   # url: /posts/data-science/how-much-for-my-car/
-  summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium.
+  summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium based on historic data from Elia, a Belgian transmission system operator.
   tags: ["machine-learning", "tensorflow", "energy"]
 
 - name: Customer segmentation and purchase predictions
   # logo: /images/posts/projects/tensorflow.png
-  # role: Developer
-  # timeline: "Jun 2018 - Present"
-  # repo: https://github.com/jamesdeluk/data-science/tree/main/Projects/st
   # url: /posts/data-science/how-much-for-my-car/
   summary: Using K-nearest neighbours, K-means clustering, Principal Component Analysis, and hierarchical clustering to segment customers, then used logistic modelling to predict buying outcomes.
   tags: ["machine-learning", "regressions", "segmentation"]

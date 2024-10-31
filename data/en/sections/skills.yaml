@@ -1,4 +1,3 @@
-# section information
 section:
   name: Skills
   id: skills
@@ -6,10 +5,8 @@ section:
   weight: 5
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
@@ -19,15 +16,12 @@ buttons:
   filter: "business"
 - name: Life
   filter: "life"
-# - name: Others
-#   filter: "others"
 
 # Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
 - name: Python
   logo: /images/site/python.svg
-  summary: "An avid user for everything from data analysis to web development, scripting to scraping."
+  summary: "Use for everything from data analysis to web development, scripting to scraping."
   categories: ["technology"]
 
 - name: Machine Learning
@@ -37,19 +31,18 @@ skills:
 
 - name: Data Visualisation
   logo: /images/site/tableau.svg
-  summary: "Using Excel, Python, Tableau, and Power BI to ensure stakeholders have the information they need to make informed decisions."
+  summary: "Using Excel, Python, Tableau, and Power BI to turn data into insights to support informed decisions."
   categories: ["technology"]
-
-# - name: Cloud Computing
-  # logo: /images/site/cloud.png
-  # summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  # categories: ["others"]
 
 - name: Git
   logo: /images/site/git.svg
   summary: "Both professionally and personally, with GitHub and GitLab."
   categories: ["technology"]
-  # url: "https://git-scm.com/"
+
+- name: Excel
+  logo: /images/site/excel.svg
+  summary: "From data analysis to financial modelling to data visulatisation. Pivot Tables, Power Pivot, Power Query, VBS, ETL..."
+  categories: ["technology"]
 
 - name: Risk Management
   logo: /images/site/nist.svg
@@ -60,3 +53,9 @@ skills:
   logo: /images/site/taegeukki.svg
   summary: "Intermediate level, having lived in the country. Can converse with natives, and am working towards business proficiency."
   categories: ["life"]
+
+# - name: Cloud Computing
+  # logo: /images/site/cloud.png
+  # summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  # categories: ["others"]
+  # url: "https://git-scm.com/"

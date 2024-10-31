@@ -1,4 +1,3 @@
-# section information
 section:
   name: About
   id: about
@@ -7,7 +6,6 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
 # designation: Software Engineer
 # your company information
 # company:
@@ -18,11 +16,8 @@ section:
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
-# a summary about you
-summary: "Hi!<br /><br />I am a results-driven, people-centred data scientist with a multidisciplinary background including engineering, consulting, IT and cyber security, sales, and operations.<br /><br />My mission is to use data to help organisations solve complex problems and overcome difficult challenges to drive growth, while accelerating the progress towards a more sustainable, equitable world.<br /><br />From the UK, I've lived in four continents and travelled to dozens of countries. My primary interests include renewable energy, vehicles, psychology, and various physical activities."
+summary: "Hi!<br /><br />I am a results-driven, people-centred data scientist with a multidisciplinary background including engineering, consulting, IT and cyber security, sales, and operations.<br /><br />My mission is to use data to help organisations solve complex problems and overcome difficult challenges to drive growth, while accelerating the progress towards a more sustainable, equitable world.<br /><br />From the UK, I've lived in four continents and travelled to dozens of countries. My primary interests include renewable energy, vehicles, psychology, and various physical activities.<br /><br />This website is new, so if there are any bugs, please let me know 😁"
 
-# your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
@@ -116,19 +111,3 @@ badges:
   name: Continents
   percentage: 70
   color: blue
-
-# - type: soft-skill-indicator
-#   name: Team Work
-#   percentage: 90
-#   color: yellow
-
-# - type: soft-skill-indicator
-#   name: Hard Working
-#   percentage: 85
-#   color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"

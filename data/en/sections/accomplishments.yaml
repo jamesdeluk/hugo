@@ -1,15 +1,11 @@
-# section information
 section:
   name: Accomplishments
   id: accomplishments
   enable: true
   weight: 4
   showOnNavbar: true
-  # Can optionally hide the title in sections
   # hideTitle: true
 
-
-# Your accomplishments
 accomplishments:
 - name: Data Scientist Career Track
   timeline: "August 2024 - October 2024"
