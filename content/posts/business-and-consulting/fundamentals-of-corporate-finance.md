@@ -3,6 +3,7 @@ title: "Fundamentals of Corporate Finance Notes"
 date: 2024-01-11
 lastmod: 2024-03-06
 tags: ["Business","Finance","Corporate Finance","Stocks","Bonds","Debt","Markets","Books","Book Summary"]
+hero: /images/posts/business-and-consulting/focf-cover.jpg
 ---
 
 ## Goals and Governance of the Corporation
