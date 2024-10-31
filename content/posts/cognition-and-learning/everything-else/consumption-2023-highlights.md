@@ -4,6 +4,7 @@ title: Consumption 2023 Highlights
 summary: "The highlights and LLM analysis of my 2023 Consumption."
 tags: ['Consumption','Media']
 date: 2024-01-03
+hero: /images/posts/consumption-and-media/week12-2.png
 ---
 
 I re-read of all my Consumption posts from 2023 and picked out a few of my favourite bits.
