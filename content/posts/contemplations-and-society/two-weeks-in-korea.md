@@ -2,6 +2,7 @@
 title: "Two Weeks in Korea"
 tags: ["Korea","Travel"]
 date: 2023-11-01
+hero: /images/posts/contemplations-and-society/korea2023.jpg
 ---
 For the last couple of weeks I’ve been in Korea (yes, the South one). I thought I’d reflect back on my trip, and offer a few pieces of advice for anyone who happens to read this and is thinking of heading over.
 

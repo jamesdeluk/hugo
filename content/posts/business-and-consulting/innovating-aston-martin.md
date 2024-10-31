@@ -2,6 +2,7 @@
 title: "Innovating Aston Martin"
 date: 2023-11-29
 tags: ["Innovation","Business Models","Growth Strategy","Cars"]
+hero: /images/old/innovating-aston-martin.png
 ---
 I’ve always loved Aston Martin. Their cars are quintessentially British; six different models have featured in the James Bond movies, with the DB5 starring in eight different Bond films. Established in 110 years ago in 1913, they’re on the of the few remaining British automotive manufacturers. They’re beautiful, they sound amazing, and they have an incredibly heritage.
 
