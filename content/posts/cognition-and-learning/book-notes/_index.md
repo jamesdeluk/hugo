@@ -5,4 +5,5 @@ menu:
         name: Book Notes
         identifier: book-notes
         parent: cognition-and-learning
+        weight: 1
 ---

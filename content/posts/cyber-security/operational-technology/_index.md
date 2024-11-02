@@ -5,4 +5,5 @@ menu:
         name: Operational Technology (OT)
         identifier: operational-technology
         parent: cyber-security
+        weight: 1
 ---

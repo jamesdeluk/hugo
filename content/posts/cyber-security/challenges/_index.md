@@ -5,4 +5,5 @@ menu:
         name: Challenges
         identifier: cyber-security-challenges
         parent: cyber-security
+        weight: 1
 ---
