@@ -2,8 +2,8 @@
 title: Myopia Measurer Android App
 tags: ["Myopia","EndMyopia","Eyesight","Health","Android","App"]
 date: 2023-03-29
+hero: /images/posts/projects/myopia-measurer.png
 ---
-# Android Myopia Measurer
 
 Tl;dr: I launched an app. Get it here: [https://play.google.com/store/apps/details?id=com.myopia.measurer](https://play.google.com/store/apps/details?id=com.myopia.measurer)
 

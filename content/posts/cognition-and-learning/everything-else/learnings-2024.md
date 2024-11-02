@@ -4,6 +4,7 @@ summary: "Notes from things I've consumed in 2024"
 tags: ['Consumption','Media']
 date: 2024-01-14
 lastmod: 2024-10-26
+hero: /images/posts/cognition-and-learning/acc.png
 ---
 <!-- {{< small-image-button >}} -->
 
