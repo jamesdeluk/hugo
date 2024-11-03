@@ -39,29 +39,29 @@ Sufficiency from testing:
 
 Try to simplify before multiply(ing):
 
-\\[\frac{13}{52}\times\frac{4}{9}?\\]
+$$\frac{13}{52}\times\frac{4}{9}?$$
 
-\\[\frac{13}{52}\rightarrow\frac{1}{4}\\]
+$$\frac{13}{52}\rightarrow\frac{1}{4}$$
 
-\\[\frac{1}{4}\times\frac{4}{9}\rightarrow\frac{1}{1}\times\frac{1}{9}\\]
+$$\frac{1}{4}\times\frac{4}{9}\rightarrow\frac{1}{1}\times\frac{1}{9}$$
 
-\\[=\frac{1}{9}\\]
+$$=\frac{1}{9}$$
 
 For comparisons, cross-multiply:
 
-\\[\frac{45}{76}>\frac{65}{87}?\\]
+$$\frac{45}{76}>\frac{65}{87}?$$
 
-\\[45\times87=3915\\\\76\times65=4940\\\\3915>4940\\]
+$$45\times87=3915\\\\76\times65=4940\\\\3915>4940$$
 
 Therefore the statement is incorrect.
 
 <!-- Also:
 
-\\[76 \times 87 = 6612\\]
+$$76 \times 87 = 6612$$
 
 So:
 
-\\[\frac{45}{76}±\frac{65}{87}=\frac{3915±4940}{6612}\\] -->
+$$\frac{45}{76}±\frac{65}{87}=\frac{3915±4940}{6612}$$ -->
 
 ---
 
@@ -99,28 +99,28 @@ If statement (2) gets cannibalized, cross off (B) and (C)
 
 ## Exponents, roots, quadratics, equalities
 
-\\[(4^x)^3 = 16^{x-1}\\]
-\\[((2^2)^x)^3 = (2^4)^{x-1}\\]
-\\[2^{6x} = 2^{4x-4}\\]
-\\[6x = 4x-4 => x = -2\\]
+$$(4^x)^3 = 16^{x-1}$$
+$$((2^2)^x)^3 = (2^4)^{x-1}$$
+$$2^{6x} = 2^{4x-4}$$
+$$6x = 4x-4 => x = -2$$
 
 ---
 
-\\[\sqrt{x} = \sqrt[2]{x^1} = x^{1/2}\\]
+$$\sqrt{x} = \sqrt[2]{x^1} = x^{1/2}$$
 
 ---
 
-\\[\frac{1}{8}^{-\frac{4}{3}} = 8^{\frac{4}{3}}=\sqrt[3]{8^4} = (\sqrt[3]{8})^4\\]
+$$\frac{1}{8}^{-\frac{4}{3}} = 8^{\frac{4}{3}}=\sqrt[3]{8^4} = (\sqrt[3]{8})^4$$
 
-\\[\sqrt[4]{\sqrt{x}}=\sqrt[4]{x^\frac{1}{2}}=(x^\frac{1}{2})^{\frac{1}{4}}=x^\frac{1}{8}=\sqrt[8]{x}\\]
+$$\sqrt[4]{\sqrt{x}}=\sqrt[4]{x^\frac{1}{2}}=(x^\frac{1}{2})^{\frac{1}{4}}=x^\frac{1}{8}=\sqrt[8]{x}$$
 
 ---
 
-\\[\sqrt{68}=\sqrt{2\times2\times17}=\sqrt{4\times17}=\sqrt{4}\times\sqrt{17}=2\sqrt{17}\\]
+$$\sqrt{68}=\sqrt{2\times2\times17}=\sqrt{4\times17}=\sqrt{4}\times\sqrt{17}=2\sqrt{17}$$
 
-\\[\sqrt{27}=\sqrt{3\times3\times3}=\sqrt{9\times3}=\sqrt{9}\times\sqrt{3}=3\sqrt{3}\\]
+$$\sqrt{27}=\sqrt{3\times3\times3}=\sqrt{9\times3}=\sqrt{9}\times\sqrt{3}=3\sqrt{3}$$
 
-\\[\sqrt{\frac{68}{27}} = \frac{\sqrt{68}}{\sqrt{27}} = \frac{2\sqrt{17}}{3\sqrt{3}}\\]
+$$\sqrt{\frac{68}{27}} = \frac{\sqrt{68}}{\sqrt{27}} = \frac{2\sqrt{17}}{3\sqrt{3}}$$
 
 Splitting doesn’t work for addition, subtraction.
 
@@ -148,23 +148,23 @@ Splitting doesn’t work for addition, subtraction.
 
 Beware disguised quadratics:
 
-\\[3x^2=6x\\\\x=?\\]
+$$3x^2=6x\\\\x=?$$
 
 Incorrect:
 
-\\[x^2=2x\\\\x=2\\]
+$$x^2=2x\\\\x=2$$
 
 Correct:
 
-\\[3x^2-6x=0\\\\x^2-2x=0\\\\x(x-2)=0 \\\\x=0\hspace{0.3em}or\hspace{0.3em}2\\]
+$$3x^2-6x=0\\\\x^2-2x=0\\\\x(x-2)=0 \\\\x=0\hspace{0.3em}or\hspace{0.3em}2$$
 
 ---
 
-\\[x^2-y^2=(x+y)(x-y)\\]
+$$x^2-y^2=(x+y)(x-y)$$
 
-\\[x^2+2xy+y^2=(x+y)(x+y)\\]
+$$x^2+2xy+y^2=(x+y)(x+y)$$
 
-\\[x^2-2xy+y^2=(x-y)(x-y)\\]
+$$x^2-2xy+y^2=(x-y)(x-y)$$
 
 ---
 
@@ -172,11 +172,11 @@ Can + - × / equality by value BUT if × or / by -ve, flip sign.
 
 Can + BUT add 2× one:
 
-\\[a<c\\\\b<d\\\\a+2b<c+2d\\]
+$$a<c\\\\b<d\\\\a+2b<c+2d$$
 
 Can × inequalities if all possible values are positive but cannot - or / inequalities.
 
-\\[x^2<4 \rightarrow x<2 | x > -2\\]
+$$x^2<4 \rightarrow x<2 | x > -2$$
 
 ## Word problems
 
@@ -244,13 +244,13 @@ Approximate: Closer to 90 than 70 → >70
 
 Algebraic:
 
-\\[90\times0.6+70\times0.4=82\\]
+$$90\times0.6+70\times0.4=82$$
 
 or Teeter-Totter:
 
-\\[70+0.6(90-70)=82\\]
+$$70+0.6(90-70)=82$$
 
-\\[90-0.4(90-70)=82\\]
+$$90-0.4(90-70)=82$$
 
 ---
 
@@ -260,11 +260,11 @@ First = 12
 
 Last = 78
 
-\\[\frac{78-12}{6}+1=12\\]
+$$\frac{78-12}{6}+1=12$$
 
 > What is the sum of all the integers from 13 to 47, inclusive?
 
-\\[\frac{13+47}{2}=25\\\\47-13+1=35\\\\25\times35=875\\]
+$$\frac{13+47}{2}=25\\\\47-13+1=35\\\\25\times35=875$$
 
 Hint: If given options, 5\times5 ends with 5, so answer must end in 5.
 
@@ -300,7 +300,7 @@ The first ten prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.
 
 Prime factors:
 
-\\[72=6\times12\\\\\rightarrow6=2\times3\\\\\rightarrow12=2\times2\times3\\\\72=2\times2\times2\times3\times3\\]
+$$72=6\times12\\\\\rightarrow6=2\times3\\\\\rightarrow12=2\times2\times3\\\\72=2\times2\times2\times3\times3$$
 
 > Are 24 or 27 factors of 144?
 
@@ -348,7 +348,7 @@ A AND B: P(A) × P(B)
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Medal | P | G | S | S | B | B | B |
 
-\\[\frac{7!}{1!1!2!3!}=\frac{7\times6\times5\times4\times3\times2\times1}{1\times1\times2\times1\times3\times2\times1}=7\times6\times5\times2\times1=420\\]
+$$\frac{7!}{1!1!2!3!}=\frac{7\times6\times5\times4\times3\times2\times1}{1\times1\times2\times1\times3\times2\times1}=7\times6\times5\times2\times1=420$$
 
 > A club must choose a delegation of 3 senior members and 2 junior members for an annual conference. If the club has 6 senior members and 5 junior members, how many different delegations are possible?
 
@@ -356,7 +356,7 @@ Seniors: 6 total, 3 yes →3 no
 
 Junior: 5 total, 2 yes → 3 no 
 
-\\[\frac{6!}{3!3!}\times\frac{5!}{2!3!}=20\times10=200\\]
+$$\frac{6!}{3!3!}\times\frac{5!}{2!3!}=20\times10=200$$
 
 > Two six-sided dice are rolled. What is the probability that the sum of the rolls is 8?
 
@@ -370,7 +370,7 @@ If “at least” or “at most”, 1 − x shortcut:
 
 > A bag contains equal numbers of red, green, and yellow marbles. If James takes three marbles out of the bag, replacing each marble after picking it, what is the probability that at least one will be red?
 
-\\[P(≥1\hspace{0.3em}red)=1-P(0\hspace{0.3em}red)=1-(\frac{2}{3}\times\frac{2}{3}\times\frac{2}{3})=\frac{19}{27}\\]
+$$P(≥1\hspace{0.3em}red)=1-P(0\hspace{0.3em}red)=1-(\frac{2}{3}\times\frac{2}{3}\times\frac{2}{3})=\frac{19}{27}$$
 
 ## Geometry
 
