@@ -1,4 +1,4 @@
-p, #page-content li {
+p, #post-content li {
   font-size: 0.8rem;
 }
 #about p {
@@ -18,6 +18,16 @@ pre code {
 }
 .nav-item {
   line-height: 2em;
+}
+table tbody tr {
+  height: auto !important;
+}
+table {
+  margin-bottom: 1rem;
+}
+tr, td {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
 }
 
 .home img {
