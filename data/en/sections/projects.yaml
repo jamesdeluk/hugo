@@ -28,15 +28,15 @@ projects:
 
 - name: Forecasting solar PV generation in Belgium
   logo: /images/site/solar.png
-  # url: /posts/data-science/how-much-for-my-car/
+  url: /posts/data-science/belgium-solar-part-i
   summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium based on historic data from Elia, a Belgian transmission system operator.
   tags: ["data-science"]
 
-- name: Customer segmentation and purchase predictions
-  # logo: /images/posts/projects/tensorflow.png
-  # url: /posts/data-science/how-much-for-my-car/
-  summary: Using K-nearest neighbours, K-means clustering, Principal Component Analysis, and hierarchical clustering to segment customers, then used logistic modelling to predict buying outcomes.
-  tags: ["data-science"]
+# - name: Customer segmentation and purchase predictions
+#   # logo: /images/posts/projects/tensorflow.png
+#   # url: /posts/data-science/how-much-for-my-car/
+#   summary: Using K-nearest neighbours, K-means clustering, Principal Component Analysis, and hierarchical clustering to segment customers, then used logistic modelling to predict buying outcomes.
+#   tags: ["data-science"]
 
 - name: Android and Arduino eyesight measuring device
   logo: /images/posts/projects/myopia-measurer-logo.png
