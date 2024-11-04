@@ -28,8 +28,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: James's peredutions
+  title: James's Peredutions
   type: website
-  description: Portfolio and personal blog of James Gibbins
+  description: Portfolio and personal website of James Gibbins
   image: images/site/hshysrot.gif
   url: https://www.jamesgibbins.com
