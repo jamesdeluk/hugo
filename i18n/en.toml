@@ -3,3 +3,6 @@ other = "All Posts"
 
 [err_404]
 other = "Sorry, can't find that page! The website has been recently redesigned so it's possible some links no longer work. Try searching?"
+
+[disclaimer_text]
+other = "Home page image source"
