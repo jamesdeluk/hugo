@@ -42,6 +42,10 @@ tr, td {
   filter: blur(0px);
 }
 
+#disclaimer strong {
+  display: none;
+}
+
 .top-navbar #top-navbar-divider {
   height: 30px;
   width: 1.5px;
@@ -128,6 +132,11 @@ tr, td {
 
 .btn-improve-page {
   display: none;
+}
+
+body.kind-404 .notFound .message {
+  position: inherit;
+  max-width: 100%;
 }
 
 // .home .background {
