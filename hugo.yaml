@@ -17,6 +17,10 @@ module:
   - source: ./node_modules/katex/dist/fonts
     target: static/fonts
 
+permalinks:
+  page:
+    /: ':section/:slugorfilename'
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
@@ -27,7 +31,6 @@ languages:
     weight: 1
 # default language for the content
 defaultContentLanguage: en
-
 
 # Allow raw html in markdown file
 markup:
