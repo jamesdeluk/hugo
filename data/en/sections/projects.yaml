@@ -10,7 +10,7 @@ buttons:
 - name: All
   filter: "all"
 - name: Data Science
-  filter: "data-science"
+  filter: "data science"
 - name: Hardware
   filter: "hardware"
 - name: Software
@@ -24,13 +24,13 @@ projects:
   logo: /images/posts/data-science/st/st-st_16_0.png
   url: /posts/data-science/how-much-for-my-car/
   summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
-  tags: ["data-science"]
+  tags: ["data science", "regressions", "pricing"]
 
 - name: Forecasting solar PV generation in Belgium
   logo: /images/site/solar.png
   url: /posts/data-science/belgium-solar-part-i
   summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium based on historic data from Elia, a Belgian transmission system operator.
-  tags: ["data-science"]
+  tags: ["data science", "time series", "energy"]
 
 # - name: Customer segmentation and purchase predictions
 #   # logo: /images/posts/projects/tensorflow.png
@@ -42,16 +42,16 @@ projects:
   logo: /images/posts/projects/myopia-measurer-logo.png
   url: /posts/projects/android/myopia-measurer-android-app
   summary: Initially in hardware, with Arduino, then in software, for Android, I made a device that could measure your myopia (a.k.a shortsightedness). Download it today!
-  tags: ["hardware", "software"]
+  tags: ["hardware", "software", "health"]
 
 - name: DiscussAnyPage
   logo: /images/posts/projects/dap.png
   url: /posts/projects/web/discussanypage
   summary: What if there was a way to leave a comment on any webpage, regardless of if they had a comment section? I created an MVP, including browser extensions - mostly using ChatGPT.
-  tags: ["software"]
+  tags: ["software", "website", "community"]
 
 - name: Sifooma
   logo: /images/site/sifooma.png
   url: https://jamesdeluk.github.io/sifooma/
   summary: The MVP for Simple Food Manager - a shopping list, a pantry, and a food diary, all in one! Web app.
-  tags: ["software"]
+  tags: ["software", "website", "lifestyle"]
