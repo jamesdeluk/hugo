@@ -183,13 +183,13 @@ Ah, yeah. Lots of 0s. Let’s try something different - take the daily maximum v
 
 ![Histogram of daily maxes](/images/posts/data-science/belgium-solar/belgium-solar-i-10.png)
 
-Looks better. The first bin is still the biggest, with ~1/3 of the days; the second bin is also ~1/3, with fractionally fewer. And what if we take all these daily maximums and plot them on a graph, overlapping to provide slightly different ways to compare than the histogram:
+I was also curious to show this data in a line graph form, similar to the generation-over-time plots above. Below is effectively a histogram on its side, but instead of simple buckets, it has the actual data points, with relative time for each line (i.e. the left of each line is 2018 and the right of each line is 2024, and the points are in temporal order). The actual x axis is the count of points, same as the histogram y.
 
 ![Generation grouped by size chart](/images/posts/data-science/belgium-solar/belgium-solar-i-11.png)
 
 ### Stationarity
 
-Stationarity is when the statistical properties - namely mean and variable - of a time series do not change. Again, `statsmodels` made this easy, with their Augmented Dickey-Fuller (ADF) function (`adfuller(df_be.measured, autolag='AIC')`). The null hypothesis is ****non-stationarity***.* The results:
+Stationarity is when the statistical properties - namely mean and variable - of a time series do not change. Again, `statsmodels` made this easy, with their Augmented Dickey-Fuller (ADF) function (`adfuller(df_be.measured, autolag='AIC')`). The null hypothesis is **non-stationarity**. The results:
 
 > (-11.94507306500257,
 >
