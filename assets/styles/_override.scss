@@ -42,7 +42,9 @@ tr, td {
   filter: blur(0px);
 }
 html[data-theme="dark"] .home img {
-  background-color: #345338
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  background-color: #e1c4de;
 }
 
 // #disclaimer strong {
