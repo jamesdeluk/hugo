@@ -41,6 +41,9 @@ tr, td {
   transform: scale(1.0);
   filter: blur(0px);
 }
+html[data-theme="dark"] .home img {
+  background-color: #345338
+}
 
 // #disclaimer strong {
 //   display: none;
