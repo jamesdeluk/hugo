@@ -27,9 +27,9 @@ projects:
   tags: ["data science", "regressions", "pricing"]
 
 - name: Forecasting solar PV generation in Belgium
-  logo: /images/site/solar.png
+  logo: /images/posts/data-science/belgium-solar-2/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
   url: /posts/data-science/belgium-solar-part-i
-  summary: Using SARIMAX and TensorFlow LSTM to forecast solar generation in Belgium based on historic data from Elia, a Belgian transmission system operator.
+  summary: Using SARIMA, TensorFlow LSTM, and Prophet to forecast solar generation in Belgium based on historic data from Elia, a Belgian transmission system operator.
   tags: ["data science", "time series", "energy"]
 
 # - name: Customer segmentation and purchase predictions
