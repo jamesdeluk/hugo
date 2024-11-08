@@ -4,7 +4,7 @@ date: 2024-11-08
 tags: ["Data Science", "Data Analysis", "Time Series", "Python", "Energy"]
 hero: /images/posts/data-science/belgium-solar-2/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
 ---
-*This is part two of a two-part series. [Part one](https://www.jamesgibbins.com/posts/belgium-solar-part-i/) covered collecting and processing the data, then assessing the forecasts in the dataset. It also contains the link to the dataset and repo. This part covers my predictions, using machine learning.*
+*This is part two of a two-part series. [Part one](https://www.jamesgibbins.com/posts/data-science/belgium-solar-part-i/) covered collecting and processing the data, then assessing the forecasts in the dataset. It also contains the link to the dataset and repo. This part covers my predictions, using machine learning.*
 
 ## Intro
 
