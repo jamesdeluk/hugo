@@ -51,6 +51,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Why are football supporters often such dicks? [113]
 - Comedic genius from The Two Ronnies - every station is a pun. [114]
 - The most common name in London? Muhammed (or some spelling variation) [118]
+- In South Korea, only blind people can give massages, to ensure those without vision can still work [125]
+- Based on my study abroad year in the US, I can confirm: US college parties typically aren’t that great [128]
 
 ## Relationships and Personalities
 
@@ -71,6 +73,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Often infidelity isn't about the relationship - it's about a feeling of freedom, reconnecting with yourself. Cheating doesn’t mean the person doesn’t value the relationship. Those who can compartmentalise find "cheating" easier as they know they two are not connected (in their head) [106]
 - Children don’t know money, so they value things based purely on the fun. A bus ride can be more fun than a train. A bath at home can be more fun than a fancy hotel. Be a child. [107]
 - 1920s USA: Most were virgins when they married, most only had a single partner. Half of women had never had an orgasm. Orgasms correlated with love, and openness about sex correlated with orgasms. 1/4 had an affair, especially over 40, especially women. Of the women who had an affair, 2/3 hadn’t orgasmed with their husbands. Only 50% were happily married, more men than women. <25yo, unhappy marriages; up to 35yo, happy marriages. Wives were critical of their husbands. [123]
+- Modern dating: paradox of choice (cities, Tinder) + risk of rejection (social media, #MeToo) + everchanging lives (moving cities, moving countries) + anti-social technology (AirPods, phones) + limited opportunities (working from home, Netflix) [127]
+- Toxic compassion: saying what makes someone happy, or is the socially acceptable thing to say, rather than saying the hard truths - yes, you are fat; yes, children with two parents typically have better life; yes, trans athletes can be a net negative for women. [134]
 
 ## Learning
 
@@ -113,6 +117,7 @@ hero: /images/posts/cognition-and-learning/acc.png
 - You don't need to spend half your budget on sales and marketing if you instead invest it in building the best product on the market. [99]
 - Market testing: get a Photoshop mockup, get a landing page, pay for ads, see interest [110]
 - Some shady stuff going on behind-the-scenes at Gymshark… [119]
+- If you say you love your craft, your product is viewed as better, and you can charge more. [130]
 
 ## Economy and Financial
 
@@ -139,6 +144,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Expensive tyres typically are worth it - last longer, stop quicker, and more fuel efficient [92]
 - A visual representation of aphantasia [102]
 - He’s never going to live a normal life, and he’s in so much pain. Is this morally right? Regardless, it’s amazing a) he’s alive, and b) how they’re helping him. [117]
+- A custom anti-rain roof for an R1? Love it. [126]
+- `^.?$|^(..+?)\1+$` tells you if a number is prime. Pretty cool. [132] [133]
 
 ## Health
 
@@ -151,6 +158,10 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Eat protein/fat 30mins before carbs [55]
 - Stress doesn’t come from hard work. Stress primarily comes from not taking action over something that you can have some control over. [Jeff Bezos]
 - Not a big surprise - suncream is overused, and, because of this, most people suffer health consequences from lack of sun exposure. And that’s ignoring any consequences of the chemicals themselves. We’re animals who evolved in the sun; sun is good. Getting burnt is bad, though. Basal cell carcinma (the common skin cancer) is effectively harmless too. [100]
+- Holding someone's hand, even a stranger's, reduces pain. Being in a happy relationship decreases wound healing time. [129]
+- The shift from warm interior design (e.g. carpets, low ceilings) to modern styles (metal, minimalist) have caused the increase in noise in hospitality establishments. And it’s not only a design choice; the discomfort encourages higher sales or faster turnover, and they’re cheaper to outfit and clean. [131]
+- Often tiredness is simply having too much CO2 from a lack of fresh air (office, driving, etc). Try fresh air before more coffee. [135]
+- Offgassinging is bad, and new goods do it a lot, so get old or used. It's especially bad for babies - don't paint their room the week before they arrive (or don't paint it at all, they don't care) [135]
 
 ## Nature
 
@@ -316,3 +327,14 @@ hero: /images/posts/cognition-and-learning/acc.png
 122. [The mountains where Neanderthals forever changed human genetics](https://bigthink.com/strange-maps/sapiens-neanderthal-interbreeding/)
 123. [Fascinating Insights on the State of Sex and Marriage 100 Years Ago](https://www.artofmanliness.com/people/relationships/fascinating-insights-on-the-state-of-sex-and-marriage-100-years-ago/)
 124. [Quantity leads to quality (the origin of a parable)](https://austinkleon.com/2020/12/10/quantity-leads-to-quality-the-origin-of-a-parable/)
+125. [South Korea court says only blind can be masseurs](https://www.reuters.com/article/lifestyle/south-korea-court-says-only-blind-can-be-masseurs-idUSTRE49T1RG/)
+126. [Man Builds DIY ANTI-RAIN Motorcycle | Start to Finish by ‪@meanwhileinthegarage‬](https://www.youtube.com/watch?v=eTlDGsJ3Go)
+127. [why is modern dating so hard?](https://read.mindmine.xyz/p/why-is-modern-dating-so-hard)
+128. [College parties in movies vs real life](https://www.youtube.com/watch?v=8BT-4x6KAC8)
+129. [Lessons from the longest study on human happiness](https://podcasts.apple.com/us/podcast/lessons-from-the-longest-study-on-human-happiness/id1457621005?i=1000674671707)
+130. [This professor increased my sales by 6x](https://podcasts.apple.com/us/podcast/this-professor-increased-my-sales-by-6x/id1457621005?i=1000671250520)
+131. [How Restaurants Got So Loud](https://www.theatlantic.com/technology/archive/2018/11/how-restaurants-got-so-loud/576715/)
+132. [How on Earth does ^.?$|^(..+?)\1+$ produce primes?](https://www.youtube.com/watch?v=5vbk0TwkokM)
+133. [Demystifying The Regular Expression That Checks If A Number Is Prime](https://illya.sh/the-codeumentary-blog/regular-expression-check-if-number-is-prime/)
+134. [3MM: Toxic Compassion, Marriage & Novelty](https://unique-thinker-7318.kit.com/posts/3mm-toxic-compassion-marriage-novelty)
+135. [1071: Mike Feldstein | The Hidden Crisis of Indoor Air Pollution](https://www.jordanharbinger.com/mike-feldstein-the-hidden-crisis-of-indoor-air-pollution/)
