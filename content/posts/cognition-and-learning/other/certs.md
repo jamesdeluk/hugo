@@ -1,11 +1,11 @@
 ---
 title: "Achievements and Certifications"
-date: 2024-10-25
+date: 2024-11-10
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.png
 ---
 
-108 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+98 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Data Science
 
@@ -25,6 +25,7 @@ hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.png
 <a href="/images/posts/cognition-and-learning/certs/365ds-mlpaz.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlpaz.png" alt="365 Data Science The Machine Learning Process A-Z"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-mlaaz.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlaaz.png" alt="365 Data Science The Machine Learning Algorithms A-Z"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.png" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
+<a href="/images/posts/cognition-and-learning/certs/365ds-mlknn.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlknn.png" alt="365 Data Science Machine Learning with K-Nearest Neighors"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.png" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dcpp.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dcpp.png" alt="365 Data Science Data Cleaning and Preprocessing with pandas"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dpwn.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dpwn.png" alt="365 Data Science Data Preprocessing with NumPy"></a>
