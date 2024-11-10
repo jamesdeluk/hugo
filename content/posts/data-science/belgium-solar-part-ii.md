@@ -12,6 +12,14 @@ OK, we’ve looked at the data, and we’ve seen how accurate their predictions 
 
 I’m taking three approaches: SARIMA, TensorFlow, and Prophet.
 
+A quick aside: Why do we want to predict the future energy generation? There are a number of reasons.
+
+For one, electricity must typically be used as soon as it is generated - it cannot currently easily be stored, especially not vast amounts for extended durations. To avoid grid instability, supply must meet demand in real time to avoid having too much or too little power on the grid. Being able to forecast intermittent energy resources like solar enable an energy system operator to plan and ensure the grid remains balanced.
+
+A second reason is for investment; being able to accurately predict generation potential enables more precise and more accurate return-on-investment calculations for those wanting to invest in renewable energy projects.
+
+Anyway, on to the analyses!
+
 ## SARIMA
 
 SARIMA stands for Seasonal AutoRegressive Integrated Moving Average. Breaking it down:
