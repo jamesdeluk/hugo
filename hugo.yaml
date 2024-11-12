@@ -19,7 +19,7 @@ module:
 
 permalinks:
   page:
-    /: ':section/:slugorfilename'
+    posts: ':slugorfilename'
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
