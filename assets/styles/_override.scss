@@ -67,6 +67,16 @@ html[data-theme="dark"] .home img {
   }
 }
 
+#about {
+  padding: 0 3rem !important;
+}
+#about > div {
+  padding: 0 !important;
+}
+.anchor {
+  padding-top: 2rem !important;
+}
+
 // #about .col-sm-6:first-of-type {
 //   width: 80%;
 // }
