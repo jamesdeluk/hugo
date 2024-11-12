@@ -15,8 +15,8 @@ buttons:
   filter: "hardware"
 - name: Software
   filter: "software"
-- name: Other
-  filter: "other"
+# - name: Other
+#   filter: "other"
 
 projects:
 
