@@ -3,6 +3,8 @@ title: "Achievements and Certifications"
 date: 2024-11-10
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.png
+aliases: 
+- /posts/achievements/
 ---
 
 98 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
