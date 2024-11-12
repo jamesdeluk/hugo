@@ -2,7 +2,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # hideTitle: true
 
