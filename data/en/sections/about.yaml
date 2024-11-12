@@ -97,17 +97,17 @@ badges:
 #   url: "https://www.credential.net/profile/jamesgibbins94329/wallet"
 #   badge: "images/sections/cognition-and-learning/certs/CFI-certificate-FMVA.png"
 
-- type: soft-skill-indicator
-  name: Life
-  percentage: 35
-  color: yellow
+# - type: soft-skill-indicator
+#   name: Life
+#   percentage: 35
+#   color: yellow
 
-- type: soft-skill-indicator
-  name: Countries
-  percentage: 20
-  color: green
+# - type: soft-skill-indicator
+#   name: Countries
+#   percentage: 20
+#   color: green
 
-- type: soft-skill-indicator
-  name: Continents
-  percentage: 70
-  color: blue
+# - type: soft-skill-indicator
+#   name: Continents
+#   percentage: 70
+#   color: blue
