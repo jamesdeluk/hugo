@@ -36,7 +36,7 @@ projects:
   logo: /images/posts/data-science/customer-analysis-i/ca1-image-5.png
   url: /customer-analysis-part-i
   summary: Clustering customers using hierarchical and K-based techniques, classifying new customers, then useing logistic modelling to predict buying outcomes.
-  tags: ["data-science"]
+  tags: ["data-science", "clustering", "customers"]
 
 - name: Android and Arduino eyesight measuring device
   logo: /images/posts/projects/myopia-measurer-logo.png
