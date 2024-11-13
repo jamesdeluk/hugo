@@ -78,6 +78,26 @@ html[data-theme="dark"] .home img {
   padding-top: 2rem !important;
 }
 
+#accomplishment-card-holder > div:nth-of-type(5) {
+  width: 100%;
+  .card-header {
+    text-align: center;
+  }
+  .card {
+    height: auto;
+  }
+  .sub-title {
+    display: none;
+  }
+  .card-body > p {
+    text-align: center;
+  }
+  .card-footer {
+    text-align: center;
+    padding: 0.3rem;
+  }
+}
+
 // #about .col-sm-6:first-of-type {
 //   width: 80%;
 // }
