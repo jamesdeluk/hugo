@@ -228,7 +228,7 @@ And categorical ones as subplots:
 
 Looks to be some nice groupings. That’s our first clustering done!
 
-### **Agglomerative (using Gower distances)**
+### Agglomerative (using Gower distances)
 
 Agglomerative clustering is designed for mixed data, and works with Gower distance matrices. First I needed to convert the data to `float`s, and then create the Gower distance matrix:
 
