@@ -79,7 +79,7 @@ customers_scaled = scaler.fit_transform(df_customers)
 
 ### Plots
 
-I like visuals, so let’s start with plots.
+I like visuals, so let’s start with plots. I plotted everything against Income, because it's good to have at least one continuous variable.
 
 ![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-0.png)
 
