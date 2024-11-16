@@ -11,11 +11,25 @@ aliases:
 
 ## Data Science
 
+### Kaggle
+
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F06808571894d065a64243d6ba468be2b%2FBadge-4.svg?generation=1727462524641424&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F1e4546d427340e1495b9ee02261e2dc6%2FBadge-34.svg?generation=1727468126171650&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F7567026dd0c594f1193b49a98a976056%2FBadge-35.svg?generation=1727468213893504&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F0b96fc543a2faf02467b3dcd5833feff%2FBadge-45.svg?generation=1727468334875991&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbac00bdcf5aa52c077bef4d95da882f3%2FBadge-37.svg?generation=1727468352009252&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F59be06dc5fa3103f7f3d4064730449a4%2FBadge-38.svg?generation=1727468372542689&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F304806%2F1677a9768c3edb109351613acb6f8673%2FBadge-57.svg?generation=1731369061704923&amp;alt=media">
+
 <a href="/images/posts/cognition-and-learning/certs/kaggle-itml.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-itml.png" alt="Kaggle Introduction to Machine Learning"></a>
 <a href="/images/posts/cognition-and-learning/certs/kaggle-iml.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-iml.png" alt="Kaggle Intermediate Machine Learning"></a>
 <a href="/images/posts/cognition-and-learning/certs/kaggle-ts.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-ts.png" alt="Kaggle Time Series"></a>
 <a href="/images/posts/cognition-and-learning/certs/kaggle-pandas.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-pandas.png" alt="Kaggle Pandas"></a>
 <a href="/images/posts/cognition-and-learning/certs/kaggle-dc.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-dc.png" alt="Kaggle Data Cleaning"></a>
+
+### 365 Data Science
 
 <a href="/images/posts/cognition-and-learning/certs/365ds-dsct.png" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dsct.png" alt="365 Data Science Data Scientist Career Track"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dact.png" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dact.png" alt="365 Data Science Data Analyst Career Track"></a>
@@ -40,7 +54,7 @@ aliases:
 <a href="/images/posts/cognition-and-learning/certs/365ds-prob.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-prob.png" alt="365 Data Science Probability"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-maths.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-maths.png" alt="365 Data Science Mathematics"></a>
 
-## Finance
+## Corporate Finance Institute
 
 [Verification on Accredible/Credential.net](https://www.credential.net/profile/jamesgibbins94329/wallet)
 
