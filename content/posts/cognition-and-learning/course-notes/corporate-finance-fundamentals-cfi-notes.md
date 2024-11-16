@@ -5,7 +5,7 @@ tags: ["Finance","Corporate Finance","M&A","Debt","Capital","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/corporate-finance-fundamentals/](https://corporatefinanceinstitute.com/course/corporate-finance-fundamentals/)
 
-![Certificate](/images/old/cfi-cff-cert.jpg)
+![Certificate](/images/posts/cognition-and-learning/certs/cfi-cff-cert.jpg)
 
 [https://www.credential.net/78615569](https://www.credential.net/78615569)
 

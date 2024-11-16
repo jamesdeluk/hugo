@@ -5,7 +5,7 @@ tags: ["Finance","Corporate Finance","M&A","Valuation","Business","CFI"]
 ---
 [https://corporatefinanceinstitute.com/course/intro-business-valuation/](https://corporatefinanceinstitute.com/course/intro-business-valuation/)
 
-![Certificate](/images/old/cfi-ibv-cert.jpg)
+![Certificate](/images/posts/cognition-and-learning/certs/cfi-ibv-cert.jpg)
 
 [https://www.credential.net/6424b711-a689-4088-b6f7-4e389cedff20](https://www.credential.net/6424b711-a689-4088-b6f7-4e389cedff20)
 
