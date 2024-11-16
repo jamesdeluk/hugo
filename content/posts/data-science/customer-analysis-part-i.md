@@ -284,7 +284,7 @@ As are the categoricals:
 
 Now for the popular one. K-means is designed for numerical data, but as the categorical data is binary or ordinal, as with hierarchical clustering, I can use it as-is (only scaled). However, instead of using a dendrogram to determine the number of clusters, I can use the elbow method. I calculated the within-cluster sum of squares (WCSS) for different numbers of clusters, then plotted them on a Scree plot, and looked for the biggest kink (the elbow) in the graph, which is the point of diminishing returns. Clustering into more groups than this leads of overfitting. This is the first bit of the code:
 
-```
+```python
 wcss = []
 for i in range(1,11):
     kmeans = KMeans(n_clusters=i, init='k-means++', random_state=42)
@@ -501,7 +501,7 @@ And gives us:
 
 *Again*, quite jumbled.
 
-## Comparing techniques
+## Comparisons
 
 I wanted to see how the different clustering techniques compared. As a first step I made a unified DataFrame with all cluster results. The `+1`s are the make sure the clusters all start with 1.
 
@@ -574,7 +574,11 @@ A good clustering would have a Silhouette score close to 1 and a DB score close 
 | Silhouette Score | 0.81 | -0.1 | -0.11 | -0.02 | 0.14 | -0.09 |
 | Davies-Bouldin Index | 0.32 | 7.48 | 7.54 | 5.55 | 2.29 | 14.39 |
 
-Hierarchical is by far the best, with K-prototypes a distant second. As a reminder:
+Hierarchical is by far the best, with K-prototypes a distant second.
+
+## The winner!
+
+Heirarchical is so far ahead with the metrics, I think it has to be the winner. Additionally, the groupings seem to make sense. As a reminder:
 
 ![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-5.png)
 
