@@ -53,7 +53,7 @@ The exam itself was brutal, but fun. You're given 12 hours to investigate a comp
 
 But my hard work paid off. I heard back soon after that I had passed with 91% - giving me a beautiful gold coin!
 
-My advice for the BTL1 exam? Study the material! Everything you need to know is covered there - the rest is just up to your persistence and doggedness. It's open-book (as is real life), so don't feel you need to memorise everything - but looking things up takes time, and you only have 12 hours, so it's definitely worth putting in the effort to learn and play around on your own (virtual) machine. I also did Splunk's [BOTSv3](https://www.jamesgibbins.com/posts/botsv3/) (Boss of the SOC), which I highly recommend. You can find my write-up here.
+My advice for the BTL1 exam? Study the material! Everything you need to know is covered there - the rest is just up to your persistence and doggedness. It's open-book (as is real life), so don't feel you need to memorise everything - but looking things up takes time, and you only have 12 hours, so it's definitely worth putting in the effort to learn and play around on your own (virtual) machine. I also did Splunk's [BOTSv3](https://www.jamesgibbins.com/botsv3/) (Boss of the SOC), which I highly recommend. You can find my write-up here.
 
 ### After
 

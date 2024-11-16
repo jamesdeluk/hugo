@@ -49,7 +49,7 @@ I found a great pair of videos on YouTube, walking you through the above steps. 
 
 ## Project Examples
 
-All of the below projects (except the last one) use the same basic physical setup. I was using my large breadboard for my [myopia measurer](https://www.jamesgibbins.com/posts/arduino-myopia-measurer/), and didn't want to disassemble it. Fortunately my kit came with a tiny extension board, and as these projects only need one or two push-buttons and an LED, it was plenty for my needs. I ran out of red wires so orange represents +5V.
+All of the below projects (except the last one) use the same basic physical setup. I was using my large breadboard for my [myopia measurer](https://www.jamesgibbins.com/arduino-myopia-measurer/), and didn't want to disassemble it. Fortunately my kit came with a tiny extension board, and as these projects only need one or two push-buttons and an LED, it was plenty for my needs. I ran out of red wires so orange represents +5V.
 
 ![circuit](/images/old/circuit.jpg)
 

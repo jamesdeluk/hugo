@@ -5,6 +5,7 @@ tags: ["Data Science", "Data Analysis", "Python", "Cars"]
 hero: /images/posts/data-science/st/st-angle.jpeg
 aliases:
 - /posts/how-much-for-my-car/
+- /posts/data-science/how-much-for-my-car/
 ---
 ## Intro
 
@@ -14,7 +15,7 @@ Let’s do some data analysis and machine learning!
 
 The JupyterLab notebook, with all the code, is available on Github:
 
-https://github.com/jamesdeluk/data-science/blob/main/st.ipynb
+https://github.com/jamesdeluk/data-science/blob/main/Projects/st/st.ipynb
 
 ## Gather the data
 

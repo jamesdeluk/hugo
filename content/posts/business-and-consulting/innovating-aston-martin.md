@@ -21,7 +21,7 @@ Looking at their financial statements (all values to two significant figures), t
 | Cash (£m) | 170 | 140 | 110 | 490 | 420 | 580 |
 | Unit Sales | 5100 | 6400 | 5900 | 3400 | 6200 | 6400 |
 
-Given this, how could AM get out of this slump? I thought I’d use [Doblin’s Ten Types of Innovation](https://www.jamesgibbins.com/posts/ten-types-of-innovation/) to come up with some ideas for how the company could get back to its winning ways.
+Given this, how could AM get out of this slump? I thought I’d use [Doblin’s Ten Types of Innovation](https://www.jamesgibbins.com/ten-types-of-innovation/) to come up with some ideas for how the company could get back to its winning ways.
 
 Note I’m yet to own an AM, and I have had no interactions with the company. I don’t know their internal processes or structure. I also haven't read their annual reports in detail yet to understand their current strategy and obstacles. These ideas are coming from a position of ignorance.
 

@@ -3,7 +3,7 @@ title: "Exploring SIC 30910"
 date: 2023-05-17
 tags: ["Business","Entrepreneurship","Data Analysis","Industry Analysis","Market Research","Growth","Electric Vehicles","Motorbikes"]
 ---
-In a [previous post](https://www.jamesgibbins.com/posts/investigating-uk-companies/) I investigated a few companies using Companies House and the Office for National Statistics. In particular, I looked into the ONS data for electric vehicles, primarily based on SIC code 30910 (manufacture of motorcycles).
+In a [previous post](https://www.jamesgibbins.com/investigating-uk-companies/) I investigated a few companies using Companies House and the Office for National Statistics. In particular, I looked into the ONS data for electric vehicles, primarily based on SIC code 30910 (manufacture of motorcycles).
 
 ONS provides big-picture data - overall numbers of companies by size, revenue, location, etc. In this post I search for data on Companies House, which is more small-picture - information about individual companies. Fortunately Companies House has a great search feature, along with a CSV export, to make life much easier!
 
@@ -98,4 +98,4 @@ This might go to explain why there is a trend towards multiple natures - most co
 
 Unsurprisingly given it’s manufacturing, the vast majority are based outside London. Slightly more dissolved companies were based on London than still active ones, but this appears insignificant. Otherwise they’re spread out relatively well, suggesting no particularly good areas - although the peripheries (Scotland, Wales, Westcountry) does have fewer.
 
-All considered, there was nothing that shocked me about this data. I was surprised that there are over 200 active companies, given the only British brand anyone really knows is Triumph (Norton, BSA, and Lee Enfield are now all owned by Indian corporations). The recent growth has also been pretty surprising too - I’d be curious to see if this is in every industry, or if motorcycle manufacturers are an outlier, and if the latter, what has caused this. Maybe in the years to come more British brands will join Triumph - hopefully making [electric bikes](https://www.jamesgibbins.com/posts/electric-motorcycles-in-the-uk/)!
+All considered, there was nothing that shocked me about this data. I was surprised that there are over 200 active companies, given the only British brand anyone really knows is Triumph (Norton, BSA, and Lee Enfield are now all owned by Indian corporations). The recent growth has also been pretty surprising too - I’d be curious to see if this is in every industry, or if motorcycle manufacturers are an outlier, and if the latter, what has caused this. Maybe in the years to come more British brands will join Triumph - hopefully making [electric bikes](https://www.jamesgibbins.com/electric-motorcycles-in-the-uk/)!

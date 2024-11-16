@@ -3,7 +3,7 @@ title: "Launching an Edible Insect Business, Part II: Competitors"
 date: 2023-05-31
 tags: ["Business","Entrepreneurship","Case Study","Market Entry","Competitor Analysis","Agriculture","Food","Insects","Entomophagy"]
 ---
-In [Part 1](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-i/), I assessed the market for edible insects in the UK, and determined it has a lot of potential. In this post, Part II, I’ll look at who are the current market players.
+In [Part 1](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-i/), I assessed the market for edible insects in the UK, and determined it has a lot of potential. In this post, Part II, I’ll look at who are the current market players.
 
 ## Finding the companies
 

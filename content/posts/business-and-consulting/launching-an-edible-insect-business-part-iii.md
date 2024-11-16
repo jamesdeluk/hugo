@@ -5,7 +5,7 @@ tags: ["Business","Entrepreneurship","Case Study","Market Entry","Product Analys
 ---
 ## Current products on the market
 
-[Part II](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-ii/) gave us an idea of the products are currently available in the UK market. We could categorise them thusly:
+[Part II](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-ii/) gave us an idea of the products are currently available in the UK market. We could categorise them thusly:
 
 1. Insect-based snacks
 2. Unflavoured roasted insects

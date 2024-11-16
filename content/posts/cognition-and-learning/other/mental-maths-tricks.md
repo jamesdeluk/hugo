@@ -10,7 +10,7 @@ tags: ["Maths"]
 
 I made a little Python script to test myself.
 
-Find it here: [Maths game](https://www.jamesgibbins.com/posts/maths-game/)
+Find it here: [Maths game](https://www.jamesgibbins.com/maths-game/)
 
 ## A comment on notation
 

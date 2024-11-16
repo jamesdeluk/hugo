@@ -5,7 +5,7 @@ tags: ["Motorbikes","Scooters","e-scooters","e-bikes","Mobility","Micromobility"
 ---
 ## Fazer vs e-scooter
 
-After my recent [post](https://www.jamesgibbins.com/posts/do-i-need-to-own-a-car/) on car ownership, I had a comment on [LinkedIn](https://www.linkedin.com/in/jamgib/) suggesting I should do a comparison of my Yamaha Fazer (600cc petrol motorbike) against an e-scooter.
+After my recent [post](https://www.jamesgibbins.com/do-i-need-to-own-a-car/) on car ownership, I had a comment on [LinkedIn](https://www.linkedin.com/in/jamgib/) suggesting I should do a comparison of my Yamaha Fazer (600cc petrol motorbike) against an e-scooter.
 
 Upon investigating this topic, I quickly realised a major problem: e-scooters are mostly [illegal](https://tfl.gov.uk/modes/driving/electric-scooter-rental-trial).
 
@@ -109,7 +109,7 @@ It’s also easier to design a low-performance EMB. Performance requires heavy i
 
 ### Increasing performance
 
-Batteries are heavy, and increased weight decreases performance and range. As [energy storage technologies](https://www.jamesgibbins.com/posts/types-of-energy-storage/) keep developing, and specific energy and energy density improve, performance figures will naturally increase. Lithium-air and aluminium-ion batteries in particular are chemistries to keep an eye on.
+Batteries are heavy, and increased weight decreases performance and range. As [energy storage technologies](https://www.jamesgibbins.com/types-of-energy-storage/) keep developing, and specific energy and energy density improve, performance figures will naturally increase. Lithium-air and aluminium-ion batteries in particular are chemistries to keep an eye on.
 
 Additionally, many motorcycles are made with steel frames. Steel is cheap and strong, but heavy. Replacing these with aluminium or carbon fibre, or another lighter (but equally strong material), could reduce weight - although this would also make the bike more expensive. I’m not sure what else takes up the weight - I’d be curious to see a full tear-down.
 

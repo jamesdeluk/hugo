@@ -8,7 +8,7 @@ date: 2021-07-25
 
 It's already been six months since I started my journey as a Security Analyst (time flies!) so I thought I'd share some thoughts to help other aspiring SOC Analysts.
 
-I started with **no professional IT experience**, only a lifelong interest. My background was primarily in engineering. I prepared for an infosec role by doing **CompTIA Security+ and Blue Team Level One** certifications ([review here](http://btl1.gibbins.me)), playing around on [TryHackMe](https://www.jamesgibbins.com/posts/thm-aoc2/) and with Security Onion, and generally learning as much as possible.
+I started with **no professional IT experience**, only a lifelong interest. My background was primarily in engineering. I prepared for an infosec role by doing **CompTIA Security+ and Blue Team Level One** certifications ([review here](http://btl1.gibbins.me)), playing around on [TryHackMe](https://www.jamesgibbins.com/thm-aoc2/) and with Security Onion, and generally learning as much as possible.
 
 It goes without saying that **every SOC and every company is different**. I work for a UK-based hosting provider within their security team, which acts as a managed security service provider (MSSP). We have thousands of clients, from small one-man bands to enterprise companies with thousands of employees. Our team uses a combination of FOSS, commercial, and in-house tools.
 

@@ -878,7 +878,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 [https://youtu.be/-k0p-DYYZKU](https://youtu.be/-k0p-DYYZKU)
 
 - Friendship doesn’t happen organically in adulthood - you have to be proactive.
-- We’re less likely to be rejected than we think (see [this](https://www.jamesgibbins.com/posts/consumption-week4/#9-mental-distortions-that-are-sabotaging-your-social-life) from last week) - so assume people like you (which becomes a self-fulfilling prophecy).
+- We’re less likely to be rejected than we think (see [this](https://www.jamesgibbins.com/consumption-week4/#9-mental-distortions-that-are-sabotaging-your-social-life) from last week) - so assume people like you (which becomes a self-fulfilling prophecy).
 - Intimate, relational (friends), and group/community friendships - you need all three.
 - Built through repeated unplanned interactions and shared vulnerability.
     - The Like Switch by Jack Schafer: Proximity, frequency, duration, intensity.
@@ -913,7 +913,7 @@ PNNL-developed solvent. The solvent then carries the captured CO2 to a reactor, 
 
 - Amazing content as always.
 - Nutrients are key. 57 fruit/veg smoothie daily fixed all his issues.
-- [Cyclic sighing](https://www.jamesgibbins.com/posts/consumption-week5/#reduce-anxiety--stress-with-the-physiological-sigh--huberman-lab-quantal-clip) is the most powerful technique for stress-release.
+- [Cyclic sighing](https://www.jamesgibbins.com/consumption-week5/#reduce-anxiety--stress-with-the-physiological-sigh--huberman-lab-quantal-clip) is the most powerful technique for stress-release.
 
 ## [Huberman Lab] How to Optimize Fertility in Both Males & Females
 
@@ -1636,7 +1636,7 @@ Activity: Try delabelling/blind taste testing wine etc
 ![Future skills](/images/posts/cognition-and-learning/weekly/week10-2.png)
 
 - "The report finds that “Business Consulting, Specialized Sales, Database Architecture and Administration, Network Protocols, Web Design and Development” are all seeing a big drop-off in demand. The role of web developer has been hit hard by low-code, no code platforms that allow people to build their own websites quickly and easily."
-- JG: Interesting when viewed alongside the BCG report from [last week](https://www.jamesgibbins.com/posts/consumption-week9/#shifting-skills-moving-targets-and-remaking-the-workforce). New technologies earn more money, but are also potentially quickly outdated. Note how web developer was huge, and is now having the biggest decrease. Will we be saying the same about AI/cloud in 5 years? And social media is, I feel, on a downward trend already.
+- JG: Interesting when viewed alongside the BCG report from [last week](https://www.jamesgibbins.com/consumption-week9/#shifting-skills-moving-targets-and-remaking-the-workforce). New technologies earn more money, but are also potentially quickly outdated. Note how web developer was huge, and is now having the biggest decrease. Will we be saying the same about AI/cloud in 5 years? And social media is, I feel, on a downward trend already.
 
 ## From Barbie to Airlines: The Business Method to Charge the Richest People More
 [https://youtu.be/YP1bx63fC5o](https://youtu.be/YP1bx63fC5o)

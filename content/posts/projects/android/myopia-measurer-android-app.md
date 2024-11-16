@@ -9,7 +9,7 @@ Tl;dr: I launched an app. Get it here: [https://play.google.com/store/apps/detai
 
 ## The original project
 
-About 18 months ago (wow, time flies!) I built an Arduino-based device to measure your eyesight (read more about it [here](https://www.jamesgibbins.com/posts/arduino-myopia-measurer/)). However, it turns out taking it to the next stage - that is, PCB design and manufacturing - is prohibitively expensive (hundreds of £s). Using a breadboard-based device on a regular basis was not convenient, due to the physical size and fragility.
+About 18 months ago (wow, time flies!) I built an Arduino-based device to measure your eyesight (read more about it [here](https://www.jamesgibbins.com/arduino-myopia-measurer/)). However, it turns out taking it to the next stage - that is, PCB design and manufacturing - is prohibitively expensive (hundreds of £s). Using a breadboard-based device on a regular basis was not convenient, due to the physical size and fragility.
 
 So, I decided to look into an Android app.
 

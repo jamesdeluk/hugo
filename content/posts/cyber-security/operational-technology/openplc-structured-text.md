@@ -16,9 +16,9 @@ date: 2021-09-27
 
 ## Introduction
 
-After [playing around](https://www.jamesgibbins.com/posts/openplc-arduino/) with ladder logic (LL) in OpenPLC, I wanted to get a basic grip of structured text (ST). While LL is a visual method of programming PLCs, ST is a C-like language for programming PLCs, featuring well-know coding functions such as IF and WHILE.
+After [playing around](https://www.jamesgibbins.com/openplc-arduino/) with ladder logic (LL) in OpenPLC, I wanted to get a basic grip of structured text (ST). While LL is a visual method of programming PLCs, ST is a C-like language for programming PLCs, featuring well-know coding functions such as IF and WHILE.
 
-Fortunately, OpenPLC also allows you to program PLCs using ST! There is one minor difference; with Ladder Logic, OpenPLC can simulate the circuit and get a pretty visualisation based on the LL design itself - see the images in my [previous post](https://www.jamesgibbins.com/posts/openplc-arduino/#one-button-latching-circuit-with-emergency-stop). With ST, because there is no design, there is no pretty visualisation. However, the Debugger does give a timeline of the states of the various variables, and it can be used to force a value, so you can still simulate a circuit.
+Fortunately, OpenPLC also allows you to program PLCs using ST! There is one minor difference; with Ladder Logic, OpenPLC can simulate the circuit and get a pretty visualisation based on the LL design itself - see the images in my [previous post](https://www.jamesgibbins.com/openplc-arduino/#one-button-latching-circuit-with-emergency-stop). With ST, because there is no design, there is no pretty visualisation. However, the Debugger does give a timeline of the states of the various variables, and it can be used to force a value, so you can still simulate a circuit.
 
 While studying ST, I noticed many of the tutorials used a piece of software called CODESYS for their programming. This is much more feature-rich than OpenPLC, and can do visualisations - it can do full HMI, with buttons and lights etc. So you can guess what a future post will be about ;-)
 
@@ -32,9 +32,9 @@ You'll see the code below, but a few things about the language first:
 
 ## Project Examples
 
-Let's recreate the [basic designs](https://www.jamesgibbins.com/posts/openplc-arduino/#project-examples) I created with LL before in OpenPLC and get them running on the Arduino.
+Let's recreate the [basic designs](https://www.jamesgibbins.com/openplc-arduino/#project-examples) I created with LL before in OpenPLC and get them running on the Arduino.
 
-The physical Arduino circuit is the same as before ([see here](https://www.jamesgibbins.com/posts/openplc-arduino/#installation)).
+The physical Arduino circuit is the same as before ([see here](https://www.jamesgibbins.com/openplc-arduino/#installation)).
 
 ### Two-Button Latching Circuit
 
@@ -222,7 +222,7 @@ The functionality. Note the delay between `PB1` and `LED`:
 
 ### Steady(ish) State (e.g Temperature)
 
-The variables are the same as LL (I've explained the strange numbers [here](https://www.jamesgibbins.com/posts/openplc-arduino/#steadyish-state-eg-temperature)), except the temperatures are also included up here, and I've used initial values to make the simulation look better:
+The variables are the same as LL (I've explained the strange numbers [here](https://www.jamesgibbins.com/openplc-arduino/#steadyish-state-eg-temperature)), except the temperatures are also included up here, and I've used initial values to make the simulation look better:
 
 ![openplc-st-22](/images/old/openplc-st-22.png)
 

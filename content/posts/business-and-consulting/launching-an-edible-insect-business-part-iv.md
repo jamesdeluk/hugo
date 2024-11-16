@@ -3,7 +3,7 @@ title: "Launching an Edible Insect Business, Part IV: Go-to-Market"
 date: 2023-06-14
 tags: ["Business","Entrepreneurship","Case Study","Market Entry","Strategy","Go-to-Market","Agriculture","Food","Insects","Entomophagy"]
 ---
-We’ve assessed the potential [market size](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-i/) and we’ve seen [who](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-ii/)’s currently in the market, along with their [product](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-iii/) lines. Next: based on everything we’ve found so far from our research, what's our go-to-market strategy?
+We’ve assessed the potential [market size](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-i/) and we’ve seen [who](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-ii/)’s currently in the market, along with their [product](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-iii/) lines. Next: based on everything we’ve found so far from our research, what's our go-to-market strategy?
 
 ## Product-market fit
 
@@ -30,7 +30,7 @@ Now we need the supply to fulfil the demand - the operations part of the busines
 
 ### Buying them from a farm
 
-The simpler option is to buy them. There exist companies who farm insects for non-human consumption purposes already, such as animal feed, and some of these are already raising them to hygience standards suitable for human consumption, as demonstrated by the fact some companies assessed in [part 2](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-ii/) utilise this method.
+The simpler option is to buy them. There exist companies who farm insects for non-human consumption purposes already, such as animal feed, and some of these are already raising them to hygience standards suitable for human consumption, as demonstrated by the fact some companies assessed in [part 2](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-ii/) utilise this method.
 
 I foresee two potential obstacles to this approach.
 
@@ -54,7 +54,7 @@ OPEX. A feed source would have to be established, but potentially this could be 
 
 ### Which is best?
 
-One of the benefits of raising them ourself would be having complete operational control to test methods to drive down costs. The biggest obstacle to large-scale uptake of entomophagy is the cost associated to the end consumer (see [part 3](https://www.jamesgibbins.com/posts/launching-an-edible-insect-business-part-iii/)), and vertical integration is one of the best ways to reduce production costs. Developing a system that could automate the process, or utilising AI to provide optimum conditions (feed, temperate, moisture, etc), could be the key to making this economically viable.
+One of the benefits of raising them ourself would be having complete operational control to test methods to drive down costs. The biggest obstacle to large-scale uptake of entomophagy is the cost associated to the end consumer (see [part 3](https://www.jamesgibbins.com/launching-an-edible-insect-business-part-iii/)), and vertical integration is one of the best ways to reduce production costs. Developing a system that could automate the process, or utilising AI to provide optimum conditions (feed, temperate, moisture, etc), could be the key to making this economically viable.
 
 Of course, initial costs would be significantly higher, especially to produce at scale - the aquisition of land, equipment, and the ongoing costs of heat and feed. This might require a large loan or an outside investor.
 
