@@ -167,13 +167,6 @@ params:
         # matomo:
         #   instance: matomo.example.com
         #   siteId: 1 # Or any other number
-    services:
-      googleAnalytics:
-        ID: G-4T1FV3DWGP
-    privacy:
-      googleAnalytics:
-        disable: false
-        respectDoNotTrack: true
 
     # Enable Support
     support:
