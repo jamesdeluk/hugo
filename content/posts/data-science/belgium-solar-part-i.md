@@ -12,7 +12,7 @@ I have a friend who owns a solar management platform, and he asked me to investi
 
 The data is available here: [https://opendata.elia.be/explore/dataset/ods032](https://opendata.elia.be/explore/dataset/ods032)
 
-The full code of my analysis is available here: [https://github.com/jamesdeluk/data-science/tree/main/Projects/ods](https://github.com/jamesdeluk/data-science/tree/main/Projects/ods)
+The full code of my analysis is available here: [https://github.com/jamesdeluk/data-science/tree/main/Projects/solar-pv-time-series-forecasting](https://github.com/jamesdeluk/data-science/tree/main/Projects/solar-pv-time-series-forecasting)
 
 For those who don’t know, Belgium is split into Brussels, Flanders in the north (consisting of West Flanders, East Flanders, Antwerp, Flemish-Brabant, and Limburg), and Wallonia in the south (consisting of Hainaut, Walloon-Brabant, Namur, Liège, and Luxembourg - not to be confused with the country of Luxembourg, which it borders). The dataset contains individual and combined data.
 
