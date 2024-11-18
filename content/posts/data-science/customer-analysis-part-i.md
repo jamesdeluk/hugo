@@ -4,7 +4,7 @@ date: 2024-11-13
 tags: ["Data Science", "Data Analysis", "Segmentation", "Clustering", "Python", "Customer Analysis"]
 hero: /images/posts/data-science/customer-analysis-i/ca1-image-5.png
 ---
-*This is part one of a multi-part series.*
+*This is part one of a multi-part series. Part two can be found [here](https://www.jamesgibbins.com/customer-analysis-part-ii/)*
 
 ## Intro
 
