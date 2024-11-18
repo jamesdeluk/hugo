@@ -22,6 +22,7 @@ aliases:
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbac00bdcf5aa52c077bef4d95da882f3%2FBadge-37.svg?generation=1727468352009252&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F59be06dc5fa3103f7f3d4064730449a4%2FBadge-38.svg?generation=1727468372542689&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F304806%2F1677a9768c3edb109351613acb6f8673%2FBadge-57.svg?generation=1731369061704923&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F6e139e7278fc9c33210e39baf918967f%2FBadge-53.svg?generation=1727468684057299&amp;alt=media">
 
 <a href="/images/posts/cognition-and-learning/certs/kaggle-itml.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-itml.png" alt="Kaggle Introduction to Machine Learning"></a>
 <a href="/images/posts/cognition-and-learning/certs/kaggle-iml.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/kaggle-iml.png" alt="Kaggle Intermediate Machine Learning"></a>
