@@ -43,6 +43,10 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/jamesdeluk"
 
+- name: Bluesky
+  icon: "fab fa-bluesky"
+  url: "https://bsky.app/profile/jamesdeluk.bsky.social"
+
 - name: Spotify
   icon: "fab fa-spotify"
   url: "https://open.spotify.com/user/drakelet"
