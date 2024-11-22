@@ -1,7 +1,7 @@
 ---
 title: "Customer Analysis Part I: Segmentation and Clustering"
 date: 2024-11-13
-tags: ["Data Science", "Data Analysis", "Segmentation", "Clustering", "Python", "Customer Analysis"]
+tags: ["Data Science", "Data Analysis", "Segmentation", "Clustering", "Customer Analysis", "Python"]
 hero: /images/posts/data-science/customer-analysis-i/ca1-image-5.png
 ---
 *This is part one of a multi-part series. Part two can be found [here](https://www.jamesgibbins.com/customer-analysis-part-ii/).*
