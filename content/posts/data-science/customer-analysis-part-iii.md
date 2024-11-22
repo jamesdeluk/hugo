@@ -6,7 +6,7 @@ hero: /images/posts/data-science/customer-analysis-iii/ca3-image-13.png
 ---
 *This is part three of a multipart series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/).*
 
-*Code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-XXX.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca2-classification.ipynb)*
+*Code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb)*
 
 ## Intro
 
