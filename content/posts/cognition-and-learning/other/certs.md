@@ -7,7 +7,7 @@ aliases:
 - /posts/achievements/
 ---
 
-98 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+99 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Data Science
 
@@ -54,6 +54,7 @@ aliases:
 <a href="/images/posts/cognition-and-learning/certs/365ds-stats.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-stats.png" alt="365 Data Science Statistics"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-prob.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-prob.png" alt="365 Data Science Probability"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-maths.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-maths.png" alt="365 Data Science Mathematics"></a>
+<a href="/images/posts/cognition-and-learning/certs/365ds-ds.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ds.png" alt="365 Data Science Data Strategy"></a>
 
 ## Corporate Finance Institute
 
