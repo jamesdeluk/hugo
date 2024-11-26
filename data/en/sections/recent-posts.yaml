@@ -1,5 +1,5 @@
 section:
-  name: Recent
+  name: New
   id: recent-posts
   enable: true
   weight: 3
