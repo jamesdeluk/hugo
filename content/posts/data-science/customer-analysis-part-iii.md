@@ -6,7 +6,9 @@ hero: /images/posts/data-science/customer-analysis-iii/ca3-image-13.png
 ---
 *This is part three of a multipart series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/).*
 
-*Code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb)*
+*This post contains incomplete code snippets. The full code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb)*
+
+*UPDATE 2024-11-26: During part four I noticed I had made a mistake in the Product Analysis section - I'd accidentally used a subset of the dataset when doing an analysis. Given part four is exclusively about product and brand analysis, I have moved the now-corrected section to that post.*
 
 ## Intro
 
@@ -276,18 +278,7 @@ I didn’t scale the data used for this heatmap because I didn’t feel it neces
 
 ![Heatmap cluster vs revenue](/images/posts/data-science/customer-analysis-iii/ca3-image-8.png)
 
-That is surprising! Brand 5 brings in far more revenue than the others, mostly from the average and above average groups. In fact, it looks like brand 2 brings in more revenue than brand 4. Again, though, 1 and 3 look less good. Let’s group this by cluster and bar graph it:
-
-```python
-df_revenue_by_brand = pd.DataFrame(df_cluster_brandrevenue.sum()).rename(columns={0:'Total Revenue'})
-df_revenue_by_brand.index = df_revenue_by_brand.index.str.replace('Revenue_Brand_', '', regex=False)
-df_revenue_by_brand.index.name = 'Brand'
-sns.barplot(x=df_revenue_by_brand.index, y=df_revenue_by_brand['Total Revenue'], errorbar=None, palette="Set1")
-```
-
-![Bar chart revenue vs brand](/images/posts/data-science/customer-analysis-iii/ca3-image-9.png)
-
-Yup, brand 2 brings in more revenue than brand 4, but not by much. Brand 5 is a clear winner. And what about total revenue per cluster?
+That is quite surprising, based on what we've see before Brand 5 brings in far more revenue than the others, mostly from the average and above average groups - then again, it does have the highest price, so doesn't need such high sales volume. It looks like brand 2 brings in more revenue than brand 4. Again, though, 1 and 3 look less good. And what about total revenue per cluster?
 
 ```python
 df_revenue_by_cluster = df[df['Incidence']==1].groupby('Cluster')[['Total_Revenue']].sum().astype(int).rename(columns={'Total_Revenue':'Total Revenue'})
@@ -355,44 +346,14 @@ Not really. I was hoping we’d see a pattern which would give insight into whic
 
 ## Product analysis
 
-Now seems a good time to see how sales, price, and promotion relate. Correlation heatmaps are always a good place to start:
-
-```python
-sales_cols = [f'Brand_{i}' for i in range(1, 6)]
-price_cols = [f'Price_{i}' for i in range(1, 6)]
-correlation_matrix_price = df_byday_bpp[sales_cols + price_cols].corr()
-display(correlation_matrix_price.loc[sales_cols, price_cols])
-sns.heatmap(correlation_matrix_price.loc[sales_cols, price_cols], annot=True, cmap='coolwarm', cbar=None)
-```
-
-![Heatmap brand vs price](/images/posts/data-science/customer-analysis-iii/ca3-image-16.png)
-
-A negative correlation means that sales decrease as price increases (and vice versa). Brands 1 and 2 are most sensitive to their own prices, so lower prices result in far more sales, followed by brands 5 then 4. If this is good for the store depends on the profit margins. Interestingly, as brand 3’s price increases, the number of sales also increases - so, if I were the store owner, I’d increase the price and monitor the sales. Brand 1 has a positive correlation with the prices for brands 3 and 4, meaning that more of brand 1 sells as brands 3 and 4 increase their prices - suggesting it might act as a substitute purchase. Correlations close to zero, as most of the others are, suggesting no real correlation between price and sales, implying other factors drive the demand.
-
-![Heatmap brand vs promotion](/images/posts/data-science/customer-analysis-iii/ca3-image-17.png)
-
-A couple of standouts here too - both brands 2 and 5 experience far more sales when on promotion compared to other brands on promotion. All the others are pretty close to zero, with the largest negative value being a decrease in sales of brand 5 when brand 3 is on promotion, suggesting they’re substitute goods (although the magnitude is small). Halo effects are noteworthy - when brand 1 is on promotion, all brands experience increased sales (brand 1 sales actually increase by the second-*least* amount). This happens for several of the promotions - brands 2, 3, 4, and 5 all experience halo effects from the promotions of almost every other brand.
-
-And what about some scatter plots?
-
-![Scatter plots sales vs price by brand](/images/posts/data-science/customer-analysis-iii/ca3-image-18.png)
-
-Brand 1 has the clearest correlation between price and sales, suggesting it is price sensitive. Brand 2 has some distinct price bands, but sales volume doesn’t seem to relate to the price. Brand 3 has a huge range of prices, but again, no discernible trend, indicating minimal price sensitivity. Brand 4’s bargain price didn’t cause many more sales; again, there’s no real trend overall. Something similar can be said for brand 5, although there does look to be a slight trend, suggesting a weak price sensitivity.
+*Now moved to part four*
 
 ## Conclusion
 
 I think that will do for now! Next time I’ll go deeper, introducing some regression models. What are our main actionable insights from this purchase analytics phase?
 
-**Customer-related**
-
 1. Older men with successful careers bring in the most revenue per person, but they make up a small amount of our customers. How can we attract more of them? Or could we go to them, open stores in areas with people matching their demographics?
 2. We have three customers who visit, buy, and spend far more than all the others. Who are these people? We need to learn more about them, as we want more people like them - especially as they’re not in our older successful men group. Potentially invite them for interviews, or send them surveys?
 3. Below-average customers provide significantly less value to the store than other customer groups, yet are our second-largest cluster. They behave consistently, and favour brand 2, so targeted promotions could boost sales, especially given brand 2 is sensitive to promotions.
-
-**Brand-related**
-
-1. Brand 3 brings in relatively little revenue and seems unpopular with customers. If profit margins are also low, potentially kill the SKU, although first undertake additional research such as surveys to validate this theory.
-2. Brand 4 is more favoured by those with high incomes than brand 5. How can we shift their preferences to the more expensive product? What is it that attracts them? Brand 5 is already popular among other clusters, so it has proven desirability.
-3. Relatedly, brand 5 is heavily affected by promotions, so if excess inventory is building up, it should be easy to shift - meaning we can take a risk to push it.
 
 Until next time!
