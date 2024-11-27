@@ -109,7 +109,7 @@
                 <li><span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span></li>
               {{ else if (eq $key "linkedin") }}
                 <li><a href={{ printf "https://www.linkedin.com/in/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>{{ $value }}</span>
+                  <span><i class="fab fa-linkedin"></i></span> <span>{{ $value }}</span>  <!-- JG: Change from $author.name -->
                 </a></li>
               {{ else if (eq $key "github") }}
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
