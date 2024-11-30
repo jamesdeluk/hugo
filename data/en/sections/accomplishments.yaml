@@ -40,5 +40,5 @@ accomplishments:
   certificateURL: ""
 
 - name: A multitide of other courses and certifications
-  courseOverview: 99 and counting, from CompTIA to Cloud, Product Management to Operational Technology
-  certificateURL: "https://www.jamesgibbins.com/certs"
+  courseOverview: 100 and counting, from CompTIA to Cloud, Product Management to Operational Technology
+  certificateURL: "/certs"

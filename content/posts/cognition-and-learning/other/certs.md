@@ -7,7 +7,7 @@ aliases:
 - /posts/achievements/
 ---
 
-99 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+100 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Data Science
 
@@ -44,6 +44,7 @@ aliases:
 <a href="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.png" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-mlknn.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlknn.png" alt="365 Data Science Machine Learning with K-Nearest Neighors"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.png" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
+<a href="/images/posts/cognition-and-learning/certs/365ds-itai.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itai.png" alt="365 Data Science Intro to AI"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dcpp.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dcpp.png" alt="365 Data Science Data Cleaning and Preprocessing with pandas"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dpwn.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dpwn.png" alt="365 Data Science Data Preprocessing with NumPy"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-cdvc.png" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-cdvc.png" alt="365 Data Science The Completed Data Visualization Course"></a>

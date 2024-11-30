@@ -58,6 +58,7 @@
 ![/images/posts/cognition-and-learning/certs/365ds-dact.png](/images/posts/cognition-and-learning/certs/365ds-dact.png)
 ![/images/posts/cognition-and-learning/certs/365ds-dsct.png](/images/posts/cognition-and-learning/certs/365ds-dsct.png)
 ![/images/posts/cognition-and-learning/certs/365ds-ds.png](/images/posts/cognition-and-learning/certs/365ds-ds.png)
+![/images/posts/cognition-and-learning/certs/365ds-itai.png](/images/posts/cognition-and-learning/certs/365ds-itai.png)
 
 ![/images/posts/cognition-and-learning/certs/cybrary-cert-soc-analyst-level-1.png](/images/posts/cognition-and-learning/certs/cybrary-cert-soc-analyst-level-1.png)
 ![/images/posts/cognition-and-learning/certs/cybrary-cert-network-engineer.png](/images/posts/cognition-and-learning/certs/cybrary-cert-network-engineer.png)
