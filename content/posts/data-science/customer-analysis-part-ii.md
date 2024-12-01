@@ -4,7 +4,7 @@ date: 2024-11-18
 tags: ["Data Science", "Data Analysis", "Classification", "Customer Analysis", "Python"]
 hero: /images/posts/data-science/customer-analysis-ii/ca2-heatmap2.png
 ---
-*This is part two of a multipart series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/).*
+*This is part two of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/).*
 
 *Code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca2-classification.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca2-classification.ipynb)*
 
