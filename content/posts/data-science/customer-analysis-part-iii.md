@@ -56,7 +56,7 @@ And a `describe()`:
 | min | 200000000 | 1.76 | 2.11 | 0 | 0 | 0 | 0 | 0 | 100000000 | 1 |
 | max | 200058700 | 2.26 | 2.8 | 1 | 1 | 1 | 1 | 1 | 100002000 | 4 |
 
-There were 58693 different visits in total, across 730 days, so presumably two full years - although note the final record is 726, so the data is not entirely in date order. Incidence is a binary value, recording if a purchase was made on that visit. There are five brands, relating to prices and promotions _1 to _5; they look to be priced in order, from 1 the cheapest to 5 the most expensive. Brand 0 links with incidence 0, implying no purchase. This feels like a good opportunity to one-hot encode, using panda’s `get_dummies`:
+There were 58693 different visits in total, across 730 days, so presumably two full years - although note the final record is 726, so the data is not entirely in date order. Incidence is a binary value, recording if a purchase was made on that visit. There are five brands, relating to prices and promotions \_1 to _5; they look to be priced in order, from 1 the cheapest to 5 the most expensive. Brand 0 links with incidence 0, implying no purchase. This feels like a good opportunity to one-hot encode, using panda’s `get_dummies`:
 
 ```python
 df = df.join(pd.get_dummies(df['Brand'], prefix='Brand', prefix_sep='_').astype(int))
