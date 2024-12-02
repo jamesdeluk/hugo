@@ -226,7 +226,7 @@ I did a breakdown by brand, by combining some of the above code loops:
 
 When looking at individual brands instead of the mean, the overall effect of the promotion looks to reduce, so perhaps promotions are not as worthwhile as we’d thought.
 
-## Cross-brand elasticity
+### Cross-brand elasticity
 
 Disclaimer: The basic economic principle is of cross elasticity is simple - the percentage change in demand for product A divided by the percentage change in price for product B - but modelling it is more complicated. I found multiple methods for calculating cross elasticity of demand, but none clearly explained the workings behind the method, and they all gave different results, some dramatically so. I am still working to validate which method is best. If you have an insight, please do let me know - my contact details are in the footer.
 
