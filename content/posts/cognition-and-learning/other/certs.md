@@ -7,17 +7,19 @@ aliases:
 - /posts/achievements/
 ---
 
-100 certifications and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+112 and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Data Science
 
 ### Kaggle
 
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F9c37cceb9f493bb678dd909e988b1456%2FBadge-1.svg?generation=1727462477436270&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F06808571894d065a64243d6ba468be2b%2FBadge-4.svg?generation=1727462524641424&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F1e4546d427340e1495b9ee02261e2dc6%2FBadge-34.svg?generation=1727468126171650&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F7567026dd0c594f1193b49a98a976056%2FBadge-35.svg?generation=1727468213893504&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F0b96fc543a2faf02467b3dcd5833feff%2FBadge-45.svg?generation=1727468334875991&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbac00bdcf5aa52c077bef4d95da882f3%2FBadge-37.svg?generation=1727468352009252&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F59be06dc5fa3103f7f3d4064730449a4%2FBadge-38.svg?generation=1727468372542689&amp;alt=media">
