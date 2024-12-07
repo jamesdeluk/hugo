@@ -38,11 +38,17 @@ projects:
   summary: Clustering customers using hierarchical and K-based techniques, classifying new customers, then useing logistic modelling to predict buying outcomes.
   tags: ["data-science", "clustering", "customers"]
 
-- name: Android and Arduino eyesight measuring device
+- name: Eyesight measuring Android app
   logo: /images/posts/projects/myopia-measurer-logo.png
   url: /myopia-measurer-android-app
-  summary: Initially in hardware, with Arduino, then in software, for Android, I made a device that could measure your myopia (a.k.a shortsightedness). Download it today!
-  tags: ["hardware", "software", "health"]
+  summary: I made an app that could measure your myopia (a.k.a shortsightedness). Download it today!
+  tags: ["hardware", "health"]
+
+- name: Eyesight measuring Arduino device
+  logo: /images/old/mm-angle.jpg
+  url: /arduino-myopia-measurer/
+  summary: Before making the app, I made a hardware device to measure my myopia (a.k.a shortsightedness).
+  tags: ["hardware", "health"]
 
 - name: DiscussAnyPage
   logo: /images/posts/projects/dap.png
