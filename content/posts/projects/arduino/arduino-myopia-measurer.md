@@ -2,6 +2,7 @@
 title: Arduino Myopia Measurer
 tags: ["Myopia","EndMyopia","Eyesight","Health","Arduino"]
 date: 2021-09-13
+hero: /images/old/mm-angle.jpg
 ---
 
 - [Introduction](#introduction)
