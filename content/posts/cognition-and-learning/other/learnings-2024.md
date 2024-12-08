@@ -1,9 +1,9 @@
 ---
 title: Learnings 2024
-summary: "Notes from things I've consumed in 2024"
+summary: "Notes from 148 things I've consumed in 2024. Updated 08/12/2024."
 tags: ['Consumption','Media']
 originaldate: 2024-01-14
-date: 2024-11-23
+date: 2024-12-08
 hero: /images/posts/cognition-and-learning/acc.png
 ---
 
