@@ -56,6 +56,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - A Monopoly house on Whitechapel Road is £30. Currently, the average price is in real life is £454,000. [136]
 - US trucks are so big because larger vehicle are allowed to pollute more (by law), so instead of making more efficient vehicles, they make bigger ones. A perverse incentive, a.k.a cobra effects. [138]
 - Bee’s dicks, chucking wobblies, tits on bulls, frothy, drongos, and it’s truth. [141]
+- Surprisingly, the busiest air route in the world is from Seoul to the tiny island Jeju. [143]
+- Unsurprisingly, that both parents working is bad for both the parents and the kids, and not everyone values career over everything else [144] [145]
 
 ## Relationships and Personalities
 
@@ -121,6 +123,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Market testing: get a Photoshop mockup, get a landing page, pay for ads, see interest [110]
 - Some shady stuff going on behind-the-scenes at Gymshark… [119]
 - If you say you love your craft, your product is viewed as better, and you can charge more. [130]
+- When printing a URL to your website on a children’s toy packaging, make sure it’s your website’s URL, not a porn site [142]
+- To reduce customer churn, don’t ask why are you leaving, ask why did you join up - focus on the positive [146]
 
 ## Economy and Financial
 
@@ -186,6 +190,7 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Worked for Russia, discovered corruption, then the rest of his life on the run. Crazy story. [101]
 - Another reminder than, during the world wars, most combatants - from all sides - were young men simply following order. And were wracked by fear and guilt for the rest of their lives. [108]
 - Neanderthals and homo sapiens had sex in Iran. [122]
+- Okay, Japanese reality TV was a bit fucked. Basically torturing a man on live TV. [148]
 
 ## Misc
 
@@ -195,6 +200,7 @@ hero: /images/posts/cognition-and-learning/acc.png
 - The trolley problem is a false dichotomy - break the trolley! [76]
 - Imagine if your whole life could play before your eyes before you die. You don’ typically expect beauty from Rick and Morty, but this was. [116]
 - Trump was a business failure. The Apprentice writers couldn’t get any other businessmen, so, playing in his narcissism, they invented his imaginary wealth and wrote up his intelligence and arrogance. He got rich because of the show. No Apprentice, no President Trump. [140]
+- Potentially a lot of tomato, even if it claims it’s grown in the EU, is from China, and may involve slave labour, due to one dodgy Italian company. Hopefully not now, due ot the powers of investigative journalism. [147]
 
 ## Lists
 
@@ -350,3 +356,10 @@ hero: /images/posts/cognition-and-learning/acc.png
 139. [The Tim Ferriss Show Transcripts: Derek Sivers, Philosopher-Entrepreneur — The Greatest Year of His Life (#777)](https://tim.blog/2024/11/14/derek-sivers-2-transcript/)
 140. [Profile: Who is Donald Trump? (Part 1… The Brand)](https://www.bbc.co.uk/programmes/p0k3hk0z)
 141. [10 Aussie Phrases We'd Never Heard Before](https://www.standardhotels.com/culture/10-aussie-phrases-wed-never-heard-before)
+142. [Mattel’s ‘Wicked’ Movie Dolls Mistakenly List Porn Site on Packaging](https://variety.com/2024/film/news/mattel-wicked-dolls-porn-site-packaging-1236206056/)
+143. [List of busiest passenger flight routes](https://en.wikipedia.org/wiki/List_of_busiest_passenger_flight_routes)
+144. [Sweden’s ‘soft girl’ trend that celebrates women quitting work](https://www.bbc.co.uk/news/articles/c0j1wwypygxo)
+145. [Sweden’s #softgirls trend](https://www.bbc.co.uk/sounds/play/w3ct5znz)
+146. [How Sainsbury’s and Adobe nudge customers](https://podcasts.apple.com/gb/podcast/how-sainsburys-and-adobe-nudge-customers/id1457621005?i=1000640288602)
+147. [Blood on the shelves](https://www.bbc.co.uk/sounds/play/w3ct7hyp)
+148. [Naked and alone: the comedian trapped in a reality TV show](https://www.bbc.co.uk/programmes/p0k7vn3f)
