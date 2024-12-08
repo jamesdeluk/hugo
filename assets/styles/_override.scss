@@ -52,6 +52,9 @@ html[data-theme="dark"] .home img {
   filter: invert(1);
   background-color: #e1c4de;
 }
+.d-flex {
+  flex-wrap: wrap;
+}
 .ipa {
   font-family: serif;
   font-size: 1.1rem;
@@ -61,6 +64,14 @@ html[data-theme="dark"] .home img {
 }
 .peredution-explanation {
   font-size: 0.7rem;
+}
+.homepage-about-right {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 !important;
+}
+.ytp-chrome-top {
+  display: none;
 }
 
 // #disclaimer strong {

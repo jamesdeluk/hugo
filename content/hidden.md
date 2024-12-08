@@ -1,3 +1,5 @@
+<!-- This file seems to be needed to ensure images with <img> tags show properly -->
+
 ![/images/posts/cognition-and-learning/certs/CFI-certificate-AF.png](/images/posts/cognition-and-learning/certs/CFI-certificate-AF.png)
 ![/images/posts/cognition-and-learning/certs/CFI-certificate-APS.png](/images/posts/cognition-and-learning/certs/CFI-certificate-APS.png)
 ![/images/posts/cognition-and-learning/certs/CFI-certificate-CFF.png](/images/posts/cognition-and-learning/certs/CFI-certificate-CFF.png)
@@ -90,3 +92,5 @@
 ![/images/posts/cognition-and-learning/certs/CISA-ICSJWG-10.png](/images/posts/cognition-and-learning/certs/CISA-ICSJWG-10.png)
 ![/images/posts/cognition-and-learning/certs/CISA-ICSJWG-11.png](/images/posts/cognition-and-learning/certs/CISA-ICSJWG-11.png)
 ![/images/posts/cognition-and-learning/certs/CISA-ICSJWG-12.png](/images/posts/cognition-and-learning/certs/CISA-ICSJWG-12.png)
+
+![/images/site/me.jpg](/images/site/me.jpg)
