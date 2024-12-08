@@ -70,6 +70,19 @@ html[data-theme="dark"] .home img {
   justify-content: center;
   padding: 2rem 0 !important;
 }
+.me-photo {
+  max-width: 400px;
+  max-height: 400px;
+}
+@media screen and (max-width: 600px) {
+  .homepage-about-right {
+    padding: 0 0 1rem 0 !important;
+  }
+  .me-photo {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
 .ytp-chrome-top {
   display: none;
 }
