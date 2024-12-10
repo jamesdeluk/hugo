@@ -2,19 +2,11 @@
 title: "Sysmon: How to install, upgrade, and uninstall"
 tags: ['Security Monitoring']
 date: 2021-06-02
+aliases: 
+- /posts/sysmon-install/
+- /posts/botsv3/
+- /articles/security-operations/sysmon-install/
 ---
-
-<br>
-
-- [Introduction](#introduction)
-- [Helpful Links](#helpful-links)
-- [Install](#install)
-- [Upgrade](#upgrade)
-- [Uninstall](#uninstall)
-  * [The Problem](#the-problem)
-  * [The Investigation](#the-investigation)
-  * [The Solution](#the-solution)
-
 ## Introduction
 
 If you're on this page you probably don't need me to explain much about what Sysmon is or why it is an excellent tool for security monitoring. In short:

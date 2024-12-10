@@ -2,6 +2,8 @@
 title: "Arduino as a PLC with OpenPLC and Ladder Logic"
 tags: ['OpenPLC', 'Arduino', 'Operational Technology']
 date: 2021-09-20
+aliases:
+- /articles/security-operations/sysmon-install/
 ---
 
 
@@ -15,7 +17,7 @@ date: 2021-09-20
   - [One-Button Latching Circuit with Emergency Stop](#one-button-latching-circuit-with-emergency-stop)
   - [Playing with Timers](#playing-with-timers)
   - [Steady(ish) State (e.g Temperature)](#steadyish-state-eg-temperature)
-- [Comments](#comments)
+- [Comments?](#comments)
 
 ## Introduction
 

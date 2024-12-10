@@ -2,12 +2,15 @@
 title: "Network Analysis - Web Shell"
 tags: ['Blue Team Labs Online']
 date: 2021-09-06
+aliases:
+- /articles/digital-forensics/btlo-challenge-network-analysis-web-shell/
 ---
 
 [https://blueteamlabs.online/home/challenge/12](https://blueteamlabs.online/home/challenge/12)
 
 ## Contents
 
+- [Contents](#contents)
 - [Introduction](#introduction)
 - [Questions](#questions)
   - [What is the IP responsible for conducting the port scan activity?](#what-is-the-ip-responsible-for-conducting-the-port-scan-activity)

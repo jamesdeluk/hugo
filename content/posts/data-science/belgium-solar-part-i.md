@@ -3,6 +3,8 @@ title: "Predicting Belgium’s future solar PV generation: Part I"
 date: 2024-11-03
 tags: ["Data Science", "Data Analysis", "Time Series", "Python", "Energy"]
 hero: /images/posts/data-science/belgium-solar-i/belgium-solar-i-8.png
+aliases:
+- /posts/data-science/belgium-solar-part-i/
 ---
 *This is part one of a two-part series. This part covers collecting and processing the data, then assessing the forecasts in the dataset. [Part two](https://www.jamesgibbins.com/belgium-solar-part-ii/) covers my predictions.*
 

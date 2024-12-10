@@ -1,10 +1,11 @@
 ---
 title: "Splunk BOTSv3 Write-Up"
 date: 2020-09-08
+aliases: 
+- /cybersecurity/articles/botsv3/
+- /posts/botsv3/
+- /posts/cyber-security/other/botsv3/
 ---
-
-<br>
-
 Splunk have several "Boss of the SOC" datasets, simulating a security incident - think of it as a Blue Team/SIEM-based CTF. This is my write-up for BOTSv3, at the time of writing the most recent dataset available. It seems that Taedonggang, a North Korean group, have attacked Frothly, a beer maker...
 
 The official BOTSv3 page is here: [https://github.com/splunk/botsv3](https://github.com/splunk/botsv3)
@@ -25,6 +26,7 @@ Or available as a PDF:
 
 ## Contents
 
+- [Contents](#contents)
 - [Info](#info)
 - [Initial Recon](#initial-recon)
 	- [Events](#events)
@@ -32,7 +34,7 @@ Or available as a PDF:
 	- [Hosts and Sourcetypes](#hosts-and-sourcetypes)
 - [General Process](#general-process)
 - [Questions](#questions)
-	- [200 -|- List out the IAM users that accessed an AWS service (successfully or unsuccessfully) in Frothlys AWS environment?](#200----list-out-the-iam-users-that-accessed-an-aws-service-successfully-or-unsuccessfully-in-frothlys-aws-environment)
+	- [200 -|- List out the IAM users that accessed an AWS service (successfully or unsuccessfully) in Frothly's AWS environment?](#200----list-out-the-iam-users-that-accessed-an-aws-service-successfully-or-unsuccessfully-in-frothlys-aws-environment)
 	- [201 -|- What field would you use to alert that AWS API activity have occurred without MFA (multi-factor authentication)?](#201----what-field-would-you-use-to-alert-that-aws-api-activity-have-occurred-without-mfa-multi-factor-authentication)
 	- [202 -|- What is the processor number used on the web servers?](#202----what-is-the-processor-number-used-on-the-web-servers)
 	- [203 -|- Bud accidentally makes an S3 bucket publicly accessible. What is the event ID of the API call that enabled public access?](#203----bud-accidentally-makes-an-s3-bucket-publicly-accessible-what-is-the-event-id-of-the-api-call-that-enabled-public-access)
@@ -43,8 +45,8 @@ Or available as a PDF:
 	- [209 -|- When a Frothly web server EC2 instance is launched via auto scaling, it performs automated configuration tasks after the instance starts. How many packages and dependent packages are installed by the cloud initialization script?](#209----when-a-frothly-web-server-ec2-instance-is-launched-via-auto-scaling-it-performs-automated-configuration-tasks-after-the-instance-starts-how-many-packages-and-dependent-packages-are-installed-by-the-cloud-initialization-script)
 	- [210 -|- What is the short hostname of the only Frothly endpoint to actually mine Monero cryptocurrency?](#210----what-is-the-short-hostname-of-the-only-frothly-endpoint-to-actually-mine-monero-cryptocurrency)
 	- [211 -|- How many cryptocurrency mining destinations are visited by Frothly endpoints?](#211----how-many-cryptocurrency-mining-destinations-are-visited-by-frothly-endpoints)
-	- [212 -|- Using Splunks event order functions, what is the first seen signature ID of the coin miner threat according to Frothlys Symantec Endpoint Protection (SEP) data?](#212----using-splunks-event-order-functions,-what-is-the-first-seen-signature-id-of-the-coin-miner-threat-according-to-frothlys-symantec-endpoint-protection-sep-data)
-	- [213 -|- According to Symantecs website, what is the severity of this specific coin miner threat?](#213----according-to-symantecs-website-what-is-the-severity-of-this-specific-coin-miner-threat)
+	- [212 -|- Using Splunk's event order functions, what is the first seen signature ID of the coin miner threat according to Frothly's Symantec Endpoint Protection (SEP) data?](#212----using-splunks-event-order-functions-what-is-the-first-seen-signature-id-of-the-coin-miner-threat-according-to-frothlys-symantec-endpoint-protection-sep-data)
+	- [213 -|- According to Symantec's website, what is the severity of this specific coin miner threat?](#213----according-to-symantecs-website-what-is-the-severity-of-this-specific-coin-miner-threat)
 	- [214 -|- What is the short hostname of the only Frothly endpoint to show evidence of defeating the cryptocurrency threat?](#214----what-is-the-short-hostname-of-the-only-frothly-endpoint-to-show-evidence-of-defeating-the-cryptocurrency-threat)
 	- [215 -|- What is the FQDN of the endpoint that is running a different Windows operating system edition than the others?](#215----what-is-the-fqdn-of-the-endpoint-that-is-running-a-different-windows-operating-system-edition-than-the-others)
 	- [216 -|- According to the Cisco NVM flow logs, for how many seconds does the endpoint generate Monero cryptocurrency?](#216----according-to-the-cisco-nvm-flow-logs-for-how-many-seconds-does-the-endpoint-generate-monero-cryptocurrency)
@@ -59,37 +61,37 @@ Or available as a PDF:
 	- [225 -|- Using the payload data found in the memcached attack, what is the name of the .jpeg file that is used by Taedonggang to deface other brewery websites?](#225----using-the-payload-data-found-in-the-memcached-attack-what-is-the-name-of-the-jpeg-file-that-is-used-by-taedonggang-to-deface-other-brewery-websites)
 	- [300 -|- What is the full user agent string that uploaded the malicious link file to OneDrive?](#300----what-is-the-full-user-agent-string-that-uploaded-the-malicious-link-file-to-onedrive)
 	- [301 -|- What external client IP address is able to initiate successful logins to Frothly using an expired user account?](#301----what-external-client-ip-address-is-able-to-initiate-successful-logins-to-frothly-using-an-expired-user-account)
-	- [302 -|- According to Symantecs website, what is the discovery date of the malware identified in the macro-enabled file?](#302----according-to-symantecs-website-what-is-the-discovery-date-of-the-malware-identified-in-the-macro-enabled-file)
-	- [303 -|- What is the password for the user that was successfully created by the user root on the on-premises Linux system?](#303----what-is-the-password-for-the-user-that-was-successfully-created-by-the-user-root-on-the-on-premises-linux-system)
+	- [302 -|- According to Symantec's website, what is the discovery date of the malware identified in the macro-enabled file?](#302----according-to-symantecs-website-what-is-the-discovery-date-of-the-malware-identified-in-the-macro-enabled-file)
+	- [303 -|- What is the password for the user that was successfully created by the user "root" on the on-premises Linux system?](#303----what-is-the-password-for-the-user-that-was-successfully-created-by-the-user-root-on-the-on-premises-linux-system)
 	- [304 -|- What is the name of the user that was created after the endpoint was compromised?](#304----what-is-the-name-of-the-user-that-was-created-after-the-endpoint-was-compromised)
-	- [305 -|- What is the process ID of the process listening on a leet port?](#305----what-is-the-process-id-of-the-process-listening-on-a-leet-port)
-	- [306 -|- A search query originating from an external IP address of Frothlys mail server yields some interesting search terms. What is the search string?](#306----a-search-query-originating-from-an-external-ip-address-of-frothlys-mail-server-yields-some-interesting-search-terms-what-is-the-search-string)
-	- [307 -|- What is the MD5 value of the file downloaded to Fyodors endpoint system and used to scan Frothlys network?](#307----what-is-the-md5-value-of-the-file-downloaded-to-fyodors-endpoint-system-and-used-to-scan-frothlys-network)
+	- [305 -|- What is the process ID of the process listening on a "leet" port?](#305----what-is-the-process-id-of-the-process-listening-on-a-leet-port)
+	- [306 -|- A search query originating from an external IP address of Frothly's mail server yields some interesting search terms. What is the search string?](#306----a-search-query-originating-from-an-external-ip-address-of-frothlys-mail-server-yields-some-interesting-search-terms-what-is-the-search-string)
+	- [307 -|- What is the MD5 value of the file downloaded to Fyodor's endpoint system and used to scan Frothly's network?](#307----what-is-the-md5-value-of-the-file-downloaded-to-fyodors-endpoint-system-and-used-to-scan-frothlys-network)
 	- [308 -|- Based on the information gathered for question 304, what groups was this user assigned to after the endpoint was compromised?](#308----based-on-the-information-gathered-for-question-304-what-groups-was-this-user-assigned-to-after-the-endpoint-was-compromised)
-	- [309 -|- At some point during the attack, a users domain account is disabled. What is the email address of the user whose account gets disabled and what is the email address of the user who disabled their account?](#309----at-some-point-during-the-attack-a-users-domain-account-is-disabled-what-is-the-email-address-of-the-user-whose-account-gets-disabled-and-what-is-the-email-address-of-the-user-who-disabled-their-account)
+	- [309 -|- At some point during the attack, a user's domain account is disabled. What is the email address of the user whose account gets disabled and what is the email address of the user who disabled their account?](#309----at-some-point-during-the-attack-a-users-domain-account-is-disabled-what-is-the-email-address-of-the-user-whose-account-gets-disabled-and-what-is-the-email-address-of-the-user-who-disabled-their-account)
 	- [310 -|- Another set of phishing emails were sent to Frothly employees after the adversary gained a foothold on a Frothly computer. This malicious content was detected and left behind a digital artifact. What is the name of this file?](#310----another-set-of-phishing-emails-were-sent-to-frothly-employees-after-the-adversary-gained-a-foothold-on-a-frothly-computer-this-malicious-content-was-detected-and-left-behind-a-digital-artifact-what-is-the-name-of-this-file)
 	- [311 -|- Based on the answer to question 310, what is the name of the executable that was embedded in the malware?](#311----based-on-the-answer-to-question-310-what-is-the-name-of-the-executable-that-was-embedded-in-the-malware)
-	- [312 -|- How many unique IP addresses used the malicious link file that was sent?](#312----how-many-unique-ip-addresses-used-the-malicious-link-file-that-was-sent)
+	- [312 -|- How many unique IP addresses "used" the malicious link file that was sent?](#312----how-many-unique-ip-addresses-used-the-malicious-link-file-that-was-sent)
 	- [314 -|- What port number did the adversary use to download their attack tools?](#314----what-port-number-did-the-adversary-use-to-download-their-attack-tools)
 	- [315 -|- During the attack, two files are remotely streamed to the /tmp directory of the on-premises Linux server by the adversary. What are the names of these files?](#315----during-the-attack-two-files-are-remotely-streamed-to-the-tmp-directory-of-the-on-premises-linux-server-by-the-adversary-what-are-the-names-of-these-files)
 	- [316 -|- Based on the information gathered for question 314, what file can be inferred to contain the attack tools?](#316----based-on-the-information-gathered-for-question-314-what-file-can-be-inferred-to-contain-the-attack-tools)
-	- [317 -|- What is the first executable uploaded to the domain admin accounts compromised endpoint system?](#317----what-is-the-first-executable-uploaded-to-the-domain-admin-accounts-compromised-endpoint-system)
+	- [317 -|- What is the first executable uploaded to the domain admin account's compromised endpoint system?](#317----what-is-the-first-executable-uploaded-to-the-domain-admin-accounts-compromised-endpoint-system)
 	- [318 -|- From what country is a small brute force or password spray attack occurring against the Frothly web servers?](#318----from-what-country-is-a-small-brute-force-or-password-spray-attack-occurring-against-the-frothly-web-servers)
-	- [319 -|- The adversary created a BCC rule to forward Frothlys email to his personal account. What is the value of the Name parameter set to?](#319----the-adversary-created-a-bcc-rule-to-forward-frothlys-email-to-his-personal-account-what-is-the-value-of-the-name-parameter-set-to)
+	- [319 -|- The adversary created a BCC rule to forward Frothly's email to his personal account. What is the value of the "Name" parameter set to?](#319----the-adversary-created-a-bcc-rule-to-forward-frothlys-email-to-his-personal-account-what-is-the-value-of-the-name-parameter-set-to)
 	- [320 -|- What is the password for the user that was created on the compromised endpoint?](#320----what-is-the-password-for-the-user-that-was-created-on-the-compromised-endpoint)
 	- [321 -|- The Taedonggang adversary sent Grace Hoppy an email bragging about the successful exfiltration of customer data. How many Frothly customer emails were exposed or revealed?](#321----the-taedonggang-adversary-sent-grace-hoppy-an-email-bragging-about-the-successful-exfiltration-of-customer-data-how-many-frothly-customer-emails-were-exposed-or-revealed)
 	- [322 -|- What is the path of the URL being accessed by the command and control server?](#322----what-is-the-path-of-the-url-being-accessed-by-the-command-and-control-server)
-	- [323 -|- At least two Frothly endpoints contact the adversarys command and control infrastructure. What are their short hostnames?](#323----at-least-two-frothly-endpoints-contact-the-adversarys-command-and-control-infrastructure-what-are-their-short-hostnames)
-	- [324 -|- Who is Al Bungsteins cell phone provider/carrier?](#324----who-is-al-bungsteins-cell-phone-providercarrier)
-	- [325 -|- Microsoft cloud services often have a delay or lag between index time and event creation time. For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin?](#325----microsoft-cloud-services-often-have-a-delay-or-lag-between-index-time-and-event-creation-time-for-the-entire-day-what-is-the-max-lag-in-minutes-for-the-sourcetype-msaadsignin)
-	- [326 -|- According to Mallorys advertising research, how is beer meant to be enjoyed?](#326----according-to-mallorys-advertising-research-how-is-beer-meant-to-be-enjoyed)
-	- [328 -|- What text is displayed on line 2 of the file used to escalate tomcat8s permissions to root?](#328----what-text-is-displayed-on-line-2-of-the-file-used-to-escalate-tomcat8s-permissions-to-root)
+	- [323 -|- At least two Frothly endpoints contact the adversary's command and control infrastructure. What are their short hostnames?](#323----at-least-two-frothly-endpoints-contact-the-adversarys-command-and-control-infrastructure-what-are-their-short-hostnames)
+	- [324 -|- Who is Al Bungstein's cell phone provider/carrier?](#324----who-is-al-bungsteins-cell-phone-providercarrier)
+	- [325 -|- Microsoft cloud services often have a delay or lag between "index time" and "event creation time". For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin?](#325----microsoft-cloud-services-often-have-a-delay-or-lag-between-index-time-and-event-creation-time-for-the-entire-day-what-is-the-max-lag-in-minutes-for-the-sourcetype-msaadsignin)
+	- [326 -|- According to Mallory's advertising research, how is beer meant to be enjoyed?](#326----according-to-mallorys-advertising-research-how-is-beer-meant-to-be-enjoyed)
+	- [328 -|- What text is displayed on line 2 of the file used to escalate tomcat8's permissions to root?](#328----what-text-is-displayed-on-line-2-of-the-file-used-to-escalate-tomcat8s-permissions-to-root)
 	- [329 -|- One of the files uploaded by Taedonggang contains a word that is a much larger in font size than any other in the file. What is that word?](#329----one-of-the-files-uploaded-by-taedonggang-contains-a-word-that-is-a-much-larger-in-font-size-than-any-other-in-the-file-what-is-that-word)
 	- [330 -|- What Frothly VPN user generated the most traffic?](#330----what-frothly-vpn-user-generated-the-most-traffic)
-	- [331 -|- Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier.](#331----using-splunk-commands-only-what-is-the-upper-fence-uf-value-of-the-interquartile-range-iqr-of-the-count-of-event-code-4688-by-windows-hosts-over-the-entire-day-use-a-1.5-multiplier)
+	- [331 -|- Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier.](#331----using-splunk-commands-only-what-is-the-upper-fence-uf-value-of-the-interquartile-range-iqr-of-the-count-of-event-code-4688-by-windows-hosts-over-the-entire-day-use-a-15-multiplier)
 	- [332 -|- What is the CVE of the vulnerability that escalated permissions on Linux host hoth?](#332----what-is-the-cve-of-the-vulnerability-that-escalated-permissions-on-linux-host-hoth)
 	- [333 -|- What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth?](#333----what-is-the-cve-of-the-vulnerability-that-was-exploited-to-run-commands-on-linux-host-hoth)
-- [Timeline](#timeline)
+- [Timeline](#timeline-1)
 - [Key Learnings](#key-learnings)
 
 ## Info
