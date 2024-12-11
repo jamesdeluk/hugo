@@ -116,6 +116,32 @@ html[data-theme="dark"] .home img {
   padding-top: 2rem !important;
 }
 
+.accomplishments {
+  display: flex;
+}
+.accomplishment-left {
+  flex: 0 0 75%;
+}
+.accomplishment-right {
+  flex: 0 0 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  img {
+    max-height: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .accomplishments {
+    display: block;
+  }
+  .accomplishment-left, .accomplishment-right {
+    img {
+      max-height: 100px;
+    }
+  }
+}
 #accomplishment-card-holder > div:nth-of-type(5) {
   width: 100%;
   .card-header {
