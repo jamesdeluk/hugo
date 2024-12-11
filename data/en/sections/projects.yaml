@@ -38,6 +38,12 @@ projects:
   summary: Clustering customers using hierarchical and K-based techniques, classifying new customers, then useing logistic modelling to predict buying outcomes.
   tags: ["data-science", "clustering", "customers"]
 
+- name: Natural language processing of tweets
+  logo: /images/posts/data-science/disaster-tweets-nlp/dtnlp.png
+  url: /disaster-tweets-nlp
+  summary: Determining if a tweet refers to a real disaster or not through text analysis and natural language processing (NLP).
+  tags: ["data-science", "natural language processing", "social media"]
+
 - name: Eyesight measuring Android app
   logo: /images/posts/projects/myopia-measurer-logo.png
   url: /myopia-measurer-android-app
