@@ -1,13 +1,17 @@
 ---
 title: "Achievements and Certifications"
-date: 2024-11-10
+date: 2024-12-16
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.png
 aliases: 
 - /posts/achievements/
 ---
 
-112 and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+113 and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+
+## Consulting
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c3390d0d-3c92-48ad-b2ac-4939e89a4fd4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ## Data Science
 
