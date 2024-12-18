@@ -95,4 +95,4 @@
 ![](/images/posts/cognition-and-learning/certs/CISA-ICSJWG-12.jpg)
 
 ![](/images/site/me.jpg)
-![](/images/site/degree.jpg)
+![](/images/site/degree.png)
