@@ -14,7 +14,7 @@ accomplishments:
     url: https://365datascience.com/career-tracks/data-scientist/
   courseOverview: "Courses including machine learning (sklearn), deep learning (TensorFlow), time series analysis, statistics, and probability."
   certificateURL: "https://learn.365datascience.com/c/efd08b4dbe/"
-  certificateImage: /images/posts/cognition-and-learning/certs/365ds-dsct.png
+  certificateImage: /images/posts/cognition-and-learning/certs/365ds-dsct.jpg
 
 - name: Data Analyst Career Track
   timeline: "August 2024 - October 2024"
@@ -23,7 +23,7 @@ accomplishments:
     url: https://365datascience.com/career-tracks/data-analyst/
   courseOverview: "Courses including NumPy, pandas, Excel, SQL, customer analytics, and data visualisation (including Tableau)."
   certificateURL: "https://learn.365datascience.com/c/0f771dbeee/"
-  certificateImage: /images/posts/cognition-and-learning/certs/365ds-dact.png
+  certificateImage: /images/posts/cognition-and-learning/certs/365ds-dact.jpg
 
 - name: Financial Modeling & Valuation Analysis (FMVA®))
   timeline: "January 2024 - March 2024"
@@ -32,7 +32,7 @@ accomplishments:
     url: https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/
   courseOverview: Courses including financial modelling (including 3-statement modelling), and valuation analysis using DCF, comparables/precedents, and assets. Projects included solar PPA modelling. Also covered PowerBI and SQL.
   certificateURL: "https://www.credential.net/profile/jamesgibbins94329/wallet"
-  certificateImage: /images/posts/cognition-and-learning/certs/CFI-certificate-FMVA.png
+  certificateImage: /images/posts/cognition-and-learning/certs/CFI-certificate-FMVA.jpg
 
 - name: Masters in Electronic and Electrical Engineering
   timeline: "September 2011 - July 2015"
