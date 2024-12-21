@@ -1,9 +1,9 @@
 ---
 title: Learnings 2024
-summary: "Notes from 148 things I've consumed in 2024. Updated 08/12/2024."
+summary: "Notes from 154 things I've consumed in 2024. Updated 21/12/2024."
 tags: ['Consumption','Media']
 originaldate: 2024-01-14
-date: 2024-12-08
+date: 2024-12-21
 hero: /images/posts/cognition-and-learning/acc.png
 ---
 
@@ -58,6 +58,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Bee’s dicks, chucking wobblies, tits on bulls, frothy, drongos, and it’s truth. [141]
 - Surprisingly, the busiest air route in the world is from Seoul to the tiny island Jeju. [143]
 - Unsurprisingly, that both parents working is bad for both the parents and the kids, and not everyone values career over everything else [144] [145]
+- brittunculus: a nasty little Briton [149]
+- Korea vs UK - I agree with a bunch! Wet rooms, toilets, tap water, air quality, heated floors, colourful cars, paying at restaurants, convenience stores [152] [153]
 
 ## Relationships and Personalities
 
@@ -80,6 +82,8 @@ hero: /images/posts/cognition-and-learning/acc.png
 - 1920s USA: Most were virgins when they married, most only had a single partner. Half of women had never had an orgasm. Orgasms correlated with love, and openness about sex correlated with orgasms. 1/4 had an affair, especially over 40, especially women. Of the women who had an affair, 2/3 hadn’t orgasmed with their husbands. Only 50% were happily married, more men than women. <25yo, unhappy marriages; up to 35yo, happy marriages. Wives were critical of their husbands. [123]
 - Modern dating: paradox of choice (cities, Tinder) + risk of rejection (social media, #MeToo) + everchanging lives (moving cities, moving countries) + anti-social technology (AirPods, phones) + limited opportunities (working from home, Netflix) [127]
 - Toxic compassion: saying what makes someone happy, or is the socially acceptable thing to say, rather than saying the hard truths - yes, you are fat; yes, children with two parents typically have better life; yes, trans athletes can be a net negative for women. [134]
+- “Men, why do you often say you're fine even when you're not?” "Because I think most believe that nobody truly gives a fuck” “Complaining is a self-indulgent activity that just spreads negativity to whoever is listening, it never really lessened mine.” “When guys have an issue and tell someone else, they only ever want a solution that maybe they haven’t tried. And talking about what you have tried ( that failed ) over and over with each new person is exhausting and frustrating in equal measure.” “Because if I tell you I'm not fine, it inexplicably somehow turns into me trying to comfort and reassure you.” [151]
+- Evidence suggests men and women *are* different. The average man is better than the average woman at visual-spatial abilities, and the average woman is better than the average man at verbal abilities. No difference in quantitative abilities and general intelligence. Scientists support this. But some prefer to ignore the science and focus on their beliefs, blame it all on society. [154]
 
 ## Learning
 
@@ -131,6 +135,7 @@ hero: /images/posts/cognition-and-learning/acc.png
 - The mean year the S&P returned 10-20%, followed by 0-20%. One year, 40-50%, three years +40-50%. [7 - image]
 - Enshittification: As Governments weakened their anti-competitive stances, companies have gained huge amounts of power, through buying competitors and becoming monopolies/oligopolies. Through this, companies have been able to control regulation, in turn stopping users from blocking the dark patterns used by companies to maintain their control and custom. Network effects (as many large tech companies benefit from) also make it harder for consumers to change companies/suppliers. Workers of these companies were originally bribed with huge salaries and perks to not complain, then were made disposable as the supply of skilled employees skyrocketed (due to the salaries and perks). [41]
 - Good banks: Nationwide, Tandem. Bad banks: Most of the others (including Chase, HSBC, Barclay’s, Santander…) [82]
+- How to avoid people using corporate vehicles for personal purposes i.e. tax evasion? Force them to be neon green. [150]
 
 ## Science and Technology
 
@@ -363,3 +368,9 @@ hero: /images/posts/cognition-and-learning/acc.png
 146. [How Sainsbury’s and Adobe nudge customers](https://podcasts.apple.com/gb/podcast/how-sainsburys-and-adobe-nudge-customers/id1457621005?i=1000640288602)
 147. [Blood on the shelves](https://www.bbc.co.uk/sounds/play/w3ct7hyp)
 148. [Naked and alone: the comedian trapped in a reality TV show](https://www.bbc.co.uk/programmes/p0k7vn3f)
+149. [brittunculus - Wiktionary, the free dictionary](https://en.wiktionary.org/wiki/brittunculus)
+150. [Luxury car sales plunge as buyers put off by South Korea’s neon green licence plates](https://www.ft.com/content/049e5cae-5588-4db7-8200-621721760df4)
+151. [Men, why do you often say you're fine even when you're not?](https://old.reddit.com/r/AskReddit/comments/1hbjwby/men_why_do_you_often_say_youre_fine_even_when/)
+152. [5 Adjustments I Had To Make Moving Home From Korea..](https://youtu.be/xD7Ty9v52B8)
+153. [5 Good Things About Moving Home From Korea..](https://youtu.be/qJ5v6h-iP2A)
+154. [Are Women Smarter than Men?](https://youtu.be/pbDggT2a4lQ)
