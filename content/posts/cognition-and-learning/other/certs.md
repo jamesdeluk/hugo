@@ -7,7 +7,7 @@ aliases:
 - /posts/achievements/
 ---
 
-114 and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+115 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -63,6 +63,10 @@ aliases:
 <a href="/images/posts/cognition-and-learning/certs/365ds-maths.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-maths.jpg" alt="365 Data Science Mathematics"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-ds.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ds.jpg" alt="365 Data Science Data Strategy"></a>
 <a href="/images/posts/cognition-and-learning/certs/365ds-dl.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dl.jpg" alt="365 Data Science Data Literacy"></a>
+
+### dbt
+
+<a href="https://credentials.getdbt.com/873e9e88-7bd8-458a-8288-f96fd722b96e" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/dbt-fundamentals.png" alt="dbt Fundamentals"></a>
 
 ## Corporate Finance Institute
 

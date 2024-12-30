@@ -62,6 +62,7 @@
 ![](/images/posts/cognition-and-learning/certs/365ds-ds.jpg)
 ![](/images/posts/cognition-and-learning/certs/365ds-dl.jpg)
 ![](/images/posts/cognition-and-learning/certs/365ds-itai.jpg)
+![](/images/posts/cognition-and-learning/certs/dbt-fundamentals.png)
 
 ![](/images/posts/cognition-and-learning/certs/cybrary-cert-soc-analyst-level-1.jpg)
 ![](/images/posts/cognition-and-learning/certs/cybrary-cert-network-engineer.jpg)
