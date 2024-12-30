@@ -2,7 +2,7 @@
 title: Spotify Wrapped DIY
 date: 2024-12-18
 tags: ["Data Analysis"]
-hero: images/posts/data-science/spotify-wrapped-diy/swdiy6.png
+hero: /images/posts/data-and-analytics/spotify-wrapped-diy/swdiy6.png
 ---
 I was a bit disappointed with my Spotify Wrapped this year, and it seems [I wasn’t the only one](https://thehustle.co/news/did-spotify-wrapped-miss-the-mark-this-year). The insights weren’t as interesting, the graphics weren’t as exciting, and some of it seemed irrelevant. Plus, of course, you only get one a year.
 

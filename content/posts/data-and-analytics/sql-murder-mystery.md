@@ -2,7 +2,7 @@
 title: SQL Murder Mystery Solution and Walkthrough
 date: 2024-12-05
 tags: ["Data Science", "Data Analysis", "SQL"]
-hero: images/posts/data-science/sql-murder-mystery/hero.png
+hero: /images/posts/data-and-analytics/sql-murder-mystery/hero.png
 ---
 I recently heard of SQL Murder Mystery ([https://mystery.knightlab.com/](https://mystery.knightlab.com/)), a website that uses gamification to learn/practise SQL skills. There’s been a murder, and by searching the SQL database you can find out whodunit. Seemed like a fun challenge.
 
