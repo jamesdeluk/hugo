@@ -2,7 +2,7 @@
 title: "Customer Analysis Part I: Segmentation and Clustering"
 date: 2024-11-13
 tags: ["Data Science", "Data Analysis", "Segmentation", "Clustering", "Customer Analysis", "Python"]
-hero: /images/posts/data-science/customer-analysis-i/ca1-image-5.png
+hero: /images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png
 ---
 *This is part one of a multi-part series. Part two can be found [here](https://www.jamesgibbins.com/customer-analysis-part-ii/).*
 
@@ -81,13 +81,13 @@ customers_scaled = scaler.fit_transform(df_customers)
 
 I like visuals, so let’s start with plots. I plotted everything against Income, because it's good to have at least one continuous variable.
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-0.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-0.png)
 
 The histograms align with our mean person pretty well. Sex and Marital status are split almost 50:50, but High school Education, Skilled Occupation, and Small city Settlement size are clear winners in their individual groups. Age and Income are normal-ish, but with positive skews - I wonder if they’re correlated.
 
 Now for scatter plots:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-1.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-1.png)
 
 Little correlation between Age and Income, as it turns out. Occupation and Settlement size do look to be correlated; Sex and Marital status not really. Education is a strange one, with a positive correlation apart from post-grabs - but we can also see the count of post-grads is lower, which might be the reason (i.e. perhaps they’re all low-paid teachers)?
 
@@ -101,7 +101,7 @@ I added a mask to hide unnecessary info (i.e. the correlation between Education 
 
 I also sliced the data to remove duplicates (i.e. Sex and Sex has a correlation of 1): `corr.iloc[1:,:-1], mask=mask[1:,:-1]`
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-2.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-2.png)
 
 Based on this, the most highly positively correlated are, unsurprisingly, Occupation and Income. Education and Income are less positively correlated, likely due to the impact of post-grads as discussed above. Education and Age are quite highly positively correlated too, which makes sense - the older you are, the more chance you have to gain additional education. And Settlement size and Occupation can be explained by bigger cities typically having more white-collar jobs. Interestingly Marital status and Sex have moderate positive correlation, suggesting women are more likely than men to be married (although note there are more men in the dataset).
 
@@ -136,15 +136,15 @@ for method in hier_methods:
 
 If you don’t tell the dendrogram the truncate, you get very messy plots:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-3.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-3.png)
 
 When I set it to truncate at level 5, I got more decipherable results. The top two, based on where the different leaves (vertical lines) looked quite balanced in quantity and distance, were:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-4.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-4.png)
 
 and
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-5.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png)
 
 Based on this, I decided to cluster using the `ward` method, as it had the highest distance (y axis). The number of colours - in this case, 4 - is the number of clusters. I always make a copy of the dataset to work with, and I added the clustering results to this as a new column:
 
@@ -205,7 +205,7 @@ So almost half are in cluster 1, almost a quarter in clusters 2 and 3, and a sma
 
 I also wanted to do a heatmap; for this I first had to scale the data, this time with a `MinMaxScaler`, resulting in all the values being between 0 and 1, which makes the colouring works well. Note this means a 1 in the heatmap refers to the highest category of the categorical data - i.e. a 1 for Education on the heatmap is actually a 3 in the data. Also note the rows are 0-based not 1-based (i.e. cluster 1 is 0 on the heatmap):
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-6.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-6.png)
 
 From all this I can attempt to give the categories names, to make them more human. Looking at the heatmap alone, cluster 2 looks to be mostly married women - although actually only 56% are women, and only 54% are married. However, it is the group with the greatest share of women, and the most married people. Cluster 4 has the most single men, with the highest everything else - although the median only has high school education (even though the mode is university). The other two clusters are somewhere in between.
 
@@ -220,11 +220,11 @@ I wanted to have succinct names, focussing on the key differentiators. “Career
 
 Now I can plot the continuous variables, Age and Income, and colour by cluster:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-7.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-7.png)
 
 And categorical ones as subplots:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-8.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-8.png)
 
 Looks to be some nice groupings. That’s our first clustering done!
 
@@ -247,7 +247,7 @@ dendrogram(linkage_matrix, truncate_mode='level', p=5, show_leaf_counts=True, la
 
 The best dendro was:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-9.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-9.png)
 
 Again, 4 clusters, but with a different method (`complete`). The code to calculate the clusters:
 
@@ -259,7 +259,7 @@ df_customers_gower_4['Cluster (gower)'] = clustering_gower.fit_predict(gower_dis
 
 As I will for future methods also, I used the same code as the hierarchical clustering to add these clustering results to the DataFrames, view the stats, and name the clusters. I won’t show include all the tables here to save space, although the results were pretty different - the tables can be found in the repo, link at the top of this post. I will share the heatmaps, though:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-10.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-10.png)
 
 The names I settled on were:
 
@@ -274,11 +274,11 @@ If it wasn’t for the location, it looks like the 0s could be married to the 3s
 
 The scatter is a bit more mixed:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-11.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-11.png)
 
 As are the categoricals:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-12.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-12.png)
 
 ### K-means
 
@@ -294,7 +294,7 @@ for i in range(1,11):
 
 And the plot:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-13.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-13.png)
 
 It looks to me that the biggest kink is at 5 clusters, so I did that:
 
@@ -306,7 +306,7 @@ clusters_kmeans_5 = kmeans_5.labels_
 
 The heatmap:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-14.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-14.png)
 
 This time, while old men are still the most education with highest incomes, they don’t have the best occupations. There’s also a group of young men who are the worst-performing group so far. The labels:
 
@@ -320,9 +320,9 @@ This time, while old men are still the most education with highest incomes, they
 
 The plots:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-15.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-15.png)
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-16.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-16.png)
 
 Again, quite jumbled.
 
@@ -347,13 +347,13 @@ for init_method in kmodes_methods:
 
 The methods performed quite differently:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-17.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-17.png)
 
 The line with the lower cost is best, and we look for the kink, so I’ll choose Huang at 3 (although 4 also looks good). Similar analysis code as before, except I needed to re-add the numerical columns - I did this by simply adding the cluster results to a new copy of the original dataset.
 
 The heatmap:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-18.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-18.png)
 
 This is a but similar to the Gower distance heatmap. The age range is smaller though, 33 to 38. Labels:
 
@@ -365,9 +365,9 @@ This is a but similar to the Gower distance heatmap. The age range is smaller th
 
 And so:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-19.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-19.png)
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-20.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-20.png)
 
 Again, quite jumbled.
 
@@ -379,7 +379,7 @@ Of all techniques so far, this took by far the longest to compute - most techniq
 
 Anyway, the elbow plot:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-21.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-21.png)
 
 In this case, Cao and Huang methods are basically identical, but the kink remains at 3.
 
@@ -392,7 +392,7 @@ The fitting also took longer than other techniques.
 
 Add to the DataFrames and analyse as before. The heatmap:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-22.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-22.png)
 
 Kind of similar to hierarchical clustering, with high-earning old educated single men in cities and uneducated unemployed married women - although based on the numbers (not the heatmap), only 57% are female, and only 55% married. The fewer the clusters, the less unique they are. Therefore:
 
@@ -404,9 +404,9 @@ Kind of similar to hierarchical clustering, with high-earning old educated singl
 
 This gives us:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-23.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-23.png)
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-24.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-24.png)
 
 This looks similar to hierarchical, with clear horizontal groups - adding a fourth cluster might make it even more similar.
 
@@ -439,17 +439,17 @@ famd.fit_transform(df_customers_famd)
 
 Then plot, taking advantage of the built-in method `famd.cumulative_percentage_of_variance_`. Unfortunately, it doesn’t look like we can reduce the dimensions much:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-25.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-25.png)
 
 We’d need at least five components (down from our original seven), and we’d lose almost 20% of the data. Not really worth it.
 
 As an aside, the module has a built-in method for creating the scree plot - `famd.scree_plot()`:
 
-![famd-scree.png](/images/posts/data-science/customer-analysis-i/ca1-famd-scree.png)
+![famd-scree.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-famd-scree.png)
 
 It’s even interactive, if you hover over, which gives stats including the cumulative percentage.
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-26.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-26.png)
 
 But yes, no FAMD-based dimensionality reduction needed.
 
@@ -467,7 +467,7 @@ stress_values.append(mds.stress_)
 
 Resulting in:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-27.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-27.png)
 
 The kink is definitely at two, so we set it to two:
 
@@ -478,11 +478,11 @@ mds_fit = mds_final.fit_transform(gower_distance_matrix)
 
 Next we need to cluster; K-means is typically good for MDS components. Again, an elbow plot:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-28.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-28.png)
 
 Let’s go for 4:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-29.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-29.png)
 
 Which we’ll call:
 
@@ -495,9 +495,9 @@ Which we’ll call:
 
 And gives us:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-30.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-30.png)
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-31.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-31.png)
 
 *Again*, quite jumbled.
 
@@ -551,7 +551,7 @@ From this we can see that, while the clustering techniques can have overlaps, th
 
 Next, I wanted to see the proportional cluster split for each technique. I’d already calculated the %, so now it’s simply to chart it - and yes, I chose everyone's least favourite type of chart, the pie:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-32.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-32.png)
 
 MDS K-means has the most equal split, K-prototypes the least.
 
@@ -580,9 +580,9 @@ Hierarchical is by far the best, with K-prototypes a distant second.
 
 Heirarchical is so far ahead with the metrics, I think it has to be the winner. Additionally, the groupings seem to make sense. As a reminder:
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-5.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png)
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-6.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-6.png)
 
 | Cluster | Label | # | % |
 | --- | --- | --- | --- |
@@ -591,9 +591,9 @@ Heirarchical is so far ahead with the metrics, I think it has to be the winner. 
 | 2 | Above average careers, mostly older unmarried men | 491 | 25% |
 | 3 | Older men with successful careers in big cities | 110 | 6% |
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-7.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-7.png)
 
-![image.png](/images/posts/data-science/customer-analysis-i/ca1-image-8.png)
+![image.png](/images/posts/data-and-analytics/customer-analysis-i/ca1-image-8.png)
 
 Looking at the plots alone does suggest this clustering was decent… Probably could have saved myself a bunch of time! It was a fun experiment none-the-less, and the best clustering technique cannot always be determined visually alone.
 

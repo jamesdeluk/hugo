@@ -2,7 +2,7 @@
 title: "Predicting Belgium’s future solar PV generation: Part I"
 date: 2024-11-03
 tags: ["Data Science", "Data Analysis", "Time Series", "Python", "Energy"]
-hero: /images/posts/data-science/belgium-solar-i/belgium-solar-i-8.png
+hero: /images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-8.png
 aliases:
 - /posts/data-science/belgium-solar-part-i/
 ---
@@ -114,35 +114,35 @@ Visualising time series data is always one of the best ways to start.
 
 All the data:
 
-![Belgium generation line chart](/images/posts/data-science/belgium-solar-i/belgium-solar-i-0.png)
+![Belgium generation line chart](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-0.png)
 
 A single year (2023, the most recent complete year), in more detail:
 
-![Belgium 2023 generation line chart](/images/posts/data-science/belgium-solar-i/belgium-solar-i-1.png)
+![Belgium 2023 generation line chart](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-1.png)
 
 Only the maximum values for each day:
 
-![Belgium 2023 daily max generation line chart](/images/posts/data-science/belgium-solar-i/belgium-solar-i-2.png)
+![Belgium 2023 daily max generation line chart](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-2.png)
 
 And monthly smoothed data:
 
-![Belgium 2023 smoothed generation line chart](/images/posts/data-science/belgium-solar-i/belgium-solar-i-3.png)
+![Belgium 2023 smoothed generation line chart](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-3.png)
 
 I love graphs. As expected, more generation in summer than winter. In 2023, September was higher than August - and looking at the graph with all years, most years seem to have an unexpectedly low periods among higher ones. Based on the maximums, we can also see the daily max varies dramatically - in 2023, June had a day of ~1000 and ~6000 within a few days. I predict all this is going to make forecasting without exogenous data (e.g. weather) very difficult.
 
 Also, let’s see a random day:
 
-![Belgium random day generation line chart (good day)](/images/posts/data-science/belgium-solar-i/belgium-solar-i-4.png)
+![Belgium random day generation line chart (good day)](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-4.png)
 
 Sometimes the forecasts are pretty good. But sometimes they aren't:
 
-![Belgium random day generation line chart (bad day)](/images/posts/data-science/belgium-solar-i/belgium-solar-i-5.png)
+![Belgium random day generation line chart (bad day)](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-5.png)
 
 ### Grouped by timeframe
 
 What’s the average hour, the average day, the average month, and the average year? This averages the data from the timeframe across the entire dataset, i.e. every Monday, regardless of month or year.
 
-![Belgium average hour, day, month, year](/images/posts/data-science/belgium-solar-i/belgium-solar-i-6.png)
+![Belgium average hour, day, month, year](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-6.png)
 
 The day looks as expected - a clearly example of reversion to the mean! Interestingly, Thursday was a low-PV day, based on the average of over 25,000 values - however, looking at the actual numbers, it’s only 5% lower than the highest day (Wednesday), so not as dramatic as the graph makes it look. Months are similar to days, and it’s likely that with more data, over more years, this would smooth out. And the year is a fairly linear increase - presumably due to increased installed capacity and not that, over 4 years, Belgium has become twice as sunny!
 
@@ -167,11 +167,11 @@ Seasonal and Trends decomposition attempts to extract seasons/trends from the da
 
 This is not robust:
 
-![Robust STL analysis](/images/posts/data-science/belgium-solar-i/belgium-solar-i-7.png)
+![Robust STL analysis](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-7.png)
 
 This is robust:
 
-![Non robust STL analysis](/images/posts/data-science/belgium-solar-i/belgium-solar-i-8.png)
+![Non robust STL analysis](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-8.png)
 
 The robust analysis looks better, with smoother lines and lower residuals, especially on the annual level. However, the daily residuals are huge (some over 3000!), suggesting a lot of volatility, especially in summer - which makes sense, as winter it doesn’t matter if it’s cloudy or not as the solar irradiation is weak.
 
@@ -179,15 +179,15 @@ The robust analysis looks better, with smoother lines and lower residuals, espec
 
 I was also curious to see how many values fall into each 20% bracket. First I tried a histogram:
 
-![Histogram](/images/posts/data-science/belgium-solar-i/belgium-solar-i-9.png)
+![Histogram](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-9.png)
 
 Ah, yeah. Lots of 0s. Let’s try something different - take the daily maximum value:
 
-![Histogram of daily maxes](/images/posts/data-science/belgium-solar-i/belgium-solar-i-10.png)
+![Histogram of daily maxes](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-10.png)
 
 I was also curious to show this data in a line graph form, similar to the generation-over-time plots above. Below is effectively a histogram on its side, but instead of simple buckets, it has the actual data points, with relative time for each line (i.e. the left of each line is 2018 and the right of each line is 2024, and the points are in temporal order). The actual x axis is the count of points, same as the histogram y.
 
-![Generation grouped by size chart](/images/posts/data-science/belgium-solar-i/belgium-solar-i-11.png)
+![Generation grouped by size chart](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-11.png)
 
 ### Stationarity
 
@@ -224,17 +224,17 @@ So far I’ve only been focussing on the data for all of Belgium, but for this I
 
 I made sure the plots are square, with equal axes, so a datapoint on the 45° is a perfect prediction.
 
-![Measured vs forecast plot, week ahead](/images/posts/data-science/belgium-solar-i/belgium-solar-i-12.png)
+![Measured vs forecast plot, week ahead](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-12.png)
 
-![Measured vs forecast subplots, week ahead](/images/posts/data-science/belgium-solar-i/belgium-solar-i-13.png)
+![Measured vs forecast subplots, week ahead](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-13.png)
 
 At the week ahead level, while there is a correlation between forecast and measured generation, it’s not great - for example, there can be forecasts of ~6000, but the reality was <1000. And for those wondering about the vertical line, the top value is for 2021-09-23 11:30:00, where 0 was predicted, but in reality 2622MW was generated.
 
 The predictions do get better for most recent though. I call these my comets:
 
-![Measured vs forecast plot, most recent](/images/posts/data-science/belgium-solar-i/belgium-solar-i-14.png)
+![Measured vs forecast plot, most recent](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-14.png)
 
-![Measured vs forecast subplots, most recent](/images/posts/data-science/belgium-solar-i/belgium-solar-i-15.png)
+![Measured vs forecast subplots, most recent](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-15.png)
 
 There are still a few outliers, like a prediction of ~2000 with a reality of ~4000. But they’re definitely better. No vertical lines. It still seems that the predictions, on average, slightly underestimate the generation.
 
@@ -244,7 +244,7 @@ The next step is to investigate the errors directly.
 
 The error is defined as the forecast subtract the generation, so an underprediction is a negative error. Let’s plot them:
 
-![Error vs date plot](/images/posts/data-science/belgium-solar-i/belgium-solar-i-16.png)
+![Error vs date plot](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-16.png)
 
 The errors get bigger over time because generation capacity is increasing, and you can also see to summer/winter link (a steady percentage error would still give the same summer/winter pattern as actual generation).
 
@@ -306,11 +306,11 @@ Even with all this, the R² values (close to 1) and Thiel’s U (close to 0) sug
 
 Now, let’s split by region. I’ve ordered them approximately north to south, west to east, removing the regional groups (that is, Flanders, Wallonia, and Belgium). The week ahead forecast errors:
 
-![Table of week ahead forecast errors by region](/images/posts/data-science/belgium-solar-i/belgium-solar-i-17.png)
+![Table of week ahead forecast errors by region](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-17.png)
 
 And the most recent forecast errors:
 
-![Table of most recent forecast errors by region](/images/posts/data-science/belgium-solar-i/belgium-solar-i-18.png)
+![Table of most recent forecast errors by region](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-18.png)
 
 What can we gather from this mass of information?
 
@@ -345,9 +345,9 @@ I won’t include the full tables, because there was only one key finding:
 
 I also grouped by year, instead of region, to see if predictions were getting more accurate. I only did complete years. Week ahead then most recent forecasts:
 
-![Table of week ahead forecast errors by year](/images/posts/data-science/belgium-solar-i/belgium-solar-i-19.png)
+![Table of week ahead forecast errors by year](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-19.png)
 
-![Table of most recent forecast errors by region](/images/posts/data-science/belgium-solar-i/belgium-solar-i-20.png)
+![Table of most recent forecast errors by region](/images/posts/data-and-analytics/belgium-solar-i/belgium-solar-i-20.png)
 
 Unsurprisingly, the measured and forecasts values were both increasing (due to increased installed solar capacity), as were the absolute errors (more generation means more room for errors given an equal error percentage). The error percentages were (slightly) decreasing over time… Until 2023, when they roughly double (week ahead) or increase by 50% (most recent). So we can’t really say the predictions are getting better - or, perhaps, 2023 was an outlier. In a few months I can get the stats for 2024 and see how they look.
 

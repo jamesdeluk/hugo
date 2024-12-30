@@ -2,7 +2,7 @@
 title: "Predicting Belgium’s future solar PV generation: Part II"
 date: 2024-11-08
 tags: ["Data Science", "Data Analysis", "Time Series", "Python", "Energy"]
-hero: /images/posts/data-science/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
+hero: /images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
 ---
 *This is part two of a two-part series. [Part one](https://www.jamesgibbins.com/belgium-solar-part-i/) covered collecting and processing the data, then assessing the forecasts in the dataset. It also contains the link to the dataset and repo. This part covers my predictions, using machine learning.*
 
@@ -113,23 +113,23 @@ Trialling different window sizes, prediction sizes, and sampling and smoothing r
 
 As I had exported the stats to CSV files, I also wrote some code to import and compare the stats for the different models/predictions. The best seven-day-history seven-day-forecast was centred around 5th March, with an R² and correlation coefficient of 0.99 and a MAPE of 10.75. It looks like this:
 
-![belgium_2022-03-05_7d_arima_sm4sa2-+7d-2.png](/images/posts/data-science/belgium-solar-ii/belgium_2022-03-05_7d_arima_sm4sa2-7d-2.png)
+![belgium_2022-03-05_7d_arima_sm4sa2-+7d-2.png](/images/posts/data-and-analytics/belgium-solar-ii/belgium_2022-03-05_7d_arima_sm4sa2-7d-2.png)
 
 On an impulse I also created an animated GIF out of all the individual seven-day-back seven-day-forward plots. You can see some predictions are decent, some think the sun shines at night, and there are some flatliners:
 
-![Animated GIF of predictions](/images/posts/data-science/belgium-solar-ii/slide.gif)
+![Animated GIF of predictions](/images/posts/data-and-analytics/belgium-solar-ii/slide.gif)
 
 Finally, I wanted to use these to build a whole-year prediction. The individual predictions needed to be combined and averaged - as you can see in the GIF, each date had multiple models predicting the output (e.g. the dataset from 1st-7th predicted 8th-14th, and 2nd-8th predicted 9th-15th, etc), so I had to take the mean prediction for each timestamp.
 
 Out of the combinations I tried, the best R², of 0.80, came from 30 days back to 1 day forecast. The best Mean Annual Percentage Error (MAPE) of 27.68 was from 14 days back, 1 day forward. These were both for a smoothing window of two with two-hourly sampling.
 
-![belgium-2022-combined-prediction-arima-sm2sa2-30d-1d.png](/images/posts/data-science/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-30d-1d.png)
+![belgium-2022-combined-prediction-arima-sm2sa2-30d-1d.png](/images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-30d-1d.png)
 
-![belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png](/images/posts/data-science/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png)
+![belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png](/images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png)
 
 Some of the predictions caused negative forecasts, which worsened the statistics. For example, 7 day back to 1 day forward, to my eye, looks better, as it get the peaks more successfully, but has the negative predictions, which harm the stats:
 
-![belgium-2022-combined-prediction-arima-sm2sa2-7d-1d.png](/images/posts/data-science/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-7d-1d.png)
+![belgium-2022-combined-prediction-arima-sm2sa2-7d-1d.png](/images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-7d-1d.png)
 
 I could improve these by adding logic so that the predictions are never below zero, and so that they always go to zero overnight. However, while this would improve the stats, it wouldn't improve the overall pattern and peaks, so I opted not to do several more hours of computations.
 
@@ -196,11 +196,11 @@ Finally, plot and stats!
 
 First, how does this compare with the best seven-day-history seven-day-forecast SARIMA found:
 
-![tf-simple-0.png](/images/posts/data-science/belgium-solar-ii/tf-simple-0.png)
+![tf-simple-0.png](/images/posts/data-and-analytics/belgium-solar-ii/tf-simple-0.png)
 
 The predictions based on existing data weren’t great, R² of 0.8 (see the mismatch in the fourth day). The forecast didn’t perform quite as well as ARIMA, with an R² of 0.89, but it’s not bad. When I used the same (re-trained) model with five years of data to forecast six months, it didn’t do well:
 
-![tf-simple-all.png](/images/posts/data-science/belgium-solar-ii/tf-simple-all.png)
+![tf-simple-all.png](/images/posts/data-and-analytics/belgium-solar-ii/tf-simple-all.png)
 
 Yes, that red bit is the forecast. Not particularly good. On the other hand, the green prediction is excellent, although misses the long-term peak growth trends.
 
@@ -235,11 +235,11 @@ model = Sequential([
 
 How does our week-back-week-forward look now?
 
-![tf-complex.png](/images/posts/data-science/belgium-solar-ii/tf-complex.png)
+![tf-complex.png](/images/posts/data-and-analytics/belgium-solar-ii/tf-complex.png)
 
 The prediction is better, R² of 0.95 (the fourth day in particular is far better), but the forecast R² drops to 0.4! It’s definitely underpredicting. And what about the full dataset?
 
-![tf-complex-all.png](/images/posts/data-science/belgium-solar-ii/tf-complex-all.png)
+![tf-complex-all.png](/images/posts/data-and-analytics/belgium-solar-ii/tf-complex-all.png)
 
 The green prediction is still excellent, although it continues to miss the long-term peak growth trends. The red forecast is better than the single-feature simple-model version, but still terrible.
 
@@ -266,19 +266,19 @@ Yes, that’s it. Build the model, fit it, predict the future. Prophet combines 
 
 Let’s see how our favourite March date looks, using Prophet’s build-in `plot` method:
 
-![prophet-7-7.png](/images/posts/data-science/belgium-solar-ii/prophet-7-7.png)
+![prophet-7-7.png](/images/posts/data-and-analytics/belgium-solar-ii/prophet-7-7.png)
 
 It’s nice that Prophet also adds confidence levels automatically. It’s less nice that it predicts Belgium solar generation will crash, and soon be more negative than positive.
 
 And what about using all the data? Luckily Prophet can predict this in only a few minutes, whereas TensorFlow took an hour or two, and in SARIMA it was effectively impossible. We get:
 
-![prophet plot.png](/images/posts/data-science/belgium-solar-ii/prophet_plot.png)
+![prophet plot.png](/images/posts/data-and-analytics/belgium-solar-ii/prophet_plot.png)
 
 For some reason, the `floor` feature didn’t work, so we get negative predictions. However, it definitely gets the patterns, better than the other methods, although it misses the magnitudes.
 
 Prophet also shows the individual components in a single command:
 
-![prophet-components.png](/images/posts/data-science/belgium-solar-ii/prophet-components.png)
+![prophet-components.png](/images/posts/data-and-analytics/belgium-solar-ii/prophet-components.png)
 
 We can see from the first plot it doesn’t capture the upwards trend, and weirdly flattened out from 2022. Days is interesting; my part 1 analysis had Wednesday as the best day, Thursday as the worst, whereas while this model agrees with Wednesday, it thinks Friday is worse. Hours and months are similar.
 

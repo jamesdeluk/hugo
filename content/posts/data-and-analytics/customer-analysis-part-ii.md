@@ -2,7 +2,7 @@
 title: "Customer Analysis Part II: Classification"
 date: 2024-11-18
 tags: ["Data Science", "Data Analysis", "Classification", "Customer Analysis", "Python"]
-hero: /images/posts/data-science/customer-analysis-ii/ca2-heatmap2.png
+hero: /images/posts/data-and-analytics/customer-analysis-ii/ca2-heatmap2.png
 ---
 *This is part two of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/).*
 
@@ -63,7 +63,7 @@ OK, we have our new customers. Final pre-processing involves rescaling the exist
 
 You know I like visuals. I forgot about the Seaborn’s `jointplot` in part one - it’s a scatter, but with the distributions:
 
-![jointplot](/images/posts/data-science/customer-analysis-ii/ca2-jointplot.png)
+![jointplot](/images/posts/data-and-analytics/customer-analysis-ii/ca2-jointplot.png)
 
 We can see income is quite nicely split in our clustering method, but age has a lot of overlaps.
 
@@ -71,7 +71,7 @@ Anyway, based on this plot - which only covers two of the seven features - our v
 
 What if do extend this to all features? Seaborn does have a `pairplot` function, but it doesn’t easily enable adding the new points, so I made one myself using loops. Unfortunately (but unsurprisingly):
 
-![pairplot](/images/posts/data-science/customer-analysis-ii/ca2-pairplot.png)
+![pairplot](/images/posts/data-and-analytics/customer-analysis-ii/ca2-pairplot.png)
 
 It’s a bit of a mess (open the image in a new tab to zoom in). I made the core points transparent to try and get the “main” colour to show through, but it’s hard to see, especially the categoricals. I realise all the customers are the same red X, but trust me, even if I made them different, there’s little we can gain from this.
 
@@ -343,7 +343,7 @@ As for the feature importances, for the defaults, Income had an importance of 0.
 
 Focussing on the scaled one, for reasons given earlier:
 
-![XGB feature importances](/images/posts/data-science/customer-analysis-ii/ca2-xgb-feature-importances.png)
+![XGB feature importances](/images/posts/data-and-analytics/customer-analysis-ii/ca2-xgb-feature-importances.png)
 
 Income is still the most important, but Occupation has a reasonably large effect this time too. Marital status has the lowest impact. Given this is customers buying products from a store, this doesn’t surprise me - income is a major factor in how much a customer purchases, so it makes sense that typically high-income and low-income customers would be grouped together more than married and unmarried.
 
@@ -382,7 +382,7 @@ A positive number means a positive correlation, a negative a negative. We can se
 
 Our final results, in a nice visual heatmap (albeit not one representing scales or magnitudes like a typical heatmap), look like:
 
-![heatmap of results](/images/posts/data-science/customer-analysis-ii/ca2-heatmap1.png)
+![heatmap of results](/images/posts/data-and-analytics/customer-analysis-ii/ca2-heatmap1.png)
 
 If we want some stats, such as the mean and mode, we can:
 
@@ -432,7 +432,7 @@ In part one we only had three clusters for K-prototypes, but let’s make one wi
 
 The results:
 
-![heatmap of kprot results](/images/posts/data-science/customer-analysis-ii/ca2-heatmap2.png)
+![heatmap of kprot results](/images/posts/data-and-analytics/customer-analysis-ii/ca2-heatmap2.png)
 
 And the stats:
 

@@ -2,7 +2,7 @@
 title: "Customer Analysis Part III: Purchase Analytics"
 date: 2024-11-22
 tags: ["Data Science", "Data Analysis", "Purchase Analytics", "Customer Analysis", "Python"]
-hero: /images/posts/data-science/customer-analysis-iii/ca3-image-13.png
+hero: /images/posts/data-and-analytics/customer-analysis-iii/ca3-image-13.png
 ---
 *This is part three of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/).*
 
@@ -145,11 +145,11 @@ There are 500 customers in this dataset, so although our customer dataset has re
 
 Let’s do some plots. Given the Seaborn `pairplot` wasn’t possible in part two, I was determined to use it here. You might need to open it in a new tab or zoom in, but we can get the info we need:
 
-![Pairplot](/images/posts/data-science/customer-analysis-iii/ca3-image-0.png)
+![Pairplot](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-0.png)
 
 Lots here. Given the common axes, the charts to the upper right of the top-left to bottom-right diagonal are mirrored versions of those on the lower left. Looking at the diagonal, the distribution plots - as anticipated, most distributions are positively skewed. It seems that although we only have a quarter of the customers, the cluster ratio is similar to that of the overall clustering (see part one), which is good for when we come to cluster analysis later. There is typically a reasonable positive correlation between the different features, although conversion rate vs basket size seems to be less correlated. Let’s get some numbers for the correlations:
 
-![Correlations heatmap](/images/posts/data-science/customer-analysis-iii/ca3-image-1.png)
+![Correlations heatmap](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-1.png)
 
 Unsurprisingly, most are positively correlated, the biggest between revenue and number of purchases (the more things you buy, the more you spend). This suggests most products are similarly priced though, as widely different price ranges could weaken the correlation (i.e. buying 1 item for £100 vs 100 items for £1). Interestingly, basket size actually has a negative correlation with store visits and purchase instances. However, it’s minor, so it might not be reliable. Cluster seems to have no real correlation - which is expected, given it’s a non-ordinal categorical number!
 
@@ -226,7 +226,7 @@ Some similarities, some big differences, within the group. We have men and women
 df_raw[df_raw['Incidence']==1][['Brand','Income']].groupby('Brand').mean().astype(int)
 ```
 
-![Bar chart brand vs income](/images/posts/data-science/customer-analysis-iii/ca3-image-2.png)
+![Bar chart brand vs income](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-2.png)
 
 I added the count of customers to the top of each bar. There’s a bit of a link, with the three cheaper brands being favoured by those with lower incomes, and the more expensive two favoured by those with higher incomes. However, brand 4 attracts the top-earners more than brand 5, and brand 2 attracts the lowest-earnings (slightly) more than brands 1 and 2. What could be done to shift the high earners from 4 to 5, and, by extension, increase our bottom line? Looking at the total count on the top of each bar, most customers overall favour brand 5 (~1/3 of all purchases), closely followed by 2; brand 3 is not popular. Is it worth cutting brand 3 completely? Before going down this parth, we'd need to consider how customer behaviour would change - would they be more likely to buy brand 4 instead, resulting in more revenue, or brand 2, resulting in less? Profit margins also need to be factored in.
 
@@ -250,17 +250,17 @@ Let’s do everything we’ve done above, but group by clusters, to see how simi
 
 I then scaled and heatmapped them:
 
-![Heatmap by cluster](/images/posts/data-science/customer-analysis-iii/ca3-image-3.png)
+![Heatmap by cluster](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-3.png)
 
 Most customers fall into the Average cluster, as we already knew. Unsurprisingly, then, they have the highest total number of store visits, highest purchase instances, and highest purchase counts. However, those with the above average careers have the highest mean number of store visits (i.e. average per person) - although the difference is actually only ~1%. The old successful men cluster make the most purchasing visits per person, the most purchases per person, and have the highest mean conversion rate, visit yield, and basket size. Our below average career-ers, per person, have the lowest stats - which isn’t particularly surprising, as people with less money typically spend less (although when they do visit, they do buy more than the average and above average groups, perhaps because they’re more time-poor so want to maximise their visits).
 
 Let’s get some bar graphs going. I wanted to add lined representing the standard deviations, so, similar to above, I took a cluster-grouped customer DataFrame, but this time I used `.std`. We get:
 
-![Bar chart cluster vs visits](/images/posts/data-science/customer-analysis-iii/ca3-image-4.png)
+![Bar chart cluster vs visits](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-4.png)
 
-![Bar chart cluster vs purchase instances](/images/posts/data-science/customer-analysis-iii/ca3-image-5.png)
+![Bar chart cluster vs purchase instances](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-5.png)
 
-![Bar chart cluster vs purchases](/images/posts/data-science/customer-analysis-iii/ca3-image-6.png)
+![Bar chart cluster vs purchases](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-6.png)
 
 As we saw in the stats, the average number of store visits is pretty similar. However, the number of times a customer purchases from a store during a visit does vary; the more successful purchase more, whereas the less successful are more likely to visit and do some window shopping without actually buying anything. However, the standard deviations are large, especially for the average and above average groups, suggesting there’s a higher range of behaviours within the cluster group - that is, some customers tend to buy most times they visit, others tend to visit a lot without buying. This trend continues with the purchasing counts; so, while our below average purchase less frequently overall, the customers within the group behave more consistently than the other groups.
 
@@ -272,11 +272,11 @@ df_cluster_brandpreference.index = cluster_names
 sns.heatmap(df_cluster_brandpreference, annot=True, cmap='coolwarm', cbar=False)
 ```
 
-![Heatmap cluster vs brand](/images/posts/data-science/customer-analysis-iii/ca3-image-7.png)
+![Heatmap cluster vs brand](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-7.png)
 
 I didn’t scale the data used for this heatmap because I didn’t feel it necessary. There are some definite standouts - the below average career cluster loves brand 2, and older successful men love brand 4. This reminds me of our income to brand chart above - brands 2 and 4 were the most popular by number of customers, and this shows us that, within certain clusters, they get over half the love. The most premium product, brand 5, is mostly liked by average and above average customers - perhaps this is signalling, showing off that they can buy expensive products, whereas the older successful men simply want a high-quality product, and, understandably, the less well-off customers want a cheaper product? Brand 3 is the least loved overall, closely followed by brand 1; based on this, maybe the company should drop those lines? We’d already considered dropping brand 3. Again, it depends on profitability and how the customers would respond to the change, but it’s something to consider going forward. Unfortunately we don’t have profit data, but we have revenue - I reused the code above, but took the revenue columns instead of the brand ones, and instead of taking the mean value, I took the sum, to get:
 
-![Heatmap cluster vs revenue](/images/posts/data-science/customer-analysis-iii/ca3-image-8.png)
+![Heatmap cluster vs revenue](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-8.png)
 
 That is quite surprising, based on what we've see before Brand 5 brings in far more revenue than the others, mostly from the average and above average groups - then again, it does have the highest price, so doesn't need such high sales volume. It looks like brand 2 brings in more revenue than brand 4. Again, though, 1 and 3 look less good. And what about total revenue per cluster?
 
@@ -286,7 +286,7 @@ df_revenue_by_cluster.index = cluster_names
 sns.barplot(x=df_revenue_by_cluster.index, y=df_revenue_by_cluster['Total Revenue'], errorbar=None, palette="Set1")
 ```
 
-![Bar chart revenue vs cluster](/images/posts/data-science/customer-analysis-iii/ca3-image-10.png)
+![Bar chart revenue vs cluster](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-10.png)
 
 The old successful men bring in the least revenue overall, even though they visit the most and make a purchase almost every visit - although, given they’re only 6% of our customers, they make up a larger chunk than expected. Above average brought in more than below average, but average brought in most overall - then again, it is the biggest cluster, with 41% of the customers. The next thing to check, then, is the average revenue per customer:
 
@@ -303,7 +303,7 @@ df_revenue_by_cluster['Average Revenue per Customer'] = df_revenue_by_cluster['T
 | Above average careers | 25237 | 122 | 24 | 207 |
 | Old successful men | 7275 | 29 | 6 | 251 |
 
-![Bar chart average revenue per cluster](/images/posts/data-science/customer-analysis-iii/ca3-image-11.png)
+![Bar chart average revenue per cluster](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-11.png)
 
 So although our old successful men bring in the least revenue overall, they bring in the most revenue per person. More of those please!
 
@@ -318,17 +318,17 @@ df_byday_mean = df.groupby('Day').mean().drop(['ID','Customer_ID'], axis=1).roun
 
 I then did some plots - the number of visits that resulted in a sale, and the quantity of items sold - using the sum data:
 
-![Line charts visits and quantity](/images/posts/data-science/customer-analysis-iii/ca3-image-12.png)
+![Line charts visits and quantity](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-12.png)
 
 I’ve roughly split each x-axis mark into three months. All we really see is huge variation, although it looks like it started quite quietly (based on the lower values at time 0 for all three plots) and grew for the first three months, after which the mean remained roughly constant. Maybe it was a newly-opened store? I could do some time series forecasting, like I did in my solar PV project [here](https://www.jamesgibbins.com/belgium-solar-part-i/), but I won’t. Yet.
 
 I also plotted Brand, Price and Promotion (sum, mean, mean, respectively):
 
-![Line charts brand price promotion](/images/posts/data-science/customer-analysis-iii/ca3-image-13.png)
+![Line charts brand price promotion](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-13.png)
 
 Note that, excluding the binary promotions charts, the scales are all different. I considered using common y-axis limits, but that would make some of them hard to see. I’ve vertically-aligned the sales/price/promotion for easier comparison. I also tried overlapping charts, but they’re a bit too busy so hard to interpret:
 
-![Line chart overlapping](/images/posts/data-science/customer-analysis-iii/ca3-image-14.png)
+![Line chart overlapping](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-14.png)
 
 What can we see? Firstly, the bigger price drops look to aligns with the promotions, although even without the promotions, the prices fluctuate. In fact, the prices fluctuate a lot more than I expected. Brand 1 started with a high price (1.6), but after the first six weeks or so, never increased to that price again - and even dropped to 1.1. Brand 2’s price is mostly at about 1.85, sometimes for weeks in a row, before having dips. Both of these had regular promotions - they were on promotion almost as much as they were. Brand 3 started around 2.00, and grew over the two years, finally reaching almost 2.15. It seems to have the fewest number of promotions. The price of brand 4 also grew slightly over the period, from about 2.1 to 2.3, with a middling number of promotions. Brand 5’s price started much higher, 2.7, and grew to 2.8 - being almost double brand 1 goes some way to explain why it brought in so much revenue. Like brand 3, brand 5 had few promotions.
 
@@ -340,7 +340,7 @@ As mentioned before, I had two years’ worth of data. I compressed the two year
 
 What about an even smaller scale? We can convert the day number into the day of the week by dividing Day by 7 and taking the remainder. We don’t know if Day 1 is a Monday, Tuesday, Wednesday, etc, but at least we can get 7 days of the week, in order. Are there any weekly trends?
 
-![Line chart one week](/images/posts/data-science/customer-analysis-iii/ca3-image-15.png)
+![Line chart one week](/images/posts/data-and-analytics/customer-analysis-iii/ca3-image-15.png)
 
 Not really. I was hoping we’d see a pattern which would give insight into which day is which, such as a dip on Sunday (due to, for example, reduced trading hours) after a jump on Saturday (days off work), but no such luck. The popularity of a specific brand, their prices, or the existence of promotions, doesn’t look to have any patterns, nor does which day each cluster shops. Sad.
 

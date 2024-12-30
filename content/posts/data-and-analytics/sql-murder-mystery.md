@@ -207,6 +207,6 @@ HAVING COUNT(person_id) = 3
 
 So there we have it! Bad Miranda.
 
-![Miranda_Priestly](/images/posts/data-science/sql-murder-mystery/Miranda_Priestly.png)
+![Miranda_Priestly](/images/posts/data-and-analytics/sql-murder-mystery/Miranda_Priestly.png)
 
 Image source: [Wikipedia](https://en.wikipedia.org/wiki/File:Miranda_Priestly.png)

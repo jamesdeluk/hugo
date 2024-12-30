@@ -2,7 +2,7 @@
 title: "Customer Analysis Part IV: Brand Analytics and Elasticity"
 date: 2024-12-01
 tags: ["Data Science", "Data Analysis", "Purchase Analytics", "Customer Analysis", "Python"]
-hero: /images/posts/data-science/customer-analysis-iv/ca4-image-2.png
+hero: /images/posts/data-and-analytics/customer-analysis-iv/ca4-image-2.png
 ---
 *This is part four of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/). Part 3, purchase analytics, [here](https://www.jamesgibbins.com/customer-analysis-part-iii/).*
 
@@ -30,7 +30,7 @@ df_brands_quantity = pd.concat([df_brand1_quantity, df_brand2_quantity, df_brand
 sns.barplot(df_brands_quantity, palette="Set1")
 ```
 
-![Bar chart brand vs sales](/images/posts/data-science/customer-analysis-iv/ca4-image-0.png)
+![Bar chart brand vs sales](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-0.png)
 
 Brand 2 is our top seller, with brand 5 about 20% behind, and brand 4 about 20% down on that. Brands 1 and 3 are way behind. This matches what we saw earlier based on customers and clusters.
 
@@ -41,7 +41,7 @@ df_revenue_by_brand = df_brands[['Revenue_Brand_1','Revenue_Brand_2','Revenue_Br
 sns.barplot(df_revenue_by_brand)
 ```
 
-![Bar chart brand vs revenue](/images/posts/data-science/customer-analysis-iv/ca4-image-1.png)
+![Bar chart brand vs revenue](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-1.png)
 
 A slight change now; as brand 5 is much more expensive than brand 2, it brings in more revenue, and now takes the top spot. Brand 4 is still in third, with 1 and 2 lagging behind.
 
@@ -53,11 +53,11 @@ df_brand1_quantity_by_price = pd.DataFrame(df_brands[df_brands['Brand_1']==1].gr
 
 All plotted on a single graph:
 
-![Scatter-quantity-price](/images/posts/data-science/customer-analysis-iv/ca4-image-2.png)
+![Scatter-quantity-price](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-2.png)
 
 And one brand per graph, to see the individual distributions a bit more clearly (note each plot has different scales):
 
-![Scatter-subplots-quantity-price](/images/posts/data-science/customer-analysis-iv/ca4-image-3.png)
+![Scatter-subplots-quantity-price](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-3.png)
 
 All brands have a wide range of selling prices. We’d think a higher price would result in lower sales, but that doesn’t look to be the case. Brand 3 in particular looks to have a slight *positive* correlation between price and quantity, although drops off again at high prices. Brand 1 appears to have no real correlation. Brands 2 has a standout high sales period, at almost its maximum price - perhaps there was a supply shortage, or an excellent marketing campaign. Brands 4 and 5 also experience their strongest sales at almost their highest price, again suggesting external factors, such as promotions.
 
@@ -70,7 +70,7 @@ df_brands_quantity_by_price_cum = pd.concat([df_brands_quantity_by_price_cum, df
 sns.lineplot(df_brands_quantity_by_price_cum)
 ```
 
-![Scatter-cumulative-quantity-price](/images/posts/data-science/customer-analysis-iv/ca4-image-4.png)
+![Scatter-cumulative-quantity-price](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-4.png)
 
 Brands 2, 3, and 5 have more exponential graphs, whereas brands 1 and 4 are more linear. Again, this is weird - if more sold at lower prices, as is typical for most products, we’d expect a logarithmic curve. Brand 2 also has a dead zone between approximately 1.60 and 1.80, although that’s because the brand was never sold at that price.
 
@@ -86,13 +86,13 @@ correlation_matrix_sales_price = df[sales_cols + price_cols].corr()
 sns.heatmap(correlation_matrix_sales_price.loc[sales_cols, price_cols], annot=True, cmap='coolwarm', cbar=None)
 ```
 
-![Heatmap-sales-price](/images/posts/data-science/customer-analysis-iv/ca4-image-5.png)
+![Heatmap-sales-price](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-5.png)
 
 This corroborates the scatter plots. All the values are very small, suggesting a low correlation, and hence factors besides price drive the sales. A negative correlation means that sales decrease as price increases (and vice versa). Brands 1 and 2 are most sensitive to their own prices, so lower prices result in more sales, followed by brands 5 then 4. If this is good for the store depends on the profit margins. Interestingly, as brand 3’s price increases, the number of sales also increases - so I’d suggest the client increase the price and monitor the sales. Brand 1 has a positive correlation with the prices for brands 3 and 4, meaning that more of brand 1 sells as brands 3 and 4 increase their prices - suggesting it might act as a substitute purchase.
 
 And what about sales vs promotion?
 
-![Heatmap-sales-promotion](/images/posts/data-science/customer-analysis-iv/ca4-image-6.png)
+![Heatmap-sales-promotion](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-6.png)
 
 Again, all values are very small. There are a couple of standouts - both brands 2 and 5 experience more sales when on promotion compared to the others. Brand 2 experiences the largest decrease in sales when brand 5 is on promotion, suggesting they’re mildly substitute goods (although this could simply be because they’re both the top-selling brands). Halo effects are noteworthy - when brand 1 is on promotion, all brands experience increased sales. This happens for several of the promotions - I suppose it’s difficult to promote a specific brand of a product without increasing demand for the entire market. For a seller of all brands, this is good; for an individual brand, this may not be so good, as it helps competitors.
 
@@ -116,13 +116,13 @@ I’m using a logistic regression. Technically, a logistic regressor models the 
 
 Plotting the probability of a sale (`P[:,1]`):
 
-![Probability](/images/posts/data-science/customer-analysis-iv/ca4-image-7.png)
+![Probability](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-7.png)
 
 As expected, the higher the price, the lower the probability of a sale - although even at the cheapest price, a sale is not guarantee.
 
 And the price elasticity (`pe`):
 
-![Elasticity](/images/posts/data-science/customer-analysis-iv/ca4-image-8.png)
+![Elasticity](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-8.png)
 
 The relationship is fairly linear. We can read the values off the chart, or, if we want more precise values, we can check the table. For example, if we increased the price from 2.00 to 2.10:
 
@@ -141,7 +141,7 @@ for cluster in [1,2,3,4]:
     df_c = df[df['Cluster'] == cluster]
 ```
 
-![Elasticity by cluster](/images/posts/data-science/customer-analysis-iv/ca4-image-9.png)
+![Elasticity by cluster](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-9.png)
 
 All follow the same basic trend, although clusters 3 and 4 - those are, if you remember, the groups with more successful careers and higher incomes - are far less price-sensitive. In this case, a price increase of 2.00 to 2.10 would result in the average cluster 3 customer’s only buying (-2.11\*5=) -10.55% less. Or, flip it on its head - if we give cluster 1 or 2 a discount, the increase in sales will be far greater than the same discount offered to clusters 3 and 4.
 
@@ -155,7 +155,7 @@ for brand in [1,2,3,4,5]:
 
 This gives:
 
-![Elasticity by brand](/images/posts/data-science/customer-analysis-iv/ca4-image-10.png)
+![Elasticity by brand](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-10.png)
 
 Most have negative elasticity, as expected. Brand 1 has the steepest line, with the lowest intercept, meaning it is the most elastic. If the client were to offer a discount, the greatest boost in sales would be if it was for brand 1. All others have shallower gradients than the mean, meaning they’re less elastic than our example above. As we saw earlier, brand 3 is abnormal, with *positive* elasticity. In theory, increasing the price from 2.00 to 2.10 would *increase* demand by (3.47\*5=) 17.35% - I’d suggest the client experiment with this.
 
@@ -165,13 +165,13 @@ This brings us to an important consideration about the validity of these predict
 sns.boxplot(data=df[['Price_5','Price_4','Price_3','Price_2','Price_1']], whis=[0,100], width=0.5, orient='h', palette='Set1')
 ```
 
-![Boxplot of prices](/images/posts/data-science/customer-analysis-iv/ca4-image-11.png)
+![Boxplot of prices](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-11.png)
 
 Brand 3, for example, has real data for prices between 1.87 and 2.14. Increasing the price from 2.00 to 2.10 is within this range, so the elasticity may be trustworthy; however, if we keep increasing it to 2.20, outside of the range of known data and into extrapolation territory, the impact on demand may not be as we predict. For example, I very much doubt we can increase the price to 3.00 and keep seeing rising sales. It is, however, something to experiment with.
 
 Moving on. I did go a step further and calculate the price elasticity of each brand for each cluster, but the graph got a bit messy:
 
-![Elasticity by brand by cluster](/images/posts/data-science/customer-analysis-iv/ca4-image-12.png)
+![Elasticity by brand by cluster](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-12.png)
 
 It’s mostly a combination of the two above, with brand 3 being at the top (positive elasticity) and brand 1 at the bottom (most negative elasticity), and, within each brand, cluster 1 being more elastic, and cluster 4 being least elastic. However, the data table behind this plot could be useful, as we can determine how we expect a price change for a specific brand to influence the sales for a specific cluster. In fact, I made a little piece of code to see how often the price is inelastic (<±1, best done by taking the absolute value):
 
@@ -216,13 +216,13 @@ lr_promo.fit(X_promo_mean,y)
 
 Now there are two coefficients, one for price (similar to the one before, but slightly different), and one for promotion. There are two values for promotion, 1 and 0, so I looped through both when doing the rest of the modelling:
 
-![Elasticity with promotions](/images/posts/data-science/customer-analysis-iv/ca4-image-13.png)
+![Elasticity with promotions](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-13.png)
 
 It seems having a promotion makes sales less elastic overall; in other words, it makes price less sensitive. If a promotion is active, demand is less like to drop with a price change than without one. Especially at high price points, if the client wants to increase prices, it’s worth having a promotion to at least partially counteract the loss in demand. Back to our 2.00 to 2.10 example (5% increase in price), the impact of promotion vs no promotion is a drop in sales of (-1.96\*5=) 9.8% instead of (-2.30\*5=) 11.5%, a difference of 1.7%.
 
 I did a breakdown by brand, by combining some of the above code loops:
 
-![image](/images/posts/data-science/customer-analysis-iv/ca4-image-14.png)
+![image](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-14.png)
 
 When looking at individual brands instead of the mean, the overall effect of the promotion looks to reduce, so perhaps promotions are not as worthwhile as we’d thought.
 
@@ -243,7 +243,7 @@ lr_brand.coef_
 
 And a heatmap of the resulting coefficients:
 
-![Heatmap cross elasticity](/images/posts/data-science/customer-analysis-iv/ca4-image-15.png)
+![Heatmap cross elasticity](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-15.png)
 
 The first thing to look at is the diagonals, how the price of the brand affects the probability of choosing it. Apart from our abnormal brand 3, the rest are as expected - as the price increases, the probability of a sale for that brand decreases. This is most notable for brand 1, where an increase in price of 1 results in a 3.9 reduction in the log-odds of choosing that brand. Brand 5 is the least price sensitive, which we also found from the elasticity graphs above, as shown by it being the most shallow.
 
@@ -330,7 +330,7 @@ for price in price_range:
 
 Plotted, this gives:
 
-![Cross elasticity](/images/posts/data-science/customer-analysis-iv/ca4-image-16.png)
+![Cross elasticity](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-16.png)
 
 The vertical black dotted lines represent the limits of the real price range for brand 4. How to interpret this plot? Method 1 is clearly the outlier; it’s the only one suggesting positive elasticity, likely as it uses the price-5-brand-5 coefficient. It’s also the most elastic. The others are relatively close, with methods 3 and 4 almost identical, and showing minimal elasticity.
 
@@ -369,13 +369,13 @@ pe_quantity_promo = lr_quantity.coef_[0] * price_range / pred_quantity_promo
 
 And plotted:
 
-![Quantity elasticity](/images/posts/data-science/customer-analysis-iv/ca4-image-17.png)
+![Quantity elasticity](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-17.png)
 
 When there is a promotion, the quantity becomes slightly more elastic. Otherwise, the shape of the curve looks pretty similar to the others we found for price vs brand. However, unlike price vs brand, we can see customers are inelastic for prices up to almost 2.75, which covers all our brands (well, brand 5 is *slightly* outside this range at its top price); in other words, when customers buy an item of any brand, the price doesn’t really impact how many of it they buy.
 
 I did this for each cluster:
 
-![Quantity elasticity by cluster](/images/posts/data-science/customer-analysis-iv/ca4-image-18.png)
+![Quantity elasticity by cluster](/images/posts/data-and-analytics/customer-analysis-iv/ca4-image-18.png)
 
 The line definitely splays out more. Cluster 2 (our below-average group) are most elastic overall, with the biggest difference between promotion and not - if there was a price reduction (resulting in more sales), especially on the more expensive brands, it’s wise to promote it to take advantage of the increased elasticity. It’s hard to tell, but cluster 4, our older well-off men, appear to have almost zero elasticity of quantity - however, this could be because they only make up ~5% of our data, so it would be good to re-test once we get more data.
 

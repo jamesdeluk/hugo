@@ -2,7 +2,7 @@
 title: "Disaster Tweets Natural Language Processing"
 date: 2024-12-11
 tags: ["Data Science", "Data Analysis", "Natural Language Processing", "Python"]
-hero: /images/posts/data-science/disaster-tweets-nlp/dtnlp.png
+hero: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
 ---
 ## Intro
 
@@ -14,7 +14,7 @@ The full code for this project can be found on my GitHub: [https://github.com/ja
 
 I started by looking at the raw data in a text editor; as it was only a few hundred kilobytes, it was easy enough to do:
 
-![csv screenshot](/images/posts/data-science/disaster-tweets-nlp/dtnlp-0.png)
+![csv screenshot](/images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp-0.png)
 
 The first column is the ID, the second is a keyword (which looks to have some consistency), third the location (without consistency - different formatting, some are not physical places, and some without data), the text of the tweet (which can contain URLs and @s and #tags), and the target (whether the tweet referred to a real disaster or not).
 
@@ -758,7 +758,7 @@ One nice thing with RFECV is you can easily plot a graph of the number of featur
 plt.plot(rfecv.cv_results_['n_features'], rfecv.cv_results_['mean_test_score'])
 ```
 
-![rfecv features plot](/images/posts/data-science/disaster-tweets-nlp/dtnlp-1.png)
+![rfecv features plot](/images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp-1.png)
 
 You can see the score rises rapidly, then drops off quite fast after 7, then smooths out after about 500 features.
 
@@ -862,7 +862,7 @@ Although over 70% were correct, this is far lower than the cross-validation scor
 
 `predict` predicts a binary value for each row. In my previous project ([here](https://www.jamesgibbins.com/customer-analysis-part-iv/)), with pricing, I predicted a probability in the range 0 to 1 instead. I was curious to see the probability predictions for this too. To visualise, I plotted:
 
-![predict proba plot](/images/posts/data-science/disaster-tweets-nlp/dtnlp-2.png)
+![predict proba plot](/images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp-2.png)
 
 It’s quite a smooth graph, and a fairly flat histogram… Which isn’t ideal. The steady gradient suggests it isn’t very confident; the best would be a flat horizontal line from 0 to ~1750, then vertical up to 1, then flat again. And for the histogram, the majority would be in the first and last buckets.
 
@@ -870,7 +870,7 @@ Yet, with care, these probabilities could still be used in practise. Going back 
 
 Visualising this another way, I took the difference between the target and the prediction - in other words, the error:
 
-![predict proba vs target plot](/images/posts/data-science/disaster-tweets-nlp/dtnlp-3.png)
+![predict proba vs target plot](/images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp-3.png)
 
 There were a few where the error was quite large (i.e. 0.999 was predicted for a 0, and vice versa). However, the bulk fall in the middle, where the error was small; these would be to ~70% that were categorised correctly
 

@@ -34,11 +34,11 @@ Total play time is 4419630185ms - so just over 51 days.
 
 Top artists of all time? Everyone’s favourite, a pie chart:
 
-![Pie chart artists all time](/images/posts/data-science/spotify-wrapped-diy/swdiy0.png)
+![Pie chart artists all time](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy0.png)
 
 Just joking.
 
-![Bar chart artists all time](/images/posts/data-science/spotify-wrapped-diy/swdiy1.png)
+![Bar chart artists all time](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy1.png)
 
 Fairly varied. Lots of electronic (trance, drum and bass), but also some K-pop (my background music), world music, classical, rock, meditation/spiritual stuff too.
 
@@ -46,11 +46,11 @@ Fairly varied. Lots of electronic (trance, drum and bass), but also some K-pop (
 
 Same for tracks. Pie!
 
-![Pie chart tracks all time](/images/posts/data-science/spotify-wrapped-diy/swdiy2.png)
+![Pie chart tracks all time](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy2.png)
 
 Not pie:
 
-![Bar chart tracks all time](/images/posts/data-science/spotify-wrapped-diy/swdiy3.png)
+![Bar chart tracks all time](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy3.png)
 
 For a long period, Stillness was my meditation track, hence the high count.
 
@@ -60,7 +60,7 @@ In case you’re wondering about the weird font, it’s because of that katakana
 
 What about play time per year? This has the total overall per year (in hours), and the total for my single favourite artist or track in that year (in minutes).
 
-![Play time line chart all time](/images/posts/data-science/spotify-wrapped-diy/swdiy4.png)
+![Play time line chart all time](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy4.png)
 
 I didn’t use Spotify much until 2023. In 2021 I listened to my favourite artist as a higher percentage of my total listens than in other years; 2020 was the opposite. 2024 isn’t actually over yet so the drop might not be as severe as expected, but with only another 2 weeks to go (1/26th of a year), I doubt I’ll exceed 2023.
 
@@ -87,7 +87,7 @@ Quite varied I’d say.
 
 Who do I skip?
 
-![Line chart skips all time](/images/posts/data-science/spotify-wrapped-diy/swdiy5.png)
+![Line chart skips all time](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy5.png)
 
 A lot of my most-skipped are also the ones I listened to the most - so it’s not because I don’t like them, it’s just that I wasn’t in the mood for them at that time. Sometimes I don’t want peaceful classical music, or angry rock music, or trippy ayahuasca music.
 
@@ -97,7 +97,7 @@ And finally, my “Wrapped”.
 
 ### Top artists
 
-![Bar chart artists 2024](/images/posts/data-science/spotify-wrapped-diy/swdiy6.png)
+![Bar chart artists 2024](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy6.png)
 
 Most of them were also in my top 50 in 2023, but some are new.
 
@@ -109,7 +109,7 @@ Top 50 artists in 2023 but not in 2024: Cory Allen, Cannons, Rise Against, Red V
 
 ### Play time per day
 
-![Line chart play time 2024](/images/posts/data-science/spotify-wrapped-diy/swdiy7.png)
+![Line chart play time 2024](/images/posts/data-and-analytics/spotify-wrapped-diy/swdiy7.png)
 
 I average just under an hour and a half of play time per day. Some days I listened to nothing. My peak was on the 13th March (not a Friday), with almost 6 hours. It wasn’t a few songs on repeat - it was 72 songs, the average being under 5 minutes in length, mostly a combination of jazz and trance.
 
