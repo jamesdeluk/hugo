@@ -1,9 +1,9 @@
 ---
 title: Learnings 2024
-summary: "Notes from 154 things I've consumed in 2024. Updated 21/12/2024."
+summary: "Notes from 156 things I've consumed in 2024. Updated 31/12/2024."
 tags: ['Consumption','Media']
 originaldate: 2024-01-14
-date: 2024-12-21
+date: 2024-12-31
 hero: /images/posts/cognition-and-learning/acc.png
 ---
 
@@ -84,6 +84,7 @@ hero: /images/posts/cognition-and-learning/acc.png
 - Toxic compassion: saying what makes someone happy, or is the socially acceptable thing to say, rather than saying the hard truths - yes, you are fat; yes, children with two parents typically have better life; yes, trans athletes can be a net negative for women. [134]
 - “Men, why do you often say you're fine even when you're not?” "Because I think most believe that nobody truly gives a fuck” “Complaining is a self-indulgent activity that just spreads negativity to whoever is listening, it never really lessened mine.” “When guys have an issue and tell someone else, they only ever want a solution that maybe they haven’t tried. And talking about what you have tried ( that failed ) over and over with each new person is exhausting and frustrating in equal measure.” “Because if I tell you I'm not fine, it inexplicably somehow turns into me trying to comfort and reassure you.” [151]
 - Evidence suggests men and women *are* different. The average man is better than the average woman at visual-spatial abilities, and the average woman is better than the average man at verbal abilities. No difference in quantitative abilities and general intelligence. Scientists support this. But some prefer to ignore the science and focus on their beliefs, blame it all on society. [154]
+- Some people initiative social interactions, some don’t. It’s not about interest or care or intro/extroversion - it’s more that most people don’t think about it. Be the one who does - others will be thankful. [156]
 
 ## Learning
 
@@ -175,6 +176,7 @@ hero: /images/posts/cognition-and-learning/acc.png
 - The shift from warm interior design (e.g. carpets, low ceilings) to modern styles (metal, minimalist) have caused the increase in noise in hospitality establishments. And it’s not only a design choice; the discomfort encourages higher sales or faster turnover, and they’re cheaper to outfit and clean. [131]
 - Often tiredness is simply having too much CO2 from a lack of fresh air (office, driving, etc). Try fresh air before more coffee. [135]
 - Offgassinging is bad, and new goods do it a lot, so get old or used. It's especially bad for babies - don't paint their room the week before they arrive (or don't paint it at all, they don't care) [135]
+- The story of how an LSD-crazed hippie realised how we could replicate DNA (PCR), which has gone on to save millions of lives. [155]
 
 ## Nature
 
@@ -374,3 +376,5 @@ hero: /images/posts/cognition-and-learning/acc.png
 152. [5 Adjustments I Had To Make Moving Home From Korea..](https://youtu.be/xD7Ty9v52B8)
 153. [5 Good Things About Moving Home From Korea..](https://youtu.be/qJ5v6h-iP2A)
 154. [Are Women Smarter than Men?](https://youtu.be/pbDggT2a4lQ)
+155. [How one man exposed your DNA](https://youtu.be/zaXKQ70q4KQ)
+156. [Important PSA: The World Is Divided Into Social Initiators and Non-Initiators](https://www.artofmanliness.com/people/relationships/social-initiators-and-non-initiators/)
