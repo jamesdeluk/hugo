@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2024-12-16
+date: 2025-01-03
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-115 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+116 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -17,6 +17,7 @@ aliases:
 
 ### Kaggle
 
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F163e0f27360ae958da99dde2a68f7e00%2FBadge-46.svg?generation=1727468408101916&alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F9c37cceb9f493bb678dd909e988b1456%2FBadge-1.svg?generation=1727462477436270&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F06808571894d065a64243d6ba468be2b%2FBadge-4.svg?generation=1727462524641424&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media">
