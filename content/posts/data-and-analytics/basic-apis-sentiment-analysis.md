@@ -91,7 +91,7 @@ if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000, debug=False)
 ```
 
-The `analyse` function is mostly the same, except it uses `jsonify` from within Flask instead of the `json` library, as is required for Flask apps, and the data is taken from the request, not as an argument. It’s linked to the `/analyse` endpoint. The `/` endpoint is a simple health check, and is mostly for testing. The `app =`  is required for the Flask app to work. The main guard (`if __name__ == '__main__':`) tells the interpreter what to do when the script is run, running the app on `0.0.0.0` (a.k.a. `localhost`, a.k.a. `127.0.0.1`, a.k.a. the machine the script is being run from), and on port 5000 (the default for Flask apps), without debugging (change to `True` if needed). Save it as `app.py`.
+The `analyse` function is mostly the same, except it uses `jsonify` from within Flask instead of the `json` library, as is required for Flask apps, and the data is taken from the request, not as an argument. It’s linked to the `/analyse` endpoint. The `/` endpoint is a simple health check, and is mostly for testing. The `app = Flask(__name__)`  is required for the Flask app to work. The main guard (`if __name__ == '__main__':`) tells the interpreter what to do when the script is run, running the app on `0.0.0.0`, which means all network interfaces (which includes `localhost`, a.k.a. `127.0.0.1`, a.k.a. the machine the script is being run from), and on port 5000 (the default for Flask apps), without debugging (change to `True` if needed). Save it as `app.py`.
 
 ### Testing
 
