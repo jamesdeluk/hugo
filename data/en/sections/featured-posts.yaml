@@ -1,5 +1,5 @@
 section:
-  name: Featured
+  name: Featured Posts
   id: featured-posts
   enable: true
   weight: 6
@@ -8,11 +8,11 @@ section:
 
 posts:
   # - certs
-  - customer-analysis-part-i
-  - belgium-solar-part-i
-  - how-much-for-my-car
-  - launching-an-edible-insect-business-part-i
-  - lotus-new-market-strategy
+  # - customer-analysis-part-i
+  # - belgium-solar-part-i
+  # - how-much-for-my-car
   - learnings-2024
+  - lotus-new-market-strategy
+  - launching-an-edible-insect-business-part-i
   # - consumption-2023-highlights
   # - it-cheatsheet
