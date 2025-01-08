@@ -106,14 +106,21 @@ html[data-theme="dark"] .home img {
   }
 }
 
+.anchor {
+  padding-top: 2rem !important;
+}
 #about {
-  padding: 0 3rem !important;
+  padding: 3rem !important;
 }
 #about > div {
   padding: 0 !important;
 }
-.anchor {
-  padding-top: 2rem !important;
+.projects-section h1 {
+  padding-bottom: 1rem;
+}
+#projects, #accomplishments, #recent-posts, #featured-posts {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .accomplishments {
