@@ -1,7 +1,7 @@
 section:
-  name: New
+  name: New Posts
   id: recent-posts
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # hideTitle: true
