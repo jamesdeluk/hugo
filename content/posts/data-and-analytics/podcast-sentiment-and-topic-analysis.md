@@ -1,5 +1,5 @@
 ---
-title: Podcast sentiment and topic analysis
+title: Podcast Sentiment and Topic Analysis
 date: 2025-01-02
 tags: ["Data Science", "Data Analysis", "Natural Language Processing", "Python"]
 hero: /images/posts/data-and-analytics/podcast-sentiment-and-topic-analysis/psata4.png
