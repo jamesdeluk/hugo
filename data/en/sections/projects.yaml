@@ -26,17 +26,17 @@ projects:
   summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
   tags: ["data science", "regressions", "pricing"]
 
-- name: Forecasting solar PV generation in Belgium
-  logo: /images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
-  url: /belgium-solar-part-i
-  summary: Using SARIMA, TensorFlow LSTM, and Prophet to forecast solar generation in Belgium based on historic data from a transmission system operator.
-  tags: ["data science", "time series", "energy"]
-
 - name: Customer segmentation and purchase predictions
   logo: /images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png
   url: /customer-analysis-part-i
   summary: Clustering customers using hierarchical and K-based techniques, classifying new customers, then using logistic modelling to predict buying outcomes.
   tags: ["data science", "clustering", "customers"]
+
+- name: Forecasting solar PV generation in Belgium
+  logo: /images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
+  url: /belgium-solar-part-i
+  summary: Using SARIMA, TensorFlow LSTM, and Prophet to forecast solar generation in Belgium based on historic data from a transmission system operator.
+  tags: ["data science", "time series", "energy"]
 
 - name: Natural language processing of tweets
   logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
@@ -50,12 +50,6 @@ projects:
   summary: An app to measure your myopia (a.k.a shortsightedness). Download it today!
   tags: ["hardware", "health"]
 
-- name: Eyesight measuring Arduino device
-  logo: /images/old/mm-angle.jpg
-  url: /arduino-myopia-measurer/
-  summary: A hardware device to measure my myopia (a.k.a shortsightedness).
-  tags: ["hardware", "health"]
-
 - name: DiscussAnyPage
   logo: /images/posts/projects/dap.png
   url: /discussanypage
@@ -67,3 +61,15 @@ projects:
   url: https://jamesdeluk.github.io/sifooma/
   summary: The MVP for Simple Food Manager - a shopping list, a pantry, and a food diary, all in web app!
   tags: ["software", "website", "lifestyle"]
+
+- name: Eyesight measuring Arduino device
+  logo: /images/old/mm-angle.jpg
+  url: /arduino-myopia-measurer/
+  summary: A hardware device to measure my myopia (a.k.a shortsightedness).
+  tags: ["hardware", "health"]
+
+- name: More data and analytics projects
+  logo: /images/posts/data-and-analytics/podcast-sentiment-and-topic-analysis/psata4.png
+  url: /posts/data-and-analytics/
+  summary: The rest of my data and analytics projects!
+  tags: ["data-science", "data-analytics"]
