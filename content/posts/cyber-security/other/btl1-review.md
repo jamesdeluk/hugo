@@ -1,6 +1,9 @@
 ---
 title: "Security Blue Team's Blue Team Level 1 Review"
 date: 2021-04-06
+aliases: 
+- /posts/btl1-review/
+- /articles/reviews/btl1-review/
 ---
 
 ## Tl;dr
