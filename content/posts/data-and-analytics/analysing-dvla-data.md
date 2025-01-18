@@ -20,32 +20,32 @@ There are a few different datasets, available here: [https://www.gov.uk/governme
 The one(s) I decided to use were:
 
 > df_VEH0124_AM: Vehicles at the end of the year by licence status, body type, make (A to M), generic model, model, year of first use and year of manufacture: United Kingdom
-> 
-> 
+>
+>
 > Scope: All licensed vehicles in the United Kingdom with Make starting with A to M; annually from 2014
-> 
+>
 > Schema: BodyType, Make, GenModel, Model, YearFirstUsed, YearManufacture, LicenceStatus, [number of vehicles; 1 column per year]
-> 
+>
 
 and
 
 > df_VEH0124_NZ: Vehicles at the end of the year by licence status, body type, make (N to Z), generic model, model, year of first use and year of manufacture: United Kingdom.
-> 
-> 
+>
+>
 > Scope: All licensed vehicles in the United Kingdom with Make starting with N to Z; annually from 2014
-> 
+>
 > Schema: BodyType, Make, GenModel, Model, YearFirstUsed, YearManufacture, LicenceStatus, [number of vehicles; 1 column per year]
-> 
+>
 
 This includes everything I need, although it only goes back a decade. Another dataset does go back to 1994:
 
 > df_VEH0120_GB: Vehicles at the end of the quarter by licence status, body type, make, generic model and model: Great Britain
-> 
-> 
+>
+>
 > Scope: All registered vehicles in Great Britain; from 1994 Quarter 4 (end December)
-> 
+>
 > Schema: BodyType, Make, GenModel, Model, Fuel, LicenceStatus, [number of vehicles; 1 column per quarter]
-> 
+>
 
 This has two main drawbacks, relative to the 124 dataset:
 
@@ -183,7 +183,7 @@ for i, c in enumerate(results):
 
 Okay, there are 373 Fiestas. Wow. Changing the search to `FIESTA ST` returns “only” 58, including [my old car](https://www.jamesgibbins.com/how-much-for-my-car):
 
-```
+```text
 7: FIESTA ST-3 TURBO
 ```
 
@@ -528,7 +528,7 @@ Finally, print findings, and add the data to a list for easy checking later.
 
 Based on the variables above, there were a number of potentials - here’s just a few:
 
-```
+```text
 🐦‍🔥? CHEVROLET GMC / CHEVROLET GMC CORVETTE / CORVETTE / 1975
 🐦‍🔥? NORTON / NORTON COMMANDO / COMMANDO 850 / 1974
 🐦‍🔥? TALBOT / TALBOT SUNBEAM / SUNBEAM LOTUS / 1981
@@ -579,7 +579,7 @@ Of course, tweaks could be made to this search to get different results. For exa
 
 For example, by searching for cars with the LS ratio changeover and between 500 and 5000 Licensed in 2023 I found vehicles such as:
 
-```
+```text
 🐦‍🔥? LAND ROVER / LAND ROVER 88 / 88-4 CYL / 0
 🐦‍🔥? TRIUMPH / TRIUMPH SPITFIRE / SPITFIRE / 0
 🐦‍🔥? VOLKSWAGEN / VOLKSWAGEN 1300 / 1300 / 0
@@ -587,14 +587,14 @@ For example, by searching for cars with the LS ratio changeover and between 500 
 
 Searching for a 2023 LS ratio of over double the mean (vs 1x times in the original search), with over 500 Licensed vehicles in 2023, but at one time fewer than 500 included:
 
-```
+```text
 🐦‍🔥? MG / MG MGB / B / 1980
 🐦‍🔥? MG / MG MGB / B GT / 1980
 ```
 
 Vehicles where at one time the LS ratio was ≤0.5 (i.e. twice as many SORN as Licensed), but in 2023 the ratio is ≥2 (i.e. twice as many Licensed and SORN), with at least 20 currently Licensed (to avoid 0/1 → 1/0 etc), included a *lot* of classics, including:
 
-```
+```text
 🐦‍🔥? ALFA ROMEO / ALFA ROMEO 2000 / 2000 GT VELOCE / 1974
 🐦‍🔥? JENSEN / JENSEN JENSEN-HEALEY / JENSEN-HEALEY / 1975
 🐦‍🔥? LANCIA / LANCIA FULVIA / FULVIA / 1975
@@ -679,3 +679,5 @@ Given I had the data already processed, I also wanted to see the data for a few 
 This was fun! Using publicly-accessible data, transforming it, calculating new columns, plotting to observe trends, and then a custom search for vehicles fulfilling specific criteria.
 
 Out of everything I’ve discovered, the old MGs and Triumphs really stood out. Several models have gone from more-SORN to more-Licensed, and they exist in high enough volumes that it’s actually feasible to buy one. Others - such as the Jensen or Lancia or Alfa - only had one or two for sale, or fewer, and they’re not cheap. Looking on Auto Trader, MGB GTs vary from £4k to £20, depending on condition; Triumph Stags are £10k to £30k. I’d be curious to see how the prices of these change over the coming years, especially with the move towards EVs - maybe there will be more demand for these small, retro British cars.
+
+I went on to create a dashboard for this data using Power BI. You can see the post here: [https://www.jamesgibbins.com/dvla-data-dashboard/](https://www.jamesgibbins.com/dvla-data-dashboard/)
