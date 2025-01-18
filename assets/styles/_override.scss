@@ -177,6 +177,12 @@ html[data-theme="dark"] .home img {
 //   width: 20%;
 // }
 
+@include media('>=extra-large') {
+  body.kind-section .post-card {
+    width: calc(100% / 4);
+  }
+}
+
 .sidebar-section {
     max-width: 100%;
 }
