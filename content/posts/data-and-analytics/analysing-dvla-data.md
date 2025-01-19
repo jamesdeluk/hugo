@@ -363,7 +363,7 @@ By adding `display()` into the `plots()` function, we can see the data used to b
 
 ## Older vehicles
 
-Time for a specific question. What 19th century vehicles are still on the road?
+Time for a specific question. What 20th century vehicles are still on the road?
 
 ```python
 display(
@@ -442,7 +442,7 @@ What have we learnt so far? In the UK, there are a surprising number of classic 
 
 Now to focus on the second question - which old cars are having a comeback? I decided to call these phoenixes - those which died, but have come back.
 
-Again, I was only interested in cars from the 19th century:
+Again, I was only interested in cars from the 20th century:
 
 ```python
 phoenix_data = data_pivot[(data_pivot['YearManufacture'] < 2000) & (data_pivot['Model'] != 'MISSING')].sort_values('Make', ascending=True)
