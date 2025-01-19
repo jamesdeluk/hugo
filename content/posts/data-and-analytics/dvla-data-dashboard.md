@@ -139,7 +139,7 @@ Now we can compare different models and their number of Licensed and SORN over t
 
 The main purpose of this page is to show the Licensed to SORN ratio. This used the pivoted Query:
 
-![p3-espirt.png](/images/posts/data-and-analytics/dvla-data-dashboard/p3-esprit.png)
+![p3-esprit.png](/images/posts/data-and-analytics/dvla-data-dashboard/p3-esprit.png)
 
 Again, filters, this time on the right. Example shown is the Lotus Esprit V8 GT. A 100% stacked area graph shows the split between Licensed and SORN over time, with a dotted 50% line. You can see it was above this line in 2015, dropped below in 2016, above again in 2017, but has been below since.
 
