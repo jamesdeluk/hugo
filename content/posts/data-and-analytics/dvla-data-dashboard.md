@@ -117,7 +117,7 @@ You can pick one model and the other charts update too:
 
 Ford looks to be about 3/4 cars and 1/4 lights goods vehicles. The shape of the right graph is similar to all vehicles, although of course the peak is lower.
 
-### Page 2: Make/Model Trends
+### Page 2: Make/Model trends
 
 ![p2-all.png](/images/posts/data-and-analytics/dvla-data-dashboard/p2-all.png)
 
@@ -135,13 +135,13 @@ I also made a variation, where the right graph is split by model. This is where 
 
 Now we can compare different models and their number of Licensed and SORN over time. Looking at these trends, soon there may be more Licensed DB4s than SORN DB5s.
 
-### Page 3: LS ratio
+### Page 3: Licensed-to-SORN ratio
 
 The main purpose of this page is to show the Licensed to SORN ratio. This used the pivoted Query:
 
-![p3-espirt.png](/images/posts/data-and-analytics/dvla-data-dashboard/p3-espirt.png)
+![p3-espirt.png](/images/posts/data-and-analytics/dvla-data-dashboard/p3-esprit.png)
 
-Again, filters, this time on the right. Example shown is the Lotus Esprit V8 Turbo. The top line graph shows the ratio (no data for 2021); the bottom 100% stacked area graph shows the split between Licensed and SORN over time, with a dotted 50% line. You can see 2016 was the sad year more Esprits we off the road than on.
+Again, filters, this time on the right. Example shown is the Lotus Esprit V8 GT. A 100% stacked area graph shows the split between Licensed and SORN over time, with a dotted 50% line. You can see it was above this line in 2015, dropped below in 2016, above again in 2017, but has been below since.
 
 ## Hints and tips
 
