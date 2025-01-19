@@ -1,5 +1,5 @@
 ---
-title: "Bonus: DVLA registration data dashboard in Power BI"
+title: "Bonus: DVLA Data Dashboard in Power BI"
 date: 2025-01-18
 tags: ["Data Analysis", "Data Visualisation", "Business Intelligence"]
 hero: /images/posts/data-and-analytics/dvla-data-dashboard/p1-2023.png
