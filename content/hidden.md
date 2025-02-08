@@ -62,6 +62,7 @@
 ![](/images/posts/cognition-and-learning/certs/365ds-ds.jpg)
 ![](/images/posts/cognition-and-learning/certs/365ds-dl.jpg)
 ![](/images/posts/cognition-and-learning/certs/365ds-itai.jpg)
+![](/images/posts/cognition-and-learning/certs/365ds-itnfa.jpg)
 ![](/images/posts/cognition-and-learning/certs/dbt-fundamentals.png)
 ![](/images/posts/cognition-and-learning/certs/lsql-cert-28F16A-02-2025.jpg)
 

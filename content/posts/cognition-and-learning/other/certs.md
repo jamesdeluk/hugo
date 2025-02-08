@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-02-02
+date: 2025-02-08
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-117 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+118 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -39,31 +39,32 @@ aliases:
 
 ### 365 Data Science
 
-<a href="/images/posts/cognition-and-learning/certs/365ds-dsct.jpg" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dsct.jpg" alt="365 Data Science Data Scientist Career Track"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-dact.jpg" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dact.jpg" alt="365 Data Science Data Analyst Career Track"></a>
+<a href="https://learn.365datascience.com/c/efd08b4dbe/" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dsct.jpg" alt="365 Data Science Data Scientist Career Track"></a>
+<a href="https://learn.365datascience.com/c/0f771dbeee/" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dact.jpg" alt="365 Data Science Data Analyst Career Track"></a>
 
-<a href="/images/posts/cognition-and-learning/certs/365ds-itdads.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itdads.jpg" alt="365 Data Science Introduction to Data and Data Science"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-tsawp.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-tsawp.jpg" alt="365 Data Science Time Series Analysis with Python"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-caip.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-caip.jpg" alt="365 Data Science Customer Analysis in Python"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-mlip.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlip.jpg" alt="365 Data Science Machine Learning in Python"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-mlpaz.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlpaz.jpg" alt="365 Data Science The Machine Learning Process A-Z"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-mlaaz.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlaaz.jpg" alt="365 Data Science The Machine Learning Algorithms A-Z"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.jpg" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-mlknn.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlknn.jpg" alt="365 Data Science Machine Learning with K-Nearest Neighors"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.jpg" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-itai.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itai.jpg" alt="365 Data Science Intro to AI"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-dcpp.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dcpp.jpg" alt="365 Data Science Data Cleaning and Preprocessing with pandas"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-dpwn.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dpwn.jpg" alt="365 Data Science Data Preprocessing with NumPy"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-cdvc.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-cdvc.jpg" alt="365 Data Science The Completed Data Visualization Course"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-ppb.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ppb.jpg" alt="365 Data Science Python Programmer Bootcamp"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-itp.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itp.jpg" alt="365 Data Science Introduction to Python"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-sql.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-sql.jpg" alt="365 Data Science SQL"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-ite.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ite.jpg" alt="365 Data Science Introduction to Excel"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-stats.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-stats.jpg" alt="365 Data Science Statistics"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-prob.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-prob.jpg" alt="365 Data Science Probability"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-maths.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-maths.jpg" alt="365 Data Science Mathematics"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-ds.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ds.jpg" alt="365 Data Science Data Strategy"></a>
-<a href="/images/posts/cognition-and-learning/certs/365ds-dl.jpg" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dl.jpg" alt="365 Data Science Data Literacy"></a>
+<a href="https://learn.365datascience.com/c/9f750edf9f/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itdads.jpg" alt="365 Data Science Introduction to Data and Data Science"></a>
+<a href="https://learn.365datascience.com/c/9fd496bdc8/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-tsawp.jpg" alt="365 Data Science Time Series Analysis with Python"></a>
+<a href="https://learn.365datascience.com/c/9d892be62f/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-caip.jpg" alt="365 Data Science Customer Analysis in Python"></a>
+<a href="https://learn.365datascience.com/c/60fd65c651/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlip.jpg" alt="365 Data Science Machine Learning in Python"></a>
+<a href="https://learn.365datascience.com/c/ff3edbef5a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlpaz.jpg" alt="365 Data Science The Machine Learning Process A-Z"></a>
+<a href="https://learn.365datascience.com/c/db7dc08d9e/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlaaz.jpg" alt="365 Data Science The Machine Learning Algorithms A-Z"></a>
+<a href="https://learn.365datascience.com/c/8b040422b3/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.jpg" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
+<a href="https://learn.365datascience.com/c/5cff65aa7b/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlknn.jpg" alt="365 Data Science Machine Learning with K-Nearest Neighors"></a>
+<a href="https://learn.365datascience.com/c/120cc09be3/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.jpg" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
+<a href="https://learn.365datascience.com/c/46563e9cbc/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itai.jpg" alt="365 Data Science Intro to AI"></a>
+<a href="https://learn.365datascience.com/c/a79763b09c/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itnfa.jpg" alt="365 Data Science Intro to NLP for AI"></a>
+<a href="https://learn.365datascience.com/c/a8afd26b5a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dcpp.jpg" alt="365 Data Science Data Cleaning and Preprocessing with pandas"></a>
+<a href="https://learn.365datascience.com/c/d88053e02d/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dpwn.jpg" alt="365 Data Science Data Preprocessing with NumPy"></a>
+<a href="https://learn.365datascience.com/c/dad5f3b501/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-cdvc.jpg" alt="365 Data Science The Completed Data Visualization Course"></a>
+<a href="https://learn.365datascience.com/c/20b4f24f2e/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ppb.jpg" alt="365 Data Science Python Programmer Bootcamp"></a>
+<a href="https://learn.365datascience.com/c/8f1999384a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itp.jpg" alt="365 Data Science Introduction to Python"></a>
+<a href="https://learn.365datascience.com/c/ac1f7ba991/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-sql.jpg" alt="365 Data Science SQL"></a>
+<a href="https://learn.365datascience.com/c/2f79b2bb86/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ite.jpg" alt="365 Data Science Introduction to Excel"></a>
+<a href="https://learn.365datascience.com/c/c21095692d/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-stats.jpg" alt="365 Data Science Statistics"></a>
+<a href="https://learn.365datascience.com/c/6ec4c62de7/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-prob.jpg" alt="365 Data Science Probability"></a>
+<a href="https://learn.365datascience.com/c/6090c2a7ae/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-maths.jpg" alt="365 Data Science Mathematics"></a>
+<a href="https://learn.365datascience.com/c/109bbab44b/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ds.jpg" alt="365 Data Science Data Strategy"></a>
+<a href="https://learn.365datascience.com/c/8b060b2355/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dl.jpg" alt="365 Data Science Data Literacy"></a>
 
 ### SQL
 
