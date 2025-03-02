@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-02-28
+date: 2025-03-02
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-121 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+122 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -55,6 +55,7 @@ aliases:
 <a href="https://learn.365datascience.com/c/a79763b09c/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itnfa.jpg" alt="365 Data Science Intro to NLP for AI"></a>
 <a href="https://learn.365datascience.com/c/42692ff9ad/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itllms.jpg" alt="365 Data Science Intro to LLMs"></a>
 <a href="https://learn.365datascience.com/c/b5130462db/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-bcawoal.jpg" alt="365 Data Science Build Chat Applications with OpenAI and LangChain"></a>
+<a href="https://learn.365datascience.com/c/a932b68505/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-leipwsao.jpg" alt="365 Data Science LLM Engineering in Practice with Streamlit and OpenAI"></a>
 <a href="https://learn.365datascience.com/c/25d4a2f8d7/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itvdwp.jpg" alt="365 Data Science Introduction to Vector Databases with Pinecone"></a>
 <a href="https://learn.365datascience.com/c/a8afd26b5a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dcpp.jpg" alt="365 Data Science Data Cleaning and Preprocessing with pandas"></a>
 <a href="https://learn.365datascience.com/c/d88053e02d/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dpwn.jpg" alt="365 Data Science Data Preprocessing with NumPy"></a>
