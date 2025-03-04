@@ -12,7 +12,7 @@ Customer analysis is one of the most important uses of data science. The better 
 
 This post includes the first stage of customer analysis - segmentation. Segmenting is simply splitting into groups. Initially this seems easy - you could, for example, group all the men together and all the women together, or all the rich together and all the poor together. However, using machine learning techniques enable more intelligent groupings, resulting in more accurate predictions and hence more actionable insights. When unsupervised machine learning does the segmentation, it’s called clustering.
 
-Full code on GitHub: [https://github.com/jamesdeluk/data-science/tree/main/Projects/customer-analysis](https://github.com/jamesdeluk/data-science/tree/main/Projects/customer-analysis)
+Full code on GitHub: [https://github.com/jamesdeluk/data-projects/tree/main/customer-analysis](https://github.com/jamesdeluk/data-projects/tree/main/customer-analysis)
 
 ## Exploring and pre-processing the data
 

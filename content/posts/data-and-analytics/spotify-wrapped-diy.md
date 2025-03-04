@@ -8,7 +8,7 @@ I was a bit disappointed with my Spotify Wrapped this year, and it seems [I wasn
 
 So I thought I’d create my own.
 
-The code isn’t pretty; it's something quick and dirty thrown together over a couple of hours. You can see it on my GitHub: [https://github.com/jamesdeluk/data-science/tree/main/Projects/spotify-wrapped-diy](https://github.com/jamesdeluk/data-science/tree/main/Projects/spotify-wrapped-diy)
+The code isn’t pretty; it's something quick and dirty thrown together over a couple of hours. You can see it on my GitHub: [https://github.com/jamesdeluk/data-projects/tree/main/spotify-wrapped-diy](https://github.com/jamesdeluk/data-projects/tree/main/spotify-wrapped-diy)
 
 You can use it with your own data if you want. You can request your extended streaming history from Spotify here: [https://www.spotify.com/us/account/privacy/](https://www.spotify.com/us/account/privacy/) You’ll get a .zip file with some JSON files. You need the ones starting `Streaming_History_Audio_` in the same directory as the Jupyter notebook.
 

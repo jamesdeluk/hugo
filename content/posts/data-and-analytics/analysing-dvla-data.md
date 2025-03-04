@@ -4,7 +4,7 @@ date: 2025-01-17
 tags: ["Data Analysis"]
 hero: /images/posts/data-and-analytics/analysing-dvla-data/add-2.png
 ---
-GitHub repo: [https://github.com/jamesdeluk/data-science/tree/main/Projects/dvla-vehicle-statistics](https://github.com/jamesdeluk/data-science/tree/main/Projects/dvla-vehicle-statistics)
+GitHub repo: [https://github.com/jamesdeluk/data-projects/tree/main/dvla-vehicle-statistics](https://github.com/jamesdeluk/data-projects/tree/main/dvla-vehicle-statistics)
 
 ## Intro
 

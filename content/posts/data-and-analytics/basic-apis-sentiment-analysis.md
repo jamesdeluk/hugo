@@ -4,7 +4,7 @@ date: 2025-01-08
 tags: ['Data Science', 'Sentiment Analysis', 'APIs', 'Docker', 'Flask', 'AWS', 'Cloud', 'Python']
 hero: /images/posts/data-and-analytics/basic-apis-sentiment-analysis/basa1.png
 ---
-The repo for this project can be found here: <https://github.com/jamesdeluk/data-science/tree/main/Projects/basic-apis/sentiment-analysis>
+The repo for this project can be found here: <https://github.com/jamesdeluk/data-projects/tree/main/basic-apis/sentiment-analysis>
 
 ## The goal
 

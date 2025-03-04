@@ -10,7 +10,7 @@ I am a bit of a podcast addict. One of the podcasts I listen to most, The Jordan
 
 I wanted to test this hypothesis. Jordan is nice enough to provide all the transcripts on his [website](https://www.jordanharbinger.com/podcasts/#:~:text=what%20you%20listen.-,Latest%20Podcast%20Episodes,-Feedback%20Friday), so I thought I’d analyse the FBF episodes from the last year and see if they really are negative. While I had the data, I thought it would be interesting to extract common themes and topics too.
 
-I saved all the transcripts to a `transcripts` folder, as `[episode_number].txt`. The repo contains `1000.txt` as an example - and, of course, the Jupyter notebook with the code. The repo is here: [https://github.com/jamesdeluk/data-science/tree/main/Projects/podcast-sentiment-and-topics-analysis](https://github.com/jamesdeluk/data-science/tree/main/Projects/podcast-sentiment-and-topics-analysis)
+I saved all the transcripts to a `transcripts` folder, as `[episode_number].txt`. The repo contains `1000.txt` as an example - and, of course, the Jupyter notebook with the code. The repo is here: [https://github.com/jamesdeluk/data-projects/tree/main/podcast-sentiment-and-topics-analysis](https://github.com/jamesdeluk/data-projects/tree/main/podcast-sentiment-and-topics-analysis)
 
 ## Initialisation
 

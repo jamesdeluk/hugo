@@ -8,7 +8,7 @@ hero: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
 
 I have a dataset of tweets, which includes whether they are referring to a disaster or not. The goal is to build a model that takes a tweet and predicts if it is a disaster. This could be useful during an actual disaster to ensure only the most relevant ones are shown to emergency responders.
 
-The full code for this project can be found on my GitHub: [https://github.com/jamesdeluk/data-science/tree/main/Projects/nlp-with-disaster-tweets](https://github.com/jamesdeluk/data-science/tree/main/Projects/nlp-with-disaster-tweets)
+The full code for this project can be found on my GitHub: [https://github.com/jamesdeluk/data-projects/tree/main/nlp-with-disaster-tweets](https://github.com/jamesdeluk/data-projects/tree/main/nlp-with-disaster-tweets)
 
 ## Exploring and cleaning the data
 

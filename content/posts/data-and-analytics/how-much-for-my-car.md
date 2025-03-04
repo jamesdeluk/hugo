@@ -13,7 +13,7 @@ I own a wonderful Ford Fiesta ST-3 (2017, 7th generation, 38k miles), but since 
 
 Let’s do some data analysis and machine learning!
 
-The JupyterLab notebook, extractor script, and data, is available on Github: [https://github.com/jamesdeluk/data-science/tree/main/Projects/car-price-regression-modelling](https://github.com/jamesdeluk/data-science/tree/main/Projects/car-price-regression-modelling)
+The JupyterLab notebook, extractor script, and data, is available on Github: [https://github.com/jamesdeluk/data-projects/tree/main/car-price-regression-modelling](https://github.com/jamesdeluk/data-projects/tree/main/car-price-regression-modelling)
 
 ## Gather the data
 

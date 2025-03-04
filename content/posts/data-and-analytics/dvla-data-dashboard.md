@@ -12,7 +12,7 @@ Time for something different - a dashboard! Sure, Python is great for transformi
 
 I found out after creating the dashboard that I can’t host it online unless I pay Microsoft a chunk of change. Instead, I’ll give you some screenshots, the Power Query code, and provide some hints and tips for creating a dashboard. This won’t be a full guide on how to use Power BI, as that’s best done through a video (as it’s a click click GUI) - there are plenty available on YouTube and elsewhere.
 
-The file itself is in my GitHub repo: [https://github.com/jamesdeluk/data-science/tree/main/Projects/dvla-vehicle-statistics](https://github.com/jamesdeluk/data-science/tree/main/Projects/dvla-vehicle-statistics)
+The file itself is in my GitHub repo: [https://github.com/jamesdeluk/data-projects/tree/main/dvla-vehicle-statistics](https://github.com/jamesdeluk/data-projects/tree/main/dvla-vehicle-statistics)
 
 † Actually, you can make a dashboard using Dash (part of Plotly) with Python… Maybe a future project!
 
