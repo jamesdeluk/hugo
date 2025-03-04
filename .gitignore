@@ -3,3 +3,4 @@ node_modules/*
 public/*
 TODO.md
 assets/jsconfig.json
+**/*.DS_Store
