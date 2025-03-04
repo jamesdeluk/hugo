@@ -9,8 +9,8 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Data Science
-  filter: "data science"
+- name: Data
+  filter: "data"
 - name: Hardware
   filter: "hardware"
 - name: Software
@@ -24,25 +24,25 @@ projects:
   logo: /images/posts/data-and-analytics/st/st-st_16_0.png
   url: /how-much-for-my-car
   summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
-  tags: ["data science", "regressions", "pricing"]
+  tags: ["data", "regressions", "pricing"]
 
 - name: Customer segmentation and purchase predictions
   logo: /images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png
   url: /customer-analysis-part-i
   summary: Clustering customers using hierarchical and K-based techniques, classifying new customers, then using logistic modelling to predict buying outcomes.
-  tags: ["data science", "clustering", "customers"]
+  tags: ["data", "clustering", "customers"]
 
 - name: Forecasting solar PV generation in Belgium
   logo: /images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
   url: /belgium-solar-part-i
   summary: Using SARIMA, TensorFlow LSTM, and Prophet to forecast solar generation in Belgium based on historic data from a transmission system operator.
-  tags: ["data science", "time series", "energy"]
+  tags: ["data", "time series", "energy"]
 
 - name: Natural language processing of tweets
   logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
   url: /disaster-tweets-nlp
   summary: Determining if a tweet refers to a real disaster or not through text analysis and natural language processing (NLP).
-  tags: ["data science", "natural language processing", "social media"]
+  tags: ["data", "natural language processing", "social media"]
 
 - name: Eyesight measuring Android app
   logo: /images/posts/projects/myopia-measurer-logo.png
@@ -72,4 +72,4 @@ projects:
   logo: /images/posts/data-and-analytics/podcast-sentiment-and-topic-analysis/psata4.png
   url: /posts/data-and-analytics/
   summary: The rest of my data and analytics projects!
-  tags: ["data-science", "data-analytics"]
+  tags: ["data"]
