@@ -3,6 +3,25 @@
   background-color: #ffffff75 !important;
 }
 
+.home {
+  height: 400px;
+
+  .arrow-center {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .home {
+    height: 50vh;
+  }
+  .home img {
+    margin-top: 20px;
+    max-width: 100%;
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
 p, #post-content li {
   font-size: 1.0rem;
   margin: 0.5rem 0;
@@ -67,15 +86,14 @@ html[data-theme="dark"] .home img {
   font-size: 0.7rem;
 }
 .homepage-about-right {
-  display: flex;
+  display: block;
   justify-content: center;
   padding: 2rem 0 !important;
 }
 .me-photo {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 100%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .homepage-about-right {
     padding: 0 0 1rem 0 !important;
   }
@@ -111,7 +129,12 @@ html[data-theme="dark"] .home img {
   padding-top: 2rem !important;
 }
 #about {
-  padding: 3rem !important;
+  padding: 1rem 3rem !important;
+}
+@media screen and (max-width: 1000px) {
+  #about {
+    padding: 0 1rem !important;
+  }
 }
 #about > div {
   padding: 0 !important;
@@ -140,7 +163,7 @@ html[data-theme="dark"] .home img {
     max-height: 150px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .accomplishments {
     display: block;
   }
@@ -233,7 +256,7 @@ html[data-theme="dark"] .home img {
 .cert-img-CISA {
   width: 125px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .cert-img-quarter, .cert-img-third, .cert-img-CISA {
     width: 49%;
   }

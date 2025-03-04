@@ -2,7 +2,7 @@
 # name: "James Gibbins"
 nickname: " "
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "↓"
+# greeting: "↓"
 image: "images/site/hshysrot.gif"
 # give your some contact information. they will be used in the footer
 contactInfo:
