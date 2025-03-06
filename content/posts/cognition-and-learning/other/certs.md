@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-03-02
+date: 2025-03-06
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-122 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+123 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -49,6 +49,7 @@ aliases:
 <a href="https://learn.365datascience.com/c/ff3edbef5a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlpaz.jpg" alt="365 Data Science The Machine Learning Process A-Z"></a>
 <a href="https://learn.365datascience.com/c/db7dc08d9e/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlaaz.jpg" alt="365 Data Science The Machine Learning Algorithms A-Z"></a>
 <a href="https://learn.365datascience.com/c/8b040422b3/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlddbacw.jpg" alt="365 Data Science Machine Learning Deep Dive: Business Applications and Coding Walkthroughs"></a>
+<a href="https://learn.365datascience.com/c/dd80871a8a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-aafbs.jpg" alt="365 Data Science AI Applications for Business Success"></a>
 <a href="https://learn.365datascience.com/c/5cff65aa7b/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlknn.jpg" alt="365 Data Science Machine Learning with K-Nearest Neighors"></a>
 <a href="https://learn.365datascience.com/c/120cc09be3/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.jpg" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
 <a href="https://learn.365datascience.com/c/46563e9cbc/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itai.jpg" alt="365 Data Science Intro to AI"></a>
