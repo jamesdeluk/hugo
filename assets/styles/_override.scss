@@ -173,25 +173,26 @@ html[data-theme="dark"] .home img {
     }
   }
 }
-#accomplishment-card-holder > div:nth-of-type(5) {
-  width: 100%;
-  .card-header {
-    text-align: center;
-  }
-  .card {
-    height: auto;
-  }
-  .sub-title {
-    display: none;
-  }
-  .card-body > p {
-    text-align: center;
-  }
-  .card-footer {
-    text-align: center;
-    padding: 0.3rem;
-  }
-}
+// Only if odd number of accomplishments
+// #accomplishment-card-holder > div:nth-of-type(5) {
+//   width: 100%;
+//   .card-header {
+//     text-align: center;
+//   }
+//   .card {
+//     height: auto;
+//   }
+//   .sub-title {
+//     display: none;
+//   }
+//   .card-body > p {
+//     text-align: center;
+//   }
+//   .card-footer {
+//     text-align: center;
+//     padding: 0.3rem;
+//   }
+// }
 
 // #about .col-sm-6:first-of-type {
 //   width: 80%;
@@ -200,11 +201,49 @@ html[data-theme="dark"] .home img {
 //   width: 20%;
 // }
 
-@include media('>=extra-large') {
-  body.kind-section .post-card {
-    width: calc(100% / 4);
+.recent-posts-section .post-card, .featured-posts-section .post-card {
+  .card-body {
+    margin-bottom: 1.25rem;
+  }
+  .tags, .card-footer {
+    display: none;
   }
 }
+@media (min-width: 1024px) {
+  .recent-posts-section .post-card {
+    width: calc(100% / 5);
+    padding: 0;
+    .card-body {
+      overflow-y: auto;
+      max-height: 330px;
+      margin-bottom: 1.25rem;
+    }
+    .card-footer {
+      display: none;
+    }
+  }
+}
+.featured-posts-section {
+  @extend .recent-posts-section;
+}
+@media (min-width: 1024px) {
+  .featured-posts-section .post-card {
+    width: calc(100% / 3);
+    .card-body {
+      overflow-y: auto;
+      max-height: 220px;
+      margin-bottom: 1.25rem;
+    }
+    .card-footer {
+      display: none;
+    }
+  }
+}
+// @include media('>=extra-large') {
+//   body.kind-section .post-card {
+//     width: calc(100% / 4);
+//   }
+// }
 
 .sidebar-section {
     max-width: 100%;
