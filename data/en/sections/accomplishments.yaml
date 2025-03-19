@@ -16,6 +16,15 @@ accomplishments:
   certificateURL: "https://learn.365datascience.com/c/efd08b4dbe/"
   certificateImage: /images/posts/cognition-and-learning/certs/365ds-dsct.jpg
 
+- name: AI Engineer Career Track
+  timeline: "February 2025 - March 2025"
+  organization:
+    name: 365 Data Science
+    url: https://365datascience.com/career-tracks/ai-engineer/
+  courseOverview: "Courses including LLMs, prompt engineering, AI agents (LangChain), vector databases, convolutional neural networks (CNNs), and deployment."
+  certificateURL: "https://learn.365datascience.com/c/fb7897ecd0/"
+  certificateImage: /images/posts/cognition-and-learning/certs/365ds-aiect.jpg
+
 - name: Data Analyst Career Track
   timeline: "August 2024 - October 2024"
   organization:
@@ -44,5 +53,5 @@ accomplishments:
   certificateImage: /images/site/degree.png
 
 - name: A multitide of other courses and certifications
-  courseOverview: "124 and counting: CompTIA to Cloud, Product Management to Operational Technology"
+  courseOverview: "125 and counting: Consulting, CompTIA, cloud (AWS, Azure), product management, operational technology, cyber security, and more."
   certificateURL: "/certs"

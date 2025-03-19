@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-03-17
+date: 2025-03-19
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-124 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+125 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -41,6 +41,7 @@ aliases:
 
 <a href="https://learn.365datascience.com/c/efd08b4dbe/" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dsct.jpg" alt="365 Data Science Data Scientist Career Track"></a>
 <a href="https://learn.365datascience.com/c/0f771dbeee/" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-dact.jpg" alt="365 Data Science Data Analyst Career Track"></a>
+<a href="https://learn.365datascience.com/c/fb7897ecd0/" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/365ds-aiect.jpg" alt="365 Data Science AI Engineer Career Track"></a>
 
 <a href="https://learn.365datascience.com/c/9f750edf9f/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itdads.jpg" alt="365 Data Science Introduction to Data and Data Science"></a>
 <a href="https://learn.365datascience.com/c/9fd496bdc8/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-tsawp.jpg" alt="365 Data Science Time Series Analysis with Python"></a>
