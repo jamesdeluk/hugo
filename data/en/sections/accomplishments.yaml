@@ -21,7 +21,7 @@ accomplishments:
   organization:
     name: 365 Data Science
     url: https://365datascience.com/career-tracks/ai-engineer/
-  courseOverview: "Courses including LLMs, prompt engineering, AI agents (LangChain), vector databases, convolutional neural networks (CNNs), and deployment."
+  courseOverview: "Courses including LLMs, prompt engineering, AI agents (LangChain), NLP, vector databases, convolutional neural networks (CNNs), and deployment."
   certificateURL: "https://learn.365datascience.com/c/fb7897ecd0/"
   certificateImage: /images/posts/cognition-and-learning/certs/365ds-aiect.jpg
 
