@@ -30,6 +30,7 @@
 ![](/images/posts/cognition-and-learning/certs/CFI-certificate-FMVA.jpg)
 ![](/images/posts/cognition-and-learning/certs/CFI-certificate-SQLF.jpg)
 ![](/images/posts/cognition-and-learning/certs/CFI-certificate-CDAE.jpg)
+![](/images/posts/cognition-and-learning/certs/365f-wdwif.jpg)
 
 ![](/images/posts/cognition-and-learning/certs/certificate-of-completion-for-product-strategy-microcertification.jpg)
 

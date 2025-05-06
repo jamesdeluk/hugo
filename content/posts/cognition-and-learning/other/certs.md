@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-03-19
+date: 2025-05-06
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-125 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+126 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -77,16 +77,15 @@ aliases:
 
 <a href="https://learnsql.com/files/course-certificate/DeayGbRBkIaWcouONIbzXYNFAHJDGkAZzTHIBpxK" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/lsql-cert-28F16A-02-2025.jpg" alt="LearnSQL Certificate of Competency"></a>
 
-
 ### dbt
 
 <a href="https://credentials.getdbt.com/873e9e88-7bd8-458a-8288-f96fd722b96e" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/dbt-fundamentals.png" alt="dbt Fundamentals"></a>
 
-## Corporate Finance Institute
+## Finance
 
 <a href="https://www.credential.net/c5fd8145-4622-4a08-924f-8d2212f40930" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/CFI-certificate-FMVA.jpg" alt="CFI certificate Financial Modeling and Valuation Analysis"></a>
 
-### Modelling and Analysis
+### CFI: Modelling and Analysis
 
 <a href="https://www.credential.net/824ea71f-2cf9-4df5-bfaa-9084298d753b" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-CFF.jpg" alt="CFI certificate Corporate Finance Fundamentals"></a>
 <a href="https://www.credential.net/6ea89591-f3eb-477b-b5c4-fc5c9f2a806e" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-RFS.jpg" alt="CFI certificate Reading Financial Statements"></a>
@@ -103,12 +102,12 @@ aliases:
 <a href="https://www.credential.net/7a4fc0a6-0cff-4976-9193-0211a12c976b" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-RESFM.jpg" alt="CFI certificate Renewable Energy - Solar Financial Modeling"></a>
 <a href="https://www.credential.net/6acb1536-5d93-4a92-812d-cc582f03f603" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-CDAE.jpg" alt="CFI certificate ChatGPT for Data Analysis in Excel - Case Study"></a>
 
-### Accounting
+### CFI: Accounting
 
 <a href="https://www.credential.net/5aab9e7f-ca85-43f2-ba73-be99e8db44e9" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-AF.jpg" alt="CFI certificate Accounting Fundamentals"></a>
 <a href="https://www.credential.net/312c35f9-1aa8-4c84-b9ee-95ace09d4fb7" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-APS.jpg" alt="CFI certificate Accounting Principles and Standards"></a>
 
-### Strategy and Governance
+### CFI: Strategy and Governance
 
 <a href="https://www.credential.net/9112ad2f-8142-4e6b-990e-71438c41c1b6" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-CBS.jpg" alt="CFI certificate Corporate & Business Strategy"></a>
 <a href="https://www.credential.net/4d9c0e51-ba90-4c00-9a80-4ab89a77b0a0" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-AM.jpg" alt="CFI certificate Assessing Management"></a>
@@ -116,7 +115,7 @@ aliases:
 <a href="https://www.credential.net/9b0f28b5-9224-4d32-9993-fed313d207c7" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-PE.jpg" alt="CFI certificate Professional Ethics"></a>
 <a href="https://www.credential.net/c2721736-4070-4058-83ff-896c1ca376c4" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-AGDBR.jpg" alt="CFI certificate Analyzing Growth Drivers & Business Risk"></a>
 
-### Technologies
+### CFI: Technologies
 
 <a href="https://www.credential.net/f04ee428-8605-4fa4-a249-c4fe6108de25" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-PPF.jpg" alt="CFI certificate Power Pivot Fundamentals"></a>
 <a href="https://www.credential.net/0d129fd2-f089-4b0b-8735-a0843d199c04" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-PQF.jpg" alt="CFI certificate Power Query Fundamentals"></a>
@@ -126,9 +125,13 @@ aliases:
 <a href="https://www.credential.net/fc693442-04e1-4f19-83d3-081f0d2f5625" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-PPP.jpg" alt="CFI certificate PowerPoint & Pitchbooks"></a>
 <a href="https://www.credential.net/3b3d1585-363e-4711-906a-1d485113bd05" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-SQLF.jpg" alt="CFI certificate SQL Fundamentals"></a>
 
-### Other
+### CFI: Other
 
 <a href="https://www.credential.net/3bd43361-6e23-481e-b42b-9f31283c6691" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/CFI-certificate-MFP.jpg" alt="CFI certificate Math for Finanec Professionals"></a>
+
+### 365Finance
+
+<a href="https://learn.365financialanalyst.com/c/8cdf70934a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365f-wdwif.jpg" alt="365 Finance What Does What In Finance"></a>
 
 ## Product Management
 
