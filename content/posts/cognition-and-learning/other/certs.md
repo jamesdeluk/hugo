@@ -1,6 +1,6 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-05-06
+date: 2025-07-22
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
@@ -17,9 +17,9 @@ aliases:
 
 ### Kaggle
 
-<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F163e0f27360ae958da99dde2a68f7e00%2FBadge-46.svg?generation=1727468408101916&alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F9c37cceb9f493bb678dd909e988b1456%2FBadge-1.svg?generation=1727462477436270&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F06808571894d065a64243d6ba468be2b%2FBadge-4.svg?generation=1727462524641424&amp;alt=media">
+<img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F45be693e46c3d59a48e65f903aad246b%2FBadge-5.svg?generation=1727462562515977&alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F1e4546d427340e1495b9ee02261e2dc6%2FBadge-34.svg?generation=1727468126171650&amp;alt=media">
 <img class="kaggle-badge" src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F7567026dd0c594f1193b49a98a976056%2FBadge-35.svg?generation=1727468213893504&amp;alt=media">

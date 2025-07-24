@@ -6,7 +6,7 @@ hero: /images/posts/data-and-analytics/customer-analysis-iv/ca4-image-2.png
 ---
 *This is part four of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/). Part 3, purchase analytics, [here](https://www.jamesgibbins.com/customer-analysis-part-iii/).*
 
-*As before, the code below is simply snippets. The full code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca4-brands.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca4-brands.ipynb)*
+*As before, the code below is simply snippets. The full code for this section can be found in the repo: [https://github.com/jamesdeluk/data-projects/blob/main/customer-analysis/ca4_brands.ipynb](https://github.com/jamesdeluk/data-projects/blob/main/customer-analysis/ca4_brands.ipynb)*
 
 ## Intro
 

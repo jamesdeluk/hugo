@@ -6,7 +6,7 @@ hero: /images/posts/data-and-analytics/customer-analysis-iii/ca3-image-13.png
 ---
 *This is part three of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/).*
 
-*This post contains incomplete code snippets. The full code for this section can be found in the repo: [https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb](https://github.com/jamesdeluk/data-science/blob/main/Projects/customer-analysis/ca3-purchases.ipynb)*
+*This post contains incomplete code snippets. The full code for this section can be found in the repo: [https://github.com/jamesdeluk/data-projects/blob/main/customer-analysis/ca3_purchases.ipynb](https://github.com/jamesdeluk/data-projects/blob/main/customer-analysis/ca3_purchases.ipynb)*
 
 *UPDATE 2024-11-26: During part four I noticed I had made a mistake in the Product Analysis section - I'd accidentally used a subset of the dataset when doing an analysis. Given part four is exclusively about product and brand analysis, I have moved the now-corrected section to that post.*
 

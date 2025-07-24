@@ -6,7 +6,7 @@ hero: /images/posts/data-and-analytics/basic-apis-diamond-pricing/edgar-soto-gb0
 ---
 *This has been a long time coming! [Basic APIs part one](https://www.jamesgibbins.com/basic-apis-sentiment-analysis/) was posted back in January; since then I’ve started a new job and have had some contract/freelance work, so I didn’t get around to completing this. Also, since then, I’ve moved from Windows to Mac, and started using uv instead of pyenv/pip, so things may look a little different.*
 
-The repo for this project can be found here: [https://github.com/jamesdeluk/data-projects/tree/main/basic_apis/diamond-price](https://github.com/jamesdeluk/data-projects/tree/main/basic_apis/diamond-price)
+The repo for this project can be found here: [https://github.com/jamesdeluk/data-projects/tree/main/basic-apis/diamond-price](https://github.com/jamesdeluk/data-projects/tree/main/basic-apis/diamond-price)
 
 ## The goal
 
@@ -353,9 +353,9 @@ jobs:
 
 The `name`s do a decent job of explaining the different parts of the code. Given I’m using large file storage, I need to ensure `with: lfs: true` is included. The `context` must be the directory of the code - `.` is fine if it is in the root of the repo (i.e. the same as the `git` folder), otherwise change it the code location (my repo root is `data-projects`, so I had to add `basic_apis/diamond-price/fastapi-app` to get to folder including the app).
 
-GitHub will need access to my Docker account, hence the `secrets` referred to above. These are added to the GitHub repo, at Settings → Secrets and variables → Actions → Repository secrets (or, directly, a URL like this: https://github.com/jamesdeluk/data-science/settings/secrets/actions). Add `DOCKER_USERNAME` and `DOCKER_PASSWORD`.
+GitHub will need access to my Docker account, hence the `secrets` referred to above. These are added to the GitHub repo, at Settings → Secrets and variables → Actions → Repository secrets (or, directly, a URL like this: https://github.com/jamesdeluk/data-projects/settings/secrets/actions). Add `DOCKER_USERNAME` and `DOCKER_PASSWORD`.
 
-Once it’s all pushed, I can check the status of the deploy in the Actions tab of the repo (e.g. https://github.com/jamesdeluk/data-science/actions). If all works correctly, the container will automatically be built and uploaded to Docker Hub (mine is at https://hub.docker.com/u/jamesdeluk). To test it locally:
+Once it’s all pushed, I can check the status of the deploy in the Actions tab of the repo (e.g. https://github.com/jamesdeluk/data-projects/actions). If all works correctly, the container will automatically be built and uploaded to Docker Hub (mine is at https://hub.docker.com/u/jamesdeluk). To test it locally:
 
 ```bash
 docker pull jamesdeluk/diamond-price-fastapi
