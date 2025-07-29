@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-07-22
+date: 2025-07-29
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-126 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+128 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -73,6 +73,7 @@ aliases:
 <a href="https://learn.365datascience.com/c/ab8e5bfc37/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mffml.jpg" alt="365 Data Science Math Foundations for Machine Leanring"></a>
 <a href="https://learn.365datascience.com/c/109bbab44b/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-ds.jpg" alt="365 Data Science Data Strategy"></a>
 <a href="https://learn.365datascience.com/c/8b060b2355/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dl.jpg" alt="365 Data Science Data Literacy"></a>
+<a href="https://learn.365datascience.com/c/b8be2c94c3/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-tlads.jpg" alt="365 Data Science How to Think Like a Data Scientist to Become One"></a>
 
 ### SQL
 
