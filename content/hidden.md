@@ -76,6 +76,7 @@
 ![](/images/posts/cognition-and-learning/certs/365ds-mlwnb.jpg)
 ![](/images/posts/cognition-and-learning/certs/365ds-mlwdtarf.jpg)
 ![](/images/posts/cognition-and-learning/certs/365ds-mlwsvm.jpg)
+![](/images/posts/cognition-and-learning/certs/365ds-ithf.jpg)
 ![](/images/posts/cognition-and-learning/certs/dbt-fundamentals.png)
 ![](/images/posts/cognition-and-learning/certs/lsql-cert-28F16A-02-2025.jpg)
 
