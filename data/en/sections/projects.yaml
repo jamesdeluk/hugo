@@ -2,19 +2,19 @@ section:
   name: Selected Projects
   id: projects
   enable: true
-  weight: 2
+  weight: 4
   showOnNavbar: true
   # hideTitle: true
 
-buttons:
-- name: All
-  filter: "all"
-- name: Data
-  filter: "data"
-- name: Hardware
-  filter: "hardware"
-- name: Software
-  filter: "software"
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Data
+#   filter: "data"
+# - name: Hardware
+#   filter: "hardware"
+# - name: Software
+#   filter: "software"
 # - name: Other
 #   filter: "other"
 
@@ -32,17 +32,11 @@ projects:
   summary: Clustering customers using hierarchical and K-based techniques, classifying new customers, then using logistic modelling to predict buying outcomes.
   tags: ["data", "clustering", "customers"]
 
-- name: Forecasting solar PV generation in Belgium
+- name: Forecasting solar PV generation
   logo: /images/posts/data-and-analytics/belgium-solar-ii/belgium-2022-combined-prediction-arima-sm2sa2-14d-1d.png
   url: /belgium-solar-part-i
   summary: Using SARIMA, TensorFlow LSTM, and Prophet to forecast solar generation in Belgium based on historic data from a transmission system operator.
   tags: ["data", "time series", "energy"]
-
-- name: Natural language processing of tweets
-  logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
-  url: /disaster-tweets-nlp
-  summary: Determining if a tweet refers to a real disaster or not through text analysis and natural language processing (NLP).
-  tags: ["data", "natural language processing", "social media"]
 
 - name: Eyesight measuring Android app
   logo: /images/posts/projects/myopia-measurer-logo.png
@@ -50,26 +44,32 @@ projects:
   summary: An app to measure your myopia (a.k.a shortsightedness). Download it today!
   tags: ["hardware", "health"]
 
-- name: DiscussAnyPage
-  logo: /images/posts/projects/dap.png
-  url: /discussanypage
-  summary: What if there was a way to leave a comment on any webpage, regardless of if they had a comment section? I created an MVP, including browser extensions - mostly using ChatGPT.
-  tags: ["software", "website", "community"]
-
-- name: Sifooma
-  logo: /images/site/sifooma.png
-  url: https://jamesdeluk.github.io/sifooma/
-  summary: The MVP for Simple Food Manager - a shopping list, a pantry, and a food diary, all in web app!
-  tags: ["software", "website", "lifestyle"]
-
 - name: Eyesight measuring Arduino device
   logo: /images/old/mm-angle.jpg
   url: /arduino-myopia-measurer/
   summary: A hardware device to measure my myopia (a.k.a shortsightedness).
   tags: ["hardware", "health"]
 
-- name: More data and analytics projects
-  logo: /images/posts/data-and-analytics/podcast-sentiment-and-topic-analysis/psata4.png
-  url: /posts/data-and-analytics/
-  summary: The rest of my data and analytics projects!
-  tags: ["data"]
+- name: Tweet natural language processing
+  logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
+  url: /disaster-tweets-nlp
+  summary: Determining if a tweet refers to a real disaster or not through text analysis and natural language processing (NLP).
+  tags: ["data", "natural language processing", "social media"]
+
+# - name: DiscussAnyPage
+#   logo: /images/posts/projects/dap.png
+#   url: /discussanypage
+#   summary: What if there was a way to leave a comment on any webpage, regardless of if they had a comment section? I created an MVP, including browser extensions - mostly using ChatGPT.
+#   tags: ["software", "website", "community"]
+
+# - name: Sifooma
+#   logo: /images/site/sifooma.png
+#   url: https://jamesdeluk.github.io/sifooma/
+#   summary: The MVP for Simple Food Manager - a shopping list, a pantry, and a food diary, all in web app!
+#   tags: ["software", "website", "lifestyle"]
+
+# - name: More data and analytics projects
+#   logo: /images/posts/data-and-analytics/podcast-sentiment-and-topic-analysis/psata4.png
+#   url: /posts/data-and-analytics/
+#   summary: The rest of my data and analytics projects!
+#   tags: ["data"]
