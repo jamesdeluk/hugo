@@ -18,3 +18,4 @@ Something I threw together for a bit of fun. What if the car brand Lotus wanted 
 ![Slide](/images/posts/business-and-consulting/lnms/LNMS-Slide11.PNG)
 ![Slide](/images/posts/business-and-consulting/lnms/LNMS-Slide12.PNG)
 ![Slide](/images/posts/business-and-consulting/lnms/LNMS-Slide13.PNG)
+Main image source: [Wikipedia](https://commons.wikimedia.org/wiki/File:2020_Lotus_Evija_Front.jpg).
