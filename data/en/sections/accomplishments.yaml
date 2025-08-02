@@ -16,12 +16,21 @@ accomplishments:
   certificateURL: "https://learn.365datascience.com/c/efd08b4dbe/"
   certificateImage: /images/posts/cognition-and-learning/certs/365ds-dsct.jpg
 
+- name: Machine Learning Scientist Career Track
+  timeline: "July 2025 - August 2025"
+  organization:
+    name: 365 Data Science
+    url: https://learn.365datascience.com/career-tracks/machine-learning-scientist/
+  courseOverview: "Courses including naive Bayes, decision trees, random forests, K-nearest neighbours, support vector machines, Hugging Face, and more."
+  certificateURL: "https://learn.365datascience.com/c/a7b7a4105b/"
+  certificateImage: /images/posts/cognition-and-learning/certs/365ds-mlsct.jpg
+
 - name: AI Engineer Career Track
   timeline: "February 2025 - March 2025"
   organization:
     name: 365 Data Science
     url: https://365datascience.com/career-tracks/ai-engineer/
-  courseOverview: "Courses including LLMs, prompt engineering, AI agents (LangChain), NLP, vector databases, convolutional neural networks (CNNs), and deployment."
+  courseOverview: "Courses including LLMs, prompt engineering, AI agents (LangChain), NLP, vector databases, convolutional neural networks, and deployment."
   certificateURL: "https://learn.365datascience.com/c/fb7897ecd0/"
   certificateImage: /images/posts/cognition-and-learning/certs/365ds-aiect.jpg
 
@@ -39,7 +48,7 @@ accomplishments:
   organization:
     name: Corporate Finance Institute (CFI)
     url: https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/
-  courseOverview: Courses including financial modelling (including 3-statement modelling), and valuation analysis using DCF, comparables/precedents, and assets. Projects included solar PPA modelling. Also covered PowerBI and SQL.
+  courseOverview: Courses including financial modelling (including 3-statement modelling), and valuation analysis using DCF, comparables/precedents, and assets.
   certificateURL: "https://www.credential.net/profile/jamesgibbins94329/wallet"
   certificateImage: /images/posts/cognition-and-learning/certs/CFI-certificate-FMVA.jpg
 
@@ -52,6 +61,6 @@ accomplishments:
   certificateURL: "https://www.ucl.ac.uk/electronic-electrical-engineering/"
   certificateImage: /images/site/degree.png
 
-- name: A multitide of other courses and certifications
-  courseOverview: "132 and counting: Consulting, CompTIA, cloud (AWS, Azure), product management, operational technology, cyber security, and more."
+- name: Other courses and certifications
+  courseOverview: "133 and counting: Consulting, CompTIA, cloud (AWS, Azure), product management, operational technology, cyber security, and more."
   certificateURL: "/certs"
