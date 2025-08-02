@@ -174,25 +174,29 @@ html[data-theme="dark"] .home img {
   }
 }
 // Only if odd number of accomplishments
-// #accomplishment-card-holder > div:nth-of-type(5) {
-//   width: 100%;
-//   .card-header {
-//     text-align: center;
-//   }
-//   .card {
-//     height: auto;
-//   }
-//   .sub-title {
-//     display: none;
-//   }
-//   .card-body > p {
-//     text-align: center;
-//   }
-//   .card-footer {
-//     text-align: center;
-//     padding: 0.3rem;
-//   }
-// }
+#accomplishment-card-holder > div:nth-of-type(7) {
+  width: 100%;
+  .card {
+    height: auto;
+  }
+  .card-header {
+    text-align: center;
+  }
+  .sub-title {
+    display: none;
+  }
+  .card-body > p {
+    text-align: center;
+  }
+  .card-footer {
+    text-align: center;
+    padding: 0.3rem;
+  }
+}
+
+#project-card-holder .project-card-footer {
+  display: none;
+}
 
 // #about .col-sm-6:first-of-type {
 //   width: 80%;
