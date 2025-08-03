@@ -167,11 +167,6 @@ html[data-theme="dark"] .home img {
   .accomplishments {
     display: block;
   }
-  .accomplishment-left, .accomplishment-right {
-    img {
-      max-height: 100px;
-    }
-  }
 }
 // Only if odd number of accomplishments
 #accomplishment-card-holder > div:nth-of-type(7) {
