@@ -1,7 +1,7 @@
 ---
 title: "Customer Analysis Part II: Classification"
 date: 2024-11-18
-tags: ["Data Science", "Data Analysis", "Classification", "Customer Analysis", "Python"]
+tags: ["Data Science", "Data Analysis", "Classification", "Regression", "Customer Analysis", "Python"]
 hero: /images/posts/data-and-analytics/customer-analysis-ii/ca2-heatmap2.png
 ---
 *This is part two of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/).*

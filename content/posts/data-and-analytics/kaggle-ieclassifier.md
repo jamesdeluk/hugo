@@ -1,7 +1,7 @@
 ---
 title: "Kaggle: Predict the Introverts from the Extroverts"
 date: 2025-07-25
-tags: ['Data Science', 'Classification', 'Clustering', 'Python']
+tags: ['Data Science', 'Classification', 'Clustering', 'Regression', 'Python']
 hero: /images/posts/heroes/kaggle-ieclassifier.png
 ---
 *I’ve spent the last few months (and continue to spend them) working for an EV startup - as such, I've had a lot less time for personal projects such as this.*

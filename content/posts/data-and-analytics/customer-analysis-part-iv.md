@@ -1,7 +1,7 @@
 ---
 title: "Customer Analysis Part IV: Brand Analytics and Elasticity"
 date: 2024-12-01
-tags: ["Data Science", "Data Analysis", "Purchase Analytics", "Customer Analysis", "Python"]
+tags: ["Data Science", "Data Analysis", "Purchase Analytics", "Customer Analysis", "Regression", "Python"]
 hero: /images/posts/data-and-analytics/customer-analysis-iv/ca4-image-2.png
 ---
 *This is part four of a multi-part series. Part one, segmentation and clustering, can be found [here](https://www.jamesgibbins.com/customer-analysis-part-i/). Part two, classification, is [here](https://www.jamesgibbins.com/customer-analysis-part-ii/). Part 3, purchase analytics, [here](https://www.jamesgibbins.com/customer-analysis-part-iii/).*

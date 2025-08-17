@@ -1,7 +1,7 @@
 ---
 title: "Disaster Tweets Natural Language Processing"
 date: 2024-12-11
-tags: ["Data Science", "Data Analysis", "Natural Language Processing", "Python"]
+tags: ["Data Science", "Data Analysis", "Natural Language Processing", "Regression", "Python"]
 hero: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
 ---
 ## Intro
