@@ -210,7 +210,7 @@ html[data-theme="dark"] .home img {
 }
 @media (min-width: 1024px) {
   .recent-posts-section .post-card {
-    width: calc(100% / 5);
+    width: calc(100% / 3);
     padding: 0;
     .card-body {
       overflow-y: auto;
