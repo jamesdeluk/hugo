@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-08-17
+date: 2025-08-18
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-134 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+135 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -57,6 +57,7 @@ aliases:
 <a href="https://learn.365datascience.com/c/e7e907db65/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlwdtarf.jpg" alt="365 Data Science Machine Learning with Decision Trees and Random Forests"></a>
 <a href="https://learn.365datascience.com/c/eb009d39bf/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-mlwsvm.jpg" alt="365 Data Science Machine Learning with Support Vector Machines"></a>
 <a href="https://learn.365datascience.com/c/120cc09be3/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwtf2.jpg" alt="365 Data Science Deep Learning with Tensor Flor 2"></a>
+<a href="https://learn.365datascience.com/c/fcf2dbf770/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-dlwp.jpg" alt="365 Data Science Deep Learning with Pytorch"></a>
 <a href="https://learn.365datascience.com/c/46563e9cbc/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itai.jpg" alt="365 Data Science Intro to AI"></a>
 <a href="https://learn.365datascience.com/c/a79763b09c/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itnfa.jpg" alt="365 Data Science Intro to NLP for AI"></a>
 <a href="https://learn.365datascience.com/c/42692ff9ad/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365ds-itllms.jpg" alt="365 Data Science Intro to LLMs"></a>
