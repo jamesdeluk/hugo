@@ -16,6 +16,15 @@ accomplishments:
   certificateURL: "https://learn.365datascience.com/c/efd08b4dbe/"
   certificateImage: /images/posts/cognition-and-learning/certs/365ds-dsct.jpg
 
+- name: Senior Data Scientist Career Track
+  timeline: "August 2025"
+  organization:
+    name: 365 Data Science
+    url: https://365datascience.com/career-tracks/senior-data-scientist/
+  courseOverview: "Courses including machine learning (sklearn), deep learning (PyTorch), convolutional neural networks (CNN), and LLMs."
+  certificateURL: "https://learn.365datascience.com/c/5b68df13eb/"
+  certificateImage: /images/posts/cognition-and-learning/certs/365ds-sdsct.jpg
+
 - name: Machine Learning Scientist Career Track
   timeline: "July 2025 - August 2025"
   organization:
@@ -62,5 +71,5 @@ accomplishments:
   certificateImage: /images/site/degree.png
 
 - name: Other courses and certifications
-  courseOverview: "136 and counting: Consulting, CompTIA, cloud (AWS, Azure), product management, operational technology, cyber security, and more."
+  courseOverview: "137 and counting: Consulting, CompTIA, cloud (AWS, Azure), product management, operational technology, cyber security, and more."
   certificateURL: "/certs"
