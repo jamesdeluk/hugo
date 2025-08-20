@@ -168,26 +168,40 @@ html[data-theme="dark"] .home img {
     display: block;
   }
 }
-// Only if odd number of accomplishments
-#accomplishment-card-holder > div:nth-of-type(7) {
-  width: 100%;
-  .card {
-    height: auto;
-  }
-  .card-header {
-    text-align: center;
-  }
+
+#accomplishment-card-holder > div:nth-of-type(8) {
   .sub-title {
     display: none;
   }
-  .card-body > p {
-    text-align: center;
+  .card-body {
+    flex: 0 0 auto;
   }
   .card-footer {
-    text-align: center;
-    padding: 0.3rem;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
   }
 }
+// Only if odd number of accomplishments
+// #accomplishment-card-holder > div:nth-of-type(7) {
+//   width: 100%;
+//   .card {
+//     height: auto;
+//   }
+//   .card-header {
+//     text-align: center;
+//   }
+//   .sub-title {
+//     display: none;
+//   }
+//   .card-body > p {
+//     text-align: center;
+//   }
+//   .card-footer {
+//     text-align: center;
+//     padding: 0.3rem;
+//   }
+// }
 
 #project-card-holder .project-card-footer {
   display: none;
