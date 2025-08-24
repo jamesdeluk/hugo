@@ -258,6 +258,19 @@ html[data-theme="dark"] .home img {
 //   }
 // }
 
+@media ((max-width: 1279px)) {
+  body.kind-page .wrapper .toc-section {
+    display: block;
+    background: #fff;
+    .toc-holder {
+      padding-top: 0;
+    }
+  }
+  .sidebar-section {
+    display: none;
+  }
+}
+
 .sidebar-section {
     max-width: 100%;
 }
