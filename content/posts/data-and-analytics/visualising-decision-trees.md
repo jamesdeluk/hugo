@@ -11,7 +11,7 @@ Decision trees are one of the oldest and most popular forms of machine learning 
 
 Based on these two factors, I've decided to do an exploration of how different decision tree hyperparameters affect both the performance of the tree (measured by factors such as MAE, RMSE, and R²) and visually how it looks (to see factors such as depth, node/leaf counts, and overall structure).
 
-For the model, I'll use use scikit-learn’s `DecisionTreeRegressor`. Classification decision trees requires similar hyperparameter tuning to regression ones, so I won't discuss them separately. For the hyperparameters, I'll look at `max_depth`, `ccp_alpha`, `min_samples_split`, `min_samples_leaf`, and `max_leaf_nodes`. For the data, I'll use use the California housing dataset, available through scikit-learn.
+For the model, I'll use use scikit-learn’s `DecisionTreeRegressor`. Classification decision trees requires similar hyperparameter tuning to regression ones, so I won't discuss them separately. For the hyperparameters, I'll look at `max_depth`, `ccp_alpha`, `min_samples_split`, `min_samples_leaf`, and `max_leaf_nodes`. For the data, I'll use use the California housing dataset, available through scikit-learn ([more info here](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset)).
 
 The code for this little project is available in my GitHub here: [https://github.com/jamesdeluk/data-projects/tree/main/visualising-trees](https://github.com/jamesdeluk/data-projects/tree/main/visualising-trees)
 
