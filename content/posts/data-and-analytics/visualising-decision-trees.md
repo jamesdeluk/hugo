@@ -5,17 +5,19 @@ tags: ['Data Science', 'Regression', 'Decision Trees', 'Hyperparameters', 'Pytho
 hero: /images/posts/data-and-analytics/visualising-decision-trees/vdt2.png
 ---
 
-I’ve seen lots on how decision trees work, but often the descriptions are textual. I’m a visual person, so let’s do a visual exploration.
+## Introduction
+
+Decision trees are one of the oldest and most popular forms of machine learning used for classification and regression. It's unsurprising, then, that there's a lot of content about them. However, most of it seems to focus on how the algorithms work, covering areas such as Gini impurity or error-minimisation. While this is useful knowledge, I'm more interested in how best to use decision trees to get the results I want - after all, my job doesn't involve reinventing the tree, only growing them. Additionally, decision trees are some of the most easily-visualised machine learning techniques, providing high interpretability, yet often content is primarily textual, with minimal, if any, graphics.
+
+Based on these two factors, I've decided to do an exploration of how different decision tree hyperparameters affect both the performance of the tree (measured by factors such as MAE, RMSE, and R²) and visually how it looks (to see factors such as depth, node/leaf counts, and overall structure).
+
+For the model, I'll use use scikit-learn’s `DecisionTreeRegressor`. Classification decision trees requires similar hyperparameter tuning to regression ones, so I won't discuss them separately. For the hyperparameters, I'll look at `max_depth`, `ccp_alpha`, `min_samples_split`, `min_samples_leaf`, and `max_leaf_nodes`. For the data, I'll use use the California housing dataset, available through scikit-learn.
 
 The code for this little project is available in my GitHub here: [https://github.com/jamesdeluk/data-projects/tree/main/visualising-trees](https://github.com/jamesdeluk/data-projects/tree/main/visualising-trees)
 
-I’m not going to talk about *how* the splits are done mathematically (i.e. how they minimise MAE/MSE for regression models, or how they calculate Gini impurity or entropy for classification models); this is more from the use-case perspective, understanding the impact of different hyperparameters on getting the result you want.
+## The data
 
-## Setting up
-
-I’m going to use scikit-learn’s `DecisionTreeRegressor`. From the hyperparameter persepctive, classification decision trees work similarly to regression ones, so I won't discuss them separately.
-
-I’m going to use the California housing dataset, available through scikit-learn. It looks something like this:
+This is the data:
 
 | MedInc | HouseAge | AveRooms | AveBedrms | Population | AveOccup | Latitude | Longitude | MedHouseVal |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,7 +41,7 @@ I’ll use `train_test_split` to create training and testing data, which I'll us
 
 ### Shallow
 
-I’ll start with a small tree, with `max_depth` of 3.  I’ll use `timeit` to record how long it takes to fit and predict. To get a more accurate timing, I took the mean of 10 fit-and-predicts.
+I’ll start with a small tree, with `max_depth` of 3.  I’ll use `timeit` to record how long it takes to fit and predict. Of course, this is based on my machine; the objective is to give an idea of relative, not absolute, times. To get a more accurate timing, I took the mean of 10 fit-and-predicts.
 
 It took 0.024s to fit, 0.0002 to predict, and resulted in a mean absolute error (MAE) of 0.6, a mean absolute percentage error (MAPE) of 0.38 (i.e. 38%), a mean squared error (MSE) of 0.65, a root mean squared error (RMSE) of 0.80, and an R² of 0.50. Note that for R², unlike the previous error stats, the higher the better. For my chosen block, it predicted 1.183, vs 0.894 actual. Overall, not great.
 
@@ -125,7 +127,7 @@ We can see the deep trees (green boxes) typically have lower errors (smaller y-a
 
 Histograms can also be interesting. Again for the MAEs:
 
-![histographs of errors for trees](/images/posts/data-and-analytics/visualising-decision-trees/vdt5.png)
+![histograms of errors for trees](/images/posts/data-and-analytics/visualising-decision-trees/vdt5.png)
 
 The green (deep) has lower errors, but the blue (shallow) has a narrower band. Interestingly, the pruned tree results are less normal than the other two - although this is not typical behaviour.
 
@@ -231,7 +233,7 @@ Finally, what’s the “perfect” tree for this data? Sure, it’s possible to
 
 The hyperparameters it found: `{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 100, 'max_features': 0.9193546958301854, 'min_samples_leaf': 15, 'min_samples_split': 24}`.
 
-The tree was depth 20, with 798 leaves and 1595 nodes, so significantly less than the fully deep tree. This clearly demonstrates how increasing `min_samples_` can help; while the numbers of leaves and nodes are similar to the depth 10 tree, having “larger” leaves with a deeper tree has improved the results.
+The tree was depth 20, with 798 leaves and 1595 nodes, so significantly less than the fully deep tree. This clearly demonstrates how increasing `min_samples_` can help; while the numbers of leaves and nodes are similar to the depth 10 tree, having “larger” leaves with a deeper tree has improved the results. I haven't talked about `max_features` so far, but it's as it sounds - how many features to consider at each split. Given this data has 8 features, and ~0.9 ✕ 8 = ~7.2, at each split 7 of the 8 features will be considered to find the best score.
 
 For my single block it predicted 0.81632, so pretty close to the true value.
 
@@ -250,5 +252,15 @@ Adding these to the box plots:
 ![box plots of all errors inc bayessearch](/images/posts/data-and-analytics/visualising-decision-trees/vdt10.png)
 
 Lower errors, lower variances, and higher R². Excellent.
+
+## Conclusion
+
+Visualising a tree makes seeing the how it functions clear - you could manually pick a row, follow the flow, and get your result. This is, of course, much easier with a shallow tree with few leaves. However, as we saw, it didn't perform well - after all, 16,000 training rows were regressed into only 8 values, and then these were used to predict 4,000 test rows.
+
+The tens of thousands of nodes in a deep tree performed better and, although it would be far harder to manually follow the flow, it's still possible. Yet this led to overfitting - which isn't necessarily surprising, as the number of leaves almost matched the number of rows of data, and the ratio of values to training rows was ~1:4 (compared with ~1:2000 for the shallow tree).
+
+Pruning can help reduce overfitting and improve performances, and decrease prediction time (counteracted by the much longer fitting time), although adjusting other factors such as the number of samples to split on, the number of samples per leaf, and the maximum number of leaves, typically does a far superior job. The real-life tree analogy is strong - it's more effective and efficient to care for a tree as it grows, ensuring it branches out in the optimal way, rather than let it grow wild for years then try and prune it back.
+
+Balancing all these hyperparameters manually is a challenge, but fortunately, one thing computers do well is run a lot of computations quickly, so it's wise to use searching algorithms such as BayesSearchCV to get the optimum hyperparameters. So why not just forget everything above and do a grid search, testing every possible combination? Well, running millions of computations still takes, especially with large datasets, so being able to narrow the hyperparameter windows can speed things up significantly.
 
 Next, random forests!
