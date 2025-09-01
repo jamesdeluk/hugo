@@ -1,8 +1,8 @@
 ---
-title: Bookmarkletss
+title: Bookmarklets
 menu:
     sidebar:
-        name: Bookmarkletss
+        name: Bookmarklets
         identifier: bookmarklets
         parent: scripts
 ---
