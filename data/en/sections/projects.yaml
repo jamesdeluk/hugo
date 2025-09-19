@@ -50,11 +50,17 @@ projects:
   summary: A hardware device to measure my myopia (a.k.a shortsightedness).
   tags: ["hardware", "health"]
 
-- name: Tweet natural language processing
-  logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
-  url: /disaster-tweets-nlp
-  summary: Determining if a tweet refers to a real disaster or not through text analysis and natural language processing (NLP).
-  tags: ["data", "natural language processing", "social media"]
+- name: UK house prices map
+  logo: /images/posts/data-and-analytics/uk-house-prices-map/uklpm-screenshot.png
+  url: /uk-house-prices-map/
+  summary: An interactive map to see how UK property price have changed over time.
+  tags: ["data", "visualisation"]
+
+# - name: Tweet natural language processing
+#   logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
+#   url: /disaster-tweets-nlp
+#   summary: Determining if a tweet refers to a real disaster or not through text analysis and natural language processing (NLP).
+#   tags: ["data", "natural language processing", "social media"]
 
 # - name: DiscussAnyPage
 #   logo: /images/posts/projects/dap.png
