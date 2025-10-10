@@ -20,11 +20,11 @@ section:
 
 projects:
 
-- name: Price modelling for used cars
-  logo: /images/posts/data-and-analytics/st/st-st_16_0.png
-  url: /how-much-for-my-car
-  summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
-  tags: ["data", "regressions", "pricing"]
+# - name: Price modelling for used cars
+#   logo: /images/posts/data-and-analytics/st/st-st_16_0.png
+#   url: /how-much-for-my-car
+#   summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
+#   tags: ["data", "regressions", "pricing"]
 
 - name: Customer and purchase analytics
   logo: /images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png
@@ -55,6 +55,12 @@ projects:
   url: /uk-house-prices-map/
   summary: An interactive map to see how UK property price have changed over time.
   tags: ["data", "visualisation"]
+
+- name: Word-for-word translator
+  logo: /images/posts/projects/wfwtranslator.png
+  url: /wfw-translator/
+  summary: An web app that provides word-for-word translations alongside the full translation.
+  tags: ["language", "web"]
 
 # - name: Tweet natural language processing
 #   logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
