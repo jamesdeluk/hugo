@@ -7,7 +7,7 @@ aliases:
 - /posts/achievements/
 ---
 
-138 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, product management, finance, and more. Warning: this page has a lot of images so may take a while to load.
+139 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, product management, finance, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -147,6 +147,8 @@ aliases:
 ## Product Management
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fc915ec2-1090-469e-9c50-3bafa4b7527d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b3b8a017-bcfb-49da-a61f-8983adc7a704" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <a href="/images/posts/cognition-and-learning/certs/certificate-of-completion-for-product-strategy-microcertification.jpg" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/certificate-of-completion-for-product-strategy-microcertification.jpg" alt="Product School Product Strategy certificate"></a>
 
