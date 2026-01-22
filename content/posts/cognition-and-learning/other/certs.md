@@ -1,13 +1,13 @@
 ---
 title: "Achievements and Certifications"
-date: 2025-08-20
+date: 2026-01-22
 tags: ['Certifications','Achievements','Courses','CPD','Finance','Data Science','Maths']
 hero: /images/posts/cognition-and-learning/certs/a-wall-of-certifications.jpg
 aliases: 
 - /posts/achievements/
 ---
 
-137 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, and more. Warning: this page has a lot of images so may take a while to load.
+138 <!-- don't forget to update data/sections/accomplishments --> and counting! Covering data science, cyber security, IT, product management, finance, and more. Warning: this page has a lot of images so may take a while to load.
 
 ## Consulting
 
@@ -145,6 +145,8 @@ aliases:
 <a href="https://learn.365financialanalyst.com/c/8cdf70934a/" target="_blank"><img class="cert cert-img-quarter" src="/images/posts/cognition-and-learning/certs/365f-wdwif.jpg" alt="365 Finance What Does What In Finance"></a>
 
 ## Product Management
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fc915ec2-1090-469e-9c50-3bafa4b7527d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <a href="/images/posts/cognition-and-learning/certs/certificate-of-completion-for-product-strategy-microcertification.jpg" target="_blank"><img class="cert cert-img-half" src="/images/posts/cognition-and-learning/certs/certificate-of-completion-for-product-strategy-microcertification.jpg" alt="Product School Product Strategy certificate"></a>
 
