@@ -1,6 +1,10 @@
 .top-navbar.transparent-navbar {
   // background-color: rgba(100, 130, 100, 0.6) !important;
-  background-color: #ffffff75 !important;
+  // background-color: #ffffff75 !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
+}
+.top-navbar.transparent-navbar li a, .top-navbar.transparent-navbar .navbar-brand {
+  color: #273444;
 }
 
 .home {
@@ -88,10 +92,10 @@ html[data-theme="dark"] .home img {
 .homepage-about-right {
   display: block;
   justify-content: center;
-  padding: 2rem 0 !important;
+  padding: 1rem 0 !important;
 }
 .me-photo {
-  max-width: 100%;
+  max-width: 66%;
 }
 @media screen and (max-width: 576px) {
   .homepage-about-right {
@@ -138,9 +142,6 @@ html[data-theme="dark"] .home img {
 }
 #about > div {
   padding: 0 !important;
-}
-.projects-section h1 {
-  padding-bottom: 1rem;
 }
 #projects, #accomplishments, #recent-posts, #featured-posts {
   margin: 0 !important;

@@ -2,7 +2,7 @@ section:
   name: Skills
   id: skills
   enable: false
-  weight: 5
+  weight: 6
   showOnNavbar: true
   filter: true
   # hideTitle: true

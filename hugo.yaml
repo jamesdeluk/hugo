@@ -1,6 +1,6 @@
 baseURL: https://www.jamesgibbins.com/
 
-languageCode: en
+locale: en
 title: "James's Peredutions"
 
 # Use Hugo modules to add theme
@@ -25,8 +25,8 @@ permalinks:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
-    languageName: English
+    locale: en
+    label: English
     title: "James's Peredutions"
     weight: 1
 # default language for the content
