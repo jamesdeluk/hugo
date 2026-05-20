@@ -2,7 +2,7 @@ section:
   name: Selected Projects
   id: projects
   enable: true
-  weight: 4
+  weight: 2
   showOnNavbar: true
   # hideTitle: true
 
@@ -26,6 +26,12 @@ projects:
 #   summary: Using multivariable regression, such as XGBoost and Random Forest, and feature engineering, to determine optimum selling price, resulting in accelerating the sale from months to weeks.
 #   tags: ["data", "regressions", "pricing"]
 
+- name: Fraud detection console
+  logo: /images/posts/data-and-analytics/ieee-fraud-detection-console/dash-sankey.png
+  url: /ieee-fraud-detection-console
+  summary: A frontend demonstrating two fraud detection models and their relative performance, with live inference for custom transactions.
+  tags: ["data", "classification", "finance"]
+
 - name: Customer and purchase analytics
   logo: /images/posts/data-and-analytics/customer-analysis-i/ca1-image-5.png
   url: /customer-analysis-part-i
@@ -38,18 +44,6 @@ projects:
   summary: Using SARIMA, TensorFlow LSTM, and Prophet to forecast solar generation in Belgium based on historic data from a transmission system operator.
   tags: ["data", "time series", "energy"]
 
-- name: Eyesight measuring Android app
-  logo: /images/posts/projects/myopia-measurer-logo.png
-  url: /myopia-measurer-android-app
-  summary: An app to measure your myopia (a.k.a shortsightedness). Download it today!
-  tags: ["hardware", "health"]
-
-- name: Eyesight measuring Arduino device
-  logo: /images/old/mm-angle.jpg
-  url: /arduino-myopia-measurer/
-  summary: A hardware device to measure my myopia (a.k.a shortsightedness).
-  tags: ["hardware", "health"]
-
 - name: UK house prices map
   logo: /images/posts/data-and-analytics/uk-house-prices-map/uklpm-screenshot.png
   url: /uk-house-prices-map/
@@ -61,6 +55,18 @@ projects:
   url: /wfw-translator/
   summary: An web app that provides word-for-word translations alongside the full translation.
   tags: ["language", "web"]
+
+- name: Eyesight measuring Android app
+  logo: /images/posts/projects/myopia-measurer-logo.png
+  url: /myopia-measurer-android-app
+  summary: An app to measure your myopia (a.k.a shortsightedness). Download it today!
+  tags: ["hardware", "health"]
+
+# - name: Eyesight measuring Arduino device
+#   logo: /images/old/mm-angle.jpg
+#   url: /arduino-myopia-measurer/
+#   summary: A hardware device to measure my myopia (a.k.a shortsightedness).
+#   tags: ["hardware", "health"]
 
 # - name: Tweet natural language processing
 #   logo: /images/posts/data-and-analytics/disaster-tweets-nlp/dtnlp.png
