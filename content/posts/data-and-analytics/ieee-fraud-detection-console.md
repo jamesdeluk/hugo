@@ -3,6 +3,8 @@ title: "Fraud Detection Console using IEEE Dataset"
 date: 2026-05-16
 tags: ["Data Analysis", "Data Visualisation", "Machine Learning"]
 hero: /images/posts/data-and-analytics/ieee-fraud-detection-console/dash-sankey.png
+aliases:
+- /ieee/
 ---
 
 ## Introduction

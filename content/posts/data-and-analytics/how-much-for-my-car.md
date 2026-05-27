@@ -4,6 +4,8 @@ date: 2024-10-16
 tags: ["Data Science", "Data Analysis", "Regression", "Python", "Cars"]
 hero: /images/posts/data-and-analytics/st/st-angle.jpeg
 aliases:
+- /csppa/
+- /hmfmc/
 - /posts/how-much-for-my-car/
 - /posts/data-science/how-much-for-my-car/
 ---
